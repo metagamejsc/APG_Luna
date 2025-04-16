@@ -25,7 +25,7 @@ public class DropZone : MonoBehaviour
         NextStep();
         CheckDone();
         Upgrade();
-        GameController.instance.CheckStep();
+        LunaManager.ins.CountPlay();
     }
     void Upgrade()
     {

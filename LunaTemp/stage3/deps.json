@@ -1,5 +1,13 @@
 {
   "ignores": [
+    "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs",
+    "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs",
+    "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs",
+    "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs",
+    "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs",
+    "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs",
+    "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs",
+    "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs",
     "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/ISkeletonAnimation.cs",
     "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AtlasUtilities.cs",
     "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AttachmentCloneExtensions.cs",
@@ -11,11 +19,52 @@
     [
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DraggableItem.cs",
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DropZone.cs",
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/LunaManager.cs",
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/GameController.cs"
     ],
     [
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/EventSystem/EventManager.cs",
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/EventSystem/GameEvent.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs",
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTweenPro/DOTweenAnimation.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeAudio.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTweenPro/DOTweenDeUnityExtended.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTweenPro/DOTweenProShortcuts.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTweenPro/DOTweenTk2d.cs"
     ],
     [
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/AnimationReferenceAsset.cs",

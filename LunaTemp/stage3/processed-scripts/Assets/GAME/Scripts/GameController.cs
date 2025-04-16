@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    public int numStep = 0;
+    //public int numStep = 0;
     public Collider2D[] colliders;
     public bool isUpgrade = false;
     public static event System.Action OnUpgradePhase2;
@@ -18,10 +18,10 @@ public class GameController : MonoBehaviour
     {
         InitFirst();
     }
-    public void CheckStep()
-    {
-        numStep++;
-    }
+    // public void CheckStep()
+    // {
+    //     numStep++;
+    // }
 
     void InitFirst()
     {

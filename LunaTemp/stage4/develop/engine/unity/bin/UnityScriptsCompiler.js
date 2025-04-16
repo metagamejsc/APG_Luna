@@ -1,11 +1,4521 @@
-if ( TRACE ) { TRACE( JSON.parse( '["DraggableItem#init","DraggableItem#Awake","DraggableItem#OnBeginDrag","DraggableItem#OnDrag","DraggableItem#OnEndDrag","DropZone#init","DropZone#Awake","DropZone#DragMoney","DropZone#Upgrade","DropZone#NextStep","DropZone#CheckDone","DropZone#OnEnable","DropZone#OnDisable","DropZone#EventUpgrade","GameController#init","GameController#Awake","GameController#Start","GameController#CheckStep","GameController#InitFirst","GameController#EnableUpgrade","Spine.BoneMatrix#CalculateSetupWorld","Spine.BoneMatrix#GetInheritedInternal","Spine.BoneMatrix#getDefaultValue","Spine.BoneMatrix#$ctor2","Spine.BoneMatrix#$ctor1","Spine.BoneMatrix#ctor","Spine.BoneMatrix#TransformMatrix","Spine.BoneMatrix#getHashCode","Spine.BoneMatrix#equals","Spine.BoneMatrix#$clone","Spine.SpineSkeletonExtensions#IsWeighted","Spine.SpineSkeletonExtensions#InheritsRotation","Spine.SpineSkeletonExtensions#InheritsScale","Spine.Unity.ActivateBasedOnFlipDirection#init","Spine.Unity.ActivateBasedOnFlipDirection#Start","Spine.Unity.ActivateBasedOnFlipDirection#FixedUpdate","Spine.Unity.ActivateBasedOnFlipDirection#HandleFlip","Spine.Unity.ActivateBasedOnFlipDirection#ResetJointPositions","Spine.Unity.ActivateBasedOnFlipDirection#CompensateMovementAfterFlipX","Spine.Unity.AnimationTools.TimelineExtensions#Evaluate$1","Spine.Unity.AnimationTools.TimelineExtensions#Evaluate$2","Spine.Unity.AnimationTools.TimelineExtensions#Evaluate","Spine.Unity.AnimationTools.TimelineExtensions#EvaluateTranslateXYMix","Spine.Unity.AnimationTools.TimelineExtensions#EvaluateRotateMix","Spine.Unity.AnimationTools.TimelineExtensions#FindTranslateTimelineForBone","Spine.Unity.AnimationTools.TimelineExtensions#FindTimelineForBone","Spine.Unity.AnimationTools.TimelineExtensions#FindTransformConstraintTimeline","Spine.Unity.AtlasAssetBase#TextureLoadingMode#get","Spine.Unity.AtlasAssetBase#TextureLoadingMode#set","Spine.Unity.AtlasAssetBase#OnDemandTextureLoader#get","Spine.Unity.AtlasAssetBase#OnDemandTextureLoader#set","Spine.Unity.AtlasAssetBase#init","Spine.Unity.AtlasAssetBase#BeginCustomTextureLoading","Spine.Unity.AtlasAssetBase#EndCustomTextureLoading","Spine.Unity.AtlasAssetBase#RequireTexturesLoaded","Spine.Unity.AtlasAssetBase#RequireTextureLoaded","Spine.Unity.AttachmentTools.AtlasUtilities#init","Spine.Unity.AttachmentTools.AtlasUtilities#Init","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$2","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$3","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$1","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$4","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone$2","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone$3","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone$1","Spine.Unity.AttachmentTools.AtlasUtilities#ToSpineAtlasPage","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedAttachments","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedAttachments$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedSkin","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedSkin$1","Spine.Unity.AttachmentTools.AtlasUtilities#ToSprite","Spine.Unity.AttachmentTools.AtlasUtilities#ClearCache","Spine.Unity.AttachmentTools.AtlasUtilities#ToTexture","Spine.Unity.AttachmentTools.AtlasUtilities#ToTexture$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetClone","Spine.Unity.AttachmentTools.AtlasUtilities#CopyTexture","Spine.Unity.AttachmentTools.AtlasUtilities#CopyTextureApplyPMA","Spine.Unity.AttachmentTools.AtlasUtilities#IsRenderable","Spine.Unity.AttachmentTools.AtlasUtilities#SpineUnityFlipRect","Spine.Unity.AttachmentTools.AtlasUtilities#GetUnityRect","Spine.Unity.AttachmentTools.AtlasUtilities#GetUnityRect$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetSpineAtlasRect","Spine.Unity.AttachmentTools.AtlasUtilities#UVRectToTextureRect","Spine.Unity.AttachmentTools.AtlasUtilities#TextureRectToUVRect","Spine.Unity.AttachmentTools.AtlasUtilities#UVRectToAtlasRegion","Spine.Unity.AttachmentTools.AtlasUtilities#GetMainTexture","Spine.Unity.AttachmentTools.AtlasUtilities#GetTexture$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetTexture","Spine.Unity.AttachmentTools.AtlasUtilities#CopyTextureAttributesFrom","Spine.Unity.AttachmentTools.AtlasUtilities#InverseLerp","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#getDefaultValue","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#$ctor1","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#ctor","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#getHashCode","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#equals","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#$clone","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetRemappedClone$1","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetRemappedClone","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachment$2","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachment$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachment","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachmentPMAClone$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachmentPMAClone","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetScale$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetScale","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetPositionOffset$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetPositionOffset","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetRotation","Spine.Unity.BlendModeMaterials#RequiresBlendModeMaterials#get","Spine.Unity.BlendModeMaterials#RequiresBlendModeMaterials#set","Spine.Unity.BlendModeMaterials#init","Spine.Unity.BlendModeMaterials#BlendModeForMaterial","Spine.Unity.BlendModeMaterials#ApplyMaterials","Spine.Unity.BlendModeMaterials#CloneAtlasRegionWithMaterial","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#init","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#CloneAtlasRegionWithMaterial","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#GetAtlasPageWithMaterial","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#Dispose","Spine.Unity.BoneFollower#SkeletonRenderer#get","Spine.Unity.BoneFollower#SkeletonRenderer#set","Spine.Unity.BoneFollower#init","Spine.Unity.BoneFollower#SetBone","Spine.Unity.BoneFollower#Awake","Spine.Unity.BoneFollower#HandleRebuildRenderer","Spine.Unity.BoneFollower#Initialize","Spine.Unity.BoneFollower#OnDestroy","Spine.Unity.BoneFollower#LateUpdate","Spine.Unity.BoneFollowerGraphic#SkeletonGraphic#get","Spine.Unity.BoneFollowerGraphic#SkeletonGraphic#set","Spine.Unity.BoneFollowerGraphic#init","Spine.Unity.BoneFollowerGraphic#SetBone","Spine.Unity.BoneFollowerGraphic#Awake","Spine.Unity.BoneFollowerGraphic#Initialize","Spine.Unity.BoneFollowerGraphic#LateUpdate","Spine.Unity.BoundingBoxFollower#init","Spine.Unity.BoundingBoxFollower#Slot#get","Spine.Unity.BoundingBoxFollower#CurrentAttachment#get","Spine.Unity.BoundingBoxFollower#CurrentAttachmentName#get","Spine.Unity.BoundingBoxFollower#CurrentCollider#get","Spine.Unity.BoundingBoxFollower#IsTrigger#get","Spine.Unity.BoundingBoxFollower#init","Spine.Unity.BoundingBoxFollower#Start","Spine.Unity.BoundingBoxFollower#OnEnable","Spine.Unity.BoundingBoxFollower#HandleRebuild","Spine.Unity.BoundingBoxFollower#Initialize","Spine.Unity.BoundingBoxFollower#AddCollidersForSkin","Spine.Unity.BoundingBoxFollower#OnDisable","Spine.Unity.BoundingBoxFollower#ClearState","Spine.Unity.BoundingBoxFollower#DisposeExcessCollidersAfter","Spine.Unity.BoundingBoxFollower#LateUpdate","Spine.Unity.BoundingBoxFollower#MatchAttachment","Spine.Unity.BoundingBoxFollowerGraphic#init","Spine.Unity.BoundingBoxFollowerGraphic#Slot#get","Spine.Unity.BoundingBoxFollowerGraphic#CurrentAttachment#get","Spine.Unity.BoundingBoxFollowerGraphic#CurrentAttachmentName#get","Spine.Unity.BoundingBoxFollowerGraphic#CurrentCollider#get","Spine.Unity.BoundingBoxFollowerGraphic#IsTrigger#get","Spine.Unity.BoundingBoxFollowerGraphic#init","Spine.Unity.BoundingBoxFollowerGraphic#Start","Spine.Unity.BoundingBoxFollowerGraphic#OnEnable","Spine.Unity.BoundingBoxFollowerGraphic#HandleRebuild","Spine.Unity.BoundingBoxFollowerGraphic#Initialize","Spine.Unity.BoundingBoxFollowerGraphic#AddCollidersForSkin","Spine.Unity.BoundingBoxFollowerGraphic#OnDisable","Spine.Unity.BoundingBoxFollowerGraphic#ClearState","Spine.Unity.BoundingBoxFollowerGraphic#DisposeExcessCollidersAfter","Spine.Unity.BoundingBoxFollowerGraphic#LateUpdate","Spine.Unity.BoundingBoxFollowerGraphic#MatchAttachment","Spine.Unity.DoubleBuffered$1#init","Spine.Unity.DoubleBuffered$1#GetCurrent","Spine.Unity.DoubleBuffered$1#GetNext","Spine.Unity.EventDataReferenceAsset#init","Spine.Unity.EventDataReferenceAsset#op_Implicit","Spine.Unity.EventDataReferenceAsset#EventData#get","Spine.Unity.EventDataReferenceAsset#Initialize","Spine.Unity.ISpineComponentExtensions#IsNullOrDestroyed","Spine.Unity.MaterialsTextureLoader#ctor","Spine.Unity.MaterialsTextureLoader#Load","Spine.Unity.MaterialsTextureLoader#Unload","Spine.Unity.MeshGenerator#init","Spine.Unity.MeshGenerator#GenerateSingleSubmeshInstruction","Spine.Unity.MeshGenerator#RequiresMultipleSubmeshesByDrawOrder","Spine.Unity.MeshGenerator#GenerateSkeletonRendererInstruction","Spine.Unity.MeshGenerator#TryReplaceMaterials","Spine.Unity.MeshGenerator#SolveTangents2DEnsureSize","Spine.Unity.MeshGenerator#SolveTangents2DTriangles","Spine.Unity.MeshGenerator#SolveTangents2DBuffer","Spine.Unity.MeshGenerator#FillMeshLocal$1","Spine.Unity.MeshGenerator#FillMeshLocal","Spine.Unity.MeshGenerator#VertexCount#get","Spine.Unity.MeshGenerator#Buffers#get","Spine.Unity.MeshGenerator#init","Spine.Unity.MeshGenerator#ctor","Spine.Unity.MeshGenerator#SubmeshIndexCount","Spine.Unity.MeshGenerator#Begin","Spine.Unity.MeshGenerator#AddSubmesh","Spine.Unity.MeshGenerator#BuildMesh","Spine.Unity.MeshGenerator#BuildMeshWithArrays","Spine.Unity.MeshGenerator#ScaleVertexData","Spine.Unity.MeshGenerator#GetMeshBounds","Spine.Unity.MeshGenerator#AddAttachmentTintBlack","Spine.Unity.MeshGenerator#FillVertexData","Spine.Unity.MeshGenerator#FillLateVertexData","Spine.Unity.MeshGenerator#FillTriangles","Spine.Unity.MeshGenerator#EnsureVertexCapacity","Spine.Unity.MeshGenerator#TrimExcess","Spine.Unity.MeshGenerator.Settings#Default#get","Spine.Unity.MeshGenerator.Settings#getDefaultValue","Spine.Unity.MeshGenerator.Settings#ctor","Spine.Unity.MeshGenerator.Settings#getHashCode","Spine.Unity.MeshGenerator.Settings#equals","Spine.Unity.MeshGenerator.Settings#$clone","Spine.Unity.MeshGeneratorBuffers#getDefaultValue","Spine.Unity.MeshGeneratorBuffers#ctor","Spine.Unity.MeshGeneratorBuffers#getHashCode","Spine.Unity.MeshGeneratorBuffers#equals","Spine.Unity.MeshGeneratorBuffers#$clone","Spine.Unity.MeshRendererBuffers#init","Spine.Unity.MeshRendererBuffers#Initialize","Spine.Unity.MeshRendererBuffers#GetUpdatedSharedMaterialsArray","Spine.Unity.MeshRendererBuffers#MaterialsChangedInLastUpdate","Spine.Unity.MeshRendererBuffers#UpdateSharedMaterials","Spine.Unity.MeshRendererBuffers#GetNextMesh","Spine.Unity.MeshRendererBuffers#Clear","Spine.Unity.MeshRendererBuffers#Dispose","Spine.Unity.MeshRendererBuffers.SmartMesh#init","Spine.Unity.MeshRendererBuffers.SmartMesh#Clear","Spine.Unity.MeshRendererBuffers.SmartMesh#Dispose","Spine.Unity.NoOpTextureLoader#Load","Spine.Unity.NoOpTextureLoader#Unload","Spine.Unity.OnDemandTextureLoader#addTextureRequested","Spine.Unity.OnDemandTextureLoader#removeTextureRequested","Spine.Unity.OnDemandTextureLoader#addTextureLoaded","Spine.Unity.OnDemandTextureLoader#removeTextureLoaded","Spine.Unity.OnDemandTextureLoader#addTextureUnloaded","Spine.Unity.OnDemandTextureLoader#removeTextureUnloaded","Spine.Unity.OnDemandTextureLoader#HasNullMainTexturesAssigned","Spine.Unity.OnDemandTextureLoader#OnTextureRequested","Spine.Unity.OnDemandTextureLoader#OnTextureLoaded","Spine.Unity.OnDemandTextureLoader#OnTextureUnloaded","Spine.Unity.RegionlessAttachmentLoader#EmptyRegion#get","Spine.Unity.RegionlessAttachmentLoader#NewRegionAttachment","Spine.Unity.RegionlessAttachmentLoader#NewMeshAttachment","Spine.Unity.RegionlessAttachmentLoader#NewBoundingBoxAttachment","Spine.Unity.RegionlessAttachmentLoader#NewPathAttachment","Spine.Unity.RegionlessAttachmentLoader#NewPointAttachment","Spine.Unity.RegionlessAttachmentLoader#NewClippingAttachment","Spine.Unity.SkeletonDataAsset#CreateRuntimeInstance","Spine.Unity.SkeletonDataAsset#CreateRuntimeInstance$1","Spine.Unity.SkeletonDataAsset#ReadSkeletonData","Spine.Unity.SkeletonDataAsset#ReadSkeletonData$1","Spine.Unity.SkeletonDataAsset#IsLoaded#get","Spine.Unity.SkeletonDataAsset#init","Spine.Unity.SkeletonDataAsset#Reset","Spine.Unity.SkeletonDataAsset#Clear","Spine.Unity.SkeletonDataAsset#GetAnimationStateData","Spine.Unity.SkeletonDataAsset#GetSkeletonData","Spine.Unity.SkeletonDataAsset#InitializeWithData","Spine.Unity.SkeletonDataAsset#FillStateData","Spine.Unity.SkeletonDataAsset#GetAtlasArray","Spine.Unity.SkeletonDataCompatibility.CompatibilityProblemInfo#DescriptionString","Spine.Unity.SkeletonExtensions#init","Spine.Unity.SkeletonExtensions#GetColor$2","Spine.Unity.SkeletonExtensions#GetColor$1","Spine.Unity.SkeletonExtensions#GetColor","Spine.Unity.SkeletonExtensions#GetColor$3","Spine.Unity.SkeletonExtensions#GetColorTintBlack","Spine.Unity.SkeletonExtensions#SetColor$4","Spine.Unity.SkeletonExtensions#SetColor$5","Spine.Unity.SkeletonExtensions#SetColor$6","Spine.Unity.SkeletonExtensions#SetColor$7","Spine.Unity.SkeletonExtensions#SetColor$2","Spine.Unity.SkeletonExtensions#SetColor$3","Spine.Unity.SkeletonExtensions#SetColor","Spine.Unity.SkeletonExtensions#SetColor$1","Spine.Unity.SkeletonExtensions#SetLocalScale","Spine.Unity.SkeletonExtensions#GetMatrix4x4","Spine.Unity.SkeletonExtensions#SetLocalPosition","Spine.Unity.SkeletonExtensions#SetLocalPosition$1","Spine.Unity.SkeletonExtensions#GetLocalPosition","Spine.Unity.SkeletonExtensions#GetSkeletonSpacePosition","Spine.Unity.SkeletonExtensions#GetSkeletonSpacePosition$1","Spine.Unity.SkeletonExtensions#GetWorldPosition","Spine.Unity.SkeletonExtensions#GetWorldPosition$1","Spine.Unity.SkeletonExtensions#GetWorldPosition$3","Spine.Unity.SkeletonExtensions#GetWorldPosition$2","Spine.Unity.SkeletonExtensions#GetQuaternion","Spine.Unity.SkeletonExtensions#GetLocalQuaternion","Spine.Unity.SkeletonExtensions#GetLocalScale","Spine.Unity.SkeletonExtensions#GetWorldToLocalMatrix","Spine.Unity.SkeletonExtensions#WorldToLocal","Spine.Unity.SkeletonExtensions#SetPositionSkeletonSpace","Spine.Unity.SkeletonExtensions#GetMaterial","Spine.Unity.SkeletonExtensions#GetLocalVertices","Spine.Unity.SkeletonExtensions#GetWorldVertices","Spine.Unity.SkeletonGraphicCustomMaterials#init","Spine.Unity.SkeletonGraphicCustomMaterials#SetCustomMaterialOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#RemoveCustomMaterialOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#SetCustomTextureOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#RemoveCustomTextureOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#OnEnable","Spine.Unity.SkeletonGraphicCustomMaterials#OnDisable","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#inherits","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#getDefaultValue","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#ctor","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#equalsT","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#getHashCode","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#$clone","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#inherits","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#getDefaultValue","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#ctor","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#equalsT","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#getHashCode","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#$clone","Spine.Unity.SkeletonMecanim.MecanimTranslator#init","Spine.Unity.SkeletonMecanim.MecanimTranslator#AnimationTime","Spine.Unity.SkeletonMecanim.MecanimTranslator#ToSpineAnimationTime","Spine.Unity.SkeletonMecanim.MecanimTranslator#Animator#get","Spine.Unity.SkeletonMecanim.MecanimTranslator#MecanimLayerCount#get","Spine.Unity.SkeletonMecanim.MecanimTranslator#MecanimLayerNames#get","Spine.Unity.SkeletonMecanim.MecanimTranslator#init","Spine.Unity.SkeletonMecanim.MecanimTranslator#addOnClipApplied","Spine.Unity.SkeletonMecanim.MecanimTranslator#removeOnClipApplied","Spine.Unity.SkeletonMecanim.MecanimTranslator#Initialize","Spine.Unity.SkeletonMecanim.MecanimTranslator#ApplyAnimation","Spine.Unity.SkeletonMecanim.MecanimTranslator#ApplyInterruptionAnimation","Spine.Unity.SkeletonMecanim.MecanimTranslator#OnClipAppliedCallback","Spine.Unity.SkeletonMecanim.MecanimTranslator#Apply","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetActiveAnimationAndTime","Spine.Unity.SkeletonMecanim.MecanimTranslator#InitClipInfosForLayers","Spine.Unity.SkeletonMecanim.MecanimTranslator#ClearClipInfosForLayers","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetMixMode","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetStateUpdatesFromAnimator","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetAnimatorClipInfos","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetAnimatorStateInfos","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetAnimation","Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer#init","Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer#equals2","Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer#getHashCode2","Spine.Unity.SkeletonMecanim.MecanimTranslator.ClipInfos#init","Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer#init","Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer#equals2","Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer#getHashCode2","Spine.Unity.SkeletonRootMotionBase#RootMotionBone#get","Spine.Unity.SkeletonRootMotionBase#UsesRigidbody#get","Spine.Unity.SkeletonRootMotionBase#PreviousRigidbodyRootMotion2D#get","Spine.Unity.SkeletonRootMotionBase#PreviousRigidbodyRootMotion3D#get","Spine.Unity.SkeletonRootMotionBase#AdditionalRigidbody2DMovement#get","Spine.Unity.SkeletonRootMotionBase#AdditionalRigidbody2DMovement#set","Spine.Unity.SkeletonRootMotionBase#SkeletonAnimationUsesFixedUpdate#get","Spine.Unity.SkeletonRootMotionBase#AdditionalScale#get","Spine.Unity.SkeletonRootMotionBase#TargetSkeletonComponent#get","Spine.Unity.SkeletonRootMotionBase#TargetSkeletonAnimationComponent#get","Spine.Unity.SkeletonRootMotionBase#init","Spine.Unity.SkeletonRootMotionBase#Reset","Spine.Unity.SkeletonRootMotionBase#Start","Spine.Unity.SkeletonRootMotionBase#FixedUpdate","Spine.Unity.SkeletonRootMotionBase#PhysicsUpdate","Spine.Unity.SkeletonRootMotionBase#OnDisable","Spine.Unity.SkeletonRootMotionBase#FindRigidbodyComponent","Spine.Unity.SkeletonRootMotionBase#CalculateAnimationsRotationDelta","Spine.Unity.SkeletonRootMotionBase#SetRootMotionBone","Spine.Unity.SkeletonRootMotionBase#AdjustRootMotionToDistance","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotion","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotion$1","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotionRotation","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotionRotation$1","Spine.Unity.SkeletonRootMotionBase#ApplyConstraintToPos","Spine.Unity.SkeletonRootMotionBase#ApplyConstraintToRotation","Spine.Unity.SkeletonRootMotionBase#UpdateLastConstraintPos","Spine.Unity.SkeletonRootMotionBase#UpdateLastConstraintRotation","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotionInfo","Spine.Unity.SkeletonRootMotionBase#GetConstraintLastPosIndex","Spine.Unity.SkeletonRootMotionBase#FindTransformConstraintsAffectingBone","Spine.Unity.SkeletonRootMotionBase#GetTimelineMovementDelta","Spine.Unity.SkeletonRootMotionBase#GatherTopLevelBones","Spine.Unity.SkeletonRootMotionBase#HandleUpdateLocal","Spine.Unity.SkeletonRootMotionBase#ApplyRootMotion","Spine.Unity.SkeletonRootMotionBase#ApplyTransformConstraints","Spine.Unity.SkeletonRootMotionBase#GetScaleAffectingRootMotion","Spine.Unity.SkeletonRootMotionBase#GetScaleAffectingRootMotion$1","Spine.Unity.SkeletonRootMotionBase#GetSkeletonSpaceMovementDelta","Spine.Unity.SkeletonRootMotionBase#GetSkeletonSpaceRotationDelta","Spine.Unity.SkeletonRootMotionBase#SetEffectiveBoneOffsetsTo","Spine.Unity.SkeletonRootMotionBase#ClearEffectiveBoneOffsets","Spine.Unity.SkeletonRootMotionBase#ClearRigidbodyTempMovement","Spine.Unity.SkeletonPartsRenderer#NewPartsRendererGameObject","Spine.Unity.SkeletonPartsRenderer#MeshGenerator#get","Spine.Unity.SkeletonPartsRenderer#MeshRenderer#get","Spine.Unity.SkeletonPartsRenderer#MeshFilter#get","Spine.Unity.SkeletonPartsRenderer#init","Spine.Unity.SkeletonPartsRenderer#LazyIntialize","Spine.Unity.SkeletonPartsRenderer#OnDestroy","Spine.Unity.SkeletonPartsRenderer#ClearMesh","Spine.Unity.SkeletonPartsRenderer#RenderParts","Spine.Unity.SkeletonPartsRenderer#SetPropertyBlock","Spine.Unity.SkeletonRenderer.SpriteMaskInteractionMaterials#AnyMaterialCreated#get","Spine.Unity.SkeletonRenderer.SpriteMaskInteractionMaterials#init","Spine.Unity.SkeletonRendererCustomMaterials#init","Spine.Unity.SkeletonRendererCustomMaterials#SetCustomSlotMaterials","Spine.Unity.SkeletonRendererCustomMaterials#RemoveCustomSlotMaterials","Spine.Unity.SkeletonRendererCustomMaterials#SetCustomMaterialOverrides","Spine.Unity.SkeletonRendererCustomMaterials#RemoveCustomMaterialOverrides","Spine.Unity.SkeletonRendererCustomMaterials#OnEnable","Spine.Unity.SkeletonRendererCustomMaterials#OnDisable","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#inherits","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#getDefaultValue","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#ctor","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#equalsT","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#getHashCode","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#$clone","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#inherits","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#getDefaultValue","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#ctor","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#equalsT","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#getHashCode","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#$clone","Spine.Unity.SkeletonRendererInstruction#GeometryNotEqual","Spine.Unity.SkeletonRendererInstruction#init","Spine.Unity.SkeletonRendererInstruction#Clear","Spine.Unity.SkeletonRendererInstruction#Dispose","Spine.Unity.SkeletonRendererInstruction#SetWithSubset","Spine.Unity.SkeletonRendererInstruction#Set","Spine.Unity.SkeletonRenderSeparator#init","Spine.Unity.SkeletonRenderSeparator#AddToSkeletonRenderer","Spine.Unity.SkeletonRenderSeparator#SkeletonRenderer#get","Spine.Unity.SkeletonRenderSeparator#SkeletonRenderer#set","Spine.Unity.SkeletonRenderSeparator#init","Spine.Unity.SkeletonRenderSeparator#AddPartsRenderer","Spine.Unity.SkeletonRenderSeparator#OnEnable","Spine.Unity.SkeletonRenderSeparator#OnDisable","Spine.Unity.SkeletonRenderSeparator#HandleRender","Spine.Unity.SkeletonRenderSeparator#ClearPartsRendererMeshes","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#getDefaultValue","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#init","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#ctor","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#getHashCode","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#equals","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#$clone","Spine.Unity.SkeletonSubmeshGraphic#SetMaterialDirty","Spine.Unity.SkeletonSubmeshGraphic#SetVerticesDirty","Spine.Unity.SkeletonSubmeshGraphic#OnPopulateMesh","Spine.Unity.SkeletonSubmeshGraphic#OnDisable","Spine.Unity.SkeletonSubmeshGraphic#OnEnable","Spine.Unity.SkeletonUtility#AddBoundingBoxGameObject","Spine.Unity.SkeletonUtility#AddBoundingBoxGameObject$1","Spine.Unity.SkeletonUtility#AddBoundingBoxAsComponent","Spine.Unity.SkeletonUtility#SetColliderPointsLocal","Spine.Unity.SkeletonUtility#GetBoundingBoxBounds","Spine.Unity.SkeletonUtility#AddBoneRigidbody2D","Spine.Unity.SkeletonUtility#SkeletonComponent#get","Spine.Unity.SkeletonUtility#Skeleton#get","Spine.Unity.SkeletonUtility#IsValid#get","Spine.Unity.SkeletonUtility#PositionScale#get","Spine.Unity.SkeletonUtility#init","Spine.Unity.SkeletonUtility#Update","Spine.Unity.SkeletonUtility#ResubscribeEvents","Spine.Unity.SkeletonUtility#OnEnable","Spine.Unity.SkeletonUtility#Start","Spine.Unity.SkeletonUtility#OnDisable","Spine.Unity.SkeletonUtility#HandleRendererReset$1","Spine.Unity.SkeletonUtility#HandleRendererReset","Spine.Unity.SkeletonUtility#RegisterBone","Spine.Unity.SkeletonUtility#UnregisterBone","Spine.Unity.SkeletonUtility#RegisterConstraint","Spine.Unity.SkeletonUtility#UnregisterConstraint","Spine.Unity.SkeletonUtility#CollectBones","Spine.Unity.SkeletonUtility#UpdateLocal","Spine.Unity.SkeletonUtility#UpdateWorld","Spine.Unity.SkeletonUtility#UpdateComplete","Spine.Unity.SkeletonUtility#UpdateAllBones","Spine.Unity.SkeletonUtility#GetBoneRoot","Spine.Unity.SkeletonUtility#SpawnRoot","Spine.Unity.SkeletonUtility#SpawnHierarchy","Spine.Unity.SkeletonUtility#SpawnBoneRecursively","Spine.Unity.SkeletonUtility#SpawnBone","Spine.Unity.SkeletonUtilityBone#BoneTransformModeIncompatible","Spine.Unity.SkeletonUtilityBone#IncompatibleTransformMode#get","Spine.Unity.SkeletonUtilityBone#init","Spine.Unity.SkeletonUtilityBone#Reset","Spine.Unity.SkeletonUtilityBone#OnEnable","Spine.Unity.SkeletonUtilityBone#HandleOnReset","Spine.Unity.SkeletonUtilityBone#OnDisable","Spine.Unity.SkeletonUtilityBone#DoUpdate","Spine.Unity.SkeletonUtilityBone#AddBoundingBox","Spine.Unity.SkeletonUtilityConstraint#OnEnable","Spine.Unity.SkeletonUtilityConstraint#OnDisable","Spine.Unity.SpineAttributeBase#init","Spine.Unity.SpineAtlasRegion#ctor","Spine.Unity.SpineAttachment.Hierarchy#getDefaultValue","Spine.Unity.SpineAttachment.Hierarchy#$ctor1","Spine.Unity.SpineAttachment.Hierarchy#ctor","Spine.Unity.SpineAttachment.Hierarchy#getHashCode","Spine.Unity.SpineAttachment.Hierarchy#equals","Spine.Unity.SpineAttachment.Hierarchy#$clone","Spine.Unity.SpineMesh#init","Spine.Unity.SpineMesh#NewSkeletonMesh","Spine.Unity.SubmeshInstruction#getDefaultValue","Spine.Unity.SubmeshInstruction#SlotCount#get","Spine.Unity.SubmeshInstruction#ctor","Spine.Unity.SubmeshInstruction#toString","Spine.Unity.SubmeshInstruction#getHashCode","Spine.Unity.SubmeshInstruction#equals","Spine.Unity.SubmeshInstruction#$clone","Spine.Unity.WaitForSpineEvent#WillUnsubscribeAfterFiring#get","Spine.Unity.WaitForSpineEvent#WillUnsubscribeAfterFiring#set","Spine.Unity.WaitForSpineEvent#System$Collections$IEnumerator$Current#get","Spine.Unity.WaitForSpineEvent#init","Spine.Unity.WaitForSpineEvent#ctor","Spine.Unity.WaitForSpineEvent#$ctor2","Spine.Unity.WaitForSpineEvent#$ctor1","Spine.Unity.WaitForSpineEvent#$ctor3","Spine.Unity.WaitForSpineEvent#Subscribe","Spine.Unity.WaitForSpineEvent#SubscribeByName","Spine.Unity.WaitForSpineEvent#HandleAnimationStateEventByName","Spine.Unity.WaitForSpineEvent#HandleAnimationStateEvent","Spine.Unity.WaitForSpineEvent#NowWaitFor","Spine.Unity.WaitForSpineEvent#NowWaitFor$1","Spine.Unity.WaitForSpineEvent#Clear","Spine.Unity.WaitForSpineEvent#System$Collections$IEnumerator$moveNext","Spine.Unity.WaitForSpineEvent#System$Collections$IEnumerator$reset","Spine.Unity.BlendModeMaterialsAsset#ApplyMaterials","Spine.Unity.BlendModeMaterialsAsset#init","Spine.Unity.BlendModeMaterialsAsset#Apply","Spine.Unity.SkeletonMecanimRootMotion#init","Spine.Unity.SkeletonMecanimRootMotion#SkeletonMecanim#get","Spine.Unity.SkeletonMecanimRootMotion#init","Spine.Unity.SkeletonMecanimRootMotion#GetRemainingRootMotion","Spine.Unity.SkeletonMecanimRootMotion#GetRootMotionInfo","Spine.Unity.SkeletonMecanimRootMotion#Reset","Spine.Unity.SkeletonMecanimRootMotion#Start","Spine.Unity.SkeletonMecanimRootMotion#OnClipApplied","Spine.Unity.SkeletonMecanimRootMotion#CalculateAnimationsMovementDelta","Spine.Unity.SkeletonMecanimRootMotion#CalculateAnimationsRotationDelta","Spine.Unity.SkeletonRootMotion#init","Spine.Unity.SkeletonRootMotion#AdditionalScale#get","Spine.Unity.SkeletonRootMotion#init","Spine.Unity.SkeletonRootMotion#GetRemainingRootMotion","Spine.Unity.SkeletonRootMotion#GetRootMotionInfo","Spine.Unity.SkeletonRootMotion#Reset","Spine.Unity.SkeletonRootMotion#Start","Spine.Unity.SkeletonRootMotion#CalculateAnimationsMovementDelta","Spine.Unity.SkeletonRootMotion#CalculateAnimationsRotationDelta","Spine.Unity.SkeletonRootMotion#ApplyMixAlphaToDelta$1","Spine.Unity.SkeletonRootMotion#ApplyMixAlphaToDelta","Spine.Unity.SkeletonRootMotion#GetMixAlpha","Spine.Unity.SpineAnimation#ctor","Spine.Unity.SpineAtlasAsset#CreateRuntimeInstance","Spine.Unity.SpineAtlasAsset#CreateRuntimeInstance$1","Spine.Unity.SpineAtlasAsset#CreateRuntimeInstance$2","Spine.Unity.SpineAtlasAsset#IsLoaded#get","Spine.Unity.SpineAtlasAsset#Materials#get","Spine.Unity.SpineAtlasAsset#MaterialCount#get","Spine.Unity.SpineAtlasAsset#PrimaryMaterial#get","Spine.Unity.SpineAtlasAsset#Reset","Spine.Unity.SpineAtlasAsset#Clear","Spine.Unity.SpineAtlasAsset#GetAtlas","Spine.Unity.SpineAtlasAsset#GenerateMesh","Spine.Unity.SpineAttachment#getHierarchy","Spine.Unity.SpineAttachment#getAttachment","Spine.Unity.SpineAttachment#getAttachment$1","Spine.Unity.SpineAttachment#init","Spine.Unity.SpineAttachment#ctor","Spine.Unity.SpineBone#getBone","Spine.Unity.SpineBone#getBoneData","Spine.Unity.SpineBone#ctor","Spine.Unity.SpineEvent#init","Spine.Unity.SpineEvent#ctor","Spine.Unity.SpineIkConstraint#ctor","Spine.Unity.SpinePathConstraint#ctor","Spine.Unity.SpineSkin#init","Spine.Unity.SpineSkin#ctor","Spine.Unity.SpineSlot#init","Spine.Unity.SpineSlot#ctor","Spine.Unity.SpineSpriteAtlasAsset#CreateRuntimeInstance","Spine.Unity.SpineSpriteAtlasAsset#AccessPackedTexture","Spine.Unity.SpineSpriteAtlasAsset#AccessPackedSprites","Spine.Unity.SpineSpriteAtlasAsset#IsLoaded#get","Spine.Unity.SpineSpriteAtlasAsset#Materials#get","Spine.Unity.SpineSpriteAtlasAsset#MaterialCount#get","Spine.Unity.SpineSpriteAtlasAsset#PrimaryMaterial#get","Spine.Unity.SpineSpriteAtlasAsset#Reset","Spine.Unity.SpineSpriteAtlasAsset#Clear","Spine.Unity.SpineSpriteAtlasAsset#GetAtlas","Spine.Unity.SpineSpriteAtlasAsset#AssignRegionsFromSavedRegions","Spine.Unity.SpineSpriteAtlasAsset#LoadAtlas","Spine.Unity.SpineTransformConstraint#ctor","Spine.Unity.AnimationReferenceAsset#init","Spine.Unity.AnimationReferenceAsset#op_Implicit","Spine.Unity.AnimationReferenceAsset#SkeletonDataAsset#get","Spine.Unity.AnimationReferenceAsset#Animation#get","Spine.Unity.AnimationReferenceAsset#Clear","Spine.Unity.AnimationReferenceAsset#Initialize","Spine.Unity.PointFollower#SkeletonRenderer#get","Spine.Unity.PointFollower#SkeletonComponent#get","Spine.Unity.PointFollower#IsValid#get","Spine.Unity.PointFollower#init","Spine.Unity.PointFollower#Initialize","Spine.Unity.PointFollower#HandleRebuildRenderer","Spine.Unity.PointFollower#UpdateReferences","Spine.Unity.PointFollower#OnDestroy","Spine.Unity.PointFollower#LateUpdate","Spine.Unity.SkeletonRenderer#init","Spine.Unity.SkeletonRenderer#NewSpineGameObject","Spine.Unity.SkeletonRenderer#AddSpineComponent","Spine.Unity.SkeletonRenderer#UpdateMode#get","Spine.Unity.SkeletonRenderer#UpdateMode#set","Spine.Unity.SkeletonRenderer#CustomMaterialOverride#get","Spine.Unity.SkeletonRenderer#CustomSlotMaterials#get","Spine.Unity.SkeletonRenderer#Skeleton#get","Spine.Unity.SkeletonRenderer#SkeletonDataAsset#get","Spine.Unity.SkeletonRenderer#init","Spine.Unity.SkeletonRenderer#addGenerateMeshOverride","Spine.Unity.SkeletonRenderer#removeGenerateMeshOverride","Spine.Unity.SkeletonRenderer#SetMeshSettings","Spine.Unity.SkeletonRenderer#Awake","Spine.Unity.SkeletonRenderer#OnDisable","Spine.Unity.SkeletonRenderer#OnDestroy","Spine.Unity.SkeletonRenderer#ClearState","Spine.Unity.SkeletonRenderer#EnsureMeshGeneratorCapacity","Spine.Unity.SkeletonRenderer#Initialize","Spine.Unity.SkeletonRenderer#LateUpdate","Spine.Unity.SkeletonRenderer#LateUpdateMesh","Spine.Unity.SkeletonRenderer#OnBecameVisible","Spine.Unity.SkeletonRenderer#OnBecameInvisible","Spine.Unity.SkeletonRenderer#FindAndApplySeparatorSlots$1","Spine.Unity.SkeletonRenderer#FindAndApplySeparatorSlots","Spine.Unity.SkeletonRenderer#ReapplySeparatorSlotNames","Spine.Unity.SkeletonRenderer#AssignSpriteMaskMaterials","Spine.Unity.SkeletonRenderer#InitSpriteMaskMaterialsInsideMask","Spine.Unity.SkeletonRenderer#InitSpriteMaskMaterialsOutsideMask","Spine.Unity.SkeletonRenderer#InitSpriteMaskMaterialsForMaskType","Spine.Unity.SkeletonRenderer#HandleOnDemandLoading","Spine.Unity.SkeletonRenderer#SetMaterialSettingsToFixDrawOrder","Spine.Unity.SkeletonGraphic#init","Spine.Unity.SkeletonGraphic#NewSkeletonGraphicGameObject","Spine.Unity.SkeletonGraphic#AddSkeletonGraphicComponent","Spine.Unity.SkeletonGraphic#SetRectTransformSize$1","Spine.Unity.SkeletonGraphic#SetRectTransformSize","Spine.Unity.SkeletonGraphic#SkeletonDataAsset#get","Spine.Unity.SkeletonGraphic#MeshScale#get","Spine.Unity.SkeletonGraphic#UpdateMode#get","Spine.Unity.SkeletonGraphic#UpdateMode#set","Spine.Unity.SkeletonGraphic#SeparatorParts#get","Spine.Unity.SkeletonGraphic#CustomTextureOverride#get","Spine.Unity.SkeletonGraphic#CustomMaterialOverride#get","Spine.Unity.SkeletonGraphic#OverrideTexture#get","Spine.Unity.SkeletonGraphic#OverrideTexture#set","Spine.Unity.SkeletonGraphic#mainTexture#get","Spine.Unity.SkeletonGraphic#Skeleton#get","Spine.Unity.SkeletonGraphic#Skeleton#set","Spine.Unity.SkeletonGraphic#SkeletonData#get","Spine.Unity.SkeletonGraphic#IsValid#get","Spine.Unity.SkeletonGraphic#AnimationState#get","Spine.Unity.SkeletonGraphic#MeshGenerator#get","Spine.Unity.SkeletonGraphic#MeshesMultipleCanvasRenderers#get","Spine.Unity.SkeletonGraphic#MaterialsMultipleCanvasRenderers#get","Spine.Unity.SkeletonGraphic#TexturesMultipleCanvasRenderers#get","Spine.Unity.SkeletonGraphic#UpdateTiming#get","Spine.Unity.SkeletonGraphic#UpdateTiming#set","Spine.Unity.SkeletonGraphic#UnscaledTime#get","Spine.Unity.SkeletonGraphic#UnscaledTime#set","Spine.Unity.SkeletonGraphic#init","Spine.Unity.SkeletonGraphic#addAssignMeshOverrideSingleRenderer","Spine.Unity.SkeletonGraphic#removeAssignMeshOverrideSingleRenderer","Spine.Unity.SkeletonGraphic#addAssignMeshOverrideMultipleRenderers","Spine.Unity.SkeletonGraphic#removeAssignMeshOverrideMultipleRenderers","Spine.Unity.SkeletonGraphic#Awake","Spine.Unity.SkeletonGraphic#OnDestroy","Spine.Unity.SkeletonGraphic#Rebuild","Spine.Unity.SkeletonGraphic#OnDisable","Spine.Unity.SkeletonGraphic#Update","Spine.Unity.SkeletonGraphic#Update$1","Spine.Unity.SkeletonGraphic#FixedUpdate","Spine.Unity.SkeletonGraphic#SyncSubmeshGraphicsWithCanvasRenderers","Spine.Unity.SkeletonGraphic#UpdateAnimationStatus","Spine.Unity.SkeletonGraphic#ApplyAnimation","Spine.Unity.SkeletonGraphic#AfterAnimationApplied","Spine.Unity.SkeletonGraphic#LateUpdate","Spine.Unity.SkeletonGraphic#OnCullStateChanged","Spine.Unity.SkeletonGraphic#OnBecameVisible","Spine.Unity.SkeletonGraphic#OnBecameInvisible","Spine.Unity.SkeletonGraphic#ReapplySeparatorSlotNames","Spine.Unity.SkeletonGraphic#GetLastMesh","Spine.Unity.SkeletonGraphic#MatchRectTransformWithBounds","Spine.Unity.SkeletonGraphic#MatchRectTransformSingleRenderer","Spine.Unity.SkeletonGraphic#MatchRectTransformMultipleRenderers","Spine.Unity.SkeletonGraphic#SetRectTransformBounds","Spine.Unity.SkeletonGraphic#Clear","Spine.Unity.SkeletonGraphic#TrimRenderers","Spine.Unity.SkeletonGraphic#Initialize","Spine.Unity.SkeletonGraphic#PrepareInstructionsAndRenderers","Spine.Unity.SkeletonGraphic#UpdateMesh","Spine.Unity.SkeletonGraphic#UpdateMeshToInstructions","Spine.Unity.SkeletonGraphic#HasMultipleSubmeshInstructions","Spine.Unity.SkeletonGraphic#InitMeshBuffers","Spine.Unity.SkeletonGraphic#DisposeMeshBuffers","Spine.Unity.SkeletonGraphic#UpdateMeshSingleCanvasRenderer","Spine.Unity.SkeletonGraphic#UpdateMaterialsMultipleCanvasRenderers","Spine.Unity.SkeletonGraphic#UpdateMeshMultipleCanvasRenderers","Spine.Unity.SkeletonGraphic#HandleOnDemandLoading","Spine.Unity.SkeletonGraphic#EnsureCanvasRendererCount","Spine.Unity.SkeletonGraphic#PrepareRendererGameObjects","Spine.Unity.SkeletonGraphic#DisableUnusedCanvasRenderers","Spine.Unity.SkeletonGraphic#EnsureMeshesCount","Spine.Unity.SkeletonGraphic#EnsureUsedTexturesAndMaterialsCount","Spine.Unity.SkeletonGraphic#DestroyMeshes","Spine.Unity.SkeletonGraphic#EnsureSeparatorPartCount","Spine.Unity.SkeletonGraphic#UpdateSeparatorPartParents","Spine.Unity.SkeletonGraphic#GetLayoutScale","Spine.Unity.SkeletonGraphic#GetCurrentRectSize","Spine.Unity.SkeletonAnimation#AddToGameObject","Spine.Unity.SkeletonAnimation#NewSkeletonAnimationGameObject","Spine.Unity.SkeletonAnimation#AnimationState#get","Spine.Unity.SkeletonAnimation#UpdateTiming#get","Spine.Unity.SkeletonAnimation#UpdateTiming#set","Spine.Unity.SkeletonAnimation#UnscaledTime#get","Spine.Unity.SkeletonAnimation#UnscaledTime#set","Spine.Unity.SkeletonAnimation#AnimationName#get","Spine.Unity.SkeletonAnimation#AnimationName#set","Spine.Unity.SkeletonAnimation#init","Spine.Unity.SkeletonAnimation#addOnAnimationRebuild","Spine.Unity.SkeletonAnimation#removeOnAnimationRebuild","Spine.Unity.SkeletonAnimation#addBeforeApply","Spine.Unity.SkeletonAnimation#removeBeforeApply","Spine.Unity.SkeletonAnimation#addUpdateLocal","Spine.Unity.SkeletonAnimation#removeUpdateLocal","Spine.Unity.SkeletonAnimation#addUpdateWorld","Spine.Unity.SkeletonAnimation#removeUpdateWorld","Spine.Unity.SkeletonAnimation#addUpdateComplete","Spine.Unity.SkeletonAnimation#removeUpdateComplete","Spine.Unity.SkeletonAnimation#ClearState","Spine.Unity.SkeletonAnimation#Initialize","Spine.Unity.SkeletonAnimation#Update$1","Spine.Unity.SkeletonAnimation#Update","Spine.Unity.SkeletonAnimation#FixedUpdate","Spine.Unity.SkeletonAnimation#UpdateAnimationStatus","Spine.Unity.SkeletonAnimation#ApplyAnimation","Spine.Unity.SkeletonAnimation#AfterAnimationApplied","Spine.Unity.SkeletonAnimation#LateUpdate","Spine.Unity.SkeletonAnimation#OnBecameVisible","Spine.Unity.SkeletonMecanim#Translator#get","Spine.Unity.SkeletonMecanim#UpdateTiming#get","Spine.Unity.SkeletonMecanim#UpdateTiming#set","Spine.Unity.SkeletonMecanim#init","Spine.Unity.SkeletonMecanim#addOnAnimationRebuild","Spine.Unity.SkeletonMecanim#removeOnAnimationRebuild","Spine.Unity.SkeletonMecanim#addBeforeApply","Spine.Unity.SkeletonMecanim#removeBeforeApply","Spine.Unity.SkeletonMecanim#addUpdateLocal","Spine.Unity.SkeletonMecanim#removeUpdateLocal","Spine.Unity.SkeletonMecanim#addUpdateWorld","Spine.Unity.SkeletonMecanim#removeUpdateWorld","Spine.Unity.SkeletonMecanim#addUpdateComplete","Spine.Unity.SkeletonMecanim#removeUpdateComplete","Spine.Unity.SkeletonMecanim#Initialize","Spine.Unity.SkeletonMecanim#Update","Spine.Unity.SkeletonMecanim#Update$1","Spine.Unity.SkeletonMecanim#FixedUpdate","Spine.Unity.SkeletonMecanim#UpdateAnimation","Spine.Unity.SkeletonMecanim#ApplyAnimation","Spine.Unity.SkeletonMecanim#LateUpdate","Spine.Unity.SkeletonMecanim#OnBecameVisible"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["DG.Tweening.DOTweenAnimation#Dispatch_OnReset","DG.Tweening.DOTweenAnimation#TypeToDOTargetType","DG.Tweening.DOTweenAnimation#init","DG.Tweening.DOTweenAnimation#Awake","DG.Tweening.DOTweenAnimation#Start","DG.Tweening.DOTweenAnimation#Reset","DG.Tweening.DOTweenAnimation#OnDestroy","DG.Tweening.DOTweenAnimation#RewindThenRecreateTween","DG.Tweening.DOTweenAnimation#RewindThenRecreateTweenAndPlay","DG.Tweening.DOTweenAnimation#RecreateTween","DG.Tweening.DOTweenAnimation#RecreateTweenAndPlay","DG.Tweening.DOTweenAnimation#CreateTween","DG.Tweening.DOTweenAnimation#GetTweens","DG.Tweening.DOTweenAnimation#SetAnimationTarget","DG.Tweening.DOTweenAnimation#DOPlay","DG.Tweening.DOTweenAnimation#DOPlayBackwards","DG.Tweening.DOTweenAnimation#DOPlayForward","DG.Tweening.DOTweenAnimation#DOPause","DG.Tweening.DOTweenAnimation#DOTogglePause","DG.Tweening.DOTweenAnimation#DORewind","DG.Tweening.DOTweenAnimation#DORestart","DG.Tweening.DOTweenAnimation#DORestart$1","DG.Tweening.DOTweenAnimation#DOComplete","DG.Tweening.DOTweenAnimation#DOKill","DG.Tweening.DOTweenAnimation#DOPlayById","DG.Tweening.DOTweenAnimation#DOPlayAllById","DG.Tweening.DOTweenAnimation#DOPauseAllById","DG.Tweening.DOTweenAnimation#DOPlayBackwardsById","DG.Tweening.DOTweenAnimation#DOPlayBackwardsAllById","DG.Tweening.DOTweenAnimation#DOPlayForwardById","DG.Tweening.DOTweenAnimation#DOPlayForwardAllById","DG.Tweening.DOTweenAnimation#DOPlayNext","DG.Tweening.DOTweenAnimation#DORewindAndPlayNext","DG.Tweening.DOTweenAnimation#DORewindAllById","DG.Tweening.DOTweenAnimation#DORestartById","DG.Tweening.DOTweenAnimation#DORestartAllById","DG.Tweening.DOTweenAnimation#DOKillById","DG.Tweening.DOTweenAnimation#DOKillAllById","DG.Tweening.DOTweenAnimation#CreateEditorPreview","DG.Tweening.DOTweenAnimation#GetTweenGO","DG.Tweening.DOTweenAnimation#GetTweenTarget","DG.Tweening.DOTweenAnimation#ReEvaluateRelativeTween","DG.Tweening.DOTweenAnimationExtensions#IsSameOrSubclassOf","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","DG.Tweening.DOTweenProShortcuts#ctor","DG.Tweening.DOTweenProShortcuts#DOSpiral$1","DG.Tweening.DOTweenProShortcuts#DOSpiral","DraggableItem#init","DraggableItem#Awake","DraggableItem#OnBeginDrag","DraggableItem#OnDrag","DraggableItem#OnEndDrag","DropZone#init","DropZone#Awake","DropZone#DragMoney","DropZone#Upgrade","DropZone#NextStep","DropZone#CheckDone","DropZone#OnEnable","DropZone#OnDisable","DropZone#EventUpgrade","GameController#init","GameController#Awake","GameController#Start","GameController#InitFirst","GameController#EnableUpgrade","LunaManager#init","LunaManager#Awake","LunaManager#Start","LunaManager#CountPlay","LunaManager#PauseGameplay","LunaManager#ResumeGameplay","LunaManager#ShowEndCard","LunaManager#OnClickEndCard","LunaManager#SetupField","Spine.BoneMatrix#CalculateSetupWorld","Spine.BoneMatrix#GetInheritedInternal","Spine.BoneMatrix#getDefaultValue","Spine.BoneMatrix#$ctor2","Spine.BoneMatrix#$ctor1","Spine.BoneMatrix#ctor","Spine.BoneMatrix#TransformMatrix","Spine.BoneMatrix#getHashCode","Spine.BoneMatrix#equals","Spine.BoneMatrix#$clone","Spine.SpineSkeletonExtensions#IsWeighted","Spine.SpineSkeletonExtensions#InheritsRotation","Spine.SpineSkeletonExtensions#InheritsScale","Spine.Unity.ActivateBasedOnFlipDirection#init","Spine.Unity.ActivateBasedOnFlipDirection#Start","Spine.Unity.ActivateBasedOnFlipDirection#FixedUpdate","Spine.Unity.ActivateBasedOnFlipDirection#HandleFlip","Spine.Unity.ActivateBasedOnFlipDirection#ResetJointPositions","Spine.Unity.ActivateBasedOnFlipDirection#CompensateMovementAfterFlipX","Spine.Unity.AnimationTools.TimelineExtensions#Evaluate$1","Spine.Unity.AnimationTools.TimelineExtensions#Evaluate$2","Spine.Unity.AnimationTools.TimelineExtensions#Evaluate","Spine.Unity.AnimationTools.TimelineExtensions#EvaluateTranslateXYMix","Spine.Unity.AnimationTools.TimelineExtensions#EvaluateRotateMix","Spine.Unity.AnimationTools.TimelineExtensions#FindTranslateTimelineForBone","Spine.Unity.AnimationTools.TimelineExtensions#FindTimelineForBone","Spine.Unity.AnimationTools.TimelineExtensions#FindTransformConstraintTimeline","Spine.Unity.AtlasAssetBase#TextureLoadingMode#get","Spine.Unity.AtlasAssetBase#TextureLoadingMode#set","Spine.Unity.AtlasAssetBase#OnDemandTextureLoader#get","Spine.Unity.AtlasAssetBase#OnDemandTextureLoader#set","Spine.Unity.AtlasAssetBase#init","Spine.Unity.AtlasAssetBase#BeginCustomTextureLoading","Spine.Unity.AtlasAssetBase#EndCustomTextureLoading","Spine.Unity.AtlasAssetBase#RequireTexturesLoaded","Spine.Unity.AtlasAssetBase#RequireTextureLoaded","Spine.Unity.AttachmentTools.AtlasUtilities#init","Spine.Unity.AttachmentTools.AtlasUtilities#Init","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$2","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$3","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$1","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegion$4","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone$2","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone$3","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone","Spine.Unity.AttachmentTools.AtlasUtilities#ToAtlasRegionPMAClone$1","Spine.Unity.AttachmentTools.AtlasUtilities#ToSpineAtlasPage","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedAttachments","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedAttachments$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedSkin","Spine.Unity.AttachmentTools.AtlasUtilities#GetRepackedSkin$1","Spine.Unity.AttachmentTools.AtlasUtilities#ToSprite","Spine.Unity.AttachmentTools.AtlasUtilities#ClearCache","Spine.Unity.AttachmentTools.AtlasUtilities#ToTexture","Spine.Unity.AttachmentTools.AtlasUtilities#ToTexture$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetClone","Spine.Unity.AttachmentTools.AtlasUtilities#CopyTexture","Spine.Unity.AttachmentTools.AtlasUtilities#CopyTextureApplyPMA","Spine.Unity.AttachmentTools.AtlasUtilities#IsRenderable","Spine.Unity.AttachmentTools.AtlasUtilities#SpineUnityFlipRect","Spine.Unity.AttachmentTools.AtlasUtilities#GetUnityRect","Spine.Unity.AttachmentTools.AtlasUtilities#GetUnityRect$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetSpineAtlasRect","Spine.Unity.AttachmentTools.AtlasUtilities#UVRectToTextureRect","Spine.Unity.AttachmentTools.AtlasUtilities#TextureRectToUVRect","Spine.Unity.AttachmentTools.AtlasUtilities#UVRectToAtlasRegion","Spine.Unity.AttachmentTools.AtlasUtilities#GetMainTexture","Spine.Unity.AttachmentTools.AtlasUtilities#GetTexture$1","Spine.Unity.AttachmentTools.AtlasUtilities#GetTexture","Spine.Unity.AttachmentTools.AtlasUtilities#CopyTextureAttributesFrom","Spine.Unity.AttachmentTools.AtlasUtilities#InverseLerp","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#getDefaultValue","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#$ctor1","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#ctor","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#getHashCode","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#equals","Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey#$clone","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetRemappedClone$1","Spine.Unity.AttachmentTools.AttachmentCloneExtensions#GetRemappedClone","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachment$2","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachment$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachment","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachmentPMAClone$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#ToRegionAttachmentPMAClone","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetScale$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetScale","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetPositionOffset$1","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetPositionOffset","Spine.Unity.AttachmentTools.AttachmentRegionExtensions#SetRotation","Spine.Unity.BlendModeMaterials#RequiresBlendModeMaterials#get","Spine.Unity.BlendModeMaterials#RequiresBlendModeMaterials#set","Spine.Unity.BlendModeMaterials#init","Spine.Unity.BlendModeMaterials#BlendModeForMaterial","Spine.Unity.BlendModeMaterials#ApplyMaterials","Spine.Unity.BlendModeMaterials#CloneAtlasRegionWithMaterial","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#init","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#CloneAtlasRegionWithMaterial","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#GetAtlasPageWithMaterial","Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache#Dispose","Spine.Unity.BoneFollower#SkeletonRenderer#get","Spine.Unity.BoneFollower#SkeletonRenderer#set","Spine.Unity.BoneFollower#init","Spine.Unity.BoneFollower#SetBone","Spine.Unity.BoneFollower#Awake","Spine.Unity.BoneFollower#HandleRebuildRenderer","Spine.Unity.BoneFollower#Initialize","Spine.Unity.BoneFollower#OnDestroy","Spine.Unity.BoneFollower#LateUpdate","Spine.Unity.BoneFollowerGraphic#SkeletonGraphic#get","Spine.Unity.BoneFollowerGraphic#SkeletonGraphic#set","Spine.Unity.BoneFollowerGraphic#init","Spine.Unity.BoneFollowerGraphic#SetBone","Spine.Unity.BoneFollowerGraphic#Awake","Spine.Unity.BoneFollowerGraphic#Initialize","Spine.Unity.BoneFollowerGraphic#LateUpdate","Spine.Unity.BoundingBoxFollower#init","Spine.Unity.BoundingBoxFollower#Slot#get","Spine.Unity.BoundingBoxFollower#CurrentAttachment#get","Spine.Unity.BoundingBoxFollower#CurrentAttachmentName#get","Spine.Unity.BoundingBoxFollower#CurrentCollider#get","Spine.Unity.BoundingBoxFollower#IsTrigger#get","Spine.Unity.BoundingBoxFollower#init","Spine.Unity.BoundingBoxFollower#Start","Spine.Unity.BoundingBoxFollower#OnEnable","Spine.Unity.BoundingBoxFollower#HandleRebuild","Spine.Unity.BoundingBoxFollower#Initialize","Spine.Unity.BoundingBoxFollower#AddCollidersForSkin","Spine.Unity.BoundingBoxFollower#OnDisable","Spine.Unity.BoundingBoxFollower#ClearState","Spine.Unity.BoundingBoxFollower#DisposeExcessCollidersAfter","Spine.Unity.BoundingBoxFollower#LateUpdate","Spine.Unity.BoundingBoxFollower#MatchAttachment","Spine.Unity.BoundingBoxFollowerGraphic#init","Spine.Unity.BoundingBoxFollowerGraphic#Slot#get","Spine.Unity.BoundingBoxFollowerGraphic#CurrentAttachment#get","Spine.Unity.BoundingBoxFollowerGraphic#CurrentAttachmentName#get","Spine.Unity.BoundingBoxFollowerGraphic#CurrentCollider#get","Spine.Unity.BoundingBoxFollowerGraphic#IsTrigger#get","Spine.Unity.BoundingBoxFollowerGraphic#init","Spine.Unity.BoundingBoxFollowerGraphic#Start","Spine.Unity.BoundingBoxFollowerGraphic#OnEnable","Spine.Unity.BoundingBoxFollowerGraphic#HandleRebuild","Spine.Unity.BoundingBoxFollowerGraphic#Initialize","Spine.Unity.BoundingBoxFollowerGraphic#AddCollidersForSkin","Spine.Unity.BoundingBoxFollowerGraphic#OnDisable","Spine.Unity.BoundingBoxFollowerGraphic#ClearState","Spine.Unity.BoundingBoxFollowerGraphic#DisposeExcessCollidersAfter","Spine.Unity.BoundingBoxFollowerGraphic#LateUpdate","Spine.Unity.BoundingBoxFollowerGraphic#MatchAttachment","Spine.Unity.DoubleBuffered$1#init","Spine.Unity.DoubleBuffered$1#GetCurrent","Spine.Unity.DoubleBuffered$1#GetNext","Spine.Unity.EventDataReferenceAsset#init","Spine.Unity.EventDataReferenceAsset#op_Implicit","Spine.Unity.EventDataReferenceAsset#EventData#get","Spine.Unity.EventDataReferenceAsset#Initialize","Spine.Unity.ISpineComponentExtensions#IsNullOrDestroyed","Spine.Unity.MaterialsTextureLoader#ctor","Spine.Unity.MaterialsTextureLoader#Load","Spine.Unity.MaterialsTextureLoader#Unload","Spine.Unity.MeshGenerator#init","Spine.Unity.MeshGenerator#GenerateSingleSubmeshInstruction","Spine.Unity.MeshGenerator#RequiresMultipleSubmeshesByDrawOrder","Spine.Unity.MeshGenerator#GenerateSkeletonRendererInstruction","Spine.Unity.MeshGenerator#TryReplaceMaterials","Spine.Unity.MeshGenerator#SolveTangents2DEnsureSize","Spine.Unity.MeshGenerator#SolveTangents2DTriangles","Spine.Unity.MeshGenerator#SolveTangents2DBuffer","Spine.Unity.MeshGenerator#FillMeshLocal$1","Spine.Unity.MeshGenerator#FillMeshLocal","Spine.Unity.MeshGenerator#VertexCount#get","Spine.Unity.MeshGenerator#Buffers#get","Spine.Unity.MeshGenerator#init","Spine.Unity.MeshGenerator#ctor","Spine.Unity.MeshGenerator#SubmeshIndexCount","Spine.Unity.MeshGenerator#Begin","Spine.Unity.MeshGenerator#AddSubmesh","Spine.Unity.MeshGenerator#BuildMesh","Spine.Unity.MeshGenerator#BuildMeshWithArrays","Spine.Unity.MeshGenerator#ScaleVertexData","Spine.Unity.MeshGenerator#GetMeshBounds","Spine.Unity.MeshGenerator#AddAttachmentTintBlack","Spine.Unity.MeshGenerator#FillVertexData","Spine.Unity.MeshGenerator#FillLateVertexData","Spine.Unity.MeshGenerator#FillTriangles","Spine.Unity.MeshGenerator#EnsureVertexCapacity","Spine.Unity.MeshGenerator#TrimExcess","Spine.Unity.MeshGenerator.Settings#Default#get","Spine.Unity.MeshGenerator.Settings#getDefaultValue","Spine.Unity.MeshGenerator.Settings#ctor","Spine.Unity.MeshGenerator.Settings#getHashCode","Spine.Unity.MeshGenerator.Settings#equals","Spine.Unity.MeshGenerator.Settings#$clone","Spine.Unity.MeshGeneratorBuffers#getDefaultValue","Spine.Unity.MeshGeneratorBuffers#ctor","Spine.Unity.MeshGeneratorBuffers#getHashCode","Spine.Unity.MeshGeneratorBuffers#equals","Spine.Unity.MeshGeneratorBuffers#$clone","Spine.Unity.MeshRendererBuffers#init","Spine.Unity.MeshRendererBuffers#Initialize","Spine.Unity.MeshRendererBuffers#GetUpdatedSharedMaterialsArray","Spine.Unity.MeshRendererBuffers#MaterialsChangedInLastUpdate","Spine.Unity.MeshRendererBuffers#UpdateSharedMaterials","Spine.Unity.MeshRendererBuffers#GetNextMesh","Spine.Unity.MeshRendererBuffers#Clear","Spine.Unity.MeshRendererBuffers#Dispose","Spine.Unity.MeshRendererBuffers.SmartMesh#init","Spine.Unity.MeshRendererBuffers.SmartMesh#Clear","Spine.Unity.MeshRendererBuffers.SmartMesh#Dispose","Spine.Unity.NoOpTextureLoader#Load","Spine.Unity.NoOpTextureLoader#Unload","Spine.Unity.OnDemandTextureLoader#addTextureRequested","Spine.Unity.OnDemandTextureLoader#removeTextureRequested","Spine.Unity.OnDemandTextureLoader#addTextureLoaded","Spine.Unity.OnDemandTextureLoader#removeTextureLoaded","Spine.Unity.OnDemandTextureLoader#addTextureUnloaded","Spine.Unity.OnDemandTextureLoader#removeTextureUnloaded","Spine.Unity.OnDemandTextureLoader#HasNullMainTexturesAssigned","Spine.Unity.OnDemandTextureLoader#OnTextureRequested","Spine.Unity.OnDemandTextureLoader#OnTextureLoaded","Spine.Unity.OnDemandTextureLoader#OnTextureUnloaded","Spine.Unity.RegionlessAttachmentLoader#EmptyRegion#get","Spine.Unity.RegionlessAttachmentLoader#NewRegionAttachment","Spine.Unity.RegionlessAttachmentLoader#NewMeshAttachment","Spine.Unity.RegionlessAttachmentLoader#NewBoundingBoxAttachment","Spine.Unity.RegionlessAttachmentLoader#NewPathAttachment","Spine.Unity.RegionlessAttachmentLoader#NewPointAttachment","Spine.Unity.RegionlessAttachmentLoader#NewClippingAttachment","Spine.Unity.SkeletonDataAsset#CreateRuntimeInstance","Spine.Unity.SkeletonDataAsset#CreateRuntimeInstance$1","Spine.Unity.SkeletonDataAsset#ReadSkeletonData","Spine.Unity.SkeletonDataAsset#ReadSkeletonData$1","Spine.Unity.SkeletonDataAsset#IsLoaded#get","Spine.Unity.SkeletonDataAsset#init","Spine.Unity.SkeletonDataAsset#Reset","Spine.Unity.SkeletonDataAsset#Clear","Spine.Unity.SkeletonDataAsset#GetAnimationStateData","Spine.Unity.SkeletonDataAsset#GetSkeletonData","Spine.Unity.SkeletonDataAsset#InitializeWithData","Spine.Unity.SkeletonDataAsset#FillStateData","Spine.Unity.SkeletonDataAsset#GetAtlasArray","Spine.Unity.SkeletonDataCompatibility.CompatibilityProblemInfo#DescriptionString","Spine.Unity.SkeletonExtensions#init","Spine.Unity.SkeletonExtensions#GetColor$2","Spine.Unity.SkeletonExtensions#GetColor$1","Spine.Unity.SkeletonExtensions#GetColor","Spine.Unity.SkeletonExtensions#GetColor$3","Spine.Unity.SkeletonExtensions#GetColorTintBlack","Spine.Unity.SkeletonExtensions#SetColor$4","Spine.Unity.SkeletonExtensions#SetColor$5","Spine.Unity.SkeletonExtensions#SetColor$6","Spine.Unity.SkeletonExtensions#SetColor$7","Spine.Unity.SkeletonExtensions#SetColor$2","Spine.Unity.SkeletonExtensions#SetColor$3","Spine.Unity.SkeletonExtensions#SetColor","Spine.Unity.SkeletonExtensions#SetColor$1","Spine.Unity.SkeletonExtensions#SetLocalScale","Spine.Unity.SkeletonExtensions#GetMatrix4x4","Spine.Unity.SkeletonExtensions#SetLocalPosition","Spine.Unity.SkeletonExtensions#SetLocalPosition$1","Spine.Unity.SkeletonExtensions#GetLocalPosition","Spine.Unity.SkeletonExtensions#GetSkeletonSpacePosition","Spine.Unity.SkeletonExtensions#GetSkeletonSpacePosition$1","Spine.Unity.SkeletonExtensions#GetWorldPosition","Spine.Unity.SkeletonExtensions#GetWorldPosition$1","Spine.Unity.SkeletonExtensions#GetWorldPosition$3","Spine.Unity.SkeletonExtensions#GetWorldPosition$2","Spine.Unity.SkeletonExtensions#GetQuaternion","Spine.Unity.SkeletonExtensions#GetLocalQuaternion","Spine.Unity.SkeletonExtensions#GetLocalScale","Spine.Unity.SkeletonExtensions#GetWorldToLocalMatrix","Spine.Unity.SkeletonExtensions#WorldToLocal","Spine.Unity.SkeletonExtensions#SetPositionSkeletonSpace","Spine.Unity.SkeletonExtensions#GetMaterial","Spine.Unity.SkeletonExtensions#GetLocalVertices","Spine.Unity.SkeletonExtensions#GetWorldVertices","Spine.Unity.SkeletonGraphicCustomMaterials#init","Spine.Unity.SkeletonGraphicCustomMaterials#SetCustomMaterialOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#RemoveCustomMaterialOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#SetCustomTextureOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#RemoveCustomTextureOverrides","Spine.Unity.SkeletonGraphicCustomMaterials#OnEnable","Spine.Unity.SkeletonGraphicCustomMaterials#OnDisable","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#inherits","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#getDefaultValue","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#ctor","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#equalsT","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#getHashCode","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride#$clone","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#inherits","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#getDefaultValue","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#ctor","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#equalsT","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#getHashCode","Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride#$clone","Spine.Unity.SkeletonMecanim.MecanimTranslator#init","Spine.Unity.SkeletonMecanim.MecanimTranslator#AnimationTime","Spine.Unity.SkeletonMecanim.MecanimTranslator#ToSpineAnimationTime","Spine.Unity.SkeletonMecanim.MecanimTranslator#Animator#get","Spine.Unity.SkeletonMecanim.MecanimTranslator#MecanimLayerCount#get","Spine.Unity.SkeletonMecanim.MecanimTranslator#MecanimLayerNames#get","Spine.Unity.SkeletonMecanim.MecanimTranslator#init","Spine.Unity.SkeletonMecanim.MecanimTranslator#addOnClipApplied","Spine.Unity.SkeletonMecanim.MecanimTranslator#removeOnClipApplied","Spine.Unity.SkeletonMecanim.MecanimTranslator#Initialize","Spine.Unity.SkeletonMecanim.MecanimTranslator#ApplyAnimation","Spine.Unity.SkeletonMecanim.MecanimTranslator#ApplyInterruptionAnimation","Spine.Unity.SkeletonMecanim.MecanimTranslator#OnClipAppliedCallback","Spine.Unity.SkeletonMecanim.MecanimTranslator#Apply","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetActiveAnimationAndTime","Spine.Unity.SkeletonMecanim.MecanimTranslator#InitClipInfosForLayers","Spine.Unity.SkeletonMecanim.MecanimTranslator#ClearClipInfosForLayers","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetMixMode","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetStateUpdatesFromAnimator","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetAnimatorClipInfos","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetAnimatorStateInfos","Spine.Unity.SkeletonMecanim.MecanimTranslator#GetAnimation","Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer#init","Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer#equals2","Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer#getHashCode2","Spine.Unity.SkeletonMecanim.MecanimTranslator.ClipInfos#init","Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer#init","Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer#equals2","Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer#getHashCode2","Spine.Unity.SkeletonRootMotionBase#RootMotionBone#get","Spine.Unity.SkeletonRootMotionBase#UsesRigidbody#get","Spine.Unity.SkeletonRootMotionBase#PreviousRigidbodyRootMotion2D#get","Spine.Unity.SkeletonRootMotionBase#PreviousRigidbodyRootMotion3D#get","Spine.Unity.SkeletonRootMotionBase#AdditionalRigidbody2DMovement#get","Spine.Unity.SkeletonRootMotionBase#AdditionalRigidbody2DMovement#set","Spine.Unity.SkeletonRootMotionBase#SkeletonAnimationUsesFixedUpdate#get","Spine.Unity.SkeletonRootMotionBase#AdditionalScale#get","Spine.Unity.SkeletonRootMotionBase#TargetSkeletonComponent#get","Spine.Unity.SkeletonRootMotionBase#TargetSkeletonAnimationComponent#get","Spine.Unity.SkeletonRootMotionBase#init","Spine.Unity.SkeletonRootMotionBase#Reset","Spine.Unity.SkeletonRootMotionBase#Start","Spine.Unity.SkeletonRootMotionBase#FixedUpdate","Spine.Unity.SkeletonRootMotionBase#PhysicsUpdate","Spine.Unity.SkeletonRootMotionBase#OnDisable","Spine.Unity.SkeletonRootMotionBase#FindRigidbodyComponent","Spine.Unity.SkeletonRootMotionBase#CalculateAnimationsRotationDelta","Spine.Unity.SkeletonRootMotionBase#SetRootMotionBone","Spine.Unity.SkeletonRootMotionBase#AdjustRootMotionToDistance","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotion","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotion$1","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotionRotation","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotionRotation$1","Spine.Unity.SkeletonRootMotionBase#ApplyConstraintToPos","Spine.Unity.SkeletonRootMotionBase#ApplyConstraintToRotation","Spine.Unity.SkeletonRootMotionBase#UpdateLastConstraintPos","Spine.Unity.SkeletonRootMotionBase#UpdateLastConstraintRotation","Spine.Unity.SkeletonRootMotionBase#GetAnimationRootMotionInfo","Spine.Unity.SkeletonRootMotionBase#GetConstraintLastPosIndex","Spine.Unity.SkeletonRootMotionBase#FindTransformConstraintsAffectingBone","Spine.Unity.SkeletonRootMotionBase#GetTimelineMovementDelta","Spine.Unity.SkeletonRootMotionBase#GatherTopLevelBones","Spine.Unity.SkeletonRootMotionBase#HandleUpdateLocal","Spine.Unity.SkeletonRootMotionBase#ApplyRootMotion","Spine.Unity.SkeletonRootMotionBase#ApplyTransformConstraints","Spine.Unity.SkeletonRootMotionBase#GetScaleAffectingRootMotion","Spine.Unity.SkeletonRootMotionBase#GetScaleAffectingRootMotion$1","Spine.Unity.SkeletonRootMotionBase#GetSkeletonSpaceMovementDelta","Spine.Unity.SkeletonRootMotionBase#GetSkeletonSpaceRotationDelta","Spine.Unity.SkeletonRootMotionBase#SetEffectiveBoneOffsetsTo","Spine.Unity.SkeletonRootMotionBase#ClearEffectiveBoneOffsets","Spine.Unity.SkeletonRootMotionBase#ClearRigidbodyTempMovement","Spine.Unity.SkeletonPartsRenderer#NewPartsRendererGameObject","Spine.Unity.SkeletonPartsRenderer#MeshGenerator#get","Spine.Unity.SkeletonPartsRenderer#MeshRenderer#get","Spine.Unity.SkeletonPartsRenderer#MeshFilter#get","Spine.Unity.SkeletonPartsRenderer#init","Spine.Unity.SkeletonPartsRenderer#LazyIntialize","Spine.Unity.SkeletonPartsRenderer#OnDestroy","Spine.Unity.SkeletonPartsRenderer#ClearMesh","Spine.Unity.SkeletonPartsRenderer#RenderParts","Spine.Unity.SkeletonPartsRenderer#SetPropertyBlock","Spine.Unity.SkeletonRenderer.SpriteMaskInteractionMaterials#AnyMaterialCreated#get","Spine.Unity.SkeletonRenderer.SpriteMaskInteractionMaterials#init","Spine.Unity.SkeletonRendererCustomMaterials#init","Spine.Unity.SkeletonRendererCustomMaterials#SetCustomSlotMaterials","Spine.Unity.SkeletonRendererCustomMaterials#RemoveCustomSlotMaterials","Spine.Unity.SkeletonRendererCustomMaterials#SetCustomMaterialOverrides","Spine.Unity.SkeletonRendererCustomMaterials#RemoveCustomMaterialOverrides","Spine.Unity.SkeletonRendererCustomMaterials#OnEnable","Spine.Unity.SkeletonRendererCustomMaterials#OnDisable","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#inherits","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#getDefaultValue","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#ctor","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#equalsT","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#getHashCode","Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride#$clone","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#inherits","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#getDefaultValue","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#ctor","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#equalsT","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#getHashCode","Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride#$clone","Spine.Unity.SkeletonRendererInstruction#GeometryNotEqual","Spine.Unity.SkeletonRendererInstruction#init","Spine.Unity.SkeletonRendererInstruction#Clear","Spine.Unity.SkeletonRendererInstruction#Dispose","Spine.Unity.SkeletonRendererInstruction#SetWithSubset","Spine.Unity.SkeletonRendererInstruction#Set","Spine.Unity.SkeletonRenderSeparator#init","Spine.Unity.SkeletonRenderSeparator#AddToSkeletonRenderer","Spine.Unity.SkeletonRenderSeparator#SkeletonRenderer#get","Spine.Unity.SkeletonRenderSeparator#SkeletonRenderer#set","Spine.Unity.SkeletonRenderSeparator#init","Spine.Unity.SkeletonRenderSeparator#AddPartsRenderer","Spine.Unity.SkeletonRenderSeparator#OnEnable","Spine.Unity.SkeletonRenderSeparator#OnDisable","Spine.Unity.SkeletonRenderSeparator#HandleRender","Spine.Unity.SkeletonRenderSeparator#ClearPartsRendererMeshes","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#getDefaultValue","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#init","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#ctor","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#getHashCode","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#equals","Spine.Unity.SkeletonRootMotionBase.RootMotionInfo#$clone","Spine.Unity.SkeletonSubmeshGraphic#SetMaterialDirty","Spine.Unity.SkeletonSubmeshGraphic#SetVerticesDirty","Spine.Unity.SkeletonSubmeshGraphic#OnPopulateMesh","Spine.Unity.SkeletonSubmeshGraphic#OnDisable","Spine.Unity.SkeletonSubmeshGraphic#OnEnable","Spine.Unity.SkeletonUtility#AddBoundingBoxGameObject","Spine.Unity.SkeletonUtility#AddBoundingBoxGameObject$1","Spine.Unity.SkeletonUtility#AddBoundingBoxAsComponent","Spine.Unity.SkeletonUtility#SetColliderPointsLocal","Spine.Unity.SkeletonUtility#GetBoundingBoxBounds","Spine.Unity.SkeletonUtility#AddBoneRigidbody2D","Spine.Unity.SkeletonUtility#SkeletonComponent#get","Spine.Unity.SkeletonUtility#Skeleton#get","Spine.Unity.SkeletonUtility#IsValid#get","Spine.Unity.SkeletonUtility#PositionScale#get","Spine.Unity.SkeletonUtility#init","Spine.Unity.SkeletonUtility#Update","Spine.Unity.SkeletonUtility#ResubscribeEvents","Spine.Unity.SkeletonUtility#OnEnable","Spine.Unity.SkeletonUtility#Start","Spine.Unity.SkeletonUtility#OnDisable","Spine.Unity.SkeletonUtility#HandleRendererReset$1","Spine.Unity.SkeletonUtility#HandleRendererReset","Spine.Unity.SkeletonUtility#RegisterBone","Spine.Unity.SkeletonUtility#UnregisterBone","Spine.Unity.SkeletonUtility#RegisterConstraint","Spine.Unity.SkeletonUtility#UnregisterConstraint","Spine.Unity.SkeletonUtility#CollectBones","Spine.Unity.SkeletonUtility#UpdateLocal","Spine.Unity.SkeletonUtility#UpdateWorld","Spine.Unity.SkeletonUtility#UpdateComplete","Spine.Unity.SkeletonUtility#UpdateAllBones","Spine.Unity.SkeletonUtility#GetBoneRoot","Spine.Unity.SkeletonUtility#SpawnRoot","Spine.Unity.SkeletonUtility#SpawnHierarchy","Spine.Unity.SkeletonUtility#SpawnBoneRecursively","Spine.Unity.SkeletonUtility#SpawnBone","Spine.Unity.SkeletonUtilityBone#BoneTransformModeIncompatible","Spine.Unity.SkeletonUtilityBone#IncompatibleTransformMode#get","Spine.Unity.SkeletonUtilityBone#init","Spine.Unity.SkeletonUtilityBone#Reset","Spine.Unity.SkeletonUtilityBone#OnEnable","Spine.Unity.SkeletonUtilityBone#HandleOnReset","Spine.Unity.SkeletonUtilityBone#OnDisable","Spine.Unity.SkeletonUtilityBone#DoUpdate","Spine.Unity.SkeletonUtilityBone#AddBoundingBox","Spine.Unity.SkeletonUtilityConstraint#OnEnable","Spine.Unity.SkeletonUtilityConstraint#OnDisable","Spine.Unity.SpineAttributeBase#init","Spine.Unity.SpineAtlasRegion#ctor","Spine.Unity.SpineAttachment.Hierarchy#getDefaultValue","Spine.Unity.SpineAttachment.Hierarchy#$ctor1","Spine.Unity.SpineAttachment.Hierarchy#ctor","Spine.Unity.SpineAttachment.Hierarchy#getHashCode","Spine.Unity.SpineAttachment.Hierarchy#equals","Spine.Unity.SpineAttachment.Hierarchy#$clone","Spine.Unity.SpineMesh#init","Spine.Unity.SpineMesh#NewSkeletonMesh","Spine.Unity.SubmeshInstruction#getDefaultValue","Spine.Unity.SubmeshInstruction#SlotCount#get","Spine.Unity.SubmeshInstruction#ctor","Spine.Unity.SubmeshInstruction#toString","Spine.Unity.SubmeshInstruction#getHashCode","Spine.Unity.SubmeshInstruction#equals","Spine.Unity.SubmeshInstruction#$clone","Spine.Unity.WaitForSpineEvent#WillUnsubscribeAfterFiring#get","Spine.Unity.WaitForSpineEvent#WillUnsubscribeAfterFiring#set","Spine.Unity.WaitForSpineEvent#System$Collections$IEnumerator$Current#get","Spine.Unity.WaitForSpineEvent#init","Spine.Unity.WaitForSpineEvent#ctor","Spine.Unity.WaitForSpineEvent#$ctor2","Spine.Unity.WaitForSpineEvent#$ctor1","Spine.Unity.WaitForSpineEvent#$ctor3","Spine.Unity.WaitForSpineEvent#Subscribe","Spine.Unity.WaitForSpineEvent#SubscribeByName","Spine.Unity.WaitForSpineEvent#HandleAnimationStateEventByName","Spine.Unity.WaitForSpineEvent#HandleAnimationStateEvent","Spine.Unity.WaitForSpineEvent#NowWaitFor","Spine.Unity.WaitForSpineEvent#NowWaitFor$1","Spine.Unity.WaitForSpineEvent#Clear","Spine.Unity.WaitForSpineEvent#System$Collections$IEnumerator$moveNext","Spine.Unity.WaitForSpineEvent#System$Collections$IEnumerator$reset","Spine.Unity.BlendModeMaterialsAsset#ApplyMaterials","Spine.Unity.BlendModeMaterialsAsset#init","Spine.Unity.BlendModeMaterialsAsset#Apply","Spine.Unity.SkeletonMecanimRootMotion#init","Spine.Unity.SkeletonMecanimRootMotion#SkeletonMecanim#get","Spine.Unity.SkeletonMecanimRootMotion#init","Spine.Unity.SkeletonMecanimRootMotion#GetRemainingRootMotion","Spine.Unity.SkeletonMecanimRootMotion#GetRootMotionInfo","Spine.Unity.SkeletonMecanimRootMotion#Reset","Spine.Unity.SkeletonMecanimRootMotion#Start","Spine.Unity.SkeletonMecanimRootMotion#OnClipApplied","Spine.Unity.SkeletonMecanimRootMotion#CalculateAnimationsMovementDelta","Spine.Unity.SkeletonMecanimRootMotion#CalculateAnimationsRotationDelta","Spine.Unity.SkeletonRootMotion#init","Spine.Unity.SkeletonRootMotion#AdditionalScale#get","Spine.Unity.SkeletonRootMotion#init","Spine.Unity.SkeletonRootMotion#GetRemainingRootMotion","Spine.Unity.SkeletonRootMotion#GetRootMotionInfo","Spine.Unity.SkeletonRootMotion#Reset","Spine.Unity.SkeletonRootMotion#Start","Spine.Unity.SkeletonRootMotion#CalculateAnimationsMovementDelta","Spine.Unity.SkeletonRootMotion#CalculateAnimationsRotationDelta","Spine.Unity.SkeletonRootMotion#ApplyMixAlphaToDelta$1","Spine.Unity.SkeletonRootMotion#ApplyMixAlphaToDelta","Spine.Unity.SkeletonRootMotion#GetMixAlpha","Spine.Unity.SpineAnimation#ctor","Spine.Unity.SpineAtlasAsset#CreateRuntimeInstance","Spine.Unity.SpineAtlasAsset#CreateRuntimeInstance$1","Spine.Unity.SpineAtlasAsset#CreateRuntimeInstance$2","Spine.Unity.SpineAtlasAsset#IsLoaded#get","Spine.Unity.SpineAtlasAsset#Materials#get","Spine.Unity.SpineAtlasAsset#MaterialCount#get","Spine.Unity.SpineAtlasAsset#PrimaryMaterial#get","Spine.Unity.SpineAtlasAsset#Reset","Spine.Unity.SpineAtlasAsset#Clear","Spine.Unity.SpineAtlasAsset#GetAtlas","Spine.Unity.SpineAtlasAsset#GenerateMesh","Spine.Unity.SpineAttachment#getHierarchy","Spine.Unity.SpineAttachment#getAttachment","Spine.Unity.SpineAttachment#getAttachment$1","Spine.Unity.SpineAttachment#init","Spine.Unity.SpineAttachment#ctor","Spine.Unity.SpineBone#getBone","Spine.Unity.SpineBone#getBoneData","Spine.Unity.SpineBone#ctor","Spine.Unity.SpineEvent#init","Spine.Unity.SpineEvent#ctor","Spine.Unity.SpineIkConstraint#ctor","Spine.Unity.SpinePathConstraint#ctor","Spine.Unity.SpineSkin#init","Spine.Unity.SpineSkin#ctor","Spine.Unity.SpineSlot#init","Spine.Unity.SpineSlot#ctor","Spine.Unity.SpineSpriteAtlasAsset#CreateRuntimeInstance","Spine.Unity.SpineSpriteAtlasAsset#AccessPackedTexture","Spine.Unity.SpineSpriteAtlasAsset#AccessPackedSprites","Spine.Unity.SpineSpriteAtlasAsset#IsLoaded#get","Spine.Unity.SpineSpriteAtlasAsset#Materials#get","Spine.Unity.SpineSpriteAtlasAsset#MaterialCount#get","Spine.Unity.SpineSpriteAtlasAsset#PrimaryMaterial#get","Spine.Unity.SpineSpriteAtlasAsset#Reset","Spine.Unity.SpineSpriteAtlasAsset#Clear","Spine.Unity.SpineSpriteAtlasAsset#GetAtlas","Spine.Unity.SpineSpriteAtlasAsset#AssignRegionsFromSavedRegions","Spine.Unity.SpineSpriteAtlasAsset#LoadAtlas","Spine.Unity.SpineTransformConstraint#ctor","Spine.Unity.AnimationReferenceAsset#init","Spine.Unity.AnimationReferenceAsset#op_Implicit","Spine.Unity.AnimationReferenceAsset#SkeletonDataAsset#get","Spine.Unity.AnimationReferenceAsset#Animation#get","Spine.Unity.AnimationReferenceAsset#Clear","Spine.Unity.AnimationReferenceAsset#Initialize","Spine.Unity.PointFollower#SkeletonRenderer#get","Spine.Unity.PointFollower#SkeletonComponent#get","Spine.Unity.PointFollower#IsValid#get","Spine.Unity.PointFollower#init","Spine.Unity.PointFollower#Initialize","Spine.Unity.PointFollower#HandleRebuildRenderer","Spine.Unity.PointFollower#UpdateReferences","Spine.Unity.PointFollower#OnDestroy","Spine.Unity.PointFollower#LateUpdate","Spine.Unity.SkeletonRenderer#init","Spine.Unity.SkeletonRenderer#NewSpineGameObject","Spine.Unity.SkeletonRenderer#AddSpineComponent","Spine.Unity.SkeletonRenderer#UpdateMode#get","Spine.Unity.SkeletonRenderer#UpdateMode#set","Spine.Unity.SkeletonRenderer#CustomMaterialOverride#get","Spine.Unity.SkeletonRenderer#CustomSlotMaterials#get","Spine.Unity.SkeletonRenderer#Skeleton#get","Spine.Unity.SkeletonRenderer#SkeletonDataAsset#get","Spine.Unity.SkeletonRenderer#init","Spine.Unity.SkeletonRenderer#addGenerateMeshOverride","Spine.Unity.SkeletonRenderer#removeGenerateMeshOverride","Spine.Unity.SkeletonRenderer#SetMeshSettings","Spine.Unity.SkeletonRenderer#Awake","Spine.Unity.SkeletonRenderer#OnDisable","Spine.Unity.SkeletonRenderer#OnDestroy","Spine.Unity.SkeletonRenderer#ClearState","Spine.Unity.SkeletonRenderer#EnsureMeshGeneratorCapacity","Spine.Unity.SkeletonRenderer#Initialize","Spine.Unity.SkeletonRenderer#LateUpdate","Spine.Unity.SkeletonRenderer#LateUpdateMesh","Spine.Unity.SkeletonRenderer#OnBecameVisible","Spine.Unity.SkeletonRenderer#OnBecameInvisible","Spine.Unity.SkeletonRenderer#FindAndApplySeparatorSlots$1","Spine.Unity.SkeletonRenderer#FindAndApplySeparatorSlots","Spine.Unity.SkeletonRenderer#ReapplySeparatorSlotNames","Spine.Unity.SkeletonRenderer#AssignSpriteMaskMaterials","Spine.Unity.SkeletonRenderer#InitSpriteMaskMaterialsInsideMask","Spine.Unity.SkeletonRenderer#InitSpriteMaskMaterialsOutsideMask","Spine.Unity.SkeletonRenderer#InitSpriteMaskMaterialsForMaskType","Spine.Unity.SkeletonRenderer#HandleOnDemandLoading","Spine.Unity.SkeletonRenderer#SetMaterialSettingsToFixDrawOrder","Spine.Unity.SkeletonGraphic#init","Spine.Unity.SkeletonGraphic#NewSkeletonGraphicGameObject","Spine.Unity.SkeletonGraphic#AddSkeletonGraphicComponent","Spine.Unity.SkeletonGraphic#SetRectTransformSize$1","Spine.Unity.SkeletonGraphic#SetRectTransformSize","Spine.Unity.SkeletonGraphic#SkeletonDataAsset#get","Spine.Unity.SkeletonGraphic#MeshScale#get","Spine.Unity.SkeletonGraphic#UpdateMode#get","Spine.Unity.SkeletonGraphic#UpdateMode#set","Spine.Unity.SkeletonGraphic#SeparatorParts#get","Spine.Unity.SkeletonGraphic#CustomTextureOverride#get","Spine.Unity.SkeletonGraphic#CustomMaterialOverride#get","Spine.Unity.SkeletonGraphic#OverrideTexture#get","Spine.Unity.SkeletonGraphic#OverrideTexture#set","Spine.Unity.SkeletonGraphic#mainTexture#get","Spine.Unity.SkeletonGraphic#Skeleton#get","Spine.Unity.SkeletonGraphic#Skeleton#set","Spine.Unity.SkeletonGraphic#SkeletonData#get","Spine.Unity.SkeletonGraphic#IsValid#get","Spine.Unity.SkeletonGraphic#AnimationState#get","Spine.Unity.SkeletonGraphic#MeshGenerator#get","Spine.Unity.SkeletonGraphic#MeshesMultipleCanvasRenderers#get","Spine.Unity.SkeletonGraphic#MaterialsMultipleCanvasRenderers#get","Spine.Unity.SkeletonGraphic#TexturesMultipleCanvasRenderers#get","Spine.Unity.SkeletonGraphic#UpdateTiming#get","Spine.Unity.SkeletonGraphic#UpdateTiming#set","Spine.Unity.SkeletonGraphic#UnscaledTime#get","Spine.Unity.SkeletonGraphic#UnscaledTime#set","Spine.Unity.SkeletonGraphic#init","Spine.Unity.SkeletonGraphic#addAssignMeshOverrideSingleRenderer","Spine.Unity.SkeletonGraphic#removeAssignMeshOverrideSingleRenderer","Spine.Unity.SkeletonGraphic#addAssignMeshOverrideMultipleRenderers","Spine.Unity.SkeletonGraphic#removeAssignMeshOverrideMultipleRenderers","Spine.Unity.SkeletonGraphic#Awake","Spine.Unity.SkeletonGraphic#OnDestroy","Spine.Unity.SkeletonGraphic#Rebuild","Spine.Unity.SkeletonGraphic#OnDisable","Spine.Unity.SkeletonGraphic#Update","Spine.Unity.SkeletonGraphic#Update$1","Spine.Unity.SkeletonGraphic#FixedUpdate","Spine.Unity.SkeletonGraphic#SyncSubmeshGraphicsWithCanvasRenderers","Spine.Unity.SkeletonGraphic#UpdateAnimationStatus","Spine.Unity.SkeletonGraphic#ApplyAnimation","Spine.Unity.SkeletonGraphic#AfterAnimationApplied","Spine.Unity.SkeletonGraphic#LateUpdate","Spine.Unity.SkeletonGraphic#OnCullStateChanged","Spine.Unity.SkeletonGraphic#OnBecameVisible","Spine.Unity.SkeletonGraphic#OnBecameInvisible","Spine.Unity.SkeletonGraphic#ReapplySeparatorSlotNames","Spine.Unity.SkeletonGraphic#GetLastMesh","Spine.Unity.SkeletonGraphic#MatchRectTransformWithBounds","Spine.Unity.SkeletonGraphic#MatchRectTransformSingleRenderer","Spine.Unity.SkeletonGraphic#MatchRectTransformMultipleRenderers","Spine.Unity.SkeletonGraphic#SetRectTransformBounds","Spine.Unity.SkeletonGraphic#Clear","Spine.Unity.SkeletonGraphic#TrimRenderers","Spine.Unity.SkeletonGraphic#Initialize","Spine.Unity.SkeletonGraphic#PrepareInstructionsAndRenderers","Spine.Unity.SkeletonGraphic#UpdateMesh","Spine.Unity.SkeletonGraphic#UpdateMeshToInstructions","Spine.Unity.SkeletonGraphic#HasMultipleSubmeshInstructions","Spine.Unity.SkeletonGraphic#InitMeshBuffers","Spine.Unity.SkeletonGraphic#DisposeMeshBuffers","Spine.Unity.SkeletonGraphic#UpdateMeshSingleCanvasRenderer","Spine.Unity.SkeletonGraphic#UpdateMaterialsMultipleCanvasRenderers","Spine.Unity.SkeletonGraphic#UpdateMeshMultipleCanvasRenderers","Spine.Unity.SkeletonGraphic#HandleOnDemandLoading","Spine.Unity.SkeletonGraphic#EnsureCanvasRendererCount","Spine.Unity.SkeletonGraphic#PrepareRendererGameObjects","Spine.Unity.SkeletonGraphic#DisableUnusedCanvasRenderers","Spine.Unity.SkeletonGraphic#EnsureMeshesCount","Spine.Unity.SkeletonGraphic#EnsureUsedTexturesAndMaterialsCount","Spine.Unity.SkeletonGraphic#DestroyMeshes","Spine.Unity.SkeletonGraphic#EnsureSeparatorPartCount","Spine.Unity.SkeletonGraphic#UpdateSeparatorPartParents","Spine.Unity.SkeletonGraphic#GetLayoutScale","Spine.Unity.SkeletonGraphic#GetCurrentRectSize","Spine.Unity.SkeletonAnimation#AddToGameObject","Spine.Unity.SkeletonAnimation#NewSkeletonAnimationGameObject","Spine.Unity.SkeletonAnimation#AnimationState#get","Spine.Unity.SkeletonAnimation#UpdateTiming#get","Spine.Unity.SkeletonAnimation#UpdateTiming#set","Spine.Unity.SkeletonAnimation#UnscaledTime#get","Spine.Unity.SkeletonAnimation#UnscaledTime#set","Spine.Unity.SkeletonAnimation#AnimationName#get","Spine.Unity.SkeletonAnimation#AnimationName#set","Spine.Unity.SkeletonAnimation#init","Spine.Unity.SkeletonAnimation#addOnAnimationRebuild","Spine.Unity.SkeletonAnimation#removeOnAnimationRebuild","Spine.Unity.SkeletonAnimation#addBeforeApply","Spine.Unity.SkeletonAnimation#removeBeforeApply","Spine.Unity.SkeletonAnimation#addUpdateLocal","Spine.Unity.SkeletonAnimation#removeUpdateLocal","Spine.Unity.SkeletonAnimation#addUpdateWorld","Spine.Unity.SkeletonAnimation#removeUpdateWorld","Spine.Unity.SkeletonAnimation#addUpdateComplete","Spine.Unity.SkeletonAnimation#removeUpdateComplete","Spine.Unity.SkeletonAnimation#ClearState","Spine.Unity.SkeletonAnimation#Initialize","Spine.Unity.SkeletonAnimation#Update$1","Spine.Unity.SkeletonAnimation#Update","Spine.Unity.SkeletonAnimation#FixedUpdate","Spine.Unity.SkeletonAnimation#UpdateAnimationStatus","Spine.Unity.SkeletonAnimation#ApplyAnimation","Spine.Unity.SkeletonAnimation#AfterAnimationApplied","Spine.Unity.SkeletonAnimation#LateUpdate","Spine.Unity.SkeletonAnimation#OnBecameVisible","Spine.Unity.SkeletonMecanim#Translator#get","Spine.Unity.SkeletonMecanim#UpdateTiming#get","Spine.Unity.SkeletonMecanim#UpdateTiming#set","Spine.Unity.SkeletonMecanim#init","Spine.Unity.SkeletonMecanim#addOnAnimationRebuild","Spine.Unity.SkeletonMecanim#removeOnAnimationRebuild","Spine.Unity.SkeletonMecanim#addBeforeApply","Spine.Unity.SkeletonMecanim#removeBeforeApply","Spine.Unity.SkeletonMecanim#addUpdateLocal","Spine.Unity.SkeletonMecanim#removeUpdateLocal","Spine.Unity.SkeletonMecanim#addUpdateWorld","Spine.Unity.SkeletonMecanim#removeUpdateWorld","Spine.Unity.SkeletonMecanim#addUpdateComplete","Spine.Unity.SkeletonMecanim#removeUpdateComplete","Spine.Unity.SkeletonMecanim#Initialize","Spine.Unity.SkeletonMecanim#Update","Spine.Unity.SkeletonMecanim#Update$1","Spine.Unity.SkeletonMecanim#FixedUpdate","Spine.Unity.SkeletonMecanim#UpdateAnimation","Spine.Unity.SkeletonMecanim#ApplyAnimation","Spine.Unity.SkeletonMecanim#LateUpdate","Spine.Unity.SkeletonMecanim#OnBecameVisible"]' ) ); }
 /**
- * @version 1.0.9237.27356
+ * @version 1.0.9237.29781
  * @copyright anton
  * @compiler Bridge.NET 17.9.42-luna
  */
 Bridge.assembly("UnityScriptsCompiler", function ($asm, globals) {
     "use strict";
+
+    /** @namespace System */
+
+    /**
+     * @memberof System
+     * @callback System.Action
+     * @param   {DG.Tweening.DOTweenAnimation}    arg
+     * @return  {void}
+     */
+
+    /*DG.Tweening.DOTweenAnimation start.*/
+    /** @namespace DG.Tweening */
+
+    /**
+     * Attach this to a GameObject to create a tween
+     *
+     * @public
+     * @class DG.Tweening.DOTweenAnimation
+     * @augments DG.Tweening.Core.ABSAnimationComponent
+     */
+    Bridge.define("DG.Tweening.DOTweenAnimation", {
+        inherits: [DG.Tweening.Core.ABSAnimationComponent],
+        statics: {
+            events: {
+                /**
+                 * Used internally by the editor
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenAnimation
+                 * @memberof DG.Tweening.DOTweenAnimation
+                 * @function addOnReset
+                 * @param   {System.Action}    value
+                 * @return  {void}
+                 */
+                /**
+                 * Used internally by the editor
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenAnimation
+                 * @memberof DG.Tweening.DOTweenAnimation
+                 * @function removeOnReset
+                 * @param   {System.Action}    value
+                 * @return  {void}
+                 */
+                OnReset: null
+            },
+            methods: {
+                /*DG.Tweening.DOTweenAnimation.Dispatch_OnReset:static start.*/
+                Dispatch_OnReset: function (anim) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#Dispatch_OnReset", this ); }
+
+                    if (!Bridge.staticEquals(DG.Tweening.DOTweenAnimation.OnReset, null)) {
+                        DG.Tweening.DOTweenAnimation.OnReset(anim);
+                    }
+                },
+                /*DG.Tweening.DOTweenAnimation.Dispatch_OnReset:static end.*/
+
+                /*DG.Tweening.DOTweenAnimation.TypeToDOTargetType:static start.*/
+                TypeToDOTargetType: function (t) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#TypeToDOTargetType", this ); }
+
+                    var str = Bridge.getTypeName(t);
+                    var dotIndex = str.lastIndexOf(".");
+                    if (dotIndex !== -1) {
+                        str = str.substr(((dotIndex + 1) | 0));
+                    }
+                    if (System.String.indexOf(str, "Renderer") !== -1 && (!Bridge.referenceEquals(str, "SpriteRenderer"))) {
+                        str = "Renderer";
+                    }
+                    //#if true // PHYSICS_MARKER
+                    //            if (str == "Rigidbody") str = "Transform";
+                    //#endif
+                    //#if true // PHYSICS2D_MARKER
+                    //            if (str == "Rigidbody2D") str = "Transform";
+                    //#endif
+                    //            if (str == "RectTransform") str = "Transform";
+                    if (Bridge.referenceEquals(str, "RawImage") || Bridge.referenceEquals(str, "Graphic")) {
+                        str = "Image";
+                    } // RawImages/Graphics are managed like Images for DOTweenAnimation (color and fade use Graphic target anyway)
+                    return System.Nullable.getValue(Bridge.cast(Bridge.unbox(System.Enum.parse(DG.Tweening.DOTweenAnimation.TargetType, str), DG.Tweening.DOTweenAnimation.TargetType), System.Int32));
+                },
+                /*DG.Tweening.DOTweenAnimation.TypeToDOTargetType:static end.*/
+
+
+            }
+        },
+        fields: {
+            targetIsSelf: false,
+            targetGO: null,
+            tweenTargetIsTargetGO: false,
+            delay: 0,
+            duration: 0,
+            easeType: 0,
+            easeCurve: null,
+            loopType: 0,
+            loops: 0,
+            id: null,
+            isRelative: false,
+            isFrom: false,
+            isIndependentUpdate: false,
+            autoKill: false,
+            autoGenerate: false,
+            isActive: false,
+            isValid: false,
+            target: null,
+            animationType: 0,
+            targetType: 0,
+            forcedTargetType: 0,
+            autoPlay: false,
+            useTargetAsV3: false,
+            endValueFloat: 0,
+            endValueV3: null,
+            endValueV2: null,
+            endValueColor: null,
+            endValueString: null,
+            endValueRect: null,
+            endValueTransform: null,
+            optionalBool0: false,
+            optionalBool1: false,
+            optionalFloat0: 0,
+            optionalInt0: 0,
+            optionalRotationMode: 0,
+            optionalScrambleMode: 0,
+            optionalShakeRandomnessMode: 0,
+            optionalString: null,
+            _tweenAutoGenerationCalled: false,
+            _playCount: 0
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#init", this ); }
+
+                this.endValueV3 = new UnityEngine.Vector3();
+                this.endValueV2 = new UnityEngine.Vector2();
+                this.endValueColor = new UnityEngine.Color();
+                this.endValueRect = new UnityEngine.Rect();
+                this.targetIsSelf = true;
+                this.tweenTargetIsTargetGO = true;
+                this.duration = 1;
+                this.easeType = DG.Tweening.Ease.OutQuad;
+                this.easeCurve = new pc.AnimationCurve({keyframes: [ new pc.Keyframe(0, 0, 0, 0), new pc.Keyframe(1, 1, 0, 0) ]});
+                this.loopType = DG.Tweening.LoopType.Restart;
+                this.loops = 1;
+                this.id = "";
+                this.isIndependentUpdate = false;
+                this.autoKill = true;
+                this.autoGenerate = true;
+                this.isActive = true;
+                this.autoPlay = true;
+                this.endValueColor = new pc.Color( 1, 1, 1, 1 );
+                this.endValueString = "";
+                this.endValueRect = new UnityEngine.Rect.$ctor1(0, 0, 0, 0);
+                this.optionalRotationMode = DG.Tweening.RotateMode.Fast;
+                this.optionalScrambleMode = DG.Tweening.ScrambleMode.None;
+                this.optionalShakeRandomnessMode = DG.Tweening.ShakeRandomnessMode.Full;
+                this._playCount = -1;
+            }
+        },
+        methods: {
+            /*DG.Tweening.DOTweenAnimation.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#Awake", this ); }
+
+                if (!this.isActive || !this.autoGenerate) {
+                    return;
+                }
+
+                if (this.animationType !== DG.Tweening.DOTweenAnimation.AnimationType.Move || !this.useTargetAsV3) {
+                    // Don't create tweens if we're using a RectTransform as a Move target,
+                    // because that will work only inside Start
+                    this.CreateTween(false, this.autoPlay);
+                    this._tweenAutoGenerationCalled = true;
+                }
+            },
+            /*DG.Tweening.DOTweenAnimation.Awake end.*/
+
+            /*DG.Tweening.DOTweenAnimation.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#Start", this ); }
+
+                if (this._tweenAutoGenerationCalled || !this.isActive || !this.autoGenerate) {
+                    return;
+                }
+
+                this.CreateTween(false, this.autoPlay);
+                this._tweenAutoGenerationCalled = true;
+            },
+            /*DG.Tweening.DOTweenAnimation.Start end.*/
+
+            /*DG.Tweening.DOTweenAnimation.Reset start.*/
+            Reset: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#Reset", this ); }
+
+                DG.Tweening.DOTweenAnimation.Dispatch_OnReset(this);
+            },
+            /*DG.Tweening.DOTweenAnimation.Reset end.*/
+
+            /*DG.Tweening.DOTweenAnimation.OnDestroy start.*/
+            OnDestroy: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#OnDestroy", this ); }
+
+                if (this.tween != null && this.tween.active) {
+                    DG.Tweening.TweenExtensions.Kill(this.tween);
+                }
+                this.tween = null;
+            },
+            /*DG.Tweening.DOTweenAnimation.OnDestroy end.*/
+
+            /*DG.Tweening.DOTweenAnimation.RewindThenRecreateTween start.*/
+            /**
+             * Creates/recreates the tween without playing it, but first rewinding and killing the existing one if present.
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            RewindThenRecreateTween: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#RewindThenRecreateTween", this ); }
+
+                if (this.tween != null && this.tween.active) {
+                    DG.Tweening.TweenExtensions.Rewind(this.tween);
+                }
+                this.CreateTween(true, false);
+            },
+            /*DG.Tweening.DOTweenAnimation.RewindThenRecreateTween end.*/
+
+            /*DG.Tweening.DOTweenAnimation.RewindThenRecreateTweenAndPlay start.*/
+            /**
+             * Creates/recreates the tween and plays it, first rewinding and killing the existing one if present.
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            RewindThenRecreateTweenAndPlay: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#RewindThenRecreateTweenAndPlay", this ); }
+
+                if (this.tween != null && this.tween.active) {
+                    DG.Tweening.TweenExtensions.Rewind(this.tween);
+                }
+                this.CreateTween(true, true);
+            },
+            /*DG.Tweening.DOTweenAnimation.RewindThenRecreateTweenAndPlay end.*/
+
+            /*DG.Tweening.DOTweenAnimation.RecreateTween start.*/
+            /**
+             * Creates/recreates the tween from its target's current value without playing it, but first killing the existing one if present.
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            RecreateTween: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#RecreateTween", this ); }
+
+                this.CreateTween(true, false);
+            },
+            /*DG.Tweening.DOTweenAnimation.RecreateTween end.*/
+
+            /*DG.Tweening.DOTweenAnimation.RecreateTweenAndPlay start.*/
+            /**
+             * Creates/recreates the tween from its target's current value and plays it, first killing the existing one if present.
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            RecreateTweenAndPlay: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#RecreateTweenAndPlay", this ); }
+
+                this.CreateTween(true, true);
+            },
+            /*DG.Tweening.DOTweenAnimation.RecreateTweenAndPlay end.*/
+
+            /*DG.Tweening.DOTweenAnimation.CreateTween start.*/
+            /**
+             * Creates the tween manually (called automatically if AutoGenerate is set in the Inspector)
+             from its target's current value.
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {boolean}    regenerateIfExists    If TRUE and an existing tween was already created (and not killed), kills it and recreates it with the current
+             parameters. Otherwise, if a tween already exists, does nothing.
+             * @param   {boolean}    andPlay               If TRUE also plays the tween, otherwise only creates it
+             * @return  {void}
+             */
+            CreateTween: function (regenerateIfExists, andPlay) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#CreateTween", this ); }
+
+                if (regenerateIfExists === void 0) { regenerateIfExists = false; }
+                if (andPlay === void 0) { andPlay = true; }
+                if (!this.isValid) {
+                    if (regenerateIfExists) { // Called manually: warn users
+                        UnityEngine.Debug.LogWarning$1(System.String.format("{0} :: This DOTweenAnimation isn't valid and its tween won't be created", [this.gameObject.name]), this.gameObject);
+                    }
+                    return;
+                }
+                if (this.tween != null) {
+                    if (this.tween.active) {
+                        if (regenerateIfExists) {
+                            DG.Tweening.TweenExtensions.Kill(this.tween);
+                        } else {
+                            return;
+                        }
+                    }
+                    this.tween = null;
+                }
+
+                //            if (target == null) {
+                //                Debug.LogWarning(string.Format("{0} :: This DOTweenAnimation's target is NULL, because the animation was created with a DOTween Pro version older than 0.9.255. To fix this, exit Play mode then simply select this object, and it will update automatically", this.gameObject.name), this.gameObject);
+                //                return;
+                //            }
+
+                var tweenGO = this.GetTweenGO();
+                if (UnityEngine.Component.op_Equality(this.target, null) || UnityEngine.GameObject.op_Equality(tweenGO, null)) {
+                    if (this.targetIsSelf && UnityEngine.Component.op_Equality(this.target, null)) {
+                        // Old error caused during upgrade from DOTween Pro 0.9.255
+                        UnityEngine.Debug.LogWarning$1(System.String.format("{0} :: This DOTweenAnimation's target is NULL, because the animation was created with a DOTween Pro version older than 0.9.255. To fix this, exit Play mode then simply select this object, and it will update automatically", [this.gameObject.name]), this.gameObject);
+                    } else {
+                        // Missing non-self target
+                        UnityEngine.Debug.LogWarning$1(System.String.format("{0} :: This DOTweenAnimation's target/GameObject is unset: the tween will not be created.", [this.gameObject.name]), this.gameObject);
+                    }
+                    return;
+                }
+
+                if (this.forcedTargetType !== DG.Tweening.DOTweenAnimation.TargetType.Unset) {
+                    this.targetType = this.forcedTargetType;
+                }
+                if (this.targetType === DG.Tweening.DOTweenAnimation.TargetType.Unset) {
+                    // Legacy DOTweenAnimation (made with a version older than 0.9.450) without stored targetType > assign it now
+                    this.targetType = DG.Tweening.DOTweenAnimation.TypeToDOTargetType(Bridge.getType(this.target));
+                }
+
+                switch (this.animationType) {
+                    case DG.Tweening.DOTweenAnimation.AnimationType.None: 
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.Move: 
+                        if (this.useTargetAsV3) {
+                            this.isRelative = false;
+                            if (UnityEngine.Component.op_Equality(this.endValueTransform, null)) {
+                                UnityEngine.Debug.LogWarning$1(System.String.format("{0} :: This tween's TO target is NULL, a Vector3 of (0,0,0) will be used instead", [this.gameObject.name]), this.gameObject);
+                                this.endValueV3 = pc.Vec3.ZERO.clone();
+                            } else {
+                                if (this.targetType === DG.Tweening.DOTweenAnimation.TargetType.RectTransform) {
+                                    var endValueT = Bridge.as(this.endValueTransform, UnityEngine.RectTransform);
+                                    if (UnityEngine.Component.op_Equality(endValueT, null)) {
+                                        UnityEngine.Debug.LogWarning$1(System.String.format("{0} :: This tween's TO target should be a RectTransform, a Vector3 of (0,0,0) will be used instead", [this.gameObject.name]), this.gameObject);
+                                        this.endValueV3 = pc.Vec3.ZERO.clone();
+                                    } else {
+                                        var rTarget = Bridge.as(this.target, UnityEngine.RectTransform);
+                                        if (UnityEngine.Component.op_Equality(rTarget, null)) {
+                                            UnityEngine.Debug.LogWarning$1(System.String.format("{0} :: This tween's target and TO target are not of the same type. Please reassign the values", [this.gameObject.name]), this.gameObject);
+                                        } else {
+                                            // Problem: doesn't work inside Awake (ararargh!)
+                                            this.endValueV3 = UnityEngine.Vector3.FromVector2(DG.Tweening.DOTweenModuleUI.Utils.SwitchToRectTransform(endValueT, rTarget));
+                                        }
+                                    }
+                                } else {
+                                    this.endValueV3 = this.endValueTransform.position.$clone();
+                                }
+                            }
+                        }
+                        switch (this.targetType) {
+                            case DG.Tweening.DOTweenAnimation.TargetType.Transform: 
+                                this.tween = DG.Tweening.ShortcutExtensions.DOMove(Bridge.cast(this.target, UnityEngine.Transform), this.endValueV3.$clone(), this.duration, this.optionalBool0);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.RectTransform: 
+                                this.tween = DG.Tweening.DOTweenModuleUI.DOAnchorPos3D(Bridge.cast(this.target, UnityEngine.RectTransform), this.endValueV3.$clone(), this.duration, this.optionalBool0);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.Rigidbody: 
+                                this.tween = DG.Tweening.DOTweenModulePhysics.DOMove(Bridge.cast(this.target, UnityEngine.Rigidbody), this.endValueV3.$clone(), this.duration, this.optionalBool0);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.Rigidbody2D: 
+                                this.tween = DG.Tweening.DOTweenModulePhysics2D.DOMove(Bridge.cast(this.target, UnityEngine.Rigidbody2D), UnityEngine.Vector2.FromVector3(this.endValueV3.$clone()), this.duration, this.optionalBool0);
+                                break;
+                        }
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.LocalMove: 
+                        this.tween = DG.Tweening.ShortcutExtensions.DOLocalMove(tweenGO.transform, this.endValueV3.$clone(), this.duration, this.optionalBool0);
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.Rotate: 
+                        switch (this.targetType) {
+                            case DG.Tweening.DOTweenAnimation.TargetType.Transform: 
+                                this.tween = DG.Tweening.ShortcutExtensions.DORotate(Bridge.cast(this.target, UnityEngine.Transform), this.endValueV3.$clone(), this.duration, this.optionalRotationMode);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.Rigidbody: 
+                                this.tween = DG.Tweening.DOTweenModulePhysics.DORotate(Bridge.cast(this.target, UnityEngine.Rigidbody), this.endValueV3.$clone(), this.duration, this.optionalRotationMode);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.Rigidbody2D: 
+                                this.tween = DG.Tweening.DOTweenModulePhysics2D.DORotate(Bridge.cast(this.target, UnityEngine.Rigidbody2D), this.endValueFloat, this.duration);
+                                break;
+                        }
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.LocalRotate: 
+                        this.tween = DG.Tweening.ShortcutExtensions.DOLocalRotate(tweenGO.transform, this.endValueV3.$clone(), this.duration, this.optionalRotationMode);
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.Scale: 
+                        switch (this.targetType) {
+                            default: 
+                                this.tween = DG.Tweening.ShortcutExtensions.DOScale$1(tweenGO.transform, this.optionalBool0 ? new pc.Vec3( this.endValueFloat, this.endValueFloat, this.endValueFloat ) : this.endValueV3.$clone(), this.duration);
+                                break;
+                        }
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.UIWidthHeight: 
+                        this.tween = DG.Tweening.DOTweenModuleUI.DOSizeDelta(Bridge.cast(this.target, UnityEngine.RectTransform), this.optionalBool0 ? new pc.Vec2( this.endValueFloat, this.endValueFloat ) : this.endValueV2.$clone(), this.duration);
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.Color: 
+                        this.isRelative = false;
+                        switch (this.targetType) {
+                            case DG.Tweening.DOTweenAnimation.TargetType.Renderer: 
+                                this.tween = DG.Tweening.ShortcutExtensions.DOColor$3(Bridge.cast(this.target, UnityEngine.Renderer).material, this.endValueColor.$clone(), this.duration);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.Light: 
+                                this.tween = DG.Tweening.ShortcutExtensions.DOColor$1(Bridge.cast(this.target, UnityEngine.Light), this.endValueColor.$clone(), this.duration);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.SpriteRenderer: 
+                                this.tween = DG.Tweening.DOTweenModuleSprite.DOColor(Bridge.cast(this.target, UnityEngine.SpriteRenderer), this.endValueColor.$clone(), this.duration);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.Image: 
+                                this.tween = DG.Tweening.DOTweenModuleUI.DOColor(Bridge.cast(this.target, UnityEngine.UI.Graphic), this.endValueColor.$clone(), this.duration);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.Text: 
+                                this.tween = DG.Tweening.DOTweenModuleUI.DOColor$3(Bridge.cast(this.target, UnityEngine.UI.Text), this.endValueColor.$clone(), this.duration);
+                                break;
+                        }
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.Fade: 
+                        this.isRelative = false;
+                        switch (this.targetType) {
+                            case DG.Tweening.DOTweenAnimation.TargetType.Renderer: 
+                                this.tween = DG.Tweening.ShortcutExtensions.DOFade$1(Bridge.cast(this.target, UnityEngine.Renderer).material, this.endValueFloat, this.duration);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.Light: 
+                                this.tween = DG.Tweening.ShortcutExtensions.DOIntensity(Bridge.cast(this.target, UnityEngine.Light), this.endValueFloat, this.duration);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.SpriteRenderer: 
+                                this.tween = DG.Tweening.DOTweenModuleSprite.DOFade(Bridge.cast(this.target, UnityEngine.SpriteRenderer), this.endValueFloat, this.duration);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.Image: 
+                                this.tween = DG.Tweening.DOTweenModuleUI.DOFade$1(Bridge.cast(this.target, UnityEngine.UI.Graphic), this.endValueFloat, this.duration);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.Text: 
+                                this.tween = DG.Tweening.DOTweenModuleUI.DOFade$4(Bridge.cast(this.target, UnityEngine.UI.Text), this.endValueFloat, this.duration);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.CanvasGroup: 
+                                this.tween = DG.Tweening.DOTweenModuleUI.DOFade(Bridge.cast(this.target, UnityEngine.CanvasGroup), this.endValueFloat, this.duration);
+                                break;
+                        }
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.Text: 
+                        switch (this.targetType) {
+                            case DG.Tweening.DOTweenAnimation.TargetType.Text: 
+                                this.tween = DG.Tweening.DOTweenModuleUI.DOText(Bridge.cast(this.target, UnityEngine.UI.Text), this.endValueString, this.duration, this.optionalBool0, this.optionalScrambleMode, this.optionalString);
+                                break;
+                        }
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.PunchPosition: 
+                        switch (this.targetType) {
+                            case DG.Tweening.DOTweenAnimation.TargetType.Transform: 
+                                this.tween = DG.Tweening.ShortcutExtensions.DOPunchPosition(Bridge.cast(this.target, UnityEngine.Transform), this.endValueV3.$clone(), this.duration, this.optionalInt0, this.optionalFloat0, this.optionalBool0);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.RectTransform: 
+                                this.tween = DG.Tweening.DOTweenModuleUI.DOPunchAnchorPos(Bridge.cast(this.target, UnityEngine.RectTransform), UnityEngine.Vector2.FromVector3(this.endValueV3.$clone()), this.duration, this.optionalInt0, this.optionalFloat0, this.optionalBool0);
+                                break;
+                        }
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.PunchScale: 
+                        this.tween = DG.Tweening.ShortcutExtensions.DOPunchScale(tweenGO.transform, this.endValueV3.$clone(), this.duration, this.optionalInt0, this.optionalFloat0);
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.PunchRotation: 
+                        this.tween = DG.Tweening.ShortcutExtensions.DOPunchRotation(tweenGO.transform, this.endValueV3.$clone(), this.duration, this.optionalInt0, this.optionalFloat0);
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.ShakePosition: 
+                        switch (this.targetType) {
+                            case DG.Tweening.DOTweenAnimation.TargetType.Transform: 
+                                this.tween = DG.Tweening.ShortcutExtensions.DOShakePosition$3(Bridge.cast(this.target, UnityEngine.Transform), this.duration, this.endValueV3.$clone(), this.optionalInt0, this.optionalFloat0, this.optionalBool0, this.optionalBool1, this.optionalShakeRandomnessMode);
+                                break;
+                            case DG.Tweening.DOTweenAnimation.TargetType.RectTransform: 
+                                this.tween = DG.Tweening.DOTweenModuleUI.DOShakeAnchorPos$1(Bridge.cast(this.target, UnityEngine.RectTransform), this.duration, UnityEngine.Vector2.FromVector3(this.endValueV3.$clone()), this.optionalInt0, this.optionalFloat0, this.optionalBool0, this.optionalBool1, this.optionalShakeRandomnessMode);
+                                break;
+                        }
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.ShakeScale: 
+                        this.tween = DG.Tweening.ShortcutExtensions.DOShakeScale$1(tweenGO.transform, this.duration, this.endValueV3.$clone(), this.optionalInt0, this.optionalFloat0, this.optionalBool1, this.optionalShakeRandomnessMode);
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.ShakeRotation: 
+                        this.tween = DG.Tweening.ShortcutExtensions.DOShakeRotation$3(tweenGO.transform, this.duration, this.endValueV3.$clone(), this.optionalInt0, this.optionalFloat0, this.optionalBool1, this.optionalShakeRandomnessMode);
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.CameraAspect: 
+                        this.tween = DG.Tweening.ShortcutExtensions.DOAspect(Bridge.cast(this.target, UnityEngine.Camera), this.endValueFloat, this.duration);
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.CameraBackgroundColor: 
+                        this.tween = DG.Tweening.ShortcutExtensions.DOColor(Bridge.cast(this.target, UnityEngine.Camera), this.endValueColor.$clone(), this.duration);
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.CameraFieldOfView: 
+                        this.tween = DG.Tweening.ShortcutExtensions.DOFieldOfView(Bridge.cast(this.target, UnityEngine.Camera), this.endValueFloat, this.duration);
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.CameraOrthoSize: 
+                        this.tween = DG.Tweening.ShortcutExtensions.DOOrthoSize(Bridge.cast(this.target, UnityEngine.Camera), this.endValueFloat, this.duration);
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.CameraPixelRect: 
+                        this.tween = DG.Tweening.ShortcutExtensions.DOPixelRect(Bridge.cast(this.target, UnityEngine.Camera), this.endValueRect.$clone(), this.duration);
+                        break;
+                    case DG.Tweening.DOTweenAnimation.AnimationType.CameraRect: 
+                        this.tween = DG.Tweening.ShortcutExtensions.DORect(Bridge.cast(this.target, UnityEngine.Camera), this.endValueRect.$clone(), this.duration);
+                        break;
+                }
+
+                if (this.tween == null) {
+                    return;
+                }
+
+                // Created
+
+                if (this.isFrom) {
+                    DG.Tweening.TweenSettingsExtensions.From$1(DG.Tweening.Tweener, Bridge.cast(this.tween, DG.Tweening.Tweener), this.isRelative);
+                } else {
+                    DG.Tweening.TweenSettingsExtensions.SetRelative$1(DG.Tweening.Tween, this.tween, this.isRelative);
+                }
+                var setTarget = this.GetTweenTarget();
+                DG.Tweening.TweenSettingsExtensions.OnKill(DG.Tweening.Tween, DG.Tweening.TweenSettingsExtensions.SetAutoKill$1(DG.Tweening.Tween, DG.Tweening.TweenSettingsExtensions.SetLoops$1(DG.Tweening.Tween, DG.Tweening.TweenSettingsExtensions.SetDelay(DG.Tweening.Tween, DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tween, this.tween, setTarget), this.delay), this.loops, this.loopType), this.autoKill), Bridge.fn.bind(this, function () {
+                    this.tween = null;
+                }));
+                if (this.isSpeedBased) {
+                    DG.Tweening.TweenSettingsExtensions.SetSpeedBased(DG.Tweening.Tween, this.tween);
+                }
+                if (this.easeType === DG.Tweening.Ease.INTERNAL_Custom) {
+                    DG.Tweening.TweenSettingsExtensions.SetEase(DG.Tweening.Tween, this.tween, this.easeCurve);
+                } else {
+                    DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Tween, this.tween, this.easeType);
+                }
+                if (!System.String.isNullOrEmpty(this.id)) {
+                    DG.Tweening.TweenSettingsExtensions.SetId$2(DG.Tweening.Tween, this.tween, this.id);
+                }
+                DG.Tweening.TweenSettingsExtensions.SetUpdate(DG.Tweening.Tween, this.tween, this.isIndependentUpdate);
+
+                if (this.hasOnStart) {
+                    if (this.onStart != null) {
+                        DG.Tweening.TweenSettingsExtensions.OnStart(DG.Tweening.Tween, this.tween, Bridge.fn.cacheBind(this.onStart, this.onStart.Invoke));
+                    }
+                } else {
+                    this.onStart = null;
+                }
+                if (this.hasOnPlay) {
+                    if (this.onPlay != null) {
+                        DG.Tweening.TweenSettingsExtensions.OnPlay(DG.Tweening.Tween, this.tween, Bridge.fn.cacheBind(this.onPlay, this.onPlay.Invoke));
+                    }
+                } else {
+                    this.onPlay = null;
+                }
+                if (this.hasOnUpdate) {
+                    if (this.onUpdate != null) {
+                        DG.Tweening.TweenSettingsExtensions.OnUpdate(DG.Tweening.Tween, this.tween, Bridge.fn.cacheBind(this.onUpdate, this.onUpdate.Invoke));
+                    }
+                } else {
+                    this.onUpdate = null;
+                }
+                if (this.hasOnStepComplete) {
+                    if (this.onStepComplete != null) {
+                        DG.Tweening.TweenSettingsExtensions.OnStepComplete(DG.Tweening.Tween, this.tween, Bridge.fn.cacheBind(this.onStepComplete, this.onStepComplete.Invoke));
+                    }
+                } else {
+                    this.onStepComplete = null;
+                }
+                if (this.hasOnComplete) {
+                    if (this.onComplete != null) {
+                        DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Tween, this.tween, Bridge.fn.cacheBind(this.onComplete, this.onComplete.Invoke));
+                    }
+                } else {
+                    this.onComplete = null;
+                }
+                if (this.hasOnRewind) {
+                    if (this.onRewind != null) {
+                        DG.Tweening.TweenSettingsExtensions.OnRewind(DG.Tweening.Tween, this.tween, Bridge.fn.cacheBind(this.onRewind, this.onRewind.Invoke));
+                    }
+                } else {
+                    this.onRewind = null;
+                }
+
+                if (andPlay) {
+                    DG.Tweening.TweenExtensions.Play(DG.Tweening.Tween, this.tween);
+                } else {
+                    DG.Tweening.TweenExtensions.Pause(DG.Tweening.Tween, this.tween);
+                }
+
+                if (this.hasOnTweenCreated && this.onTweenCreated != null) {
+                    this.onTweenCreated.Invoke();
+                }
+            },
+            /*DG.Tweening.DOTweenAnimation.CreateTween end.*/
+
+            /*DG.Tweening.DOTweenAnimation.GetTweens start.*/
+            /**
+             * Returns the tweens (if generated and not killed) created by all DOTweenAnimations on this gameObject,
+             in the same order as they appear in the Inspector (top to bottom).<p />
+             Note that a tween is generated inside the Awake call (except RectTransform tweens which are generated inside Start),
+             so this method won't return them before that
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {System.Collections.Generic.List$1}
+             */
+            GetTweens: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#GetTweens", this ); }
+
+                var $t;
+                var result = new (System.Collections.Generic.List$1(DG.Tweening.Tween)).ctor();
+                var anims = this.GetComponents(DG.Tweening.DOTweenAnimation);
+                $t = Bridge.getEnumerator(anims);
+                try {
+                    while ($t.moveNext()) {
+                        var anim = $t.Current;
+                        if (anim.tween != null && anim.tween.active) {
+                            result.add(anim.tween);
+                        }
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                return result;
+            },
+            /*DG.Tweening.DOTweenAnimation.GetTweens end.*/
+
+            /*DG.Tweening.DOTweenAnimation.SetAnimationTarget start.*/
+            /**
+             * Sets the animation target (which must be of the same type of the one set in the Inspector).
+             This is useful if you want to change it BEFORE this {@link }
+             creates a tween, while after that it won't have any effect.<p />
+             Consider that a {@link } creates its tween inside its Awake (except for special tweens),
+             so you will need to sure your code runs before this object's Awake (via ScriptExecutionOrder or enabling/disabling methods)
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {UnityEngine.Component}    tweenTarget                                   New target for the animation (must be of the same type of the previous one)
+             * @param   {boolean}                  useTweenTargetGameObjectForGroupOperations    If TRUE also uses tweenTarget's gameObject when settings the target-ID of the tween
+             (which is used with DOPlay/DORestart/etc to apply the same operation on all tweens that have the same target-id).<p />
+             You should usually leave this to TRUE if you change the target.
+             * @return  {void}
+             */
+            SetAnimationTarget: function (tweenTarget, useTweenTargetGameObjectForGroupOperations) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#SetAnimationTarget", this ); }
+
+                if (useTweenTargetGameObjectForGroupOperations === void 0) { useTweenTargetGameObjectForGroupOperations = true; }
+                var newTargetType = DG.Tweening.DOTweenAnimation.TypeToDOTargetType(Bridge.getType(this.target));
+                if (newTargetType !== this.targetType) {
+                    UnityEngine.Debug.LogError$2("DOTweenAnimation \u25ba SetAnimationTarget: the new target is of a different type from the one set in the Inspector");
+                    return;
+                }
+                this.target = tweenTarget;
+                this.targetGO = this.target.gameObject;
+                this.tweenTargetIsTargetGO = useTweenTargetGameObjectForGroupOperations;
+            },
+            /*DG.Tweening.DOTweenAnimation.SetAnimationTarget end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOPlay start.*/
+            /**
+             * Plays all tweens whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @override
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            DOPlay: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOPlay", this ); }
+
+                DG.Tweening.DOTween.Play(this.GetTweenTarget());
+            },
+            /*DG.Tweening.DOTweenAnimation.DOPlay end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOPlayBackwards start.*/
+            /**
+             * Plays backwards all tweens whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @override
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            DOPlayBackwards: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOPlayBackwards", this ); }
+
+                DG.Tweening.DOTween.PlayBackwards(this.GetTweenTarget());
+            },
+            /*DG.Tweening.DOTweenAnimation.DOPlayBackwards end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOPlayForward start.*/
+            /**
+             * Plays foward all tweens whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @override
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            DOPlayForward: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOPlayForward", this ); }
+
+                DG.Tweening.DOTween.PlayForward(this.GetTweenTarget());
+            },
+            /*DG.Tweening.DOTweenAnimation.DOPlayForward end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOPause start.*/
+            /**
+             * Pauses all tweens whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @override
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            DOPause: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOPause", this ); }
+
+                DG.Tweening.DOTween.Pause(this.GetTweenTarget());
+            },
+            /*DG.Tweening.DOTweenAnimation.DOPause end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOTogglePause start.*/
+            /**
+             * Pauses/unpauses (depending on the current state) all tweens whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @override
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            DOTogglePause: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOTogglePause", this ); }
+
+                DG.Tweening.DOTween.TogglePause(this.GetTweenTarget());
+            },
+            /*DG.Tweening.DOTweenAnimation.DOTogglePause end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DORewind start.*/
+            /**
+             * Rewinds all tweens created by this animation in the correct order
+             *
+             * @instance
+             * @public
+             * @override
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            DORewind: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DORewind", this ); }
+
+                this._playCount = -1;
+                // Rewind using Components order (in case there are multiple animations on the same property)
+                var anims = this.gameObject.GetComponents(DG.Tweening.DOTweenAnimation);
+                for (var i = (anims.length - 1) | 0; i > -1; i = (i - 1) | 0) {
+                    var t = anims[i].tween;
+                    if (t != null && DG.Tweening.TweenExtensions.IsInitialized(t)) {
+                        DG.Tweening.TweenExtensions.Rewind(anims[i].tween);
+                    }
+                }
+                // DOTween.Rewind(GetTweenTarget());
+            },
+            /*DG.Tweening.DOTweenAnimation.DORewind end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DORestart start.*/
+            /**
+             * Restarts all tweens whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @override
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            DORestart: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DORestart", this ); }
+
+                this.DORestart$1(false);
+            },
+            /*DG.Tweening.DOTweenAnimation.DORestart end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DORestart$1 start.*/
+            /**
+             * Restarts all tweens whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @override
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {boolean}    fromHere    If TRUE, re-evaluates the tween's start and end values from its current position.
+             Set it to TRUE when spawning the same DOTweenAnimation in different positions (like when using a pooling system)
+             * @return  {void}
+             */
+            DORestart$1: function (fromHere) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DORestart$1", this ); }
+
+                this._playCount = -1;
+                if (this.tween == null) {
+                    if (DG.Tweening.Core.Debugger.logPriority > 1) {
+                        DG.Tweening.Core.Debugger.LogNullTween(this.tween);
+                    }
+                    return;
+                }
+                if (fromHere && this.isRelative) {
+                    this.ReEvaluateRelativeTween();
+                }
+                DG.Tweening.DOTween.Restart(this.GetTweenTarget());
+            },
+            /*DG.Tweening.DOTweenAnimation.DORestart$1 end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOComplete start.*/
+            /**
+             * Completes all tweens whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @override
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            DOComplete: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOComplete", this ); }
+
+                DG.Tweening.DOTween.Complete(this.GetTweenTarget());
+            },
+            /*DG.Tweening.DOTweenAnimation.DOComplete end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOKill start.*/
+            /**
+             * Kills all tweens whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @override
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            DOKill: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOKill", this ); }
+
+                DG.Tweening.DOTween.Kill(this.GetTweenTarget());
+                this.tween = null;
+            },
+            /*DG.Tweening.DOTweenAnimation.DOKill end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOPlayById start.*/
+            /**
+             * Plays all tweens with the given ID and whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {string}    id
+             * @return  {void}
+             */
+            DOPlayById: function (id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOPlayById", this ); }
+
+                DG.Tweening.DOTween.Play$1(this.GetTweenTarget(), id);
+            },
+            /*DG.Tweening.DOTweenAnimation.DOPlayById end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOPlayAllById start.*/
+            /**
+             * Plays all tweens with the given ID (regardless of their target gameObject)
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {string}    id
+             * @return  {void}
+             */
+            DOPlayAllById: function (id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOPlayAllById", this ); }
+
+                DG.Tweening.DOTween.Play(id);
+            },
+            /*DG.Tweening.DOTweenAnimation.DOPlayAllById end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOPauseAllById start.*/
+            /**
+             * Pauses all tweens that with the given ID (regardless of their target gameObject)
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {string}    id
+             * @return  {void}
+             */
+            DOPauseAllById: function (id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOPauseAllById", this ); }
+
+                DG.Tweening.DOTween.Pause(id);
+            },
+            /*DG.Tweening.DOTweenAnimation.DOPauseAllById end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOPlayBackwardsById start.*/
+            /**
+             * Plays backwards all tweens with the given ID and whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {string}    id
+             * @return  {void}
+             */
+            DOPlayBackwardsById: function (id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOPlayBackwardsById", this ); }
+
+                DG.Tweening.DOTween.PlayBackwards$1(this.GetTweenTarget(), id);
+            },
+            /*DG.Tweening.DOTweenAnimation.DOPlayBackwardsById end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOPlayBackwardsAllById start.*/
+            /**
+             * Plays backwards all tweens with the given ID (regardless of their target gameObject)
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {string}    id
+             * @return  {void}
+             */
+            DOPlayBackwardsAllById: function (id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOPlayBackwardsAllById", this ); }
+
+                DG.Tweening.DOTween.PlayBackwards(id);
+            },
+            /*DG.Tweening.DOTweenAnimation.DOPlayBackwardsAllById end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOPlayForwardById start.*/
+            /**
+             * Plays forward all tweens with the given ID and whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {string}    id
+             * @return  {void}
+             */
+            DOPlayForwardById: function (id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOPlayForwardById", this ); }
+
+                DG.Tweening.DOTween.PlayForward$1(this.GetTweenTarget(), id);
+            },
+            /*DG.Tweening.DOTweenAnimation.DOPlayForwardById end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOPlayForwardAllById start.*/
+            /**
+             * Plays forward all tweens with the given ID (regardless of their target gameObject)
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {string}    id
+             * @return  {void}
+             */
+            DOPlayForwardAllById: function (id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOPlayForwardAllById", this ); }
+
+                DG.Tweening.DOTween.PlayForward(id);
+            },
+            /*DG.Tweening.DOTweenAnimation.DOPlayForwardAllById end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOPlayNext start.*/
+            /**
+             * Plays the next animation on this animation's gameObject (if any)
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            DOPlayNext: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOPlayNext", this ); }
+
+                var anims = this.GetComponents(DG.Tweening.DOTweenAnimation);
+                while (this._playCount < ((anims.length - 1) | 0)) {
+                    this._playCount = (this._playCount + 1) | 0;
+                    var anim = anims[this._playCount];
+                    if (UnityEngine.MonoBehaviour.op_Inequality(anim, null) && anim.tween != null && anim.tween.active && !DG.Tweening.TweenExtensions.IsPlaying(anim.tween) && !DG.Tweening.TweenExtensions.IsComplete(anim.tween)) {
+                        DG.Tweening.TweenExtensions.Play(DG.Tweening.Tween, anim.tween);
+                        break;
+                    }
+                }
+            },
+            /*DG.Tweening.DOTweenAnimation.DOPlayNext end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DORewindAndPlayNext start.*/
+            /**
+             * Rewinds all tweens with the given ID and whose target-id is the same as the one set by this animation,
+             then plays the next animation on this animation's gameObject (if any)
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {void}
+             */
+            DORewindAndPlayNext: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DORewindAndPlayNext", this ); }
+
+                this._playCount = -1;
+                DG.Tweening.DOTween.Rewind(this.GetTweenTarget());
+                this.DOPlayNext();
+            },
+            /*DG.Tweening.DOTweenAnimation.DORewindAndPlayNext end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DORewindAllById start.*/
+            /**
+             * Rewinds all tweens with the given ID (regardless of their target gameObject)
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {string}    id
+             * @return  {void}
+             */
+            DORewindAllById: function (id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DORewindAllById", this ); }
+
+                this._playCount = -1;
+                DG.Tweening.DOTween.Rewind(id);
+            },
+            /*DG.Tweening.DOTweenAnimation.DORewindAllById end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DORestartById start.*/
+            /**
+             * Restarts all tweens with the given ID and whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {string}    id
+             * @return  {void}
+             */
+            DORestartById: function (id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DORestartById", this ); }
+
+                this._playCount = -1;
+                DG.Tweening.DOTween.Restart$1(this.GetTweenTarget(), id);
+            },
+            /*DG.Tweening.DOTweenAnimation.DORestartById end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DORestartAllById start.*/
+            /**
+             * Restarts all tweens with the given ID (regardless of their target gameObject)
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {string}    id
+             * @return  {void}
+             */
+            DORestartAllById: function (id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DORestartAllById", this ); }
+
+                this._playCount = -1;
+                DG.Tweening.DOTween.Restart(id);
+            },
+            /*DG.Tweening.DOTweenAnimation.DORestartAllById end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOKillById start.*/
+            /**
+             * Kills all tweens with the given ID and whose target-id is the same as the one set by this animation
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {string}    id
+             * @return  {void}
+             */
+            DOKillById: function (id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOKillById", this ); }
+
+                DG.Tweening.DOTween.Kill$1(this.GetTweenTarget(), id);
+            },
+            /*DG.Tweening.DOTweenAnimation.DOKillById end.*/
+
+            /*DG.Tweening.DOTweenAnimation.DOKillAllById start.*/
+            /**
+             * Kills all tweens with the given ID (regardless of their target gameObject)
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @param   {string}    id
+             * @return  {void}
+             */
+            DOKillAllById: function (id) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#DOKillAllById", this ); }
+
+                DG.Tweening.DOTween.Kill(id);
+            },
+            /*DG.Tweening.DOTweenAnimation.DOKillAllById end.*/
+
+            /*DG.Tweening.DOTweenAnimation.CreateEditorPreview start.*/
+            /**
+             * Previews the tween in the editor. Only for DOTween internal usage: don't use otherwise.
+             *
+             * @instance
+             * @public
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {DG.Tweening.Tween}
+             */
+            CreateEditorPreview: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#CreateEditorPreview", this ); }
+
+                if (UnityEngine.Application.isPlaying) {
+                    return null;
+                }
+
+                // CHANGE: first param switched to TRUE otherwise changing an animation and replaying in editor would still play old one
+                this.CreateTween(true, this.autoPlay);
+                return this.tween;
+            },
+            /*DG.Tweening.DOTweenAnimation.CreateEditorPreview end.*/
+
+            /*DG.Tweening.DOTweenAnimation.GetTweenGO start.*/
+            /**
+             * Returns the gameObject whose target component should be animated
+             *
+             * @instance
+             * @private
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {UnityEngine.GameObject}
+             */
+            GetTweenGO: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#GetTweenGO", this ); }
+
+                return this.targetIsSelf ? this.gameObject : this.targetGO;
+            },
+            /*DG.Tweening.DOTweenAnimation.GetTweenGO end.*/
+
+            /*DG.Tweening.DOTweenAnimation.GetTweenTarget start.*/
+            /**
+             * Returns the GameObject which should be used/retrieved for SetTarget
+             *
+             * @instance
+             * @private
+             * @this DG.Tweening.DOTweenAnimation
+             * @memberof DG.Tweening.DOTweenAnimation
+             * @return  {UnityEngine.GameObject}
+             */
+            GetTweenTarget: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#GetTweenTarget", this ); }
+
+                return this.targetIsSelf || !this.tweenTargetIsTargetGO ? this.gameObject : this.targetGO;
+            },
+            /*DG.Tweening.DOTweenAnimation.GetTweenTarget end.*/
+
+            /*DG.Tweening.DOTweenAnimation.ReEvaluateRelativeTween start.*/
+            ReEvaluateRelativeTween: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimation#ReEvaluateRelativeTween", this ); }
+
+                var tweenGO = this.GetTweenGO();
+                if (UnityEngine.GameObject.op_Equality(tweenGO, null)) {
+                    UnityEngine.Debug.LogWarning$1(System.String.format("{0} :: This DOTweenAnimation's target/GameObject is unset: the tween will not be created.", [this.gameObject.name]), this.gameObject);
+                    return;
+                }
+                if (this.animationType === DG.Tweening.DOTweenAnimation.AnimationType.Move) {
+                    Bridge.cast(this.tween, DG.Tweening.Tweener).ChangeEndValue(tweenGO.transform.position.$clone().add( this.endValueV3 ).$clone(), true);
+                } else if (this.animationType === DG.Tweening.DOTweenAnimation.AnimationType.LocalMove) {
+                    Bridge.cast(this.tween, DG.Tweening.Tweener).ChangeEndValue(tweenGO.transform.localPosition.$clone().add( this.endValueV3 ).$clone(), true);
+                }
+            },
+            /*DG.Tweening.DOTweenAnimation.ReEvaluateRelativeTween end.*/
+
+
+        },
+        overloads: {
+            "DORestart(bool)": "DORestart$1"
+        }
+    });
+    /*DG.Tweening.DOTweenAnimation end.*/
+
+    /*DG.Tweening.DOTweenAnimation+AnimationType start.*/
+    Bridge.define("DG.Tweening.DOTweenAnimation.AnimationType", {
+        $kind: 1006,
+        statics: {
+            fields: {
+                None: 0,
+                Move: 1,
+                LocalMove: 2,
+                Rotate: 3,
+                LocalRotate: 4,
+                Scale: 5,
+                Color: 6,
+                Fade: 7,
+                Text: 8,
+                PunchPosition: 9,
+                PunchRotation: 10,
+                PunchScale: 11,
+                ShakePosition: 12,
+                ShakeRotation: 13,
+                ShakeScale: 14,
+                CameraAspect: 15,
+                CameraBackgroundColor: 16,
+                CameraFieldOfView: 17,
+                CameraOrthoSize: 18,
+                CameraPixelRect: 19,
+                CameraRect: 20,
+                UIWidthHeight: 21
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenAnimation+AnimationType end.*/
+
+    /*DG.Tweening.DOTweenAnimation+TargetType start.*/
+    Bridge.define("DG.Tweening.DOTweenAnimation.TargetType", {
+        $kind: 1006,
+        statics: {
+            fields: {
+                Unset: 0,
+                Camera: 1,
+                CanvasGroup: 2,
+                Image: 3,
+                Light: 4,
+                RectTransform: 5,
+                Renderer: 6,
+                SpriteRenderer: 7,
+                Rigidbody: 8,
+                Rigidbody2D: 9,
+                Text: 10,
+                Transform: 11,
+                tk2dBaseSprite: 12,
+                tk2dTextMesh: 13,
+                TextMeshPro: 14,
+                TextMeshProUGUI: 15
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenAnimation+TargetType end.*/
+
+    /*DG.Tweening.DOTweenAnimationExtensions start.*/
+    Bridge.define("DG.Tweening.DOTweenAnimationExtensions", {
+        statics: {
+            methods: {
+                /*DG.Tweening.DOTweenAnimationExtensions.IsSameOrSubclassOf:static start.*/
+                IsSameOrSubclassOf: function (T, t) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenAnimationExtensions#IsSameOrSubclassOf", this ); }
+
+                    return Bridge.is(t, T);
+                },
+                /*DG.Tweening.DOTweenAnimationExtensions.IsSameOrSubclassOf:static end.*/
+
+
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenAnimationExtensions end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction start.*/
+    Bridge.define("DG.Tweening.DOTweenCYInstruction");
+    /*DG.Tweening.DOTweenCYInstruction end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction+WaitForCompletion start.*/
+    Bridge.define("DG.Tweening.DOTweenCYInstruction.WaitForCompletion", {
+        inherits: [UnityEngine.CustomYieldInstruction],
+        $kind: 1002,
+        fields: {
+            t: null
+        },
+        props: {
+            keepWaiting: {
+                get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get", this ); }
+
+                    return this.t.active && !DG.Tweening.TweenExtensions.IsComplete(this.t);
+                }
+            }
+        },
+        ctors: {
+            ctor: function (tween) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor", this ); }
+
+                this.$initialize();
+                UnityEngine.CustomYieldInstruction.ctor.call(this);
+                this.t = tween;
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenCYInstruction+WaitForCompletion end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction+WaitForElapsedLoops start.*/
+    Bridge.define("DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops", {
+        inherits: [UnityEngine.CustomYieldInstruction],
+        $kind: 1002,
+        fields: {
+            t: null,
+            elapsedLoops: 0
+        },
+        props: {
+            keepWaiting: {
+                get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get", this ); }
+
+                    return this.t.active && DG.Tweening.TweenExtensions.CompletedLoops(this.t) < this.elapsedLoops;
+                }
+            }
+        },
+        ctors: {
+            ctor: function (tween, elapsedLoops) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor", this ); }
+
+                this.$initialize();
+                UnityEngine.CustomYieldInstruction.ctor.call(this);
+                this.t = tween;
+                this.elapsedLoops = elapsedLoops;
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenCYInstruction+WaitForElapsedLoops end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction+WaitForKill start.*/
+    Bridge.define("DG.Tweening.DOTweenCYInstruction.WaitForKill", {
+        inherits: [UnityEngine.CustomYieldInstruction],
+        $kind: 1002,
+        fields: {
+            t: null
+        },
+        props: {
+            keepWaiting: {
+                get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get", this ); }
+
+                    return this.t.active;
+                }
+            }
+        },
+        ctors: {
+            ctor: function (tween) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor", this ); }
+
+                this.$initialize();
+                UnityEngine.CustomYieldInstruction.ctor.call(this);
+                this.t = tween;
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenCYInstruction+WaitForKill end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction+WaitForPosition start.*/
+    Bridge.define("DG.Tweening.DOTweenCYInstruction.WaitForPosition", {
+        inherits: [UnityEngine.CustomYieldInstruction],
+        $kind: 1002,
+        fields: {
+            t: null,
+            position: 0
+        },
+        props: {
+            keepWaiting: {
+                get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get", this ); }
+
+                    return this.t.active && this.t.position * (((DG.Tweening.TweenExtensions.CompletedLoops(this.t) + 1) | 0)) < this.position;
+                }
+            }
+        },
+        ctors: {
+            ctor: function (tween, position) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor", this ); }
+
+                this.$initialize();
+                UnityEngine.CustomYieldInstruction.ctor.call(this);
+                this.t = tween;
+                this.position = position;
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenCYInstruction+WaitForPosition end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction+WaitForRewind start.*/
+    Bridge.define("DG.Tweening.DOTweenCYInstruction.WaitForRewind", {
+        inherits: [UnityEngine.CustomYieldInstruction],
+        $kind: 1002,
+        fields: {
+            t: null
+        },
+        props: {
+            keepWaiting: {
+                get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get", this ); }
+
+                    return this.t.active && (!this.t.playedOnce || this.t.position * (((DG.Tweening.TweenExtensions.CompletedLoops(this.t) + 1) | 0)) > 0);
+                }
+            }
+        },
+        ctors: {
+            ctor: function (tween) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor", this ); }
+
+                this.$initialize();
+                UnityEngine.CustomYieldInstruction.ctor.call(this);
+                this.t = tween;
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenCYInstruction+WaitForRewind end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction+WaitForStart start.*/
+    Bridge.define("DG.Tweening.DOTweenCYInstruction.WaitForStart", {
+        inherits: [UnityEngine.CustomYieldInstruction],
+        $kind: 1002,
+        fields: {
+            t: null
+        },
+        props: {
+            keepWaiting: {
+                get: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get", this ); }
+
+                    return this.t.active && !this.t.playedOnce;
+                }
+            }
+        },
+        ctors: {
+            ctor: function (tween) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor", this ); }
+
+                this.$initialize();
+                UnityEngine.CustomYieldInstruction.ctor.call(this);
+                this.t = tween;
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenCYInstruction+WaitForStart end.*/
+
+    /*DG.Tweening.DOTweenModuleAudio start.*/
+    Bridge.define("DG.Tweening.DOTweenModuleAudio", {
+        statics: {
+            methods: {
+                /*DG.Tweening.DOTweenModuleAudio.DOFade:static start.*/
+                /**
+                 * Tweens an AudioSource's volume to the given value.
+                 Also stores the AudioSource as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.AudioSource}           target      
+                 * @param   {number}                            endValue    The end value to reach (0 to 1)
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOFade: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOFade", this ); }
+
+                    if (endValue < 0) {
+                        endValue = 0;
+                    } else {
+                        if (endValue > 1) {
+                            endValue = 1;
+                        }
+                    }
+                    var t = DG.Tweening.DOTween.To$4(function () {
+                        return target.volume;
+                    }, function (x) {
+                        target.volume = x;
+                    }, endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DOFade:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DOPitch:static start.*/
+                /**
+                 * Tweens an AudioSource's pitch to the given value.
+                 Also stores the AudioSource as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.AudioSource}           target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOPitch: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOPitch", this ); }
+
+                    var t = DG.Tweening.DOTween.To$4(function () {
+                        return target.pitch;
+                    }, function (x) {
+                        target.pitch = x;
+                    }, endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DOPitch:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DOSetFloat:static start.*/
+                /**
+                 * Tweens an AudioMixer's exposed float to the given value.
+                 Also stores the AudioMixer as the tween's target so it can be used for filtered operations.
+                 Note that you need to manually expose a float in an AudioMixerGroup in order to be able to tween it from an AudioMixer.
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.Audio.AudioMixer}      target       
+                 * @param   {string}                            floatName    Name given to the exposed float to set
+                 * @param   {number}                            endValue     The end value to reach
+                 * @param   {number}                            duration     The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOSetFloat: function (target, floatName, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOSetFloat", this ); }
+
+                    var t = DG.Tweening.DOTween.To$4(function () {
+                        var currVal = { };
+                        target.GetFloat(floatName, currVal);
+                        return currVal.v;
+                    }, function (x) {
+                        target.SetFloat(floatName, x);
+                    }, endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DOSetFloat:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DOComplete:static start.*/
+                /**
+                 * Completes all tweens that have this target as a reference
+                 (meaning tweens that were started from this target, or that had this target added as an Id)
+                 and returns the total number of tweens completed
+                 (meaning the tweens that don't have infinite loops and were not already complete)
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.Audio.AudioMixer}    target           
+                 * @param   {boolean}                         withCallbacks    For Sequences only: if TRUE also internal Sequence callbacks will be fired,
+                 otherwise they will be ignored
+                 * @return  {number}
+                 */
+                DOComplete: function (target, withCallbacks) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOComplete", this ); }
+
+                    if (withCallbacks === void 0) { withCallbacks = false; }
+                    return DG.Tweening.DOTween.Complete(target, withCallbacks);
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DOComplete:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DOKill:static start.*/
+                /**
+                 * Kills all tweens that have this target as a reference
+                 (meaning tweens that were started from this target, or that had this target added as an Id)
+                 and returns the total number of tweens killed.
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.Audio.AudioMixer}    target      
+                 * @param   {boolean}                         complete    If TRUE completes the tween before killing it
+                 * @return  {number}
+                 */
+                DOKill: function (target, complete) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOKill", this ); }
+
+                    if (complete === void 0) { complete = false; }
+                    return DG.Tweening.DOTween.Kill(target, complete);
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DOKill:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DOFlip:static start.*/
+                /**
+                 * Flips the direction (backwards if it was going forward or viceversa) of all tweens that have this target as a reference
+                 (meaning tweens that were started from this target, or that had this target added as an Id)
+                 and returns the total number of tweens flipped.
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.Audio.AudioMixer}    target
+                 * @return  {number}
+                 */
+                DOFlip: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOFlip", this ); }
+
+                    return DG.Tweening.DOTween.Flip(target);
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DOFlip:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DOGoto:static start.*/
+                /**
+                 * Sends to the given position all tweens that have this target as a reference
+                 (meaning tweens that were started from this target, or that had this target added as an Id)
+                 and returns the total number of tweens involved.
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.Audio.AudioMixer}    target     
+                 * @param   {number}                          to         Time position to reach
+                 (if higher than the whole tween duration the tween will simply reach its end)
+                 * @param   {boolean}                         andPlay    If TRUE will play the tween after reaching the given position, otherwise it will pause it
+                 * @return  {number}
+                 */
+                DOGoto: function (target, to, andPlay) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOGoto", this ); }
+
+                    if (andPlay === void 0) { andPlay = false; }
+                    return DG.Tweening.DOTween.Goto(target, to, andPlay);
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DOGoto:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DOPause:static start.*/
+                /**
+                 * Pauses all tweens that have this target as a reference
+                 (meaning tweens that were started from this target, or that had this target added as an Id)
+                 and returns the total number of tweens paused.
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.Audio.AudioMixer}    target
+                 * @return  {number}
+                 */
+                DOPause: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOPause", this ); }
+
+                    return DG.Tweening.DOTween.Pause(target);
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DOPause:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DOPlay:static start.*/
+                /**
+                 * Plays all tweens that have this target as a reference
+                 (meaning tweens that were started from this target, or that had this target added as an Id)
+                 and returns the total number of tweens played.
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.Audio.AudioMixer}    target
+                 * @return  {number}
+                 */
+                DOPlay: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOPlay", this ); }
+
+                    return DG.Tweening.DOTween.Play(target);
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DOPlay:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DOPlayBackwards:static start.*/
+                /**
+                 * Plays backwards all tweens that have this target as a reference
+                 (meaning tweens that were started from this target, or that had this target added as an Id)
+                 and returns the total number of tweens played.
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.Audio.AudioMixer}    target
+                 * @return  {number}
+                 */
+                DOPlayBackwards: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOPlayBackwards", this ); }
+
+                    return DG.Tweening.DOTween.PlayBackwards(target);
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DOPlayBackwards:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DOPlayForward:static start.*/
+                /**
+                 * Plays forward all tweens that have this target as a reference
+                 (meaning tweens that were started from this target, or that had this target added as an Id)
+                 and returns the total number of tweens played.
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.Audio.AudioMixer}    target
+                 * @return  {number}
+                 */
+                DOPlayForward: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOPlayForward", this ); }
+
+                    return DG.Tweening.DOTween.PlayForward(target);
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DOPlayForward:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DORestart:static start.*/
+                /**
+                 * Restarts all tweens that have this target as a reference
+                 (meaning tweens that were started from this target, or that had this target added as an Id)
+                 and returns the total number of tweens restarted.
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.Audio.AudioMixer}    target
+                 * @return  {number}
+                 */
+                DORestart: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DORestart", this ); }
+
+                    return DG.Tweening.DOTween.Restart(target);
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DORestart:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DORewind:static start.*/
+                /**
+                 * Rewinds all tweens that have this target as a reference
+                 (meaning tweens that were started from this target, or that had this target added as an Id)
+                 and returns the total number of tweens rewinded.
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.Audio.AudioMixer}    target
+                 * @return  {number}
+                 */
+                DORewind: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DORewind", this ); }
+
+                    return DG.Tweening.DOTween.Rewind(target);
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DORewind:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DOSmoothRewind:static start.*/
+                /**
+                 * Smoothly rewinds all tweens that have this target as a reference
+                 (meaning tweens that were started from this target, or that had this target added as an Id)
+                 and returns the total number of tweens rewinded.
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.Audio.AudioMixer}    target
+                 * @return  {number}
+                 */
+                DOSmoothRewind: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOSmoothRewind", this ); }
+
+                    return DG.Tweening.DOTween.SmoothRewind(target);
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DOSmoothRewind:static end.*/
+
+                /*DG.Tweening.DOTweenModuleAudio.DOTogglePause:static start.*/
+                /**
+                 * Toggles the paused state (plays if it was paused, pauses if it was playing) of all tweens that have this target as a reference
+                 (meaning tweens that were started from this target, or that had this target added as an Id)
+                 and returns the total number of tweens involved.
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleAudio
+                 * @memberof DG.Tweening.DOTweenModuleAudio
+                 * @param   {UnityEngine.Audio.AudioMixer}    target
+                 * @return  {number}
+                 */
+                DOTogglePause: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleAudio#DOTogglePause", this ); }
+
+                    return DG.Tweening.DOTween.TogglePause(target);
+                },
+                /*DG.Tweening.DOTweenModuleAudio.DOTogglePause:static end.*/
+
+
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenModuleAudio end.*/
+
+    /*DG.Tweening.DOTweenModulePhysics start.*/
+    Bridge.define("DG.Tweening.DOTweenModulePhysics", {
+        statics: {
+            methods: {
+                /*DG.Tweening.DOTweenModulePhysics.DOMove:static start.*/
+                /**
+                 * Tweens a Rigidbody's position to the given value.
+                 Also stores the rigidbody as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics
+                 * @memberof DG.Tweening.DOTweenModulePhysics
+                 * @param   {UnityEngine.Rigidbody}             target      
+                 * @param   {UnityEngine.Vector3}               endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOMove: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOMove", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$12(function () {
+                        return target.position;
+                    }, Bridge.fn.cacheBind(target, target.MovePosition), endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$13(t, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics.DOMove:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics.DOMoveX:static start.*/
+                /**
+                 * Tweens a Rigidbody's X position to the given value.
+                 Also stores the rigidbody as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics
+                 * @memberof DG.Tweening.DOTweenModulePhysics
+                 * @param   {UnityEngine.Rigidbody}             target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOMoveX: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOMoveX", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$12(function () {
+                        return target.position;
+                    }, Bridge.fn.cacheBind(target, target.MovePosition), new pc.Vec3( endValue, 0, 0 ), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$12(t, DG.Tweening.AxisConstraint.X, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics.DOMoveX:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics.DOMoveY:static start.*/
+                /**
+                 * Tweens a Rigidbody's Y position to the given value.
+                 Also stores the rigidbody as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics
+                 * @memberof DG.Tweening.DOTweenModulePhysics
+                 * @param   {UnityEngine.Rigidbody}             target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOMoveY: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOMoveY", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$12(function () {
+                        return target.position;
+                    }, Bridge.fn.cacheBind(target, target.MovePosition), new pc.Vec3( 0, endValue, 0 ), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$12(t, DG.Tweening.AxisConstraint.Y, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics.DOMoveY:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics.DOMoveZ:static start.*/
+                /**
+                 * Tweens a Rigidbody's Z position to the given value.
+                 Also stores the rigidbody as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics
+                 * @memberof DG.Tweening.DOTweenModulePhysics
+                 * @param   {UnityEngine.Rigidbody}             target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOMoveZ: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOMoveZ", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$12(function () {
+                        return target.position;
+                    }, Bridge.fn.cacheBind(target, target.MovePosition), new pc.Vec3( 0, 0, endValue ), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$12(t, DG.Tweening.AxisConstraint.Z, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics.DOMoveZ:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics.DORotate:static start.*/
+                /**
+                 * Tweens a Rigidbody's rotation to the given value.
+                 Also stores the rigidbody as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics
+                 * @memberof DG.Tweening.DOTweenModulePhysics
+                 * @param   {UnityEngine.Rigidbody}             target      
+                 * @param   {UnityEngine.Vector3}               endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {DG.Tweening.RotateMode}            mode        Rotation mode
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DORotate: function (target, endValue, duration, mode) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DORotate", this ); }
+
+                    if (mode === void 0) { mode = 0; }
+                    var t = DG.Tweening.DOTween.To$9(function () {
+                        return target.rotation;
+                    }, Bridge.fn.cacheBind(target, target.MoveRotation), endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions), t, target);
+                    t.plugOptions.rotateMode = mode;
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics.DORotate:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics.DOLookAt:static start.*/
+                /**
+                 * Tweens a Rigidbody's rotation so that it will look towards the given position.
+                 Also stores the rigidbody as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics
+                 * @memberof DG.Tweening.DOTweenModulePhysics
+                 * @param   {UnityEngine.Rigidbody}             target            
+                 * @param   {UnityEngine.Vector3}               towards           The position to look at
+                 * @param   {number}                            duration          The duration of the tween
+                 * @param   {DG.Tweening.AxisConstraint}        axisConstraint    Eventual axis constraint for the rotation
+                 * @param   {?UnityEngine.Vector3}              up                The vector that defines in which direction up is (default: Vector3.up)
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOLookAt: function (target, towards, duration, axisConstraint, up) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOLookAt", this ); }
+
+                    if (axisConstraint === void 0) { axisConstraint = 0; }
+                    if (up === void 0) { up = null; }
+                    var t = DG.Tweening.Core.Extensions.SetSpecialStartupMode(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions), DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions), DG.Tweening.DOTween.To$9(function () {
+                        return target.rotation;
+                    }, Bridge.fn.cacheBind(target, target.MoveRotation), towards.$clone(), duration), target), DG.Tweening.Core.Enums.SpecialStartupMode.SetLookAt);
+                    t.plugOptions.axisConstraint = axisConstraint;
+                    t.plugOptions.up = (pc.Vec3.equals( up, null )) ? pc.Vec3.UP.clone() : System.Nullable.getValue(up);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics.DOLookAt:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics.DOJump:static start.*/
+                /**
+                 * Tweens a Rigidbody's position to the given value, while also applying a jump effect along the Y axis.
+                 Returns a Sequence instead of a Tweener.
+                 Also stores the Rigidbody as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics
+                 * @memberof DG.Tweening.DOTweenModulePhysics
+                 * @param   {UnityEngine.Rigidbody}    target       
+                 * @param   {UnityEngine.Vector3}      endValue     The end value to reach
+                 * @param   {number}                   jumpPower    Power of the jump (the max height of the jump is represented by this plus the final Y offset)
+                 * @param   {number}                   numJumps     Total number of jumps
+                 * @param   {number}                   duration     The duration of the tween
+                 * @param   {boolean}                  snapping     If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Sequence}
+                 */
+                DOJump: function (target, endValue, jumpPower, numJumps, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOJump", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    if (numJumps < 1) {
+                        numJumps = 1;
+                    }
+                    var startPosY = 0;
+                    var offsetY = -1;
+                    var offsetYSet = false;
+                    var s = DG.Tweening.DOTween.Sequence();
+                    var yTween = DG.Tweening.TweenSettingsExtensions.OnStart(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetLoops$1(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetRelative(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$12(DG.Tweening.DOTween.To$12(function () {
+                        return target.position;
+                    }, Bridge.fn.cacheBind(target, target.MovePosition), new pc.Vec3( 0, jumpPower, 0 ), duration / (Bridge.Int.mul(numJumps, 2))), DG.Tweening.AxisConstraint.Y, snapping), DG.Tweening.Ease.OutQuad)), Bridge.Int.mul(numJumps, 2), DG.Tweening.LoopType.Yoyo), function () {
+                        startPosY = target.position.y;
+                    });
+                    DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Sequence, DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Sequence, DG.Tweening.TweenSettingsExtensions.Join(DG.Tweening.TweenSettingsExtensions.Join(DG.Tweening.TweenSettingsExtensions.Append(s, DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$12(DG.Tweening.DOTween.To$12(function () {
+                        return target.position;
+                    }, Bridge.fn.cacheBind(target, target.MovePosition), new pc.Vec3( endValue.x, 0, 0 ), duration), DG.Tweening.AxisConstraint.X, snapping), DG.Tweening.Ease.Linear)), DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$12(DG.Tweening.DOTween.To$12(function () {
+                        return target.position;
+                    }, Bridge.fn.cacheBind(target, target.MovePosition), new pc.Vec3( 0, 0, endValue.z ), duration), DG.Tweening.AxisConstraint.Z, snapping), DG.Tweening.Ease.Linear)), yTween), target), DG.Tweening.DOTween.defaultEaseType);
+                    DG.Tweening.TweenSettingsExtensions.OnUpdate(DG.Tweening.Tween, yTween, function () {
+                        if (!offsetYSet) {
+                            offsetYSet = true;
+                            offsetY = s.isRelative ? endValue.y : endValue.y - startPosY;
+                        }
+                        var pos = target.position.$clone();
+                        pos.y += DG.Tweening.DOVirtual.EasedValue(0, offsetY, DG.Tweening.TweenExtensions.ElapsedPercentage(yTween), DG.Tweening.Ease.OutQuad);
+                        target.MovePosition(pos);
+                    });
+                    return s;
+                },
+                /*DG.Tweening.DOTweenModulePhysics.DOJump:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics.DOPath:static start.*/
+                /**
+                 * Tweens a Rigidbody's position through the given path waypoints, using the chosen path algorithm.
+                 Also stores the Rigidbody as the tween's target so it can be used for filtered operations.
+                 <p>NOTE: to tween a rigidbody correctly it should be set to kinematic at least while being tweened.</p><p>BEWARE: doesn't work on Windows Phone store (waiting for Unity to fix their own bug).
+                 If you plan to publish there you should use a regular transform.DOPath.</p>
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics
+                 * @memberof DG.Tweening.DOTweenModulePhysics
+                 * @param   {UnityEngine.Rigidbody}             target        
+                 * @param   {Array.<UnityEngine.Vector3>}       path          The waypoints to go through
+                 * @param   {number}                            duration      The duration of the tween
+                 * @param   {DG.Tweening.PathType}              pathType      The type of path: Linear (straight path), CatmullRom (curved CatmullRom path) or CubicBezier (curved with control points)
+                 * @param   {DG.Tweening.PathMode}              pathMode      The path mode: 3D, side-scroller 2D, top-down 2D
+                 * @param   {number}                            resolution    The resolution of the path (useless in case of Linear paths): higher resolutions make for more detailed curved paths but are more expensive.
+                 Defaults to 10, but a value of 5 is usually enough if you don't have dramatic long curves between waypoints
+                 * @param   {?UnityEngine.Color}                gizmoColor    The color of the path (shown when gizmos are active in the Play panel and the tween is running)
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOPath: function (target, path, duration, pathType, pathMode, resolution, gizmoColor) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOPath", this ); }
+
+                    if (pathType === void 0) { pathType = 0; }
+                    if (pathMode === void 0) { pathMode = 1; }
+                    if (resolution === void 0) { resolution = 10; }
+                    if (gizmoColor === void 0) { gizmoColor = null; }
+                    if (resolution < 1) {
+                        resolution = 1;
+                    }
+                    var t = DG.Tweening.TweenSettingsExtensions.SetUpdate$1(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, DG.Tweening.Plugins.Core.PathCore.Path, DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Plugins.PathPlugin.Get(), function () {
+                        return target.position;
+                    }, Bridge.fn.cacheBind(target, target.MovePosition), new DG.Tweening.Plugins.Core.PathCore.Path.$ctor1(pathType, path, resolution, System.Nullable.lift1("$clone", gizmoColor)), duration), target), DG.Tweening.UpdateType.Fixed);
+
+                    t.plugOptions.isRigidbody = true;
+                    t.plugOptions.mode = pathMode;
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics.DOPath:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics.DOPath$1:static start.*/
+                DOPath$1: function (target, path, duration, pathMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOPath$1", this ); }
+
+                    if (pathMode === void 0) { pathMode = 1; }
+                    var t = DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, DG.Tweening.Plugins.Core.PathCore.Path, DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Plugins.PathPlugin.Get(), function () {
+                        return target.position;
+                    }, Bridge.fn.cacheBind(target, target.MovePosition), path, duration), target);
+
+                    t.plugOptions.isRigidbody = true;
+                    t.plugOptions.mode = pathMode;
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics.DOPath$1:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics.DOLocalPath:static start.*/
+                /**
+                 * Tweens a Rigidbody's localPosition through the given path waypoints, using the chosen path algorithm.
+                 Also stores the Rigidbody as the tween's target so it can be used for filtered operations
+                 <p>NOTE: to tween a rigidbody correctly it should be set to kinematic at least while being tweened.</p><p>BEWARE: doesn't work on Windows Phone store (waiting for Unity to fix their own bug).
+                 If you plan to publish there you should use a regular transform.DOLocalPath.</p>
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics
+                 * @memberof DG.Tweening.DOTweenModulePhysics
+                 * @param   {UnityEngine.Rigidbody}             target        
+                 * @param   {Array.<UnityEngine.Vector3>}       path          The waypoint to go through
+                 * @param   {number}                            duration      The duration of the tween
+                 * @param   {DG.Tweening.PathType}              pathType      The type of path: Linear (straight path), CatmullRom (curved CatmullRom path) or CubicBezier (curved with control points)
+                 * @param   {DG.Tweening.PathMode}              pathMode      The path mode: 3D, side-scroller 2D, top-down 2D
+                 * @param   {number}                            resolution    The resolution of the path: higher resolutions make for more detailed curved paths but are more expensive.
+                 Defaults to 10, but a value of 5 is usually enough if you don't have dramatic long curves between waypoints
+                 * @param   {?UnityEngine.Color}                gizmoColor    The color of the path (shown when gizmos are active in the Play panel and the tween is running)
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOLocalPath: function (target, path, duration, pathType, pathMode, resolution, gizmoColor) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOLocalPath", this ); }
+
+                    if (pathType === void 0) { pathType = 0; }
+                    if (pathMode === void 0) { pathMode = 1; }
+                    if (resolution === void 0) { resolution = 10; }
+                    if (gizmoColor === void 0) { gizmoColor = null; }
+                    if (resolution < 1) {
+                        resolution = 1;
+                    }
+                    var trans = target.transform;
+                    var t = DG.Tweening.TweenSettingsExtensions.SetUpdate$1(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, DG.Tweening.Plugins.Core.PathCore.Path, DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Plugins.PathPlugin.Get(), function () {
+                        return trans.localPosition;
+                    }, function (x) {
+                        target.MovePosition(UnityEngine.Component.op_Equality(trans.parent, null) ? x.$clone() : trans.parent.TransformPoint$1(x));
+                    }, new DG.Tweening.Plugins.Core.PathCore.Path.$ctor1(pathType, path, resolution, System.Nullable.lift1("$clone", gizmoColor)), duration), target), DG.Tweening.UpdateType.Fixed);
+
+                    t.plugOptions.isRigidbody = true;
+                    t.plugOptions.mode = pathMode;
+                    t.plugOptions.useLocalPosition = true;
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics.DOLocalPath:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics.DOLocalPath$1:static start.*/
+                DOLocalPath$1: function (target, path, duration, pathMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics#DOLocalPath$1", this ); }
+
+                    if (pathMode === void 0) { pathMode = 1; }
+                    var trans = target.transform;
+                    var t = DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, DG.Tweening.Plugins.Core.PathCore.Path, DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Plugins.PathPlugin.Get(), function () {
+                        return trans.localPosition;
+                    }, function (x) {
+                        target.MovePosition(UnityEngine.Component.op_Equality(trans.parent, null) ? x.$clone() : trans.parent.TransformPoint$1(x));
+                    }, path, duration), target);
+
+                    t.plugOptions.isRigidbody = true;
+                    t.plugOptions.mode = pathMode;
+                    t.plugOptions.useLocalPosition = true;
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics.DOLocalPath$1:static end.*/
+
+
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenModulePhysics end.*/
+
+    /*DG.Tweening.DOTweenModulePhysics2D start.*/
+    Bridge.define("DG.Tweening.DOTweenModulePhysics2D", {
+        statics: {
+            methods: {
+                /*DG.Tweening.DOTweenModulePhysics2D.DOMove:static start.*/
+                /**
+                 * Tweens a Rigidbody2D's position to the given value.
+                 Also stores the Rigidbody2D as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics2D
+                 * @memberof DG.Tweening.DOTweenModulePhysics2D
+                 * @param   {UnityEngine.Rigidbody2D}           target      
+                 * @param   {UnityEngine.Vector2}               endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOMove: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOMove", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.position;
+                    }, Bridge.fn.cacheBind(target, target.MovePosition), endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$9(t, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics2D.DOMove:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics2D.DOMoveX:static start.*/
+                /**
+                 * Tweens a Rigidbody2D's X position to the given value.
+                 Also stores the Rigidbody2D as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics2D
+                 * @memberof DG.Tweening.DOTweenModulePhysics2D
+                 * @param   {UnityEngine.Rigidbody2D}           target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOMoveX: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOMoveX", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.position;
+                    }, Bridge.fn.cacheBind(target, target.MovePosition), new pc.Vec2( endValue, 0 ), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$8(t, DG.Tweening.AxisConstraint.X, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics2D.DOMoveX:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics2D.DOMoveY:static start.*/
+                /**
+                 * Tweens a Rigidbody2D's Y position to the given value.
+                 Also stores the Rigidbody2D as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics2D
+                 * @memberof DG.Tweening.DOTweenModulePhysics2D
+                 * @param   {UnityEngine.Rigidbody2D}           target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOMoveY: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOMoveY", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.position;
+                    }, Bridge.fn.cacheBind(target, target.MovePosition), new pc.Vec2( 0, endValue ), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$8(t, DG.Tweening.AxisConstraint.Y, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics2D.DOMoveY:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics2D.DORotate:static start.*/
+                /**
+                 * Tweens a Rigidbody2D's rotation to the given value.
+                 Also stores the Rigidbody2D as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics2D
+                 * @memberof DG.Tweening.DOTweenModulePhysics2D
+                 * @param   {UnityEngine.Rigidbody2D}           target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DORotate: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DORotate", this ); }
+
+                    var t = DG.Tweening.DOTween.To$4(function () {
+                        return target.rotation;
+                    }, Bridge.fn.cacheBind(target, target.MoveRotation), endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics2D.DORotate:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics2D.DOJump:static start.*/
+                /**
+                 * Tweens a Rigidbody2D's position to the given value, while also applying a jump effect along the Y axis.
+                 Returns a Sequence instead of a Tweener.
+                 Also stores the Rigidbody2D as the tween's target so it can be used for filtered operations.
+                 <p>IMPORTANT: a rigidbody2D can't be animated in a jump arc using MovePosition, so the tween will directly set the position</p>
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics2D
+                 * @memberof DG.Tweening.DOTweenModulePhysics2D
+                 * @param   {UnityEngine.Rigidbody2D}    target       
+                 * @param   {UnityEngine.Vector2}        endValue     The end value to reach
+                 * @param   {number}                     jumpPower    Power of the jump (the max height of the jump is represented by this plus the final Y offset)
+                 * @param   {number}                     numJumps     Total number of jumps
+                 * @param   {number}                     duration     The duration of the tween
+                 * @param   {boolean}                    snapping     If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Sequence}
+                 */
+                DOJump: function (target, endValue, jumpPower, numJumps, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOJump", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    if (numJumps < 1) {
+                        numJumps = 1;
+                    }
+                    var startPosY = 0;
+                    var offsetY = -1;
+                    var offsetYSet = false;
+                    var s = DG.Tweening.DOTween.Sequence();
+                    var yTween = DG.Tweening.TweenSettingsExtensions.OnStart(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetLoops$1(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetRelative(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$8(DG.Tweening.DOTween.To$11(function () {
+                        return target.position;
+                    }, function (x) {
+                        target.position = x.$clone();
+                    }, new pc.Vec2( 0, jumpPower ), duration / (Bridge.Int.mul(numJumps, 2))), DG.Tweening.AxisConstraint.Y, snapping), DG.Tweening.Ease.OutQuad)), Bridge.Int.mul(numJumps, 2), DG.Tweening.LoopType.Yoyo), function () {
+                        startPosY = target.position.y;
+                    });
+                    DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Sequence, DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Sequence, DG.Tweening.TweenSettingsExtensions.Join(DG.Tweening.TweenSettingsExtensions.Append(s, DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$8(DG.Tweening.DOTween.To$11(function () {
+                        return target.position;
+                    }, function (x) {
+                        target.position = x.$clone();
+                    }, new pc.Vec2( endValue.x, 0 ), duration), DG.Tweening.AxisConstraint.X, snapping), DG.Tweening.Ease.Linear)), yTween), target), DG.Tweening.DOTween.defaultEaseType);
+                    DG.Tweening.TweenSettingsExtensions.OnUpdate(DG.Tweening.Tween, yTween, function () {
+                        if (!offsetYSet) {
+                            offsetYSet = true;
+                            offsetY = s.isRelative ? endValue.y : endValue.y - startPosY;
+                        }
+                        var pos = UnityEngine.Vector3.FromVector2(target.position.$clone());
+                        pos.y += DG.Tweening.DOVirtual.EasedValue(0, offsetY, DG.Tweening.TweenExtensions.ElapsedPercentage(yTween), DG.Tweening.Ease.OutQuad);
+                        target.MovePosition$1(pos);
+                    });
+                    return s;
+                },
+                /*DG.Tweening.DOTweenModulePhysics2D.DOJump:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics2D.DOPath:static start.*/
+                /**
+                 * Tweens a Rigidbody2D's position through the given path waypoints, using the chosen path algorithm.
+                 Also stores the Rigidbody2D as the tween's target so it can be used for filtered operations.
+                 <p>NOTE: to tween a Rigidbody2D correctly it should be set to kinematic at least while being tweened.</p><p>BEWARE: doesn't work on Windows Phone store (waiting for Unity to fix their own bug).
+                 If you plan to publish there you should use a regular transform.DOPath.</p>
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics2D
+                 * @memberof DG.Tweening.DOTweenModulePhysics2D
+                 * @param   {UnityEngine.Rigidbody2D}           target        
+                 * @param   {Array.<UnityEngine.Vector2>}       path          The waypoints to go through
+                 * @param   {number}                            duration      The duration of the tween
+                 * @param   {DG.Tweening.PathType}              pathType      The type of path: Linear (straight path), CatmullRom (curved CatmullRom path) or CubicBezier (curved with control points)
+                 * @param   {DG.Tweening.PathMode}              pathMode      The path mode: 3D, side-scroller 2D, top-down 2D
+                 * @param   {number}                            resolution    The resolution of the path (useless in case of Linear paths): higher resolutions make for more detailed curved paths but are more expensive.
+                 Defaults to 10, but a value of 5 is usually enough if you don't have dramatic long curves between waypoints
+                 * @param   {?UnityEngine.Color}                gizmoColor    The color of the path (shown when gizmos are active in the Play panel and the tween is running)
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOPath: function (target, path, duration, pathType, pathMode, resolution, gizmoColor) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOPath", this ); }
+
+                    if (pathType === void 0) { pathType = 0; }
+                    if (pathMode === void 0) { pathMode = 1; }
+                    if (resolution === void 0) { resolution = 10; }
+                    if (gizmoColor === void 0) { gizmoColor = null; }
+                    if (resolution < 1) {
+                        resolution = 1;
+                    }
+                    var len = path.length;
+                    var path3D = System.Array.init(len, function (){
+                        return new UnityEngine.Vector3();
+                    }, UnityEngine.Vector3);
+                    for (var i = 0; i < len; i = (i + 1) | 0) {
+                        path3D[i] = UnityEngine.Vector3.FromVector2(path[i].$clone());
+                    }
+                    var t = DG.Tweening.TweenSettingsExtensions.SetUpdate$1(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, DG.Tweening.Plugins.Core.PathCore.Path, DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Plugins.PathPlugin.Get(), function () {
+                        return UnityEngine.Vector3.FromVector2(target.position);
+                    }, function (x) {
+                        target.MovePosition$1(x);
+                    }, new DG.Tweening.Plugins.Core.PathCore.Path.$ctor1(pathType, path3D, resolution, System.Nullable.lift1("$clone", gizmoColor)), duration), target), DG.Tweening.UpdateType.Fixed);
+
+                    t.plugOptions.isRigidbody2D = true;
+                    t.plugOptions.mode = pathMode;
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics2D.DOPath:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics2D.DOPath$1:static start.*/
+                DOPath$1: function (target, path, duration, pathMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOPath$1", this ); }
+
+                    if (pathMode === void 0) { pathMode = 1; }
+                    var t = DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, DG.Tweening.Plugins.Core.PathCore.Path, DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Plugins.PathPlugin.Get(), function () {
+                        return UnityEngine.Vector3.FromVector2(target.position);
+                    }, function (x) {
+                        target.MovePosition$1(x);
+                    }, path, duration), target);
+
+                    t.plugOptions.isRigidbody2D = true;
+                    t.plugOptions.mode = pathMode;
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics2D.DOPath$1:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics2D.DOLocalPath:static start.*/
+                /**
+                 * Tweens a Rigidbody2D's localPosition through the given path waypoints, using the chosen path algorithm.
+                 Also stores the Rigidbody2D as the tween's target so it can be used for filtered operations
+                 <p>NOTE: to tween a Rigidbody2D correctly it should be set to kinematic at least while being tweened.</p><p>BEWARE: doesn't work on Windows Phone store (waiting for Unity to fix their own bug).
+                 If you plan to publish there you should use a regular transform.DOLocalPath.</p>
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModulePhysics2D
+                 * @memberof DG.Tweening.DOTweenModulePhysics2D
+                 * @param   {UnityEngine.Rigidbody2D}           target        
+                 * @param   {Array.<UnityEngine.Vector2>}       path          The waypoint to go through
+                 * @param   {number}                            duration      The duration of the tween
+                 * @param   {DG.Tweening.PathType}              pathType      The type of path: Linear (straight path), CatmullRom (curved CatmullRom path) or CubicBezier (curved with control points)
+                 * @param   {DG.Tweening.PathMode}              pathMode      The path mode: 3D, side-scroller 2D, top-down 2D
+                 * @param   {number}                            resolution    The resolution of the path: higher resolutions make for more detailed curved paths but are more expensive.
+                 Defaults to 10, but a value of 5 is usually enough if you don't have dramatic long curves between waypoints
+                 * @param   {?UnityEngine.Color}                gizmoColor    The color of the path (shown when gizmos are active in the Play panel and the tween is running)
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOLocalPath: function (target, path, duration, pathType, pathMode, resolution, gizmoColor) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOLocalPath", this ); }
+
+                    if (pathType === void 0) { pathType = 0; }
+                    if (pathMode === void 0) { pathMode = 1; }
+                    if (resolution === void 0) { resolution = 10; }
+                    if (gizmoColor === void 0) { gizmoColor = null; }
+                    if (resolution < 1) {
+                        resolution = 1;
+                    }
+                    var len = path.length;
+                    var path3D = System.Array.init(len, function (){
+                        return new UnityEngine.Vector3();
+                    }, UnityEngine.Vector3);
+                    for (var i = 0; i < len; i = (i + 1) | 0) {
+                        path3D[i] = UnityEngine.Vector3.FromVector2(path[i].$clone());
+                    }
+                    var trans = target.transform;
+                    var t = DG.Tweening.TweenSettingsExtensions.SetUpdate$1(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, DG.Tweening.Plugins.Core.PathCore.Path, DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Plugins.PathPlugin.Get(), function () {
+                        return trans.localPosition;
+                    }, function (x) {
+                        target.MovePosition$1(UnityEngine.Component.op_Equality(trans.parent, null) ? x.$clone() : trans.parent.TransformPoint$1(x));
+                    }, new DG.Tweening.Plugins.Core.PathCore.Path.$ctor1(pathType, path3D, resolution, System.Nullable.lift1("$clone", gizmoColor)), duration), target), DG.Tweening.UpdateType.Fixed);
+
+                    t.plugOptions.isRigidbody2D = true;
+                    t.plugOptions.mode = pathMode;
+                    t.plugOptions.useLocalPosition = true;
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics2D.DOLocalPath:static end.*/
+
+                /*DG.Tweening.DOTweenModulePhysics2D.DOLocalPath$1:static start.*/
+                DOLocalPath$1: function (target, path, duration, pathMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1", this ); }
+
+                    if (pathMode === void 0) { pathMode = 1; }
+                    var trans = target.transform;
+                    var t = DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, DG.Tweening.Plugins.Core.PathCore.Path, DG.Tweening.Plugins.Options.PathOptions, DG.Tweening.Plugins.PathPlugin.Get(), function () {
+                        return trans.localPosition;
+                    }, function (x) {
+                        target.MovePosition$1(UnityEngine.Component.op_Equality(trans.parent, null) ? x.$clone() : trans.parent.TransformPoint$1(x));
+                    }, path, duration), target);
+
+                    t.plugOptions.isRigidbody2D = true;
+                    t.plugOptions.mode = pathMode;
+                    t.plugOptions.useLocalPosition = true;
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModulePhysics2D.DOLocalPath$1:static end.*/
+
+
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenModulePhysics2D end.*/
+
+    /*DG.Tweening.DOTweenModuleSprite start.*/
+    Bridge.define("DG.Tweening.DOTweenModuleSprite", {
+        statics: {
+            methods: {
+                /*DG.Tweening.DOTweenModuleSprite.DOColor:static start.*/
+                /**
+                 * Tweens a SpriteRenderer's color to the given value.
+                 Also stores the spriteRenderer as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleSprite
+                 * @memberof DG.Tweening.DOTweenModuleSprite
+                 * @param   {UnityEngine.SpriteRenderer}        target      
+                 * @param   {UnityEngine.Color}                 endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOColor: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleSprite#DOColor", this ); }
+
+                    var t = DG.Tweening.DOTween.To$8(function () {
+                        return target.color;
+                    }, function (x) {
+                        target.color = x.$clone();
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleSprite.DOColor:static end.*/
+
+                /*DG.Tweening.DOTweenModuleSprite.DOFade:static start.*/
+                /**
+                 * Tweens a Material's alpha color to the given value.
+                 Also stores the spriteRenderer as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleSprite
+                 * @memberof DG.Tweening.DOTweenModuleSprite
+                 * @param   {UnityEngine.SpriteRenderer}        target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOFade: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleSprite#DOFade", this ); }
+
+                    var t = DG.Tweening.DOTween.ToAlpha(function () {
+                        return target.color;
+                    }, function (x) {
+                        target.color = x.$clone();
+                    }, endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleSprite.DOFade:static end.*/
+
+                /*DG.Tweening.DOTweenModuleSprite.DOGradientColor:static start.*/
+                /**
+                 * Tweens a SpriteRenderer's color using the given gradient
+                 (NOTE 1: only uses the colors of the gradient, not the alphas - NOTE 2: creates a Sequence, not a Tweener).
+                 Also stores the image as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleSprite
+                 * @memberof DG.Tweening.DOTweenModuleSprite
+                 * @param   {UnityEngine.SpriteRenderer}    target      
+                 * @param   {pc.ColorGradient}              gradient    The gradient to use
+                 * @param   {number}                        duration    The duration of the tween
+                 * @return  {DG.Tweening.Sequence}
+                 */
+                DOGradientColor: function (target, gradient, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleSprite#DOGradientColor", this ); }
+
+                    var s = DG.Tweening.DOTween.Sequence();
+                    var colors = gradient.colorKeys;
+                    var len = colors.length;
+                    for (var i = 0; i < len; i = (i + 1) | 0) {
+                        var c = colors[i];
+                        if (i === 0 && c.time <= 0) {
+                            target.color = c.color.$clone();
+                            continue;
+                        }
+                        var colorDuration = i === ((len - 1) | 0) ? duration - DG.Tweening.TweenExtensions.Duration(s, false) : duration * (i === 0 ? c.time : c.time - colors[((i - 1) | 0)].time);
+                        DG.Tweening.TweenSettingsExtensions.Append(s, DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), DG.Tweening.DOTweenModuleSprite.DOColor(target, c.color.$clone(), colorDuration), DG.Tweening.Ease.Linear));
+                    }
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Sequence, s, target);
+                    return s;
+                },
+                /*DG.Tweening.DOTweenModuleSprite.DOGradientColor:static end.*/
+
+                /*DG.Tweening.DOTweenModuleSprite.DOBlendableColor:static start.*/
+                /**
+                 * Tweens a SpriteRenderer's color to the given value,
+                 in a way that allows other DOBlendableColor tweens to work together on the same target,
+                 instead than fight each other as multiple DOColor would do.
+                 Also stores the SpriteRenderer as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleSprite
+                 * @memberof DG.Tweening.DOTweenModuleSprite
+                 * @param   {UnityEngine.SpriteRenderer}    target      
+                 * @param   {UnityEngine.Color}             endValue    The value to tween to
+                 * @param   {number}                        duration    The duration of the tween
+                 * @return  {DG.Tweening.Tweener}
+                 */
+                DOBlendableColor: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleSprite#DOBlendableColor", this ); }
+
+                    var $t;
+                    endValue = ($t = target.color, new pc.Color( endValue.r - $t.r, endValue.g - $t.g, endValue.b - $t.b, endValue.a - $t.a ));
+                    var to = new pc.Color( 0, 0, 0, 0 );
+                    return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), DG.Tweening.Core.Extensions.Blendable(UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions, DG.Tweening.DOTween.To$8(function () {
+                        return to;
+                    }, function (x) {
+                        var $t1;
+                        var diff = new pc.Color( x.r - to.r, x.g - to.g, x.b - to.b, x.a - to.a );
+                        to = x.$clone();
+                        target.color = ($t1 = target.color.$clone(), new pc.Color( $t1.r + diff.$clone().r, $t1.g + diff.$clone().g, $t1.b + diff.$clone().b, $t1.a + diff.$clone().a ));
+                    }, endValue.$clone(), duration)), target);
+                },
+                /*DG.Tweening.DOTweenModuleSprite.DOBlendableColor:static end.*/
+
+
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenModuleSprite end.*/
+
+    /*DG.Tweening.DOTweenModuleUI start.*/
+    Bridge.define("DG.Tweening.DOTweenModuleUI", {
+        statics: {
+            methods: {
+                /*DG.Tweening.DOTweenModuleUI.DOFade:static start.*/
+                /**
+                 * Tweens a CanvasGroup's alpha color to the given value.
+                 Also stores the canvasGroup as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.CanvasGroup}           target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOFade: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFade", this ); }
+
+                    var t = DG.Tweening.DOTween.To$4(function () {
+                        return target.alpha;
+                    }, function (x) {
+                        target.alpha = x;
+                    }, endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOFade:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOFade$1:static start.*/
+                /**
+                 * Tweens an Graphic's alpha color to the given value.
+                 Also stores the image as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Graphic}            target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOFade$1: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFade$1", this ); }
+
+                    var t = DG.Tweening.DOTween.ToAlpha(function () {
+                        return target.color;
+                    }, function (x) {
+                        target.color = x.$clone();
+                    }, endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOFade$1:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOFade$2:static start.*/
+                /**
+                 * Tweens an Image's alpha color to the given value.
+                 Also stores the image as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Image}              target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOFade$2: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFade$2", this ); }
+
+                    var t = DG.Tweening.DOTween.ToAlpha(function () {
+                        return target.color;
+                    }, function (x) {
+                        target.color = x.$clone();
+                    }, endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOFade$2:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOFade$3:static start.*/
+                /**
+                 * Tweens a Outline's effectColor alpha to the given value.
+                 Also stores the Outline as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Outline}            target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOFade$3: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFade$3", this ); }
+
+                    var t = DG.Tweening.DOTween.ToAlpha(function () {
+                        return target.effectColor;
+                    }, function (x) {
+                        target.effectColor = x.$clone();
+                    }, endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOFade$3:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOFade$4:static start.*/
+                /**
+                 * Tweens a Text's alpha color to the given value.
+                 Also stores the Text as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Text}               target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOFade$4: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFade$4", this ); }
+
+                    var t = DG.Tweening.DOTween.ToAlpha(function () {
+                        return target.color;
+                    }, function (x) {
+                        target.color = x.$clone();
+                    }, endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOFade$4:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOColor:static start.*/
+                /**
+                 * Tweens an Graphic's color to the given value.
+                 Also stores the image as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Graphic}            target      
+                 * @param   {UnityEngine.Color}                 endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOColor: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOColor", this ); }
+
+                    var t = DG.Tweening.DOTween.To$8(function () {
+                        return target.color;
+                    }, function (x) {
+                        target.color = x.$clone();
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOColor:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOColor$1:static start.*/
+                /**
+                 * Tweens an Image's color to the given value.
+                 Also stores the image as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Image}              target      
+                 * @param   {UnityEngine.Color}                 endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOColor$1: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOColor$1", this ); }
+
+                    var t = DG.Tweening.DOTween.To$8(function () {
+                        return target.color;
+                    }, function (x) {
+                        target.color = x.$clone();
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOColor$1:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOColor$2:static start.*/
+                /**
+                 * Tweens a Outline's effectColor to the given value.
+                 Also stores the Outline as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Outline}            target      
+                 * @param   {UnityEngine.Color}                 endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOColor$2: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOColor$2", this ); }
+
+                    var t = DG.Tweening.DOTween.To$8(function () {
+                        return target.effectColor;
+                    }, function (x) {
+                        target.effectColor = x.$clone();
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOColor$2:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOColor$3:static start.*/
+                /**
+                 * Tweens a Text's color to the given value.
+                 Also stores the Text as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Text}               target      
+                 * @param   {UnityEngine.Color}                 endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOColor$3: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOColor$3", this ); }
+
+                    var t = DG.Tweening.DOTween.To$8(function () {
+                        return target.color;
+                    }, function (x) {
+                        target.color = x.$clone();
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOColor$3:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOFillAmount:static start.*/
+                /**
+                 * Tweens an Image's fillAmount to the given value.
+                 Also stores the image as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Image}              target      
+                 * @param   {number}                            endValue    The end value to reach (0 to 1)
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOFillAmount: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFillAmount", this ); }
+
+                    if (endValue > 1) {
+                        endValue = 1;
+                    } else {
+                        if (endValue < 0) {
+                            endValue = 0;
+                        }
+                    }
+                    var t = DG.Tweening.DOTween.To$4(function () {
+                        return target.fillAmount;
+                    }, function (x) {
+                        target.fillAmount = x;
+                    }, endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOFillAmount:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOGradientColor:static start.*/
+                /**
+                 * Tweens an Image's colors using the given gradient
+                 (NOTE 1: only uses the colors of the gradient, not the alphas - NOTE 2: creates a Sequence, not a Tweener).
+                 Also stores the image as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Image}    target      
+                 * @param   {pc.ColorGradient}        gradient    The gradient to use
+                 * @param   {number}                  duration    The duration of the tween
+                 * @return  {DG.Tweening.Sequence}
+                 */
+                DOGradientColor: function (target, gradient, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOGradientColor", this ); }
+
+                    var s = DG.Tweening.DOTween.Sequence();
+                    var colors = gradient.colorKeys;
+                    var len = colors.length;
+                    for (var i = 0; i < len; i = (i + 1) | 0) {
+                        var c = colors[i];
+                        if (i === 0 && c.time <= 0) {
+                            target.color = c.color.$clone();
+                            continue;
+                        }
+                        var colorDuration = i === ((len - 1) | 0) ? duration - DG.Tweening.TweenExtensions.Duration(s, false) : duration * (i === 0 ? c.time : c.time - colors[((i - 1) | 0)].time);
+                        DG.Tweening.TweenSettingsExtensions.Append(s, DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), DG.Tweening.DOTweenModuleUI.DOColor$1(target, c.color.$clone(), colorDuration), DG.Tweening.Ease.Linear));
+                    }
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Sequence, s, target);
+                    return s;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOGradientColor:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOFlexibleSize:static start.*/
+                /**
+                 * Tweens an LayoutElement's flexibleWidth/Height to the given value.
+                 Also stores the LayoutElement as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.LayoutElement}      target      
+                 * @param   {UnityEngine.Vector2}               endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOFlexibleSize: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOFlexibleSize", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return new pc.Vec2( target.flexibleWidth, target.flexibleHeight );
+                    }, function (x) {
+                        target.flexibleWidth = x.x;
+                        target.flexibleHeight = x.y;
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$9(t, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOFlexibleSize:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOMinSize:static start.*/
+                /**
+                 * Tweens an LayoutElement's minWidth/Height to the given value.
+                 Also stores the LayoutElement as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.LayoutElement}      target      
+                 * @param   {UnityEngine.Vector2}               endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOMinSize: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOMinSize", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return new pc.Vec2( target.minWidth, target.minHeight );
+                    }, function (x) {
+                        target.minWidth = x.x;
+                        target.minHeight = x.y;
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$9(t, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOMinSize:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOPreferredSize:static start.*/
+                /**
+                 * Tweens an LayoutElement's preferredWidth/Height to the given value.
+                 Also stores the LayoutElement as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.LayoutElement}      target      
+                 * @param   {UnityEngine.Vector2}               endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOPreferredSize: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOPreferredSize", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return new pc.Vec2( target.preferredWidth, target.preferredHeight );
+                    }, function (x) {
+                        target.preferredWidth = x.x;
+                        target.preferredHeight = x.y;
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$9(t, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOPreferredSize:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOScale:static start.*/
+                /**
+                 * Tweens a Outline's effectDistance to the given value.
+                 Also stores the Outline as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Outline}            target      
+                 * @param   {UnityEngine.Vector2}               endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOScale: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOScale", this ); }
+
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.effectDistance;
+                    }, function (x) {
+                        target.effectDistance = x.$clone();
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOScale:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPos:static start.*/
+                /**
+                 * Tweens a RectTransform's anchoredPosition to the given value.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target      
+                 * @param   {UnityEngine.Vector2}               endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOAnchorPos: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPos", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.anchoredPosition;
+                    }, function (x) {
+                        target.anchoredPosition = x.$clone();
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$9(t, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPos:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPosX:static start.*/
+                /**
+                 * Tweens a RectTransform's anchoredPosition X to the given value.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOAnchorPosX: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPosX", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.anchoredPosition;
+                    }, function (x) {
+                        target.anchoredPosition = x.$clone();
+                    }, new pc.Vec2( endValue, 0 ), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$8(t, DG.Tweening.AxisConstraint.X, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPosX:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPosY:static start.*/
+                /**
+                 * Tweens a RectTransform's anchoredPosition Y to the given value.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOAnchorPosY: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPosY", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.anchoredPosition;
+                    }, function (x) {
+                        target.anchoredPosition = x.$clone();
+                    }, new pc.Vec2( 0, endValue ), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$8(t, DG.Tweening.AxisConstraint.Y, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPosY:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPos3D:static start.*/
+                /**
+                 * Tweens a RectTransform's anchoredPosition3D to the given value.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target      
+                 * @param   {UnityEngine.Vector3}               endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOAnchorPos3D: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPos3D", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$12(function () {
+                        return target.anchoredPosition3D;
+                    }, function (x) {
+                        target.anchoredPosition3D = x.$clone();
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$13(t, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPos3D:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPos3DX:static start.*/
+                /**
+                 * Tweens a RectTransform's anchoredPosition3D X to the given value.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOAnchorPos3DX: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$12(function () {
+                        return target.anchoredPosition3D;
+                    }, function (x) {
+                        target.anchoredPosition3D = x.$clone();
+                    }, new pc.Vec3( endValue, 0, 0 ), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$12(t, DG.Tweening.AxisConstraint.X, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPos3DX:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPos3DY:static start.*/
+                /**
+                 * Tweens a RectTransform's anchoredPosition3D Y to the given value.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOAnchorPos3DY: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$12(function () {
+                        return target.anchoredPosition3D;
+                    }, function (x) {
+                        target.anchoredPosition3D = x.$clone();
+                    }, new pc.Vec3( 0, endValue, 0 ), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$12(t, DG.Tweening.AxisConstraint.Y, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPos3DY:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPos3DZ:static start.*/
+                /**
+                 * Tweens a RectTransform's anchoredPosition3D Z to the given value.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOAnchorPos3DZ: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$12(function () {
+                        return target.anchoredPosition3D;
+                    }, function (x) {
+                        target.anchoredPosition3D = x.$clone();
+                    }, new pc.Vec3( 0, 0, endValue ), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$12(t, DG.Tweening.AxisConstraint.Z, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorPos3DZ:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorMax:static start.*/
+                /**
+                 * Tweens a RectTransform's anchorMax to the given value.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target      
+                 * @param   {UnityEngine.Vector2}               endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOAnchorMax: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorMax", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.anchorMax;
+                    }, function (x) {
+                        target.anchorMax = x.$clone();
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$9(t, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorMax:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorMin:static start.*/
+                /**
+                 * Tweens a RectTransform's anchorMin to the given value.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target      
+                 * @param   {UnityEngine.Vector2}               endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOAnchorMin: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOAnchorMin", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.anchorMin;
+                    }, function (x) {
+                        target.anchorMin = x.$clone();
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$9(t, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOAnchorMin:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOPivot:static start.*/
+                /**
+                 * Tweens a RectTransform's pivot to the given value.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target      
+                 * @param   {UnityEngine.Vector2}               endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOPivot: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOPivot", this ); }
+
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.pivot;
+                    }, function (x) {
+                        target.pivot = x.$clone();
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOPivot:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOPivotX:static start.*/
+                /**
+                 * Tweens a RectTransform's pivot X to the given value.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOPivotX: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOPivotX", this ); }
+
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.pivot;
+                    }, function (x) {
+                        target.pivot = x.$clone();
+                    }, new pc.Vec2( endValue, 0 ), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$8(t, DG.Tweening.AxisConstraint.X), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOPivotX:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOPivotY:static start.*/
+                /**
+                 * Tweens a RectTransform's pivot Y to the given value.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOPivotY: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOPivotY", this ); }
+
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.pivot;
+                    }, function (x) {
+                        target.pivot = x.$clone();
+                    }, new pc.Vec2( 0, endValue ), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$8(t, DG.Tweening.AxisConstraint.Y), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOPivotY:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOSizeDelta:static start.*/
+                /**
+                 * Tweens a RectTransform's sizeDelta to the given value.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target      
+                 * @param   {UnityEngine.Vector2}               endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOSizeDelta: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOSizeDelta", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.sizeDelta;
+                    }, function (x) {
+                        target.sizeDelta = x.$clone();
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$9(t, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOSizeDelta:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOPunchAnchorPos:static start.*/
+                /**
+                 * Punches a RectTransform's anchoredPosition towards the given direction and then back to the starting one
+                 as if it was connected to the starting position via an elastic.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}    target        
+                 * @param   {UnityEngine.Vector2}          punch         The direction and strength of the punch (added to the RectTransform's current position)
+                 * @param   {number}                       duration      The duration of the tween
+                 * @param   {number}                       vibrato       Indicates how much will the punch vibrate
+                 * @param   {number}                       elasticity    Represents how much (0 to 1) the vector will go beyond the starting position when bouncing backwards.
+                 1 creates a full oscillation between the punch direction and the opposite direction,
+                 while 0 oscillates only between the punch and the start position
+                 * @param   {boolean}                      snapping      If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Tweener}
+                 */
+                DOPunchAnchorPos: function (target, punch, duration, vibrato, elasticity, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos", this ); }
+
+                    if (vibrato === void 0) { vibrato = 10; }
+                    if (elasticity === void 0) { elasticity = 1.0; }
+                    if (snapping === void 0) { snapping = false; }
+                    return DG.Tweening.TweenSettingsExtensions.SetOptions$11(DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,System.Array.type(UnityEngine.Vector3),DG.Tweening.Plugins.Options.Vector3ArrayOptions), DG.Tweening.DOTween.Punch(function () {
+                        return UnityEngine.Vector3.FromVector2(target.anchoredPosition);
+                    }, function (x) {
+                        target.anchoredPosition = UnityEngine.Vector2.FromVector3(x.$clone());
+                    }, UnityEngine.Vector3.FromVector2(punch.$clone()), duration, vibrato, elasticity), target), snapping);
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOPunchAnchorPos:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOShakeAnchorPos:static start.*/
+                /**
+                 * Shakes a RectTransform's anchoredPosition with the given values.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}          target            
+                 * @param   {number}                             duration          The duration of the tween
+                 * @param   {number}                             strength          The shake strength
+                 * @param   {number}                             vibrato           Indicates how much will the shake vibrate
+                 * @param   {number}                             randomness        Indicates how much the shake will be random (0 to 180 - values higher than 90 kind of suck, so beware). 
+                 Setting it to 0 will shake along a single direction.
+                 * @param   {boolean}                            snapping          If TRUE the tween will smoothly snap all values to integers
+                 * @param   {boolean}                            fadeOut           If TRUE the shake will automatically fadeOut smoothly within the tween's duration, otherwise it will not
+                 * @param   {DG.Tweening.ShakeRandomnessMode}    randomnessMode    Randomness mode
+                 * @return  {DG.Tweening.Tweener}
+                 */
+                DOShakeAnchorPos: function (target, duration, strength, vibrato, randomness, snapping, fadeOut, randomnessMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos", this ); }
+
+                    if (strength === void 0) { strength = 100.0; }
+                    if (vibrato === void 0) { vibrato = 10; }
+                    if (randomness === void 0) { randomness = 90.0; }
+                    if (snapping === void 0) { snapping = false; }
+                    if (fadeOut === void 0) { fadeOut = true; }
+                    if (randomnessMode === void 0) { randomnessMode = 0; }
+                    return DG.Tweening.TweenSettingsExtensions.SetOptions$11(DG.Tweening.Core.Extensions.SetSpecialStartupMode(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,System.Array.type(UnityEngine.Vector3),DG.Tweening.Plugins.Options.Vector3ArrayOptions), DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,System.Array.type(UnityEngine.Vector3),DG.Tweening.Plugins.Options.Vector3ArrayOptions), DG.Tweening.DOTween.Shake(function () {
+                        return UnityEngine.Vector3.FromVector2(target.anchoredPosition);
+                    }, function (x) {
+                        target.anchoredPosition = UnityEngine.Vector2.FromVector3(x.$clone());
+                    }, duration, strength, vibrato, randomness, true, fadeOut, randomnessMode), target), DG.Tweening.Core.Enums.SpecialStartupMode.SetShake), snapping);
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOShakeAnchorPos:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOShakeAnchorPos$1:static start.*/
+                /**
+                 * Shakes a RectTransform's anchoredPosition with the given values.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}          target            
+                 * @param   {number}                             duration          The duration of the tween
+                 * @param   {UnityEngine.Vector2}                strength          The shake strength on each axis
+                 * @param   {number}                             vibrato           Indicates how much will the shake vibrate
+                 * @param   {number}                             randomness        Indicates how much the shake will be random (0 to 180 - values higher than 90 kind of suck, so beware). 
+                 Setting it to 0 will shake along a single direction.
+                 * @param   {boolean}                            snapping          If TRUE the tween will smoothly snap all values to integers
+                 * @param   {boolean}                            fadeOut           If TRUE the shake will automatically fadeOut smoothly within the tween's duration, otherwise it will not
+                 * @param   {DG.Tweening.ShakeRandomnessMode}    randomnessMode    Randomness mode
+                 * @return  {DG.Tweening.Tweener}
+                 */
+                DOShakeAnchorPos$1: function (target, duration, strength, vibrato, randomness, snapping, fadeOut, randomnessMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1", this ); }
+
+                    if (vibrato === void 0) { vibrato = 10; }
+                    if (randomness === void 0) { randomness = 90.0; }
+                    if (snapping === void 0) { snapping = false; }
+                    if (fadeOut === void 0) { fadeOut = true; }
+                    if (randomnessMode === void 0) { randomnessMode = 0; }
+                    return DG.Tweening.TweenSettingsExtensions.SetOptions$11(DG.Tweening.Core.Extensions.SetSpecialStartupMode(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,System.Array.type(UnityEngine.Vector3),DG.Tweening.Plugins.Options.Vector3ArrayOptions), DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,System.Array.type(UnityEngine.Vector3),DG.Tweening.Plugins.Options.Vector3ArrayOptions), DG.Tweening.DOTween.Shake$1(function () {
+                        return UnityEngine.Vector3.FromVector2(target.anchoredPosition);
+                    }, function (x) {
+                        target.anchoredPosition = UnityEngine.Vector2.FromVector3(x.$clone());
+                    }, duration, UnityEngine.Vector3.FromVector2(strength.$clone()), vibrato, randomness, fadeOut, randomnessMode), target), DG.Tweening.Core.Enums.SpecialStartupMode.SetShake), snapping);
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOShakeAnchorPos$1:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOJumpAnchorPos:static start.*/
+                /**
+                 * Tweens a RectTransform's anchoredPosition to the given value, while also applying a jump effect along the Y axis.
+                 Returns a Sequence instead of a Tweener.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}    target       
+                 * @param   {UnityEngine.Vector2}          endValue     The end value to reach
+                 * @param   {number}                       jumpPower    Power of the jump (the max height of the jump is represented by this plus the final Y offset)
+                 * @param   {number}                       numJumps     Total number of jumps
+                 * @param   {number}                       duration     The duration of the tween
+                 * @param   {boolean}                      snapping     If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Sequence}
+                 */
+                DOJumpAnchorPos: function (target, endValue, jumpPower, numJumps, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    if (numJumps < 1) {
+                        numJumps = 1;
+                    }
+                    var startPosY = 0;
+                    var offsetY = -1;
+                    var offsetYSet = false;
+
+                    // Separate Y Tween so we can elaborate elapsedPercentage on that insted of on the Sequence
+                    // (in case users add a delay or other elements to the Sequence)
+                    var s = DG.Tweening.DOTween.Sequence();
+                    var yTween = DG.Tweening.TweenSettingsExtensions.OnStart(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetLoops$1(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetRelative(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$8(DG.Tweening.DOTween.To$11(function () {
+                        return target.anchoredPosition;
+                    }, function (x) {
+                        target.anchoredPosition = x.$clone();
+                    }, new pc.Vec2( 0, jumpPower ), duration / (Bridge.Int.mul(numJumps, 2))), DG.Tweening.AxisConstraint.Y, snapping), DG.Tweening.Ease.OutQuad)), Bridge.Int.mul(numJumps, 2), DG.Tweening.LoopType.Yoyo), function () {
+                        startPosY = target.anchoredPosition.y;
+                    });
+                    DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Sequence, DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Sequence, DG.Tweening.TweenSettingsExtensions.Join(DG.Tweening.TweenSettingsExtensions.Append(s, DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$8(DG.Tweening.DOTween.To$11(function () {
+                        return target.anchoredPosition;
+                    }, function (x) {
+                        target.anchoredPosition = x.$clone();
+                    }, new pc.Vec2( endValue.x, 0 ), duration), DG.Tweening.AxisConstraint.X, snapping), DG.Tweening.Ease.Linear)), yTween), target), DG.Tweening.DOTween.defaultEaseType);
+                    DG.Tweening.TweenSettingsExtensions.OnUpdate(DG.Tweening.Sequence, s, function () {
+                        if (!offsetYSet) {
+                            offsetYSet = true;
+                            offsetY = s.isRelative ? endValue.y : endValue.y - startPosY;
+                        }
+                        var pos = target.anchoredPosition.$clone();
+                        pos.y += DG.Tweening.DOVirtual.EasedValue(0, offsetY, DG.Tweening.TweenExtensions.ElapsedDirectionalPercentage(s), DG.Tweening.Ease.OutQuad);
+                        target.anchoredPosition = pos.$clone();
+                    });
+                    return s;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOJumpAnchorPos:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DONormalizedPos:static start.*/
+                /**
+                 * Tweens a ScrollRect's horizontal/verticalNormalizedPosition to the given value.
+                 Also stores the ScrollRect as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.ScrollRect}    target      
+                 * @param   {UnityEngine.Vector2}          endValue    The end value to reach
+                 * @param   {number}                       duration    The duration of the tween
+                 * @param   {boolean}                      snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Tweener}
+                 */
+                DONormalizedPos: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DONormalizedPos", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$9(DG.Tweening.DOTween.To$11(function () {
+                        return new pc.Vec2( target.horizontalNormalizedPosition, target.verticalNormalizedPosition );
+                    }, function (x) {
+                        target.horizontalNormalizedPosition = x.x;
+                        target.verticalNormalizedPosition = x.y;
+                    }, endValue.$clone(), duration), snapping), target);
+                },
+                /*DG.Tweening.DOTweenModuleUI.DONormalizedPos:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOHorizontalNormalizedPos:static start.*/
+                /**
+                 * Tweens a ScrollRect's horizontalNormalizedPosition to the given value.
+                 Also stores the ScrollRect as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.ScrollRect}    target      
+                 * @param   {number}                       endValue    The end value to reach
+                 * @param   {number}                       duration    The duration of the tween
+                 * @param   {boolean}                      snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Tweener}
+                 */
+                DOHorizontalNormalizedPos: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$2(DG.Tweening.DOTween.To$4(function () {
+                        return target.horizontalNormalizedPosition;
+                    }, function (x) {
+                        target.horizontalNormalizedPosition = x;
+                    }, endValue, duration), snapping), target);
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOHorizontalNormalizedPos:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOVerticalNormalizedPos:static start.*/
+                /**
+                 * Tweens a ScrollRect's verticalNormalizedPosition to the given value.
+                 Also stores the ScrollRect as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.ScrollRect}    target      
+                 * @param   {number}                       endValue    The end value to reach
+                 * @param   {number}                       duration    The duration of the tween
+                 * @param   {boolean}                      snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Tweener}
+                 */
+                DOVerticalNormalizedPos: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$2(DG.Tweening.DOTween.To$4(function () {
+                        return target.verticalNormalizedPosition;
+                    }, function (x) {
+                        target.verticalNormalizedPosition = x;
+                    }, endValue, duration), snapping), target);
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOVerticalNormalizedPos:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOValue:static start.*/
+                /**
+                 * Tweens a Slider's value to the given value.
+                 Also stores the Slider as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Slider}             target      
+                 * @param   {number}                            endValue    The end value to reach
+                 * @param   {number}                            duration    The duration of the tween
+                 * @param   {boolean}                           snapping    If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOValue: function (target, endValue, duration, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOValue", this ); }
+
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To$4(function () {
+                        return target.value;
+                    }, function (x) {
+                        target.value = x;
+                    }, endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$2(t, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOValue:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOCounter:static start.*/
+                /**
+                 * Tweens a Text's text from one integer to another, with options for thousands separators
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Text}                 target                   
+                 * @param   {number}                              fromValue                The value to start from
+                 * @param   {number}                              endValue                 The end value to reach
+                 * @param   {number}                              duration                 The duration of the tween
+                 * @param   {boolean}                             addThousandsSeparator    If TRUE (default) also adds thousands separators
+                 * @param   {System.Globalization.CultureInfo}    culture                  The {@link } to use (InvariantCulture if NULL)
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOCounter: function (target, fromValue, endValue, duration, addThousandsSeparator, culture) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOCounter", this ); }
+
+                    if (addThousandsSeparator === void 0) { addThousandsSeparator = true; }
+                    if (culture === void 0) { culture = null; }
+                    var v = fromValue;
+                    var cInfo = !addThousandsSeparator ? null : culture || System.Globalization.CultureInfo.invariantCulture;
+                    var t = DG.Tweening.DOTween.To$2(function () {
+                        return v;
+                    }, function (x) {
+                        v = x;
+                        target.text = addThousandsSeparator ? System.Int32.format(v, "N0", cInfo) : Bridge.toString(v);
+                    }, endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(System.Int32,System.Int32,DG.Tweening.Plugins.Options.NoOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOCounter:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOText:static start.*/
+                /**
+                 * Tweens a Text's text to the given value.
+                 Also stores the Text as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Text}               target             
+                 * @param   {string}                            endValue           The end string to tween to
+                 * @param   {number}                            duration           The duration of the tween
+                 * @param   {boolean}                           richTextEnabled    If TRUE (default), rich text will be interpreted correctly while animated,
+                 otherwise all tags will be considered as normal text
+                 * @param   {DG.Tweening.ScrambleMode}          scrambleMode       The type of scramble mode to use, if any
+                 * @param   {string}                            scrambleChars      A string containing the characters to use for scrambling.
+                 Use as many characters as possible (minimum 10) because DOTween uses a fast scramble mode which gives better results with more characters.
+                 Leave it to NULL (default) to use default ones
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOText: function (target, endValue, duration, richTextEnabled, scrambleMode, scrambleChars) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOText", this ); }
+
+                    if (richTextEnabled === void 0) { richTextEnabled = true; }
+                    if (scrambleMode === void 0) { scrambleMode = 0; }
+                    if (scrambleChars === void 0) { scrambleChars = null; }
+                    if (endValue == null) {
+                        if (DG.Tweening.Core.Debugger.logPriority > 0) {
+                            DG.Tweening.Core.Debugger.LogWarning("You can't pass a NULL string to DOText: an empty string will be used instead to avoid errors");
+                        }
+                        endValue = "";
+                    }
+                    var t = DG.Tweening.DOTween.To$5(function () {
+                        return target.text;
+                    }, function (x) {
+                        target.text = x;
+                    }, endValue, duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$3(t, richTextEnabled, scrambleMode, scrambleChars), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOText:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOBlendableColor:static start.*/
+                /**
+                 * Tweens a Graphic's color to the given value,
+                 in a way that allows other DOBlendableColor tweens to work together on the same target,
+                 instead than fight each other as multiple DOColor would do.
+                 Also stores the Graphic as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Graphic}    target      
+                 * @param   {UnityEngine.Color}         endValue    The value to tween to
+                 * @param   {number}                    duration    The duration of the tween
+                 * @return  {DG.Tweening.Tweener}
+                 */
+                DOBlendableColor: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOBlendableColor", this ); }
+
+                    var $t;
+                    endValue = ($t = target.color, new pc.Color( endValue.r - $t.r, endValue.g - $t.g, endValue.b - $t.b, endValue.a - $t.a ));
+                    var to = new pc.Color( 0, 0, 0, 0 );
+                    return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), DG.Tweening.Core.Extensions.Blendable(UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions, DG.Tweening.DOTween.To$8(function () {
+                        return to;
+                    }, function (x) {
+                        var $t1;
+                        var diff = new pc.Color( x.r - to.r, x.g - to.g, x.b - to.b, x.a - to.a );
+                        to = x.$clone();
+                        target.color = ($t1 = target.color.$clone(), new pc.Color( $t1.r + diff.$clone().r, $t1.g + diff.$clone().g, $t1.b + diff.$clone().b, $t1.a + diff.$clone().a ));
+                    }, endValue.$clone(), duration)), target);
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOBlendableColor:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOBlendableColor$1:static start.*/
+                /**
+                 * Tweens a Image's color to the given value,
+                 in a way that allows other DOBlendableColor tweens to work together on the same target,
+                 instead than fight each other as multiple DOColor would do.
+                 Also stores the Image as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Image}    target      
+                 * @param   {UnityEngine.Color}       endValue    The value to tween to
+                 * @param   {number}                  duration    The duration of the tween
+                 * @return  {DG.Tweening.Tweener}
+                 */
+                DOBlendableColor$1: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOBlendableColor$1", this ); }
+
+                    var $t;
+                    endValue = ($t = target.color, new pc.Color( endValue.r - $t.r, endValue.g - $t.g, endValue.b - $t.b, endValue.a - $t.a ));
+                    var to = new pc.Color( 0, 0, 0, 0 );
+                    return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), DG.Tweening.Core.Extensions.Blendable(UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions, DG.Tweening.DOTween.To$8(function () {
+                        return to;
+                    }, function (x) {
+                        var $t1;
+                        var diff = new pc.Color( x.r - to.r, x.g - to.g, x.b - to.b, x.a - to.a );
+                        to = x.$clone();
+                        target.color = ($t1 = target.color.$clone(), new pc.Color( $t1.r + diff.$clone().r, $t1.g + diff.$clone().g, $t1.b + diff.$clone().b, $t1.a + diff.$clone().a ));
+                    }, endValue.$clone(), duration)), target);
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOBlendableColor$1:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOBlendableColor$2:static start.*/
+                /**
+                 * Tweens a Text's color BY the given value,
+                 in a way that allows other DOBlendableColor tweens to work together on the same target,
+                 instead than fight each other as multiple DOColor would do.
+                 Also stores the Text as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.UI.Text}    target      
+                 * @param   {UnityEngine.Color}      endValue    The value to tween to
+                 * @param   {number}                 duration    The duration of the tween
+                 * @return  {DG.Tweening.Tweener}
+                 */
+                DOBlendableColor$2: function (target, endValue, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOBlendableColor$2", this ); }
+
+                    var $t;
+                    endValue = ($t = target.color, new pc.Color( endValue.r - $t.r, endValue.g - $t.g, endValue.b - $t.b, endValue.a - $t.a ));
+                    var to = new pc.Color( 0, 0, 0, 0 );
+                    return DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), DG.Tweening.Core.Extensions.Blendable(UnityEngine.Color, UnityEngine.Color, DG.Tweening.Plugins.Options.ColorOptions, DG.Tweening.DOTween.To$8(function () {
+                        return to;
+                    }, function (x) {
+                        var $t1;
+                        var diff = new pc.Color( x.r - to.r, x.g - to.g, x.b - to.b, x.a - to.a );
+                        to = x.$clone();
+                        target.color = ($t1 = target.color.$clone(), new pc.Color( $t1.r + diff.$clone().r, $t1.g + diff.$clone().g, $t1.b + diff.$clone().b, $t1.a + diff.$clone().a ));
+                    }, endValue.$clone(), duration)), target);
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOBlendableColor$2:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUI.DOShapeCircle:static start.*/
+                /**
+                 * Tweens a RectTransform's anchoredPosition so that it draws a circle around the given center.
+                 Also stores the RectTransform as the tween's target so it can be used for filtered operations.<p />
+                 IMPORTANT: SetFrom(value) requires a {@link } instead of a float, where the X property represents the "from degrees value"
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI
+                 * @memberof DG.Tweening.DOTweenModuleUI
+                 * @param   {UnityEngine.RectTransform}         target             
+                 * @param   {UnityEngine.Vector2}               center             Circle-center/pivot around which to rotate (in UI anchoredPosition coordinates)
+                 * @param   {number}                            endValueDegrees    The end value degrees to reach (to rotate counter-clockwise pass a negative value)
+                 * @param   {number}                            duration           The duration of the tween
+                 * @param   {boolean}                           relativeCenter     If TRUE the {@link } coordinates will be considered as relative to the target's current anchoredPosition
+                 * @param   {boolean}                           snapping           If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOShapeCircle: function (target, center, endValueDegrees, duration, relativeCenter, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI#DOShapeCircle", this ); }
+
+                    if (relativeCenter === void 0) { relativeCenter = false; }
+                    if (snapping === void 0) { snapping = false; }
+                    var t = DG.Tweening.DOTween.To(UnityEngine.Vector2, UnityEngine.Vector2, DG.Tweening.Plugins.CircleOptions, DG.Tweening.Plugins.CirclePlugin.Get(), function () {
+                        return target.anchoredPosition;
+                    }, function (x) {
+                        target.anchoredPosition = x.$clone();
+                    }, center.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Tweener, DG.Tweening.TweenSettingsExtensions.SetOptions$7(t, endValueDegrees, relativeCenter, snapping), target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUI.DOShapeCircle:static end.*/
+
+
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenModuleUI end.*/
+
+    /*DG.Tweening.DOTweenModuleUI+Utils start.*/
+    Bridge.define("DG.Tweening.DOTweenModuleUI.Utils", {
+        $kind: 1002,
+        statics: {
+            methods: {
+                /*DG.Tweening.DOTweenModuleUI+Utils.SwitchToRectTransform:static start.*/
+                /**
+                 * Converts the anchoredPosition of the first RectTransform to the second RectTransform,
+                 taking into consideration offset, anchors and pivot, and returns the new anchoredPosition
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUI.Utils
+                 * @memberof DG.Tweening.DOTweenModuleUI.Utils
+                 * @param   {UnityEngine.RectTransform}    from    
+                 * @param   {UnityEngine.RectTransform}    to
+                 * @return  {UnityEngine.Vector2}
+                 */
+                SwitchToRectTransform: function (from, to) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform", this ); }
+
+                    var localPoint = { v : new UnityEngine.Vector2() };
+                    var fromPivotDerivedOffset = new pc.Vec2( from.rect.width * 0.5 + from.rect.xMin, from.rect.height * 0.5 + from.rect.yMin );
+                    var screenP = UnityEngine.RectTransformUtility.WorldToScreenPoint(null, from.position);
+                    screenP = screenP.$clone().add( fromPivotDerivedOffset.$clone() );
+                    UnityEngine.RectTransformUtility.ScreenPointToLocalPointInRectangle(to, screenP, null, localPoint);
+                    var pivotDerivedOffset = new pc.Vec2( to.rect.width * 0.5 + to.rect.xMin, to.rect.height * 0.5 + to.rect.yMin );
+                    return to.anchoredPosition.$clone().add( localPoint.v ).sub( pivotDerivedOffset );
+                },
+                /*DG.Tweening.DOTweenModuleUI+Utils.SwitchToRectTransform:static end.*/
+
+
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenModuleUI+Utils end.*/
+
+    /*DG.Tweening.DOTweenModuleUnityVersion start.*/
+    /**
+     * Shortcuts/functions that are not strictly related to specific Modules
+     but are available only on some Unity versions
+     *
+     * @static
+     * @abstract
+     * @public
+     * @class DG.Tweening.DOTweenModuleUnityVersion
+     */
+    Bridge.define("DG.Tweening.DOTweenModuleUnityVersion", {
+        statics: {
+            methods: {
+                /*DG.Tweening.DOTweenModuleUnityVersion.DOGradientColor:static start.*/
+                /**
+                 * Tweens a Material's color using the given gradient
+                 (NOTE 1: only uses the colors of the gradient, not the alphas - NOTE 2: creates a Sequence, not a Tweener).
+                 Also stores the image as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUnityVersion
+                 * @memberof DG.Tweening.DOTweenModuleUnityVersion
+                 * @param   {UnityEngine.Material}    target      
+                 * @param   {pc.ColorGradient}        gradient    The gradient to use
+                 * @param   {number}                  duration    The duration of the tween
+                 * @return  {DG.Tweening.Sequence}
+                 */
+                DOGradientColor: function (target, gradient, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor", this ); }
+
+                    var s = DG.Tweening.DOTween.Sequence();
+                    var colors = gradient.colorKeys;
+                    var len = colors.length;
+                    for (var i = 0; i < len; i = (i + 1) | 0) {
+                        var c = colors[i];
+                        if (i === 0 && c.time <= 0) {
+                            target.color = c.color.$clone();
+                            continue;
+                        }
+                        var colorDuration = i === ((len - 1) | 0) ? duration - DG.Tweening.TweenExtensions.Duration(s, false) : duration * (i === 0 ? c.time : c.time - colors[((i - 1) | 0)].time);
+                        DG.Tweening.TweenSettingsExtensions.Append(s, DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), DG.Tweening.ShortcutExtensions.DOColor$3(target, c.color.$clone(), colorDuration), DG.Tweening.Ease.Linear));
+                    }
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Sequence, s, target);
+                    return s;
+                },
+                /*DG.Tweening.DOTweenModuleUnityVersion.DOGradientColor:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUnityVersion.DOGradientColor$1:static start.*/
+                /**
+                 * Tweens a Material's named color property using the given gradient
+                 (NOTE 1: only uses the colors of the gradient, not the alphas - NOTE 2: creates a Sequence, not a Tweener).
+                 Also stores the image as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUnityVersion
+                 * @memberof DG.Tweening.DOTweenModuleUnityVersion
+                 * @param   {UnityEngine.Material}    target      
+                 * @param   {pc.ColorGradient}        gradient    The gradient to use
+                 * @param   {string}                  property    The name of the material property to tween (like _Tint or _SpecColor)
+                 * @param   {number}                  duration    The duration of the tween
+                 * @return  {DG.Tweening.Sequence}
+                 */
+                DOGradientColor$1: function (target, gradient, property, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1", this ); }
+
+                    var s = DG.Tweening.DOTween.Sequence();
+                    var colors = gradient.colorKeys;
+                    var len = colors.length;
+                    for (var i = 0; i < len; i = (i + 1) | 0) {
+                        var c = colors[i];
+                        if (i === 0 && c.time <= 0) {
+                            target.SetColor$1(property, c.color);
+                            continue;
+                        }
+                        var colorDuration = i === ((len - 1) | 0) ? duration - DG.Tweening.TweenExtensions.Duration(s, false) : duration * (i === 0 ? c.time : c.time - colors[((i - 1) | 0)].time);
+                        DG.Tweening.TweenSettingsExtensions.Append(s, DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Core.TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions), DG.Tweening.ShortcutExtensions.DOColor$4(target, c.color.$clone(), property, colorDuration), DG.Tweening.Ease.Linear));
+                    }
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Sequence, s, target);
+                    return s;
+                },
+                /*DG.Tweening.DOTweenModuleUnityVersion.DOGradientColor$1:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUnityVersion.WaitForCompletion:static start.*/
+                /**
+                 * Returns a {@link } that waits until the tween is killed or complete.
+                 It can be used inside a coroutine as a yield.
+                 <p>Example usage:</p><pre><code>yield return myTween.WaitForCompletion(true);</code></pre>
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUnityVersion
+                 * @memberof DG.Tweening.DOTweenModuleUnityVersion
+                 * @param   {DG.Tweening.Tween}                     t                               
+                 * @param   {boolean}                               returnCustomYieldInstruction
+                 * @return  {UnityEngine.CustomYieldInstruction}
+                 */
+                WaitForCompletion: function (t, returnCustomYieldInstruction) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion", this ); }
+
+                    if (!t.active) {
+                        if (DG.Tweening.Core.Debugger.logPriority > 0) {
+                            DG.Tweening.Core.Debugger.LogInvalidTween(t);
+                        }
+                        return null;
+                    }
+                    return new DG.Tweening.DOTweenCYInstruction.WaitForCompletion(t);
+                },
+                /*DG.Tweening.DOTweenModuleUnityVersion.WaitForCompletion:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUnityVersion.WaitForRewind:static start.*/
+                /**
+                 * Returns a {@link } that waits until the tween is killed or rewinded.
+                 It can be used inside a coroutine as a yield.
+                 <p>Example usage:</p><pre><code>yield return myTween.WaitForRewind();</code></pre>
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUnityVersion
+                 * @memberof DG.Tweening.DOTweenModuleUnityVersion
+                 * @param   {DG.Tweening.Tween}                     t                               
+                 * @param   {boolean}                               returnCustomYieldInstruction
+                 * @return  {UnityEngine.CustomYieldInstruction}
+                 */
+                WaitForRewind: function (t, returnCustomYieldInstruction) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind", this ); }
+
+                    if (!t.active) {
+                        if (DG.Tweening.Core.Debugger.logPriority > 0) {
+                            DG.Tweening.Core.Debugger.LogInvalidTween(t);
+                        }
+                        return null;
+                    }
+                    return new DG.Tweening.DOTweenCYInstruction.WaitForRewind(t);
+                },
+                /*DG.Tweening.DOTweenModuleUnityVersion.WaitForRewind:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUnityVersion.WaitForKill:static start.*/
+                /**
+                 * Returns a {@link } that waits until the tween is killed.
+                 It can be used inside a coroutine as a yield.
+                 <p>Example usage:</p><pre><code>yield return myTween.WaitForKill();</code></pre>
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUnityVersion
+                 * @memberof DG.Tweening.DOTweenModuleUnityVersion
+                 * @param   {DG.Tweening.Tween}                     t                               
+                 * @param   {boolean}                               returnCustomYieldInstruction
+                 * @return  {UnityEngine.CustomYieldInstruction}
+                 */
+                WaitForKill: function (t, returnCustomYieldInstruction) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#WaitForKill", this ); }
+
+                    if (!t.active) {
+                        if (DG.Tweening.Core.Debugger.logPriority > 0) {
+                            DG.Tweening.Core.Debugger.LogInvalidTween(t);
+                        }
+                        return null;
+                    }
+                    return new DG.Tweening.DOTweenCYInstruction.WaitForKill(t);
+                },
+                /*DG.Tweening.DOTweenModuleUnityVersion.WaitForKill:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUnityVersion.WaitForElapsedLoops:static start.*/
+                /**
+                 * Returns a {@link } that waits until the tween is killed or has gone through the given amount of loops.
+                 It can be used inside a coroutine as a yield.
+                 <p>Example usage:</p><pre><code>yield return myTween.WaitForElapsedLoops(2);</code></pre>
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUnityVersion
+                 * @memberof DG.Tweening.DOTweenModuleUnityVersion
+                 * @param   {DG.Tweening.Tween}                     t                               
+                 * @param   {number}                                elapsedLoops                    Elapsed loops to wait for
+                 * @param   {boolean}                               returnCustomYieldInstruction
+                 * @return  {UnityEngine.CustomYieldInstruction}
+                 */
+                WaitForElapsedLoops: function (t, elapsedLoops, returnCustomYieldInstruction) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops", this ); }
+
+                    if (!t.active) {
+                        if (DG.Tweening.Core.Debugger.logPriority > 0) {
+                            DG.Tweening.Core.Debugger.LogInvalidTween(t);
+                        }
+                        return null;
+                    }
+                    return new DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops(t, elapsedLoops);
+                },
+                /*DG.Tweening.DOTweenModuleUnityVersion.WaitForElapsedLoops:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUnityVersion.WaitForPosition:static start.*/
+                /**
+                 * Returns a {@link } that waits until the tween is killed
+                 or has reached the given time position (loops included, delays excluded).
+                 It can be used inside a coroutine as a yield.
+                 <p>Example usage:</p><pre><code>yield return myTween.WaitForPosition(2.5f);</code></pre>
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUnityVersion
+                 * @memberof DG.Tweening.DOTweenModuleUnityVersion
+                 * @param   {DG.Tweening.Tween}                     t                               
+                 * @param   {number}                                position                        Position (loops included, delays excluded) to wait for
+                 * @param   {boolean}                               returnCustomYieldInstruction
+                 * @return  {UnityEngine.CustomYieldInstruction}
+                 */
+                WaitForPosition: function (t, position, returnCustomYieldInstruction) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition", this ); }
+
+                    if (!t.active) {
+                        if (DG.Tweening.Core.Debugger.logPriority > 0) {
+                            DG.Tweening.Core.Debugger.LogInvalidTween(t);
+                        }
+                        return null;
+                    }
+                    return new DG.Tweening.DOTweenCYInstruction.WaitForPosition(t, position);
+                },
+                /*DG.Tweening.DOTweenModuleUnityVersion.WaitForPosition:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUnityVersion.WaitForStart:static start.*/
+                /**
+                 * Returns a {@link } that waits until the tween is killed or started
+                 (meaning when the tween is set in a playing state the first time, after any eventual delay).
+                 It can be used inside a coroutine as a yield.
+                 <p>Example usage:</p><pre><code>yield return myTween.WaitForStart();</code></pre>
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUnityVersion
+                 * @memberof DG.Tweening.DOTweenModuleUnityVersion
+                 * @param   {DG.Tweening.Tween}                     t                               
+                 * @param   {boolean}                               returnCustomYieldInstruction
+                 * @return  {UnityEngine.CustomYieldInstruction}
+                 */
+                WaitForStart: function (t, returnCustomYieldInstruction) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#WaitForStart", this ); }
+
+                    if (!t.active) {
+                        if (DG.Tweening.Core.Debugger.logPriority > 0) {
+                            DG.Tweening.Core.Debugger.LogInvalidTween(t);
+                        }
+                        return null;
+                    }
+                    return new DG.Tweening.DOTweenCYInstruction.WaitForStart(t);
+                },
+                /*DG.Tweening.DOTweenModuleUnityVersion.WaitForStart:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUnityVersion.DOOffset:static start.*/
+                /**
+                 * Tweens a Material's named texture offset property with the given ID to the given value.
+                 Also stores the material as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUnityVersion
+                 * @memberof DG.Tweening.DOTweenModuleUnityVersion
+                 * @param   {UnityEngine.Material}              target        
+                 * @param   {UnityEngine.Vector2}               endValue      The end value to reach
+                 * @param   {number}                            propertyID    The ID of the material property to tween (also called nameID in Unity's manual)
+                 * @param   {number}                            duration      The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOOffset: function (target, endValue, propertyID, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#DOOffset", this ); }
+
+                    if (!target.HasProperty(propertyID)) {
+                        if (DG.Tweening.Core.Debugger.logPriority > 0) {
+                            DG.Tweening.Core.Debugger.LogMissingMaterialProperty(propertyID);
+                        }
+                        return null;
+                    }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.GetTextureOffset(propertyID);
+                    }, function (x) {
+                        target.SetTextureOffset(propertyID, x);
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUnityVersion.DOOffset:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUnityVersion.DOTiling:static start.*/
+                /**
+                 * Tweens a Material's named texture scale property with the given ID to the given value.
+                 Also stores the material as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUnityVersion
+                 * @memberof DG.Tweening.DOTweenModuleUnityVersion
+                 * @param   {UnityEngine.Material}              target        
+                 * @param   {UnityEngine.Vector2}               endValue      The end value to reach
+                 * @param   {number}                            propertyID    The ID of the material property to tween (also called nameID in Unity's manual)
+                 * @param   {number}                            duration      The duration of the tween
+                 * @return  {DG.Tweening.Core.TweenerCore$3}
+                 */
+                DOTiling: function (target, endValue, propertyID, duration) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUnityVersion#DOTiling", this ); }
+
+                    if (!target.HasProperty(propertyID)) {
+                        if (DG.Tweening.Core.Debugger.logPriority > 0) {
+                            DG.Tweening.Core.Debugger.LogMissingMaterialProperty(propertyID);
+                        }
+                        return null;
+                    }
+                    var t = DG.Tweening.DOTween.To$11(function () {
+                        return target.GetTextureScale(propertyID);
+                    }, function (x) {
+                        target.SetTextureScale(propertyID, x);
+                    }, endValue.$clone(), duration);
+                    DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions), t, target);
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUnityVersion.DOTiling:static end.*/
+
+
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenModuleUnityVersion end.*/
+
+    /*DG.Tweening.DOTweenModuleUtils start.*/
+    /**
+     * Utility functions that deal with available Modules.
+     Modules defines:
+     - DOTAUDIO
+     - DOTPHYSICS
+     - DOTPHYSICS2D
+     - DOTSPRITE
+     - DOTUI
+     Extra defines set and used for implementation of external assets:
+     - DOTWEEN_TMP ► TextMesh Pro
+     - DOTWEEN_TK2D ► 2D Toolkit
+     *
+     * @static
+     * @abstract
+     * @public
+     * @class DG.Tweening.DOTweenModuleUtils
+     */
+    Bridge.define("DG.Tweening.DOTweenModuleUtils", {
+        statics: {
+            fields: {
+                _initialized: false
+            },
+            methods: {
+                /*DG.Tweening.DOTweenModuleUtils.Init:static start.*/
+                /**
+                 * Called via Reflection by DOTweenComponent on Awake
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenModuleUtils
+                 * @memberof DG.Tweening.DOTweenModuleUtils
+                 * @return  {void}
+                 */
+                Init: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils#Init", this ); }
+
+                    if (DG.Tweening.DOTweenModuleUtils._initialized) {
+                        return;
+                    }
+
+                    DG.Tweening.DOTweenModuleUtils._initialized = true;
+                    DG.Tweening.Core.DOTweenExternalCommand.addSetOrientationOnPath(DG.Tweening.DOTweenModuleUtils.Physics.SetOrientationOnPath);
+
+                },
+                /*DG.Tweening.DOTweenModuleUtils.Init:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUtils.Preserver:static start.*/
+                Preserver: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils#Preserver", this ); }
+
+                    var loadedAssemblies = System.AppDomain.getAssemblies();
+                    var mi = Bridge.Reflection.getMembers(UnityEngine.MonoBehaviour, 8, 284, "Stub");
+                },
+                /*DG.Tweening.DOTweenModuleUtils.Preserver:static end.*/
+
+
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenModuleUtils end.*/
+
+    /*DG.Tweening.DOTweenModuleUtils+Physics start.*/
+    Bridge.define("DG.Tweening.DOTweenModuleUtils.Physics", {
+        $kind: 1002,
+        statics: {
+            methods: {
+                /*DG.Tweening.DOTweenModuleUtils+Physics.SetOrientationOnPath:static start.*/
+                SetOrientationOnPath: function (options, t, newRot, trans) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath", this ); }
+
+                    if (options.isRigidbody) {
+                        Bridge.cast(t.target, UnityEngine.Rigidbody).rotation = newRot.$clone();
+                    } else {
+                        trans.rotation = newRot.$clone();
+                    }
+                },
+                /*DG.Tweening.DOTweenModuleUtils+Physics.SetOrientationOnPath:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUtils+Physics.HasRigidbody2D:static start.*/
+                HasRigidbody2D: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D", this ); }
+
+                    return UnityEngine.Component.op_Inequality(target.GetComponent(UnityEngine.Rigidbody2D), null);
+                },
+                /*DG.Tweening.DOTweenModuleUtils+Physics.HasRigidbody2D:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUtils+Physics.HasRigidbody:static start.*/
+                HasRigidbody: function (target) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody", this ); }
+
+                    return UnityEngine.Component.op_Inequality(target.GetComponent(UnityEngine.Rigidbody), null);
+                },
+                /*DG.Tweening.DOTweenModuleUtils+Physics.HasRigidbody:static end.*/
+
+                /*DG.Tweening.DOTweenModuleUtils+Physics.CreateDOTweenPathTween:static start.*/
+                CreateDOTweenPathTween: function (target, tweenRigidbody, isLocal, path, duration, pathMode) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween", this ); }
+
+                    var t = null;
+                    var rBodyFoundAndTweened = false;
+                    if (tweenRigidbody) {
+                        var rBody = target.GetComponent(UnityEngine.Rigidbody);
+                        if (UnityEngine.Component.op_Inequality(rBody, null)) {
+                            rBodyFoundAndTweened = true;
+                            t = isLocal ? DG.Tweening.DOTweenModulePhysics.DOLocalPath$1(rBody, path, duration, pathMode) : DG.Tweening.DOTweenModulePhysics.DOPath$1(rBody, path, duration, pathMode);
+                        }
+                    }
+                    if (!rBodyFoundAndTweened && tweenRigidbody) {
+                        var rBody2D = target.GetComponent(UnityEngine.Rigidbody2D);
+                        if (UnityEngine.Component.op_Inequality(rBody2D, null)) {
+                            rBodyFoundAndTweened = true;
+                            t = isLocal ? DG.Tweening.DOTweenModulePhysics2D.DOLocalPath$1(rBody2D, path, duration, pathMode) : DG.Tweening.DOTweenModulePhysics2D.DOPath$1(rBody2D, path, duration, pathMode);
+                        }
+                    }
+                    if (!rBodyFoundAndTweened) {
+                        t = isLocal ? DG.Tweening.ShortcutExtensions.DOLocalPath(target.transform, path, duration, pathMode) : DG.Tweening.ShortcutExtensions.DOPath(target.transform, path, duration, pathMode);
+                    }
+                    return t;
+                },
+                /*DG.Tweening.DOTweenModuleUtils+Physics.CreateDOTweenPathTween:static end.*/
+
+
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenModuleUtils+Physics end.*/
+
+    /*DG.Tweening.DOTweenProShortcuts start.*/
+    Bridge.define("DG.Tweening.DOTweenProShortcuts", {
+        statics: {
+            ctors: {
+                ctor: function () {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenProShortcuts#ctor", this ); }
+
+                    // Create stub instances of custom plugins, in order to allow IL2CPP to understand they must be included in the build
+                    var stub = new DG.Tweening.Plugins.SpiralPlugin();
+                }
+            },
+            methods: {
+                /*DG.Tweening.DOTweenProShortcuts.DOSpiral$1:static start.*/
+                /**
+                 * Tweens a Transform's localPosition in a spiral shape.
+                 Also stores the transform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenProShortcuts
+                 * @memberof DG.Tweening.DOTweenProShortcuts
+                 * @param   {UnityEngine.Transform}     target       
+                 * @param   {number}                    duration     The duration of the tween
+                 * @param   {?UnityEngine.Vector3}      axis         The axis around which the spiral will rotate
+                 * @param   {DG.Tweening.SpiralMode}    mode         The type of spiral movement
+                 * @param   {number}                    speed        Speed of the rotations
+                 * @param   {number}                    frequency    Frequency of the rotation. Lower values lead to wider spirals
+                 * @param   {number}                    depth        Indicates how much the tween should move along the spiral's axis
+                 * @param   {boolean}                   snapping     If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Tweener}
+                 */
+                DOSpiral$1: function (target, duration, axis, mode, speed, frequency, depth, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenProShortcuts#DOSpiral$1", this ); }
+
+                    if (axis === void 0) { axis = null; }
+                    if (mode === void 0) { mode = 0; }
+                    if (speed === void 0) { speed = 1.0; }
+                    if (frequency === void 0) { frequency = 10.0; }
+                    if (depth === void 0) { depth = 0.0; }
+                    if (snapping === void 0) { snapping = false; }
+                    if (UnityEngine.Mathf.Approximately(speed, 0)) {
+                        speed = 1;
+                    }
+                    if (pc.Vec3.equals( axis, null ) || pc.Vec3.equals( axis, pc.Vec3.ZERO.clone() )) {
+                        axis = new pc.Vec3( 0, 0, 1 );
+                    }
+
+                    var t = DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, UnityEngine.Vector3, DG.Tweening.Plugins.SpiralOptions, DG.Tweening.Plugins.SpiralPlugin.Get(), function () {
+                        return target.localPosition;
+                    }, function (x) {
+                        target.localPosition = x.$clone();
+                    }, System.Nullable.getValue(axis), duration), target);
+
+                    t.plugOptions.mode = mode;
+                    t.plugOptions.speed = speed;
+                    t.plugOptions.frequency = frequency;
+                    t.plugOptions.depth = depth;
+                    t.plugOptions.snapping = snapping;
+                    return t;
+                },
+                /*DG.Tweening.DOTweenProShortcuts.DOSpiral$1:static end.*/
+
+                /*DG.Tweening.DOTweenProShortcuts.DOSpiral:static start.*/
+                /**
+                 * Tweens a Rigidbody's position in a spiral shape.
+                 Also stores the transform as the tween's target so it can be used for filtered operations
+                 *
+                 * @static
+                 * @public
+                 * @this DG.Tweening.DOTweenProShortcuts
+                 * @memberof DG.Tweening.DOTweenProShortcuts
+                 * @param   {UnityEngine.Rigidbody}     target       
+                 * @param   {number}                    duration     The duration of the tween
+                 * @param   {?UnityEngine.Vector3}      axis         The axis around which the spiral will rotate
+                 * @param   {DG.Tweening.SpiralMode}    mode         The type of spiral movement
+                 * @param   {number}                    speed        Speed of the rotations
+                 * @param   {number}                    frequency    Frequency of the rotation. Lower values lead to wider spirals
+                 * @param   {number}                    depth        Indicates how much the tween should move along the spiral's axis
+                 * @param   {boolean}                   snapping     If TRUE the tween will smoothly snap all values to integers
+                 * @return  {DG.Tweening.Tweener}
+                 */
+                DOSpiral: function (target, duration, axis, mode, speed, frequency, depth, snapping) {
+if ( TRACE ) { TRACE( "DG.Tweening.DOTweenProShortcuts#DOSpiral", this ); }
+
+                    if (axis === void 0) { axis = null; }
+                    if (mode === void 0) { mode = 0; }
+                    if (speed === void 0) { speed = 1.0; }
+                    if (frequency === void 0) { frequency = 10.0; }
+                    if (depth === void 0) { depth = 0.0; }
+                    if (snapping === void 0) { snapping = false; }
+                    if (UnityEngine.Mathf.Approximately(speed, 0)) {
+                        speed = 1;
+                    }
+                    if (pc.Vec3.equals( axis, null ) || pc.Vec3.equals( axis, pc.Vec3.ZERO.clone() )) {
+                        axis = new pc.Vec3( 0, 0, 1 );
+                    }
+
+                    var t = DG.Tweening.TweenSettingsExtensions.SetTarget(DG.Tweening.Core.TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.SpiralOptions), DG.Tweening.DOTween.To(UnityEngine.Vector3, UnityEngine.Vector3, DG.Tweening.Plugins.SpiralOptions, DG.Tweening.Plugins.SpiralPlugin.Get(), function () {
+                        return target.position;
+                    }, Bridge.fn.cacheBind(target, target.MovePosition), System.Nullable.getValue(axis), duration), target);
+
+                    t.plugOptions.mode = mode;
+                    t.plugOptions.speed = speed;
+                    t.plugOptions.frequency = frequency;
+                    t.plugOptions.depth = depth;
+                    t.plugOptions.snapping = snapping;
+                    return t;
+                },
+                /*DG.Tweening.DOTweenProShortcuts.DOSpiral:static end.*/
+
+
+            }
+        }
+    });
+    /*DG.Tweening.DOTweenProShortcuts end.*/
 
     /*DraggableItem start.*/
     Bridge.define("DraggableItem", {
@@ -120,7 +4630,7 @@ if ( TRACE ) { TRACE( "DropZone#DragMoney", this ); }
                 this.NextStep();
                 this.CheckDone();
                 this.Upgrade();
-                GameController.instance.CheckStep();
+                LunaManager.ins.CountPlay();
             },
             /*DropZone.DragMoney end.*/
 
@@ -210,7 +4720,6 @@ if ( TRACE ) { TRACE( "DropZone#EventUpgrade", this ); }
             }
         },
         fields: {
-            numStep: 0,
             colliders: null,
             isUpgrade: false
         },
@@ -218,7 +4727,6 @@ if ( TRACE ) { TRACE( "DropZone#EventUpgrade", this ); }
             init: function () {
 if ( TRACE ) { TRACE( "GameController#init", this ); }
 
-                this.numStep = 0;
                 this.isUpgrade = false;
             }
         },
@@ -238,14 +4746,6 @@ if ( TRACE ) { TRACE( "GameController#Start", this ); }
                 this.InitFirst();
             },
             /*GameController.Start end.*/
-
-            /*GameController.CheckStep start.*/
-            CheckStep: function () {
-if ( TRACE ) { TRACE( "GameController#CheckStep", this ); }
-
-                this.numStep = (this.numStep + 1) | 0;
-            },
-            /*GameController.CheckStep end.*/
 
             /*GameController.InitFirst start.*/
             InitFirst: function () {
@@ -305,6 +4805,131 @@ if ( TRACE ) { TRACE( "GameController#EnableUpgrade", this ); }
         inherits: [UnityEngine.MonoBehaviour]
     });
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty end.*/
+
+    /*LunaManager start.*/
+    Bridge.define("LunaManager", {
+        inherits: [UnityEngine.MonoBehaviour],
+        statics: {
+            fields: {
+                ins: null
+            }
+        },
+        fields: {
+            lstBtnInstall: null,
+            EndCard: null,
+            countPlay: 0,
+            countPlayFinal: 0,
+            timeDropFinal: 0,
+            bgSprite: null,
+            imgBG: null,
+            colorBG: null,
+            logoGame: null,
+            imgRawLogoGame: null
+        },
+        ctors: {
+            init: function () {
+if ( TRACE ) { TRACE( "LunaManager#init", this ); }
+
+                this.colorBG = new UnityEngine.Color();
+                this.countPlay = 0;
+            }
+        },
+        methods: {
+            /*LunaManager.Awake start.*/
+            Awake: function () {
+if ( TRACE ) { TRACE( "LunaManager#Awake", this ); }
+
+                LunaManager.ins = this;
+            },
+            /*LunaManager.Awake end.*/
+
+            /*LunaManager.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "LunaManager#Start", this ); }
+
+                var $t;
+                Luna.Unity.LifeCycle.addOnPause(Bridge.fn.cacheBind(this, this.PauseGameplay));
+                Luna.Unity.LifeCycle.addOnResume(Bridge.fn.cacheBind(this, this.ResumeGameplay));
+                $t = Bridge.getEnumerator(this.lstBtnInstall);
+                try {
+                    while ($t.moveNext()) {
+                        var VARIABLE = $t.Current;
+                        VARIABLE.onClick.AddListener(Bridge.fn.cacheBind(this, this.OnClickEndCard));
+                    }
+                } finally {
+                    if (Bridge.is($t, System.IDisposable)) {
+                        $t.System$IDisposable$Dispose();
+                    }
+                }
+                this.EndCard.SetActive(false);
+                //SetupField();
+                this.Invoke("ShowEndCard", this.timeDropFinal);
+            },
+            /*LunaManager.Start end.*/
+
+            /*LunaManager.CountPlay start.*/
+            CountPlay: function () {
+if ( TRACE ) { TRACE( "LunaManager#CountPlay", this ); }
+
+                this.countPlay = (this.countPlay + 1) | 0;
+                if (this.countPlay >= this.countPlayFinal) {
+                    this.ShowEndCard();
+                }
+            },
+            /*LunaManager.CountPlay end.*/
+
+            /*LunaManager.PauseGameplay start.*/
+            PauseGameplay: function () {
+if ( TRACE ) { TRACE( "LunaManager#PauseGameplay", this ); }
+
+                UnityEngine.Debug.Log$1("Pause game");
+                UnityEngine.Time.timeScale = 0;
+            },
+            /*LunaManager.PauseGameplay end.*/
+
+            /*LunaManager.ResumeGameplay start.*/
+            ResumeGameplay: function () {
+if ( TRACE ) { TRACE( "LunaManager#ResumeGameplay", this ); }
+
+                UnityEngine.Debug.Log$1("Load game");
+                UnityEngine.Time.timeScale = 1;
+            },
+            /*LunaManager.ResumeGameplay end.*/
+
+            /*LunaManager.ShowEndCard start.*/
+            ShowEndCard: function () {
+if ( TRACE ) { TRACE( "LunaManager#ShowEndCard", this ); }
+
+                //AudioManager.ins.PlaySoundReward();
+                this.EndCard.SetActive(true);
+                UnityEngine.Debug.Log$1("Show end card");
+                Luna.Unity.LifeCycle.GameEnded();
+            },
+            /*LunaManager.ShowEndCard end.*/
+
+            /*LunaManager.OnClickEndCard start.*/
+            OnClickEndCard: function () {
+if ( TRACE ) { TRACE( "LunaManager#OnClickEndCard", this ); }
+
+                UnityEngine.Debug.Log$1("Click end card");
+                Luna.Unity.Playable.InstallFullGame();
+            },
+            /*LunaManager.OnClickEndCard end.*/
+
+            /*LunaManager.SetupField start.*/
+            SetupField: function () {
+if ( TRACE ) { TRACE( "LunaManager#SetupField", this ); }
+
+                this.imgBG.texture = this.bgSprite;
+                this.imgBG.color = this.colorBG.$clone();
+                this.imgRawLogoGame.texture = this.logoGame;
+            },
+            /*LunaManager.SetupField end.*/
+
+
+        }
+    });
+    /*LunaManager end.*/
 
     /*Spine.BoneMatrix start.*/
     Bridge.define("Spine.BoneMatrix", {
@@ -12855,8 +17480,6 @@ if ( TRACE ) { TRACE( "Spine.Unity.SpineAnimation#ctor", this ); }
         }
     });
     /*Spine.Unity.SpineAnimation end.*/
-    /** @namespace System */
-
     /**
      * @memberof System
      * @callback System.Func
@@ -17874,7 +22497,7 @@ if ( TRACE ) { TRACE( "Spine.Unity.SkeletonMecanim#OnBecameVisible", this ); }
 
     if ( MODULE_reflection ) {
     var $m = Bridge.setMetadata,
-        $n = ["System","UnityEngine.EventSystems","UnityEngine","Spine","Spine.Unity","System.Collections.Generic","UnityEngine.U2D","UnityEngine.UI","UnityEngine.Rendering","Spine.Unity.AttachmentTools"];
+        $n = ["System","UnityEngine.EventSystems","UnityEngine","UnityEngine.UI","Spine","Spine.Unity","System.Collections.Generic","UnityEngine.U2D","UnityEngine.Rendering","Spine.Unity.AttachmentTools","UnityEngine.Audio","DG.Tweening.Core","DG.Tweening","DG.Tweening.Plugins.Core.PathCore","System.Globalization","DG.Tweening.Plugins.Options"];
 
     /*DraggableItem start.*/
     $m("DraggableItem", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"OnBeginDrag","t":8,"pi":[{"n":"eventData","pt":$n[1].PointerEventData,"ps":0}],"sn":"OnBeginDrag","rt":$n[0].Void,"p":[$n[1].PointerEventData]},{"a":2,"n":"OnDrag","t":8,"pi":[{"n":"eventData","pt":$n[1].PointerEventData,"ps":0}],"sn":"OnDrag","rt":$n[0].Void,"p":[$n[1].PointerEventData]},{"a":2,"n":"OnEndDrag","t":8,"pi":[{"n":"eventData","pt":$n[1].PointerEventData,"ps":0}],"sn":"OnEndDrag","rt":$n[0].Void,"p":[$n[1].PointerEventData]},{"a":1,"n":"canvasGroup","t":4,"rt":$n[2].CanvasGroup,"sn":"canvasGroup"},{"a":1,"n":"originalPosition","t":4,"rt":$n[2].Vector2,"sn":"originalPosition"},{"a":1,"n":"rectTransform","t":4,"rt":$n[2].RectTransform,"sn":"rectTransform"}]}; }, $n);
@@ -17885,15 +22508,19 @@ if ( TRACE ) { TRACE( "Spine.Unity.SkeletonMecanim#OnBecameVisible", this ); }
     /*DropZone end.*/
 
     /*GameController start.*/
-    $m("GameController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"CheckStep","t":8,"sn":"CheckStep","rt":$n[0].Void},{"a":2,"n":"EnableUpgrade","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"EnableUpgrade","rt":$n[0].Void,"p":[$n[0].String]},{"a":1,"n":"InitFirst","t":8,"sn":"InitFirst","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"colliders","t":4,"rt":System.Array.type(UnityEngine.Collider2D),"sn":"colliders"},{"a":2,"n":"instance","is":true,"t":4,"rt":GameController,"sn":"instance"},{"a":2,"n":"isUpgrade","t":4,"rt":$n[0].Boolean,"sn":"isUpgrade","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"numStep","t":4,"rt":$n[0].Int32,"sn":"numStep","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"OnUpgradePhase2","is":true,"t":2,"ad":{"a":2,"n":"add_OnUpgradePhase2","is":true,"t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnUpgradePhase2","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnUpgradePhase2","is":true,"t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnUpgradePhase2","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("GameController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"EnableUpgrade","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"EnableUpgrade","rt":$n[0].Void,"p":[$n[0].String]},{"a":1,"n":"InitFirst","t":8,"sn":"InitFirst","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"colliders","t":4,"rt":System.Array.type(UnityEngine.Collider2D),"sn":"colliders"},{"a":2,"n":"instance","is":true,"t":4,"rt":GameController,"sn":"instance"},{"a":2,"n":"isUpgrade","t":4,"rt":$n[0].Boolean,"sn":"isUpgrade","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"OnUpgradePhase2","is":true,"t":2,"ad":{"a":2,"n":"add_OnUpgradePhase2","is":true,"t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnUpgradePhase2","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnUpgradePhase2","is":true,"t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnUpgradePhase2","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*GameController end.*/
+
+    /*LunaManager start.*/
+    $m("LunaManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"CountPlay","t":8,"sn":"CountPlay","rt":$n[0].Void},{"a":2,"n":"OnClickEndCard","t":8,"sn":"OnClickEndCard","rt":$n[0].Void},{"a":2,"n":"PauseGameplay","t":8,"sn":"PauseGameplay","rt":$n[0].Void},{"a":2,"n":"ResumeGameplay","t":8,"sn":"ResumeGameplay","rt":$n[0].Void},{"a":2,"n":"SetupField","t":8,"sn":"SetupField","rt":$n[0].Void},{"a":2,"n":"ShowEndCard","t":8,"sn":"ShowEndCard","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"EndCard","t":4,"rt":$n[2].GameObject,"sn":"EndCard"},{"at":[new UnityEngine.SpaceAttribute.$ctor1(10.0),new UnityEngine.HeaderAttribute("__________________________________"),new UnityEngine.SpaceAttribute.$ctor1(10.0),new UnityEngine.LunaPlaygroundFieldAttribute("BG", -1, null, false, null)],"a":2,"n":"bgSprite","t":4,"rt":$n[2].Texture2D,"sn":"bgSprite"},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("ColorBG", -1, null, false, null)],"a":2,"n":"colorBG","t":4,"rt":$n[2].Color,"sn":"colorBG"},{"at":[new UnityEngine.SpaceAttribute.$ctor1(10.0),new UnityEngine.HeaderAttribute("__________________________________"),new UnityEngine.SpaceAttribute.$ctor1(10.0)],"a":2,"n":"countPlay","t":4,"rt":$n[0].Int32,"sn":"countPlay","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("CountDrop", -1, null, false, null)],"a":2,"n":"countPlayFinal","t":4,"rt":$n[0].Single,"sn":"countPlayFinal","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"imgBG","t":4,"rt":$n[3].RawImage,"sn":"imgBG"},{"a":2,"n":"imgRawLogoGame","t":4,"rt":$n[3].RawImage,"sn":"imgRawLogoGame"},{"at":[new UnityEngine.SpaceAttribute.$ctor1(10.0),new UnityEngine.HeaderAttribute("__________________________________")],"a":2,"n":"ins","is":true,"t":4,"rt":LunaManager,"sn":"ins"},{"at":[new UnityEngine.SpaceAttribute.$ctor1(10.0),new UnityEngine.HeaderAttribute("__________________________________"),new UnityEngine.LunaPlaygroundAssetAttribute("LogoGame", 0, null)],"a":2,"n":"logoGame","t":4,"rt":$n[2].Texture2D,"sn":"logoGame"},{"a":2,"n":"lstBtnInstall","t":4,"rt":System.Array.type(UnityEngine.UI.Button),"sn":"lstBtnInstall"},{"at":[new UnityEngine.LunaPlaygroundFieldAttribute("TimeDrop", -1, null, false, null)],"a":2,"n":"timeDropFinal","t":4,"rt":$n[0].Single,"sn":"timeDropFinal","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    /*LunaManager end.*/
 
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty start.*/
     $m("IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"}]}; }, $n);
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty end.*/
 
     /*Spine.BoneMatrix start.*/
-    $m("Spine.BoneMatrix", function () { return {"att":1048841,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":".ctor","t":1,"p":[$n[3].Bone],"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0}],"sn":"$ctor1"},{"a":2,"n":".ctor","t":1,"p":[spine.BoneData],"pi":[{"n":"boneData","pt":spine.BoneData,"ps":0}],"sn":"$ctor2"},{"a":2,"n":"CalculateSetupWorld","is":true,"t":8,"pi":[{"n":"boneData","pt":spine.BoneData,"ps":0}],"sn":"CalculateSetupWorld","rt":$n[3].BoneMatrix,"p":[spine.BoneData]},{"a":1,"n":"GetInheritedInternal","is":true,"t":8,"pi":[{"n":"boneData","pt":spine.BoneData,"ps":0},{"n":"parentMatrix","pt":$n[3].BoneMatrix,"ps":1}],"sn":"GetInheritedInternal","rt":$n[3].BoneMatrix,"p":[spine.BoneData,$n[3].BoneMatrix]},{"a":2,"n":"TransformMatrix","t":8,"pi":[{"n":"local","pt":$n[3].BoneMatrix,"ps":0}],"sn":"TransformMatrix","rt":$n[3].BoneMatrix,"p":[$n[3].BoneMatrix]},{"a":2,"n":"a","t":4,"rt":$n[0].Single,"sn":"a","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"b","t":4,"rt":$n[0].Single,"sn":"b","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"c","t":4,"rt":$n[0].Single,"sn":"c","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"d","t":4,"rt":$n[0].Single,"sn":"d","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"x","t":4,"rt":$n[0].Single,"sn":"x","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"y","t":4,"rt":$n[0].Single,"sn":"y","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("Spine.BoneMatrix", function () { return {"att":1048841,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":".ctor","t":1,"p":[$n[4].Bone],"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0}],"sn":"$ctor1"},{"a":2,"n":".ctor","t":1,"p":[spine.BoneData],"pi":[{"n":"boneData","pt":spine.BoneData,"ps":0}],"sn":"$ctor2"},{"a":2,"n":"CalculateSetupWorld","is":true,"t":8,"pi":[{"n":"boneData","pt":spine.BoneData,"ps":0}],"sn":"CalculateSetupWorld","rt":$n[4].BoneMatrix,"p":[spine.BoneData]},{"a":1,"n":"GetInheritedInternal","is":true,"t":8,"pi":[{"n":"boneData","pt":spine.BoneData,"ps":0},{"n":"parentMatrix","pt":$n[4].BoneMatrix,"ps":1}],"sn":"GetInheritedInternal","rt":$n[4].BoneMatrix,"p":[spine.BoneData,$n[4].BoneMatrix]},{"a":2,"n":"TransformMatrix","t":8,"pi":[{"n":"local","pt":$n[4].BoneMatrix,"ps":0}],"sn":"TransformMatrix","rt":$n[4].BoneMatrix,"p":[$n[4].BoneMatrix]},{"a":2,"n":"a","t":4,"rt":$n[0].Single,"sn":"a","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"b","t":4,"rt":$n[0].Single,"sn":"b","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"c","t":4,"rt":$n[0].Single,"sn":"c","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"d","t":4,"rt":$n[0].Single,"sn":"d","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"x","t":4,"rt":$n[0].Single,"sn":"x","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"y","t":4,"rt":$n[0].Single,"sn":"y","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*Spine.BoneMatrix end.*/
 
     /*Spine.SpineSkeletonExtensions start.*/
@@ -17903,239 +22530,239 @@ if ( TRACE ) { TRACE( "Spine.Unity.SkeletonMecanim#OnBecameVisible", this ); }
     /*Spine.Unity.AnimationReferenceAsset start.*/
     $m("Spine.Unity.AnimationReferenceAsset", function () { return {"att":1048577,"a":2,"at":[Bridge.apply(new UnityEngine.CreateAssetMenuAttribute(), {
         menuName: "Spine/Animation Reference Asset", order: 100
-    } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"Initialize","t":8,"sn":"Initialize","rt":$n[0].Void},{"a":2,"n":"op_Implicit","is":true,"t":8,"pi":[{"n":"asset","pt":$n[4].AnimationReferenceAsset,"ps":0}],"sn":"op_Implicit","rt":$n[3].Animation,"p":[$n[4].AnimationReferenceAsset]},{"a":2,"n":"Animation","t":16,"rt":$n[3].Animation,"g":{"a":2,"n":"get_Animation","t":8,"rt":$n[3].Animation,"fg":"Animation"},"fn":"Animation"},{"a":2,"n":"SkeletonDataAsset","t":16,"rt":$n[4].SkeletonDataAsset,"g":{"a":2,"n":"get_SkeletonDataAsset","t":8,"rt":$n[4].SkeletonDataAsset,"fg":"SkeletonDataAsset"},"fn":"SkeletonDataAsset"},{"a":1,"n":"QuietSkeletonData","is":true,"t":4,"rt":$n[0].Boolean,"sn":"QuietSkeletonData","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"animation","t":4,"rt":$n[3].Animation,"sn":"animation"},{"at":[new UnityEngine.SerializeFieldAttribute(),new Spine.Unity.SpineAnimation("", "", true, false)],"a":3,"n":"animationName","t":4,"rt":$n[0].String,"sn":"animationName"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"skeletonDataAsset","t":4,"rt":$n[4].SkeletonDataAsset,"sn":"skeletonDataAsset"}]}; }, $n);
+    } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"Initialize","t":8,"sn":"Initialize","rt":$n[0].Void},{"a":2,"n":"op_Implicit","is":true,"t":8,"pi":[{"n":"asset","pt":$n[5].AnimationReferenceAsset,"ps":0}],"sn":"op_Implicit","rt":$n[4].Animation,"p":[$n[5].AnimationReferenceAsset]},{"a":2,"n":"Animation","t":16,"rt":$n[4].Animation,"g":{"a":2,"n":"get_Animation","t":8,"rt":$n[4].Animation,"fg":"Animation"},"fn":"Animation"},{"a":2,"n":"SkeletonDataAsset","t":16,"rt":$n[5].SkeletonDataAsset,"g":{"a":2,"n":"get_SkeletonDataAsset","t":8,"rt":$n[5].SkeletonDataAsset,"fg":"SkeletonDataAsset"},"fn":"SkeletonDataAsset"},{"a":1,"n":"QuietSkeletonData","is":true,"t":4,"rt":$n[0].Boolean,"sn":"QuietSkeletonData","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"animation","t":4,"rt":$n[4].Animation,"sn":"animation"},{"at":[new UnityEngine.SerializeFieldAttribute(),new Spine.Unity.SpineAnimation("", "", true, false)],"a":3,"n":"animationName","t":4,"rt":$n[0].String,"sn":"animationName"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"skeletonDataAsset","t":4,"rt":$n[5].SkeletonDataAsset,"sn":"skeletonDataAsset"}]}; }, $n);
     /*Spine.Unity.AnimationReferenceAsset end.*/
 
     /*Spine.Unity.AtlasAssetBase start.*/
-    $m("Spine.Unity.AtlasAssetBase", function () { return {"nested":[$n[4].AtlasAssetBase.LoadingMode],"att":1048705,"a":2,"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":2,"n":"BeginCustomTextureLoading","t":8,"sn":"BeginCustomTextureLoading","rt":$n[0].Void},{"ab":true,"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"v":true,"a":2,"n":"EndCustomTextureLoading","t":8,"sn":"EndCustomTextureLoading","rt":$n[0].Void},{"ab":true,"a":2,"n":"GetAtlas","t":8,"pi":[{"n":"onlyMetaData","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"GetAtlas","rt":$n[3].Atlas,"p":[$n[0].Boolean]},{"v":true,"a":2,"n":"RequireTextureLoaded","t":8,"pi":[{"n":"placeholderTexture","pt":$n[2].Texture,"ps":0},{"n":"replacementTexture","ref":true,"pt":$n[2].Texture,"ps":1},{"n":"onTextureLoaded","pt":Function,"ps":2}],"sn":"RequireTextureLoaded","rt":$n[0].Void,"p":[$n[2].Texture,$n[2].Texture,Function]},{"v":true,"a":2,"n":"RequireTexturesLoaded","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0},{"n":"overrideMaterial","ref":true,"pt":$n[2].Material,"ps":1}],"sn":"RequireTexturesLoaded","rt":$n[0].Void,"p":[$n[2].Material,$n[2].Material]},{"ab":true,"a":2,"n":"IsLoaded","t":16,"rt":$n[0].Boolean,"g":{"ab":true,"a":2,"n":"get_IsLoaded","t":8,"rt":$n[0].Boolean,"fg":"IsLoaded","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsLoaded"},{"ab":true,"a":2,"n":"MaterialCount","t":16,"rt":$n[0].Int32,"g":{"ab":true,"a":2,"n":"get_MaterialCount","t":8,"rt":$n[0].Int32,"fg":"MaterialCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"MaterialCount"},{"ab":true,"a":2,"n":"Materials","t":16,"rt":$n[5].IEnumerable$1(UnityEngine.Material),"g":{"ab":true,"a":2,"n":"get_Materials","t":8,"rt":$n[5].IEnumerable$1(UnityEngine.Material),"fg":"Materials"},"fn":"Materials"},{"a":2,"n":"OnDemandTextureLoader","t":16,"rt":$n[4].OnDemandTextureLoader,"g":{"a":2,"n":"get_OnDemandTextureLoader","t":8,"rt":$n[4].OnDemandTextureLoader,"fg":"OnDemandTextureLoader"},"s":{"a":2,"n":"set_OnDemandTextureLoader","t":8,"p":[$n[4].OnDemandTextureLoader],"rt":$n[0].Void,"fs":"OnDemandTextureLoader"},"fn":"OnDemandTextureLoader"},{"ab":true,"a":2,"n":"PrimaryMaterial","t":16,"rt":$n[2].Material,"g":{"ab":true,"a":2,"n":"get_PrimaryMaterial","t":8,"rt":$n[2].Material,"fg":"PrimaryMaterial"},"fn":"PrimaryMaterial"},{"v":true,"a":2,"n":"TextureLoadingMode","t":16,"rt":$n[4].AtlasAssetBase.LoadingMode,"g":{"v":true,"a":2,"n":"get_TextureLoadingMode","t":8,"rt":$n[4].AtlasAssetBase.LoadingMode,"fg":"TextureLoadingMode","box":function ($v) { return Bridge.box($v, Spine.Unity.AtlasAssetBase.LoadingMode, System.Enum.toStringFn(Spine.Unity.AtlasAssetBase.LoadingMode));}},"s":{"v":true,"a":2,"n":"set_TextureLoadingMode","t":8,"p":[$n[4].AtlasAssetBase.LoadingMode],"rt":$n[0].Void,"fs":"TextureLoadingMode"},"fn":"TextureLoadingMode"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"onDemandTextureLoader","t":4,"rt":$n[4].OnDemandTextureLoader,"sn":"onDemandTextureLoader"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"textureLoadingMode","t":4,"rt":$n[4].AtlasAssetBase.LoadingMode,"sn":"textureLoadingMode","box":function ($v) { return Bridge.box($v, Spine.Unity.AtlasAssetBase.LoadingMode, System.Enum.toStringFn(Spine.Unity.AtlasAssetBase.LoadingMode));}},{"a":1,"backing":true,"n":"<IsLoaded>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"IsLoaded","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<MaterialCount>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"MaterialCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"backing":true,"n":"<Materials>k__BackingField","t":4,"rt":$n[5].IEnumerable$1(UnityEngine.Material),"sn":"Materials"},{"a":1,"backing":true,"n":"<PrimaryMaterial>k__BackingField","t":4,"rt":$n[2].Material,"sn":"PrimaryMaterial"}]}; }, $n);
+    $m("Spine.Unity.AtlasAssetBase", function () { return {"nested":[$n[5].AtlasAssetBase.LoadingMode],"att":1048705,"a":2,"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"v":true,"a":2,"n":"BeginCustomTextureLoading","t":8,"sn":"BeginCustomTextureLoading","rt":$n[0].Void},{"ab":true,"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"v":true,"a":2,"n":"EndCustomTextureLoading","t":8,"sn":"EndCustomTextureLoading","rt":$n[0].Void},{"ab":true,"a":2,"n":"GetAtlas","t":8,"pi":[{"n":"onlyMetaData","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"GetAtlas","rt":$n[4].Atlas,"p":[$n[0].Boolean]},{"v":true,"a":2,"n":"RequireTextureLoaded","t":8,"pi":[{"n":"placeholderTexture","pt":$n[2].Texture,"ps":0},{"n":"replacementTexture","ref":true,"pt":$n[2].Texture,"ps":1},{"n":"onTextureLoaded","pt":Function,"ps":2}],"sn":"RequireTextureLoaded","rt":$n[0].Void,"p":[$n[2].Texture,$n[2].Texture,Function]},{"v":true,"a":2,"n":"RequireTexturesLoaded","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0},{"n":"overrideMaterial","ref":true,"pt":$n[2].Material,"ps":1}],"sn":"RequireTexturesLoaded","rt":$n[0].Void,"p":[$n[2].Material,$n[2].Material]},{"ab":true,"a":2,"n":"IsLoaded","t":16,"rt":$n[0].Boolean,"g":{"ab":true,"a":2,"n":"get_IsLoaded","t":8,"rt":$n[0].Boolean,"fg":"IsLoaded","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsLoaded"},{"ab":true,"a":2,"n":"MaterialCount","t":16,"rt":$n[0].Int32,"g":{"ab":true,"a":2,"n":"get_MaterialCount","t":8,"rt":$n[0].Int32,"fg":"MaterialCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"MaterialCount"},{"ab":true,"a":2,"n":"Materials","t":16,"rt":$n[6].IEnumerable$1(UnityEngine.Material),"g":{"ab":true,"a":2,"n":"get_Materials","t":8,"rt":$n[6].IEnumerable$1(UnityEngine.Material),"fg":"Materials"},"fn":"Materials"},{"a":2,"n":"OnDemandTextureLoader","t":16,"rt":$n[5].OnDemandTextureLoader,"g":{"a":2,"n":"get_OnDemandTextureLoader","t":8,"rt":$n[5].OnDemandTextureLoader,"fg":"OnDemandTextureLoader"},"s":{"a":2,"n":"set_OnDemandTextureLoader","t":8,"p":[$n[5].OnDemandTextureLoader],"rt":$n[0].Void,"fs":"OnDemandTextureLoader"},"fn":"OnDemandTextureLoader"},{"ab":true,"a":2,"n":"PrimaryMaterial","t":16,"rt":$n[2].Material,"g":{"ab":true,"a":2,"n":"get_PrimaryMaterial","t":8,"rt":$n[2].Material,"fg":"PrimaryMaterial"},"fn":"PrimaryMaterial"},{"v":true,"a":2,"n":"TextureLoadingMode","t":16,"rt":$n[5].AtlasAssetBase.LoadingMode,"g":{"v":true,"a":2,"n":"get_TextureLoadingMode","t":8,"rt":$n[5].AtlasAssetBase.LoadingMode,"fg":"TextureLoadingMode","box":function ($v) { return Bridge.box($v, Spine.Unity.AtlasAssetBase.LoadingMode, System.Enum.toStringFn(Spine.Unity.AtlasAssetBase.LoadingMode));}},"s":{"v":true,"a":2,"n":"set_TextureLoadingMode","t":8,"p":[$n[5].AtlasAssetBase.LoadingMode],"rt":$n[0].Void,"fs":"TextureLoadingMode"},"fn":"TextureLoadingMode"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"onDemandTextureLoader","t":4,"rt":$n[5].OnDemandTextureLoader,"sn":"onDemandTextureLoader"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"textureLoadingMode","t":4,"rt":$n[5].AtlasAssetBase.LoadingMode,"sn":"textureLoadingMode","box":function ($v) { return Bridge.box($v, Spine.Unity.AtlasAssetBase.LoadingMode, System.Enum.toStringFn(Spine.Unity.AtlasAssetBase.LoadingMode));}},{"a":1,"backing":true,"n":"<IsLoaded>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"IsLoaded","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"backing":true,"n":"<MaterialCount>k__BackingField","t":4,"rt":$n[0].Int32,"sn":"MaterialCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"backing":true,"n":"<Materials>k__BackingField","t":4,"rt":$n[6].IEnumerable$1(UnityEngine.Material),"sn":"Materials"},{"a":1,"backing":true,"n":"<PrimaryMaterial>k__BackingField","t":4,"rt":$n[2].Material,"sn":"PrimaryMaterial"}]}; }, $n);
     /*Spine.Unity.AtlasAssetBase end.*/
 
     /*Spine.Unity.AtlasAssetBase+LoadingMode start.*/
-    $m("Spine.Unity.AtlasAssetBase.LoadingMode", function () { return {"td":$n[4].AtlasAssetBase,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Normal","is":true,"t":4,"rt":$n[4].AtlasAssetBase.LoadingMode,"sn":"Normal","box":function ($v) { return Bridge.box($v, Spine.Unity.AtlasAssetBase.LoadingMode, System.Enum.toStringFn(Spine.Unity.AtlasAssetBase.LoadingMode));}},{"a":2,"n":"OnDemand","is":true,"t":4,"rt":$n[4].AtlasAssetBase.LoadingMode,"sn":"OnDemand","box":function ($v) { return Bridge.box($v, Spine.Unity.AtlasAssetBase.LoadingMode, System.Enum.toStringFn(Spine.Unity.AtlasAssetBase.LoadingMode));}}]}; }, $n);
+    $m("Spine.Unity.AtlasAssetBase.LoadingMode", function () { return {"td":$n[5].AtlasAssetBase,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Normal","is":true,"t":4,"rt":$n[5].AtlasAssetBase.LoadingMode,"sn":"Normal","box":function ($v) { return Bridge.box($v, Spine.Unity.AtlasAssetBase.LoadingMode, System.Enum.toStringFn(Spine.Unity.AtlasAssetBase.LoadingMode));}},{"a":2,"n":"OnDemand","is":true,"t":4,"rt":$n[5].AtlasAssetBase.LoadingMode,"sn":"OnDemand","box":function ($v) { return Bridge.box($v, Spine.Unity.AtlasAssetBase.LoadingMode, System.Enum.toStringFn(Spine.Unity.AtlasAssetBase.LoadingMode));}}]}; }, $n);
     /*Spine.Unity.AtlasAssetBase+LoadingMode end.*/
 
     /*Spine.Unity.BlendModeMaterials start.*/
-    $m("Spine.Unity.BlendModeMaterials", function () { return {"nested":[$n[4].BlendModeMaterials.ReplacementMaterial],"att":1056769,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ApplyMaterials","t":8,"pi":[{"n":"skeletonData","pt":$n[3].SkeletonData,"ps":0}],"sn":"ApplyMaterials","rt":$n[0].Void,"p":[$n[3].SkeletonData]},{"a":2,"n":"BlendModeForMaterial","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0}],"sn":"BlendModeForMaterial","rt":spine.BlendMode,"p":[$n[2].Material],"box":function ($v) { return Bridge.box($v, spine.BlendMode, System.Enum.toStringFn(spine.BlendMode));}},{"a":3,"n":"CloneAtlasRegionWithMaterial","t":8,"pi":[{"n":"originalRegion","pt":$n[3].AtlasRegion,"ps":0},{"n":"replacementMaterials","pt":$n[5].List$1(Spine.Unity.BlendModeMaterials.ReplacementMaterial),"ps":1}],"sn":"CloneAtlasRegionWithMaterial","rt":$n[3].AtlasRegion,"p":[$n[3].AtlasRegion,$n[5].List$1(Spine.Unity.BlendModeMaterials.ReplacementMaterial)]},{"a":2,"n":"RequiresBlendModeMaterials","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_RequiresBlendModeMaterials","t":8,"rt":$n[0].Boolean,"fg":"RequiresBlendModeMaterials","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_RequiresBlendModeMaterials","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"RequiresBlendModeMaterials"},"fn":"RequiresBlendModeMaterials"},{"a":2,"n":"additiveMaterials","t":4,"rt":$n[5].List$1(Spine.Unity.BlendModeMaterials.ReplacementMaterial),"sn":"additiveMaterials"},{"a":2,"n":"applyAdditiveMaterial","t":4,"rt":$n[0].Boolean,"sn":"applyAdditiveMaterial","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"multiplyMaterials","t":4,"rt":$n[5].List$1(Spine.Unity.BlendModeMaterials.ReplacementMaterial),"sn":"multiplyMaterials"},{"at":[new UnityEngine.SerializeFieldAttribute(),new UnityEngine.HideInInspector()],"a":3,"n":"requiresBlendModeMaterials","t":4,"rt":$n[0].Boolean,"sn":"requiresBlendModeMaterials","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"screenMaterials","t":4,"rt":$n[5].List$1(Spine.Unity.BlendModeMaterials.ReplacementMaterial),"sn":"screenMaterials"}]}; }, $n);
+    $m("Spine.Unity.BlendModeMaterials", function () { return {"nested":[$n[5].BlendModeMaterials.ReplacementMaterial],"att":1056769,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ApplyMaterials","t":8,"pi":[{"n":"skeletonData","pt":$n[4].SkeletonData,"ps":0}],"sn":"ApplyMaterials","rt":$n[0].Void,"p":[$n[4].SkeletonData]},{"a":2,"n":"BlendModeForMaterial","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0}],"sn":"BlendModeForMaterial","rt":spine.BlendMode,"p":[$n[2].Material],"box":function ($v) { return Bridge.box($v, spine.BlendMode, System.Enum.toStringFn(spine.BlendMode));}},{"a":3,"n":"CloneAtlasRegionWithMaterial","t":8,"pi":[{"n":"originalRegion","pt":$n[4].AtlasRegion,"ps":0},{"n":"replacementMaterials","pt":$n[6].List$1(Spine.Unity.BlendModeMaterials.ReplacementMaterial),"ps":1}],"sn":"CloneAtlasRegionWithMaterial","rt":$n[4].AtlasRegion,"p":[$n[4].AtlasRegion,$n[6].List$1(Spine.Unity.BlendModeMaterials.ReplacementMaterial)]},{"a":2,"n":"RequiresBlendModeMaterials","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_RequiresBlendModeMaterials","t":8,"rt":$n[0].Boolean,"fg":"RequiresBlendModeMaterials","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_RequiresBlendModeMaterials","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"RequiresBlendModeMaterials"},"fn":"RequiresBlendModeMaterials"},{"a":2,"n":"additiveMaterials","t":4,"rt":$n[6].List$1(Spine.Unity.BlendModeMaterials.ReplacementMaterial),"sn":"additiveMaterials"},{"a":2,"n":"applyAdditiveMaterial","t":4,"rt":$n[0].Boolean,"sn":"applyAdditiveMaterial","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"multiplyMaterials","t":4,"rt":$n[6].List$1(Spine.Unity.BlendModeMaterials.ReplacementMaterial),"sn":"multiplyMaterials"},{"at":[new UnityEngine.SerializeFieldAttribute(),new UnityEngine.HideInInspector()],"a":3,"n":"requiresBlendModeMaterials","t":4,"rt":$n[0].Boolean,"sn":"requiresBlendModeMaterials","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"screenMaterials","t":4,"rt":$n[6].List$1(Spine.Unity.BlendModeMaterials.ReplacementMaterial),"sn":"screenMaterials"}]}; }, $n);
     /*Spine.Unity.BlendModeMaterials end.*/
 
     /*Spine.Unity.BlendModeMaterials+ReplacementMaterial start.*/
-    $m("Spine.Unity.BlendModeMaterials.ReplacementMaterial", function () { return {"td":$n[4].BlendModeMaterials,"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"material","t":4,"rt":$n[2].Material,"sn":"material"},{"a":2,"n":"pageName","t":4,"rt":$n[0].String,"sn":"pageName"}]}; }, $n);
+    $m("Spine.Unity.BlendModeMaterials.ReplacementMaterial", function () { return {"td":$n[5].BlendModeMaterials,"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"material","t":4,"rt":$n[2].Material,"sn":"material"},{"a":2,"n":"pageName","t":4,"rt":$n[0].String,"sn":"pageName"}]}; }, $n);
     /*Spine.Unity.BlendModeMaterials+ReplacementMaterial end.*/
 
     /*Spine.Unity.EventDataReferenceAsset start.*/
     $m("Spine.Unity.EventDataReferenceAsset", function () { return {"att":1048577,"a":2,"at":[Bridge.apply(new UnityEngine.CreateAssetMenuAttribute(), {
         menuName: "Spine/EventData Reference Asset", order: 100
-    } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Initialize","t":8,"sn":"Initialize","rt":$n[0].Void},{"a":2,"n":"op_Implicit","is":true,"t":8,"pi":[{"n":"asset","pt":$n[4].EventDataReferenceAsset,"ps":0}],"sn":"op_Implicit","rt":spine.EventData,"p":[$n[4].EventDataReferenceAsset]},{"a":2,"n":"EventData","t":16,"rt":spine.EventData,"g":{"a":2,"n":"get_EventData","t":8,"rt":spine.EventData,"fg":"EventData"},"fn":"EventData"},{"a":1,"n":"QuietSkeletonData","is":true,"t":4,"rt":$n[0].Boolean,"sn":"QuietSkeletonData","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"eventData","t":4,"rt":spine.EventData,"sn":"eventData"},{"at":[new UnityEngine.SerializeFieldAttribute(),new Spine.Unity.SpineEvent("", "skeletonDataAsset", true, false, false)],"a":3,"n":"eventName","t":4,"rt":$n[0].String,"sn":"eventName"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"skeletonDataAsset","t":4,"rt":$n[4].SkeletonDataAsset,"sn":"skeletonDataAsset"}]}; }, $n);
+    } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Initialize","t":8,"sn":"Initialize","rt":$n[0].Void},{"a":2,"n":"op_Implicit","is":true,"t":8,"pi":[{"n":"asset","pt":$n[5].EventDataReferenceAsset,"ps":0}],"sn":"op_Implicit","rt":spine.EventData,"p":[$n[5].EventDataReferenceAsset]},{"a":2,"n":"EventData","t":16,"rt":spine.EventData,"g":{"a":2,"n":"get_EventData","t":8,"rt":spine.EventData,"fg":"EventData"},"fn":"EventData"},{"a":1,"n":"QuietSkeletonData","is":true,"t":4,"rt":$n[0].Boolean,"sn":"QuietSkeletonData","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"eventData","t":4,"rt":spine.EventData,"sn":"eventData"},{"at":[new UnityEngine.SerializeFieldAttribute(),new Spine.Unity.SpineEvent("", "skeletonDataAsset", true, false, false)],"a":3,"n":"eventName","t":4,"rt":$n[0].String,"sn":"eventName"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"skeletonDataAsset","t":4,"rt":$n[5].SkeletonDataAsset,"sn":"skeletonDataAsset"}]}; }, $n);
     /*Spine.Unity.EventDataReferenceAsset end.*/
 
     /*Spine.Unity.OnDemandTextureLoader start.*/
-    $m("Spine.Unity.OnDemandTextureLoader", function () { return {"nested":[Function],"att":1048705,"a":2,"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ab":true,"a":2,"n":"AssignPlaceholderTextures","t":8,"pi":[{"n":"modifiedMaterials","out":true,"pt":$n[5].IEnumerable$1(UnityEngine.Material),"ps":0}],"sn":"AssignPlaceholderTextures","rt":$n[0].Boolean,"p":[$n[5].IEnumerable$1(UnityEngine.Material)],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"ab":true,"a":2,"n":"AssignTargetTextures","t":8,"pi":[{"n":"modifiedMaterials","out":true,"pt":$n[5].IEnumerable$1(UnityEngine.Material),"ps":0}],"sn":"AssignTargetTextures","rt":$n[0].Boolean,"p":[$n[5].IEnumerable$1(UnityEngine.Material)],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"ab":true,"a":2,"n":"BeginCustomTextureLoading","t":8,"sn":"BeginCustomTextureLoading","rt":$n[0].Void},{"ab":true,"a":2,"n":"Clear","t":8,"pi":[{"n":"clearAtlasAsset","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"Clear","rt":$n[0].Void,"p":[$n[0].Boolean]},{"ab":true,"a":2,"n":"EndCustomTextureLoading","t":8,"sn":"EndCustomTextureLoading","rt":$n[0].Void},{"ab":true,"a":2,"n":"GetPlaceholderTextureName","t":8,"pi":[{"n":"originalTextureName","pt":$n[0].String,"ps":0}],"sn":"GetPlaceholderTextureName","rt":$n[0].String,"p":[$n[0].String]},{"v":true,"a":2,"n":"HasNullMainTexturesAssigned","t":8,"pi":[{"n":"nullTextureMaterials","out":true,"pt":$n[5].List$1(UnityEngine.Material),"ps":0}],"sn":"HasNullMainTexturesAssigned","rt":$n[0].Boolean,"p":[$n[5].List$1(UnityEngine.Material)],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"ab":true,"a":2,"n":"HasPlaceholderAssigned","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0}],"sn":"HasPlaceholderAssigned","rt":$n[0].Boolean,"p":[$n[2].Material],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"ab":true,"a":2,"n":"HasPlaceholderTexturesAssigned","t":8,"pi":[{"n":"placeholderMaterials","out":true,"pt":$n[5].List$1(UnityEngine.Material),"ps":0}],"sn":"HasPlaceholderTexturesAssigned","rt":$n[0].Boolean,"p":[$n[5].List$1(UnityEngine.Material)],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"OnTextureLoaded","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0},{"n":"textureIndex","pt":$n[0].Int32,"ps":1}],"sn":"OnTextureLoaded","rt":$n[0].Void,"p":[$n[2].Material,$n[0].Int32]},{"a":3,"n":"OnTextureRequested","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0},{"n":"textureIndex","pt":$n[0].Int32,"ps":1}],"sn":"OnTextureRequested","rt":$n[0].Void,"p":[$n[2].Material,$n[0].Int32]},{"a":3,"n":"OnTextureUnloaded","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0},{"n":"textureIndex","pt":$n[0].Int32,"ps":1}],"sn":"OnTextureUnloaded","rt":$n[0].Void,"p":[$n[2].Material,$n[0].Int32]},{"ab":true,"a":2,"n":"RequestLoadMaterialTextures","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0},{"n":"overrideMaterial","ref":true,"pt":$n[2].Material,"ps":1}],"sn":"RequestLoadMaterialTextures","rt":$n[0].Void,"p":[$n[2].Material,$n[2].Material]},{"ab":true,"a":2,"n":"RequestLoadTexture","t":8,"pi":[{"n":"placeholderTexture","pt":$n[2].Texture,"ps":0},{"n":"replacementTexture","ref":true,"pt":$n[2].Texture,"ps":1},{"n":"onTextureLoaded","dv":null,"o":true,"pt":Function,"ps":2}],"sn":"RequestLoadTexture","rt":$n[0].Void,"p":[$n[2].Texture,$n[2].Texture,Function]},{"a":2,"n":"atlasAsset","t":4,"rt":$n[4].AtlasAssetBase,"sn":"atlasAsset"},{"a":2,"n":"TextureLoaded","t":2,"ad":{"a":2,"n":"add_TextureLoaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addTextureLoaded","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_TextureLoaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeTextureLoaded","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"TextureRequested","t":2,"ad":{"a":2,"n":"add_TextureRequested","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addTextureRequested","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_TextureRequested","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeTextureRequested","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"TextureUnloaded","t":2,"ad":{"a":2,"n":"add_TextureUnloaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addTextureUnloaded","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_TextureUnloaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeTextureUnloaded","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"onTextureLoaded","t":2,"ad":{"a":3,"n":"add_onTextureLoaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addonTextureLoaded","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove_onTextureLoaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeonTextureLoaded","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"onTextureRequested","t":2,"ad":{"a":3,"n":"add_onTextureRequested","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addonTextureRequested","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove_onTextureRequested","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeonTextureRequested","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"onTextureUnloaded","t":2,"ad":{"a":3,"n":"add_onTextureUnloaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addonTextureUnloaded","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove_onTextureUnloaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeonTextureUnloaded","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("Spine.Unity.OnDemandTextureLoader", function () { return {"nested":[Function],"att":1048705,"a":2,"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ab":true,"a":2,"n":"AssignPlaceholderTextures","t":8,"pi":[{"n":"modifiedMaterials","out":true,"pt":$n[6].IEnumerable$1(UnityEngine.Material),"ps":0}],"sn":"AssignPlaceholderTextures","rt":$n[0].Boolean,"p":[$n[6].IEnumerable$1(UnityEngine.Material)],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"ab":true,"a":2,"n":"AssignTargetTextures","t":8,"pi":[{"n":"modifiedMaterials","out":true,"pt":$n[6].IEnumerable$1(UnityEngine.Material),"ps":0}],"sn":"AssignTargetTextures","rt":$n[0].Boolean,"p":[$n[6].IEnumerable$1(UnityEngine.Material)],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"ab":true,"a":2,"n":"BeginCustomTextureLoading","t":8,"sn":"BeginCustomTextureLoading","rt":$n[0].Void},{"ab":true,"a":2,"n":"Clear","t":8,"pi":[{"n":"clearAtlasAsset","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"Clear","rt":$n[0].Void,"p":[$n[0].Boolean]},{"ab":true,"a":2,"n":"EndCustomTextureLoading","t":8,"sn":"EndCustomTextureLoading","rt":$n[0].Void},{"ab":true,"a":2,"n":"GetPlaceholderTextureName","t":8,"pi":[{"n":"originalTextureName","pt":$n[0].String,"ps":0}],"sn":"GetPlaceholderTextureName","rt":$n[0].String,"p":[$n[0].String]},{"v":true,"a":2,"n":"HasNullMainTexturesAssigned","t":8,"pi":[{"n":"nullTextureMaterials","out":true,"pt":$n[6].List$1(UnityEngine.Material),"ps":0}],"sn":"HasNullMainTexturesAssigned","rt":$n[0].Boolean,"p":[$n[6].List$1(UnityEngine.Material)],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"ab":true,"a":2,"n":"HasPlaceholderAssigned","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0}],"sn":"HasPlaceholderAssigned","rt":$n[0].Boolean,"p":[$n[2].Material],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"ab":true,"a":2,"n":"HasPlaceholderTexturesAssigned","t":8,"pi":[{"n":"placeholderMaterials","out":true,"pt":$n[6].List$1(UnityEngine.Material),"ps":0}],"sn":"HasPlaceholderTexturesAssigned","rt":$n[0].Boolean,"p":[$n[6].List$1(UnityEngine.Material)],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"OnTextureLoaded","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0},{"n":"textureIndex","pt":$n[0].Int32,"ps":1}],"sn":"OnTextureLoaded","rt":$n[0].Void,"p":[$n[2].Material,$n[0].Int32]},{"a":3,"n":"OnTextureRequested","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0},{"n":"textureIndex","pt":$n[0].Int32,"ps":1}],"sn":"OnTextureRequested","rt":$n[0].Void,"p":[$n[2].Material,$n[0].Int32]},{"a":3,"n":"OnTextureUnloaded","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0},{"n":"textureIndex","pt":$n[0].Int32,"ps":1}],"sn":"OnTextureUnloaded","rt":$n[0].Void,"p":[$n[2].Material,$n[0].Int32]},{"ab":true,"a":2,"n":"RequestLoadMaterialTextures","t":8,"pi":[{"n":"material","pt":$n[2].Material,"ps":0},{"n":"overrideMaterial","ref":true,"pt":$n[2].Material,"ps":1}],"sn":"RequestLoadMaterialTextures","rt":$n[0].Void,"p":[$n[2].Material,$n[2].Material]},{"ab":true,"a":2,"n":"RequestLoadTexture","t":8,"pi":[{"n":"placeholderTexture","pt":$n[2].Texture,"ps":0},{"n":"replacementTexture","ref":true,"pt":$n[2].Texture,"ps":1},{"n":"onTextureLoaded","dv":null,"o":true,"pt":Function,"ps":2}],"sn":"RequestLoadTexture","rt":$n[0].Void,"p":[$n[2].Texture,$n[2].Texture,Function]},{"a":2,"n":"atlasAsset","t":4,"rt":$n[5].AtlasAssetBase,"sn":"atlasAsset"},{"a":2,"n":"TextureLoaded","t":2,"ad":{"a":2,"n":"add_TextureLoaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addTextureLoaded","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_TextureLoaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeTextureLoaded","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"TextureRequested","t":2,"ad":{"a":2,"n":"add_TextureRequested","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addTextureRequested","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_TextureRequested","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeTextureRequested","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"TextureUnloaded","t":2,"ad":{"a":2,"n":"add_TextureUnloaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addTextureUnloaded","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_TextureUnloaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeTextureUnloaded","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"onTextureLoaded","t":2,"ad":{"a":3,"n":"add_onTextureLoaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addonTextureLoaded","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove_onTextureLoaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeonTextureLoaded","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"onTextureRequested","t":2,"ad":{"a":3,"n":"add_onTextureRequested","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addonTextureRequested","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove_onTextureRequested","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeonTextureRequested","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"onTextureUnloaded","t":2,"ad":{"a":3,"n":"add_onTextureUnloaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addonTextureUnloaded","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove_onTextureUnloaded","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeonTextureUnloaded","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*Spine.Unity.OnDemandTextureLoader end.*/
 
     /*Spine.Unity.RegionlessAttachmentLoader start.*/
-    $m("Spine.Unity.RegionlessAttachmentLoader", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"NewBoundingBoxAttachment","t":8,"pi":[{"n":"skin","pt":$n[3].Skin,"ps":0},{"n":"name","pt":$n[0].String,"ps":1}],"sn":"NewBoundingBoxAttachment","rt":spine.BoundingBoxAttachment,"p":[$n[3].Skin,$n[0].String]},{"a":2,"n":"NewClippingAttachment","t":8,"pi":[{"n":"skin","pt":$n[3].Skin,"ps":0},{"n":"name","pt":$n[0].String,"ps":1}],"sn":"NewClippingAttachment","rt":spine.ClippingAttachment,"p":[$n[3].Skin,$n[0].String]},{"a":2,"n":"NewMeshAttachment","t":8,"pi":[{"n":"skin","pt":$n[3].Skin,"ps":0},{"n":"name","pt":$n[0].String,"ps":1},{"n":"path","pt":$n[0].String,"ps":2},{"n":"sequence","pt":spine.Sequence,"ps":3}],"sn":"NewMeshAttachment","rt":$n[3].MeshAttachment,"p":[$n[3].Skin,$n[0].String,$n[0].String,spine.Sequence]},{"a":2,"n":"NewPathAttachment","t":8,"pi":[{"n":"skin","pt":$n[3].Skin,"ps":0},{"n":"name","pt":$n[0].String,"ps":1}],"sn":"NewPathAttachment","rt":spine.PathAttachment,"p":[$n[3].Skin,$n[0].String]},{"a":2,"n":"NewPointAttachment","t":8,"pi":[{"n":"skin","pt":$n[3].Skin,"ps":0},{"n":"name","pt":$n[0].String,"ps":1}],"sn":"NewPointAttachment","rt":$n[3].PointAttachment,"p":[$n[3].Skin,$n[0].String]},{"a":2,"n":"NewRegionAttachment","t":8,"pi":[{"n":"skin","pt":$n[3].Skin,"ps":0},{"n":"name","pt":$n[0].String,"ps":1},{"n":"path","pt":$n[0].String,"ps":2},{"n":"sequence","pt":spine.Sequence,"ps":3}],"sn":"NewRegionAttachment","rt":$n[3].RegionAttachment,"p":[$n[3].Skin,$n[0].String,$n[0].String,spine.Sequence]},{"a":1,"n":"EmptyRegion","is":true,"t":16,"rt":$n[3].AtlasRegion,"g":{"a":1,"n":"get_EmptyRegion","t":8,"rt":$n[3].AtlasRegion,"fg":"EmptyRegion","is":true},"fn":"EmptyRegion"},{"a":1,"n":"emptyRegion","is":true,"t":4,"rt":$n[3].AtlasRegion,"sn":"emptyRegion"}]}; }, $n);
+    $m("Spine.Unity.RegionlessAttachmentLoader", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"NewBoundingBoxAttachment","t":8,"pi":[{"n":"skin","pt":$n[4].Skin,"ps":0},{"n":"name","pt":$n[0].String,"ps":1}],"sn":"NewBoundingBoxAttachment","rt":spine.BoundingBoxAttachment,"p":[$n[4].Skin,$n[0].String]},{"a":2,"n":"NewClippingAttachment","t":8,"pi":[{"n":"skin","pt":$n[4].Skin,"ps":0},{"n":"name","pt":$n[0].String,"ps":1}],"sn":"NewClippingAttachment","rt":spine.ClippingAttachment,"p":[$n[4].Skin,$n[0].String]},{"a":2,"n":"NewMeshAttachment","t":8,"pi":[{"n":"skin","pt":$n[4].Skin,"ps":0},{"n":"name","pt":$n[0].String,"ps":1},{"n":"path","pt":$n[0].String,"ps":2},{"n":"sequence","pt":spine.Sequence,"ps":3}],"sn":"NewMeshAttachment","rt":$n[4].MeshAttachment,"p":[$n[4].Skin,$n[0].String,$n[0].String,spine.Sequence]},{"a":2,"n":"NewPathAttachment","t":8,"pi":[{"n":"skin","pt":$n[4].Skin,"ps":0},{"n":"name","pt":$n[0].String,"ps":1}],"sn":"NewPathAttachment","rt":spine.PathAttachment,"p":[$n[4].Skin,$n[0].String]},{"a":2,"n":"NewPointAttachment","t":8,"pi":[{"n":"skin","pt":$n[4].Skin,"ps":0},{"n":"name","pt":$n[0].String,"ps":1}],"sn":"NewPointAttachment","rt":$n[4].PointAttachment,"p":[$n[4].Skin,$n[0].String]},{"a":2,"n":"NewRegionAttachment","t":8,"pi":[{"n":"skin","pt":$n[4].Skin,"ps":0},{"n":"name","pt":$n[0].String,"ps":1},{"n":"path","pt":$n[0].String,"ps":2},{"n":"sequence","pt":spine.Sequence,"ps":3}],"sn":"NewRegionAttachment","rt":$n[4].RegionAttachment,"p":[$n[4].Skin,$n[0].String,$n[0].String,spine.Sequence]},{"a":1,"n":"EmptyRegion","is":true,"t":16,"rt":$n[4].AtlasRegion,"g":{"a":1,"n":"get_EmptyRegion","t":8,"rt":$n[4].AtlasRegion,"fg":"EmptyRegion","is":true},"fn":"EmptyRegion"},{"a":1,"n":"emptyRegion","is":true,"t":4,"rt":$n[4].AtlasRegion,"sn":"emptyRegion"}]}; }, $n);
     /*Spine.Unity.RegionlessAttachmentLoader end.*/
 
     /*Spine.Unity.SkeletonDataAsset start.*/
     $m("Spine.Unity.SkeletonDataAsset", function () { return {"att":1048577,"a":2,"at":[Bridge.apply(new UnityEngine.CreateAssetMenuAttribute(), {
         fileName: "New SkeletonDataAsset", menuName: "Spine/SkeletonData Asset"
-    } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"CreateRuntimeInstance","is":true,"t":8,"pi":[{"n":"skeletonDataFile","pt":$n[2].TextAsset,"ps":0},{"n":"atlasAsset","pt":$n[4].AtlasAssetBase,"ps":1},{"n":"initialize","pt":$n[0].Boolean,"ps":2},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"CreateRuntimeInstance","rt":$n[4].SkeletonDataAsset,"p":[$n[2].TextAsset,$n[4].AtlasAssetBase,$n[0].Boolean,$n[0].Single]},{"a":2,"n":"CreateRuntimeInstance","is":true,"t":8,"pi":[{"n":"skeletonDataFile","pt":$n[2].TextAsset,"ps":0},{"n":"atlasAssets","pt":System.Array.type(Spine.Unity.AtlasAssetBase),"ps":1},{"n":"initialize","pt":$n[0].Boolean,"ps":2},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"CreateRuntimeInstance$1","rt":$n[4].SkeletonDataAsset,"p":[$n[2].TextAsset,System.Array.type(Spine.Unity.AtlasAssetBase),$n[0].Boolean,$n[0].Single]},{"a":2,"n":"FillStateData","t":8,"pi":[{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"FillStateData","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":2,"n":"GetAnimationStateData","t":8,"sn":"GetAnimationStateData","rt":spine.AnimationStateData},{"a":4,"n":"GetAtlasArray","t":8,"sn":"GetAtlasArray","rt":System.Array.type(Spine.Atlas)},{"a":2,"n":"GetSkeletonData","t":8,"pi":[{"n":"quiet","pt":$n[0].Boolean,"ps":0}],"sn":"GetSkeletonData","rt":$n[3].SkeletonData,"p":[$n[0].Boolean]},{"a":4,"n":"InitializeWithData","t":8,"pi":[{"n":"sd","pt":$n[3].SkeletonData,"ps":0}],"sn":"InitializeWithData","rt":$n[0].Void,"p":[$n[3].SkeletonData]},{"a":4,"n":"ReadSkeletonData","is":true,"t":8,"pi":[{"n":"bytes","pt":$n[0].Array.type(System.Byte),"ps":0},{"n":"attachmentLoader","pt":$n[3].AttachmentLoader,"ps":1},{"n":"scale","pt":$n[0].Single,"ps":2}],"sn":"ReadSkeletonData","rt":$n[3].SkeletonData,"p":[$n[0].Array.type(System.Byte),$n[3].AttachmentLoader,$n[0].Single]},{"a":4,"n":"ReadSkeletonData","is":true,"t":8,"pi":[{"n":"text","pt":$n[0].String,"ps":0},{"n":"attachmentLoader","pt":$n[3].AttachmentLoader,"ps":1},{"n":"scale","pt":$n[0].Single,"ps":2}],"sn":"ReadSkeletonData$1","rt":$n[3].SkeletonData,"p":[$n[0].String,$n[3].AttachmentLoader,$n[0].Single]},{"a":1,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"a":2,"n":"IsLoaded","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsLoaded","t":8,"rt":$n[0].Boolean,"fg":"IsLoaded","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsLoaded"},{"a":2,"n":"atlasAssets","t":4,"rt":System.Array.type(Spine.Unity.AtlasAssetBase),"sn":"atlasAssets"},{"a":2,"n":"blendModeMaterials","t":4,"rt":$n[4].BlendModeMaterials,"sn":"blendModeMaterials"},{"a":2,"n":"controller","t":4,"rt":$n[2].RuntimeAnimatorController,"sn":"controller"},{"a":2,"n":"defaultMix","t":4,"rt":$n[0].Single,"sn":"defaultMix","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"duration","t":4,"rt":$n[0].Array.type(System.Single),"sn":"duration"},{"at":[new Spine.Unity.SpineAnimation("", "", false, false)],"a":2,"n":"fromAnimation","t":4,"rt":$n[0].Array.type(System.String),"sn":"fromAnimation"},{"a":2,"n":"isUpgradingBlendModeMaterials","t":4,"rt":$n[0].Boolean,"sn":"isUpgradingBlendModeMaterials","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"scale","t":4,"rt":$n[0].Single,"sn":"scale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"skeletonData","t":4,"rt":$n[3].SkeletonData,"sn":"skeletonData"},{"at":[new UnityEngine.TooltipAttribute("Use SkeletonDataModifierAssets to apply changes to the SkeletonData after being loaded, such as apply blend mode Materials to Attachments under slots with special blend modes.")],"a":2,"n":"skeletonDataModifiers","t":4,"rt":$n[5].List$1(Spine.Unity.SkeletonDataModifierAsset),"sn":"skeletonDataModifiers"},{"a":2,"n":"skeletonJSON","t":4,"rt":$n[2].TextAsset,"sn":"skeletonJSON"},{"a":1,"n":"stateData","t":4,"rt":spine.AnimationStateData,"sn":"stateData"},{"at":[new Spine.Unity.SpineAnimation("", "", false, false)],"a":2,"n":"toAnimation","t":4,"rt":$n[0].Array.type(System.String),"sn":"toAnimation"}]}; }, $n);
+    } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"CreateRuntimeInstance","is":true,"t":8,"pi":[{"n":"skeletonDataFile","pt":$n[2].TextAsset,"ps":0},{"n":"atlasAsset","pt":$n[5].AtlasAssetBase,"ps":1},{"n":"initialize","pt":$n[0].Boolean,"ps":2},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"CreateRuntimeInstance","rt":$n[5].SkeletonDataAsset,"p":[$n[2].TextAsset,$n[5].AtlasAssetBase,$n[0].Boolean,$n[0].Single]},{"a":2,"n":"CreateRuntimeInstance","is":true,"t":8,"pi":[{"n":"skeletonDataFile","pt":$n[2].TextAsset,"ps":0},{"n":"atlasAssets","pt":System.Array.type(Spine.Unity.AtlasAssetBase),"ps":1},{"n":"initialize","pt":$n[0].Boolean,"ps":2},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"CreateRuntimeInstance$1","rt":$n[5].SkeletonDataAsset,"p":[$n[2].TextAsset,System.Array.type(Spine.Unity.AtlasAssetBase),$n[0].Boolean,$n[0].Single]},{"a":2,"n":"FillStateData","t":8,"pi":[{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"FillStateData","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":2,"n":"GetAnimationStateData","t":8,"sn":"GetAnimationStateData","rt":spine.AnimationStateData},{"a":4,"n":"GetAtlasArray","t":8,"sn":"GetAtlasArray","rt":System.Array.type(Spine.Atlas)},{"a":2,"n":"GetSkeletonData","t":8,"pi":[{"n":"quiet","pt":$n[0].Boolean,"ps":0}],"sn":"GetSkeletonData","rt":$n[4].SkeletonData,"p":[$n[0].Boolean]},{"a":4,"n":"InitializeWithData","t":8,"pi":[{"n":"sd","pt":$n[4].SkeletonData,"ps":0}],"sn":"InitializeWithData","rt":$n[0].Void,"p":[$n[4].SkeletonData]},{"a":4,"n":"ReadSkeletonData","is":true,"t":8,"pi":[{"n":"bytes","pt":$n[0].Array.type(System.Byte),"ps":0},{"n":"attachmentLoader","pt":$n[4].AttachmentLoader,"ps":1},{"n":"scale","pt":$n[0].Single,"ps":2}],"sn":"ReadSkeletonData","rt":$n[4].SkeletonData,"p":[$n[0].Array.type(System.Byte),$n[4].AttachmentLoader,$n[0].Single]},{"a":4,"n":"ReadSkeletonData","is":true,"t":8,"pi":[{"n":"text","pt":$n[0].String,"ps":0},{"n":"attachmentLoader","pt":$n[4].AttachmentLoader,"ps":1},{"n":"scale","pt":$n[0].Single,"ps":2}],"sn":"ReadSkeletonData$1","rt":$n[4].SkeletonData,"p":[$n[0].String,$n[4].AttachmentLoader,$n[0].Single]},{"a":1,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"a":2,"n":"IsLoaded","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsLoaded","t":8,"rt":$n[0].Boolean,"fg":"IsLoaded","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsLoaded"},{"a":2,"n":"atlasAssets","t":4,"rt":System.Array.type(Spine.Unity.AtlasAssetBase),"sn":"atlasAssets"},{"a":2,"n":"blendModeMaterials","t":4,"rt":$n[5].BlendModeMaterials,"sn":"blendModeMaterials"},{"a":2,"n":"controller","t":4,"rt":$n[2].RuntimeAnimatorController,"sn":"controller"},{"a":2,"n":"defaultMix","t":4,"rt":$n[0].Single,"sn":"defaultMix","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"duration","t":4,"rt":$n[0].Array.type(System.Single),"sn":"duration"},{"at":[new Spine.Unity.SpineAnimation("", "", false, false)],"a":2,"n":"fromAnimation","t":4,"rt":$n[0].Array.type(System.String),"sn":"fromAnimation"},{"a":2,"n":"isUpgradingBlendModeMaterials","t":4,"rt":$n[0].Boolean,"sn":"isUpgradingBlendModeMaterials","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"scale","t":4,"rt":$n[0].Single,"sn":"scale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"skeletonData","t":4,"rt":$n[4].SkeletonData,"sn":"skeletonData"},{"at":[new UnityEngine.TooltipAttribute("Use SkeletonDataModifierAssets to apply changes to the SkeletonData after being loaded, such as apply blend mode Materials to Attachments under slots with special blend modes.")],"a":2,"n":"skeletonDataModifiers","t":4,"rt":$n[6].List$1(Spine.Unity.SkeletonDataModifierAsset),"sn":"skeletonDataModifiers"},{"a":2,"n":"skeletonJSON","t":4,"rt":$n[2].TextAsset,"sn":"skeletonJSON"},{"a":1,"n":"stateData","t":4,"rt":spine.AnimationStateData,"sn":"stateData"},{"at":[new Spine.Unity.SpineAnimation("", "", false, false)],"a":2,"n":"toAnimation","t":4,"rt":$n[0].Array.type(System.String),"sn":"toAnimation"}]}; }, $n);
     /*Spine.Unity.SkeletonDataAsset end.*/
 
     /*Spine.Unity.SkeletonDataCompatibility start.*/
-    $m("Spine.Unity.SkeletonDataCompatibility", function () { return {"nested":[$n[4].SkeletonDataCompatibility.SourceType,$n[4].SkeletonDataCompatibility.VersionInfo,$n[4].SkeletonDataCompatibility.CompatibilityProblemInfo],"att":1048961,"a":2,"s":true}; }, $n);
+    $m("Spine.Unity.SkeletonDataCompatibility", function () { return {"nested":[$n[5].SkeletonDataCompatibility.SourceType,$n[5].SkeletonDataCompatibility.VersionInfo,$n[5].SkeletonDataCompatibility.CompatibilityProblemInfo],"att":1048961,"a":2,"s":true}; }, $n);
     /*Spine.Unity.SkeletonDataCompatibility end.*/
 
     /*Spine.Unity.SkeletonDataCompatibility+SourceType start.*/
-    $m("Spine.Unity.SkeletonDataCompatibility.SourceType", function () { return {"td":$n[4].SkeletonDataCompatibility,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Binary","is":true,"t":4,"rt":$n[4].SkeletonDataCompatibility.SourceType,"sn":"Binary","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonDataCompatibility.SourceType, System.Enum.toStringFn(Spine.Unity.SkeletonDataCompatibility.SourceType));}},{"a":2,"n":"Json","is":true,"t":4,"rt":$n[4].SkeletonDataCompatibility.SourceType,"sn":"Json","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonDataCompatibility.SourceType, System.Enum.toStringFn(Spine.Unity.SkeletonDataCompatibility.SourceType));}}]}; }, $n);
+    $m("Spine.Unity.SkeletonDataCompatibility.SourceType", function () { return {"td":$n[5].SkeletonDataCompatibility,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Binary","is":true,"t":4,"rt":$n[5].SkeletonDataCompatibility.SourceType,"sn":"Binary","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonDataCompatibility.SourceType, System.Enum.toStringFn(Spine.Unity.SkeletonDataCompatibility.SourceType));}},{"a":2,"n":"Json","is":true,"t":4,"rt":$n[5].SkeletonDataCompatibility.SourceType,"sn":"Json","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonDataCompatibility.SourceType, System.Enum.toStringFn(Spine.Unity.SkeletonDataCompatibility.SourceType));}}]}; }, $n);
     /*Spine.Unity.SkeletonDataCompatibility+SourceType end.*/
 
     /*Spine.Unity.SkeletonDataCompatibility+VersionInfo start.*/
-    $m("Spine.Unity.SkeletonDataCompatibility.VersionInfo", function () { return {"td":$n[4].SkeletonDataCompatibility,"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"rawVersion","t":4,"rt":$n[0].String,"sn":"rawVersion"},{"a":2,"n":"sourceType","t":4,"rt":$n[4].SkeletonDataCompatibility.SourceType,"sn":"sourceType","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonDataCompatibility.SourceType, System.Enum.toStringFn(Spine.Unity.SkeletonDataCompatibility.SourceType));}},{"a":2,"n":"version","t":4,"rt":$n[0].Array.type(System.Int32),"sn":"version"}]}; }, $n);
+    $m("Spine.Unity.SkeletonDataCompatibility.VersionInfo", function () { return {"td":$n[5].SkeletonDataCompatibility,"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"rawVersion","t":4,"rt":$n[0].String,"sn":"rawVersion"},{"a":2,"n":"sourceType","t":4,"rt":$n[5].SkeletonDataCompatibility.SourceType,"sn":"sourceType","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonDataCompatibility.SourceType, System.Enum.toStringFn(Spine.Unity.SkeletonDataCompatibility.SourceType));}},{"a":2,"n":"version","t":4,"rt":$n[0].Array.type(System.Int32),"sn":"version"}]}; }, $n);
     /*Spine.Unity.SkeletonDataCompatibility+VersionInfo end.*/
 
     /*Spine.Unity.SkeletonDataCompatibility+CompatibilityProblemInfo start.*/
-    $m("Spine.Unity.SkeletonDataCompatibility.CompatibilityProblemInfo", function () { return {"td":$n[4].SkeletonDataCompatibility,"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"DescriptionString","t":8,"sn":"DescriptionString","rt":$n[0].String},{"a":2,"n":"actualVersion","t":4,"rt":$n[4].SkeletonDataCompatibility.VersionInfo,"sn":"actualVersion"},{"a":2,"n":"compatibleVersions","t":4,"rt":$n[0].Array.type(System.Array.type(System.Int32)),"sn":"compatibleVersions"},{"a":2,"n":"explicitProblemDescription","t":4,"rt":$n[0].String,"sn":"explicitProblemDescription"}]}; }, $n);
+    $m("Spine.Unity.SkeletonDataCompatibility.CompatibilityProblemInfo", function () { return {"td":$n[5].SkeletonDataCompatibility,"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"DescriptionString","t":8,"sn":"DescriptionString","rt":$n[0].String},{"a":2,"n":"actualVersion","t":4,"rt":$n[5].SkeletonDataCompatibility.VersionInfo,"sn":"actualVersion"},{"a":2,"n":"compatibleVersions","t":4,"rt":$n[0].Array.type(System.Array.type(System.Int32)),"sn":"compatibleVersions"},{"a":2,"n":"explicitProblemDescription","t":4,"rt":$n[0].String,"sn":"explicitProblemDescription"}]}; }, $n);
     /*Spine.Unity.SkeletonDataCompatibility+CompatibilityProblemInfo end.*/
 
     /*Spine.Unity.SkeletonDataModifierAsset start.*/
-    $m("Spine.Unity.SkeletonDataModifierAsset", function () { return {"att":1048705,"a":2,"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ab":true,"a":2,"n":"Apply","t":8,"pi":[{"n":"skeletonData","pt":$n[3].SkeletonData,"ps":0}],"sn":"Apply","rt":$n[0].Void,"p":[$n[3].SkeletonData]}]}; }, $n);
+    $m("Spine.Unity.SkeletonDataModifierAsset", function () { return {"att":1048705,"a":2,"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ab":true,"a":2,"n":"Apply","t":8,"pi":[{"n":"skeletonData","pt":$n[4].SkeletonData,"ps":0}],"sn":"Apply","rt":$n[0].Void,"p":[$n[4].SkeletonData]}]}; }, $n);
     /*Spine.Unity.SkeletonDataModifierAsset end.*/
 
     /*Spine.Unity.SpineAtlasAsset start.*/
     $m("Spine.Unity.SpineAtlasAsset", function () { return {"att":1048577,"a":2,"at":[Bridge.apply(new UnityEngine.CreateAssetMenuAttribute(), {
         fileName: "New Spine Atlas Asset", menuName: "Spine/Spine Atlas Asset"
-    } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"CreateRuntimeInstance","is":true,"t":8,"pi":[{"n":"atlasText","pt":$n[2].TextAsset,"ps":0},{"n":"materials","pt":System.Array.type(UnityEngine.Material),"ps":1},{"n":"initialize","pt":$n[0].Boolean,"ps":2},{"n":"newCustomTextureLoader","dv":null,"o":true,"pt":Function,"ps":3}],"sn":"CreateRuntimeInstance","rt":$n[4].SpineAtlasAsset,"p":[$n[2].TextAsset,System.Array.type(UnityEngine.Material),$n[0].Boolean,Function]},{"a":2,"n":"CreateRuntimeInstance","is":true,"t":8,"pi":[{"n":"atlasText","pt":$n[2].TextAsset,"ps":0},{"n":"textures","pt":System.Array.type(UnityEngine.Texture2D),"ps":1},{"n":"materialPropertySource","pt":$n[2].Material,"ps":2},{"n":"initialize","pt":$n[0].Boolean,"ps":3},{"n":"newCustomTextureLoader","dv":null,"o":true,"pt":Function,"ps":4}],"sn":"CreateRuntimeInstance$1","rt":$n[4].SpineAtlasAsset,"p":[$n[2].TextAsset,System.Array.type(UnityEngine.Texture2D),$n[2].Material,$n[0].Boolean,Function]},{"a":2,"n":"CreateRuntimeInstance","is":true,"t":8,"pi":[{"n":"atlasText","pt":$n[2].TextAsset,"ps":0},{"n":"textures","pt":System.Array.type(UnityEngine.Texture2D),"ps":1},{"n":"shader","pt":$n[2].Shader,"ps":2},{"n":"initialize","pt":$n[0].Boolean,"ps":3},{"n":"newCustomTextureLoader","dv":null,"o":true,"pt":Function,"ps":4}],"sn":"CreateRuntimeInstance$2","rt":$n[4].SpineAtlasAsset,"p":[$n[2].TextAsset,System.Array.type(UnityEngine.Texture2D),$n[2].Shader,$n[0].Boolean,Function]},{"a":2,"n":"GenerateMesh","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"mesh","pt":$n[2].Mesh,"ps":1},{"n":"material","out":true,"pt":$n[2].Material,"ps":2},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"GenerateMesh","rt":$n[2].Mesh,"p":[$n[0].String,$n[2].Mesh,$n[2].Material,$n[0].Single]},{"ov":true,"a":2,"n":"GetAtlas","t":8,"pi":[{"n":"onlyMetaData","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"GetAtlas","rt":$n[3].Atlas,"p":[$n[0].Boolean]},{"a":1,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"ov":true,"a":2,"n":"IsLoaded","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_IsLoaded","t":8,"rt":$n[0].Boolean,"fg":"IsLoaded","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsLoaded"},{"ov":true,"a":2,"n":"MaterialCount","t":16,"rt":$n[0].Int32,"g":{"ov":true,"a":2,"n":"get_MaterialCount","t":8,"rt":$n[0].Int32,"fg":"MaterialCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"MaterialCount"},{"ov":true,"a":2,"n":"Materials","t":16,"rt":$n[5].IEnumerable$1(UnityEngine.Material),"g":{"ov":true,"a":2,"n":"get_Materials","t":8,"rt":$n[5].IEnumerable$1(UnityEngine.Material),"fg":"Materials"},"fn":"Materials"},{"ov":true,"a":2,"n":"PrimaryMaterial","t":16,"rt":$n[2].Material,"g":{"ov":true,"a":2,"n":"get_PrimaryMaterial","t":8,"rt":$n[2].Material,"fg":"PrimaryMaterial"},"fn":"PrimaryMaterial"},{"a":3,"n":"atlas","t":4,"rt":$n[3].Atlas,"sn":"atlas"},{"a":2,"n":"atlasFile","t":4,"rt":$n[2].TextAsset,"sn":"atlasFile"},{"a":2,"n":"customTextureLoader","t":4,"rt":$n[3].TextureLoader,"sn":"customTextureLoader"},{"a":2,"n":"materials","t":4,"rt":System.Array.type(UnityEngine.Material),"sn":"materials"}]}; }, $n);
+    } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"CreateRuntimeInstance","is":true,"t":8,"pi":[{"n":"atlasText","pt":$n[2].TextAsset,"ps":0},{"n":"materials","pt":System.Array.type(UnityEngine.Material),"ps":1},{"n":"initialize","pt":$n[0].Boolean,"ps":2},{"n":"newCustomTextureLoader","dv":null,"o":true,"pt":Function,"ps":3}],"sn":"CreateRuntimeInstance","rt":$n[5].SpineAtlasAsset,"p":[$n[2].TextAsset,System.Array.type(UnityEngine.Material),$n[0].Boolean,Function]},{"a":2,"n":"CreateRuntimeInstance","is":true,"t":8,"pi":[{"n":"atlasText","pt":$n[2].TextAsset,"ps":0},{"n":"textures","pt":System.Array.type(UnityEngine.Texture2D),"ps":1},{"n":"materialPropertySource","pt":$n[2].Material,"ps":2},{"n":"initialize","pt":$n[0].Boolean,"ps":3},{"n":"newCustomTextureLoader","dv":null,"o":true,"pt":Function,"ps":4}],"sn":"CreateRuntimeInstance$1","rt":$n[5].SpineAtlasAsset,"p":[$n[2].TextAsset,System.Array.type(UnityEngine.Texture2D),$n[2].Material,$n[0].Boolean,Function]},{"a":2,"n":"CreateRuntimeInstance","is":true,"t":8,"pi":[{"n":"atlasText","pt":$n[2].TextAsset,"ps":0},{"n":"textures","pt":System.Array.type(UnityEngine.Texture2D),"ps":1},{"n":"shader","pt":$n[2].Shader,"ps":2},{"n":"initialize","pt":$n[0].Boolean,"ps":3},{"n":"newCustomTextureLoader","dv":null,"o":true,"pt":Function,"ps":4}],"sn":"CreateRuntimeInstance$2","rt":$n[5].SpineAtlasAsset,"p":[$n[2].TextAsset,System.Array.type(UnityEngine.Texture2D),$n[2].Shader,$n[0].Boolean,Function]},{"a":2,"n":"GenerateMesh","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"mesh","pt":$n[2].Mesh,"ps":1},{"n":"material","out":true,"pt":$n[2].Material,"ps":2},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"GenerateMesh","rt":$n[2].Mesh,"p":[$n[0].String,$n[2].Mesh,$n[2].Material,$n[0].Single]},{"ov":true,"a":2,"n":"GetAtlas","t":8,"pi":[{"n":"onlyMetaData","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"GetAtlas","rt":$n[4].Atlas,"p":[$n[0].Boolean]},{"a":1,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"ov":true,"a":2,"n":"IsLoaded","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_IsLoaded","t":8,"rt":$n[0].Boolean,"fg":"IsLoaded","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsLoaded"},{"ov":true,"a":2,"n":"MaterialCount","t":16,"rt":$n[0].Int32,"g":{"ov":true,"a":2,"n":"get_MaterialCount","t":8,"rt":$n[0].Int32,"fg":"MaterialCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"MaterialCount"},{"ov":true,"a":2,"n":"Materials","t":16,"rt":$n[6].IEnumerable$1(UnityEngine.Material),"g":{"ov":true,"a":2,"n":"get_Materials","t":8,"rt":$n[6].IEnumerable$1(UnityEngine.Material),"fg":"Materials"},"fn":"Materials"},{"ov":true,"a":2,"n":"PrimaryMaterial","t":16,"rt":$n[2].Material,"g":{"ov":true,"a":2,"n":"get_PrimaryMaterial","t":8,"rt":$n[2].Material,"fg":"PrimaryMaterial"},"fn":"PrimaryMaterial"},{"a":3,"n":"atlas","t":4,"rt":$n[4].Atlas,"sn":"atlas"},{"a":2,"n":"atlasFile","t":4,"rt":$n[2].TextAsset,"sn":"atlasFile"},{"a":2,"n":"customTextureLoader","t":4,"rt":$n[4].TextureLoader,"sn":"customTextureLoader"},{"a":2,"n":"materials","t":4,"rt":System.Array.type(UnityEngine.Material),"sn":"materials"}]}; }, $n);
     /*Spine.Unity.SpineAtlasAsset end.*/
 
     /*Spine.Unity.NoOpTextureLoader start.*/
-    $m("Spine.Unity.NoOpTextureLoader", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Load","t":8,"pi":[{"n":"page","pt":$n[3].AtlasPage,"ps":0},{"n":"path","pt":$n[0].String,"ps":1}],"sn":"Load","rt":$n[0].Void,"p":[$n[3].AtlasPage,$n[0].String]},{"a":2,"n":"Unload","t":8,"pi":[{"n":"texture","pt":$n[0].Object,"ps":0}],"sn":"Unload","rt":$n[0].Void,"p":[$n[0].Object]}]}; }, $n);
+    $m("Spine.Unity.NoOpTextureLoader", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Load","t":8,"pi":[{"n":"page","pt":$n[4].AtlasPage,"ps":0},{"n":"path","pt":$n[0].String,"ps":1}],"sn":"Load","rt":$n[0].Void,"p":[$n[4].AtlasPage,$n[0].String]},{"a":2,"n":"Unload","t":8,"pi":[{"n":"texture","pt":$n[0].Object,"ps":0}],"sn":"Unload","rt":$n[0].Void,"p":[$n[0].Object]}]}; }, $n);
     /*Spine.Unity.NoOpTextureLoader end.*/
 
     /*Spine.Unity.MaterialsTextureLoader start.*/
-    $m("Spine.Unity.MaterialsTextureLoader", function () { return {"att":1048577,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[4].SpineAtlasAsset],"pi":[{"n":"atlasAsset","pt":$n[4].SpineAtlasAsset,"ps":0}],"sn":"ctor"},{"a":2,"n":"Load","t":8,"pi":[{"n":"page","pt":$n[3].AtlasPage,"ps":0},{"n":"path","pt":$n[0].String,"ps":1}],"sn":"Load","rt":$n[0].Void,"p":[$n[3].AtlasPage,$n[0].String]},{"a":2,"n":"Unload","t":8,"pi":[{"n":"texture","pt":$n[0].Object,"ps":0}],"sn":"Unload","rt":$n[0].Void,"p":[$n[0].Object]},{"a":1,"n":"atlasAsset","t":4,"rt":$n[4].SpineAtlasAsset,"sn":"atlasAsset"}]}; }, $n);
+    $m("Spine.Unity.MaterialsTextureLoader", function () { return {"att":1048577,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[5].SpineAtlasAsset],"pi":[{"n":"atlasAsset","pt":$n[5].SpineAtlasAsset,"ps":0}],"sn":"ctor"},{"a":2,"n":"Load","t":8,"pi":[{"n":"page","pt":$n[4].AtlasPage,"ps":0},{"n":"path","pt":$n[0].String,"ps":1}],"sn":"Load","rt":$n[0].Void,"p":[$n[4].AtlasPage,$n[0].String]},{"a":2,"n":"Unload","t":8,"pi":[{"n":"texture","pt":$n[0].Object,"ps":0}],"sn":"Unload","rt":$n[0].Void,"p":[$n[0].Object]},{"a":1,"n":"atlasAsset","t":4,"rt":$n[5].SpineAtlasAsset,"sn":"atlasAsset"}]}; }, $n);
     /*Spine.Unity.MaterialsTextureLoader end.*/
 
     /*Spine.Unity.SpineSpriteAtlasAsset start.*/
-    $m("Spine.Unity.SpineSpriteAtlasAsset", function () { return {"nested":[$n[4].SpineSpriteAtlasAsset.SavedRegionInfo],"att":1048577,"a":2,"at":[Bridge.apply(new UnityEngine.CreateAssetMenuAttribute(), {
+    $m("Spine.Unity.SpineSpriteAtlasAsset", function () { return {"nested":[$n[5].SpineSpriteAtlasAsset.SavedRegionInfo],"att":1048577,"a":2,"at":[Bridge.apply(new UnityEngine.CreateAssetMenuAttribute(), {
         fileName: "New Spine SpriteAtlas Asset", menuName: "Spine/Spine SpriteAtlas Asset"
-    } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AccessPackedSprites","is":true,"t":8,"pi":[{"n":"spriteAtlas","pt":$n[6].SpriteAtlas,"ps":0}],"sn":"AccessPackedSprites","rt":System.Array.type(UnityEngine.Sprite),"p":[$n[6].SpriteAtlas]},{"a":2,"n":"AccessPackedTexture","is":true,"t":8,"pi":[{"n":"sprites","pt":System.Array.type(UnityEngine.Sprite),"ps":0}],"sn":"AccessPackedTexture","rt":$n[2].Texture2D,"p":[System.Array.type(UnityEngine.Sprite)]},{"a":3,"n":"AssignRegionsFromSavedRegions","t":8,"pi":[{"n":"sprites","pt":System.Array.type(UnityEngine.Sprite),"ps":0},{"n":"usedAtlas","pt":$n[3].Atlas,"ps":1}],"sn":"AssignRegionsFromSavedRegions","rt":$n[0].Void,"p":[System.Array.type(UnityEngine.Sprite),$n[3].Atlas]},{"ov":true,"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"CreateRuntimeInstance","is":true,"t":8,"pi":[{"n":"spriteAtlasFile","pt":$n[6].SpriteAtlas,"ps":0},{"n":"materials","pt":System.Array.type(UnityEngine.Material),"ps":1},{"n":"initialize","pt":$n[0].Boolean,"ps":2}],"sn":"CreateRuntimeInstance","rt":$n[4].SpineSpriteAtlasAsset,"p":[$n[6].SpriteAtlas,System.Array.type(UnityEngine.Material),$n[0].Boolean]},{"ov":true,"a":2,"n":"GetAtlas","t":8,"pi":[{"n":"onlyMetaData","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"GetAtlas","rt":$n[3].Atlas,"p":[$n[0].Boolean]},{"a":1,"n":"LoadAtlas","t":8,"pi":[{"n":"spriteAtlas","pt":$n[6].SpriteAtlas,"ps":0}],"sn":"LoadAtlas","rt":$n[3].Atlas,"p":[$n[6].SpriteAtlas]},{"a":1,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"ov":true,"a":2,"n":"IsLoaded","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_IsLoaded","t":8,"rt":$n[0].Boolean,"fg":"IsLoaded","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsLoaded"},{"ov":true,"a":2,"n":"MaterialCount","t":16,"rt":$n[0].Int32,"g":{"ov":true,"a":2,"n":"get_MaterialCount","t":8,"rt":$n[0].Int32,"fg":"MaterialCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"MaterialCount"},{"ov":true,"a":2,"n":"Materials","t":16,"rt":$n[5].IEnumerable$1(UnityEngine.Material),"g":{"ov":true,"a":2,"n":"get_Materials","t":8,"rt":$n[5].IEnumerable$1(UnityEngine.Material),"fg":"Materials"},"fn":"Materials"},{"ov":true,"a":2,"n":"PrimaryMaterial","t":16,"rt":$n[2].Material,"g":{"ov":true,"a":2,"n":"get_PrimaryMaterial","t":8,"rt":$n[2].Material,"fg":"PrimaryMaterial"},"fn":"PrimaryMaterial"},{"a":3,"n":"atlas","t":4,"rt":$n[3].Atlas,"sn":"atlas"},{"a":2,"n":"materials","t":4,"rt":System.Array.type(UnityEngine.Material),"sn":"materials"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"savedRegions","t":4,"rt":System.Array.type(Spine.Unity.SpineSpriteAtlasAsset.SavedRegionInfo),"sn":"savedRegions"},{"a":2,"n":"spriteAtlasFile","t":4,"rt":$n[6].SpriteAtlas,"sn":"spriteAtlasFile"},{"a":2,"n":"updateRegionsInPlayMode","t":4,"rt":$n[0].Boolean,"sn":"updateRegionsInPlayMode","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AccessPackedSprites","is":true,"t":8,"pi":[{"n":"spriteAtlas","pt":$n[7].SpriteAtlas,"ps":0}],"sn":"AccessPackedSprites","rt":System.Array.type(UnityEngine.Sprite),"p":[$n[7].SpriteAtlas]},{"a":2,"n":"AccessPackedTexture","is":true,"t":8,"pi":[{"n":"sprites","pt":System.Array.type(UnityEngine.Sprite),"ps":0}],"sn":"AccessPackedTexture","rt":$n[2].Texture2D,"p":[System.Array.type(UnityEngine.Sprite)]},{"a":3,"n":"AssignRegionsFromSavedRegions","t":8,"pi":[{"n":"sprites","pt":System.Array.type(UnityEngine.Sprite),"ps":0},{"n":"usedAtlas","pt":$n[4].Atlas,"ps":1}],"sn":"AssignRegionsFromSavedRegions","rt":$n[0].Void,"p":[System.Array.type(UnityEngine.Sprite),$n[4].Atlas]},{"ov":true,"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"CreateRuntimeInstance","is":true,"t":8,"pi":[{"n":"spriteAtlasFile","pt":$n[7].SpriteAtlas,"ps":0},{"n":"materials","pt":System.Array.type(UnityEngine.Material),"ps":1},{"n":"initialize","pt":$n[0].Boolean,"ps":2}],"sn":"CreateRuntimeInstance","rt":$n[5].SpineSpriteAtlasAsset,"p":[$n[7].SpriteAtlas,System.Array.type(UnityEngine.Material),$n[0].Boolean]},{"ov":true,"a":2,"n":"GetAtlas","t":8,"pi":[{"n":"onlyMetaData","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"GetAtlas","rt":$n[4].Atlas,"p":[$n[0].Boolean]},{"a":1,"n":"LoadAtlas","t":8,"pi":[{"n":"spriteAtlas","pt":$n[7].SpriteAtlas,"ps":0}],"sn":"LoadAtlas","rt":$n[4].Atlas,"p":[$n[7].SpriteAtlas]},{"a":1,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"ov":true,"a":2,"n":"IsLoaded","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_IsLoaded","t":8,"rt":$n[0].Boolean,"fg":"IsLoaded","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsLoaded"},{"ov":true,"a":2,"n":"MaterialCount","t":16,"rt":$n[0].Int32,"g":{"ov":true,"a":2,"n":"get_MaterialCount","t":8,"rt":$n[0].Int32,"fg":"MaterialCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"MaterialCount"},{"ov":true,"a":2,"n":"Materials","t":16,"rt":$n[6].IEnumerable$1(UnityEngine.Material),"g":{"ov":true,"a":2,"n":"get_Materials","t":8,"rt":$n[6].IEnumerable$1(UnityEngine.Material),"fg":"Materials"},"fn":"Materials"},{"ov":true,"a":2,"n":"PrimaryMaterial","t":16,"rt":$n[2].Material,"g":{"ov":true,"a":2,"n":"get_PrimaryMaterial","t":8,"rt":$n[2].Material,"fg":"PrimaryMaterial"},"fn":"PrimaryMaterial"},{"a":3,"n":"atlas","t":4,"rt":$n[4].Atlas,"sn":"atlas"},{"a":2,"n":"materials","t":4,"rt":System.Array.type(UnityEngine.Material),"sn":"materials"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"savedRegions","t":4,"rt":System.Array.type(Spine.Unity.SpineSpriteAtlasAsset.SavedRegionInfo),"sn":"savedRegions"},{"a":2,"n":"spriteAtlasFile","t":4,"rt":$n[7].SpriteAtlas,"sn":"spriteAtlasFile"},{"a":2,"n":"updateRegionsInPlayMode","t":4,"rt":$n[0].Boolean,"sn":"updateRegionsInPlayMode","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Spine.Unity.SpineSpriteAtlasAsset end.*/
 
     /*Spine.Unity.SpineSpriteAtlasAsset+SavedRegionInfo start.*/
-    $m("Spine.Unity.SpineSpriteAtlasAsset.SavedRegionInfo", function () { return {"td":$n[4].SpineSpriteAtlasAsset,"att":1056772,"a":3,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"height","t":4,"rt":$n[0].Single,"sn":"height","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"packingRotation","t":4,"rt":$n[2].SpritePackingRotation,"sn":"packingRotation","box":function ($v) { return Bridge.box($v, UnityEngine.SpritePackingRotation, System.Enum.toStringFn(UnityEngine.SpritePackingRotation));}},{"a":2,"n":"width","t":4,"rt":$n[0].Single,"sn":"width","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"x","t":4,"rt":$n[0].Single,"sn":"x","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"y","t":4,"rt":$n[0].Single,"sn":"y","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("Spine.Unity.SpineSpriteAtlasAsset.SavedRegionInfo", function () { return {"td":$n[5].SpineSpriteAtlasAsset,"att":1056772,"a":3,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"height","t":4,"rt":$n[0].Single,"sn":"height","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"packingRotation","t":4,"rt":$n[2].SpritePackingRotation,"sn":"packingRotation","box":function ($v) { return Bridge.box($v, UnityEngine.SpritePackingRotation, System.Enum.toStringFn(UnityEngine.SpritePackingRotation));}},{"a":2,"n":"width","t":4,"rt":$n[0].Single,"sn":"width","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"x","t":4,"rt":$n[0].Single,"sn":"x","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"y","t":4,"rt":$n[0].Single,"sn":"y","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*Spine.Unity.SpineSpriteAtlasAsset+SavedRegionInfo end.*/
 
     /*Spine.Unity.BoneFollower start.*/
-    $m("Spine.Unity.BoneFollower", function () { return {"nested":[$n[4].BoneFollower.AxisOrientation],"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.AddComponentMenu.ctor("Spine/BoneFollower"),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#BoneFollower")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"HandleRebuildRenderer","t":8,"pi":[{"n":"skeletonRenderer","pt":$n[4].SkeletonRenderer,"ps":0}],"sn":"HandleRebuildRenderer","rt":$n[0].Void,"p":[$n[4].SkeletonRenderer]},{"a":2,"n":"Initialize","t":8,"sn":"Initialize","rt":$n[0].Void},{"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":2,"n":"SetBone","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"SetBone","rt":$n[0].Boolean,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SkeletonRenderer","t":16,"rt":$n[4].SkeletonRenderer,"g":{"a":2,"n":"get_SkeletonRenderer","t":8,"rt":$n[4].SkeletonRenderer,"fg":"SkeletonRenderer"},"s":{"a":2,"n":"set_SkeletonRenderer","t":8,"p":[$n[4].SkeletonRenderer],"rt":$n[0].Void,"fs":"SkeletonRenderer"},"fn":"SkeletonRenderer"},{"a":2,"n":"bone","t":4,"rt":$n[3].Bone,"sn":"bone"},{"at":[new Spine.Unity.SpineBone("", "skeletonRenderer", true, false)],"a":2,"n":"boneName","t":4,"rt":$n[0].String,"sn":"boneName"},{"a":2,"n":"followBoneRotation","t":4,"rt":$n[0].Boolean,"sn":"followBoneRotation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Follows the target bone's local scale."),new UnityEngine.Serialization.FormerlySerializedAsAttribute("followScale")],"a":2,"n":"followLocalScale","t":4,"rt":$n[0].Boolean,"sn":"followLocalScale","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Includes the parent bone's lossy world scale. BoneFollower cannot inherit rotated/skewed scale because of UnityEngine.Transform property limitations.")],"a":2,"n":"followParentWorldScale","t":4,"rt":$n[0].Boolean,"sn":"followParentWorldScale","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Follows the skeleton's flip state by controlling this Transform's local scale.")],"a":2,"n":"followSkeletonFlip","t":4,"rt":$n[0].Boolean,"sn":"followSkeletonFlip","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"followXYPosition","t":4,"rt":$n[0].Boolean,"sn":"followXYPosition","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"followZPosition","t":4,"rt":$n[0].Boolean,"sn":"followZPosition","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.Serialization.FormerlySerializedAsAttribute("resetOnAwake")],"a":2,"n":"initializeOnAwake","t":4,"rt":$n[0].Boolean,"sn":"initializeOnAwake","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Applies when 'Follow Skeleton Flip' is disabled but 'Follow Bone Rotation' is enabled. When flipping the skeleton by scaling its Transform, this follower's rotation is adjusted instead of its scale to follow the bone orientation. When one of the axes is flipped,  only one axis can be followed, either the X or the Y axis, which is selected here.")],"a":2,"n":"maintainedAxisOrientation","t":4,"rt":$n[4].BoneFollower.AxisOrientation,"sn":"maintainedAxisOrientation","box":function ($v) { return Bridge.box($v, Spine.Unity.BoneFollower.AxisOrientation, System.Enum.toStringFn(Spine.Unity.BoneFollower.AxisOrientation));}},{"a":2,"n":"skeletonRenderer","t":4,"rt":$n[4].SkeletonRenderer,"sn":"skeletonRenderer"},{"a":1,"n":"skeletonTransform","t":4,"rt":$n[2].Transform,"sn":"skeletonTransform"},{"a":1,"n":"skeletonTransformIsParent","t":4,"rt":$n[0].Boolean,"sn":"skeletonTransformIsParent","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"valid","t":4,"rt":$n[0].Boolean,"sn":"valid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("Spine.Unity.BoneFollower", function () { return {"nested":[$n[5].BoneFollower.AxisOrientation],"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.AddComponentMenu.ctor("Spine/BoneFollower"),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#BoneFollower")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"HandleRebuildRenderer","t":8,"pi":[{"n":"skeletonRenderer","pt":$n[5].SkeletonRenderer,"ps":0}],"sn":"HandleRebuildRenderer","rt":$n[0].Void,"p":[$n[5].SkeletonRenderer]},{"a":2,"n":"Initialize","t":8,"sn":"Initialize","rt":$n[0].Void},{"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":2,"n":"SetBone","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"SetBone","rt":$n[0].Boolean,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SkeletonRenderer","t":16,"rt":$n[5].SkeletonRenderer,"g":{"a":2,"n":"get_SkeletonRenderer","t":8,"rt":$n[5].SkeletonRenderer,"fg":"SkeletonRenderer"},"s":{"a":2,"n":"set_SkeletonRenderer","t":8,"p":[$n[5].SkeletonRenderer],"rt":$n[0].Void,"fs":"SkeletonRenderer"},"fn":"SkeletonRenderer"},{"a":2,"n":"bone","t":4,"rt":$n[4].Bone,"sn":"bone"},{"at":[new Spine.Unity.SpineBone("", "skeletonRenderer", true, false)],"a":2,"n":"boneName","t":4,"rt":$n[0].String,"sn":"boneName"},{"a":2,"n":"followBoneRotation","t":4,"rt":$n[0].Boolean,"sn":"followBoneRotation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Follows the target bone's local scale."),new UnityEngine.Serialization.FormerlySerializedAsAttribute("followScale")],"a":2,"n":"followLocalScale","t":4,"rt":$n[0].Boolean,"sn":"followLocalScale","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Includes the parent bone's lossy world scale. BoneFollower cannot inherit rotated/skewed scale because of UnityEngine.Transform property limitations.")],"a":2,"n":"followParentWorldScale","t":4,"rt":$n[0].Boolean,"sn":"followParentWorldScale","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Follows the skeleton's flip state by controlling this Transform's local scale.")],"a":2,"n":"followSkeletonFlip","t":4,"rt":$n[0].Boolean,"sn":"followSkeletonFlip","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"followXYPosition","t":4,"rt":$n[0].Boolean,"sn":"followXYPosition","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"followZPosition","t":4,"rt":$n[0].Boolean,"sn":"followZPosition","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.Serialization.FormerlySerializedAsAttribute("resetOnAwake")],"a":2,"n":"initializeOnAwake","t":4,"rt":$n[0].Boolean,"sn":"initializeOnAwake","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Applies when 'Follow Skeleton Flip' is disabled but 'Follow Bone Rotation' is enabled. When flipping the skeleton by scaling its Transform, this follower's rotation is adjusted instead of its scale to follow the bone orientation. When one of the axes is flipped,  only one axis can be followed, either the X or the Y axis, which is selected here.")],"a":2,"n":"maintainedAxisOrientation","t":4,"rt":$n[5].BoneFollower.AxisOrientation,"sn":"maintainedAxisOrientation","box":function ($v) { return Bridge.box($v, Spine.Unity.BoneFollower.AxisOrientation, System.Enum.toStringFn(Spine.Unity.BoneFollower.AxisOrientation));}},{"a":2,"n":"skeletonRenderer","t":4,"rt":$n[5].SkeletonRenderer,"sn":"skeletonRenderer"},{"a":1,"n":"skeletonTransform","t":4,"rt":$n[2].Transform,"sn":"skeletonTransform"},{"a":1,"n":"skeletonTransformIsParent","t":4,"rt":$n[0].Boolean,"sn":"skeletonTransformIsParent","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"valid","t":4,"rt":$n[0].Boolean,"sn":"valid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Spine.Unity.BoneFollower end.*/
 
     /*Spine.Unity.BoneFollower+AxisOrientation start.*/
-    $m("Spine.Unity.BoneFollower.AxisOrientation", function () { return {"td":$n[4].BoneFollower,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"XAxis","is":true,"t":4,"rt":$n[4].BoneFollower.AxisOrientation,"sn":"XAxis","box":function ($v) { return Bridge.box($v, Spine.Unity.BoneFollower.AxisOrientation, System.Enum.toStringFn(Spine.Unity.BoneFollower.AxisOrientation));}},{"a":2,"n":"YAxis","is":true,"t":4,"rt":$n[4].BoneFollower.AxisOrientation,"sn":"YAxis","box":function ($v) { return Bridge.box($v, Spine.Unity.BoneFollower.AxisOrientation, System.Enum.toStringFn(Spine.Unity.BoneFollower.AxisOrientation));}}]}; }, $n);
+    $m("Spine.Unity.BoneFollower.AxisOrientation", function () { return {"td":$n[5].BoneFollower,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"XAxis","is":true,"t":4,"rt":$n[5].BoneFollower.AxisOrientation,"sn":"XAxis","box":function ($v) { return Bridge.box($v, Spine.Unity.BoneFollower.AxisOrientation, System.Enum.toStringFn(Spine.Unity.BoneFollower.AxisOrientation));}},{"a":2,"n":"YAxis","is":true,"t":4,"rt":$n[5].BoneFollower.AxisOrientation,"sn":"YAxis","box":function ($v) { return Bridge.box($v, Spine.Unity.BoneFollower.AxisOrientation, System.Enum.toStringFn(Spine.Unity.BoneFollower.AxisOrientation));}}]}; }, $n);
     /*Spine.Unity.BoneFollower+AxisOrientation end.*/
 
     /*Spine.Unity.BoneFollowerGraphic start.*/
-    $m("Spine.Unity.BoneFollowerGraphic", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.RequireComponent.ctor(UnityEngine.RectTransform),new UnityEngine.DisallowMultipleComponent(),new UnityEngine.AddComponentMenu.ctor("Spine/UI/BoneFollowerGraphic"),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#BoneFollowerGraphic")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"Initialize","t":8,"sn":"Initialize","rt":$n[0].Void},{"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":2,"n":"SetBone","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"SetBone","rt":$n[0].Boolean,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SkeletonGraphic","t":16,"rt":$n[4].SkeletonGraphic,"g":{"a":2,"n":"get_SkeletonGraphic","t":8,"rt":$n[4].SkeletonGraphic,"fg":"SkeletonGraphic"},"s":{"a":2,"n":"set_SkeletonGraphic","t":8,"p":[$n[4].SkeletonGraphic],"rt":$n[0].Void,"fs":"SkeletonGraphic"},"fn":"SkeletonGraphic"},{"a":2,"n":"bone","t":4,"rt":$n[3].Bone,"sn":"bone"},{"at":[new Spine.Unity.SpineBone("", "skeletonGraphic", true, false)],"a":2,"n":"boneName","t":4,"rt":$n[0].String,"sn":"boneName"},{"a":2,"n":"followBoneRotation","t":4,"rt":$n[0].Boolean,"sn":"followBoneRotation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Follows the target bone's local scale.")],"a":2,"n":"followLocalScale","t":4,"rt":$n[0].Boolean,"sn":"followLocalScale","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Includes the parent bone's lossy world scale. BoneFollower cannot inherit rotated/skewed scale because of UnityEngine.Transform property limitations.")],"a":2,"n":"followParentWorldScale","t":4,"rt":$n[0].Boolean,"sn":"followParentWorldScale","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Follows the skeleton's flip state by controlling this Transform's local scale.")],"a":2,"n":"followSkeletonFlip","t":4,"rt":$n[0].Boolean,"sn":"followSkeletonFlip","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"followXYPosition","t":4,"rt":$n[0].Boolean,"sn":"followXYPosition","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"followZPosition","t":4,"rt":$n[0].Boolean,"sn":"followZPosition","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"initializeOnAwake","t":4,"rt":$n[0].Boolean,"sn":"initializeOnAwake","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Applies when 'Follow Skeleton Flip' is disabled but 'Follow Bone Rotation' is enabled. When flipping the skeleton by scaling its Transform, this follower's rotation is adjusted instead of its scale to follow the bone orientation. When one of the axes is flipped,  only one axis can be followed, either the X or the Y axis, which is selected here.")],"a":2,"n":"maintainedAxisOrientation","t":4,"rt":$n[4].BoneFollower.AxisOrientation,"sn":"maintainedAxisOrientation","box":function ($v) { return Bridge.box($v, Spine.Unity.BoneFollower.AxisOrientation, System.Enum.toStringFn(Spine.Unity.BoneFollower.AxisOrientation));}},{"a":2,"n":"skeletonGraphic","t":4,"rt":$n[4].SkeletonGraphic,"sn":"skeletonGraphic"},{"a":1,"n":"skeletonTransform","t":4,"rt":$n[2].Transform,"sn":"skeletonTransform"},{"a":1,"n":"skeletonTransformIsParent","t":4,"rt":$n[0].Boolean,"sn":"skeletonTransformIsParent","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"valid","t":4,"rt":$n[0].Boolean,"sn":"valid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("Spine.Unity.BoneFollowerGraphic", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.RequireComponent.ctor(UnityEngine.RectTransform),new UnityEngine.DisallowMultipleComponent(),new UnityEngine.AddComponentMenu.ctor("Spine/UI/BoneFollowerGraphic"),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#BoneFollowerGraphic")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"Initialize","t":8,"sn":"Initialize","rt":$n[0].Void},{"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":2,"n":"SetBone","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"SetBone","rt":$n[0].Boolean,"p":[$n[0].String],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SkeletonGraphic","t":16,"rt":$n[5].SkeletonGraphic,"g":{"a":2,"n":"get_SkeletonGraphic","t":8,"rt":$n[5].SkeletonGraphic,"fg":"SkeletonGraphic"},"s":{"a":2,"n":"set_SkeletonGraphic","t":8,"p":[$n[5].SkeletonGraphic],"rt":$n[0].Void,"fs":"SkeletonGraphic"},"fn":"SkeletonGraphic"},{"a":2,"n":"bone","t":4,"rt":$n[4].Bone,"sn":"bone"},{"at":[new Spine.Unity.SpineBone("", "skeletonGraphic", true, false)],"a":2,"n":"boneName","t":4,"rt":$n[0].String,"sn":"boneName"},{"a":2,"n":"followBoneRotation","t":4,"rt":$n[0].Boolean,"sn":"followBoneRotation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Follows the target bone's local scale.")],"a":2,"n":"followLocalScale","t":4,"rt":$n[0].Boolean,"sn":"followLocalScale","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Includes the parent bone's lossy world scale. BoneFollower cannot inherit rotated/skewed scale because of UnityEngine.Transform property limitations.")],"a":2,"n":"followParentWorldScale","t":4,"rt":$n[0].Boolean,"sn":"followParentWorldScale","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Follows the skeleton's flip state by controlling this Transform's local scale.")],"a":2,"n":"followSkeletonFlip","t":4,"rt":$n[0].Boolean,"sn":"followSkeletonFlip","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"followXYPosition","t":4,"rt":$n[0].Boolean,"sn":"followXYPosition","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"followZPosition","t":4,"rt":$n[0].Boolean,"sn":"followZPosition","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"initializeOnAwake","t":4,"rt":$n[0].Boolean,"sn":"initializeOnAwake","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Applies when 'Follow Skeleton Flip' is disabled but 'Follow Bone Rotation' is enabled. When flipping the skeleton by scaling its Transform, this follower's rotation is adjusted instead of its scale to follow the bone orientation. When one of the axes is flipped,  only one axis can be followed, either the X or the Y axis, which is selected here.")],"a":2,"n":"maintainedAxisOrientation","t":4,"rt":$n[5].BoneFollower.AxisOrientation,"sn":"maintainedAxisOrientation","box":function ($v) { return Bridge.box($v, Spine.Unity.BoneFollower.AxisOrientation, System.Enum.toStringFn(Spine.Unity.BoneFollower.AxisOrientation));}},{"a":2,"n":"skeletonGraphic","t":4,"rt":$n[5].SkeletonGraphic,"sn":"skeletonGraphic"},{"a":1,"n":"skeletonTransform","t":4,"rt":$n[2].Transform,"sn":"skeletonTransform"},{"a":1,"n":"skeletonTransformIsParent","t":4,"rt":$n[0].Boolean,"sn":"skeletonTransformIsParent","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"valid","t":4,"rt":$n[0].Boolean,"sn":"valid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Spine.Unity.BoneFollowerGraphic end.*/
 
     /*Spine.Unity.BoundingBoxFollower start.*/
-    $m("Spine.Unity.BoundingBoxFollower", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#BoundingBoxFollower")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AddCollidersForSkin","t":8,"pi":[{"n":"skin","pt":$n[3].Skin,"ps":0},{"n":"slotIndex","pt":$n[0].Int32,"ps":1},{"n":"previousColliders","pt":System.Array.type(UnityEngine.PolygonCollider2D),"ps":2},{"n":"collidersCount","ref":true,"pt":$n[0].Int32,"ps":3}],"sn":"AddCollidersForSkin","rt":$n[0].Void,"p":[$n[3].Skin,$n[0].Int32,System.Array.type(UnityEngine.PolygonCollider2D),$n[0].Int32]},{"a":2,"n":"ClearState","t":8,"sn":"ClearState","rt":$n[0].Void},{"a":1,"n":"DisposeExcessCollidersAfter","t":8,"pi":[{"n":"requiredCount","pt":$n[0].Int32,"ps":0}],"sn":"DisposeExcessCollidersAfter","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"HandleRebuild","t":8,"pi":[{"n":"sr","pt":$n[4].SkeletonRenderer,"ps":0}],"sn":"HandleRebuild","rt":$n[0].Void,"p":[$n[4].SkeletonRenderer]},{"a":2,"n":"Initialize","t":8,"pi":[{"n":"overwrite","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":1,"n":"MatchAttachment","t":8,"pi":[{"n":"attachment","pt":spine.Attachment,"ps":0}],"sn":"MatchAttachment","rt":$n[0].Void,"p":[spine.Attachment]},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"CurrentAttachment","t":16,"rt":spine.BoundingBoxAttachment,"g":{"a":2,"n":"get_CurrentAttachment","t":8,"rt":spine.BoundingBoxAttachment,"fg":"CurrentAttachment"},"fn":"CurrentAttachment"},{"a":2,"n":"CurrentAttachmentName","t":16,"rt":$n[0].String,"g":{"a":2,"n":"get_CurrentAttachmentName","t":8,"rt":$n[0].String,"fg":"CurrentAttachmentName"},"fn":"CurrentAttachmentName"},{"a":2,"n":"CurrentCollider","t":16,"rt":$n[2].PolygonCollider2D,"g":{"a":2,"n":"get_CurrentCollider","t":8,"rt":$n[2].PolygonCollider2D,"fg":"CurrentCollider"},"fn":"CurrentCollider"},{"a":2,"n":"IsTrigger","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsTrigger","t":8,"rt":$n[0].Boolean,"fg":"IsTrigger","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsTrigger"},{"a":2,"n":"Slot","t":16,"rt":$n[3].Slot,"g":{"a":2,"n":"get_Slot","t":8,"rt":$n[3].Slot,"fg":"Slot"},"fn":"Slot"},{"a":4,"n":"DebugMessages","is":true,"t":4,"rt":$n[0].Boolean,"sn":"DebugMessages","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"clearStateOnDisable","t":4,"rt":$n[0].Boolean,"sn":"clearStateOnDisable","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"colliderTable","t":4,"rt":$n[5].Dictionary$2(spine.BoundingBoxAttachment,UnityEngine.PolygonCollider2D),"sn":"colliderTable","ro":true},{"a":1,"n":"currentAttachment","t":4,"rt":spine.BoundingBoxAttachment,"sn":"currentAttachment"},{"a":1,"n":"currentAttachmentName","t":4,"rt":$n[0].String,"sn":"currentAttachmentName"},{"a":1,"n":"currentCollider","t":4,"rt":$n[2].PolygonCollider2D,"sn":"currentCollider"},{"a":2,"n":"isTrigger","t":4,"rt":$n[0].Boolean,"sn":"isTrigger","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"nameTable","t":4,"rt":$n[5].Dictionary$2(spine.BoundingBoxAttachment,System.String),"sn":"nameTable","ro":true},{"a":2,"n":"skeletonRenderer","t":4,"rt":$n[4].SkeletonRenderer,"sn":"skeletonRenderer"},{"a":1,"n":"slot","t":4,"rt":$n[3].Slot,"sn":"slot"},{"at":[new Spine.Unity.SpineSlot("", "skeletonRenderer", true, true, false)],"a":2,"n":"slotName","t":4,"rt":$n[0].String,"sn":"slotName"},{"a":2,"n":"usedByComposite","t":4,"rt":$n[0].Boolean,"sn":"usedByComposite","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"usedByEffector","t":4,"rt":$n[0].Boolean,"sn":"usedByEffector","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("Spine.Unity.BoundingBoxFollower", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#BoundingBoxFollower")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AddCollidersForSkin","t":8,"pi":[{"n":"skin","pt":$n[4].Skin,"ps":0},{"n":"slotIndex","pt":$n[0].Int32,"ps":1},{"n":"previousColliders","pt":System.Array.type(UnityEngine.PolygonCollider2D),"ps":2},{"n":"collidersCount","ref":true,"pt":$n[0].Int32,"ps":3}],"sn":"AddCollidersForSkin","rt":$n[0].Void,"p":[$n[4].Skin,$n[0].Int32,System.Array.type(UnityEngine.PolygonCollider2D),$n[0].Int32]},{"a":2,"n":"ClearState","t":8,"sn":"ClearState","rt":$n[0].Void},{"a":1,"n":"DisposeExcessCollidersAfter","t":8,"pi":[{"n":"requiredCount","pt":$n[0].Int32,"ps":0}],"sn":"DisposeExcessCollidersAfter","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"HandleRebuild","t":8,"pi":[{"n":"sr","pt":$n[5].SkeletonRenderer,"ps":0}],"sn":"HandleRebuild","rt":$n[0].Void,"p":[$n[5].SkeletonRenderer]},{"a":2,"n":"Initialize","t":8,"pi":[{"n":"overwrite","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":1,"n":"MatchAttachment","t":8,"pi":[{"n":"attachment","pt":spine.Attachment,"ps":0}],"sn":"MatchAttachment","rt":$n[0].Void,"p":[spine.Attachment]},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"CurrentAttachment","t":16,"rt":spine.BoundingBoxAttachment,"g":{"a":2,"n":"get_CurrentAttachment","t":8,"rt":spine.BoundingBoxAttachment,"fg":"CurrentAttachment"},"fn":"CurrentAttachment"},{"a":2,"n":"CurrentAttachmentName","t":16,"rt":$n[0].String,"g":{"a":2,"n":"get_CurrentAttachmentName","t":8,"rt":$n[0].String,"fg":"CurrentAttachmentName"},"fn":"CurrentAttachmentName"},{"a":2,"n":"CurrentCollider","t":16,"rt":$n[2].PolygonCollider2D,"g":{"a":2,"n":"get_CurrentCollider","t":8,"rt":$n[2].PolygonCollider2D,"fg":"CurrentCollider"},"fn":"CurrentCollider"},{"a":2,"n":"IsTrigger","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsTrigger","t":8,"rt":$n[0].Boolean,"fg":"IsTrigger","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsTrigger"},{"a":2,"n":"Slot","t":16,"rt":$n[4].Slot,"g":{"a":2,"n":"get_Slot","t":8,"rt":$n[4].Slot,"fg":"Slot"},"fn":"Slot"},{"a":4,"n":"DebugMessages","is":true,"t":4,"rt":$n[0].Boolean,"sn":"DebugMessages","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"clearStateOnDisable","t":4,"rt":$n[0].Boolean,"sn":"clearStateOnDisable","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"colliderTable","t":4,"rt":$n[6].Dictionary$2(spine.BoundingBoxAttachment,UnityEngine.PolygonCollider2D),"sn":"colliderTable","ro":true},{"a":1,"n":"currentAttachment","t":4,"rt":spine.BoundingBoxAttachment,"sn":"currentAttachment"},{"a":1,"n":"currentAttachmentName","t":4,"rt":$n[0].String,"sn":"currentAttachmentName"},{"a":1,"n":"currentCollider","t":4,"rt":$n[2].PolygonCollider2D,"sn":"currentCollider"},{"a":2,"n":"isTrigger","t":4,"rt":$n[0].Boolean,"sn":"isTrigger","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"nameTable","t":4,"rt":$n[6].Dictionary$2(spine.BoundingBoxAttachment,System.String),"sn":"nameTable","ro":true},{"a":2,"n":"skeletonRenderer","t":4,"rt":$n[5].SkeletonRenderer,"sn":"skeletonRenderer"},{"a":1,"n":"slot","t":4,"rt":$n[4].Slot,"sn":"slot"},{"at":[new Spine.Unity.SpineSlot("", "skeletonRenderer", true, true, false)],"a":2,"n":"slotName","t":4,"rt":$n[0].String,"sn":"slotName"},{"a":2,"n":"usedByComposite","t":4,"rt":$n[0].Boolean,"sn":"usedByComposite","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"usedByEffector","t":4,"rt":$n[0].Boolean,"sn":"usedByEffector","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Spine.Unity.BoundingBoxFollower end.*/
 
     /*Spine.Unity.BoundingBoxFollowerGraphic start.*/
-    $m("Spine.Unity.BoundingBoxFollowerGraphic", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#BoundingBoxFollowerGraphic")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AddCollidersForSkin","t":8,"pi":[{"n":"skin","pt":$n[3].Skin,"ps":0},{"n":"slotIndex","pt":$n[0].Int32,"ps":1},{"n":"previousColliders","pt":System.Array.type(UnityEngine.PolygonCollider2D),"ps":2},{"n":"scale","pt":$n[0].Single,"ps":3},{"n":"collidersCount","ref":true,"pt":$n[0].Int32,"ps":4}],"sn":"AddCollidersForSkin","rt":$n[0].Void,"p":[$n[3].Skin,$n[0].Int32,System.Array.type(UnityEngine.PolygonCollider2D),$n[0].Single,$n[0].Int32]},{"a":2,"n":"ClearState","t":8,"sn":"ClearState","rt":$n[0].Void},{"a":1,"n":"DisposeExcessCollidersAfter","t":8,"pi":[{"n":"requiredCount","pt":$n[0].Int32,"ps":0}],"sn":"DisposeExcessCollidersAfter","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"HandleRebuild","t":8,"pi":[{"n":"sr","pt":$n[4].SkeletonGraphic,"ps":0}],"sn":"HandleRebuild","rt":$n[0].Void,"p":[$n[4].SkeletonGraphic]},{"a":2,"n":"Initialize","t":8,"pi":[{"n":"overwrite","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":1,"n":"MatchAttachment","t":8,"pi":[{"n":"attachment","pt":spine.Attachment,"ps":0}],"sn":"MatchAttachment","rt":$n[0].Void,"p":[spine.Attachment]},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"CurrentAttachment","t":16,"rt":spine.BoundingBoxAttachment,"g":{"a":2,"n":"get_CurrentAttachment","t":8,"rt":spine.BoundingBoxAttachment,"fg":"CurrentAttachment"},"fn":"CurrentAttachment"},{"a":2,"n":"CurrentAttachmentName","t":16,"rt":$n[0].String,"g":{"a":2,"n":"get_CurrentAttachmentName","t":8,"rt":$n[0].String,"fg":"CurrentAttachmentName"},"fn":"CurrentAttachmentName"},{"a":2,"n":"CurrentCollider","t":16,"rt":$n[2].PolygonCollider2D,"g":{"a":2,"n":"get_CurrentCollider","t":8,"rt":$n[2].PolygonCollider2D,"fg":"CurrentCollider"},"fn":"CurrentCollider"},{"a":2,"n":"IsTrigger","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsTrigger","t":8,"rt":$n[0].Boolean,"fg":"IsTrigger","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsTrigger"},{"a":2,"n":"Slot","t":16,"rt":$n[3].Slot,"g":{"a":2,"n":"get_Slot","t":8,"rt":$n[3].Slot,"fg":"Slot"},"fn":"Slot"},{"a":4,"n":"DebugMessages","is":true,"t":4,"rt":$n[0].Boolean,"sn":"DebugMessages","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"clearStateOnDisable","t":4,"rt":$n[0].Boolean,"sn":"clearStateOnDisable","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"colliderTable","t":4,"rt":$n[5].Dictionary$2(spine.BoundingBoxAttachment,UnityEngine.PolygonCollider2D),"sn":"colliderTable","ro":true},{"a":1,"n":"currentAttachment","t":4,"rt":spine.BoundingBoxAttachment,"sn":"currentAttachment"},{"a":1,"n":"currentAttachmentName","t":4,"rt":$n[0].String,"sn":"currentAttachmentName"},{"a":1,"n":"currentCollider","t":4,"rt":$n[2].PolygonCollider2D,"sn":"currentCollider"},{"a":2,"n":"isTrigger","t":4,"rt":$n[0].Boolean,"sn":"isTrigger","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"nameTable","t":4,"rt":$n[5].Dictionary$2(spine.BoundingBoxAttachment,System.String),"sn":"nameTable","ro":true},{"a":2,"n":"skeletonGraphic","t":4,"rt":$n[4].SkeletonGraphic,"sn":"skeletonGraphic"},{"a":1,"n":"slot","t":4,"rt":$n[3].Slot,"sn":"slot"},{"at":[new Spine.Unity.SpineSlot("", "skeletonGraphic", true, true, false)],"a":2,"n":"slotName","t":4,"rt":$n[0].String,"sn":"slotName"},{"a":2,"n":"usedByComposite","t":4,"rt":$n[0].Boolean,"sn":"usedByComposite","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"usedByEffector","t":4,"rt":$n[0].Boolean,"sn":"usedByEffector","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("Spine.Unity.BoundingBoxFollowerGraphic", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#BoundingBoxFollowerGraphic")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AddCollidersForSkin","t":8,"pi":[{"n":"skin","pt":$n[4].Skin,"ps":0},{"n":"slotIndex","pt":$n[0].Int32,"ps":1},{"n":"previousColliders","pt":System.Array.type(UnityEngine.PolygonCollider2D),"ps":2},{"n":"scale","pt":$n[0].Single,"ps":3},{"n":"collidersCount","ref":true,"pt":$n[0].Int32,"ps":4}],"sn":"AddCollidersForSkin","rt":$n[0].Void,"p":[$n[4].Skin,$n[0].Int32,System.Array.type(UnityEngine.PolygonCollider2D),$n[0].Single,$n[0].Int32]},{"a":2,"n":"ClearState","t":8,"sn":"ClearState","rt":$n[0].Void},{"a":1,"n":"DisposeExcessCollidersAfter","t":8,"pi":[{"n":"requiredCount","pt":$n[0].Int32,"ps":0}],"sn":"DisposeExcessCollidersAfter","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"HandleRebuild","t":8,"pi":[{"n":"sr","pt":$n[5].SkeletonGraphic,"ps":0}],"sn":"HandleRebuild","rt":$n[0].Void,"p":[$n[5].SkeletonGraphic]},{"a":2,"n":"Initialize","t":8,"pi":[{"n":"overwrite","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":1,"n":"MatchAttachment","t":8,"pi":[{"n":"attachment","pt":spine.Attachment,"ps":0}],"sn":"MatchAttachment","rt":$n[0].Void,"p":[spine.Attachment]},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"CurrentAttachment","t":16,"rt":spine.BoundingBoxAttachment,"g":{"a":2,"n":"get_CurrentAttachment","t":8,"rt":spine.BoundingBoxAttachment,"fg":"CurrentAttachment"},"fn":"CurrentAttachment"},{"a":2,"n":"CurrentAttachmentName","t":16,"rt":$n[0].String,"g":{"a":2,"n":"get_CurrentAttachmentName","t":8,"rt":$n[0].String,"fg":"CurrentAttachmentName"},"fn":"CurrentAttachmentName"},{"a":2,"n":"CurrentCollider","t":16,"rt":$n[2].PolygonCollider2D,"g":{"a":2,"n":"get_CurrentCollider","t":8,"rt":$n[2].PolygonCollider2D,"fg":"CurrentCollider"},"fn":"CurrentCollider"},{"a":2,"n":"IsTrigger","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsTrigger","t":8,"rt":$n[0].Boolean,"fg":"IsTrigger","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsTrigger"},{"a":2,"n":"Slot","t":16,"rt":$n[4].Slot,"g":{"a":2,"n":"get_Slot","t":8,"rt":$n[4].Slot,"fg":"Slot"},"fn":"Slot"},{"a":4,"n":"DebugMessages","is":true,"t":4,"rt":$n[0].Boolean,"sn":"DebugMessages","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"clearStateOnDisable","t":4,"rt":$n[0].Boolean,"sn":"clearStateOnDisable","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"colliderTable","t":4,"rt":$n[6].Dictionary$2(spine.BoundingBoxAttachment,UnityEngine.PolygonCollider2D),"sn":"colliderTable","ro":true},{"a":1,"n":"currentAttachment","t":4,"rt":spine.BoundingBoxAttachment,"sn":"currentAttachment"},{"a":1,"n":"currentAttachmentName","t":4,"rt":$n[0].String,"sn":"currentAttachmentName"},{"a":1,"n":"currentCollider","t":4,"rt":$n[2].PolygonCollider2D,"sn":"currentCollider"},{"a":2,"n":"isTrigger","t":4,"rt":$n[0].Boolean,"sn":"isTrigger","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"nameTable","t":4,"rt":$n[6].Dictionary$2(spine.BoundingBoxAttachment,System.String),"sn":"nameTable","ro":true},{"a":2,"n":"skeletonGraphic","t":4,"rt":$n[5].SkeletonGraphic,"sn":"skeletonGraphic"},{"a":1,"n":"slot","t":4,"rt":$n[4].Slot,"sn":"slot"},{"at":[new Spine.Unity.SpineSlot("", "skeletonGraphic", true, true, false)],"a":2,"n":"slotName","t":4,"rt":$n[0].String,"sn":"slotName"},{"a":2,"n":"usedByComposite","t":4,"rt":$n[0].Boolean,"sn":"usedByComposite","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"usedByEffector","t":4,"rt":$n[0].Boolean,"sn":"usedByEffector","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Spine.Unity.BoundingBoxFollowerGraphic end.*/
 
     /*Spine.Unity.PointFollower start.*/
-    $m("Spine.Unity.PointFollower", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.AddComponentMenu.ctor("Spine/Point Follower"),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#PointFollower")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"HandleRebuildRenderer","t":8,"pi":[{"n":"skeletonRenderer","pt":$n[4].SkeletonRenderer,"ps":0}],"sn":"HandleRebuildRenderer","rt":$n[0].Void,"p":[$n[4].SkeletonRenderer]},{"a":2,"n":"Initialize","t":8,"sn":"Initialize","rt":$n[0].Void},{"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":1,"n":"UpdateReferences","t":8,"sn":"UpdateReferences","rt":$n[0].Void},{"a":2,"n":"IsValid","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsValid","t":8,"rt":$n[0].Boolean,"fg":"IsValid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsValid"},{"a":2,"n":"SkeletonComponent","t":16,"rt":$n[4].ISkeletonComponent,"g":{"a":2,"n":"get_SkeletonComponent","t":8,"rt":$n[4].ISkeletonComponent,"fg":"SkeletonComponent"},"fn":"SkeletonComponent"},{"a":2,"n":"SkeletonRenderer","t":16,"rt":$n[4].SkeletonRenderer,"g":{"a":2,"n":"get_SkeletonRenderer","t":8,"rt":$n[4].SkeletonRenderer,"fg":"SkeletonRenderer"},"fn":"SkeletonRenderer"},{"a":1,"n":"bone","t":4,"rt":$n[3].Bone,"sn":"bone"},{"a":2,"n":"followRotation","t":4,"rt":$n[0].Boolean,"sn":"followRotation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"followSkeletonFlip","t":4,"rt":$n[0].Boolean,"sn":"followSkeletonFlip","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"followSkeletonZPosition","t":4,"rt":$n[0].Boolean,"sn":"followSkeletonZPosition","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"point","t":4,"rt":$n[3].PointAttachment,"sn":"point"},{"at":[new Spine.Unity.SpineAttachment(true, false, false, "slotName", "skeletonRenderer", "", true, true)],"a":2,"n":"pointAttachmentName","t":4,"rt":$n[0].String,"sn":"pointAttachmentName"},{"a":2,"n":"skeletonRenderer","t":4,"rt":$n[4].SkeletonRenderer,"sn":"skeletonRenderer"},{"a":1,"n":"skeletonTransform","t":4,"rt":$n[2].Transform,"sn":"skeletonTransform"},{"a":1,"n":"skeletonTransformIsParent","t":4,"rt":$n[0].Boolean,"sn":"skeletonTransformIsParent","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new Spine.Unity.SpineSlot("", "skeletonRenderer", false, true, false)],"a":2,"n":"slotName","t":4,"rt":$n[0].String,"sn":"slotName"},{"a":1,"n":"valid","t":4,"rt":$n[0].Boolean,"sn":"valid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("Spine.Unity.PointFollower", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.AddComponentMenu.ctor("Spine/Point Follower"),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#PointFollower")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"HandleRebuildRenderer","t":8,"pi":[{"n":"skeletonRenderer","pt":$n[5].SkeletonRenderer,"ps":0}],"sn":"HandleRebuildRenderer","rt":$n[0].Void,"p":[$n[5].SkeletonRenderer]},{"a":2,"n":"Initialize","t":8,"sn":"Initialize","rt":$n[0].Void},{"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":1,"n":"UpdateReferences","t":8,"sn":"UpdateReferences","rt":$n[0].Void},{"a":2,"n":"IsValid","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsValid","t":8,"rt":$n[0].Boolean,"fg":"IsValid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsValid"},{"a":2,"n":"SkeletonComponent","t":16,"rt":$n[5].ISkeletonComponent,"g":{"a":2,"n":"get_SkeletonComponent","t":8,"rt":$n[5].ISkeletonComponent,"fg":"SkeletonComponent"},"fn":"SkeletonComponent"},{"a":2,"n":"SkeletonRenderer","t":16,"rt":$n[5].SkeletonRenderer,"g":{"a":2,"n":"get_SkeletonRenderer","t":8,"rt":$n[5].SkeletonRenderer,"fg":"SkeletonRenderer"},"fn":"SkeletonRenderer"},{"a":1,"n":"bone","t":4,"rt":$n[4].Bone,"sn":"bone"},{"a":2,"n":"followRotation","t":4,"rt":$n[0].Boolean,"sn":"followRotation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"followSkeletonFlip","t":4,"rt":$n[0].Boolean,"sn":"followSkeletonFlip","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"followSkeletonZPosition","t":4,"rt":$n[0].Boolean,"sn":"followSkeletonZPosition","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"point","t":4,"rt":$n[4].PointAttachment,"sn":"point"},{"at":[new Spine.Unity.SpineAttachment(true, false, false, "slotName", "skeletonRenderer", "", true, true)],"a":2,"n":"pointAttachmentName","t":4,"rt":$n[0].String,"sn":"pointAttachmentName"},{"a":2,"n":"skeletonRenderer","t":4,"rt":$n[5].SkeletonRenderer,"sn":"skeletonRenderer"},{"a":1,"n":"skeletonTransform","t":4,"rt":$n[2].Transform,"sn":"skeletonTransform"},{"a":1,"n":"skeletonTransformIsParent","t":4,"rt":$n[0].Boolean,"sn":"skeletonTransformIsParent","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new Spine.Unity.SpineSlot("", "skeletonRenderer", false, true, false)],"a":2,"n":"slotName","t":4,"rt":$n[0].String,"sn":"slotName"},{"a":1,"n":"valid","t":4,"rt":$n[0].Boolean,"sn":"valid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Spine.Unity.PointFollower end.*/
 
     /*Spine.Unity.SkeletonSubmeshGraphic start.*/
-    $m("Spine.Unity.SkeletonSubmeshGraphic", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CanvasRenderer)],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[7].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[7].VertexHelper]},{"ov":true,"a":2,"n":"SetMaterialDirty","t":8,"sn":"SetMaterialDirty","rt":$n[0].Void},{"ov":true,"a":2,"n":"SetVerticesDirty","t":8,"sn":"SetVerticesDirty","rt":$n[0].Void}]}; }, $n);
+    $m("Spine.Unity.SkeletonSubmeshGraphic", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.CanvasRenderer)],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnPopulateMesh","t":8,"pi":[{"n":"vh","pt":$n[3].VertexHelper,"ps":0}],"sn":"OnPopulateMesh","rt":$n[0].Void,"p":[$n[3].VertexHelper]},{"ov":true,"a":2,"n":"SetMaterialDirty","t":8,"sn":"SetMaterialDirty","rt":$n[0].Void},{"ov":true,"a":2,"n":"SetVerticesDirty","t":8,"sn":"SetVerticesDirty","rt":$n[0].Void}]}; }, $n);
     /*Spine.Unity.SkeletonSubmeshGraphic end.*/
 
     /*Spine.Unity.SkeletonMecanimRootMotion start.*/
-    $m("Spine.Unity.SkeletonMecanimRootMotion", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonMecanimRootMotion")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"CalculateAnimationsMovementDelta","t":8,"sn":"CalculateAnimationsMovementDelta","rt":$n[2].Vector2},{"ov":true,"a":3,"n":"CalculateAnimationsRotationDelta","t":8,"sn":"CalculateAnimationsRotationDelta","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"ov":true,"a":2,"n":"GetRemainingRootMotion","t":8,"pi":[{"n":"layerIndex","pt":$n[0].Int32,"ps":0}],"sn":"GetRemainingRootMotion","rt":$n[2].Vector2,"p":[$n[0].Int32]},{"ov":true,"a":2,"n":"GetRootMotionInfo","t":8,"pi":[{"n":"layerIndex","pt":$n[0].Int32,"ps":0}],"sn":"GetRootMotionInfo","rt":$n[4].SkeletonRootMotionBase.RootMotionInfo,"p":[$n[0].Int32]},{"a":1,"n":"OnClipApplied","t":8,"pi":[{"n":"animation","pt":$n[3].Animation,"ps":0},{"n":"layerIndex","pt":$n[0].Int32,"ps":1},{"n":"weight","pt":$n[0].Single,"ps":2},{"n":"time","pt":$n[0].Single,"ps":3},{"n":"lastTime","pt":$n[0].Single,"ps":4},{"n":"playsBackward","pt":$n[0].Boolean,"ps":5}],"sn":"OnClipApplied","rt":$n[0].Void,"p":[$n[3].Animation,$n[0].Int32,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"ov":true,"a":3,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"SkeletonMecanim","t":16,"rt":$n[4].SkeletonMecanim,"g":{"a":2,"n":"get_SkeletonMecanim","t":8,"rt":$n[4].SkeletonMecanim,"fg":"SkeletonMecanim"},"fn":"SkeletonMecanim"},{"a":1,"n":"DefaultMecanimLayerFlags","is":true,"t":4,"rt":$n[0].Int32,"sn":"DefaultMecanimLayerFlags","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"mecanimLayerFlags","t":4,"rt":$n[0].Int32,"sn":"mecanimLayerFlags","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"movementDelta","t":4,"rt":$n[2].Vector2,"sn":"movementDelta"},{"a":3,"n":"rotationDelta","t":4,"rt":$n[0].Single,"sn":"rotationDelta","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"skeletonMecanim","t":4,"rt":$n[4].SkeletonMecanim,"sn":"skeletonMecanim"}]}; }, $n);
+    $m("Spine.Unity.SkeletonMecanimRootMotion", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonMecanimRootMotion")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":3,"n":"CalculateAnimationsMovementDelta","t":8,"sn":"CalculateAnimationsMovementDelta","rt":$n[2].Vector2},{"ov":true,"a":3,"n":"CalculateAnimationsRotationDelta","t":8,"sn":"CalculateAnimationsRotationDelta","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"ov":true,"a":2,"n":"GetRemainingRootMotion","t":8,"pi":[{"n":"layerIndex","pt":$n[0].Int32,"ps":0}],"sn":"GetRemainingRootMotion","rt":$n[2].Vector2,"p":[$n[0].Int32]},{"ov":true,"a":2,"n":"GetRootMotionInfo","t":8,"pi":[{"n":"layerIndex","pt":$n[0].Int32,"ps":0}],"sn":"GetRootMotionInfo","rt":$n[5].SkeletonRootMotionBase.RootMotionInfo,"p":[$n[0].Int32]},{"a":1,"n":"OnClipApplied","t":8,"pi":[{"n":"animation","pt":$n[4].Animation,"ps":0},{"n":"layerIndex","pt":$n[0].Int32,"ps":1},{"n":"weight","pt":$n[0].Single,"ps":2},{"n":"time","pt":$n[0].Single,"ps":3},{"n":"lastTime","pt":$n[0].Single,"ps":4},{"n":"playsBackward","pt":$n[0].Boolean,"ps":5}],"sn":"OnClipApplied","rt":$n[0].Void,"p":[$n[4].Animation,$n[0].Int32,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"ov":true,"a":3,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"SkeletonMecanim","t":16,"rt":$n[5].SkeletonMecanim,"g":{"a":2,"n":"get_SkeletonMecanim","t":8,"rt":$n[5].SkeletonMecanim,"fg":"SkeletonMecanim"},"fn":"SkeletonMecanim"},{"a":1,"n":"DefaultMecanimLayerFlags","is":true,"t":4,"rt":$n[0].Int32,"sn":"DefaultMecanimLayerFlags","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"mecanimLayerFlags","t":4,"rt":$n[0].Int32,"sn":"mecanimLayerFlags","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"movementDelta","t":4,"rt":$n[2].Vector2,"sn":"movementDelta"},{"a":3,"n":"rotationDelta","t":4,"rt":$n[0].Single,"sn":"rotationDelta","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"skeletonMecanim","t":4,"rt":$n[5].SkeletonMecanim,"sn":"skeletonMecanim"}]}; }, $n);
     /*Spine.Unity.SkeletonMecanimRootMotion end.*/
 
     /*Spine.Unity.SkeletonRootMotion start.*/
-    $m("Spine.Unity.SkeletonRootMotion", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonRootMotion")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"ApplyMixAlphaToDelta","t":8,"pi":[{"n":"currentDelta","ref":true,"pt":$n[0].Single,"ps":0},{"n":"next","pt":$n[3].TrackEntry,"ps":1},{"n":"track","pt":$n[3].TrackEntry,"ps":2}],"sn":"ApplyMixAlphaToDelta","rt":$n[0].Void,"p":[$n[0].Single,$n[3].TrackEntry,$n[3].TrackEntry]},{"a":1,"n":"ApplyMixAlphaToDelta","t":8,"pi":[{"n":"currentDelta","ref":true,"pt":$n[2].Vector2,"ps":0},{"n":"next","pt":$n[3].TrackEntry,"ps":1},{"n":"track","pt":$n[3].TrackEntry,"ps":2}],"sn":"ApplyMixAlphaToDelta$1","rt":$n[0].Void,"p":[$n[2].Vector2,$n[3].TrackEntry,$n[3].TrackEntry]},{"ov":true,"a":3,"n":"CalculateAnimationsMovementDelta","t":8,"sn":"CalculateAnimationsMovementDelta","rt":$n[2].Vector2},{"ov":true,"a":3,"n":"CalculateAnimationsRotationDelta","t":8,"sn":"CalculateAnimationsRotationDelta","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"GetMixAlpha","t":8,"pi":[{"n":"cumulatedMixAlpha","ref":true,"pt":$n[0].Single,"ps":0},{"n":"next","pt":$n[3].TrackEntry,"ps":1},{"n":"track","pt":$n[3].TrackEntry,"ps":2}],"sn":"GetMixAlpha","rt":$n[0].Void,"p":[$n[0].Single,$n[3].TrackEntry,$n[3].TrackEntry]},{"ov":true,"a":2,"n":"GetRemainingRootMotion","t":8,"pi":[{"n":"trackIndex","pt":$n[0].Int32,"ps":0}],"sn":"GetRemainingRootMotion","rt":$n[2].Vector2,"p":[$n[0].Int32]},{"ov":true,"a":2,"n":"GetRootMotionInfo","t":8,"pi":[{"n":"trackIndex","pt":$n[0].Int32,"ps":0}],"sn":"GetRootMotionInfo","rt":$n[4].SkeletonRootMotionBase.RootMotionInfo,"p":[$n[0].Int32]},{"ov":true,"a":3,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"ov":true,"a":3,"n":"AdditionalScale","t":16,"rt":$n[0].Single,"g":{"ov":true,"a":3,"n":"get_AdditionalScale","t":8,"rt":$n[0].Single,"fg":"AdditionalScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"AdditionalScale"},{"a":1,"n":"DefaultAnimationTrackFlags","is":true,"t":4,"rt":$n[0].Int32,"sn":"DefaultAnimationTrackFlags","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"animationState","t":4,"rt":$n[3].AnimationState,"sn":"animationState"},{"a":2,"n":"animationTrackFlags","t":4,"rt":$n[0].Int32,"sn":"animationTrackFlags","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"skeletonGraphic","t":4,"rt":$n[4].SkeletonGraphic,"sn":"skeletonGraphic"}]}; }, $n);
+    $m("Spine.Unity.SkeletonRootMotion", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonRootMotion")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"ApplyMixAlphaToDelta","t":8,"pi":[{"n":"currentDelta","ref":true,"pt":$n[0].Single,"ps":0},{"n":"next","pt":$n[4].TrackEntry,"ps":1},{"n":"track","pt":$n[4].TrackEntry,"ps":2}],"sn":"ApplyMixAlphaToDelta","rt":$n[0].Void,"p":[$n[0].Single,$n[4].TrackEntry,$n[4].TrackEntry]},{"a":1,"n":"ApplyMixAlphaToDelta","t":8,"pi":[{"n":"currentDelta","ref":true,"pt":$n[2].Vector2,"ps":0},{"n":"next","pt":$n[4].TrackEntry,"ps":1},{"n":"track","pt":$n[4].TrackEntry,"ps":2}],"sn":"ApplyMixAlphaToDelta$1","rt":$n[0].Void,"p":[$n[2].Vector2,$n[4].TrackEntry,$n[4].TrackEntry]},{"ov":true,"a":3,"n":"CalculateAnimationsMovementDelta","t":8,"sn":"CalculateAnimationsMovementDelta","rt":$n[2].Vector2},{"ov":true,"a":3,"n":"CalculateAnimationsRotationDelta","t":8,"sn":"CalculateAnimationsRotationDelta","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"GetMixAlpha","t":8,"pi":[{"n":"cumulatedMixAlpha","ref":true,"pt":$n[0].Single,"ps":0},{"n":"next","pt":$n[4].TrackEntry,"ps":1},{"n":"track","pt":$n[4].TrackEntry,"ps":2}],"sn":"GetMixAlpha","rt":$n[0].Void,"p":[$n[0].Single,$n[4].TrackEntry,$n[4].TrackEntry]},{"ov":true,"a":2,"n":"GetRemainingRootMotion","t":8,"pi":[{"n":"trackIndex","pt":$n[0].Int32,"ps":0}],"sn":"GetRemainingRootMotion","rt":$n[2].Vector2,"p":[$n[0].Int32]},{"ov":true,"a":2,"n":"GetRootMotionInfo","t":8,"pi":[{"n":"trackIndex","pt":$n[0].Int32,"ps":0}],"sn":"GetRootMotionInfo","rt":$n[5].SkeletonRootMotionBase.RootMotionInfo,"p":[$n[0].Int32]},{"ov":true,"a":3,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"ov":true,"a":3,"n":"AdditionalScale","t":16,"rt":$n[0].Single,"g":{"ov":true,"a":3,"n":"get_AdditionalScale","t":8,"rt":$n[0].Single,"fg":"AdditionalScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"AdditionalScale"},{"a":1,"n":"DefaultAnimationTrackFlags","is":true,"t":4,"rt":$n[0].Int32,"sn":"DefaultAnimationTrackFlags","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"animationState","t":4,"rt":$n[4].AnimationState,"sn":"animationState"},{"a":2,"n":"animationTrackFlags","t":4,"rt":$n[0].Int32,"sn":"animationTrackFlags","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"skeletonGraphic","t":4,"rt":$n[5].SkeletonGraphic,"sn":"skeletonGraphic"}]}; }, $n);
     /*Spine.Unity.SkeletonRootMotion end.*/
 
     /*Spine.Unity.SkeletonRootMotionBase start.*/
-    $m("Spine.Unity.SkeletonRootMotionBase", function () { return {"nested":[Function,$n[4].SkeletonRootMotionBase.RootMotionInfo],"att":1048705,"a":2,"at":[new UnityEngine.DefaultExecutionOrder(1)],"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AdjustRootMotionToDistance","t":8,"pi":[{"n":"distanceToTarget","pt":$n[2].Vector2,"ps":0},{"n":"trackIndex","dv":0,"o":true,"pt":$n[0].Int32,"ps":1},{"n":"adjustX","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"adjustY","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"minX","dv":0.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"maxX","dv":3.40282347E+38,"o":true,"pt":$n[0].Single,"ps":5},{"n":"minY","dv":0.0,"o":true,"pt":$n[0].Single,"ps":6},{"n":"maxY","dv":3.40282347E+38,"o":true,"pt":$n[0].Single,"ps":7},{"n":"allowXTranslation","dv":false,"o":true,"pt":$n[0].Boolean,"ps":8},{"n":"allowYTranslation","dv":false,"o":true,"pt":$n[0].Boolean,"ps":9}],"sn":"AdjustRootMotionToDistance","rt":$n[0].Void,"p":[$n[2].Vector2,$n[0].Int32,$n[0].Boolean,$n[0].Boolean,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":1,"n":"ApplyConstraintToPos","t":8,"pi":[{"n":"animation","pt":$n[3].Animation,"ps":0},{"n":"constraint","pt":$n[3].TransformConstraint,"ps":1},{"n":"constraintIndex","pt":$n[0].Int32,"ps":2},{"n":"time","pt":$n[0].Single,"ps":3},{"n":"useLastConstraintPos","pt":$n[0].Boolean,"ps":4},{"n":"pos","ref":true,"pt":$n[2].Vector2,"ps":5}],"sn":"ApplyConstraintToPos","rt":$n[0].Void,"p":[$n[3].Animation,$n[3].TransformConstraint,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[2].Vector2]},{"a":1,"n":"ApplyConstraintToRotation","t":8,"pi":[{"n":"animation","pt":$n[3].Animation,"ps":0},{"n":"constraint","pt":$n[3].TransformConstraint,"ps":1},{"n":"constraintIndex","pt":$n[0].Int32,"ps":2},{"n":"time","pt":$n[0].Single,"ps":3},{"n":"useLastConstraintRotation","pt":$n[0].Boolean,"ps":4},{"n":"rotation","ref":true,"pt":$n[0].Single,"ps":5}],"sn":"ApplyConstraintToRotation","rt":$n[0].Void,"p":[$n[3].Animation,$n[3].TransformConstraint,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Single]},{"a":1,"n":"ApplyRootMotion","t":8,"pi":[{"n":"skeletonTranslationDelta","pt":$n[2].Vector2,"ps":0},{"n":"skeletonRotationDelta","pt":$n[0].Single,"ps":1},{"n":"parentBoneScale","pt":$n[2].Vector2,"ps":2},{"n":"skeletonAnimationUsesFixedUpdate","pt":$n[0].Boolean,"ps":3}],"sn":"ApplyRootMotion","rt":$n[0].Void,"p":[$n[2].Vector2,$n[0].Single,$n[2].Vector2,$n[0].Boolean]},{"a":1,"n":"ApplyTransformConstraints","t":8,"sn":"ApplyTransformConstraints","rt":$n[0].Void},{"ab":true,"a":3,"n":"CalculateAnimationsMovementDelta","t":8,"sn":"CalculateAnimationsMovementDelta","rt":$n[2].Vector2},{"v":true,"a":3,"n":"CalculateAnimationsRotationDelta","t":8,"sn":"CalculateAnimationsRotationDelta","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"ClearEffectiveBoneOffsets","t":8,"pi":[{"n":"parentBoneScale","pt":$n[2].Vector2,"ps":0}],"sn":"ClearEffectiveBoneOffsets","rt":$n[0].Void,"p":[$n[2].Vector2]},{"a":1,"n":"ClearRigidbodyTempMovement","t":8,"sn":"ClearRigidbodyTempMovement","rt":$n[0].Void},{"a":3,"n":"FindRigidbodyComponent","t":8,"sn":"FindRigidbodyComponent","rt":$n[0].Void},{"a":1,"n":"FindTransformConstraintsAffectingBone","t":8,"sn":"FindTransformConstraintsAffectingBone","rt":$n[0].Void},{"v":true,"a":3,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"GatherTopLevelBones","t":8,"sn":"GatherTopLevelBones","rt":$n[0].Void},{"a":2,"n":"GetAnimationRootMotion","t":8,"pi":[{"n":"animation","pt":$n[3].Animation,"ps":0}],"sn":"GetAnimationRootMotion","rt":$n[2].Vector2,"p":[$n[3].Animation]},{"a":2,"n":"GetAnimationRootMotion","t":8,"pi":[{"n":"startTime","pt":$n[0].Single,"ps":0},{"n":"endTime","pt":$n[0].Single,"ps":1},{"n":"animation","pt":$n[3].Animation,"ps":2}],"sn":"GetAnimationRootMotion$1","rt":$n[2].Vector2,"p":[$n[0].Single,$n[0].Single,$n[3].Animation]},{"a":2,"n":"GetAnimationRootMotionInfo","t":8,"pi":[{"n":"animation","pt":$n[3].Animation,"ps":0},{"n":"currentTime","pt":$n[0].Single,"ps":1}],"sn":"GetAnimationRootMotionInfo","rt":$n[4].SkeletonRootMotionBase.RootMotionInfo,"p":[$n[3].Animation,$n[0].Single]},{"a":2,"n":"GetAnimationRootMotionRotation","t":8,"pi":[{"n":"animation","pt":$n[3].Animation,"ps":0}],"sn":"GetAnimationRootMotionRotation","rt":$n[0].Single,"p":[$n[3].Animation],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GetAnimationRootMotionRotation","t":8,"pi":[{"n":"startTime","pt":$n[0].Single,"ps":0},{"n":"endTime","pt":$n[0].Single,"ps":1},{"n":"animation","pt":$n[3].Animation,"ps":2}],"sn":"GetAnimationRootMotionRotation$1","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Single,$n[3].Animation],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"GetConstraintLastPosIndex","t":8,"pi":[{"n":"constraintIndex","pt":$n[0].Int32,"ps":0}],"sn":"GetConstraintLastPosIndex","rt":$n[0].Int32,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"ab":true,"a":2,"n":"GetRemainingRootMotion","t":8,"pi":[{"n":"trackIndex","dv":0,"o":true,"pt":$n[0].Int32,"ps":0}],"sn":"GetRemainingRootMotion","rt":$n[2].Vector2,"p":[$n[0].Int32]},{"ab":true,"a":2,"n":"GetRootMotionInfo","t":8,"pi":[{"n":"trackIndex","dv":0,"o":true,"pt":$n[0].Int32,"ps":0}],"sn":"GetRootMotionInfo","rt":$n[4].SkeletonRootMotionBase.RootMotionInfo,"p":[$n[0].Int32]},{"a":1,"n":"GetScaleAffectingRootMotion","t":8,"sn":"GetScaleAffectingRootMotion","rt":$n[2].Vector2},{"a":1,"n":"GetScaleAffectingRootMotion","t":8,"pi":[{"n":"parentBoneScale","out":true,"pt":$n[2].Vector2,"ps":0}],"sn":"GetScaleAffectingRootMotion$1","rt":$n[2].Vector2,"p":[$n[2].Vector2]},{"a":1,"n":"GetSkeletonSpaceMovementDelta","t":8,"pi":[{"n":"boneLocalDelta","pt":$n[2].Vector2,"ps":0},{"n":"parentBoneScale","out":true,"pt":$n[2].Vector2,"ps":1},{"n":"totalScale","out":true,"pt":$n[2].Vector2,"ps":2}],"sn":"GetSkeletonSpaceMovementDelta","rt":$n[2].Vector2,"p":[$n[2].Vector2,$n[2].Vector2,$n[2].Vector2]},{"a":1,"n":"GetSkeletonSpaceRotationDelta","t":8,"pi":[{"n":"boneLocalDelta","pt":$n[0].Single,"ps":0},{"n":"totalScaleAffectingRootMotion","pt":$n[2].Vector2,"ps":1}],"sn":"GetSkeletonSpaceRotationDelta","rt":$n[0].Single,"p":[$n[0].Single,$n[2].Vector2],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"GetTimelineMovementDelta","t":8,"pi":[{"n":"startTime","pt":$n[0].Single,"ps":0},{"n":"endTime","pt":$n[0].Single,"ps":1},{"n":"xTimeline","pt":spine.TranslateXTimeline,"ps":2},{"n":"yTimeline","pt":spine.TranslateYTimeline,"ps":3},{"n":"animation","pt":$n[3].Animation,"ps":4}],"sn":"GetTimelineMovementDelta","rt":$n[2].Vector2,"p":[$n[0].Single,$n[0].Single,spine.TranslateXTimeline,spine.TranslateYTimeline,$n[3].Animation]},{"a":1,"n":"HandleUpdateLocal","t":8,"pi":[{"n":"animatedSkeletonComponent","pt":$n[4].ISkeletonAnimation,"ps":0}],"sn":"HandleUpdateLocal","rt":$n[0].Void,"p":[$n[4].ISkeletonAnimation]},{"v":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"v":true,"a":3,"n":"PhysicsUpdate","t":8,"pi":[{"n":"skeletonAnimationUsesFixedUpdate","pt":$n[0].Boolean,"ps":0}],"sn":"PhysicsUpdate","rt":$n[0].Void,"p":[$n[0].Boolean]},{"v":true,"a":3,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"a":1,"n":"SetEffectiveBoneOffsetsTo","t":8,"pi":[{"n":"displacementSkeletonSpace","pt":$n[2].Vector2,"ps":0},{"n":"rotationSkeletonSpace","pt":$n[0].Single,"ps":1},{"n":"parentBoneScale","pt":$n[2].Vector2,"ps":2}],"sn":"SetEffectiveBoneOffsetsTo","rt":$n[0].Void,"p":[$n[2].Vector2,$n[0].Single,$n[2].Vector2]},{"a":2,"n":"SetRootMotionBone","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"SetRootMotionBone","rt":$n[0].Void,"p":[$n[0].String]},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"UpdateLastConstraintPos","t":8,"pi":[{"n":"transformConstraintsItems","pt":System.Array.type(Spine.TransformConstraint),"ps":0}],"sn":"UpdateLastConstraintPos","rt":$n[0].Void,"p":[System.Array.type(Spine.TransformConstraint)]},{"a":1,"n":"UpdateLastConstraintRotation","t":8,"pi":[{"n":"transformConstraintsItems","pt":System.Array.type(Spine.TransformConstraint),"ps":0}],"sn":"UpdateLastConstraintRotation","rt":$n[0].Void,"p":[System.Array.type(Spine.TransformConstraint)]},{"a":2,"n":"AdditionalRigidbody2DMovement","t":16,"rt":$n[2].Vector2,"g":{"a":2,"n":"get_AdditionalRigidbody2DMovement","t":8,"rt":$n[2].Vector2,"fg":"AdditionalRigidbody2DMovement"},"s":{"a":2,"n":"set_AdditionalRigidbody2DMovement","t":8,"p":[$n[2].Vector2],"rt":$n[0].Void,"fs":"AdditionalRigidbody2DMovement"},"fn":"AdditionalRigidbody2DMovement"},{"v":true,"a":3,"n":"AdditionalScale","t":16,"rt":$n[0].Single,"g":{"v":true,"a":3,"n":"get_AdditionalScale","t":8,"rt":$n[0].Single,"fg":"AdditionalScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"AdditionalScale"},{"a":2,"n":"PreviousRigidbodyRootMotion2D","t":16,"rt":$n[2].Vector2,"g":{"a":2,"n":"get_PreviousRigidbodyRootMotion2D","t":8,"rt":$n[2].Vector2,"fg":"PreviousRigidbodyRootMotion2D"},"fn":"PreviousRigidbodyRootMotion2D"},{"a":2,"n":"PreviousRigidbodyRootMotion3D","t":16,"rt":$n[2].Vector3,"g":{"a":2,"n":"get_PreviousRigidbodyRootMotion3D","t":8,"rt":$n[2].Vector3,"fg":"PreviousRigidbodyRootMotion3D"},"fn":"PreviousRigidbodyRootMotion3D"},{"a":2,"n":"RootMotionBone","t":16,"rt":$n[3].Bone,"g":{"a":2,"n":"get_RootMotionBone","t":8,"rt":$n[3].Bone,"fg":"RootMotionBone"},"fn":"RootMotionBone"},{"a":3,"n":"SkeletonAnimationUsesFixedUpdate","t":16,"rt":$n[0].Boolean,"g":{"a":3,"n":"get_SkeletonAnimationUsesFixedUpdate","t":8,"rt":$n[0].Boolean,"fg":"SkeletonAnimationUsesFixedUpdate","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"SkeletonAnimationUsesFixedUpdate"},{"a":2,"n":"TargetSkeletonAnimationComponent","t":16,"rt":$n[4].ISkeletonAnimation,"g":{"a":2,"n":"get_TargetSkeletonAnimationComponent","t":8,"rt":$n[4].ISkeletonAnimation,"fg":"TargetSkeletonAnimationComponent"},"fn":"TargetSkeletonAnimationComponent"},{"a":2,"n":"TargetSkeletonComponent","t":16,"rt":$n[4].ISkeletonComponent,"g":{"a":2,"n":"get_TargetSkeletonComponent","t":8,"rt":$n[4].ISkeletonComponent,"fg":"TargetSkeletonComponent"},"fn":"TargetSkeletonComponent"},{"a":2,"n":"UsesRigidbody","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_UsesRigidbody","t":8,"rt":$n[0].Boolean,"fg":"UsesRigidbody","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"UsesRigidbody"},{"a":3,"n":"accumulatedUntilFixedUpdate","t":4,"rt":$n[0].Boolean,"sn":"accumulatedUntilFixedUpdate","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"additionalRigidbody2DMovement","t":4,"rt":$n[2].Vector2,"sn":"additionalRigidbody2DMovement"},{"a":2,"n":"applyRigidbody2DGravity","t":4,"rt":$n[0].Boolean,"sn":"applyRigidbody2DGravity","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"disableOnOverride","t":4,"rt":$n[0].Boolean,"sn":"disableOnOverride","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"initialOffset","t":4,"rt":$n[2].Vector2,"sn":"initialOffset"},{"a":3,"n":"initialOffsetRotation","t":4,"rt":$n[0].Single,"sn":"initialOffsetRotation","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"previousRigidbodyRootMotion","t":4,"rt":$n[2].Vector3,"sn":"previousRigidbodyRootMotion"},{"a":2,"n":"rigidBody","t":4,"rt":$n[2].Rigidbody,"sn":"rigidBody"},{"at":[new UnityEngine.HeaderAttribute("Optional")],"a":2,"n":"rigidBody2D","t":4,"rt":$n[2].Rigidbody2D,"sn":"rigidBody2D"},{"a":3,"n":"rigidbody2DRotation","t":4,"rt":$n[0].Single,"sn":"rigidbody2DRotation","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"rigidbodyDisplacement","t":4,"rt":$n[2].Vector3,"sn":"rigidbodyDisplacement"},{"a":3,"n":"rigidbodyLocalRotation","t":4,"rt":$n[2].Quaternion,"sn":"rigidbodyLocalRotation"},{"a":3,"n":"rootMotionBone","t":4,"rt":$n[3].Bone,"sn":"rootMotionBone"},{"a":3,"n":"rootMotionBoneIndex","t":4,"rt":$n[0].Int32,"sn":"rootMotionBoneIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new Spine.Unity.SpineBone("", "", true, false),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"rootMotionBoneName","t":4,"rt":$n[0].String,"sn":"rootMotionBoneName"},{"a":2,"n":"rootMotionScaleRotation","t":4,"rt":$n[0].Single,"sn":"rootMotionScaleRotation","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"rootMotionScaleX","t":4,"rt":$n[0].Single,"sn":"rootMotionScaleX","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"rootMotionScaleY","t":4,"rt":$n[0].Single,"sn":"rootMotionScaleY","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"rootMotionTranslateXPerY","t":4,"rt":$n[0].Single,"sn":"rootMotionTranslateXPerY","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"rootMotionTranslateYPerX","t":4,"rt":$n[0].Single,"sn":"rootMotionTranslateYPerX","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"skeletonComponent","t":4,"rt":$n[4].ISkeletonComponent,"sn":"skeletonComponent"},{"a":3,"n":"tempSkeletonDisplacement","t":4,"rt":$n[2].Vector2,"sn":"tempSkeletonDisplacement"},{"a":3,"n":"tempSkeletonRotation","t":4,"rt":$n[0].Single,"sn":"tempSkeletonRotation","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"topLevelBones","t":4,"rt":$n[5].List$1(Spine.Bone),"sn":"topLevelBones"},{"a":3,"n":"transformConstraintIndices","t":4,"rt":$n[5].List$1(System.Int32),"sn":"transformConstraintIndices"},{"a":3,"n":"transformConstraintLastPos","t":4,"rt":$n[5].List$1(UnityEngine.Vector2),"sn":"transformConstraintLastPos"},{"a":3,"n":"transformConstraintLastRotation","t":4,"rt":$n[5].List$1(System.Single),"sn":"transformConstraintLastRotation"},{"a":2,"n":"transformPositionX","t":4,"rt":$n[0].Boolean,"sn":"transformPositionX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"transformPositionY","t":4,"rt":$n[0].Boolean,"sn":"transformPositionY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"transformRotation","t":4,"rt":$n[0].Boolean,"sn":"transformRotation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"PhysicsUpdateRootMotionOverride","t":2,"ad":{"a":2,"n":"add_PhysicsUpdateRootMotionOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addPhysicsUpdateRootMotionOverride","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_PhysicsUpdateRootMotionOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removePhysicsUpdateRootMotionOverride","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"ProcessRootMotionOverride","t":2,"ad":{"a":2,"n":"add_ProcessRootMotionOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addProcessRootMotionOverride","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_ProcessRootMotionOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeProcessRootMotionOverride","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("Spine.Unity.SkeletonRootMotionBase", function () { return {"nested":[Function,$n[5].SkeletonRootMotionBase.RootMotionInfo],"att":1048705,"a":2,"at":[new UnityEngine.DefaultExecutionOrder(1)],"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AdjustRootMotionToDistance","t":8,"pi":[{"n":"distanceToTarget","pt":$n[2].Vector2,"ps":0},{"n":"trackIndex","dv":0,"o":true,"pt":$n[0].Int32,"ps":1},{"n":"adjustX","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"adjustY","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"minX","dv":0.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"maxX","dv":3.40282347E+38,"o":true,"pt":$n[0].Single,"ps":5},{"n":"minY","dv":0.0,"o":true,"pt":$n[0].Single,"ps":6},{"n":"maxY","dv":3.40282347E+38,"o":true,"pt":$n[0].Single,"ps":7},{"n":"allowXTranslation","dv":false,"o":true,"pt":$n[0].Boolean,"ps":8},{"n":"allowYTranslation","dv":false,"o":true,"pt":$n[0].Boolean,"ps":9}],"sn":"AdjustRootMotionToDistance","rt":$n[0].Void,"p":[$n[2].Vector2,$n[0].Int32,$n[0].Boolean,$n[0].Boolean,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":1,"n":"ApplyConstraintToPos","t":8,"pi":[{"n":"animation","pt":$n[4].Animation,"ps":0},{"n":"constraint","pt":$n[4].TransformConstraint,"ps":1},{"n":"constraintIndex","pt":$n[0].Int32,"ps":2},{"n":"time","pt":$n[0].Single,"ps":3},{"n":"useLastConstraintPos","pt":$n[0].Boolean,"ps":4},{"n":"pos","ref":true,"pt":$n[2].Vector2,"ps":5}],"sn":"ApplyConstraintToPos","rt":$n[0].Void,"p":[$n[4].Animation,$n[4].TransformConstraint,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[2].Vector2]},{"a":1,"n":"ApplyConstraintToRotation","t":8,"pi":[{"n":"animation","pt":$n[4].Animation,"ps":0},{"n":"constraint","pt":$n[4].TransformConstraint,"ps":1},{"n":"constraintIndex","pt":$n[0].Int32,"ps":2},{"n":"time","pt":$n[0].Single,"ps":3},{"n":"useLastConstraintRotation","pt":$n[0].Boolean,"ps":4},{"n":"rotation","ref":true,"pt":$n[0].Single,"ps":5}],"sn":"ApplyConstraintToRotation","rt":$n[0].Void,"p":[$n[4].Animation,$n[4].TransformConstraint,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Single]},{"a":1,"n":"ApplyRootMotion","t":8,"pi":[{"n":"skeletonTranslationDelta","pt":$n[2].Vector2,"ps":0},{"n":"skeletonRotationDelta","pt":$n[0].Single,"ps":1},{"n":"parentBoneScale","pt":$n[2].Vector2,"ps":2},{"n":"skeletonAnimationUsesFixedUpdate","pt":$n[0].Boolean,"ps":3}],"sn":"ApplyRootMotion","rt":$n[0].Void,"p":[$n[2].Vector2,$n[0].Single,$n[2].Vector2,$n[0].Boolean]},{"a":1,"n":"ApplyTransformConstraints","t":8,"sn":"ApplyTransformConstraints","rt":$n[0].Void},{"ab":true,"a":3,"n":"CalculateAnimationsMovementDelta","t":8,"sn":"CalculateAnimationsMovementDelta","rt":$n[2].Vector2},{"v":true,"a":3,"n":"CalculateAnimationsRotationDelta","t":8,"sn":"CalculateAnimationsRotationDelta","rt":$n[0].Single,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"ClearEffectiveBoneOffsets","t":8,"pi":[{"n":"parentBoneScale","pt":$n[2].Vector2,"ps":0}],"sn":"ClearEffectiveBoneOffsets","rt":$n[0].Void,"p":[$n[2].Vector2]},{"a":1,"n":"ClearRigidbodyTempMovement","t":8,"sn":"ClearRigidbodyTempMovement","rt":$n[0].Void},{"a":3,"n":"FindRigidbodyComponent","t":8,"sn":"FindRigidbodyComponent","rt":$n[0].Void},{"a":1,"n":"FindTransformConstraintsAffectingBone","t":8,"sn":"FindTransformConstraintsAffectingBone","rt":$n[0].Void},{"v":true,"a":3,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"GatherTopLevelBones","t":8,"sn":"GatherTopLevelBones","rt":$n[0].Void},{"a":2,"n":"GetAnimationRootMotion","t":8,"pi":[{"n":"animation","pt":$n[4].Animation,"ps":0}],"sn":"GetAnimationRootMotion","rt":$n[2].Vector2,"p":[$n[4].Animation]},{"a":2,"n":"GetAnimationRootMotion","t":8,"pi":[{"n":"startTime","pt":$n[0].Single,"ps":0},{"n":"endTime","pt":$n[0].Single,"ps":1},{"n":"animation","pt":$n[4].Animation,"ps":2}],"sn":"GetAnimationRootMotion$1","rt":$n[2].Vector2,"p":[$n[0].Single,$n[0].Single,$n[4].Animation]},{"a":2,"n":"GetAnimationRootMotionInfo","t":8,"pi":[{"n":"animation","pt":$n[4].Animation,"ps":0},{"n":"currentTime","pt":$n[0].Single,"ps":1}],"sn":"GetAnimationRootMotionInfo","rt":$n[5].SkeletonRootMotionBase.RootMotionInfo,"p":[$n[4].Animation,$n[0].Single]},{"a":2,"n":"GetAnimationRootMotionRotation","t":8,"pi":[{"n":"animation","pt":$n[4].Animation,"ps":0}],"sn":"GetAnimationRootMotionRotation","rt":$n[0].Single,"p":[$n[4].Animation],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GetAnimationRootMotionRotation","t":8,"pi":[{"n":"startTime","pt":$n[0].Single,"ps":0},{"n":"endTime","pt":$n[0].Single,"ps":1},{"n":"animation","pt":$n[4].Animation,"ps":2}],"sn":"GetAnimationRootMotionRotation$1","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Single,$n[4].Animation],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"GetConstraintLastPosIndex","t":8,"pi":[{"n":"constraintIndex","pt":$n[0].Int32,"ps":0}],"sn":"GetConstraintLastPosIndex","rt":$n[0].Int32,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"ab":true,"a":2,"n":"GetRemainingRootMotion","t":8,"pi":[{"n":"trackIndex","dv":0,"o":true,"pt":$n[0].Int32,"ps":0}],"sn":"GetRemainingRootMotion","rt":$n[2].Vector2,"p":[$n[0].Int32]},{"ab":true,"a":2,"n":"GetRootMotionInfo","t":8,"pi":[{"n":"trackIndex","dv":0,"o":true,"pt":$n[0].Int32,"ps":0}],"sn":"GetRootMotionInfo","rt":$n[5].SkeletonRootMotionBase.RootMotionInfo,"p":[$n[0].Int32]},{"a":1,"n":"GetScaleAffectingRootMotion","t":8,"sn":"GetScaleAffectingRootMotion","rt":$n[2].Vector2},{"a":1,"n":"GetScaleAffectingRootMotion","t":8,"pi":[{"n":"parentBoneScale","out":true,"pt":$n[2].Vector2,"ps":0}],"sn":"GetScaleAffectingRootMotion$1","rt":$n[2].Vector2,"p":[$n[2].Vector2]},{"a":1,"n":"GetSkeletonSpaceMovementDelta","t":8,"pi":[{"n":"boneLocalDelta","pt":$n[2].Vector2,"ps":0},{"n":"parentBoneScale","out":true,"pt":$n[2].Vector2,"ps":1},{"n":"totalScale","out":true,"pt":$n[2].Vector2,"ps":2}],"sn":"GetSkeletonSpaceMovementDelta","rt":$n[2].Vector2,"p":[$n[2].Vector2,$n[2].Vector2,$n[2].Vector2]},{"a":1,"n":"GetSkeletonSpaceRotationDelta","t":8,"pi":[{"n":"boneLocalDelta","pt":$n[0].Single,"ps":0},{"n":"totalScaleAffectingRootMotion","pt":$n[2].Vector2,"ps":1}],"sn":"GetSkeletonSpaceRotationDelta","rt":$n[0].Single,"p":[$n[0].Single,$n[2].Vector2],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"GetTimelineMovementDelta","t":8,"pi":[{"n":"startTime","pt":$n[0].Single,"ps":0},{"n":"endTime","pt":$n[0].Single,"ps":1},{"n":"xTimeline","pt":spine.TranslateXTimeline,"ps":2},{"n":"yTimeline","pt":spine.TranslateYTimeline,"ps":3},{"n":"animation","pt":$n[4].Animation,"ps":4}],"sn":"GetTimelineMovementDelta","rt":$n[2].Vector2,"p":[$n[0].Single,$n[0].Single,spine.TranslateXTimeline,spine.TranslateYTimeline,$n[4].Animation]},{"a":1,"n":"HandleUpdateLocal","t":8,"pi":[{"n":"animatedSkeletonComponent","pt":$n[5].ISkeletonAnimation,"ps":0}],"sn":"HandleUpdateLocal","rt":$n[0].Void,"p":[$n[5].ISkeletonAnimation]},{"v":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"v":true,"a":3,"n":"PhysicsUpdate","t":8,"pi":[{"n":"skeletonAnimationUsesFixedUpdate","pt":$n[0].Boolean,"ps":0}],"sn":"PhysicsUpdate","rt":$n[0].Void,"p":[$n[0].Boolean]},{"v":true,"a":3,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"a":1,"n":"SetEffectiveBoneOffsetsTo","t":8,"pi":[{"n":"displacementSkeletonSpace","pt":$n[2].Vector2,"ps":0},{"n":"rotationSkeletonSpace","pt":$n[0].Single,"ps":1},{"n":"parentBoneScale","pt":$n[2].Vector2,"ps":2}],"sn":"SetEffectiveBoneOffsetsTo","rt":$n[0].Void,"p":[$n[2].Vector2,$n[0].Single,$n[2].Vector2]},{"a":2,"n":"SetRootMotionBone","t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0}],"sn":"SetRootMotionBone","rt":$n[0].Void,"p":[$n[0].String]},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":1,"n":"UpdateLastConstraintPos","t":8,"pi":[{"n":"transformConstraintsItems","pt":System.Array.type(Spine.TransformConstraint),"ps":0}],"sn":"UpdateLastConstraintPos","rt":$n[0].Void,"p":[System.Array.type(Spine.TransformConstraint)]},{"a":1,"n":"UpdateLastConstraintRotation","t":8,"pi":[{"n":"transformConstraintsItems","pt":System.Array.type(Spine.TransformConstraint),"ps":0}],"sn":"UpdateLastConstraintRotation","rt":$n[0].Void,"p":[System.Array.type(Spine.TransformConstraint)]},{"a":2,"n":"AdditionalRigidbody2DMovement","t":16,"rt":$n[2].Vector2,"g":{"a":2,"n":"get_AdditionalRigidbody2DMovement","t":8,"rt":$n[2].Vector2,"fg":"AdditionalRigidbody2DMovement"},"s":{"a":2,"n":"set_AdditionalRigidbody2DMovement","t":8,"p":[$n[2].Vector2],"rt":$n[0].Void,"fs":"AdditionalRigidbody2DMovement"},"fn":"AdditionalRigidbody2DMovement"},{"v":true,"a":3,"n":"AdditionalScale","t":16,"rt":$n[0].Single,"g":{"v":true,"a":3,"n":"get_AdditionalScale","t":8,"rt":$n[0].Single,"fg":"AdditionalScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"AdditionalScale"},{"a":2,"n":"PreviousRigidbodyRootMotion2D","t":16,"rt":$n[2].Vector2,"g":{"a":2,"n":"get_PreviousRigidbodyRootMotion2D","t":8,"rt":$n[2].Vector2,"fg":"PreviousRigidbodyRootMotion2D"},"fn":"PreviousRigidbodyRootMotion2D"},{"a":2,"n":"PreviousRigidbodyRootMotion3D","t":16,"rt":$n[2].Vector3,"g":{"a":2,"n":"get_PreviousRigidbodyRootMotion3D","t":8,"rt":$n[2].Vector3,"fg":"PreviousRigidbodyRootMotion3D"},"fn":"PreviousRigidbodyRootMotion3D"},{"a":2,"n":"RootMotionBone","t":16,"rt":$n[4].Bone,"g":{"a":2,"n":"get_RootMotionBone","t":8,"rt":$n[4].Bone,"fg":"RootMotionBone"},"fn":"RootMotionBone"},{"a":3,"n":"SkeletonAnimationUsesFixedUpdate","t":16,"rt":$n[0].Boolean,"g":{"a":3,"n":"get_SkeletonAnimationUsesFixedUpdate","t":8,"rt":$n[0].Boolean,"fg":"SkeletonAnimationUsesFixedUpdate","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"SkeletonAnimationUsesFixedUpdate"},{"a":2,"n":"TargetSkeletonAnimationComponent","t":16,"rt":$n[5].ISkeletonAnimation,"g":{"a":2,"n":"get_TargetSkeletonAnimationComponent","t":8,"rt":$n[5].ISkeletonAnimation,"fg":"TargetSkeletonAnimationComponent"},"fn":"TargetSkeletonAnimationComponent"},{"a":2,"n":"TargetSkeletonComponent","t":16,"rt":$n[5].ISkeletonComponent,"g":{"a":2,"n":"get_TargetSkeletonComponent","t":8,"rt":$n[5].ISkeletonComponent,"fg":"TargetSkeletonComponent"},"fn":"TargetSkeletonComponent"},{"a":2,"n":"UsesRigidbody","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_UsesRigidbody","t":8,"rt":$n[0].Boolean,"fg":"UsesRigidbody","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"UsesRigidbody"},{"a":3,"n":"accumulatedUntilFixedUpdate","t":4,"rt":$n[0].Boolean,"sn":"accumulatedUntilFixedUpdate","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"additionalRigidbody2DMovement","t":4,"rt":$n[2].Vector2,"sn":"additionalRigidbody2DMovement"},{"a":2,"n":"applyRigidbody2DGravity","t":4,"rt":$n[0].Boolean,"sn":"applyRigidbody2DGravity","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"disableOnOverride","t":4,"rt":$n[0].Boolean,"sn":"disableOnOverride","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"initialOffset","t":4,"rt":$n[2].Vector2,"sn":"initialOffset"},{"a":3,"n":"initialOffsetRotation","t":4,"rt":$n[0].Single,"sn":"initialOffsetRotation","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"previousRigidbodyRootMotion","t":4,"rt":$n[2].Vector3,"sn":"previousRigidbodyRootMotion"},{"a":2,"n":"rigidBody","t":4,"rt":$n[2].Rigidbody,"sn":"rigidBody"},{"at":[new UnityEngine.HeaderAttribute("Optional")],"a":2,"n":"rigidBody2D","t":4,"rt":$n[2].Rigidbody2D,"sn":"rigidBody2D"},{"a":3,"n":"rigidbody2DRotation","t":4,"rt":$n[0].Single,"sn":"rigidbody2DRotation","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"rigidbodyDisplacement","t":4,"rt":$n[2].Vector3,"sn":"rigidbodyDisplacement"},{"a":3,"n":"rigidbodyLocalRotation","t":4,"rt":$n[2].Quaternion,"sn":"rigidbodyLocalRotation"},{"a":3,"n":"rootMotionBone","t":4,"rt":$n[4].Bone,"sn":"rootMotionBone"},{"a":3,"n":"rootMotionBoneIndex","t":4,"rt":$n[0].Int32,"sn":"rootMotionBoneIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new Spine.Unity.SpineBone("", "", true, false),new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"rootMotionBoneName","t":4,"rt":$n[0].String,"sn":"rootMotionBoneName"},{"a":2,"n":"rootMotionScaleRotation","t":4,"rt":$n[0].Single,"sn":"rootMotionScaleRotation","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"rootMotionScaleX","t":4,"rt":$n[0].Single,"sn":"rootMotionScaleX","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"rootMotionScaleY","t":4,"rt":$n[0].Single,"sn":"rootMotionScaleY","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"rootMotionTranslateXPerY","t":4,"rt":$n[0].Single,"sn":"rootMotionTranslateXPerY","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"rootMotionTranslateYPerX","t":4,"rt":$n[0].Single,"sn":"rootMotionTranslateYPerX","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"skeletonComponent","t":4,"rt":$n[5].ISkeletonComponent,"sn":"skeletonComponent"},{"a":3,"n":"tempSkeletonDisplacement","t":4,"rt":$n[2].Vector2,"sn":"tempSkeletonDisplacement"},{"a":3,"n":"tempSkeletonRotation","t":4,"rt":$n[0].Single,"sn":"tempSkeletonRotation","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":3,"n":"topLevelBones","t":4,"rt":$n[6].List$1(Spine.Bone),"sn":"topLevelBones"},{"a":3,"n":"transformConstraintIndices","t":4,"rt":$n[6].List$1(System.Int32),"sn":"transformConstraintIndices"},{"a":3,"n":"transformConstraintLastPos","t":4,"rt":$n[6].List$1(UnityEngine.Vector2),"sn":"transformConstraintLastPos"},{"a":3,"n":"transformConstraintLastRotation","t":4,"rt":$n[6].List$1(System.Single),"sn":"transformConstraintLastRotation"},{"a":2,"n":"transformPositionX","t":4,"rt":$n[0].Boolean,"sn":"transformPositionX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"transformPositionY","t":4,"rt":$n[0].Boolean,"sn":"transformPositionY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"transformRotation","t":4,"rt":$n[0].Boolean,"sn":"transformRotation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"PhysicsUpdateRootMotionOverride","t":2,"ad":{"a":2,"n":"add_PhysicsUpdateRootMotionOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addPhysicsUpdateRootMotionOverride","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_PhysicsUpdateRootMotionOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removePhysicsUpdateRootMotionOverride","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"ProcessRootMotionOverride","t":2,"ad":{"a":2,"n":"add_ProcessRootMotionOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addProcessRootMotionOverride","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_ProcessRootMotionOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeProcessRootMotionOverride","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*Spine.Unity.SkeletonRootMotionBase end.*/
 
     /*Spine.Unity.SkeletonRootMotionBase+RootMotionInfo start.*/
-    $m("Spine.Unity.SkeletonRootMotionBase.RootMotionInfo", function () { return {"td":$n[4].SkeletonRootMotionBase,"att":1048842,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"current","t":4,"rt":$n[2].Vector2,"sn":"current"},{"a":2,"n":"end","t":4,"rt":$n[2].Vector2,"sn":"end"},{"a":2,"n":"mid","t":4,"rt":$n[2].Vector2,"sn":"mid"},{"a":2,"n":"start","t":4,"rt":$n[2].Vector2,"sn":"start"},{"a":2,"n":"timeIsPastMid","t":4,"rt":$n[0].Boolean,"sn":"timeIsPastMid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("Spine.Unity.SkeletonRootMotionBase.RootMotionInfo", function () { return {"td":$n[5].SkeletonRootMotionBase,"att":1048842,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"current","t":4,"rt":$n[2].Vector2,"sn":"current"},{"a":2,"n":"end","t":4,"rt":$n[2].Vector2,"sn":"end"},{"a":2,"n":"mid","t":4,"rt":$n[2].Vector2,"sn":"mid"},{"a":2,"n":"start","t":4,"rt":$n[2].Vector2,"sn":"start"},{"a":2,"n":"timeIsPastMid","t":4,"rt":$n[0].Boolean,"sn":"timeIsPastMid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Spine.Unity.SkeletonRootMotionBase+RootMotionInfo end.*/
 
     /*Spine.Unity.SkeletonAnimation start.*/
-    $m("Spine.Unity.SkeletonAnimation", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.AddComponentMenu.ctor("Spine/SkeletonAnimation"),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonAnimation-Component")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddToGameObject","is":true,"t":8,"pi":[{"n":"gameObject","pt":$n[2].GameObject,"ps":0},{"n":"skeletonDataAsset","pt":$n[4].SkeletonDataAsset,"ps":1},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"AddToGameObject","rt":$n[4].SkeletonAnimation,"p":[$n[2].GameObject,$n[4].SkeletonDataAsset,$n[0].Boolean]},{"a":2,"n":"AfterAnimationApplied","t":8,"sn":"AfterAnimationApplied","rt":$n[0].Void},{"a":3,"n":"ApplyAnimation","t":8,"sn":"ApplyAnimation","rt":$n[0].Void},{"ov":true,"a":2,"n":"ClearState","t":8,"sn":"ClearState","rt":$n[0].Void},{"v":true,"a":3,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"ov":true,"a":2,"n":"Initialize","t":8,"pi":[{"n":"overwrite","pt":$n[0].Boolean,"ps":0},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Boolean,$n[0].Boolean]},{"ov":true,"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":2,"n":"NewSkeletonAnimationGameObject","is":true,"t":8,"pi":[{"n":"skeletonDataAsset","pt":$n[4].SkeletonDataAsset,"ps":0},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"NewSkeletonAnimationGameObject","rt":$n[4].SkeletonAnimation,"p":[$n[4].SkeletonDataAsset,$n[0].Boolean]},{"ov":true,"a":2,"n":"OnBecameVisible","t":8,"sn":"OnBecameVisible","rt":$n[0].Void},{"v":true,"a":3,"n":"Update","t":8,"sn":"Update$1","rt":$n[0].Void},{"a":2,"n":"Update","t":8,"pi":[{"n":"deltaTime","pt":$n[0].Single,"ps":0}],"sn":"Update","rt":$n[0].Void,"p":[$n[0].Single]},{"a":3,"n":"UpdateAnimationStatus","t":8,"pi":[{"n":"deltaTime","pt":$n[0].Single,"ps":0}],"sn":"UpdateAnimationStatus","rt":$n[0].Void,"p":[$n[0].Single]},{"a":2,"n":"AnimationName","t":16,"rt":$n[0].String,"g":{"a":2,"n":"get_AnimationName","t":8,"rt":$n[0].String,"fg":"AnimationName"},"s":{"a":2,"n":"set_AnimationName","t":8,"p":[$n[0].String],"rt":$n[0].Void,"fs":"AnimationName"},"fn":"AnimationName"},{"a":2,"n":"AnimationState","t":16,"rt":$n[3].AnimationState,"g":{"a":2,"n":"get_AnimationState","t":8,"rt":$n[3].AnimationState,"fg":"AnimationState"},"fn":"AnimationState"},{"a":2,"n":"UnscaledTime","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_UnscaledTime","t":8,"rt":$n[0].Boolean,"fg":"UnscaledTime","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_UnscaledTime","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"UnscaledTime"},"fn":"UnscaledTime"},{"a":2,"n":"UpdateTiming","t":16,"rt":$n[4].UpdateTiming,"g":{"a":2,"n":"get_UpdateTiming","t":8,"rt":$n[4].UpdateTiming,"fg":"UpdateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},"s":{"a":2,"n":"set_UpdateTiming","t":8,"p":[$n[4].UpdateTiming],"rt":$n[0].Void,"fs":"UpdateTiming"},"fn":"UpdateTiming"},{"at":[new UnityEngine.SerializeFieldAttribute(),new Spine.Unity.SpineAnimation("", "", true, false)],"a":1,"n":"_animationName","t":4,"rt":$n[0].String,"sn":"_animationName"},{"a":2,"n":"loop","t":4,"rt":$n[0].Boolean,"sn":"loop","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"state","t":4,"rt":$n[3].AnimationState,"sn":"state"},{"a":2,"n":"timeScale","t":4,"rt":$n[0].Single,"sn":"timeScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"unscaledTime","t":4,"rt":$n[0].Boolean,"sn":"unscaledTime","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"updateTiming","t":4,"rt":$n[4].UpdateTiming,"sn":"updateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},{"a":1,"n":"wasUpdatedAfterInit","t":4,"rt":$n[0].Boolean,"sn":"wasUpdatedAfterInit","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"BeforeApply","t":2,"ad":{"a":2,"n":"add_BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addBeforeApply","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeBeforeApply","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnAnimationRebuild","t":2,"ad":{"a":2,"n":"add_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnAnimationRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnAnimationRebuild","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateComplete","t":2,"ad":{"a":2,"n":"add_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateComplete","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateComplete","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateLocal","t":2,"ad":{"a":2,"n":"add_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateLocal","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateLocal","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateWorld","t":2,"ad":{"a":2,"n":"add_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateWorld","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateWorld","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_BeforeApply","t":2,"ad":{"a":3,"n":"add__BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_BeforeApply","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_BeforeApply","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_OnAnimationRebuild","t":2,"ad":{"a":3,"n":"add__OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_OnAnimationRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_OnAnimationRebuild","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_UpdateComplete","t":2,"ad":{"a":3,"n":"add__UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_UpdateComplete","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_UpdateComplete","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_UpdateLocal","t":2,"ad":{"a":3,"n":"add__UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_UpdateLocal","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_UpdateLocal","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_UpdateWorld","t":2,"ad":{"a":3,"n":"add__UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_UpdateWorld","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_UpdateWorld","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("Spine.Unity.SkeletonAnimation", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.AddComponentMenu.ctor("Spine/SkeletonAnimation"),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonAnimation-Component")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddToGameObject","is":true,"t":8,"pi":[{"n":"gameObject","pt":$n[2].GameObject,"ps":0},{"n":"skeletonDataAsset","pt":$n[5].SkeletonDataAsset,"ps":1},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"AddToGameObject","rt":$n[5].SkeletonAnimation,"p":[$n[2].GameObject,$n[5].SkeletonDataAsset,$n[0].Boolean]},{"a":2,"n":"AfterAnimationApplied","t":8,"sn":"AfterAnimationApplied","rt":$n[0].Void},{"a":3,"n":"ApplyAnimation","t":8,"sn":"ApplyAnimation","rt":$n[0].Void},{"ov":true,"a":2,"n":"ClearState","t":8,"sn":"ClearState","rt":$n[0].Void},{"v":true,"a":3,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"ov":true,"a":2,"n":"Initialize","t":8,"pi":[{"n":"overwrite","pt":$n[0].Boolean,"ps":0},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Boolean,$n[0].Boolean]},{"ov":true,"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":2,"n":"NewSkeletonAnimationGameObject","is":true,"t":8,"pi":[{"n":"skeletonDataAsset","pt":$n[5].SkeletonDataAsset,"ps":0},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"NewSkeletonAnimationGameObject","rt":$n[5].SkeletonAnimation,"p":[$n[5].SkeletonDataAsset,$n[0].Boolean]},{"ov":true,"a":2,"n":"OnBecameVisible","t":8,"sn":"OnBecameVisible","rt":$n[0].Void},{"v":true,"a":3,"n":"Update","t":8,"sn":"Update$1","rt":$n[0].Void},{"a":2,"n":"Update","t":8,"pi":[{"n":"deltaTime","pt":$n[0].Single,"ps":0}],"sn":"Update","rt":$n[0].Void,"p":[$n[0].Single]},{"a":3,"n":"UpdateAnimationStatus","t":8,"pi":[{"n":"deltaTime","pt":$n[0].Single,"ps":0}],"sn":"UpdateAnimationStatus","rt":$n[0].Void,"p":[$n[0].Single]},{"a":2,"n":"AnimationName","t":16,"rt":$n[0].String,"g":{"a":2,"n":"get_AnimationName","t":8,"rt":$n[0].String,"fg":"AnimationName"},"s":{"a":2,"n":"set_AnimationName","t":8,"p":[$n[0].String],"rt":$n[0].Void,"fs":"AnimationName"},"fn":"AnimationName"},{"a":2,"n":"AnimationState","t":16,"rt":$n[4].AnimationState,"g":{"a":2,"n":"get_AnimationState","t":8,"rt":$n[4].AnimationState,"fg":"AnimationState"},"fn":"AnimationState"},{"a":2,"n":"UnscaledTime","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_UnscaledTime","t":8,"rt":$n[0].Boolean,"fg":"UnscaledTime","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_UnscaledTime","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"UnscaledTime"},"fn":"UnscaledTime"},{"a":2,"n":"UpdateTiming","t":16,"rt":$n[5].UpdateTiming,"g":{"a":2,"n":"get_UpdateTiming","t":8,"rt":$n[5].UpdateTiming,"fg":"UpdateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},"s":{"a":2,"n":"set_UpdateTiming","t":8,"p":[$n[5].UpdateTiming],"rt":$n[0].Void,"fs":"UpdateTiming"},"fn":"UpdateTiming"},{"at":[new UnityEngine.SerializeFieldAttribute(),new Spine.Unity.SpineAnimation("", "", true, false)],"a":1,"n":"_animationName","t":4,"rt":$n[0].String,"sn":"_animationName"},{"a":2,"n":"loop","t":4,"rt":$n[0].Boolean,"sn":"loop","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"state","t":4,"rt":$n[4].AnimationState,"sn":"state"},{"a":2,"n":"timeScale","t":4,"rt":$n[0].Single,"sn":"timeScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"unscaledTime","t":4,"rt":$n[0].Boolean,"sn":"unscaledTime","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"updateTiming","t":4,"rt":$n[5].UpdateTiming,"sn":"updateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},{"a":1,"n":"wasUpdatedAfterInit","t":4,"rt":$n[0].Boolean,"sn":"wasUpdatedAfterInit","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"BeforeApply","t":2,"ad":{"a":2,"n":"add_BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addBeforeApply","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeBeforeApply","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnAnimationRebuild","t":2,"ad":{"a":2,"n":"add_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnAnimationRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnAnimationRebuild","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateComplete","t":2,"ad":{"a":2,"n":"add_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateComplete","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateComplete","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateLocal","t":2,"ad":{"a":2,"n":"add_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateLocal","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateLocal","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateWorld","t":2,"ad":{"a":2,"n":"add_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateWorld","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateWorld","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_BeforeApply","t":2,"ad":{"a":3,"n":"add__BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_BeforeApply","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_BeforeApply","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_OnAnimationRebuild","t":2,"ad":{"a":3,"n":"add__OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_OnAnimationRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_OnAnimationRebuild","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_UpdateComplete","t":2,"ad":{"a":3,"n":"add__UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_UpdateComplete","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_UpdateComplete","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_UpdateLocal","t":2,"ad":{"a":3,"n":"add__UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_UpdateLocal","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_UpdateLocal","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_UpdateWorld","t":2,"ad":{"a":3,"n":"add__UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_UpdateWorld","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_UpdateWorld","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*Spine.Unity.SkeletonAnimation end.*/
 
     /*Spine.Unity.SkeletonGraphic start.*/
-    $m("Spine.Unity.SkeletonGraphic", function () { return {"nested":[$n[4].SkeletonGraphic.LayoutMode,Function,Function,Function,Function],"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.RequireComponent.$ctor1(UnityEngine.CanvasRenderer, UnityEngine.RectTransform),new UnityEngine.DisallowMultipleComponent(),new UnityEngine.AddComponentMenu.ctor("Spine/SkeletonGraphic (Unity UI Canvas)"),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonGraphic-Component")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddSkeletonGraphicComponent","is":true,"t":8,"pi":[{"n":"gameObject","pt":$n[2].GameObject,"ps":0},{"n":"skeletonDataAsset","pt":$n[4].SkeletonDataAsset,"ps":1},{"n":"material","pt":$n[2].Material,"ps":2}],"sn":"AddSkeletonGraphicComponent","rt":$n[4].SkeletonGraphic,"p":[$n[2].GameObject,$n[4].SkeletonDataAsset,$n[2].Material]},{"a":2,"n":"AfterAnimationApplied","t":8,"sn":"AfterAnimationApplied","rt":$n[0].Void},{"a":3,"n":"ApplyAnimation","t":8,"sn":"ApplyAnimation","rt":$n[0].Void},{"ov":true,"a":3,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":3,"n":"DestroyMeshes","t":8,"sn":"DestroyMeshes","rt":$n[0].Void},{"a":3,"n":"DisableUnusedCanvasRenderers","t":8,"pi":[{"n":"usedCount","pt":$n[0].Int32,"ps":0},{"n":"isInRebuild","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DisableUnusedCanvasRenderers","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Boolean]},{"a":3,"n":"DisposeMeshBuffers","t":8,"sn":"DisposeMeshBuffers","rt":$n[0].Void},{"a":3,"n":"EnsureCanvasRendererCount","t":8,"pi":[{"n":"targetCount","pt":$n[0].Int32,"ps":0}],"sn":"EnsureCanvasRendererCount","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":3,"n":"EnsureMeshesCount","t":8,"pi":[{"n":"targetCount","pt":$n[0].Int32,"ps":0}],"sn":"EnsureMeshesCount","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":3,"n":"EnsureSeparatorPartCount","t":8,"sn":"EnsureSeparatorPartCount","rt":$n[0].Void},{"a":3,"n":"EnsureUsedTexturesAndMaterialsCount","t":8,"pi":[{"n":"targetCount","pt":$n[0].Int32,"ps":0}],"sn":"EnsureUsedTexturesAndMaterialsCount","rt":$n[0].Void,"p":[$n[0].Int32]},{"v":true,"a":3,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"GetCurrentRectSize","t":8,"sn":"GetCurrentRectSize","rt":$n[2].Vector2},{"a":2,"n":"GetLastMesh","t":8,"sn":"GetLastMesh","rt":$n[2].Mesh},{"a":3,"n":"GetLayoutScale","t":8,"pi":[{"n":"mode","pt":$n[4].SkeletonGraphic.LayoutMode,"ps":0}],"sn":"GetLayoutScale","rt":$n[0].Single,"p":[$n[4].SkeletonGraphic.LayoutMode],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"HandleOnDemandLoading","t":8,"sn":"HandleOnDemandLoading","rt":$n[0].Void},{"a":2,"n":"HasMultipleSubmeshInstructions","t":8,"sn":"HasMultipleSubmeshInstructions","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"InitMeshBuffers","t":8,"sn":"InitMeshBuffers","rt":$n[0].Void},{"a":2,"n":"Initialize","t":8,"pi":[{"n":"overwrite","pt":$n[0].Boolean,"ps":0}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":3,"n":"MatchRectTransformMultipleRenderers","t":8,"sn":"MatchRectTransformMultipleRenderers","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"MatchRectTransformSingleRenderer","t":8,"sn":"MatchRectTransformSingleRenderer","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"MatchRectTransformWithBounds","t":8,"sn":"MatchRectTransformWithBounds","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"NewSkeletonGraphicGameObject","is":true,"t":8,"pi":[{"n":"skeletonDataAsset","pt":$n[4].SkeletonDataAsset,"ps":0},{"n":"parent","pt":$n[2].Transform,"ps":1},{"n":"material","pt":$n[2].Material,"ps":2}],"sn":"NewSkeletonGraphicGameObject","rt":$n[4].SkeletonGraphic,"p":[$n[4].SkeletonDataAsset,$n[2].Transform,$n[2].Material]},{"a":2,"n":"OnBecameInvisible","t":8,"sn":"OnBecameInvisible","rt":$n[0].Void},{"a":2,"n":"OnBecameVisible","t":8,"sn":"OnBecameVisible","rt":$n[0].Void},{"a":3,"n":"OnCullStateChanged","t":8,"pi":[{"n":"culled","pt":$n[0].Boolean,"ps":0}],"sn":"OnCullStateChanged","rt":$n[0].Void,"p":[$n[0].Boolean]},{"ov":true,"a":3,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":2,"n":"PrepareInstructionsAndRenderers","t":8,"pi":[{"n":"isInRebuild","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"PrepareInstructionsAndRenderers","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":3,"n":"PrepareRendererGameObjects","t":8,"pi":[{"n":"currentInstructions","pt":$n[4].SkeletonRendererInstruction,"ps":0},{"n":"isInRebuild","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"PrepareRendererGameObjects","rt":$n[0].Void,"p":[$n[4].SkeletonRendererInstruction,$n[0].Boolean]},{"a":2,"n":"ReapplySeparatorSlotNames","t":8,"sn":"ReapplySeparatorSlotNames","rt":$n[0].Void},{"ov":true,"a":2,"n":"Rebuild","t":8,"pi":[{"n":"update","pt":$n[7].CanvasUpdate,"ps":0}],"sn":"Rebuild","rt":$n[0].Void,"p":[$n[7].CanvasUpdate]},{"a":1,"n":"SetRectTransformBounds","t":8,"pi":[{"n":"combinedBounds","pt":$n[2].Bounds,"ps":0}],"sn":"SetRectTransformBounds","rt":$n[0].Void,"p":[$n[2].Bounds]},{"a":2,"n":"SetRectTransformSize","is":true,"t":8,"pi":[{"n":"targetRectTransform","pt":$n[2].RectTransform,"ps":0},{"n":"size","pt":$n[2].Vector2,"ps":1}],"sn":"SetRectTransformSize","rt":$n[0].Void,"p":[$n[2].RectTransform,$n[2].Vector2]},{"a":2,"n":"SetRectTransformSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[7].Graphic,"ps":0},{"n":"size","pt":$n[2].Vector2,"ps":1}],"sn":"SetRectTransformSize$1","rt":$n[0].Void,"p":[$n[7].Graphic,$n[2].Vector2]},{"a":3,"n":"SyncSubmeshGraphicsWithCanvasRenderers","t":8,"sn":"SyncSubmeshGraphicsWithCanvasRenderers","rt":$n[0].Void},{"a":2,"n":"TrimRenderers","t":8,"sn":"TrimRenderers","rt":$n[0].Void},{"v":true,"a":2,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"v":true,"a":2,"n":"Update","t":8,"pi":[{"n":"deltaTime","pt":$n[0].Single,"ps":0}],"sn":"Update$1","rt":$n[0].Void,"p":[$n[0].Single]},{"a":3,"n":"UpdateAnimationStatus","t":8,"pi":[{"n":"deltaTime","pt":$n[0].Single,"ps":0}],"sn":"UpdateAnimationStatus","rt":$n[0].Void,"p":[$n[0].Single]},{"a":3,"n":"UpdateMaterialsMultipleCanvasRenderers","t":8,"pi":[{"n":"currentInstructions","pt":$n[4].SkeletonRendererInstruction,"ps":0}],"sn":"UpdateMaterialsMultipleCanvasRenderers","rt":$n[0].Void,"p":[$n[4].SkeletonRendererInstruction]},{"a":2,"n":"UpdateMesh","t":8,"sn":"UpdateMesh","rt":$n[0].Void},{"a":3,"n":"UpdateMeshMultipleCanvasRenderers","t":8,"pi":[{"n":"currentInstructions","pt":$n[4].SkeletonRendererInstruction,"ps":0}],"sn":"UpdateMeshMultipleCanvasRenderers","rt":$n[0].Void,"p":[$n[4].SkeletonRendererInstruction]},{"a":3,"n":"UpdateMeshSingleCanvasRenderer","t":8,"pi":[{"n":"currentInstructions","pt":$n[4].SkeletonRendererInstruction,"ps":0}],"sn":"UpdateMeshSingleCanvasRenderer","rt":$n[0].Void,"p":[$n[4].SkeletonRendererInstruction]},{"a":2,"n":"UpdateMeshToInstructions","t":8,"sn":"UpdateMeshToInstructions","rt":$n[0].Void},{"a":3,"n":"UpdateSeparatorPartParents","t":8,"sn":"UpdateSeparatorPartParents","rt":$n[0].Void},{"a":2,"n":"AnimationState","t":16,"rt":$n[3].AnimationState,"g":{"a":2,"n":"get_AnimationState","t":8,"rt":$n[3].AnimationState,"fg":"AnimationState"},"fn":"AnimationState"},{"a":2,"n":"CustomMaterialOverride","t":16,"rt":$n[5].Dictionary$2(UnityEngine.Texture,UnityEngine.Material),"g":{"a":2,"n":"get_CustomMaterialOverride","t":8,"rt":$n[5].Dictionary$2(UnityEngine.Texture,UnityEngine.Material),"fg":"CustomMaterialOverride"},"fn":"CustomMaterialOverride"},{"a":2,"n":"CustomTextureOverride","t":16,"rt":$n[5].Dictionary$2(UnityEngine.Texture,UnityEngine.Texture),"g":{"a":2,"n":"get_CustomTextureOverride","t":8,"rt":$n[5].Dictionary$2(UnityEngine.Texture,UnityEngine.Texture),"fg":"CustomTextureOverride"},"fn":"CustomTextureOverride"},{"a":2,"n":"IsValid","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsValid","t":8,"rt":$n[0].Boolean,"fg":"IsValid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsValid"},{"a":2,"n":"MaterialsMultipleCanvasRenderers","t":16,"rt":$n[3].ExposedList$1(UnityEngine.Material),"g":{"a":2,"n":"get_MaterialsMultipleCanvasRenderers","t":8,"rt":$n[3].ExposedList$1(UnityEngine.Material),"fg":"MaterialsMultipleCanvasRenderers"},"fn":"MaterialsMultipleCanvasRenderers"},{"a":2,"n":"MeshGenerator","t":16,"rt":$n[4].MeshGenerator,"g":{"a":2,"n":"get_MeshGenerator","t":8,"rt":$n[4].MeshGenerator,"fg":"MeshGenerator"},"fn":"MeshGenerator"},{"a":2,"n":"MeshScale","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_MeshScale","t":8,"rt":$n[0].Single,"fg":"MeshScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"MeshScale"},{"a":2,"n":"MeshesMultipleCanvasRenderers","t":16,"rt":$n[3].ExposedList$1(UnityEngine.Mesh),"g":{"a":2,"n":"get_MeshesMultipleCanvasRenderers","t":8,"rt":$n[3].ExposedList$1(UnityEngine.Mesh),"fg":"MeshesMultipleCanvasRenderers"},"fn":"MeshesMultipleCanvasRenderers"},{"a":2,"n":"OverrideTexture","t":16,"rt":$n[2].Texture,"g":{"a":2,"n":"get_OverrideTexture","t":8,"rt":$n[2].Texture,"fg":"OverrideTexture"},"s":{"a":2,"n":"set_OverrideTexture","t":8,"p":[$n[2].Texture],"rt":$n[0].Void,"fs":"OverrideTexture"},"fn":"OverrideTexture"},{"a":2,"n":"SeparatorParts","t":16,"rt":$n[5].List$1(UnityEngine.Transform),"g":{"a":2,"n":"get_SeparatorParts","t":8,"rt":$n[5].List$1(UnityEngine.Transform),"fg":"SeparatorParts"},"fn":"SeparatorParts"},{"a":2,"n":"Skeleton","t":16,"rt":$n[3].Skeleton,"g":{"a":2,"n":"get_Skeleton","t":8,"rt":$n[3].Skeleton,"fg":"Skeleton"},"s":{"a":2,"n":"set_Skeleton","t":8,"p":[$n[3].Skeleton],"rt":$n[0].Void,"fs":"Skeleton"},"fn":"Skeleton"},{"a":2,"n":"SkeletonData","t":16,"rt":$n[3].SkeletonData,"g":{"a":2,"n":"get_SkeletonData","t":8,"rt":$n[3].SkeletonData,"fg":"SkeletonData"},"fn":"SkeletonData"},{"a":2,"n":"SkeletonDataAsset","t":16,"rt":$n[4].SkeletonDataAsset,"g":{"a":2,"n":"get_SkeletonDataAsset","t":8,"rt":$n[4].SkeletonDataAsset,"fg":"SkeletonDataAsset"},"fn":"SkeletonDataAsset"},{"a":2,"n":"TexturesMultipleCanvasRenderers","t":16,"rt":$n[3].ExposedList$1(UnityEngine.Texture),"g":{"a":2,"n":"get_TexturesMultipleCanvasRenderers","t":8,"rt":$n[3].ExposedList$1(UnityEngine.Texture),"fg":"TexturesMultipleCanvasRenderers"},"fn":"TexturesMultipleCanvasRenderers"},{"a":2,"n":"UnscaledTime","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_UnscaledTime","t":8,"rt":$n[0].Boolean,"fg":"UnscaledTime","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_UnscaledTime","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"UnscaledTime"},"fn":"UnscaledTime"},{"a":2,"n":"UpdateMode","t":16,"rt":$n[4].UpdateMode,"g":{"a":2,"n":"get_UpdateMode","t":8,"rt":$n[4].UpdateMode,"fg":"UpdateMode","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},"s":{"a":2,"n":"set_UpdateMode","t":8,"p":[$n[4].UpdateMode],"rt":$n[0].Void,"fs":"UpdateMode"},"fn":"UpdateMode"},{"a":2,"n":"UpdateTiming","t":16,"rt":$n[4].UpdateTiming,"g":{"a":2,"n":"get_UpdateTiming","t":8,"rt":$n[4].UpdateTiming,"fg":"UpdateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},"s":{"a":2,"n":"set_UpdateTiming","t":8,"p":[$n[4].UpdateTiming],"rt":$n[0].Void,"fs":"UpdateTiming"},"fn":"UpdateTiming"},{"ov":true,"a":2,"n":"mainTexture","t":16,"rt":$n[2].Texture,"g":{"ov":true,"a":2,"n":"get_mainTexture","t":8,"rt":$n[2].Texture,"fg":"mainTexture"},"fn":"mainTexture"},{"a":3,"n":"EditReferenceRect","is":true,"t":4,"rt":$n[0].Boolean,"sn":"EditReferenceRect","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SeparatorPartGameObjectName","is":true,"t":4,"rt":$n[0].String,"sn":"SeparatorPartGameObjectName"},{"a":2,"n":"additiveMaterial","t":4,"rt":$n[2].Material,"sn":"additiveMaterial"},{"a":2,"n":"allowMultipleCanvasRenderers","t":4,"rt":$n[0].Boolean,"sn":"allowMultipleCanvasRenderers","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"baseTexture","t":4,"rt":$n[2].Texture,"sn":"baseTexture"},{"a":2,"n":"canvasRenderers","t":4,"rt":$n[5].List$1(UnityEngine.CanvasRenderer),"sn":"canvasRenderers"},{"a":1,"n":"currentInstructions","t":4,"rt":$n[4].SkeletonRendererInstruction,"sn":"currentInstructions"},{"a":1,"n":"customMaterialOverride","t":4,"rt":$n[5].Dictionary$2(UnityEngine.Texture,UnityEngine.Material),"sn":"customMaterialOverride","ro":true},{"a":1,"n":"customTextureOverride","t":4,"rt":$n[5].Dictionary$2(UnityEngine.Texture,UnityEngine.Texture),"sn":"customTextureOverride","ro":true},{"a":2,"n":"disableMeshAssignmentOnOverride","t":4,"rt":$n[0].Boolean,"sn":"disableMeshAssignmentOnOverride","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"enableSeparatorSlots","t":4,"rt":$n[0].Boolean,"sn":"enableSeparatorSlots","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"freeze","t":4,"rt":$n[0].Boolean,"sn":"freeze","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"initialFlipX","t":4,"rt":$n[0].Boolean,"sn":"initialFlipX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"initialFlipY","t":4,"rt":$n[0].Boolean,"sn":"initialFlipY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new Spine.Unity.SpineSkin("", "skeletonDataAsset", true, false, true)],"a":2,"n":"initialSkinName","t":4,"rt":$n[0].String,"sn":"initialSkinName"},{"a":2,"n":"layoutScaleMode","t":4,"rt":$n[4].SkeletonGraphic.LayoutMode,"sn":"layoutScaleMode","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonGraphic.LayoutMode, System.Enum.toStringFn(Spine.Unity.SkeletonGraphic.LayoutMode));}},{"a":1,"n":"meshBuffers","t":4,"rt":$n[4].DoubleBuffered$1(Spine.Unity.MeshRendererBuffers.SmartMesh),"sn":"meshBuffers"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"meshGenerator","t":4,"rt":$n[4].MeshGenerator,"sn":"meshGenerator"},{"a":3,"n":"meshScale","t":4,"rt":$n[0].Single,"sn":"meshScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"meshes","t":4,"rt":$n[3].ExposedList$1(UnityEngine.Mesh),"sn":"meshes","ro":true},{"a":2,"n":"multiplyMaterial","t":4,"rt":$n[2].Material,"sn":"multiplyMaterial"},{"a":1,"n":"overrideTexture","t":4,"rt":$n[2].Texture,"sn":"overrideTexture"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"referenceScale","t":4,"rt":$n[0].Single,"sn":"referenceScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"referenceSize","t":4,"rt":$n[2].Vector2,"sn":"referenceSize"},{"a":2,"n":"screenMaterial","t":4,"rt":$n[2].Material,"sn":"screenMaterial"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"separatorParts","t":4,"rt":$n[5].List$1(UnityEngine.Transform),"sn":"separatorParts"},{"at":[new UnityEngine.SerializeFieldAttribute(),new Spine.Unity.SpineSlot("", "", false, true, false)],"a":3,"n":"separatorSlotNames","t":4,"rt":$n[0].Array.type(System.String),"sn":"separatorSlotNames"},{"a":2,"n":"separatorSlots","t":4,"rt":$n[5].List$1(Spine.Slot),"sn":"separatorSlots","ro":true},{"a":3,"n":"skeleton","t":4,"rt":$n[3].Skeleton,"sn":"skeleton"},{"a":2,"n":"skeletonDataAsset","t":4,"rt":$n[4].SkeletonDataAsset,"sn":"skeletonDataAsset"},{"at":[new Spine.Unity.SpineAnimation("", "skeletonDataAsset", true, false)],"a":2,"n":"startingAnimation","t":4,"rt":$n[0].String,"sn":"startingAnimation"},{"a":2,"n":"startingLoop","t":4,"rt":$n[0].Boolean,"sn":"startingLoop","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"state","t":4,"rt":$n[3].AnimationState,"sn":"state"},{"a":3,"n":"submeshGraphics","t":4,"rt":$n[5].List$1(Spine.Unity.SkeletonSubmeshGraphic),"sn":"submeshGraphics"},{"a":2,"n":"timeScale","t":4,"rt":$n[0].Single,"sn":"timeScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"unscaledTime","t":4,"rt":$n[0].Boolean,"sn":"unscaledTime","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"updateMode","t":4,"rt":$n[4].UpdateMode,"sn":"updateMode","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"updateSeparatorPartLocation","t":4,"rt":$n[0].Boolean,"sn":"updateSeparatorPartLocation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"updateSeparatorPartScale","t":4,"rt":$n[0].Boolean,"sn":"updateSeparatorPartScale","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"updateTiming","t":4,"rt":$n[4].UpdateTiming,"sn":"updateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},{"a":2,"n":"updateWhenInvisible","t":4,"rt":$n[4].UpdateMode,"sn":"updateWhenInvisible","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":1,"n":"usedMaterials","t":4,"rt":$n[3].ExposedList$1(UnityEngine.Material),"sn":"usedMaterials","ro":true},{"a":3,"n":"usedRenderersCount","t":4,"rt":$n[0].Int32,"sn":"usedRenderersCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"usedTextures","t":4,"rt":$n[3].ExposedList$1(UnityEngine.Texture),"sn":"usedTextures","ro":true},{"a":1,"n":"wasUpdatedAfterInit","t":4,"rt":$n[0].Boolean,"sn":"wasUpdatedAfterInit","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"AssignMeshOverrideMultipleRenderers","t":2,"ad":{"a":2,"n":"add_AssignMeshOverrideMultipleRenderers","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addAssignMeshOverrideMultipleRenderers","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_AssignMeshOverrideMultipleRenderers","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeAssignMeshOverrideMultipleRenderers","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"AssignMeshOverrideSingleRenderer","t":2,"ad":{"a":2,"n":"add_AssignMeshOverrideSingleRenderer","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addAssignMeshOverrideSingleRenderer","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_AssignMeshOverrideSingleRenderer","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeAssignMeshOverrideSingleRenderer","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"BeforeApply","t":2,"ad":{"a":2,"n":"add_BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addBeforeApply","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeBeforeApply","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnAnimationRebuild","t":2,"ad":{"a":2,"n":"add_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnAnimationRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnAnimationRebuild","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnInstructionsPrepared","t":2,"ad":{"a":2,"n":"add_OnInstructionsPrepared","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnInstructionsPrepared","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnInstructionsPrepared","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnInstructionsPrepared","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnMeshAndMaterialsUpdated","t":2,"ad":{"a":2,"n":"add_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnPostProcessVertices","t":2,"ad":{"a":2,"n":"add_OnPostProcessVertices","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnPostProcessVertices","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnPostProcessVertices","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnPostProcessVertices","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnRebuild","t":2,"ad":{"a":2,"n":"add_OnRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnRebuild","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateComplete","t":2,"ad":{"a":2,"n":"add_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateComplete","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateComplete","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateLocal","t":2,"ad":{"a":2,"n":"add_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateLocal","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateLocal","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateWorld","t":2,"ad":{"a":2,"n":"add_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateWorld","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateWorld","rt":$n[0].Void,"p":[Function]}},{"a":1,"n":"assignMeshOverrideMultiple","t":2,"ad":{"a":1,"n":"add_assignMeshOverrideMultiple","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addassignMeshOverrideMultiple","rt":$n[0].Void,"p":[Function]},"r":{"a":1,"n":"remove_assignMeshOverrideMultiple","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeassignMeshOverrideMultiple","rt":$n[0].Void,"p":[Function]}},{"a":1,"n":"assignMeshOverrideSingle","t":2,"ad":{"a":1,"n":"add_assignMeshOverrideSingle","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addassignMeshOverrideSingle","rt":$n[0].Void,"p":[Function]},"r":{"a":1,"n":"remove_assignMeshOverrideSingle","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeassignMeshOverrideSingle","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("Spine.Unity.SkeletonGraphic", function () { return {"nested":[$n[5].SkeletonGraphic.LayoutMode,Function,Function,Function,Function],"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.RequireComponent.$ctor1(UnityEngine.CanvasRenderer, UnityEngine.RectTransform),new UnityEngine.DisallowMultipleComponent(),new UnityEngine.AddComponentMenu.ctor("Spine/SkeletonGraphic (Unity UI Canvas)"),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonGraphic-Component")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddSkeletonGraphicComponent","is":true,"t":8,"pi":[{"n":"gameObject","pt":$n[2].GameObject,"ps":0},{"n":"skeletonDataAsset","pt":$n[5].SkeletonDataAsset,"ps":1},{"n":"material","pt":$n[2].Material,"ps":2}],"sn":"AddSkeletonGraphicComponent","rt":$n[5].SkeletonGraphic,"p":[$n[2].GameObject,$n[5].SkeletonDataAsset,$n[2].Material]},{"a":2,"n":"AfterAnimationApplied","t":8,"sn":"AfterAnimationApplied","rt":$n[0].Void},{"a":3,"n":"ApplyAnimation","t":8,"sn":"ApplyAnimation","rt":$n[0].Void},{"ov":true,"a":3,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":3,"n":"DestroyMeshes","t":8,"sn":"DestroyMeshes","rt":$n[0].Void},{"a":3,"n":"DisableUnusedCanvasRenderers","t":8,"pi":[{"n":"usedCount","pt":$n[0].Int32,"ps":0},{"n":"isInRebuild","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DisableUnusedCanvasRenderers","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Boolean]},{"a":3,"n":"DisposeMeshBuffers","t":8,"sn":"DisposeMeshBuffers","rt":$n[0].Void},{"a":3,"n":"EnsureCanvasRendererCount","t":8,"pi":[{"n":"targetCount","pt":$n[0].Int32,"ps":0}],"sn":"EnsureCanvasRendererCount","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":3,"n":"EnsureMeshesCount","t":8,"pi":[{"n":"targetCount","pt":$n[0].Int32,"ps":0}],"sn":"EnsureMeshesCount","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":3,"n":"EnsureSeparatorPartCount","t":8,"sn":"EnsureSeparatorPartCount","rt":$n[0].Void},{"a":3,"n":"EnsureUsedTexturesAndMaterialsCount","t":8,"pi":[{"n":"targetCount","pt":$n[0].Int32,"ps":0}],"sn":"EnsureUsedTexturesAndMaterialsCount","rt":$n[0].Void,"p":[$n[0].Int32]},{"v":true,"a":3,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"GetCurrentRectSize","t":8,"sn":"GetCurrentRectSize","rt":$n[2].Vector2},{"a":2,"n":"GetLastMesh","t":8,"sn":"GetLastMesh","rt":$n[2].Mesh},{"a":3,"n":"GetLayoutScale","t":8,"pi":[{"n":"mode","pt":$n[5].SkeletonGraphic.LayoutMode,"ps":0}],"sn":"GetLayoutScale","rt":$n[0].Single,"p":[$n[5].SkeletonGraphic.LayoutMode],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"HandleOnDemandLoading","t":8,"sn":"HandleOnDemandLoading","rt":$n[0].Void},{"a":2,"n":"HasMultipleSubmeshInstructions","t":8,"sn":"HasMultipleSubmeshInstructions","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"InitMeshBuffers","t":8,"sn":"InitMeshBuffers","rt":$n[0].Void},{"a":2,"n":"Initialize","t":8,"pi":[{"n":"overwrite","pt":$n[0].Boolean,"ps":0}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"a":3,"n":"MatchRectTransformMultipleRenderers","t":8,"sn":"MatchRectTransformMultipleRenderers","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"MatchRectTransformSingleRenderer","t":8,"sn":"MatchRectTransformSingleRenderer","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"MatchRectTransformWithBounds","t":8,"sn":"MatchRectTransformWithBounds","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"NewSkeletonGraphicGameObject","is":true,"t":8,"pi":[{"n":"skeletonDataAsset","pt":$n[5].SkeletonDataAsset,"ps":0},{"n":"parent","pt":$n[2].Transform,"ps":1},{"n":"material","pt":$n[2].Material,"ps":2}],"sn":"NewSkeletonGraphicGameObject","rt":$n[5].SkeletonGraphic,"p":[$n[5].SkeletonDataAsset,$n[2].Transform,$n[2].Material]},{"a":2,"n":"OnBecameInvisible","t":8,"sn":"OnBecameInvisible","rt":$n[0].Void},{"a":2,"n":"OnBecameVisible","t":8,"sn":"OnBecameVisible","rt":$n[0].Void},{"a":3,"n":"OnCullStateChanged","t":8,"pi":[{"n":"culled","pt":$n[0].Boolean,"ps":0}],"sn":"OnCullStateChanged","rt":$n[0].Void,"p":[$n[0].Boolean]},{"ov":true,"a":3,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"ov":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":2,"n":"PrepareInstructionsAndRenderers","t":8,"pi":[{"n":"isInRebuild","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0}],"sn":"PrepareInstructionsAndRenderers","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":3,"n":"PrepareRendererGameObjects","t":8,"pi":[{"n":"currentInstructions","pt":$n[5].SkeletonRendererInstruction,"ps":0},{"n":"isInRebuild","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"PrepareRendererGameObjects","rt":$n[0].Void,"p":[$n[5].SkeletonRendererInstruction,$n[0].Boolean]},{"a":2,"n":"ReapplySeparatorSlotNames","t":8,"sn":"ReapplySeparatorSlotNames","rt":$n[0].Void},{"ov":true,"a":2,"n":"Rebuild","t":8,"pi":[{"n":"update","pt":$n[3].CanvasUpdate,"ps":0}],"sn":"Rebuild","rt":$n[0].Void,"p":[$n[3].CanvasUpdate]},{"a":1,"n":"SetRectTransformBounds","t":8,"pi":[{"n":"combinedBounds","pt":$n[2].Bounds,"ps":0}],"sn":"SetRectTransformBounds","rt":$n[0].Void,"p":[$n[2].Bounds]},{"a":2,"n":"SetRectTransformSize","is":true,"t":8,"pi":[{"n":"targetRectTransform","pt":$n[2].RectTransform,"ps":0},{"n":"size","pt":$n[2].Vector2,"ps":1}],"sn":"SetRectTransformSize","rt":$n[0].Void,"p":[$n[2].RectTransform,$n[2].Vector2]},{"a":2,"n":"SetRectTransformSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Graphic,"ps":0},{"n":"size","pt":$n[2].Vector2,"ps":1}],"sn":"SetRectTransformSize$1","rt":$n[0].Void,"p":[$n[3].Graphic,$n[2].Vector2]},{"a":3,"n":"SyncSubmeshGraphicsWithCanvasRenderers","t":8,"sn":"SyncSubmeshGraphicsWithCanvasRenderers","rt":$n[0].Void},{"a":2,"n":"TrimRenderers","t":8,"sn":"TrimRenderers","rt":$n[0].Void},{"v":true,"a":2,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"v":true,"a":2,"n":"Update","t":8,"pi":[{"n":"deltaTime","pt":$n[0].Single,"ps":0}],"sn":"Update$1","rt":$n[0].Void,"p":[$n[0].Single]},{"a":3,"n":"UpdateAnimationStatus","t":8,"pi":[{"n":"deltaTime","pt":$n[0].Single,"ps":0}],"sn":"UpdateAnimationStatus","rt":$n[0].Void,"p":[$n[0].Single]},{"a":3,"n":"UpdateMaterialsMultipleCanvasRenderers","t":8,"pi":[{"n":"currentInstructions","pt":$n[5].SkeletonRendererInstruction,"ps":0}],"sn":"UpdateMaterialsMultipleCanvasRenderers","rt":$n[0].Void,"p":[$n[5].SkeletonRendererInstruction]},{"a":2,"n":"UpdateMesh","t":8,"sn":"UpdateMesh","rt":$n[0].Void},{"a":3,"n":"UpdateMeshMultipleCanvasRenderers","t":8,"pi":[{"n":"currentInstructions","pt":$n[5].SkeletonRendererInstruction,"ps":0}],"sn":"UpdateMeshMultipleCanvasRenderers","rt":$n[0].Void,"p":[$n[5].SkeletonRendererInstruction]},{"a":3,"n":"UpdateMeshSingleCanvasRenderer","t":8,"pi":[{"n":"currentInstructions","pt":$n[5].SkeletonRendererInstruction,"ps":0}],"sn":"UpdateMeshSingleCanvasRenderer","rt":$n[0].Void,"p":[$n[5].SkeletonRendererInstruction]},{"a":2,"n":"UpdateMeshToInstructions","t":8,"sn":"UpdateMeshToInstructions","rt":$n[0].Void},{"a":3,"n":"UpdateSeparatorPartParents","t":8,"sn":"UpdateSeparatorPartParents","rt":$n[0].Void},{"a":2,"n":"AnimationState","t":16,"rt":$n[4].AnimationState,"g":{"a":2,"n":"get_AnimationState","t":8,"rt":$n[4].AnimationState,"fg":"AnimationState"},"fn":"AnimationState"},{"a":2,"n":"CustomMaterialOverride","t":16,"rt":$n[6].Dictionary$2(UnityEngine.Texture,UnityEngine.Material),"g":{"a":2,"n":"get_CustomMaterialOverride","t":8,"rt":$n[6].Dictionary$2(UnityEngine.Texture,UnityEngine.Material),"fg":"CustomMaterialOverride"},"fn":"CustomMaterialOverride"},{"a":2,"n":"CustomTextureOverride","t":16,"rt":$n[6].Dictionary$2(UnityEngine.Texture,UnityEngine.Texture),"g":{"a":2,"n":"get_CustomTextureOverride","t":8,"rt":$n[6].Dictionary$2(UnityEngine.Texture,UnityEngine.Texture),"fg":"CustomTextureOverride"},"fn":"CustomTextureOverride"},{"a":2,"n":"IsValid","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsValid","t":8,"rt":$n[0].Boolean,"fg":"IsValid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsValid"},{"a":2,"n":"MaterialsMultipleCanvasRenderers","t":16,"rt":$n[4].ExposedList$1(UnityEngine.Material),"g":{"a":2,"n":"get_MaterialsMultipleCanvasRenderers","t":8,"rt":$n[4].ExposedList$1(UnityEngine.Material),"fg":"MaterialsMultipleCanvasRenderers"},"fn":"MaterialsMultipleCanvasRenderers"},{"a":2,"n":"MeshGenerator","t":16,"rt":$n[5].MeshGenerator,"g":{"a":2,"n":"get_MeshGenerator","t":8,"rt":$n[5].MeshGenerator,"fg":"MeshGenerator"},"fn":"MeshGenerator"},{"a":2,"n":"MeshScale","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_MeshScale","t":8,"rt":$n[0].Single,"fg":"MeshScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"MeshScale"},{"a":2,"n":"MeshesMultipleCanvasRenderers","t":16,"rt":$n[4].ExposedList$1(UnityEngine.Mesh),"g":{"a":2,"n":"get_MeshesMultipleCanvasRenderers","t":8,"rt":$n[4].ExposedList$1(UnityEngine.Mesh),"fg":"MeshesMultipleCanvasRenderers"},"fn":"MeshesMultipleCanvasRenderers"},{"a":2,"n":"OverrideTexture","t":16,"rt":$n[2].Texture,"g":{"a":2,"n":"get_OverrideTexture","t":8,"rt":$n[2].Texture,"fg":"OverrideTexture"},"s":{"a":2,"n":"set_OverrideTexture","t":8,"p":[$n[2].Texture],"rt":$n[0].Void,"fs":"OverrideTexture"},"fn":"OverrideTexture"},{"a":2,"n":"SeparatorParts","t":16,"rt":$n[6].List$1(UnityEngine.Transform),"g":{"a":2,"n":"get_SeparatorParts","t":8,"rt":$n[6].List$1(UnityEngine.Transform),"fg":"SeparatorParts"},"fn":"SeparatorParts"},{"a":2,"n":"Skeleton","t":16,"rt":$n[4].Skeleton,"g":{"a":2,"n":"get_Skeleton","t":8,"rt":$n[4].Skeleton,"fg":"Skeleton"},"s":{"a":2,"n":"set_Skeleton","t":8,"p":[$n[4].Skeleton],"rt":$n[0].Void,"fs":"Skeleton"},"fn":"Skeleton"},{"a":2,"n":"SkeletonData","t":16,"rt":$n[4].SkeletonData,"g":{"a":2,"n":"get_SkeletonData","t":8,"rt":$n[4].SkeletonData,"fg":"SkeletonData"},"fn":"SkeletonData"},{"a":2,"n":"SkeletonDataAsset","t":16,"rt":$n[5].SkeletonDataAsset,"g":{"a":2,"n":"get_SkeletonDataAsset","t":8,"rt":$n[5].SkeletonDataAsset,"fg":"SkeletonDataAsset"},"fn":"SkeletonDataAsset"},{"a":2,"n":"TexturesMultipleCanvasRenderers","t":16,"rt":$n[4].ExposedList$1(UnityEngine.Texture),"g":{"a":2,"n":"get_TexturesMultipleCanvasRenderers","t":8,"rt":$n[4].ExposedList$1(UnityEngine.Texture),"fg":"TexturesMultipleCanvasRenderers"},"fn":"TexturesMultipleCanvasRenderers"},{"a":2,"n":"UnscaledTime","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_UnscaledTime","t":8,"rt":$n[0].Boolean,"fg":"UnscaledTime","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_UnscaledTime","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"UnscaledTime"},"fn":"UnscaledTime"},{"a":2,"n":"UpdateMode","t":16,"rt":$n[5].UpdateMode,"g":{"a":2,"n":"get_UpdateMode","t":8,"rt":$n[5].UpdateMode,"fg":"UpdateMode","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},"s":{"a":2,"n":"set_UpdateMode","t":8,"p":[$n[5].UpdateMode],"rt":$n[0].Void,"fs":"UpdateMode"},"fn":"UpdateMode"},{"a":2,"n":"UpdateTiming","t":16,"rt":$n[5].UpdateTiming,"g":{"a":2,"n":"get_UpdateTiming","t":8,"rt":$n[5].UpdateTiming,"fg":"UpdateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},"s":{"a":2,"n":"set_UpdateTiming","t":8,"p":[$n[5].UpdateTiming],"rt":$n[0].Void,"fs":"UpdateTiming"},"fn":"UpdateTiming"},{"ov":true,"a":2,"n":"mainTexture","t":16,"rt":$n[2].Texture,"g":{"ov":true,"a":2,"n":"get_mainTexture","t":8,"rt":$n[2].Texture,"fg":"mainTexture"},"fn":"mainTexture"},{"a":3,"n":"EditReferenceRect","is":true,"t":4,"rt":$n[0].Boolean,"sn":"EditReferenceRect","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SeparatorPartGameObjectName","is":true,"t":4,"rt":$n[0].String,"sn":"SeparatorPartGameObjectName"},{"a":2,"n":"additiveMaterial","t":4,"rt":$n[2].Material,"sn":"additiveMaterial"},{"a":2,"n":"allowMultipleCanvasRenderers","t":4,"rt":$n[0].Boolean,"sn":"allowMultipleCanvasRenderers","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"baseTexture","t":4,"rt":$n[2].Texture,"sn":"baseTexture"},{"a":2,"n":"canvasRenderers","t":4,"rt":$n[6].List$1(UnityEngine.CanvasRenderer),"sn":"canvasRenderers"},{"a":1,"n":"currentInstructions","t":4,"rt":$n[5].SkeletonRendererInstruction,"sn":"currentInstructions"},{"a":1,"n":"customMaterialOverride","t":4,"rt":$n[6].Dictionary$2(UnityEngine.Texture,UnityEngine.Material),"sn":"customMaterialOverride","ro":true},{"a":1,"n":"customTextureOverride","t":4,"rt":$n[6].Dictionary$2(UnityEngine.Texture,UnityEngine.Texture),"sn":"customTextureOverride","ro":true},{"a":2,"n":"disableMeshAssignmentOnOverride","t":4,"rt":$n[0].Boolean,"sn":"disableMeshAssignmentOnOverride","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"enableSeparatorSlots","t":4,"rt":$n[0].Boolean,"sn":"enableSeparatorSlots","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"freeze","t":4,"rt":$n[0].Boolean,"sn":"freeze","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"initialFlipX","t":4,"rt":$n[0].Boolean,"sn":"initialFlipX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"initialFlipY","t":4,"rt":$n[0].Boolean,"sn":"initialFlipY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new Spine.Unity.SpineSkin("", "skeletonDataAsset", true, false, true)],"a":2,"n":"initialSkinName","t":4,"rt":$n[0].String,"sn":"initialSkinName"},{"a":2,"n":"layoutScaleMode","t":4,"rt":$n[5].SkeletonGraphic.LayoutMode,"sn":"layoutScaleMode","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonGraphic.LayoutMode, System.Enum.toStringFn(Spine.Unity.SkeletonGraphic.LayoutMode));}},{"a":1,"n":"meshBuffers","t":4,"rt":$n[5].DoubleBuffered$1(Spine.Unity.MeshRendererBuffers.SmartMesh),"sn":"meshBuffers"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"meshGenerator","t":4,"rt":$n[5].MeshGenerator,"sn":"meshGenerator"},{"a":3,"n":"meshScale","t":4,"rt":$n[0].Single,"sn":"meshScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"meshes","t":4,"rt":$n[4].ExposedList$1(UnityEngine.Mesh),"sn":"meshes","ro":true},{"a":2,"n":"multiplyMaterial","t":4,"rt":$n[2].Material,"sn":"multiplyMaterial"},{"a":1,"n":"overrideTexture","t":4,"rt":$n[2].Texture,"sn":"overrideTexture"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"referenceScale","t":4,"rt":$n[0].Single,"sn":"referenceScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"referenceSize","t":4,"rt":$n[2].Vector2,"sn":"referenceSize"},{"a":2,"n":"screenMaterial","t":4,"rt":$n[2].Material,"sn":"screenMaterial"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"separatorParts","t":4,"rt":$n[6].List$1(UnityEngine.Transform),"sn":"separatorParts"},{"at":[new UnityEngine.SerializeFieldAttribute(),new Spine.Unity.SpineSlot("", "", false, true, false)],"a":3,"n":"separatorSlotNames","t":4,"rt":$n[0].Array.type(System.String),"sn":"separatorSlotNames"},{"a":2,"n":"separatorSlots","t":4,"rt":$n[6].List$1(Spine.Slot),"sn":"separatorSlots","ro":true},{"a":3,"n":"skeleton","t":4,"rt":$n[4].Skeleton,"sn":"skeleton"},{"a":2,"n":"skeletonDataAsset","t":4,"rt":$n[5].SkeletonDataAsset,"sn":"skeletonDataAsset"},{"at":[new Spine.Unity.SpineAnimation("", "skeletonDataAsset", true, false)],"a":2,"n":"startingAnimation","t":4,"rt":$n[0].String,"sn":"startingAnimation"},{"a":2,"n":"startingLoop","t":4,"rt":$n[0].Boolean,"sn":"startingLoop","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"state","t":4,"rt":$n[4].AnimationState,"sn":"state"},{"a":3,"n":"submeshGraphics","t":4,"rt":$n[6].List$1(Spine.Unity.SkeletonSubmeshGraphic),"sn":"submeshGraphics"},{"a":2,"n":"timeScale","t":4,"rt":$n[0].Single,"sn":"timeScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"unscaledTime","t":4,"rt":$n[0].Boolean,"sn":"unscaledTime","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"updateMode","t":4,"rt":$n[5].UpdateMode,"sn":"updateMode","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"updateSeparatorPartLocation","t":4,"rt":$n[0].Boolean,"sn":"updateSeparatorPartLocation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"updateSeparatorPartScale","t":4,"rt":$n[0].Boolean,"sn":"updateSeparatorPartScale","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"updateTiming","t":4,"rt":$n[5].UpdateTiming,"sn":"updateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},{"a":2,"n":"updateWhenInvisible","t":4,"rt":$n[5].UpdateMode,"sn":"updateWhenInvisible","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":1,"n":"usedMaterials","t":4,"rt":$n[4].ExposedList$1(UnityEngine.Material),"sn":"usedMaterials","ro":true},{"a":3,"n":"usedRenderersCount","t":4,"rt":$n[0].Int32,"sn":"usedRenderersCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"usedTextures","t":4,"rt":$n[4].ExposedList$1(UnityEngine.Texture),"sn":"usedTextures","ro":true},{"a":1,"n":"wasUpdatedAfterInit","t":4,"rt":$n[0].Boolean,"sn":"wasUpdatedAfterInit","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"AssignMeshOverrideMultipleRenderers","t":2,"ad":{"a":2,"n":"add_AssignMeshOverrideMultipleRenderers","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addAssignMeshOverrideMultipleRenderers","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_AssignMeshOverrideMultipleRenderers","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeAssignMeshOverrideMultipleRenderers","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"AssignMeshOverrideSingleRenderer","t":2,"ad":{"a":2,"n":"add_AssignMeshOverrideSingleRenderer","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addAssignMeshOverrideSingleRenderer","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_AssignMeshOverrideSingleRenderer","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeAssignMeshOverrideSingleRenderer","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"BeforeApply","t":2,"ad":{"a":2,"n":"add_BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addBeforeApply","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeBeforeApply","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnAnimationRebuild","t":2,"ad":{"a":2,"n":"add_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnAnimationRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnAnimationRebuild","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnInstructionsPrepared","t":2,"ad":{"a":2,"n":"add_OnInstructionsPrepared","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnInstructionsPrepared","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnInstructionsPrepared","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnInstructionsPrepared","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnMeshAndMaterialsUpdated","t":2,"ad":{"a":2,"n":"add_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnPostProcessVertices","t":2,"ad":{"a":2,"n":"add_OnPostProcessVertices","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnPostProcessVertices","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnPostProcessVertices","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnPostProcessVertices","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnRebuild","t":2,"ad":{"a":2,"n":"add_OnRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnRebuild","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateComplete","t":2,"ad":{"a":2,"n":"add_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateComplete","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateComplete","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateLocal","t":2,"ad":{"a":2,"n":"add_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateLocal","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateLocal","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateWorld","t":2,"ad":{"a":2,"n":"add_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateWorld","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateWorld","rt":$n[0].Void,"p":[Function]}},{"a":1,"n":"assignMeshOverrideMultiple","t":2,"ad":{"a":1,"n":"add_assignMeshOverrideMultiple","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addassignMeshOverrideMultiple","rt":$n[0].Void,"p":[Function]},"r":{"a":1,"n":"remove_assignMeshOverrideMultiple","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeassignMeshOverrideMultiple","rt":$n[0].Void,"p":[Function]}},{"a":1,"n":"assignMeshOverrideSingle","t":2,"ad":{"a":1,"n":"add_assignMeshOverrideSingle","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addassignMeshOverrideSingle","rt":$n[0].Void,"p":[Function]},"r":{"a":1,"n":"remove_assignMeshOverrideSingle","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeassignMeshOverrideSingle","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*Spine.Unity.SkeletonGraphic end.*/
 
     /*Spine.Unity.SkeletonGraphic+LayoutMode start.*/
-    $m("Spine.Unity.SkeletonGraphic.LayoutMode", function () { return {"td":$n[4].SkeletonGraphic,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"EnvelopeParent","is":true,"t":4,"rt":$n[4].SkeletonGraphic.LayoutMode,"sn":"EnvelopeParent","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonGraphic.LayoutMode, System.Enum.toStringFn(Spine.Unity.SkeletonGraphic.LayoutMode));}},{"a":2,"n":"FitInParent","is":true,"t":4,"rt":$n[4].SkeletonGraphic.LayoutMode,"sn":"FitInParent","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonGraphic.LayoutMode, System.Enum.toStringFn(Spine.Unity.SkeletonGraphic.LayoutMode));}},{"a":2,"n":"HeightControlsWidth","is":true,"t":4,"rt":$n[4].SkeletonGraphic.LayoutMode,"sn":"HeightControlsWidth","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonGraphic.LayoutMode, System.Enum.toStringFn(Spine.Unity.SkeletonGraphic.LayoutMode));}},{"a":2,"n":"None","is":true,"t":4,"rt":$n[4].SkeletonGraphic.LayoutMode,"sn":"None","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonGraphic.LayoutMode, System.Enum.toStringFn(Spine.Unity.SkeletonGraphic.LayoutMode));}},{"a":2,"n":"WidthControlsHeight","is":true,"t":4,"rt":$n[4].SkeletonGraphic.LayoutMode,"sn":"WidthControlsHeight","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonGraphic.LayoutMode, System.Enum.toStringFn(Spine.Unity.SkeletonGraphic.LayoutMode));}}]}; }, $n);
+    $m("Spine.Unity.SkeletonGraphic.LayoutMode", function () { return {"td":$n[5].SkeletonGraphic,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"EnvelopeParent","is":true,"t":4,"rt":$n[5].SkeletonGraphic.LayoutMode,"sn":"EnvelopeParent","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonGraphic.LayoutMode, System.Enum.toStringFn(Spine.Unity.SkeletonGraphic.LayoutMode));}},{"a":2,"n":"FitInParent","is":true,"t":4,"rt":$n[5].SkeletonGraphic.LayoutMode,"sn":"FitInParent","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonGraphic.LayoutMode, System.Enum.toStringFn(Spine.Unity.SkeletonGraphic.LayoutMode));}},{"a":2,"n":"HeightControlsWidth","is":true,"t":4,"rt":$n[5].SkeletonGraphic.LayoutMode,"sn":"HeightControlsWidth","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonGraphic.LayoutMode, System.Enum.toStringFn(Spine.Unity.SkeletonGraphic.LayoutMode));}},{"a":2,"n":"None","is":true,"t":4,"rt":$n[5].SkeletonGraphic.LayoutMode,"sn":"None","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonGraphic.LayoutMode, System.Enum.toStringFn(Spine.Unity.SkeletonGraphic.LayoutMode));}},{"a":2,"n":"WidthControlsHeight","is":true,"t":4,"rt":$n[5].SkeletonGraphic.LayoutMode,"sn":"WidthControlsHeight","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonGraphic.LayoutMode, System.Enum.toStringFn(Spine.Unity.SkeletonGraphic.LayoutMode));}}]}; }, $n);
     /*Spine.Unity.SkeletonGraphic+LayoutMode end.*/
 
     /*Spine.Unity.SkeletonMecanim start.*/
-    $m("Spine.Unity.SkeletonMecanim", function () { return {"nested":[$n[4].SkeletonMecanim.MecanimTranslator],"att":1048577,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.Animator),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonMecanim-Component")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":3,"n":"ApplyAnimation","t":8,"sn":"ApplyAnimation","rt":$n[0].Void},{"v":true,"a":2,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"ov":true,"a":2,"n":"Initialize","t":8,"pi":[{"n":"overwrite","pt":$n[0].Boolean,"ps":0},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Boolean,$n[0].Boolean]},{"ov":true,"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"ov":true,"a":2,"n":"OnBecameVisible","t":8,"sn":"OnBecameVisible","rt":$n[0].Void},{"v":true,"a":2,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"v":true,"a":2,"n":"Update","t":8,"pi":[{"n":"deltaTime","pt":$n[0].Single,"ps":0}],"sn":"Update$1","rt":$n[0].Void,"p":[$n[0].Single]},{"a":3,"n":"UpdateAnimation","t":8,"sn":"UpdateAnimation","rt":$n[0].Void},{"a":2,"n":"Translator","t":16,"rt":$n[4].SkeletonMecanim.MecanimTranslator,"g":{"a":2,"n":"get_Translator","t":8,"rt":$n[4].SkeletonMecanim.MecanimTranslator,"fg":"Translator"},"fn":"Translator"},{"a":2,"n":"UpdateTiming","t":16,"rt":$n[4].UpdateTiming,"g":{"a":2,"n":"get_UpdateTiming","t":8,"rt":$n[4].UpdateTiming,"fg":"UpdateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},"s":{"a":2,"n":"set_UpdateTiming","t":8,"p":[$n[4].UpdateTiming],"rt":$n[0].Void,"fs":"UpdateTiming"},"fn":"UpdateTiming"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"translator","t":4,"rt":$n[4].SkeletonMecanim.MecanimTranslator,"sn":"translator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"updateTiming","t":4,"rt":$n[4].UpdateTiming,"sn":"updateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},{"a":1,"n":"wasUpdatedAfterInit","t":4,"rt":$n[0].Boolean,"sn":"wasUpdatedAfterInit","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"BeforeApply","t":2,"ad":{"a":2,"n":"add_BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addBeforeApply","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeBeforeApply","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnAnimationRebuild","t":2,"ad":{"a":2,"n":"add_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnAnimationRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnAnimationRebuild","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateComplete","t":2,"ad":{"a":2,"n":"add_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateComplete","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateComplete","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateLocal","t":2,"ad":{"a":2,"n":"add_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateLocal","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateLocal","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateWorld","t":2,"ad":{"a":2,"n":"add_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateWorld","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateWorld","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_BeforeApply","t":2,"ad":{"a":3,"n":"add__BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_BeforeApply","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_BeforeApply","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_OnAnimationRebuild","t":2,"ad":{"a":3,"n":"add__OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_OnAnimationRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_OnAnimationRebuild","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_UpdateComplete","t":2,"ad":{"a":3,"n":"add__UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_UpdateComplete","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_UpdateComplete","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_UpdateLocal","t":2,"ad":{"a":3,"n":"add__UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_UpdateLocal","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_UpdateLocal","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_UpdateWorld","t":2,"ad":{"a":3,"n":"add__UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_UpdateWorld","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_UpdateWorld","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("Spine.Unity.SkeletonMecanim", function () { return {"nested":[$n[5].SkeletonMecanim.MecanimTranslator],"att":1048577,"a":2,"at":[new UnityEngine.RequireComponent.ctor(UnityEngine.Animator),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonMecanim-Component")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":3,"n":"ApplyAnimation","t":8,"sn":"ApplyAnimation","rt":$n[0].Void},{"v":true,"a":2,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"ov":true,"a":2,"n":"Initialize","t":8,"pi":[{"n":"overwrite","pt":$n[0].Boolean,"ps":0},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Boolean,$n[0].Boolean]},{"ov":true,"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"ov":true,"a":2,"n":"OnBecameVisible","t":8,"sn":"OnBecameVisible","rt":$n[0].Void},{"v":true,"a":2,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"v":true,"a":2,"n":"Update","t":8,"pi":[{"n":"deltaTime","pt":$n[0].Single,"ps":0}],"sn":"Update$1","rt":$n[0].Void,"p":[$n[0].Single]},{"a":3,"n":"UpdateAnimation","t":8,"sn":"UpdateAnimation","rt":$n[0].Void},{"a":2,"n":"Translator","t":16,"rt":$n[5].SkeletonMecanim.MecanimTranslator,"g":{"a":2,"n":"get_Translator","t":8,"rt":$n[5].SkeletonMecanim.MecanimTranslator,"fg":"Translator"},"fn":"Translator"},{"a":2,"n":"UpdateTiming","t":16,"rt":$n[5].UpdateTiming,"g":{"a":2,"n":"get_UpdateTiming","t":8,"rt":$n[5].UpdateTiming,"fg":"UpdateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},"s":{"a":2,"n":"set_UpdateTiming","t":8,"p":[$n[5].UpdateTiming],"rt":$n[0].Void,"fs":"UpdateTiming"},"fn":"UpdateTiming"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"translator","t":4,"rt":$n[5].SkeletonMecanim.MecanimTranslator,"sn":"translator"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"updateTiming","t":4,"rt":$n[5].UpdateTiming,"sn":"updateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},{"a":1,"n":"wasUpdatedAfterInit","t":4,"rt":$n[0].Boolean,"sn":"wasUpdatedAfterInit","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"BeforeApply","t":2,"ad":{"a":2,"n":"add_BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addBeforeApply","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeBeforeApply","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnAnimationRebuild","t":2,"ad":{"a":2,"n":"add_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnAnimationRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnAnimationRebuild","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateComplete","t":2,"ad":{"a":2,"n":"add_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateComplete","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateComplete","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateLocal","t":2,"ad":{"a":2,"n":"add_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateLocal","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateLocal","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"UpdateWorld","t":2,"ad":{"a":2,"n":"add_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addUpdateWorld","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeUpdateWorld","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_BeforeApply","t":2,"ad":{"a":3,"n":"add__BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_BeforeApply","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__BeforeApply","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_BeforeApply","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_OnAnimationRebuild","t":2,"ad":{"a":3,"n":"add__OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_OnAnimationRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_OnAnimationRebuild","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_UpdateComplete","t":2,"ad":{"a":3,"n":"add__UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_UpdateComplete","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_UpdateComplete","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_UpdateLocal","t":2,"ad":{"a":3,"n":"add__UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_UpdateLocal","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_UpdateLocal","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_UpdateWorld","t":2,"ad":{"a":3,"n":"add__UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_UpdateWorld","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_UpdateWorld","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*Spine.Unity.SkeletonMecanim end.*/
 
     /*Spine.Unity.SkeletonMecanim+MecanimTranslator start.*/
-    $m("Spine.Unity.SkeletonMecanim.MecanimTranslator", function () { return {"td":$n[4].SkeletonMecanim,"nested":[Function,$n[4].SkeletonMecanim.MecanimTranslator.MixMode,$n[4].SkeletonMecanim.MecanimTranslator.ClipInfos,$n[4].SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer,$n[4].SkeletonMecanim.MecanimTranslator.IntEqualityComparer],"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AnimationTime","is":true,"t":8,"pi":[{"n":"normalizedTime","pt":$n[0].Single,"ps":0},{"n":"clipLength","pt":$n[0].Single,"ps":1},{"n":"loop","pt":$n[0].Boolean,"ps":2},{"n":"reversed","pt":$n[0].Boolean,"ps":3}],"sn":"AnimationTime","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Single,$n[0].Boolean,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"Apply","t":8,"pi":[{"n":"skeleton","pt":$n[3].Skeleton,"ps":0}],"sn":"Apply","rt":$n[0].Void,"p":[$n[3].Skeleton]},{"a":1,"n":"ApplyAnimation","t":8,"pi":[{"n":"skeleton","pt":$n[3].Skeleton,"ps":0},{"n":"info","pt":$n[2].AnimatorClipInfo,"ps":1},{"n":"stateInfo","pt":$n[2].AnimatorStateInfo,"ps":2},{"n":"layerIndex","pt":$n[0].Int32,"ps":3},{"n":"layerWeight","pt":$n[0].Single,"ps":4},{"n":"layerBlendMode","pt":spine.MixBlend,"ps":5},{"n":"useClipWeight1","dv":false,"o":true,"pt":$n[0].Boolean,"ps":6}],"sn":"ApplyAnimation","rt":$n[0].Boolean,"p":[$n[3].Skeleton,$n[2].AnimatorClipInfo,$n[2].AnimatorStateInfo,$n[0].Int32,$n[0].Single,spine.MixBlend,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"ApplyInterruptionAnimation","t":8,"pi":[{"n":"skeleton","pt":$n[3].Skeleton,"ps":0},{"n":"interpolateWeightTo1","pt":$n[0].Boolean,"ps":1},{"n":"info","pt":$n[2].AnimatorClipInfo,"ps":2},{"n":"stateInfo","pt":$n[2].AnimatorStateInfo,"ps":3},{"n":"layerIndex","pt":$n[0].Int32,"ps":4},{"n":"layerWeight","pt":$n[0].Single,"ps":5},{"n":"layerBlendMode","pt":spine.MixBlend,"ps":6},{"n":"interruptingClipTimeAddition","pt":$n[0].Single,"ps":7},{"n":"useClipWeight1","dv":false,"o":true,"pt":$n[0].Boolean,"ps":8}],"sn":"ApplyInterruptionAnimation","rt":$n[0].Boolean,"p":[$n[3].Skeleton,$n[0].Boolean,$n[2].AnimatorClipInfo,$n[2].AnimatorStateInfo,$n[0].Int32,$n[0].Single,spine.MixBlend,$n[0].Single,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"ClearClipInfosForLayers","t":8,"sn":"ClearClipInfosForLayers","rt":$n[0].Void},{"a":2,"n":"GetActiveAnimationAndTime","t":8,"pi":[{"n":"layer","pt":$n[0].Int32,"ps":0}],"sn":"GetActiveAnimationAndTime","rt":$n[5].KeyValuePair$2(Spine.Animation,System.Single),"p":[$n[0].Int32]},{"a":1,"n":"GetAnimation","t":8,"pi":[{"n":"clip","pt":$n[2].AnimationClip,"ps":0}],"sn":"GetAnimation","rt":$n[3].Animation,"p":[$n[2].AnimationClip]},{"a":1,"n":"GetAnimatorClipInfos","t":8,"pi":[{"n":"layer","pt":$n[0].Int32,"ps":0},{"n":"isInterruptionActive","out":true,"pt":$n[0].Boolean,"ps":1},{"n":"clipInfoCount","out":true,"pt":$n[0].Int32,"ps":2},{"n":"nextClipInfoCount","out":true,"pt":$n[0].Int32,"ps":3},{"n":"interruptingClipInfoCount","out":true,"pt":$n[0].Int32,"ps":4},{"n":"clipInfo","out":true,"pt":$n[5].IList$1(UnityEngine.AnimatorClipInfo),"ps":5},{"n":"nextClipInfo","out":true,"pt":$n[5].IList$1(UnityEngine.AnimatorClipInfo),"ps":6},{"n":"interruptingClipInfo","out":true,"pt":$n[5].IList$1(UnityEngine.AnimatorClipInfo),"ps":7},{"n":"shallInterpolateWeightTo1","out":true,"pt":$n[0].Boolean,"ps":8}],"sn":"GetAnimatorClipInfos","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Boolean,$n[0].Int32,$n[0].Int32,$n[0].Int32,$n[5].IList$1(UnityEngine.AnimatorClipInfo),$n[5].IList$1(UnityEngine.AnimatorClipInfo),$n[5].IList$1(UnityEngine.AnimatorClipInfo),$n[0].Boolean]},{"a":1,"n":"GetAnimatorStateInfos","t":8,"pi":[{"n":"layer","pt":$n[0].Int32,"ps":0},{"n":"isInterruptionActive","out":true,"pt":$n[0].Boolean,"ps":1},{"n":"stateInfo","out":true,"pt":$n[2].AnimatorStateInfo,"ps":2},{"n":"nextStateInfo","out":true,"pt":$n[2].AnimatorStateInfo,"ps":3},{"n":"interruptingStateInfo","out":true,"pt":$n[2].AnimatorStateInfo,"ps":4},{"n":"interruptingClipTimeAddition","out":true,"pt":$n[0].Single,"ps":5}],"sn":"GetAnimatorStateInfos","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Boolean,$n[2].AnimatorStateInfo,$n[2].AnimatorStateInfo,$n[2].AnimatorStateInfo,$n[0].Single]},{"a":1,"n":"GetMixMode","t":8,"pi":[{"n":"layer","pt":$n[0].Int32,"ps":0},{"n":"layerBlendMode","pt":spine.MixBlend,"ps":1}],"sn":"GetMixMode","rt":$n[4].SkeletonMecanim.MecanimTranslator.MixMode,"p":[$n[0].Int32,spine.MixBlend],"box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode, System.Enum.toStringFn(Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode));}},{"a":1,"n":"GetStateUpdatesFromAnimator","t":8,"pi":[{"n":"layer","pt":$n[0].Int32,"ps":0}],"sn":"GetStateUpdatesFromAnimator","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"InitClipInfosForLayers","t":8,"sn":"InitClipInfosForLayers","rt":$n[0].Void},{"a":2,"n":"Initialize","t":8,"pi":[{"n":"animator","pt":$n[2].Animator,"ps":0},{"n":"skeletonDataAsset","pt":$n[4].SkeletonDataAsset,"ps":1}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[2].Animator,$n[4].SkeletonDataAsset]},{"a":1,"n":"OnClipAppliedCallback","t":8,"pi":[{"n":"clip","pt":$n[3].Animation,"ps":0},{"n":"stateInfo","pt":$n[2].AnimatorStateInfo,"ps":1},{"n":"layerIndex","pt":$n[0].Int32,"ps":2},{"n":"time","pt":$n[0].Single,"ps":3},{"n":"isLooping","pt":$n[0].Boolean,"ps":4},{"n":"weight","pt":$n[0].Single,"ps":5}],"sn":"OnClipAppliedCallback","rt":$n[0].Void,"p":[$n[3].Animation,$n[2].AnimatorStateInfo,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Single]},{"a":1,"n":"ToSpineAnimationTime","is":true,"t":8,"pi":[{"n":"normalizedTime","pt":$n[0].Single,"ps":0},{"n":"clipLength","pt":$n[0].Single,"ps":1},{"n":"loop","pt":$n[0].Boolean,"ps":2},{"n":"reversed","pt":$n[0].Boolean,"ps":3}],"sn":"ToSpineAnimationTime","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Single,$n[0].Boolean,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"Animator","t":16,"rt":$n[2].Animator,"g":{"a":2,"n":"get_Animator","t":8,"rt":$n[2].Animator,"fg":"Animator"},"fn":"Animator"},{"a":2,"n":"MecanimLayerCount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_MecanimLayerCount","t":8,"rt":$n[0].Int32,"fg":"MecanimLayerCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"MecanimLayerCount"},{"a":2,"n":"MecanimLayerNames","t":16,"rt":$n[0].Array.type(System.String),"g":{"a":2,"n":"get_MecanimLayerNames","t":8,"rt":$n[0].Array.type(System.String),"fg":"MecanimLayerNames"},"fn":"MecanimLayerNames"},{"a":1,"n":"WeightEpsilon","is":true,"t":4,"rt":$n[0].Single,"sn":"WeightEpsilon","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"animationTable","t":4,"rt":$n[5].Dictionary$2(System.Int32,Spine.Animation),"sn":"animationTable","ro":true},{"a":1,"n":"animator","t":4,"rt":$n[2].Animator,"sn":"animator"},{"a":2,"n":"autoReset","t":4,"rt":$n[0].Boolean,"sn":"autoReset","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"clipNameHashCodeTable","t":4,"rt":$n[5].Dictionary$2(UnityEngine.AnimationClip,System.Int32),"sn":"clipNameHashCodeTable","ro":true},{"a":2,"n":"layerBlendModes","t":4,"rt":System.Array.type(spine.MixBlend),"sn":"layerBlendModes"},{"a":3,"n":"layerClipInfos","t":4,"rt":System.Array.type(Spine.Unity.SkeletonMecanim.MecanimTranslator.ClipInfos),"sn":"layerClipInfos"},{"a":2,"n":"layerMixModes","t":4,"rt":System.Array.type(Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode),"sn":"layerMixModes"},{"a":1,"n":"previousAnimations","t":4,"rt":$n[5].List$1(Spine.Animation),"sn":"previousAnimations","ro":true},{"a":2,"n":"useCustomMixMode","t":4,"rt":$n[0].Boolean,"sn":"useCustomMixMode","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"OnClipApplied","t":2,"ad":{"a":2,"n":"add_OnClipApplied","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnClipApplied","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnClipApplied","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnClipApplied","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_OnClipApplied","t":2,"ad":{"a":3,"n":"add__OnClipApplied","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_OnClipApplied","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__OnClipApplied","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_OnClipApplied","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("Spine.Unity.SkeletonMecanim.MecanimTranslator", function () { return {"td":$n[5].SkeletonMecanim,"nested":[Function,$n[5].SkeletonMecanim.MecanimTranslator.MixMode,$n[5].SkeletonMecanim.MecanimTranslator.ClipInfos,$n[5].SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer,$n[5].SkeletonMecanim.MecanimTranslator.IntEqualityComparer],"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AnimationTime","is":true,"t":8,"pi":[{"n":"normalizedTime","pt":$n[0].Single,"ps":0},{"n":"clipLength","pt":$n[0].Single,"ps":1},{"n":"loop","pt":$n[0].Boolean,"ps":2},{"n":"reversed","pt":$n[0].Boolean,"ps":3}],"sn":"AnimationTime","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Single,$n[0].Boolean,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"Apply","t":8,"pi":[{"n":"skeleton","pt":$n[4].Skeleton,"ps":0}],"sn":"Apply","rt":$n[0].Void,"p":[$n[4].Skeleton]},{"a":1,"n":"ApplyAnimation","t":8,"pi":[{"n":"skeleton","pt":$n[4].Skeleton,"ps":0},{"n":"info","pt":$n[2].AnimatorClipInfo,"ps":1},{"n":"stateInfo","pt":$n[2].AnimatorStateInfo,"ps":2},{"n":"layerIndex","pt":$n[0].Int32,"ps":3},{"n":"layerWeight","pt":$n[0].Single,"ps":4},{"n":"layerBlendMode","pt":spine.MixBlend,"ps":5},{"n":"useClipWeight1","dv":false,"o":true,"pt":$n[0].Boolean,"ps":6}],"sn":"ApplyAnimation","rt":$n[0].Boolean,"p":[$n[4].Skeleton,$n[2].AnimatorClipInfo,$n[2].AnimatorStateInfo,$n[0].Int32,$n[0].Single,spine.MixBlend,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"ApplyInterruptionAnimation","t":8,"pi":[{"n":"skeleton","pt":$n[4].Skeleton,"ps":0},{"n":"interpolateWeightTo1","pt":$n[0].Boolean,"ps":1},{"n":"info","pt":$n[2].AnimatorClipInfo,"ps":2},{"n":"stateInfo","pt":$n[2].AnimatorStateInfo,"ps":3},{"n":"layerIndex","pt":$n[0].Int32,"ps":4},{"n":"layerWeight","pt":$n[0].Single,"ps":5},{"n":"layerBlendMode","pt":spine.MixBlend,"ps":6},{"n":"interruptingClipTimeAddition","pt":$n[0].Single,"ps":7},{"n":"useClipWeight1","dv":false,"o":true,"pt":$n[0].Boolean,"ps":8}],"sn":"ApplyInterruptionAnimation","rt":$n[0].Boolean,"p":[$n[4].Skeleton,$n[0].Boolean,$n[2].AnimatorClipInfo,$n[2].AnimatorStateInfo,$n[0].Int32,$n[0].Single,spine.MixBlend,$n[0].Single,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"ClearClipInfosForLayers","t":8,"sn":"ClearClipInfosForLayers","rt":$n[0].Void},{"a":2,"n":"GetActiveAnimationAndTime","t":8,"pi":[{"n":"layer","pt":$n[0].Int32,"ps":0}],"sn":"GetActiveAnimationAndTime","rt":$n[6].KeyValuePair$2(Spine.Animation,System.Single),"p":[$n[0].Int32]},{"a":1,"n":"GetAnimation","t":8,"pi":[{"n":"clip","pt":$n[2].AnimationClip,"ps":0}],"sn":"GetAnimation","rt":$n[4].Animation,"p":[$n[2].AnimationClip]},{"a":1,"n":"GetAnimatorClipInfos","t":8,"pi":[{"n":"layer","pt":$n[0].Int32,"ps":0},{"n":"isInterruptionActive","out":true,"pt":$n[0].Boolean,"ps":1},{"n":"clipInfoCount","out":true,"pt":$n[0].Int32,"ps":2},{"n":"nextClipInfoCount","out":true,"pt":$n[0].Int32,"ps":3},{"n":"interruptingClipInfoCount","out":true,"pt":$n[0].Int32,"ps":4},{"n":"clipInfo","out":true,"pt":$n[6].IList$1(UnityEngine.AnimatorClipInfo),"ps":5},{"n":"nextClipInfo","out":true,"pt":$n[6].IList$1(UnityEngine.AnimatorClipInfo),"ps":6},{"n":"interruptingClipInfo","out":true,"pt":$n[6].IList$1(UnityEngine.AnimatorClipInfo),"ps":7},{"n":"shallInterpolateWeightTo1","out":true,"pt":$n[0].Boolean,"ps":8}],"sn":"GetAnimatorClipInfos","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Boolean,$n[0].Int32,$n[0].Int32,$n[0].Int32,$n[6].IList$1(UnityEngine.AnimatorClipInfo),$n[6].IList$1(UnityEngine.AnimatorClipInfo),$n[6].IList$1(UnityEngine.AnimatorClipInfo),$n[0].Boolean]},{"a":1,"n":"GetAnimatorStateInfos","t":8,"pi":[{"n":"layer","pt":$n[0].Int32,"ps":0},{"n":"isInterruptionActive","out":true,"pt":$n[0].Boolean,"ps":1},{"n":"stateInfo","out":true,"pt":$n[2].AnimatorStateInfo,"ps":2},{"n":"nextStateInfo","out":true,"pt":$n[2].AnimatorStateInfo,"ps":3},{"n":"interruptingStateInfo","out":true,"pt":$n[2].AnimatorStateInfo,"ps":4},{"n":"interruptingClipTimeAddition","out":true,"pt":$n[0].Single,"ps":5}],"sn":"GetAnimatorStateInfos","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Boolean,$n[2].AnimatorStateInfo,$n[2].AnimatorStateInfo,$n[2].AnimatorStateInfo,$n[0].Single]},{"a":1,"n":"GetMixMode","t":8,"pi":[{"n":"layer","pt":$n[0].Int32,"ps":0},{"n":"layerBlendMode","pt":spine.MixBlend,"ps":1}],"sn":"GetMixMode","rt":$n[5].SkeletonMecanim.MecanimTranslator.MixMode,"p":[$n[0].Int32,spine.MixBlend],"box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode, System.Enum.toStringFn(Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode));}},{"a":1,"n":"GetStateUpdatesFromAnimator","t":8,"pi":[{"n":"layer","pt":$n[0].Int32,"ps":0}],"sn":"GetStateUpdatesFromAnimator","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":1,"n":"InitClipInfosForLayers","t":8,"sn":"InitClipInfosForLayers","rt":$n[0].Void},{"a":2,"n":"Initialize","t":8,"pi":[{"n":"animator","pt":$n[2].Animator,"ps":0},{"n":"skeletonDataAsset","pt":$n[5].SkeletonDataAsset,"ps":1}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[2].Animator,$n[5].SkeletonDataAsset]},{"a":1,"n":"OnClipAppliedCallback","t":8,"pi":[{"n":"clip","pt":$n[4].Animation,"ps":0},{"n":"stateInfo","pt":$n[2].AnimatorStateInfo,"ps":1},{"n":"layerIndex","pt":$n[0].Int32,"ps":2},{"n":"time","pt":$n[0].Single,"ps":3},{"n":"isLooping","pt":$n[0].Boolean,"ps":4},{"n":"weight","pt":$n[0].Single,"ps":5}],"sn":"OnClipAppliedCallback","rt":$n[0].Void,"p":[$n[4].Animation,$n[2].AnimatorStateInfo,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Single]},{"a":1,"n":"ToSpineAnimationTime","is":true,"t":8,"pi":[{"n":"normalizedTime","pt":$n[0].Single,"ps":0},{"n":"clipLength","pt":$n[0].Single,"ps":1},{"n":"loop","pt":$n[0].Boolean,"ps":2},{"n":"reversed","pt":$n[0].Boolean,"ps":3}],"sn":"ToSpineAnimationTime","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Single,$n[0].Boolean,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"Animator","t":16,"rt":$n[2].Animator,"g":{"a":2,"n":"get_Animator","t":8,"rt":$n[2].Animator,"fg":"Animator"},"fn":"Animator"},{"a":2,"n":"MecanimLayerCount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_MecanimLayerCount","t":8,"rt":$n[0].Int32,"fg":"MecanimLayerCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"MecanimLayerCount"},{"a":2,"n":"MecanimLayerNames","t":16,"rt":$n[0].Array.type(System.String),"g":{"a":2,"n":"get_MecanimLayerNames","t":8,"rt":$n[0].Array.type(System.String),"fg":"MecanimLayerNames"},"fn":"MecanimLayerNames"},{"a":1,"n":"WeightEpsilon","is":true,"t":4,"rt":$n[0].Single,"sn":"WeightEpsilon","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"animationTable","t":4,"rt":$n[6].Dictionary$2(System.Int32,Spine.Animation),"sn":"animationTable","ro":true},{"a":1,"n":"animator","t":4,"rt":$n[2].Animator,"sn":"animator"},{"a":2,"n":"autoReset","t":4,"rt":$n[0].Boolean,"sn":"autoReset","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"clipNameHashCodeTable","t":4,"rt":$n[6].Dictionary$2(UnityEngine.AnimationClip,System.Int32),"sn":"clipNameHashCodeTable","ro":true},{"a":2,"n":"layerBlendModes","t":4,"rt":System.Array.type(spine.MixBlend),"sn":"layerBlendModes"},{"a":3,"n":"layerClipInfos","t":4,"rt":System.Array.type(Spine.Unity.SkeletonMecanim.MecanimTranslator.ClipInfos),"sn":"layerClipInfos"},{"a":2,"n":"layerMixModes","t":4,"rt":System.Array.type(Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode),"sn":"layerMixModes"},{"a":1,"n":"previousAnimations","t":4,"rt":$n[6].List$1(Spine.Animation),"sn":"previousAnimations","ro":true},{"a":2,"n":"useCustomMixMode","t":4,"rt":$n[0].Boolean,"sn":"useCustomMixMode","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"OnClipApplied","t":2,"ad":{"a":2,"n":"add_OnClipApplied","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnClipApplied","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnClipApplied","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnClipApplied","rt":$n[0].Void,"p":[Function]}},{"a":3,"n":"_OnClipApplied","t":2,"ad":{"a":3,"n":"add__OnClipApplied","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"add_OnClipApplied","rt":$n[0].Void,"p":[Function]},"r":{"a":3,"n":"remove__OnClipApplied","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"remove_OnClipApplied","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*Spine.Unity.SkeletonMecanim+MecanimTranslator end.*/
 
     /*Spine.Unity.SkeletonMecanim+MecanimTranslator+MixMode start.*/
-    $m("Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode", function () { return {"td":$n[4].SkeletonMecanim.MecanimTranslator,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AlwaysMix","is":true,"t":4,"rt":$n[4].SkeletonMecanim.MecanimTranslator.MixMode,"sn":"AlwaysMix","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode, System.Enum.toStringFn(Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode));}},{"a":2,"n":"Hard","is":true,"t":4,"rt":$n[4].SkeletonMecanim.MecanimTranslator.MixMode,"sn":"Hard","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode, System.Enum.toStringFn(Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode));}},{"a":2,"n":"MixNext","is":true,"t":4,"rt":$n[4].SkeletonMecanim.MecanimTranslator.MixMode,"sn":"MixNext","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode, System.Enum.toStringFn(Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode));}}]}; }, $n);
+    $m("Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode", function () { return {"td":$n[5].SkeletonMecanim.MecanimTranslator,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AlwaysMix","is":true,"t":4,"rt":$n[5].SkeletonMecanim.MecanimTranslator.MixMode,"sn":"AlwaysMix","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode, System.Enum.toStringFn(Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode));}},{"a":2,"n":"Hard","is":true,"t":4,"rt":$n[5].SkeletonMecanim.MecanimTranslator.MixMode,"sn":"Hard","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode, System.Enum.toStringFn(Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode));}},{"a":2,"n":"MixNext","is":true,"t":4,"rt":$n[5].SkeletonMecanim.MecanimTranslator.MixMode,"sn":"MixNext","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode, System.Enum.toStringFn(Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode));}}]}; }, $n);
     /*Spine.Unity.SkeletonMecanim+MecanimTranslator+MixMode end.*/
 
     /*Spine.Unity.SkeletonMecanim+MecanimTranslator+ClipInfos start.*/
-    $m("Spine.Unity.SkeletonMecanim.MecanimTranslator.ClipInfos", function () { return {"td":$n[4].SkeletonMecanim.MecanimTranslator,"att":1048580,"a":3,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"clipInfoCount","t":4,"rt":$n[0].Int32,"sn":"clipInfoCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"clipInfos","t":4,"rt":$n[5].List$1(UnityEngine.AnimatorClipInfo),"sn":"clipInfos","ro":true},{"a":2,"n":"interruptingClipInfoCount","t":4,"rt":$n[0].Int32,"sn":"interruptingClipInfoCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"interruptingClipInfos","t":4,"rt":$n[5].List$1(UnityEngine.AnimatorClipInfo),"sn":"interruptingClipInfos","ro":true},{"a":2,"n":"interruptingClipTimeAddition","t":4,"rt":$n[0].Single,"sn":"interruptingClipTimeAddition","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"interruptingStateInfo","t":4,"rt":$n[2].AnimatorStateInfo,"sn":"interruptingStateInfo"},{"a":2,"n":"isInterruptionActive","t":4,"rt":$n[0].Boolean,"sn":"isInterruptionActive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isLastFrameOfInterruption","t":4,"rt":$n[0].Boolean,"sn":"isLastFrameOfInterruption","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"nextClipInfoCount","t":4,"rt":$n[0].Int32,"sn":"nextClipInfoCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"nextClipInfos","t":4,"rt":$n[5].List$1(UnityEngine.AnimatorClipInfo),"sn":"nextClipInfos","ro":true},{"a":2,"n":"nextStateInfo","t":4,"rt":$n[2].AnimatorStateInfo,"sn":"nextStateInfo"},{"a":2,"n":"stateInfo","t":4,"rt":$n[2].AnimatorStateInfo,"sn":"stateInfo"}]}; }, $n);
+    $m("Spine.Unity.SkeletonMecanim.MecanimTranslator.ClipInfos", function () { return {"td":$n[5].SkeletonMecanim.MecanimTranslator,"att":1048580,"a":3,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"clipInfoCount","t":4,"rt":$n[0].Int32,"sn":"clipInfoCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"clipInfos","t":4,"rt":$n[6].List$1(UnityEngine.AnimatorClipInfo),"sn":"clipInfos","ro":true},{"a":2,"n":"interruptingClipInfoCount","t":4,"rt":$n[0].Int32,"sn":"interruptingClipInfoCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"interruptingClipInfos","t":4,"rt":$n[6].List$1(UnityEngine.AnimatorClipInfo),"sn":"interruptingClipInfos","ro":true},{"a":2,"n":"interruptingClipTimeAddition","t":4,"rt":$n[0].Single,"sn":"interruptingClipTimeAddition","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"interruptingStateInfo","t":4,"rt":$n[2].AnimatorStateInfo,"sn":"interruptingStateInfo"},{"a":2,"n":"isInterruptionActive","t":4,"rt":$n[0].Boolean,"sn":"isInterruptionActive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isLastFrameOfInterruption","t":4,"rt":$n[0].Boolean,"sn":"isLastFrameOfInterruption","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"nextClipInfoCount","t":4,"rt":$n[0].Int32,"sn":"nextClipInfoCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"nextClipInfos","t":4,"rt":$n[6].List$1(UnityEngine.AnimatorClipInfo),"sn":"nextClipInfos","ro":true},{"a":2,"n":"nextStateInfo","t":4,"rt":$n[2].AnimatorStateInfo,"sn":"nextStateInfo"},{"a":2,"n":"stateInfo","t":4,"rt":$n[2].AnimatorStateInfo,"sn":"stateInfo"}]}; }, $n);
     /*Spine.Unity.SkeletonMecanim+MecanimTranslator+ClipInfos end.*/
 
     /*Spine.Unity.SkeletonMecanim+MecanimTranslator+AnimationClipEqualityComparer start.*/
-    $m("Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer", function () { return {"td":$n[4].SkeletonMecanim.MecanimTranslator,"att":1048579,"a":1,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Equals","t":8,"pi":[{"n":"x","pt":$n[2].AnimationClip,"ps":0},{"n":"y","pt":$n[2].AnimationClip,"ps":1}],"sn":"equals2","rt":$n[0].Boolean,"p":[$n[2].AnimationClip,$n[2].AnimationClip],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"GetHashCode","t":8,"pi":[{"n":"o","pt":$n[2].AnimationClip,"ps":0}],"sn":"getHashCode2","rt":$n[0].Int32,"p":[$n[2].AnimationClip],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":4,"n":"Instance","is":true,"t":4,"rt":$n[5].IEqualityComparer$1(UnityEngine.AnimationClip),"sn":"Instance","ro":true}]}; }, $n);
+    $m("Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer", function () { return {"td":$n[5].SkeletonMecanim.MecanimTranslator,"att":1048579,"a":1,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Equals","t":8,"pi":[{"n":"x","pt":$n[2].AnimationClip,"ps":0},{"n":"y","pt":$n[2].AnimationClip,"ps":1}],"sn":"equals2","rt":$n[0].Boolean,"p":[$n[2].AnimationClip,$n[2].AnimationClip],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"GetHashCode","t":8,"pi":[{"n":"o","pt":$n[2].AnimationClip,"ps":0}],"sn":"getHashCode2","rt":$n[0].Int32,"p":[$n[2].AnimationClip],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":4,"n":"Instance","is":true,"t":4,"rt":$n[6].IEqualityComparer$1(UnityEngine.AnimationClip),"sn":"Instance","ro":true}]}; }, $n);
     /*Spine.Unity.SkeletonMecanim+MecanimTranslator+AnimationClipEqualityComparer end.*/
 
     /*Spine.Unity.SkeletonMecanim+MecanimTranslator+IntEqualityComparer start.*/
-    $m("Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer", function () { return {"td":$n[4].SkeletonMecanim.MecanimTranslator,"att":1048579,"a":1,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Equals","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"equals2","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"GetHashCode","t":8,"pi":[{"n":"o","pt":$n[0].Int32,"ps":0}],"sn":"getHashCode2","rt":$n[0].Int32,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":4,"n":"Instance","is":true,"t":4,"rt":$n[5].IEqualityComparer$1(System.Int32),"sn":"Instance","ro":true}]}; }, $n);
+    $m("Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer", function () { return {"td":$n[5].SkeletonMecanim.MecanimTranslator,"att":1048579,"a":1,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Equals","t":8,"pi":[{"n":"x","pt":$n[0].Int32,"ps":0},{"n":"y","pt":$n[0].Int32,"ps":1}],"sn":"equals2","rt":$n[0].Boolean,"p":[$n[0].Int32,$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"GetHashCode","t":8,"pi":[{"n":"o","pt":$n[0].Int32,"ps":0}],"sn":"getHashCode2","rt":$n[0].Int32,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":4,"n":"Instance","is":true,"t":4,"rt":$n[6].IEqualityComparer$1(System.Int32),"sn":"Instance","ro":true}]}; }, $n);
     /*Spine.Unity.SkeletonMecanim+MecanimTranslator+IntEqualityComparer end.*/
 
     /*Spine.Unity.SkeletonRenderer start.*/
-    $m("Spine.Unity.SkeletonRenderer", function () { return {"nested":[$n[4].SkeletonRenderer.SpriteMaskInteractionMaterials,Function,Function],"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.RequireComponent.ctor(UnityEngine.MeshRenderer),new UnityEngine.DisallowMultipleComponent(),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonRenderer-Component")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddSpineComponent","is":true,"t":8,"pi":[{"n":"gameObject","pt":$n[2].GameObject,"ps":0},{"n":"skeletonDataAsset","pt":$n[4].SkeletonDataAsset,"ps":1},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"tpc":1,"tprm":["T"],"sn":"AddSpineComponent","rt":System.Object,"p":[$n[2].GameObject,$n[4].SkeletonDataAsset,$n[0].Boolean]},{"a":1,"n":"AssignSpriteMaskMaterials","t":8,"sn":"AssignSpriteMaskMaterials","rt":$n[0].Void},{"v":true,"a":2,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"v":true,"a":2,"n":"ClearState","t":8,"sn":"ClearState","rt":$n[0].Void},{"a":2,"n":"EnsureMeshGeneratorCapacity","t":8,"pi":[{"n":"minimumVertexCount","pt":$n[0].Int32,"ps":0}],"sn":"EnsureMeshGeneratorCapacity","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"FindAndApplySeparatorSlots","t":8,"pi":[{"n":"slotNamePredicate","pt":Function,"ps":0},{"n":"clearExistingSeparators","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"updateStringArray","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"FindAndApplySeparatorSlots","rt":$n[0].Void,"p":[Function,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"FindAndApplySeparatorSlots","t":8,"pi":[{"n":"startsWith","pt":$n[0].String,"ps":0},{"n":"clearExistingSeparators","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"updateStringArray","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"FindAndApplySeparatorSlots$1","rt":$n[0].Void,"p":[$n[0].String,$n[0].Boolean,$n[0].Boolean]},{"a":1,"n":"HandleOnDemandLoading","t":8,"sn":"HandleOnDemandLoading","rt":$n[0].Void},{"a":1,"n":"InitSpriteMaskMaterialsForMaskType","t":8,"pi":[{"n":"maskFunction","pt":$n[8].CompareFunction,"ps":0},{"n":"materialsToFill","ref":true,"pt":System.Array.type(UnityEngine.Material),"ps":1}],"sn":"InitSpriteMaskMaterialsForMaskType","rt":$n[0].Boolean,"p":[$n[8].CompareFunction,System.Array.type(UnityEngine.Material)],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"InitSpriteMaskMaterialsInsideMask","t":8,"sn":"InitSpriteMaskMaterialsInsideMask","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"InitSpriteMaskMaterialsOutsideMask","t":8,"sn":"InitSpriteMaskMaterialsOutsideMask","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"v":true,"a":2,"n":"Initialize","t":8,"pi":[{"n":"overwrite","pt":$n[0].Boolean,"ps":0},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Boolean,$n[0].Boolean]},{"v":true,"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"v":true,"a":2,"n":"LateUpdateMesh","t":8,"sn":"LateUpdateMesh","rt":$n[0].Void},{"a":2,"n":"NewSpineGameObject","is":true,"t":8,"pi":[{"n":"skeletonDataAsset","pt":$n[4].SkeletonDataAsset,"ps":0},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"tpc":1,"tprm":["T"],"sn":"NewSpineGameObject","rt":System.Object,"p":[$n[4].SkeletonDataAsset,$n[0].Boolean]},{"a":2,"n":"OnBecameInvisible","t":8,"sn":"OnBecameInvisible","rt":$n[0].Void},{"v":true,"a":2,"n":"OnBecameVisible","t":8,"sn":"OnBecameVisible","rt":$n[0].Void},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":2,"n":"ReapplySeparatorSlotNames","t":8,"sn":"ReapplySeparatorSlotNames","rt":$n[0].Void},{"a":1,"n":"SetMaterialSettingsToFixDrawOrder","t":8,"sn":"SetMaterialSettingsToFixDrawOrder","rt":$n[0].Void},{"a":2,"n":"SetMeshSettings","t":8,"pi":[{"n":"settings","pt":$n[4].MeshGenerator.Settings,"ps":0}],"sn":"SetMeshSettings","rt":$n[0].Void,"p":[$n[4].MeshGenerator.Settings]},{"a":2,"n":"CustomMaterialOverride","t":16,"rt":$n[5].Dictionary$2(UnityEngine.Material,UnityEngine.Material),"g":{"a":2,"n":"get_CustomMaterialOverride","t":8,"rt":$n[5].Dictionary$2(UnityEngine.Material,UnityEngine.Material),"fg":"CustomMaterialOverride"},"fn":"CustomMaterialOverride"},{"a":2,"n":"CustomSlotMaterials","t":16,"rt":$n[5].Dictionary$2(Spine.Slot,UnityEngine.Material),"g":{"a":2,"n":"get_CustomSlotMaterials","t":8,"rt":$n[5].Dictionary$2(Spine.Slot,UnityEngine.Material),"fg":"CustomSlotMaterials"},"fn":"CustomSlotMaterials"},{"a":2,"n":"Skeleton","t":16,"rt":$n[3].Skeleton,"g":{"a":2,"n":"get_Skeleton","t":8,"rt":$n[3].Skeleton,"fg":"Skeleton"},"fn":"Skeleton"},{"a":2,"n":"SkeletonDataAsset","t":16,"rt":$n[4].SkeletonDataAsset,"g":{"a":2,"n":"get_SkeletonDataAsset","t":8,"rt":$n[4].SkeletonDataAsset,"fg":"SkeletonDataAsset"},"fn":"SkeletonDataAsset"},{"a":2,"n":"UpdateMode","t":16,"rt":$n[4].UpdateMode,"g":{"a":2,"n":"get_UpdateMode","t":8,"rt":$n[4].UpdateMode,"fg":"UpdateMode","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},"s":{"a":2,"n":"set_UpdateMode","t":8,"p":[$n[4].UpdateMode],"rt":$n[0].Void,"fs":"UpdateMode"},"fn":"UpdateMode"},{"a":2,"n":"STENCIL_COMP_MASKINTERACTION_NONE","is":true,"t":4,"rt":$n[8].CompareFunction,"sn":"STENCIL_COMP_MASKINTERACTION_NONE","box":function ($v) { return Bridge.box($v, UnityEngine.Rendering.CompareFunction, System.Enum.toStringFn(UnityEngine.Rendering.CompareFunction));}},{"a":2,"n":"STENCIL_COMP_MASKINTERACTION_VISIBLE_INSIDE","is":true,"t":4,"rt":$n[8].CompareFunction,"sn":"STENCIL_COMP_MASKINTERACTION_VISIBLE_INSIDE","box":function ($v) { return Bridge.box($v, UnityEngine.Rendering.CompareFunction, System.Enum.toStringFn(UnityEngine.Rendering.CompareFunction));}},{"a":2,"n":"STENCIL_COMP_MASKINTERACTION_VISIBLE_OUTSIDE","is":true,"t":4,"rt":$n[8].CompareFunction,"sn":"STENCIL_COMP_MASKINTERACTION_VISIBLE_OUTSIDE","box":function ($v) { return Bridge.box($v, UnityEngine.Rendering.CompareFunction, System.Enum.toStringFn(UnityEngine.Rendering.CompareFunction));}},{"a":2,"n":"STENCIL_COMP_PARAM_ID","is":true,"t":4,"rt":$n[0].Int32,"sn":"STENCIL_COMP_PARAM_ID","ro":true,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"SUBMESH_DUMMY_PARAM_ID","is":true,"t":4,"rt":$n[0].Int32,"sn":"SUBMESH_DUMMY_PARAM_ID","ro":true,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.Serialization.FormerlySerializedAsAttribute("calculateNormals")],"a":2,"n":"addNormals","t":4,"rt":$n[0].Boolean,"sn":"addNormals","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"calculateTangents","t":4,"rt":$n[0].Boolean,"sn":"calculateTangents","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"clearStateOnDisable","t":4,"rt":$n[0].Boolean,"sn":"clearStateOnDisable","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"currentInstructions","t":4,"rt":$n[4].SkeletonRendererInstruction,"sn":"currentInstructions","ro":true},{"a":1,"n":"customMaterialOverride","t":4,"rt":$n[5].Dictionary$2(UnityEngine.Material,UnityEngine.Material),"sn":"customMaterialOverride","ro":true},{"a":1,"n":"customSlotMaterials","t":4,"rt":$n[5].Dictionary$2(Spine.Slot,UnityEngine.Material),"sn":"customSlotMaterials","ro":true},{"a":2,"n":"disableRenderingOnOverride","t":4,"rt":$n[0].Boolean,"sn":"disableRenderingOnOverride","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"fixDrawOrder","t":4,"rt":$n[0].Boolean,"sn":"fixDrawOrder","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"immutableTriangles","t":4,"rt":$n[0].Boolean,"sn":"immutableTriangles","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"initialFlipX","t":4,"rt":$n[0].Boolean,"sn":"initialFlipX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"initialFlipY","t":4,"rt":$n[0].Boolean,"sn":"initialFlipY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new Spine.Unity.SpineSkin("", "", true, false, true)],"a":2,"n":"initialSkinName","t":4,"rt":$n[0].String,"sn":"initialSkinName"},{"a":2,"n":"maskInteraction","t":4,"rt":$n[2].SpriteMaskInteraction,"sn":"maskInteraction","box":function ($v) { return Bridge.box($v, UnityEngine.SpriteMaskInteraction, System.Enum.toStringFn(UnityEngine.SpriteMaskInteraction));}},{"a":2,"n":"maskMaterials","t":4,"rt":$n[4].SkeletonRenderer.SpriteMaskInteractionMaterials,"sn":"maskMaterials"},{"a":1,"n":"meshFilter","t":4,"rt":$n[2].MeshFilter,"sn":"meshFilter"},{"a":1,"n":"meshGenerator","t":4,"rt":$n[4].MeshGenerator,"sn":"meshGenerator","ro":true},{"a":1,"n":"meshRenderer","t":4,"rt":$n[2].MeshRenderer,"sn":"meshRenderer"},{"a":2,"n":"pmaVertexColors","t":4,"rt":$n[0].Boolean,"sn":"pmaVertexColors","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"rendererBuffers","t":4,"rt":$n[4].MeshRendererBuffers,"sn":"rendererBuffers","ro":true},{"a":1,"n":"reusedPropertyBlock","t":4,"rt":$n[2].MaterialPropertyBlock,"sn":"reusedPropertyBlock"},{"at":[new UnityEngine.Serialization.FormerlySerializedAsAttribute("submeshSeparators"),new UnityEngine.SerializeFieldAttribute(),new Spine.Unity.SpineSlot("", "", false, true, false)],"a":3,"n":"separatorSlotNames","t":4,"rt":$n[0].Array.type(System.String),"sn":"separatorSlotNames"},{"a":2,"n":"separatorSlots","t":4,"rt":$n[5].List$1(Spine.Slot),"sn":"separatorSlots","ro":true},{"a":2,"n":"singleSubmesh","t":4,"rt":$n[0].Boolean,"sn":"singleSubmesh","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"skeleton","t":4,"rt":$n[3].Skeleton,"sn":"skeleton"},{"a":2,"n":"skeletonDataAsset","t":4,"rt":$n[4].SkeletonDataAsset,"sn":"skeletonDataAsset"},{"a":2,"n":"tintBlack","t":4,"rt":$n[0].Boolean,"sn":"tintBlack","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"updateMode","t":4,"rt":$n[4].UpdateMode,"sn":"updateMode","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"updateWhenInvisible","t":4,"rt":$n[4].UpdateMode,"sn":"updateWhenInvisible","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"useClipping","t":4,"rt":$n[0].Boolean,"sn":"useClipping","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"valid","t":4,"rt":$n[0].Boolean,"sn":"valid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.RangeAttribute(-0.1, 0.0)],"a":2,"n":"zSpacing","t":4,"rt":$n[0].Single,"sn":"zSpacing","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GenerateMeshOverride","t":2,"ad":{"a":2,"n":"add_GenerateMeshOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addGenerateMeshOverride","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_GenerateMeshOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeGenerateMeshOverride","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnMeshAndMaterialsUpdated","t":2,"ad":{"a":2,"n":"add_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnPostProcessVertices","t":2,"ad":{"a":2,"n":"add_OnPostProcessVertices","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnPostProcessVertices","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnPostProcessVertices","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnPostProcessVertices","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnRebuild","t":2,"ad":{"a":2,"n":"add_OnRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnRebuild","rt":$n[0].Void,"p":[Function]}},{"a":1,"n":"generateMeshOverride","t":2,"ad":{"a":1,"n":"add_generateMeshOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addgenerateMeshOverride","rt":$n[0].Void,"p":[Function]},"r":{"a":1,"n":"remove_generateMeshOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removegenerateMeshOverride","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("Spine.Unity.SkeletonRenderer", function () { return {"nested":[$n[5].SkeletonRenderer.SpriteMaskInteractionMaterials,Function,Function],"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.RequireComponent.ctor(UnityEngine.MeshRenderer),new UnityEngine.DisallowMultipleComponent(),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonRenderer-Component")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddSpineComponent","is":true,"t":8,"pi":[{"n":"gameObject","pt":$n[2].GameObject,"ps":0},{"n":"skeletonDataAsset","pt":$n[5].SkeletonDataAsset,"ps":1},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"tpc":1,"tprm":["T"],"sn":"AddSpineComponent","rt":System.Object,"p":[$n[2].GameObject,$n[5].SkeletonDataAsset,$n[0].Boolean]},{"a":1,"n":"AssignSpriteMaskMaterials","t":8,"sn":"AssignSpriteMaskMaterials","rt":$n[0].Void},{"v":true,"a":2,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"v":true,"a":2,"n":"ClearState","t":8,"sn":"ClearState","rt":$n[0].Void},{"a":2,"n":"EnsureMeshGeneratorCapacity","t":8,"pi":[{"n":"minimumVertexCount","pt":$n[0].Int32,"ps":0}],"sn":"EnsureMeshGeneratorCapacity","rt":$n[0].Void,"p":[$n[0].Int32]},{"a":2,"n":"FindAndApplySeparatorSlots","t":8,"pi":[{"n":"slotNamePredicate","pt":Function,"ps":0},{"n":"clearExistingSeparators","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"updateStringArray","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"FindAndApplySeparatorSlots","rt":$n[0].Void,"p":[Function,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"FindAndApplySeparatorSlots","t":8,"pi":[{"n":"startsWith","pt":$n[0].String,"ps":0},{"n":"clearExistingSeparators","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"updateStringArray","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"FindAndApplySeparatorSlots$1","rt":$n[0].Void,"p":[$n[0].String,$n[0].Boolean,$n[0].Boolean]},{"a":1,"n":"HandleOnDemandLoading","t":8,"sn":"HandleOnDemandLoading","rt":$n[0].Void},{"a":1,"n":"InitSpriteMaskMaterialsForMaskType","t":8,"pi":[{"n":"maskFunction","pt":$n[8].CompareFunction,"ps":0},{"n":"materialsToFill","ref":true,"pt":System.Array.type(UnityEngine.Material),"ps":1}],"sn":"InitSpriteMaskMaterialsForMaskType","rt":$n[0].Boolean,"p":[$n[8].CompareFunction,System.Array.type(UnityEngine.Material)],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"InitSpriteMaskMaterialsInsideMask","t":8,"sn":"InitSpriteMaskMaterialsInsideMask","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"InitSpriteMaskMaterialsOutsideMask","t":8,"sn":"InitSpriteMaskMaterialsOutsideMask","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"v":true,"a":2,"n":"Initialize","t":8,"pi":[{"n":"overwrite","pt":$n[0].Boolean,"ps":0},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"Initialize","rt":$n[0].Void,"p":[$n[0].Boolean,$n[0].Boolean]},{"v":true,"a":2,"n":"LateUpdate","t":8,"sn":"LateUpdate","rt":$n[0].Void},{"v":true,"a":2,"n":"LateUpdateMesh","t":8,"sn":"LateUpdateMesh","rt":$n[0].Void},{"a":2,"n":"NewSpineGameObject","is":true,"t":8,"pi":[{"n":"skeletonDataAsset","pt":$n[5].SkeletonDataAsset,"ps":0},{"n":"quiet","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"tpc":1,"tprm":["T"],"sn":"NewSpineGameObject","rt":System.Object,"p":[$n[5].SkeletonDataAsset,$n[0].Boolean]},{"a":2,"n":"OnBecameInvisible","t":8,"sn":"OnBecameInvisible","rt":$n[0].Void},{"v":true,"a":2,"n":"OnBecameVisible","t":8,"sn":"OnBecameVisible","rt":$n[0].Void},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":2,"n":"ReapplySeparatorSlotNames","t":8,"sn":"ReapplySeparatorSlotNames","rt":$n[0].Void},{"a":1,"n":"SetMaterialSettingsToFixDrawOrder","t":8,"sn":"SetMaterialSettingsToFixDrawOrder","rt":$n[0].Void},{"a":2,"n":"SetMeshSettings","t":8,"pi":[{"n":"settings","pt":$n[5].MeshGenerator.Settings,"ps":0}],"sn":"SetMeshSettings","rt":$n[0].Void,"p":[$n[5].MeshGenerator.Settings]},{"a":2,"n":"CustomMaterialOverride","t":16,"rt":$n[6].Dictionary$2(UnityEngine.Material,UnityEngine.Material),"g":{"a":2,"n":"get_CustomMaterialOverride","t":8,"rt":$n[6].Dictionary$2(UnityEngine.Material,UnityEngine.Material),"fg":"CustomMaterialOverride"},"fn":"CustomMaterialOverride"},{"a":2,"n":"CustomSlotMaterials","t":16,"rt":$n[6].Dictionary$2(Spine.Slot,UnityEngine.Material),"g":{"a":2,"n":"get_CustomSlotMaterials","t":8,"rt":$n[6].Dictionary$2(Spine.Slot,UnityEngine.Material),"fg":"CustomSlotMaterials"},"fn":"CustomSlotMaterials"},{"a":2,"n":"Skeleton","t":16,"rt":$n[4].Skeleton,"g":{"a":2,"n":"get_Skeleton","t":8,"rt":$n[4].Skeleton,"fg":"Skeleton"},"fn":"Skeleton"},{"a":2,"n":"SkeletonDataAsset","t":16,"rt":$n[5].SkeletonDataAsset,"g":{"a":2,"n":"get_SkeletonDataAsset","t":8,"rt":$n[5].SkeletonDataAsset,"fg":"SkeletonDataAsset"},"fn":"SkeletonDataAsset"},{"a":2,"n":"UpdateMode","t":16,"rt":$n[5].UpdateMode,"g":{"a":2,"n":"get_UpdateMode","t":8,"rt":$n[5].UpdateMode,"fg":"UpdateMode","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},"s":{"a":2,"n":"set_UpdateMode","t":8,"p":[$n[5].UpdateMode],"rt":$n[0].Void,"fs":"UpdateMode"},"fn":"UpdateMode"},{"a":2,"n":"STENCIL_COMP_MASKINTERACTION_NONE","is":true,"t":4,"rt":$n[8].CompareFunction,"sn":"STENCIL_COMP_MASKINTERACTION_NONE","box":function ($v) { return Bridge.box($v, UnityEngine.Rendering.CompareFunction, System.Enum.toStringFn(UnityEngine.Rendering.CompareFunction));}},{"a":2,"n":"STENCIL_COMP_MASKINTERACTION_VISIBLE_INSIDE","is":true,"t":4,"rt":$n[8].CompareFunction,"sn":"STENCIL_COMP_MASKINTERACTION_VISIBLE_INSIDE","box":function ($v) { return Bridge.box($v, UnityEngine.Rendering.CompareFunction, System.Enum.toStringFn(UnityEngine.Rendering.CompareFunction));}},{"a":2,"n":"STENCIL_COMP_MASKINTERACTION_VISIBLE_OUTSIDE","is":true,"t":4,"rt":$n[8].CompareFunction,"sn":"STENCIL_COMP_MASKINTERACTION_VISIBLE_OUTSIDE","box":function ($v) { return Bridge.box($v, UnityEngine.Rendering.CompareFunction, System.Enum.toStringFn(UnityEngine.Rendering.CompareFunction));}},{"a":2,"n":"STENCIL_COMP_PARAM_ID","is":true,"t":4,"rt":$n[0].Int32,"sn":"STENCIL_COMP_PARAM_ID","ro":true,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"SUBMESH_DUMMY_PARAM_ID","is":true,"t":4,"rt":$n[0].Int32,"sn":"SUBMESH_DUMMY_PARAM_ID","ro":true,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"at":[new UnityEngine.Serialization.FormerlySerializedAsAttribute("calculateNormals")],"a":2,"n":"addNormals","t":4,"rt":$n[0].Boolean,"sn":"addNormals","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"calculateTangents","t":4,"rt":$n[0].Boolean,"sn":"calculateTangents","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"clearStateOnDisable","t":4,"rt":$n[0].Boolean,"sn":"clearStateOnDisable","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"currentInstructions","t":4,"rt":$n[5].SkeletonRendererInstruction,"sn":"currentInstructions","ro":true},{"a":1,"n":"customMaterialOverride","t":4,"rt":$n[6].Dictionary$2(UnityEngine.Material,UnityEngine.Material),"sn":"customMaterialOverride","ro":true},{"a":1,"n":"customSlotMaterials","t":4,"rt":$n[6].Dictionary$2(Spine.Slot,UnityEngine.Material),"sn":"customSlotMaterials","ro":true},{"a":2,"n":"disableRenderingOnOverride","t":4,"rt":$n[0].Boolean,"sn":"disableRenderingOnOverride","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"fixDrawOrder","t":4,"rt":$n[0].Boolean,"sn":"fixDrawOrder","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"immutableTriangles","t":4,"rt":$n[0].Boolean,"sn":"immutableTriangles","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"initialFlipX","t":4,"rt":$n[0].Boolean,"sn":"initialFlipX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"initialFlipY","t":4,"rt":$n[0].Boolean,"sn":"initialFlipY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new Spine.Unity.SpineSkin("", "", true, false, true)],"a":2,"n":"initialSkinName","t":4,"rt":$n[0].String,"sn":"initialSkinName"},{"a":2,"n":"maskInteraction","t":4,"rt":$n[2].SpriteMaskInteraction,"sn":"maskInteraction","box":function ($v) { return Bridge.box($v, UnityEngine.SpriteMaskInteraction, System.Enum.toStringFn(UnityEngine.SpriteMaskInteraction));}},{"a":2,"n":"maskMaterials","t":4,"rt":$n[5].SkeletonRenderer.SpriteMaskInteractionMaterials,"sn":"maskMaterials"},{"a":1,"n":"meshFilter","t":4,"rt":$n[2].MeshFilter,"sn":"meshFilter"},{"a":1,"n":"meshGenerator","t":4,"rt":$n[5].MeshGenerator,"sn":"meshGenerator","ro":true},{"a":1,"n":"meshRenderer","t":4,"rt":$n[2].MeshRenderer,"sn":"meshRenderer"},{"a":2,"n":"pmaVertexColors","t":4,"rt":$n[0].Boolean,"sn":"pmaVertexColors","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"rendererBuffers","t":4,"rt":$n[5].MeshRendererBuffers,"sn":"rendererBuffers","ro":true},{"a":1,"n":"reusedPropertyBlock","t":4,"rt":$n[2].MaterialPropertyBlock,"sn":"reusedPropertyBlock"},{"at":[new UnityEngine.Serialization.FormerlySerializedAsAttribute("submeshSeparators"),new UnityEngine.SerializeFieldAttribute(),new Spine.Unity.SpineSlot("", "", false, true, false)],"a":3,"n":"separatorSlotNames","t":4,"rt":$n[0].Array.type(System.String),"sn":"separatorSlotNames"},{"a":2,"n":"separatorSlots","t":4,"rt":$n[6].List$1(Spine.Slot),"sn":"separatorSlots","ro":true},{"a":2,"n":"singleSubmesh","t":4,"rt":$n[0].Boolean,"sn":"singleSubmesh","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"skeleton","t":4,"rt":$n[4].Skeleton,"sn":"skeleton"},{"a":2,"n":"skeletonDataAsset","t":4,"rt":$n[5].SkeletonDataAsset,"sn":"skeletonDataAsset"},{"a":2,"n":"tintBlack","t":4,"rt":$n[0].Boolean,"sn":"tintBlack","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":3,"n":"updateMode","t":4,"rt":$n[5].UpdateMode,"sn":"updateMode","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"updateWhenInvisible","t":4,"rt":$n[5].UpdateMode,"sn":"updateWhenInvisible","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"useClipping","t":4,"rt":$n[0].Boolean,"sn":"useClipping","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"valid","t":4,"rt":$n[0].Boolean,"sn":"valid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.RangeAttribute(-0.1, 0.0)],"a":2,"n":"zSpacing","t":4,"rt":$n[0].Single,"sn":"zSpacing","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"GenerateMeshOverride","t":2,"ad":{"a":2,"n":"add_GenerateMeshOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addGenerateMeshOverride","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_GenerateMeshOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeGenerateMeshOverride","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnMeshAndMaterialsUpdated","t":2,"ad":{"a":2,"n":"add_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnPostProcessVertices","t":2,"ad":{"a":2,"n":"add_OnPostProcessVertices","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnPostProcessVertices","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnPostProcessVertices","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnPostProcessVertices","rt":$n[0].Void,"p":[Function]}},{"a":2,"n":"OnRebuild","t":2,"ad":{"a":2,"n":"add_OnRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnRebuild","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnRebuild","rt":$n[0].Void,"p":[Function]}},{"a":1,"n":"generateMeshOverride","t":2,"ad":{"a":1,"n":"add_generateMeshOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addgenerateMeshOverride","rt":$n[0].Void,"p":[Function]},"r":{"a":1,"n":"remove_generateMeshOverride","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removegenerateMeshOverride","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*Spine.Unity.SkeletonRenderer end.*/
 
     /*Spine.Unity.SkeletonRenderer+SpriteMaskInteractionMaterials start.*/
-    $m("Spine.Unity.SkeletonRenderer.SpriteMaskInteractionMaterials", function () { return {"td":$n[4].SkeletonRenderer,"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AnyMaterialCreated","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_AnyMaterialCreated","t":8,"rt":$n[0].Boolean,"fg":"AnyMaterialCreated","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"AnyMaterialCreated"},{"a":2,"n":"materialsInsideMask","t":4,"rt":System.Array.type(UnityEngine.Material),"sn":"materialsInsideMask"},{"a":2,"n":"materialsMaskDisabled","t":4,"rt":System.Array.type(UnityEngine.Material),"sn":"materialsMaskDisabled"},{"a":2,"n":"materialsOutsideMask","t":4,"rt":System.Array.type(UnityEngine.Material),"sn":"materialsOutsideMask"}]}; }, $n);
+    $m("Spine.Unity.SkeletonRenderer.SpriteMaskInteractionMaterials", function () { return {"td":$n[5].SkeletonRenderer,"att":1056770,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AnyMaterialCreated","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_AnyMaterialCreated","t":8,"rt":$n[0].Boolean,"fg":"AnyMaterialCreated","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"AnyMaterialCreated"},{"a":2,"n":"materialsInsideMask","t":4,"rt":System.Array.type(UnityEngine.Material),"sn":"materialsInsideMask"},{"a":2,"n":"materialsMaskDisabled","t":4,"rt":System.Array.type(UnityEngine.Material),"sn":"materialsMaskDisabled"},{"a":2,"n":"materialsOutsideMask","t":4,"rt":System.Array.type(UnityEngine.Material),"sn":"materialsOutsideMask"}]}; }, $n);
     /*Spine.Unity.SkeletonRenderer+SpriteMaskInteractionMaterials end.*/
 
     /*Spine.Unity.SkeletonGraphicCustomMaterials start.*/
-    $m("Spine.Unity.SkeletonGraphicCustomMaterials", function () { return {"nested":[$n[4].SkeletonGraphicCustomMaterials.AtlasMaterialOverride,$n[4].SkeletonGraphicCustomMaterials.AtlasTextureOverride],"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonGraphicCustomMaterials")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"RemoveCustomMaterialOverrides","t":8,"sn":"RemoveCustomMaterialOverrides","rt":$n[0].Void},{"a":1,"n":"RemoveCustomTextureOverrides","t":8,"sn":"RemoveCustomTextureOverrides","rt":$n[0].Void},{"a":1,"n":"SetCustomMaterialOverrides","t":8,"sn":"SetCustomMaterialOverrides","rt":$n[0].Void},{"a":1,"n":"SetCustomTextureOverrides","t":8,"sn":"SetCustomTextureOverrides","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"customMaterialOverrides","t":4,"rt":$n[5].List$1(Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride),"sn":"customMaterialOverrides"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"customTextureOverrides","t":4,"rt":$n[5].List$1(Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride),"sn":"customTextureOverrides"},{"a":2,"n":"skeletonGraphic","t":4,"rt":$n[4].SkeletonGraphic,"sn":"skeletonGraphic"}]}; }, $n);
+    $m("Spine.Unity.SkeletonGraphicCustomMaterials", function () { return {"nested":[$n[5].SkeletonGraphicCustomMaterials.AtlasMaterialOverride,$n[5].SkeletonGraphicCustomMaterials.AtlasTextureOverride],"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonGraphicCustomMaterials")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"RemoveCustomMaterialOverrides","t":8,"sn":"RemoveCustomMaterialOverrides","rt":$n[0].Void},{"a":1,"n":"RemoveCustomTextureOverrides","t":8,"sn":"RemoveCustomTextureOverrides","rt":$n[0].Void},{"a":1,"n":"SetCustomMaterialOverrides","t":8,"sn":"SetCustomMaterialOverrides","rt":$n[0].Void},{"a":1,"n":"SetCustomTextureOverrides","t":8,"sn":"SetCustomTextureOverrides","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"customMaterialOverrides","t":4,"rt":$n[6].List$1(Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride),"sn":"customMaterialOverrides"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"customTextureOverrides","t":4,"rt":$n[6].List$1(Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride),"sn":"customTextureOverrides"},{"a":2,"n":"skeletonGraphic","t":4,"rt":$n[5].SkeletonGraphic,"sn":"skeletonGraphic"}]}; }, $n);
     /*Spine.Unity.SkeletonGraphicCustomMaterials end.*/
 
     /*Spine.Unity.SkeletonGraphicCustomMaterials+AtlasMaterialOverride start.*/
-    $m("Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride", function () { return {"td":$n[4].SkeletonGraphicCustomMaterials,"att":1057034,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Equals","t":8,"pi":[{"n":"other","pt":$n[4].SkeletonGraphicCustomMaterials.AtlasMaterialOverride,"ps":0}],"sn":"equalsT","rt":$n[0].Boolean,"p":[$n[4].SkeletonGraphicCustomMaterials.AtlasMaterialOverride],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"originalTexture","t":4,"rt":$n[2].Texture,"sn":"originalTexture"},{"a":2,"n":"overrideEnabled","t":4,"rt":$n[0].Boolean,"sn":"overrideEnabled","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"replacementMaterial","t":4,"rt":$n[2].Material,"sn":"replacementMaterial"}]}; }, $n);
+    $m("Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride", function () { return {"td":$n[5].SkeletonGraphicCustomMaterials,"att":1057034,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Equals","t":8,"pi":[{"n":"other","pt":$n[5].SkeletonGraphicCustomMaterials.AtlasMaterialOverride,"ps":0}],"sn":"equalsT","rt":$n[0].Boolean,"p":[$n[5].SkeletonGraphicCustomMaterials.AtlasMaterialOverride],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"originalTexture","t":4,"rt":$n[2].Texture,"sn":"originalTexture"},{"a":2,"n":"overrideEnabled","t":4,"rt":$n[0].Boolean,"sn":"overrideEnabled","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"replacementMaterial","t":4,"rt":$n[2].Material,"sn":"replacementMaterial"}]}; }, $n);
     /*Spine.Unity.SkeletonGraphicCustomMaterials+AtlasMaterialOverride end.*/
 
     /*Spine.Unity.SkeletonGraphicCustomMaterials+AtlasTextureOverride start.*/
-    $m("Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride", function () { return {"td":$n[4].SkeletonGraphicCustomMaterials,"att":1057034,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Equals","t":8,"pi":[{"n":"other","pt":$n[4].SkeletonGraphicCustomMaterials.AtlasTextureOverride,"ps":0}],"sn":"equalsT","rt":$n[0].Boolean,"p":[$n[4].SkeletonGraphicCustomMaterials.AtlasTextureOverride],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"originalTexture","t":4,"rt":$n[2].Texture,"sn":"originalTexture"},{"a":2,"n":"overrideEnabled","t":4,"rt":$n[0].Boolean,"sn":"overrideEnabled","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"replacementTexture","t":4,"rt":$n[2].Texture,"sn":"replacementTexture"}]}; }, $n);
+    $m("Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride", function () { return {"td":$n[5].SkeletonGraphicCustomMaterials,"att":1057034,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Equals","t":8,"pi":[{"n":"other","pt":$n[5].SkeletonGraphicCustomMaterials.AtlasTextureOverride,"ps":0}],"sn":"equalsT","rt":$n[0].Boolean,"p":[$n[5].SkeletonGraphicCustomMaterials.AtlasTextureOverride],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"originalTexture","t":4,"rt":$n[2].Texture,"sn":"originalTexture"},{"a":2,"n":"overrideEnabled","t":4,"rt":$n[0].Boolean,"sn":"overrideEnabled","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"replacementTexture","t":4,"rt":$n[2].Texture,"sn":"replacementTexture"}]}; }, $n);
     /*Spine.Unity.SkeletonGraphicCustomMaterials+AtlasTextureOverride end.*/
 
     /*Spine.Unity.SkeletonRendererCustomMaterials start.*/
-    $m("Spine.Unity.SkeletonRendererCustomMaterials", function () { return {"nested":[$n[4].SkeletonRendererCustomMaterials.SlotMaterialOverride,$n[4].SkeletonRendererCustomMaterials.AtlasMaterialOverride],"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonRendererCustomMaterials")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"RemoveCustomMaterialOverrides","t":8,"sn":"RemoveCustomMaterialOverrides","rt":$n[0].Void},{"a":1,"n":"RemoveCustomSlotMaterials","t":8,"sn":"RemoveCustomSlotMaterials","rt":$n[0].Void},{"a":1,"n":"SetCustomMaterialOverrides","t":8,"sn":"SetCustomMaterialOverrides","rt":$n[0].Void},{"a":1,"n":"SetCustomSlotMaterials","t":8,"sn":"SetCustomSlotMaterials","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"customMaterialOverrides","t":4,"rt":$n[5].List$1(Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride),"sn":"customMaterialOverrides"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"customSlotMaterials","t":4,"rt":$n[5].List$1(Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride),"sn":"customSlotMaterials"},{"a":2,"n":"skeletonRenderer","t":4,"rt":$n[4].SkeletonRenderer,"sn":"skeletonRenderer"}]}; }, $n);
+    $m("Spine.Unity.SkeletonRendererCustomMaterials", function () { return {"nested":[$n[5].SkeletonRendererCustomMaterials.SlotMaterialOverride,$n[5].SkeletonRendererCustomMaterials.AtlasMaterialOverride],"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonRendererCustomMaterials")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":1,"n":"RemoveCustomMaterialOverrides","t":8,"sn":"RemoveCustomMaterialOverrides","rt":$n[0].Void},{"a":1,"n":"RemoveCustomSlotMaterials","t":8,"sn":"RemoveCustomSlotMaterials","rt":$n[0].Void},{"a":1,"n":"SetCustomMaterialOverrides","t":8,"sn":"SetCustomMaterialOverrides","rt":$n[0].Void},{"a":1,"n":"SetCustomSlotMaterials","t":8,"sn":"SetCustomSlotMaterials","rt":$n[0].Void},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"customMaterialOverrides","t":4,"rt":$n[6].List$1(Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride),"sn":"customMaterialOverrides"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"customSlotMaterials","t":4,"rt":$n[6].List$1(Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride),"sn":"customSlotMaterials"},{"a":2,"n":"skeletonRenderer","t":4,"rt":$n[5].SkeletonRenderer,"sn":"skeletonRenderer"}]}; }, $n);
     /*Spine.Unity.SkeletonRendererCustomMaterials end.*/
 
     /*Spine.Unity.SkeletonRendererCustomMaterials+SlotMaterialOverride start.*/
-    $m("Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride", function () { return {"td":$n[4].SkeletonRendererCustomMaterials,"att":1057034,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Equals","t":8,"pi":[{"n":"other","pt":$n[4].SkeletonRendererCustomMaterials.SlotMaterialOverride,"ps":0}],"sn":"equalsT","rt":$n[0].Boolean,"p":[$n[4].SkeletonRendererCustomMaterials.SlotMaterialOverride],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"material","t":4,"rt":$n[2].Material,"sn":"material"},{"a":2,"n":"overrideDisabled","t":4,"rt":$n[0].Boolean,"sn":"overrideDisabled","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new Spine.Unity.SpineSlot("", "", false, true, false)],"a":2,"n":"slotName","t":4,"rt":$n[0].String,"sn":"slotName"}]}; }, $n);
+    $m("Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride", function () { return {"td":$n[5].SkeletonRendererCustomMaterials,"att":1057034,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Equals","t":8,"pi":[{"n":"other","pt":$n[5].SkeletonRendererCustomMaterials.SlotMaterialOverride,"ps":0}],"sn":"equalsT","rt":$n[0].Boolean,"p":[$n[5].SkeletonRendererCustomMaterials.SlotMaterialOverride],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"material","t":4,"rt":$n[2].Material,"sn":"material"},{"a":2,"n":"overrideDisabled","t":4,"rt":$n[0].Boolean,"sn":"overrideDisabled","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new Spine.Unity.SpineSlot("", "", false, true, false)],"a":2,"n":"slotName","t":4,"rt":$n[0].String,"sn":"slotName"}]}; }, $n);
     /*Spine.Unity.SkeletonRendererCustomMaterials+SlotMaterialOverride end.*/
 
     /*Spine.Unity.SkeletonRendererCustomMaterials+AtlasMaterialOverride start.*/
-    $m("Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride", function () { return {"td":$n[4].SkeletonRendererCustomMaterials,"att":1057034,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Equals","t":8,"pi":[{"n":"other","pt":$n[4].SkeletonRendererCustomMaterials.AtlasMaterialOverride,"ps":0}],"sn":"equalsT","rt":$n[0].Boolean,"p":[$n[4].SkeletonRendererCustomMaterials.AtlasMaterialOverride],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"originalMaterial","t":4,"rt":$n[2].Material,"sn":"originalMaterial"},{"a":2,"n":"overrideDisabled","t":4,"rt":$n[0].Boolean,"sn":"overrideDisabled","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"replacementMaterial","t":4,"rt":$n[2].Material,"sn":"replacementMaterial"}]}; }, $n);
+    $m("Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride", function () { return {"td":$n[5].SkeletonRendererCustomMaterials,"att":1057034,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Equals","t":8,"pi":[{"n":"other","pt":$n[5].SkeletonRendererCustomMaterials.AtlasMaterialOverride,"ps":0}],"sn":"equalsT","rt":$n[0].Boolean,"p":[$n[5].SkeletonRendererCustomMaterials.AtlasMaterialOverride],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"originalMaterial","t":4,"rt":$n[2].Material,"sn":"originalMaterial"},{"a":2,"n":"overrideDisabled","t":4,"rt":$n[0].Boolean,"sn":"overrideDisabled","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"replacementMaterial","t":4,"rt":$n[2].Material,"sn":"replacementMaterial"}]}; }, $n);
     /*Spine.Unity.SkeletonRendererCustomMaterials+AtlasMaterialOverride end.*/
 
     /*Spine.Unity.SkeletonPartsRenderer start.*/
-    $m("Spine.Unity.SkeletonPartsRenderer", function () { return {"nested":[Function],"att":1048577,"a":2,"at":[new UnityEngine.RequireComponent.$ctor1(UnityEngine.MeshRenderer, UnityEngine.MeshFilter),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonRenderSeparator")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ClearMesh","t":8,"sn":"ClearMesh","rt":$n[0].Void},{"a":1,"n":"LazyIntialize","t":8,"sn":"LazyIntialize","rt":$n[0].Void},{"a":2,"n":"NewPartsRendererGameObject","is":true,"t":8,"pi":[{"n":"parent","pt":$n[2].Transform,"ps":0},{"n":"name","pt":$n[0].String,"ps":1},{"n":"sortingOrder","dv":0,"o":true,"pt":$n[0].Int32,"ps":2}],"sn":"NewPartsRendererGameObject","rt":$n[4].SkeletonPartsRenderer,"p":[$n[2].Transform,$n[0].String,$n[0].Int32]},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":2,"n":"RenderParts","t":8,"pi":[{"n":"instructions","pt":$n[3].ExposedList$1(Spine.Unity.SubmeshInstruction),"ps":0},{"n":"startSubmesh","pt":$n[0].Int32,"ps":1},{"n":"endSubmesh","pt":$n[0].Int32,"ps":2}],"sn":"RenderParts","rt":$n[0].Void,"p":[$n[3].ExposedList$1(Spine.Unity.SubmeshInstruction),$n[0].Int32,$n[0].Int32]},{"a":2,"n":"SetPropertyBlock","t":8,"pi":[{"n":"block","pt":$n[2].MaterialPropertyBlock,"ps":0}],"sn":"SetPropertyBlock","rt":$n[0].Void,"p":[$n[2].MaterialPropertyBlock]},{"a":2,"n":"MeshFilter","t":16,"rt":$n[2].MeshFilter,"g":{"a":2,"n":"get_MeshFilter","t":8,"rt":$n[2].MeshFilter,"fg":"MeshFilter"},"fn":"MeshFilter"},{"a":2,"n":"MeshGenerator","t":16,"rt":$n[4].MeshGenerator,"g":{"a":2,"n":"get_MeshGenerator","t":8,"rt":$n[4].MeshGenerator,"fg":"MeshGenerator"},"fn":"MeshGenerator"},{"a":2,"n":"MeshRenderer","t":16,"rt":$n[2].MeshRenderer,"g":{"a":2,"n":"get_MeshRenderer","t":8,"rt":$n[2].MeshRenderer,"fg":"MeshRenderer"},"fn":"MeshRenderer"},{"a":1,"n":"buffers","t":4,"rt":$n[4].MeshRendererBuffers,"sn":"buffers"},{"a":1,"n":"currentInstructions","t":4,"rt":$n[4].SkeletonRendererInstruction,"sn":"currentInstructions"},{"a":1,"n":"meshFilter","t":4,"rt":$n[2].MeshFilter,"sn":"meshFilter"},{"a":1,"n":"meshGenerator","t":4,"rt":$n[4].MeshGenerator,"sn":"meshGenerator"},{"a":1,"n":"meshRenderer","t":4,"rt":$n[2].MeshRenderer,"sn":"meshRenderer"},{"a":2,"n":"OnMeshAndMaterialsUpdated","t":2,"ad":{"a":2,"n":"add_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("Spine.Unity.SkeletonPartsRenderer", function () { return {"nested":[Function],"att":1048577,"a":2,"at":[new UnityEngine.RequireComponent.$ctor1(UnityEngine.MeshRenderer, UnityEngine.MeshFilter),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonRenderSeparator")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ClearMesh","t":8,"sn":"ClearMesh","rt":$n[0].Void},{"a":1,"n":"LazyIntialize","t":8,"sn":"LazyIntialize","rt":$n[0].Void},{"a":2,"n":"NewPartsRendererGameObject","is":true,"t":8,"pi":[{"n":"parent","pt":$n[2].Transform,"ps":0},{"n":"name","pt":$n[0].String,"ps":1},{"n":"sortingOrder","dv":0,"o":true,"pt":$n[0].Int32,"ps":2}],"sn":"NewPartsRendererGameObject","rt":$n[5].SkeletonPartsRenderer,"p":[$n[2].Transform,$n[0].String,$n[0].Int32]},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":2,"n":"RenderParts","t":8,"pi":[{"n":"instructions","pt":$n[4].ExposedList$1(Spine.Unity.SubmeshInstruction),"ps":0},{"n":"startSubmesh","pt":$n[0].Int32,"ps":1},{"n":"endSubmesh","pt":$n[0].Int32,"ps":2}],"sn":"RenderParts","rt":$n[0].Void,"p":[$n[4].ExposedList$1(Spine.Unity.SubmeshInstruction),$n[0].Int32,$n[0].Int32]},{"a":2,"n":"SetPropertyBlock","t":8,"pi":[{"n":"block","pt":$n[2].MaterialPropertyBlock,"ps":0}],"sn":"SetPropertyBlock","rt":$n[0].Void,"p":[$n[2].MaterialPropertyBlock]},{"a":2,"n":"MeshFilter","t":16,"rt":$n[2].MeshFilter,"g":{"a":2,"n":"get_MeshFilter","t":8,"rt":$n[2].MeshFilter,"fg":"MeshFilter"},"fn":"MeshFilter"},{"a":2,"n":"MeshGenerator","t":16,"rt":$n[5].MeshGenerator,"g":{"a":2,"n":"get_MeshGenerator","t":8,"rt":$n[5].MeshGenerator,"fg":"MeshGenerator"},"fn":"MeshGenerator"},{"a":2,"n":"MeshRenderer","t":16,"rt":$n[2].MeshRenderer,"g":{"a":2,"n":"get_MeshRenderer","t":8,"rt":$n[2].MeshRenderer,"fg":"MeshRenderer"},"fn":"MeshRenderer"},{"a":1,"n":"buffers","t":4,"rt":$n[5].MeshRendererBuffers,"sn":"buffers"},{"a":1,"n":"currentInstructions","t":4,"rt":$n[5].SkeletonRendererInstruction,"sn":"currentInstructions"},{"a":1,"n":"meshFilter","t":4,"rt":$n[2].MeshFilter,"sn":"meshFilter"},{"a":1,"n":"meshGenerator","t":4,"rt":$n[5].MeshGenerator,"sn":"meshGenerator"},{"a":1,"n":"meshRenderer","t":4,"rt":$n[2].MeshRenderer,"sn":"meshRenderer"},{"a":2,"n":"OnMeshAndMaterialsUpdated","t":2,"ad":{"a":2,"n":"add_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*Spine.Unity.SkeletonPartsRenderer end.*/
 
     /*Spine.Unity.SkeletonRenderSeparator start.*/
-    $m("Spine.Unity.SkeletonRenderSeparator", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonRenderSeparator")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddPartsRenderer","t":8,"pi":[{"n":"sortingOrderIncrement","dv":5,"o":true,"pt":$n[0].Int32,"ps":0},{"n":"name","dv":null,"o":true,"pt":$n[0].String,"ps":1}],"sn":"AddPartsRenderer","rt":$n[4].SkeletonPartsRenderer,"p":[$n[0].Int32,$n[0].String]},{"a":2,"n":"AddToSkeletonRenderer","is":true,"t":8,"pi":[{"n":"skeletonRenderer","pt":$n[4].SkeletonRenderer,"ps":0},{"n":"sortingLayerID","dv":0,"o":true,"pt":$n[0].Int32,"ps":1},{"n":"extraPartsRenderers","dv":0,"o":true,"pt":$n[0].Int32,"ps":2},{"n":"sortingOrderIncrement","dv":5,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"baseSortingOrder","dv":0,"o":true,"pt":$n[0].Int32,"ps":4},{"n":"addMinimumPartsRenderers","dv":true,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"AddToSkeletonRenderer","rt":$n[4].SkeletonRenderSeparator,"p":[$n[4].SkeletonRenderer,$n[0].Int32,$n[0].Int32,$n[0].Int32,$n[0].Int32,$n[0].Boolean]},{"a":3,"n":"ClearPartsRendererMeshes","t":8,"sn":"ClearPartsRendererMeshes","rt":$n[0].Void},{"a":1,"n":"HandleRender","t":8,"pi":[{"n":"instruction","pt":$n[4].SkeletonRendererInstruction,"ps":0}],"sn":"HandleRender","rt":$n[0].Void,"p":[$n[4].SkeletonRendererInstruction]},{"a":2,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":2,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"SkeletonRenderer","t":16,"rt":$n[4].SkeletonRenderer,"g":{"a":2,"n":"get_SkeletonRenderer","t":8,"rt":$n[4].SkeletonRenderer,"fg":"SkeletonRenderer"},"s":{"a":2,"n":"set_SkeletonRenderer","t":8,"p":[$n[4].SkeletonRenderer],"rt":$n[0].Void,"fs":"SkeletonRenderer"},"fn":"SkeletonRenderer"},{"a":2,"n":"DefaultSortingOrderIncrement","is":true,"t":4,"rt":$n[0].Int32,"sn":"DefaultSortingOrderIncrement","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"copiedBlock","t":4,"rt":$n[2].MaterialPropertyBlock,"sn":"copiedBlock"},{"at":[new UnityEngine.TooltipAttribute("Copies MeshRenderer flags into each parts renderer")],"a":2,"n":"copyMeshRendererFlags","t":4,"rt":$n[0].Boolean,"sn":"copyMeshRendererFlags","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"copyPropertyBlock","t":4,"rt":$n[0].Boolean,"sn":"copyPropertyBlock","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"mainMeshRenderer","t":4,"rt":$n[2].MeshRenderer,"sn":"mainMeshRenderer"},{"a":2,"n":"partsRenderers","t":4,"rt":$n[5].List$1(Spine.Unity.SkeletonPartsRenderer),"sn":"partsRenderers"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"skeletonRenderer","t":4,"rt":$n[4].SkeletonRenderer,"sn":"skeletonRenderer"},{"a":2,"n":"OnMeshAndMaterialsUpdated","t":2,"ad":{"a":2,"n":"add_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("Spine.Unity.SkeletonRenderSeparator", function () { return {"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonRenderSeparator")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddPartsRenderer","t":8,"pi":[{"n":"sortingOrderIncrement","dv":5,"o":true,"pt":$n[0].Int32,"ps":0},{"n":"name","dv":null,"o":true,"pt":$n[0].String,"ps":1}],"sn":"AddPartsRenderer","rt":$n[5].SkeletonPartsRenderer,"p":[$n[0].Int32,$n[0].String]},{"a":2,"n":"AddToSkeletonRenderer","is":true,"t":8,"pi":[{"n":"skeletonRenderer","pt":$n[5].SkeletonRenderer,"ps":0},{"n":"sortingLayerID","dv":0,"o":true,"pt":$n[0].Int32,"ps":1},{"n":"extraPartsRenderers","dv":0,"o":true,"pt":$n[0].Int32,"ps":2},{"n":"sortingOrderIncrement","dv":5,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"baseSortingOrder","dv":0,"o":true,"pt":$n[0].Int32,"ps":4},{"n":"addMinimumPartsRenderers","dv":true,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"AddToSkeletonRenderer","rt":$n[5].SkeletonRenderSeparator,"p":[$n[5].SkeletonRenderer,$n[0].Int32,$n[0].Int32,$n[0].Int32,$n[0].Int32,$n[0].Boolean]},{"a":3,"n":"ClearPartsRendererMeshes","t":8,"sn":"ClearPartsRendererMeshes","rt":$n[0].Void},{"a":1,"n":"HandleRender","t":8,"pi":[{"n":"instruction","pt":$n[5].SkeletonRendererInstruction,"ps":0}],"sn":"HandleRender","rt":$n[0].Void,"p":[$n[5].SkeletonRendererInstruction]},{"a":2,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":2,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"SkeletonRenderer","t":16,"rt":$n[5].SkeletonRenderer,"g":{"a":2,"n":"get_SkeletonRenderer","t":8,"rt":$n[5].SkeletonRenderer,"fg":"SkeletonRenderer"},"s":{"a":2,"n":"set_SkeletonRenderer","t":8,"p":[$n[5].SkeletonRenderer],"rt":$n[0].Void,"fs":"SkeletonRenderer"},"fn":"SkeletonRenderer"},{"a":2,"n":"DefaultSortingOrderIncrement","is":true,"t":4,"rt":$n[0].Int32,"sn":"DefaultSortingOrderIncrement","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"copiedBlock","t":4,"rt":$n[2].MaterialPropertyBlock,"sn":"copiedBlock"},{"at":[new UnityEngine.TooltipAttribute("Copies MeshRenderer flags into each parts renderer")],"a":2,"n":"copyMeshRendererFlags","t":4,"rt":$n[0].Boolean,"sn":"copyMeshRendererFlags","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"copyPropertyBlock","t":4,"rt":$n[0].Boolean,"sn":"copyPropertyBlock","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"mainMeshRenderer","t":4,"rt":$n[2].MeshRenderer,"sn":"mainMeshRenderer"},{"a":2,"n":"partsRenderers","t":4,"rt":$n[6].List$1(Spine.Unity.SkeletonPartsRenderer),"sn":"partsRenderers"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":3,"n":"skeletonRenderer","t":4,"rt":$n[5].SkeletonRenderer,"sn":"skeletonRenderer"},{"a":2,"n":"OnMeshAndMaterialsUpdated","t":2,"ad":{"a":2,"n":"add_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnMeshAndMaterialsUpdated","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnMeshAndMaterialsUpdated","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*Spine.Unity.SkeletonRenderSeparator end.*/
 
     /*Spine.Unity.ActivateBasedOnFlipDirection start.*/
-    $m("Spine.Unity.ActivateBasedOnFlipDirection", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"CompensateMovementAfterFlipX","t":8,"pi":[{"n":"toActivate","pt":$n[2].Transform,"ps":0},{"n":"toDeactivate","pt":$n[2].Transform,"ps":1}],"sn":"CompensateMovementAfterFlipX","rt":$n[0].Void,"p":[$n[2].Transform,$n[2].Transform]},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"HandleFlip","t":8,"pi":[{"n":"isFlippedX","pt":$n[0].Boolean,"ps":0}],"sn":"HandleFlip","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"ResetJointPositions","t":8,"pi":[{"n":"joints","pt":System.Array.type(UnityEngine.HingeJoint2D),"ps":0}],"sn":"ResetJointPositions","rt":$n[0].Void,"p":[System.Array.type(UnityEngine.HingeJoint2D)]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"activeOnFlippedX","t":4,"rt":$n[2].GameObject,"sn":"activeOnFlippedX"},{"a":2,"n":"activeOnNormalX","t":4,"rt":$n[2].GameObject,"sn":"activeOnNormalX"},{"a":1,"n":"jointsFlippedX","t":4,"rt":System.Array.type(UnityEngine.HingeJoint2D),"sn":"jointsFlippedX"},{"a":1,"n":"jointsNormalX","t":4,"rt":System.Array.type(UnityEngine.HingeJoint2D),"sn":"jointsNormalX"},{"a":1,"n":"skeletonComponent","t":4,"rt":$n[4].ISkeletonComponent,"sn":"skeletonComponent"},{"a":2,"n":"skeletonGraphic","t":4,"rt":$n[4].SkeletonGraphic,"sn":"skeletonGraphic"},{"a":2,"n":"skeletonRenderer","t":4,"rt":$n[4].SkeletonRenderer,"sn":"skeletonRenderer"},{"a":1,"n":"wasFlippedXBefore","t":4,"rt":$n[0].Boolean,"sn":"wasFlippedXBefore","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("Spine.Unity.ActivateBasedOnFlipDirection", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"CompensateMovementAfterFlipX","t":8,"pi":[{"n":"toActivate","pt":$n[2].Transform,"ps":0},{"n":"toDeactivate","pt":$n[2].Transform,"ps":1}],"sn":"CompensateMovementAfterFlipX","rt":$n[0].Void,"p":[$n[2].Transform,$n[2].Transform]},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"HandleFlip","t":8,"pi":[{"n":"isFlippedX","pt":$n[0].Boolean,"ps":0}],"sn":"HandleFlip","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"ResetJointPositions","t":8,"pi":[{"n":"joints","pt":System.Array.type(UnityEngine.HingeJoint2D),"ps":0}],"sn":"ResetJointPositions","rt":$n[0].Void,"p":[System.Array.type(UnityEngine.HingeJoint2D)]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"activeOnFlippedX","t":4,"rt":$n[2].GameObject,"sn":"activeOnFlippedX"},{"a":2,"n":"activeOnNormalX","t":4,"rt":$n[2].GameObject,"sn":"activeOnNormalX"},{"a":1,"n":"jointsFlippedX","t":4,"rt":System.Array.type(UnityEngine.HingeJoint2D),"sn":"jointsFlippedX"},{"a":1,"n":"jointsNormalX","t":4,"rt":System.Array.type(UnityEngine.HingeJoint2D),"sn":"jointsNormalX"},{"a":1,"n":"skeletonComponent","t":4,"rt":$n[5].ISkeletonComponent,"sn":"skeletonComponent"},{"a":2,"n":"skeletonGraphic","t":4,"rt":$n[5].SkeletonGraphic,"sn":"skeletonGraphic"},{"a":2,"n":"skeletonRenderer","t":4,"rt":$n[5].SkeletonRenderer,"sn":"skeletonRenderer"},{"a":1,"n":"wasFlippedXBefore","t":4,"rt":$n[0].Boolean,"sn":"wasFlippedXBefore","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Spine.Unity.ActivateBasedOnFlipDirection end.*/
 
     /*Spine.Unity.SkeletonUtility start.*/
-    $m("Spine.Unity.SkeletonUtility", function () { return {"nested":[Function],"att":1048833,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.RequireComponent.ctor(Spine.Unity.ISkeletonAnimation),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonUtility")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddBoneRigidbody2D","is":true,"t":8,"pi":[{"n":"gameObject","pt":$n[2].GameObject,"ps":0},{"n":"isKinematic","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"gravityScale","dv":0.0,"o":true,"pt":$n[0].Single,"ps":2}],"sn":"AddBoneRigidbody2D","rt":$n[2].Rigidbody2D,"p":[$n[2].GameObject,$n[0].Boolean,$n[0].Single]},{"a":2,"n":"AddBoundingBoxAsComponent","is":true,"t":8,"pi":[{"n":"box","pt":spine.BoundingBoxAttachment,"ps":0},{"n":"slot","pt":$n[3].Slot,"ps":1},{"n":"gameObject","pt":$n[2].GameObject,"ps":2},{"n":"isTrigger","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"AddBoundingBoxAsComponent","rt":$n[2].PolygonCollider2D,"p":[spine.BoundingBoxAttachment,$n[3].Slot,$n[2].GameObject,$n[0].Boolean]},{"a":2,"n":"AddBoundingBoxGameObject","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"box","pt":spine.BoundingBoxAttachment,"ps":1},{"n":"slot","pt":$n[3].Slot,"ps":2},{"n":"parent","pt":$n[2].Transform,"ps":3},{"n":"isTrigger","dv":true,"o":true,"pt":$n[0].Boolean,"ps":4}],"sn":"AddBoundingBoxGameObject$1","rt":$n[2].PolygonCollider2D,"p":[$n[0].String,spine.BoundingBoxAttachment,$n[3].Slot,$n[2].Transform,$n[0].Boolean]},{"a":2,"n":"AddBoundingBoxGameObject","is":true,"t":8,"pi":[{"n":"skeleton","pt":$n[3].Skeleton,"ps":0},{"n":"skinName","pt":$n[0].String,"ps":1},{"n":"slotName","pt":$n[0].String,"ps":2},{"n":"attachmentName","pt":$n[0].String,"ps":3},{"n":"parent","pt":$n[2].Transform,"ps":4},{"n":"isTrigger","dv":true,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"AddBoundingBoxGameObject","rt":$n[2].PolygonCollider2D,"p":[$n[3].Skeleton,$n[0].String,$n[0].String,$n[0].String,$n[2].Transform,$n[0].Boolean]},{"a":2,"n":"CollectBones","t":8,"sn":"CollectBones","rt":$n[0].Void},{"a":2,"n":"GetBoneRoot","t":8,"sn":"GetBoneRoot","rt":$n[2].Transform},{"a":2,"n":"GetBoundingBoxBounds","is":true,"t":8,"pi":[{"n":"boundingBox","pt":spine.BoundingBoxAttachment,"ps":0},{"n":"depth","dv":0.0,"o":true,"pt":$n[0].Single,"ps":1}],"sn":"GetBoundingBoxBounds","rt":$n[2].Bounds,"p":[spine.BoundingBoxAttachment,$n[0].Single]},{"a":1,"n":"HandleRendererReset","t":8,"pi":[{"n":"g","pt":$n[4].SkeletonGraphic,"ps":0}],"sn":"HandleRendererReset","rt":$n[0].Void,"p":[$n[4].SkeletonGraphic]},{"a":1,"n":"HandleRendererReset","t":8,"pi":[{"n":"r","pt":$n[4].SkeletonRenderer,"ps":0}],"sn":"HandleRendererReset$1","rt":$n[0].Void,"p":[$n[4].SkeletonRenderer]},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"RegisterBone","t":8,"pi":[{"n":"bone","pt":$n[4].SkeletonUtilityBone,"ps":0}],"sn":"RegisterBone","rt":$n[0].Void,"p":[$n[4].SkeletonUtilityBone]},{"a":2,"n":"RegisterConstraint","t":8,"pi":[{"n":"constraint","pt":$n[4].SkeletonUtilityConstraint,"ps":0}],"sn":"RegisterConstraint","rt":$n[0].Void,"p":[$n[4].SkeletonUtilityConstraint]},{"a":2,"n":"ResubscribeEvents","t":8,"sn":"ResubscribeEvents","rt":$n[0].Void},{"a":2,"n":"SetColliderPointsLocal","is":true,"t":8,"pi":[{"n":"collider","pt":$n[2].PolygonCollider2D,"ps":0},{"n":"slot","pt":$n[3].Slot,"ps":1},{"n":"box","pt":spine.BoundingBoxAttachment,"ps":2},{"n":"scale","dv":1.0,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"SetColliderPointsLocal","rt":$n[0].Void,"p":[$n[2].PolygonCollider2D,$n[3].Slot,spine.BoundingBoxAttachment,$n[0].Single]},{"a":2,"n":"SpawnBone","t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0},{"n":"parent","pt":$n[2].Transform,"ps":1},{"n":"mode","pt":$n[4].SkeletonUtilityBone.Mode,"ps":2},{"n":"pos","pt":$n[0].Boolean,"ps":3},{"n":"rot","pt":$n[0].Boolean,"ps":4},{"n":"sca","pt":$n[0].Boolean,"ps":5}],"sn":"SpawnBone","rt":$n[2].GameObject,"p":[$n[3].Bone,$n[2].Transform,$n[4].SkeletonUtilityBone.Mode,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"SpawnBoneRecursively","t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0},{"n":"parent","pt":$n[2].Transform,"ps":1},{"n":"mode","pt":$n[4].SkeletonUtilityBone.Mode,"ps":2},{"n":"pos","pt":$n[0].Boolean,"ps":3},{"n":"rot","pt":$n[0].Boolean,"ps":4},{"n":"sca","pt":$n[0].Boolean,"ps":5}],"sn":"SpawnBoneRecursively","rt":$n[2].GameObject,"p":[$n[3].Bone,$n[2].Transform,$n[4].SkeletonUtilityBone.Mode,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"SpawnHierarchy","t":8,"pi":[{"n":"mode","pt":$n[4].SkeletonUtilityBone.Mode,"ps":0},{"n":"pos","pt":$n[0].Boolean,"ps":1},{"n":"rot","pt":$n[0].Boolean,"ps":2},{"n":"sca","pt":$n[0].Boolean,"ps":3}],"sn":"SpawnHierarchy","rt":$n[2].GameObject,"p":[$n[4].SkeletonUtilityBone.Mode,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"SpawnRoot","t":8,"pi":[{"n":"mode","pt":$n[4].SkeletonUtilityBone.Mode,"ps":0},{"n":"pos","pt":$n[0].Boolean,"ps":1},{"n":"rot","pt":$n[0].Boolean,"ps":2},{"n":"sca","pt":$n[0].Boolean,"ps":3}],"sn":"SpawnRoot","rt":$n[2].GameObject,"p":[$n[4].SkeletonUtilityBone.Mode,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"UnregisterBone","t":8,"pi":[{"n":"bone","pt":$n[4].SkeletonUtilityBone,"ps":0}],"sn":"UnregisterBone","rt":$n[0].Void,"p":[$n[4].SkeletonUtilityBone]},{"a":2,"n":"UnregisterConstraint","t":8,"pi":[{"n":"constraint","pt":$n[4].SkeletonUtilityConstraint,"ps":0}],"sn":"UnregisterConstraint","rt":$n[0].Void,"p":[$n[4].SkeletonUtilityConstraint]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"UpdateAllBones","t":8,"pi":[{"n":"phase","pt":$n[4].SkeletonUtilityBone.UpdatePhase,"ps":0}],"sn":"UpdateAllBones","rt":$n[0].Void,"p":[$n[4].SkeletonUtilityBone.UpdatePhase]},{"a":1,"n":"UpdateComplete","t":8,"pi":[{"n":"anim","pt":$n[4].ISkeletonAnimation,"ps":0}],"sn":"UpdateComplete","rt":$n[0].Void,"p":[$n[4].ISkeletonAnimation]},{"a":1,"n":"UpdateLocal","t":8,"pi":[{"n":"anim","pt":$n[4].ISkeletonAnimation,"ps":0}],"sn":"UpdateLocal","rt":$n[0].Void,"p":[$n[4].ISkeletonAnimation]},{"a":1,"n":"UpdateWorld","t":8,"pi":[{"n":"anim","pt":$n[4].ISkeletonAnimation,"ps":0}],"sn":"UpdateWorld","rt":$n[0].Void,"p":[$n[4].ISkeletonAnimation]},{"a":2,"n":"IsValid","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsValid","t":8,"rt":$n[0].Boolean,"fg":"IsValid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsValid"},{"a":2,"n":"PositionScale","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_PositionScale","t":8,"rt":$n[0].Single,"fg":"PositionScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"PositionScale"},{"a":2,"n":"Skeleton","t":16,"rt":$n[3].Skeleton,"g":{"a":2,"n":"get_Skeleton","t":8,"rt":$n[3].Skeleton,"fg":"Skeleton"},"fn":"Skeleton"},{"a":2,"n":"SkeletonComponent","t":16,"rt":$n[4].ISkeletonComponent,"g":{"a":2,"n":"get_SkeletonComponent","t":8,"rt":$n[4].ISkeletonComponent,"fg":"SkeletonComponent"},"fn":"SkeletonComponent"},{"a":2,"n":"boneComponents","t":4,"rt":$n[5].List$1(Spine.Unity.SkeletonUtilityBone),"sn":"boneComponents"},{"a":2,"n":"boneRoot","t":4,"rt":$n[2].Transform,"sn":"boneRoot"},{"a":2,"n":"constraintComponents","t":4,"rt":$n[5].List$1(Spine.Unity.SkeletonUtilityConstraint),"sn":"constraintComponents"},{"a":2,"n":"flipBy180DegreeRotation","t":4,"rt":$n[0].Boolean,"sn":"flipBy180DegreeRotation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"hasConstraints","t":4,"rt":$n[0].Boolean,"sn":"hasConstraints","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"hasOverrideBones","t":4,"rt":$n[0].Boolean,"sn":"hasOverrideBones","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"needToReprocessBones","t":4,"rt":$n[0].Boolean,"sn":"needToReprocessBones","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"positionScale","t":4,"rt":$n[0].Single,"sn":"positionScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"skeletonAnimation","t":4,"rt":$n[4].ISkeletonAnimation,"sn":"skeletonAnimation"},{"a":1,"n":"skeletonComponent","t":4,"rt":$n[4].ISkeletonComponent,"sn":"skeletonComponent"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"skeletonGraphic","t":4,"rt":$n[4].SkeletonGraphic,"sn":"skeletonGraphic"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"skeletonRenderer","t":4,"rt":$n[4].SkeletonRenderer,"sn":"skeletonRenderer"},{"a":2,"n":"OnReset","t":2,"ad":{"a":2,"n":"add_OnReset","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnReset","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnReset","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnReset","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    $m("Spine.Unity.SkeletonUtility", function () { return {"nested":[Function],"att":1048833,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.RequireComponent.ctor(Spine.Unity.ISkeletonAnimation),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonUtility")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddBoneRigidbody2D","is":true,"t":8,"pi":[{"n":"gameObject","pt":$n[2].GameObject,"ps":0},{"n":"isKinematic","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"gravityScale","dv":0.0,"o":true,"pt":$n[0].Single,"ps":2}],"sn":"AddBoneRigidbody2D","rt":$n[2].Rigidbody2D,"p":[$n[2].GameObject,$n[0].Boolean,$n[0].Single]},{"a":2,"n":"AddBoundingBoxAsComponent","is":true,"t":8,"pi":[{"n":"box","pt":spine.BoundingBoxAttachment,"ps":0},{"n":"slot","pt":$n[4].Slot,"ps":1},{"n":"gameObject","pt":$n[2].GameObject,"ps":2},{"n":"isTrigger","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"AddBoundingBoxAsComponent","rt":$n[2].PolygonCollider2D,"p":[spine.BoundingBoxAttachment,$n[4].Slot,$n[2].GameObject,$n[0].Boolean]},{"a":2,"n":"AddBoundingBoxGameObject","is":true,"t":8,"pi":[{"n":"name","pt":$n[0].String,"ps":0},{"n":"box","pt":spine.BoundingBoxAttachment,"ps":1},{"n":"slot","pt":$n[4].Slot,"ps":2},{"n":"parent","pt":$n[2].Transform,"ps":3},{"n":"isTrigger","dv":true,"o":true,"pt":$n[0].Boolean,"ps":4}],"sn":"AddBoundingBoxGameObject$1","rt":$n[2].PolygonCollider2D,"p":[$n[0].String,spine.BoundingBoxAttachment,$n[4].Slot,$n[2].Transform,$n[0].Boolean]},{"a":2,"n":"AddBoundingBoxGameObject","is":true,"t":8,"pi":[{"n":"skeleton","pt":$n[4].Skeleton,"ps":0},{"n":"skinName","pt":$n[0].String,"ps":1},{"n":"slotName","pt":$n[0].String,"ps":2},{"n":"attachmentName","pt":$n[0].String,"ps":3},{"n":"parent","pt":$n[2].Transform,"ps":4},{"n":"isTrigger","dv":true,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"AddBoundingBoxGameObject","rt":$n[2].PolygonCollider2D,"p":[$n[4].Skeleton,$n[0].String,$n[0].String,$n[0].String,$n[2].Transform,$n[0].Boolean]},{"a":2,"n":"CollectBones","t":8,"sn":"CollectBones","rt":$n[0].Void},{"a":2,"n":"GetBoneRoot","t":8,"sn":"GetBoneRoot","rt":$n[2].Transform},{"a":2,"n":"GetBoundingBoxBounds","is":true,"t":8,"pi":[{"n":"boundingBox","pt":spine.BoundingBoxAttachment,"ps":0},{"n":"depth","dv":0.0,"o":true,"pt":$n[0].Single,"ps":1}],"sn":"GetBoundingBoxBounds","rt":$n[2].Bounds,"p":[spine.BoundingBoxAttachment,$n[0].Single]},{"a":1,"n":"HandleRendererReset","t":8,"pi":[{"n":"g","pt":$n[5].SkeletonGraphic,"ps":0}],"sn":"HandleRendererReset","rt":$n[0].Void,"p":[$n[5].SkeletonGraphic]},{"a":1,"n":"HandleRendererReset","t":8,"pi":[{"n":"r","pt":$n[5].SkeletonRenderer,"ps":0}],"sn":"HandleRendererReset$1","rt":$n[0].Void,"p":[$n[5].SkeletonRenderer]},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"RegisterBone","t":8,"pi":[{"n":"bone","pt":$n[5].SkeletonUtilityBone,"ps":0}],"sn":"RegisterBone","rt":$n[0].Void,"p":[$n[5].SkeletonUtilityBone]},{"a":2,"n":"RegisterConstraint","t":8,"pi":[{"n":"constraint","pt":$n[5].SkeletonUtilityConstraint,"ps":0}],"sn":"RegisterConstraint","rt":$n[0].Void,"p":[$n[5].SkeletonUtilityConstraint]},{"a":2,"n":"ResubscribeEvents","t":8,"sn":"ResubscribeEvents","rt":$n[0].Void},{"a":2,"n":"SetColliderPointsLocal","is":true,"t":8,"pi":[{"n":"collider","pt":$n[2].PolygonCollider2D,"ps":0},{"n":"slot","pt":$n[4].Slot,"ps":1},{"n":"box","pt":spine.BoundingBoxAttachment,"ps":2},{"n":"scale","dv":1.0,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"SetColliderPointsLocal","rt":$n[0].Void,"p":[$n[2].PolygonCollider2D,$n[4].Slot,spine.BoundingBoxAttachment,$n[0].Single]},{"a":2,"n":"SpawnBone","t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0},{"n":"parent","pt":$n[2].Transform,"ps":1},{"n":"mode","pt":$n[5].SkeletonUtilityBone.Mode,"ps":2},{"n":"pos","pt":$n[0].Boolean,"ps":3},{"n":"rot","pt":$n[0].Boolean,"ps":4},{"n":"sca","pt":$n[0].Boolean,"ps":5}],"sn":"SpawnBone","rt":$n[2].GameObject,"p":[$n[4].Bone,$n[2].Transform,$n[5].SkeletonUtilityBone.Mode,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"SpawnBoneRecursively","t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0},{"n":"parent","pt":$n[2].Transform,"ps":1},{"n":"mode","pt":$n[5].SkeletonUtilityBone.Mode,"ps":2},{"n":"pos","pt":$n[0].Boolean,"ps":3},{"n":"rot","pt":$n[0].Boolean,"ps":4},{"n":"sca","pt":$n[0].Boolean,"ps":5}],"sn":"SpawnBoneRecursively","rt":$n[2].GameObject,"p":[$n[4].Bone,$n[2].Transform,$n[5].SkeletonUtilityBone.Mode,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"SpawnHierarchy","t":8,"pi":[{"n":"mode","pt":$n[5].SkeletonUtilityBone.Mode,"ps":0},{"n":"pos","pt":$n[0].Boolean,"ps":1},{"n":"rot","pt":$n[0].Boolean,"ps":2},{"n":"sca","pt":$n[0].Boolean,"ps":3}],"sn":"SpawnHierarchy","rt":$n[2].GameObject,"p":[$n[5].SkeletonUtilityBone.Mode,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"SpawnRoot","t":8,"pi":[{"n":"mode","pt":$n[5].SkeletonUtilityBone.Mode,"ps":0},{"n":"pos","pt":$n[0].Boolean,"ps":1},{"n":"rot","pt":$n[0].Boolean,"ps":2},{"n":"sca","pt":$n[0].Boolean,"ps":3}],"sn":"SpawnRoot","rt":$n[2].GameObject,"p":[$n[5].SkeletonUtilityBone.Mode,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"UnregisterBone","t":8,"pi":[{"n":"bone","pt":$n[5].SkeletonUtilityBone,"ps":0}],"sn":"UnregisterBone","rt":$n[0].Void,"p":[$n[5].SkeletonUtilityBone]},{"a":2,"n":"UnregisterConstraint","t":8,"pi":[{"n":"constraint","pt":$n[5].SkeletonUtilityConstraint,"ps":0}],"sn":"UnregisterConstraint","rt":$n[0].Void,"p":[$n[5].SkeletonUtilityConstraint]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"UpdateAllBones","t":8,"pi":[{"n":"phase","pt":$n[5].SkeletonUtilityBone.UpdatePhase,"ps":0}],"sn":"UpdateAllBones","rt":$n[0].Void,"p":[$n[5].SkeletonUtilityBone.UpdatePhase]},{"a":1,"n":"UpdateComplete","t":8,"pi":[{"n":"anim","pt":$n[5].ISkeletonAnimation,"ps":0}],"sn":"UpdateComplete","rt":$n[0].Void,"p":[$n[5].ISkeletonAnimation]},{"a":1,"n":"UpdateLocal","t":8,"pi":[{"n":"anim","pt":$n[5].ISkeletonAnimation,"ps":0}],"sn":"UpdateLocal","rt":$n[0].Void,"p":[$n[5].ISkeletonAnimation]},{"a":1,"n":"UpdateWorld","t":8,"pi":[{"n":"anim","pt":$n[5].ISkeletonAnimation,"ps":0}],"sn":"UpdateWorld","rt":$n[0].Void,"p":[$n[5].ISkeletonAnimation]},{"a":2,"n":"IsValid","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IsValid","t":8,"rt":$n[0].Boolean,"fg":"IsValid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IsValid"},{"a":2,"n":"PositionScale","t":16,"rt":$n[0].Single,"g":{"a":2,"n":"get_PositionScale","t":8,"rt":$n[0].Single,"fg":"PositionScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"PositionScale"},{"a":2,"n":"Skeleton","t":16,"rt":$n[4].Skeleton,"g":{"a":2,"n":"get_Skeleton","t":8,"rt":$n[4].Skeleton,"fg":"Skeleton"},"fn":"Skeleton"},{"a":2,"n":"SkeletonComponent","t":16,"rt":$n[5].ISkeletonComponent,"g":{"a":2,"n":"get_SkeletonComponent","t":8,"rt":$n[5].ISkeletonComponent,"fg":"SkeletonComponent"},"fn":"SkeletonComponent"},{"a":2,"n":"boneComponents","t":4,"rt":$n[6].List$1(Spine.Unity.SkeletonUtilityBone),"sn":"boneComponents"},{"a":2,"n":"boneRoot","t":4,"rt":$n[2].Transform,"sn":"boneRoot"},{"a":2,"n":"constraintComponents","t":4,"rt":$n[6].List$1(Spine.Unity.SkeletonUtilityConstraint),"sn":"constraintComponents"},{"a":2,"n":"flipBy180DegreeRotation","t":4,"rt":$n[0].Boolean,"sn":"flipBy180DegreeRotation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"hasConstraints","t":4,"rt":$n[0].Boolean,"sn":"hasConstraints","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"hasOverrideBones","t":4,"rt":$n[0].Boolean,"sn":"hasOverrideBones","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"needToReprocessBones","t":4,"rt":$n[0].Boolean,"sn":"needToReprocessBones","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"positionScale","t":4,"rt":$n[0].Single,"sn":"positionScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"skeletonAnimation","t":4,"rt":$n[5].ISkeletonAnimation,"sn":"skeletonAnimation"},{"a":1,"n":"skeletonComponent","t":4,"rt":$n[5].ISkeletonComponent,"sn":"skeletonComponent"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"skeletonGraphic","t":4,"rt":$n[5].SkeletonGraphic,"sn":"skeletonGraphic"},{"at":[new UnityEngine.HideInInspector()],"a":2,"n":"skeletonRenderer","t":4,"rt":$n[5].SkeletonRenderer,"sn":"skeletonRenderer"},{"a":2,"n":"OnReset","t":2,"ad":{"a":2,"n":"add_OnReset","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnReset","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnReset","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnReset","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
     /*Spine.Unity.SkeletonUtility end.*/
 
     /*Spine.Unity.SkeletonUtilityBone start.*/
-    $m("Spine.Unity.SkeletonUtilityBone", function () { return {"nested":[$n[4].SkeletonUtilityBone.Mode,$n[4].SkeletonUtilityBone.UpdatePhase],"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.AddComponentMenu.ctor("Spine/SkeletonUtilityBone"),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonUtilityBone")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddBoundingBox","t":8,"pi":[{"n":"skinName","pt":$n[0].String,"ps":0},{"n":"slotName","pt":$n[0].String,"ps":1},{"n":"attachmentName","pt":$n[0].String,"ps":2}],"sn":"AddBoundingBox","rt":$n[0].Void,"p":[$n[0].String,$n[0].String,$n[0].String]},{"a":2,"n":"BoneTransformModeIncompatible","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0}],"sn":"BoneTransformModeIncompatible","rt":$n[0].Boolean,"p":[$n[3].Bone],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"DoUpdate","t":8,"pi":[{"n":"phase","pt":$n[4].SkeletonUtilityBone.UpdatePhase,"ps":0}],"sn":"DoUpdate","rt":$n[0].Void,"p":[$n[4].SkeletonUtilityBone.UpdatePhase]},{"a":1,"n":"HandleOnReset","t":8,"sn":"HandleOnReset","rt":$n[0].Void},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"a":2,"n":"IncompatibleTransformMode","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IncompatibleTransformMode","t":8,"rt":$n[0].Boolean,"fg":"IncompatibleTransformMode","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IncompatibleTransformMode"},{"a":2,"n":"bone","t":4,"rt":$n[3].Bone,"sn":"bone"},{"a":2,"n":"boneName","t":4,"rt":$n[0].String,"sn":"boneName"},{"a":1,"n":"cachedTransform","t":4,"rt":$n[2].Transform,"sn":"cachedTransform"},{"a":2,"n":"hierarchy","t":4,"rt":$n[4].SkeletonUtility,"sn":"hierarchy"},{"a":1,"n":"incompatibleTransformMode","t":4,"rt":$n[0].Boolean,"sn":"incompatibleTransformMode","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"mode","t":4,"rt":$n[4].SkeletonUtilityBone.Mode,"sn":"mode","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonUtilityBone.Mode, System.Enum.toStringFn(Spine.Unity.SkeletonUtilityBone.Mode));}},{"at":[new UnityEngine.RangeAttribute(0.0, 1.0)],"a":2,"n":"overrideAlpha","t":4,"rt":$n[0].Single,"sn":"overrideAlpha","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"parentReference","t":4,"rt":$n[2].Transform,"sn":"parentReference"},{"a":2,"n":"position","t":4,"rt":$n[0].Boolean,"sn":"position","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"rotation","t":4,"rt":$n[0].Boolean,"sn":"rotation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"scale","t":4,"rt":$n[0].Boolean,"sn":"scale","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"skeletonTransform","t":4,"rt":$n[2].Transform,"sn":"skeletonTransform"},{"a":2,"n":"transformLerpComplete","t":4,"rt":$n[0].Boolean,"sn":"transformLerpComplete","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"valid","t":4,"rt":$n[0].Boolean,"sn":"valid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"zPosition","t":4,"rt":$n[0].Boolean,"sn":"zPosition","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("Spine.Unity.SkeletonUtilityBone", function () { return {"nested":[$n[5].SkeletonUtilityBone.Mode,$n[5].SkeletonUtilityBone.UpdatePhase],"att":1048577,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.AddComponentMenu.ctor("Spine/SkeletonUtilityBone"),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonUtilityBone")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AddBoundingBox","t":8,"pi":[{"n":"skinName","pt":$n[0].String,"ps":0},{"n":"slotName","pt":$n[0].String,"ps":1},{"n":"attachmentName","pt":$n[0].String,"ps":2}],"sn":"AddBoundingBox","rt":$n[0].Void,"p":[$n[0].String,$n[0].String,$n[0].String]},{"a":2,"n":"BoneTransformModeIncompatible","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0}],"sn":"BoneTransformModeIncompatible","rt":$n[0].Boolean,"p":[$n[4].Bone],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"DoUpdate","t":8,"pi":[{"n":"phase","pt":$n[5].SkeletonUtilityBone.UpdatePhase,"ps":0}],"sn":"DoUpdate","rt":$n[0].Void,"p":[$n[5].SkeletonUtilityBone.UpdatePhase]},{"a":1,"n":"HandleOnReset","t":8,"sn":"HandleOnReset","rt":$n[0].Void},{"a":1,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"a":1,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":2,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"a":2,"n":"IncompatibleTransformMode","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_IncompatibleTransformMode","t":8,"rt":$n[0].Boolean,"fg":"IncompatibleTransformMode","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"IncompatibleTransformMode"},{"a":2,"n":"bone","t":4,"rt":$n[4].Bone,"sn":"bone"},{"a":2,"n":"boneName","t":4,"rt":$n[0].String,"sn":"boneName"},{"a":1,"n":"cachedTransform","t":4,"rt":$n[2].Transform,"sn":"cachedTransform"},{"a":2,"n":"hierarchy","t":4,"rt":$n[5].SkeletonUtility,"sn":"hierarchy"},{"a":1,"n":"incompatibleTransformMode","t":4,"rt":$n[0].Boolean,"sn":"incompatibleTransformMode","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"mode","t":4,"rt":$n[5].SkeletonUtilityBone.Mode,"sn":"mode","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonUtilityBone.Mode, System.Enum.toStringFn(Spine.Unity.SkeletonUtilityBone.Mode));}},{"at":[new UnityEngine.RangeAttribute(0.0, 1.0)],"a":2,"n":"overrideAlpha","t":4,"rt":$n[0].Single,"sn":"overrideAlpha","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"parentReference","t":4,"rt":$n[2].Transform,"sn":"parentReference"},{"a":2,"n":"position","t":4,"rt":$n[0].Boolean,"sn":"position","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"rotation","t":4,"rt":$n[0].Boolean,"sn":"rotation","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"scale","t":4,"rt":$n[0].Boolean,"sn":"scale","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"skeletonTransform","t":4,"rt":$n[2].Transform,"sn":"skeletonTransform"},{"a":2,"n":"transformLerpComplete","t":4,"rt":$n[0].Boolean,"sn":"transformLerpComplete","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"valid","t":4,"rt":$n[0].Boolean,"sn":"valid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"zPosition","t":4,"rt":$n[0].Boolean,"sn":"zPosition","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Spine.Unity.SkeletonUtilityBone end.*/
 
     /*Spine.Unity.SkeletonUtilityBone+Mode start.*/
-    $m("Spine.Unity.SkeletonUtilityBone.Mode", function () { return {"td":$n[4].SkeletonUtilityBone,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Follow","is":true,"t":4,"rt":$n[4].SkeletonUtilityBone.Mode,"sn":"Follow","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonUtilityBone.Mode, System.Enum.toStringFn(Spine.Unity.SkeletonUtilityBone.Mode));}},{"a":2,"n":"Override","is":true,"t":4,"rt":$n[4].SkeletonUtilityBone.Mode,"sn":"Override","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonUtilityBone.Mode, System.Enum.toStringFn(Spine.Unity.SkeletonUtilityBone.Mode));}}]}; }, $n);
+    $m("Spine.Unity.SkeletonUtilityBone.Mode", function () { return {"td":$n[5].SkeletonUtilityBone,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Follow","is":true,"t":4,"rt":$n[5].SkeletonUtilityBone.Mode,"sn":"Follow","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonUtilityBone.Mode, System.Enum.toStringFn(Spine.Unity.SkeletonUtilityBone.Mode));}},{"a":2,"n":"Override","is":true,"t":4,"rt":$n[5].SkeletonUtilityBone.Mode,"sn":"Override","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonUtilityBone.Mode, System.Enum.toStringFn(Spine.Unity.SkeletonUtilityBone.Mode));}}]}; }, $n);
     /*Spine.Unity.SkeletonUtilityBone+Mode end.*/
 
     /*Spine.Unity.SkeletonUtilityBone+UpdatePhase start.*/
-    $m("Spine.Unity.SkeletonUtilityBone.UpdatePhase", function () { return {"td":$n[4].SkeletonUtilityBone,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Complete","is":true,"t":4,"rt":$n[4].SkeletonUtilityBone.UpdatePhase,"sn":"Complete","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonUtilityBone.UpdatePhase, System.Enum.toStringFn(Spine.Unity.SkeletonUtilityBone.UpdatePhase));}},{"a":2,"n":"Local","is":true,"t":4,"rt":$n[4].SkeletonUtilityBone.UpdatePhase,"sn":"Local","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonUtilityBone.UpdatePhase, System.Enum.toStringFn(Spine.Unity.SkeletonUtilityBone.UpdatePhase));}},{"a":2,"n":"World","is":true,"t":4,"rt":$n[4].SkeletonUtilityBone.UpdatePhase,"sn":"World","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonUtilityBone.UpdatePhase, System.Enum.toStringFn(Spine.Unity.SkeletonUtilityBone.UpdatePhase));}}]}; }, $n);
+    $m("Spine.Unity.SkeletonUtilityBone.UpdatePhase", function () { return {"td":$n[5].SkeletonUtilityBone,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Complete","is":true,"t":4,"rt":$n[5].SkeletonUtilityBone.UpdatePhase,"sn":"Complete","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonUtilityBone.UpdatePhase, System.Enum.toStringFn(Spine.Unity.SkeletonUtilityBone.UpdatePhase));}},{"a":2,"n":"Local","is":true,"t":4,"rt":$n[5].SkeletonUtilityBone.UpdatePhase,"sn":"Local","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonUtilityBone.UpdatePhase, System.Enum.toStringFn(Spine.Unity.SkeletonUtilityBone.UpdatePhase));}},{"a":2,"n":"World","is":true,"t":4,"rt":$n[5].SkeletonUtilityBone.UpdatePhase,"sn":"World","box":function ($v) { return Bridge.box($v, Spine.Unity.SkeletonUtilityBone.UpdatePhase, System.Enum.toStringFn(Spine.Unity.SkeletonUtilityBone.UpdatePhase));}}]}; }, $n);
     /*Spine.Unity.SkeletonUtilityBone+UpdatePhase end.*/
 
     /*Spine.Unity.SkeletonUtilityConstraint start.*/
-    $m("Spine.Unity.SkeletonUtilityConstraint", function () { return {"att":1048705,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.RequireComponent.ctor(Spine.Unity.SkeletonUtilityBone),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonUtilityConstraint")],"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ab":true,"a":2,"n":"DoUpdate","t":8,"sn":"DoUpdate","rt":$n[0].Void},{"v":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"v":true,"a":3,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":3,"n":"bone","t":4,"rt":$n[4].SkeletonUtilityBone,"sn":"bone"},{"a":3,"n":"hierarchy","t":4,"rt":$n[4].SkeletonUtility,"sn":"hierarchy"}]}; }, $n);
+    $m("Spine.Unity.SkeletonUtilityConstraint", function () { return {"att":1048705,"a":2,"at":[new UnityEngine.ExecuteAlwaysAttribute(),new UnityEngine.RequireComponent.ctor(Spine.Unity.SkeletonUtilityBone),new UnityEngine.HelpURLAttribute("http://esotericsoftware.com/spine-unity#SkeletonUtilityConstraint")],"m":[{"a":3,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ab":true,"a":2,"n":"DoUpdate","t":8,"sn":"DoUpdate","rt":$n[0].Void},{"v":true,"a":3,"n":"OnDisable","t":8,"sn":"OnDisable","rt":$n[0].Void},{"v":true,"a":3,"n":"OnEnable","t":8,"sn":"OnEnable","rt":$n[0].Void},{"a":3,"n":"bone","t":4,"rt":$n[5].SkeletonUtilityBone,"sn":"bone"},{"a":3,"n":"hierarchy","t":4,"rt":$n[5].SkeletonUtility,"sn":"hierarchy"}]}; }, $n);
     /*Spine.Unity.SkeletonUtilityConstraint end.*/
 
     /*Spine.Unity.UpdateMode start.*/
-    $m("Spine.Unity.UpdateMode", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"EverythingExceptMesh","is":true,"t":4,"rt":$n[4].UpdateMode,"sn":"EverythingExceptMesh","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"FullUpdate","is":true,"t":4,"rt":$n[4].UpdateMode,"sn":"FullUpdate","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"Nothing","is":true,"t":4,"rt":$n[4].UpdateMode,"sn":"Nothing","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"OnlyAnimationStatus","is":true,"t":4,"rt":$n[4].UpdateMode,"sn":"OnlyAnimationStatus","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"OnlyEventTimelines","is":true,"t":4,"rt":$n[4].UpdateMode,"sn":"OnlyEventTimelines","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}}]}; }, $n);
+    $m("Spine.Unity.UpdateMode", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"EverythingExceptMesh","is":true,"t":4,"rt":$n[5].UpdateMode,"sn":"EverythingExceptMesh","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"FullUpdate","is":true,"t":4,"rt":$n[5].UpdateMode,"sn":"FullUpdate","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"Nothing","is":true,"t":4,"rt":$n[5].UpdateMode,"sn":"Nothing","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"OnlyAnimationStatus","is":true,"t":4,"rt":$n[5].UpdateMode,"sn":"OnlyAnimationStatus","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}},{"a":2,"n":"OnlyEventTimelines","is":true,"t":4,"rt":$n[5].UpdateMode,"sn":"OnlyEventTimelines","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateMode, System.Enum.toStringFn(Spine.Unity.UpdateMode));}}]}; }, $n);
     /*Spine.Unity.UpdateMode end.*/
 
     /*Spine.Unity.UpdateTiming start.*/
-    $m("Spine.Unity.UpdateTiming", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"InFixedUpdate","is":true,"t":4,"rt":$n[4].UpdateTiming,"sn":"InFixedUpdate","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},{"a":2,"n":"InLateUpdate","is":true,"t":4,"rt":$n[4].UpdateTiming,"sn":"InLateUpdate","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},{"a":2,"n":"InUpdate","is":true,"t":4,"rt":$n[4].UpdateTiming,"sn":"InUpdate","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},{"a":2,"n":"ManualUpdate","is":true,"t":4,"rt":$n[4].UpdateTiming,"sn":"ManualUpdate","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}}]}; }, $n);
+    $m("Spine.Unity.UpdateTiming", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"InFixedUpdate","is":true,"t":4,"rt":$n[5].UpdateTiming,"sn":"InFixedUpdate","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},{"a":2,"n":"InLateUpdate","is":true,"t":4,"rt":$n[5].UpdateTiming,"sn":"InLateUpdate","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},{"a":2,"n":"InUpdate","is":true,"t":4,"rt":$n[5].UpdateTiming,"sn":"InUpdate","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},{"a":2,"n":"ManualUpdate","is":true,"t":4,"rt":$n[5].UpdateTiming,"sn":"ManualUpdate","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}}]}; }, $n);
     /*Spine.Unity.UpdateTiming end.*/
 
     /*Spine.Unity.ISpineComponent start.*/
@@ -18143,31 +22770,31 @@ if ( TRACE ) { TRACE( "Spine.Unity.SkeletonMecanim#OnBecameVisible", this ); }
     /*Spine.Unity.ISpineComponent end.*/
 
     /*Spine.Unity.ISpineComponentExtensions start.*/
-    $m("Spine.Unity.ISpineComponentExtensions", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"IsNullOrDestroyed","is":true,"t":8,"pi":[{"n":"component","pt":$n[4].ISpineComponent,"ps":0}],"sn":"IsNullOrDestroyed","rt":$n[0].Boolean,"p":[$n[4].ISpineComponent],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("Spine.Unity.ISpineComponentExtensions", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"IsNullOrDestroyed","is":true,"t":8,"pi":[{"n":"component","pt":$n[5].ISpineComponent,"ps":0}],"sn":"IsNullOrDestroyed","rt":$n[0].Boolean,"p":[$n[5].ISpineComponent],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Spine.Unity.ISpineComponentExtensions end.*/
 
     /*Spine.Unity.ISkeletonAnimation start.*/
-    $m("Spine.Unity.ISkeletonAnimation", function () { return {"att":1048737,"a":2,"m":[{"ab":true,"a":2,"n":"Skeleton","t":16,"rt":$n[3].Skeleton,"g":{"ab":true,"a":2,"n":"get_Skeleton","t":8,"rt":$n[3].Skeleton,"fg":"Spine$Unity$ISkeletonAnimation$Skeleton"},"fn":"Spine$Unity$ISkeletonAnimation$Skeleton"},{"ab":true,"a":2,"n":"UpdateTiming","t":16,"rt":$n[4].UpdateTiming,"g":{"ab":true,"a":2,"n":"get_UpdateTiming","t":8,"rt":$n[4].UpdateTiming,"fg":"Spine$Unity$ISkeletonAnimation$UpdateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},"s":{"ab":true,"a":2,"n":"set_UpdateTiming","t":8,"p":[$n[4].UpdateTiming],"rt":$n[0].Void,"fs":"Spine$Unity$ISkeletonAnimation$UpdateTiming"},"fn":"Spine$Unity$ISkeletonAnimation$UpdateTiming"},{"ab":true,"a":2,"n":"OnAnimationRebuild","t":2,"ad":{"ab":true,"a":2,"n":"add_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$addOnAnimationRebuild","rt":$n[0].Void,"p":[Function]},"r":{"ab":true,"a":2,"n":"remove_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$removeOnAnimationRebuild","rt":$n[0].Void,"p":[Function]}},{"ab":true,"a":2,"n":"UpdateComplete","t":2,"ad":{"ab":true,"a":2,"n":"add_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$addUpdateComplete","rt":$n[0].Void,"p":[Function]},"r":{"ab":true,"a":2,"n":"remove_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$removeUpdateComplete","rt":$n[0].Void,"p":[Function]}},{"ab":true,"a":2,"n":"UpdateLocal","t":2,"ad":{"ab":true,"a":2,"n":"add_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$addUpdateLocal","rt":$n[0].Void,"p":[Function]},"r":{"ab":true,"a":2,"n":"remove_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$removeUpdateLocal","rt":$n[0].Void,"p":[Function]}},{"ab":true,"a":2,"n":"UpdateWorld","t":2,"ad":{"ab":true,"a":2,"n":"add_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$addUpdateWorld","rt":$n[0].Void,"p":[Function]},"r":{"ab":true,"a":2,"n":"remove_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$removeUpdateWorld","rt":$n[0].Void,"p":[Function]}},{"a":1,"backing":true,"n":"<Skeleton>k__BackingField","t":4,"rt":$n[3].Skeleton,"sn":"Spine$Unity$ISkeletonAnimation$Skeleton"},{"a":1,"backing":true,"n":"<UpdateTiming>k__BackingField","t":4,"rt":$n[4].UpdateTiming,"sn":"Spine$Unity$ISkeletonAnimation$UpdateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}}]}; }, $n);
+    $m("Spine.Unity.ISkeletonAnimation", function () { return {"att":1048737,"a":2,"m":[{"ab":true,"a":2,"n":"Skeleton","t":16,"rt":$n[4].Skeleton,"g":{"ab":true,"a":2,"n":"get_Skeleton","t":8,"rt":$n[4].Skeleton,"fg":"Spine$Unity$ISkeletonAnimation$Skeleton"},"fn":"Spine$Unity$ISkeletonAnimation$Skeleton"},{"ab":true,"a":2,"n":"UpdateTiming","t":16,"rt":$n[5].UpdateTiming,"g":{"ab":true,"a":2,"n":"get_UpdateTiming","t":8,"rt":$n[5].UpdateTiming,"fg":"Spine$Unity$ISkeletonAnimation$UpdateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}},"s":{"ab":true,"a":2,"n":"set_UpdateTiming","t":8,"p":[$n[5].UpdateTiming],"rt":$n[0].Void,"fs":"Spine$Unity$ISkeletonAnimation$UpdateTiming"},"fn":"Spine$Unity$ISkeletonAnimation$UpdateTiming"},{"ab":true,"a":2,"n":"OnAnimationRebuild","t":2,"ad":{"ab":true,"a":2,"n":"add_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$addOnAnimationRebuild","rt":$n[0].Void,"p":[Function]},"r":{"ab":true,"a":2,"n":"remove_OnAnimationRebuild","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$removeOnAnimationRebuild","rt":$n[0].Void,"p":[Function]}},{"ab":true,"a":2,"n":"UpdateComplete","t":2,"ad":{"ab":true,"a":2,"n":"add_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$addUpdateComplete","rt":$n[0].Void,"p":[Function]},"r":{"ab":true,"a":2,"n":"remove_UpdateComplete","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$removeUpdateComplete","rt":$n[0].Void,"p":[Function]}},{"ab":true,"a":2,"n":"UpdateLocal","t":2,"ad":{"ab":true,"a":2,"n":"add_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$addUpdateLocal","rt":$n[0].Void,"p":[Function]},"r":{"ab":true,"a":2,"n":"remove_UpdateLocal","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$removeUpdateLocal","rt":$n[0].Void,"p":[Function]}},{"ab":true,"a":2,"n":"UpdateWorld","t":2,"ad":{"ab":true,"a":2,"n":"add_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$addUpdateWorld","rt":$n[0].Void,"p":[Function]},"r":{"ab":true,"a":2,"n":"remove_UpdateWorld","t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"Spine$Unity$ISkeletonAnimation$removeUpdateWorld","rt":$n[0].Void,"p":[Function]}},{"a":1,"backing":true,"n":"<Skeleton>k__BackingField","t":4,"rt":$n[4].Skeleton,"sn":"Spine$Unity$ISkeletonAnimation$Skeleton"},{"a":1,"backing":true,"n":"<UpdateTiming>k__BackingField","t":4,"rt":$n[5].UpdateTiming,"sn":"Spine$Unity$ISkeletonAnimation$UpdateTiming","box":function ($v) { return Bridge.box($v, Spine.Unity.UpdateTiming, System.Enum.toStringFn(Spine.Unity.UpdateTiming));}}]}; }, $n);
     /*Spine.Unity.ISkeletonAnimation end.*/
 
     /*Spine.Unity.IHasSkeletonDataAsset start.*/
-    $m("Spine.Unity.IHasSkeletonDataAsset", function () { return {"att":1048737,"a":2,"m":[{"ab":true,"a":2,"n":"SkeletonDataAsset","t":16,"rt":$n[4].SkeletonDataAsset,"g":{"ab":true,"a":2,"n":"get_SkeletonDataAsset","t":8,"rt":$n[4].SkeletonDataAsset,"fg":"Spine$Unity$IHasSkeletonDataAsset$SkeletonDataAsset"},"fn":"Spine$Unity$IHasSkeletonDataAsset$SkeletonDataAsset"},{"a":1,"backing":true,"n":"<SkeletonDataAsset>k__BackingField","t":4,"rt":$n[4].SkeletonDataAsset,"sn":"Spine$Unity$IHasSkeletonDataAsset$SkeletonDataAsset"}]}; }, $n);
+    $m("Spine.Unity.IHasSkeletonDataAsset", function () { return {"att":1048737,"a":2,"m":[{"ab":true,"a":2,"n":"SkeletonDataAsset","t":16,"rt":$n[5].SkeletonDataAsset,"g":{"ab":true,"a":2,"n":"get_SkeletonDataAsset","t":8,"rt":$n[5].SkeletonDataAsset,"fg":"Spine$Unity$IHasSkeletonDataAsset$SkeletonDataAsset"},"fn":"Spine$Unity$IHasSkeletonDataAsset$SkeletonDataAsset"},{"a":1,"backing":true,"n":"<SkeletonDataAsset>k__BackingField","t":4,"rt":$n[5].SkeletonDataAsset,"sn":"Spine$Unity$IHasSkeletonDataAsset$SkeletonDataAsset"}]}; }, $n);
     /*Spine.Unity.IHasSkeletonDataAsset end.*/
 
     /*Spine.Unity.ISkeletonComponent start.*/
-    $m("Spine.Unity.ISkeletonComponent", function () { return {"att":1048737,"a":2,"m":[{"ab":true,"a":2,"n":"Skeleton","t":16,"rt":$n[3].Skeleton,"g":{"ab":true,"a":2,"n":"get_Skeleton","t":8,"rt":$n[3].Skeleton,"fg":"Spine$Unity$ISkeletonComponent$Skeleton"},"fn":"Spine$Unity$ISkeletonComponent$Skeleton"},{"ab":true,"a":2,"n":"SkeletonDataAsset","t":16,"rt":$n[4].SkeletonDataAsset,"g":{"ab":true,"a":2,"n":"get_SkeletonDataAsset","t":8,"rt":$n[4].SkeletonDataAsset,"fg":"Spine$Unity$ISkeletonComponent$SkeletonDataAsset"},"fn":"Spine$Unity$ISkeletonComponent$SkeletonDataAsset"},{"a":1,"backing":true,"n":"<Skeleton>k__BackingField","t":4,"rt":$n[3].Skeleton,"sn":"Spine$Unity$ISkeletonComponent$Skeleton"},{"a":1,"backing":true,"n":"<SkeletonDataAsset>k__BackingField","t":4,"rt":$n[4].SkeletonDataAsset,"sn":"Spine$Unity$ISkeletonComponent$SkeletonDataAsset"}]}; }, $n);
+    $m("Spine.Unity.ISkeletonComponent", function () { return {"att":1048737,"a":2,"m":[{"ab":true,"a":2,"n":"Skeleton","t":16,"rt":$n[4].Skeleton,"g":{"ab":true,"a":2,"n":"get_Skeleton","t":8,"rt":$n[4].Skeleton,"fg":"Spine$Unity$ISkeletonComponent$Skeleton"},"fn":"Spine$Unity$ISkeletonComponent$Skeleton"},{"ab":true,"a":2,"n":"SkeletonDataAsset","t":16,"rt":$n[5].SkeletonDataAsset,"g":{"ab":true,"a":2,"n":"get_SkeletonDataAsset","t":8,"rt":$n[5].SkeletonDataAsset,"fg":"Spine$Unity$ISkeletonComponent$SkeletonDataAsset"},"fn":"Spine$Unity$ISkeletonComponent$SkeletonDataAsset"},{"a":1,"backing":true,"n":"<Skeleton>k__BackingField","t":4,"rt":$n[4].Skeleton,"sn":"Spine$Unity$ISkeletonComponent$Skeleton"},{"a":1,"backing":true,"n":"<SkeletonDataAsset>k__BackingField","t":4,"rt":$n[5].SkeletonDataAsset,"sn":"Spine$Unity$ISkeletonComponent$SkeletonDataAsset"}]}; }, $n);
     /*Spine.Unity.ISkeletonComponent end.*/
 
     /*Spine.Unity.IAnimationStateComponent start.*/
-    $m("Spine.Unity.IAnimationStateComponent", function () { return {"att":1048737,"a":2,"m":[{"ab":true,"a":2,"n":"AnimationState","t":16,"rt":$n[3].AnimationState,"g":{"ab":true,"a":2,"n":"get_AnimationState","t":8,"rt":$n[3].AnimationState,"fg":"Spine$Unity$IAnimationStateComponent$AnimationState"},"fn":"Spine$Unity$IAnimationStateComponent$AnimationState"},{"ab":true,"a":2,"n":"UnscaledTime","t":16,"rt":$n[0].Boolean,"g":{"ab":true,"a":2,"n":"get_UnscaledTime","t":8,"rt":$n[0].Boolean,"fg":"Spine$Unity$IAnimationStateComponent$UnscaledTime","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"ab":true,"a":2,"n":"set_UnscaledTime","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"Spine$Unity$IAnimationStateComponent$UnscaledTime"},"fn":"Spine$Unity$IAnimationStateComponent$UnscaledTime"},{"a":1,"backing":true,"n":"<AnimationState>k__BackingField","t":4,"rt":$n[3].AnimationState,"sn":"Spine$Unity$IAnimationStateComponent$AnimationState"},{"a":1,"backing":true,"n":"<UnscaledTime>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"Spine$Unity$IAnimationStateComponent$UnscaledTime","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("Spine.Unity.IAnimationStateComponent", function () { return {"att":1048737,"a":2,"m":[{"ab":true,"a":2,"n":"AnimationState","t":16,"rt":$n[4].AnimationState,"g":{"ab":true,"a":2,"n":"get_AnimationState","t":8,"rt":$n[4].AnimationState,"fg":"Spine$Unity$IAnimationStateComponent$AnimationState"},"fn":"Spine$Unity$IAnimationStateComponent$AnimationState"},{"ab":true,"a":2,"n":"UnscaledTime","t":16,"rt":$n[0].Boolean,"g":{"ab":true,"a":2,"n":"get_UnscaledTime","t":8,"rt":$n[0].Boolean,"fg":"Spine$Unity$IAnimationStateComponent$UnscaledTime","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"ab":true,"a":2,"n":"set_UnscaledTime","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"Spine$Unity$IAnimationStateComponent$UnscaledTime"},"fn":"Spine$Unity$IAnimationStateComponent$UnscaledTime"},{"a":1,"backing":true,"n":"<AnimationState>k__BackingField","t":4,"rt":$n[4].AnimationState,"sn":"Spine$Unity$IAnimationStateComponent$AnimationState"},{"a":1,"backing":true,"n":"<UnscaledTime>k__BackingField","t":4,"rt":$n[0].Boolean,"sn":"Spine$Unity$IAnimationStateComponent$UnscaledTime","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Spine.Unity.IAnimationStateComponent end.*/
 
     /*Spine.Unity.IHasSkeletonRenderer start.*/
-    $m("Spine.Unity.IHasSkeletonRenderer", function () { return {"att":1048737,"a":2,"m":[{"ab":true,"a":2,"n":"SkeletonRenderer","t":16,"rt":$n[4].SkeletonRenderer,"g":{"ab":true,"a":2,"n":"get_SkeletonRenderer","t":8,"rt":$n[4].SkeletonRenderer,"fg":"Spine$Unity$IHasSkeletonRenderer$SkeletonRenderer"},"fn":"Spine$Unity$IHasSkeletonRenderer$SkeletonRenderer"},{"a":1,"backing":true,"n":"<SkeletonRenderer>k__BackingField","t":4,"rt":$n[4].SkeletonRenderer,"sn":"Spine$Unity$IHasSkeletonRenderer$SkeletonRenderer"}]}; }, $n);
+    $m("Spine.Unity.IHasSkeletonRenderer", function () { return {"att":1048737,"a":2,"m":[{"ab":true,"a":2,"n":"SkeletonRenderer","t":16,"rt":$n[5].SkeletonRenderer,"g":{"ab":true,"a":2,"n":"get_SkeletonRenderer","t":8,"rt":$n[5].SkeletonRenderer,"fg":"Spine$Unity$IHasSkeletonRenderer$SkeletonRenderer"},"fn":"Spine$Unity$IHasSkeletonRenderer$SkeletonRenderer"},{"a":1,"backing":true,"n":"<SkeletonRenderer>k__BackingField","t":4,"rt":$n[5].SkeletonRenderer,"sn":"Spine$Unity$IHasSkeletonRenderer$SkeletonRenderer"}]}; }, $n);
     /*Spine.Unity.IHasSkeletonRenderer end.*/
 
     /*Spine.Unity.IHasSkeletonComponent start.*/
-    $m("Spine.Unity.IHasSkeletonComponent", function () { return {"att":1048737,"a":2,"m":[{"ab":true,"a":2,"n":"SkeletonComponent","t":16,"rt":$n[4].ISkeletonComponent,"g":{"ab":true,"a":2,"n":"get_SkeletonComponent","t":8,"rt":$n[4].ISkeletonComponent,"fg":"Spine$Unity$IHasSkeletonComponent$SkeletonComponent"},"fn":"Spine$Unity$IHasSkeletonComponent$SkeletonComponent"},{"a":1,"backing":true,"n":"<SkeletonComponent>k__BackingField","t":4,"rt":$n[4].ISkeletonComponent,"sn":"Spine$Unity$IHasSkeletonComponent$SkeletonComponent"}]}; }, $n);
+    $m("Spine.Unity.IHasSkeletonComponent", function () { return {"att":1048737,"a":2,"m":[{"ab":true,"a":2,"n":"SkeletonComponent","t":16,"rt":$n[5].ISkeletonComponent,"g":{"ab":true,"a":2,"n":"get_SkeletonComponent","t":8,"rt":$n[5].ISkeletonComponent,"fg":"Spine$Unity$IHasSkeletonComponent$SkeletonComponent"},"fn":"Spine$Unity$IHasSkeletonComponent$SkeletonComponent"},{"a":1,"backing":true,"n":"<SkeletonComponent>k__BackingField","t":4,"rt":$n[5].ISkeletonComponent,"sn":"Spine$Unity$IHasSkeletonComponent$SkeletonComponent"}]}; }, $n);
     /*Spine.Unity.IHasSkeletonComponent end.*/
 
     /*Spine.Unity.DoubleBuffered$1 start.*/
@@ -18175,27 +22802,27 @@ if ( TRACE ) { TRACE( "Spine.Unity.SkeletonMecanim#OnBecameVisible", this ); }
     /*Spine.Unity.DoubleBuffered$1 end.*/
 
     /*Spine.Unity.MeshGeneratorBuffers start.*/
-    $m("Spine.Unity.MeshGeneratorBuffers", function () { return {"att":1048841,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"colorBuffer","t":4,"rt":System.Array.type(UnityEngine.Color32),"sn":"colorBuffer"},{"a":2,"n":"meshGenerator","t":4,"rt":$n[4].MeshGenerator,"sn":"meshGenerator"},{"a":2,"n":"uvBuffer","t":4,"rt":System.Array.type(UnityEngine.Vector2),"sn":"uvBuffer"},{"a":2,"n":"vertexBuffer","t":4,"rt":System.Array.type(UnityEngine.Vector3),"sn":"vertexBuffer"},{"a":2,"n":"vertexCount","t":4,"rt":$n[0].Int32,"sn":"vertexCount","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    $m("Spine.Unity.MeshGeneratorBuffers", function () { return {"att":1048841,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"colorBuffer","t":4,"rt":System.Array.type(UnityEngine.Color32),"sn":"colorBuffer"},{"a":2,"n":"meshGenerator","t":4,"rt":$n[5].MeshGenerator,"sn":"meshGenerator"},{"a":2,"n":"uvBuffer","t":4,"rt":System.Array.type(UnityEngine.Vector2),"sn":"uvBuffer"},{"a":2,"n":"vertexBuffer","t":4,"rt":System.Array.type(UnityEngine.Vector3),"sn":"vertexBuffer"},{"a":2,"n":"vertexCount","t":4,"rt":$n[0].Int32,"sn":"vertexCount","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
     /*Spine.Unity.MeshGeneratorBuffers end.*/
 
     /*Spine.Unity.MeshGenerator start.*/
-    $m("Spine.Unity.MeshGenerator", function () { return {"nested":[$n[4].MeshGenerator.Settings],"att":1056769,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AddAttachmentTintBlack","t":8,"pi":[{"n":"r2","pt":$n[0].Single,"ps":0},{"n":"g2","pt":$n[0].Single,"ps":1},{"n":"b2","pt":$n[0].Single,"ps":2},{"n":"a","pt":$n[0].Single,"ps":3},{"n":"vertexCount","pt":$n[0].Int32,"ps":4}],"sn":"AddAttachmentTintBlack","rt":$n[0].Void,"p":[$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Int32]},{"a":2,"n":"AddSubmesh","t":8,"pi":[{"n":"instruction","pt":$n[4].SubmeshInstruction,"ps":0},{"n":"updateTriangles","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"AddSubmesh","rt":$n[0].Void,"p":[$n[4].SubmeshInstruction,$n[0].Boolean]},{"a":2,"n":"Begin","t":8,"sn":"Begin","rt":$n[0].Void},{"a":2,"n":"BuildMesh","t":8,"pi":[{"n":"instruction","pt":$n[4].SkeletonRendererInstruction,"ps":0},{"n":"updateTriangles","pt":$n[0].Boolean,"ps":1}],"sn":"BuildMesh","rt":$n[0].Void,"p":[$n[4].SkeletonRendererInstruction,$n[0].Boolean]},{"a":2,"n":"BuildMeshWithArrays","t":8,"pi":[{"n":"instruction","pt":$n[4].SkeletonRendererInstruction,"ps":0},{"n":"updateTriangles","pt":$n[0].Boolean,"ps":1}],"sn":"BuildMeshWithArrays","rt":$n[0].Void,"p":[$n[4].SkeletonRendererInstruction,$n[0].Boolean]},{"a":2,"n":"EnsureVertexCapacity","t":8,"pi":[{"n":"minimumVertexCount","pt":$n[0].Int32,"ps":0},{"n":"inlcudeTintBlack","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"includeTangents","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"includeNormals","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"EnsureVertexCapacity","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"FillLateVertexData","t":8,"pi":[{"n":"mesh","pt":$n[2].Mesh,"ps":0}],"sn":"FillLateVertexData","rt":$n[0].Void,"p":[$n[2].Mesh]},{"a":2,"n":"FillMeshLocal","is":true,"t":8,"pi":[{"n":"mesh","pt":$n[2].Mesh,"ps":0},{"n":"regionAttachment","pt":$n[3].RegionAttachment,"ps":1}],"sn":"FillMeshLocal$1","rt":$n[0].Void,"p":[$n[2].Mesh,$n[3].RegionAttachment]},{"a":2,"n":"FillMeshLocal","is":true,"t":8,"pi":[{"n":"mesh","pt":$n[2].Mesh,"ps":0},{"n":"meshAttachment","pt":$n[3].MeshAttachment,"ps":1},{"n":"skeletonData","pt":$n[3].SkeletonData,"ps":2}],"sn":"FillMeshLocal","rt":$n[0].Void,"p":[$n[2].Mesh,$n[3].MeshAttachment,$n[3].SkeletonData]},{"a":2,"n":"FillTriangles","t":8,"pi":[{"n":"mesh","pt":$n[2].Mesh,"ps":0}],"sn":"FillTriangles","rt":$n[0].Void,"p":[$n[2].Mesh]},{"a":2,"n":"FillVertexData","t":8,"pi":[{"n":"mesh","pt":$n[2].Mesh,"ps":0}],"sn":"FillVertexData","rt":$n[0].Void,"p":[$n[2].Mesh]},{"a":2,"n":"GenerateSingleSubmeshInstruction","is":true,"t":8,"pi":[{"n":"instructionOutput","pt":$n[4].SkeletonRendererInstruction,"ps":0},{"n":"skeleton","pt":$n[3].Skeleton,"ps":1},{"n":"material","pt":$n[2].Material,"ps":2}],"sn":"GenerateSingleSubmeshInstruction","rt":$n[0].Void,"p":[$n[4].SkeletonRendererInstruction,$n[3].Skeleton,$n[2].Material]},{"a":2,"n":"GenerateSkeletonRendererInstruction","is":true,"t":8,"pi":[{"n":"instructionOutput","pt":$n[4].SkeletonRendererInstruction,"ps":0},{"n":"skeleton","pt":$n[3].Skeleton,"ps":1},{"n":"customSlotMaterials","pt":$n[5].Dictionary$2(Spine.Slot,UnityEngine.Material),"ps":2},{"n":"separatorSlots","pt":$n[5].List$1(Spine.Slot),"ps":3},{"n":"generateMeshOverride","pt":$n[0].Boolean,"ps":4},{"n":"immutableTriangles","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"GenerateSkeletonRendererInstruction","rt":$n[0].Void,"p":[$n[4].SkeletonRendererInstruction,$n[3].Skeleton,$n[5].Dictionary$2(Spine.Slot,UnityEngine.Material),$n[5].List$1(Spine.Slot),$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"GetMeshBounds","t":8,"sn":"GetMeshBounds","rt":$n[2].Bounds},{"a":2,"n":"RequiresMultipleSubmeshesByDrawOrder","is":true,"t":8,"pi":[{"n":"skeleton","pt":$n[3].Skeleton,"ps":0}],"sn":"RequiresMultipleSubmeshesByDrawOrder","rt":$n[0].Boolean,"p":[$n[3].Skeleton],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"ScaleVertexData","t":8,"pi":[{"n":"scale","pt":$n[0].Single,"ps":0}],"sn":"ScaleVertexData","rt":$n[0].Void,"p":[$n[0].Single]},{"a":4,"n":"SolveTangents2DBuffer","is":true,"t":8,"pi":[{"n":"tangents","pt":System.Array.type(UnityEngine.Vector4),"ps":0},{"n":"tempTanBuffer","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"vertexCount","pt":$n[0].Int32,"ps":2}],"sn":"SolveTangents2DBuffer","rt":$n[0].Void,"p":[System.Array.type(UnityEngine.Vector4),System.Array.type(UnityEngine.Vector2),$n[0].Int32]},{"a":4,"n":"SolveTangents2DEnsureSize","is":true,"t":8,"pi":[{"n":"tangentBuffer","ref":true,"pt":System.Array.type(UnityEngine.Vector4),"ps":0},{"n":"tempTanBuffer","ref":true,"pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"vertexCount","pt":$n[0].Int32,"ps":2},{"n":"vertexBufferLength","pt":$n[0].Int32,"ps":3}],"sn":"SolveTangents2DEnsureSize","rt":$n[0].Void,"p":[System.Array.type(UnityEngine.Vector4),System.Array.type(UnityEngine.Vector2),$n[0].Int32,$n[0].Int32]},{"a":4,"n":"SolveTangents2DTriangles","is":true,"t":8,"pi":[{"n":"tempTanBuffer","pt":System.Array.type(UnityEngine.Vector2),"ps":0},{"n":"triangles","pt":$n[0].Array.type(System.Int32),"ps":1},{"n":"triangleCount","pt":$n[0].Int32,"ps":2},{"n":"vertices","pt":System.Array.type(UnityEngine.Vector3),"ps":3},{"n":"uvs","pt":System.Array.type(UnityEngine.Vector2),"ps":4},{"n":"vertexCount","pt":$n[0].Int32,"ps":5}],"sn":"SolveTangents2DTriangles","rt":$n[0].Void,"p":[System.Array.type(UnityEngine.Vector2),$n[0].Array.type(System.Int32),$n[0].Int32,System.Array.type(UnityEngine.Vector3),System.Array.type(UnityEngine.Vector2),$n[0].Int32]},{"a":2,"n":"SubmeshIndexCount","t":8,"pi":[{"n":"submeshIndex","pt":$n[0].Int32,"ps":0}],"sn":"SubmeshIndexCount","rt":$n[0].Int32,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"TrimExcess","t":8,"sn":"TrimExcess","rt":$n[0].Void},{"a":2,"n":"TryReplaceMaterials","is":true,"t":8,"pi":[{"n":"workingSubmeshInstructions","pt":$n[3].ExposedList$1(Spine.Unity.SubmeshInstruction),"ps":0},{"n":"customMaterialOverride","pt":$n[5].Dictionary$2(UnityEngine.Material,UnityEngine.Material),"ps":1}],"sn":"TryReplaceMaterials","rt":$n[0].Void,"p":[$n[3].ExposedList$1(Spine.Unity.SubmeshInstruction),$n[5].Dictionary$2(UnityEngine.Material,UnityEngine.Material)]},{"a":2,"n":"Buffers","t":16,"rt":$n[4].MeshGeneratorBuffers,"g":{"a":2,"n":"get_Buffers","t":8,"rt":$n[4].MeshGeneratorBuffers,"fg":"Buffers"},"fn":"Buffers"},{"a":2,"n":"VertexCount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_VertexCount","t":8,"rt":$n[0].Int32,"fg":"VertexCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"VertexCount"},{"a":1,"n":"AttachmentColors32","is":true,"t":4,"rt":$n[5].List$1(UnityEngine.Color32),"sn":"AttachmentColors32"},{"a":1,"n":"AttachmentIndices","is":true,"t":4,"rt":$n[5].List$1(System.Int32),"sn":"AttachmentIndices"},{"a":1,"n":"AttachmentUVs","is":true,"t":4,"rt":$n[5].List$1(UnityEngine.Vector2),"sn":"AttachmentUVs"},{"a":1,"n":"AttachmentVerts","is":true,"t":4,"rt":$n[5].List$1(UnityEngine.Vector3),"sn":"AttachmentVerts"},{"a":1,"n":"BoundsMaxDefault","is":true,"t":4,"rt":$n[0].Single,"sn":"BoundsMaxDefault","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"BoundsMinDefault","is":true,"t":4,"rt":$n[0].Single,"sn":"BoundsMinDefault","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"clipper","t":4,"rt":$n[3].SkeletonClipping,"sn":"clipper"},{"a":3,"n":"colorBuffer","t":4,"rt":$n[3].ExposedList$1(UnityEngine.Color32),"sn":"colorBuffer","ro":true},{"a":1,"n":"meshBoundsMax","t":4,"rt":$n[2].Vector2,"sn":"meshBoundsMax"},{"a":1,"n":"meshBoundsMin","t":4,"rt":$n[2].Vector2,"sn":"meshBoundsMin"},{"a":1,"n":"meshBoundsThickness","t":4,"rt":$n[0].Single,"sn":"meshBoundsThickness","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"normals","t":4,"rt":System.Array.type(UnityEngine.Vector3),"sn":"normals"},{"a":1,"n":"regionTriangles","t":4,"rt":$n[0].Array.type(System.Int32),"sn":"regionTriangles"},{"a":2,"n":"settings","t":4,"rt":$n[4].MeshGenerator.Settings,"sn":"settings"},{"a":1,"n":"submeshIndex","t":4,"rt":$n[0].Int32,"sn":"submeshIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"submeshes","t":4,"rt":$n[3].ExposedList$1(Spine.ExposedList$1(System.Int32)),"sn":"submeshes","ro":true},{"a":1,"n":"tangents","t":4,"rt":System.Array.type(UnityEngine.Vector4),"sn":"tangents"},{"a":1,"n":"tempTanBuffer","t":4,"rt":System.Array.type(UnityEngine.Vector2),"sn":"tempTanBuffer"},{"a":1,"n":"tempVerts","t":4,"rt":$n[0].Array.type(System.Single),"sn":"tempVerts"},{"a":1,"n":"uv2","t":4,"rt":$n[3].ExposedList$1(UnityEngine.Vector2),"sn":"uv2"},{"a":1,"n":"uv3","t":4,"rt":$n[3].ExposedList$1(UnityEngine.Vector2),"sn":"uv3"},{"a":3,"n":"uvBuffer","t":4,"rt":$n[3].ExposedList$1(UnityEngine.Vector2),"sn":"uvBuffer","ro":true},{"a":3,"n":"vertexBuffer","t":4,"rt":$n[3].ExposedList$1(UnityEngine.Vector3),"sn":"vertexBuffer","ro":true}]}; }, $n);
+    $m("Spine.Unity.MeshGenerator", function () { return {"nested":[$n[5].MeshGenerator.Settings],"att":1056769,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AddAttachmentTintBlack","t":8,"pi":[{"n":"r2","pt":$n[0].Single,"ps":0},{"n":"g2","pt":$n[0].Single,"ps":1},{"n":"b2","pt":$n[0].Single,"ps":2},{"n":"a","pt":$n[0].Single,"ps":3},{"n":"vertexCount","pt":$n[0].Int32,"ps":4}],"sn":"AddAttachmentTintBlack","rt":$n[0].Void,"p":[$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Int32]},{"a":2,"n":"AddSubmesh","t":8,"pi":[{"n":"instruction","pt":$n[5].SubmeshInstruction,"ps":0},{"n":"updateTriangles","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"AddSubmesh","rt":$n[0].Void,"p":[$n[5].SubmeshInstruction,$n[0].Boolean]},{"a":2,"n":"Begin","t":8,"sn":"Begin","rt":$n[0].Void},{"a":2,"n":"BuildMesh","t":8,"pi":[{"n":"instruction","pt":$n[5].SkeletonRendererInstruction,"ps":0},{"n":"updateTriangles","pt":$n[0].Boolean,"ps":1}],"sn":"BuildMesh","rt":$n[0].Void,"p":[$n[5].SkeletonRendererInstruction,$n[0].Boolean]},{"a":2,"n":"BuildMeshWithArrays","t":8,"pi":[{"n":"instruction","pt":$n[5].SkeletonRendererInstruction,"ps":0},{"n":"updateTriangles","pt":$n[0].Boolean,"ps":1}],"sn":"BuildMeshWithArrays","rt":$n[0].Void,"p":[$n[5].SkeletonRendererInstruction,$n[0].Boolean]},{"a":2,"n":"EnsureVertexCapacity","t":8,"pi":[{"n":"minimumVertexCount","pt":$n[0].Int32,"ps":0},{"n":"inlcudeTintBlack","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"includeTangents","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"includeNormals","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"EnsureVertexCapacity","rt":$n[0].Void,"p":[$n[0].Int32,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"FillLateVertexData","t":8,"pi":[{"n":"mesh","pt":$n[2].Mesh,"ps":0}],"sn":"FillLateVertexData","rt":$n[0].Void,"p":[$n[2].Mesh]},{"a":2,"n":"FillMeshLocal","is":true,"t":8,"pi":[{"n":"mesh","pt":$n[2].Mesh,"ps":0},{"n":"regionAttachment","pt":$n[4].RegionAttachment,"ps":1}],"sn":"FillMeshLocal$1","rt":$n[0].Void,"p":[$n[2].Mesh,$n[4].RegionAttachment]},{"a":2,"n":"FillMeshLocal","is":true,"t":8,"pi":[{"n":"mesh","pt":$n[2].Mesh,"ps":0},{"n":"meshAttachment","pt":$n[4].MeshAttachment,"ps":1},{"n":"skeletonData","pt":$n[4].SkeletonData,"ps":2}],"sn":"FillMeshLocal","rt":$n[0].Void,"p":[$n[2].Mesh,$n[4].MeshAttachment,$n[4].SkeletonData]},{"a":2,"n":"FillTriangles","t":8,"pi":[{"n":"mesh","pt":$n[2].Mesh,"ps":0}],"sn":"FillTriangles","rt":$n[0].Void,"p":[$n[2].Mesh]},{"a":2,"n":"FillVertexData","t":8,"pi":[{"n":"mesh","pt":$n[2].Mesh,"ps":0}],"sn":"FillVertexData","rt":$n[0].Void,"p":[$n[2].Mesh]},{"a":2,"n":"GenerateSingleSubmeshInstruction","is":true,"t":8,"pi":[{"n":"instructionOutput","pt":$n[5].SkeletonRendererInstruction,"ps":0},{"n":"skeleton","pt":$n[4].Skeleton,"ps":1},{"n":"material","pt":$n[2].Material,"ps":2}],"sn":"GenerateSingleSubmeshInstruction","rt":$n[0].Void,"p":[$n[5].SkeletonRendererInstruction,$n[4].Skeleton,$n[2].Material]},{"a":2,"n":"GenerateSkeletonRendererInstruction","is":true,"t":8,"pi":[{"n":"instructionOutput","pt":$n[5].SkeletonRendererInstruction,"ps":0},{"n":"skeleton","pt":$n[4].Skeleton,"ps":1},{"n":"customSlotMaterials","pt":$n[6].Dictionary$2(Spine.Slot,UnityEngine.Material),"ps":2},{"n":"separatorSlots","pt":$n[6].List$1(Spine.Slot),"ps":3},{"n":"generateMeshOverride","pt":$n[0].Boolean,"ps":4},{"n":"immutableTriangles","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"GenerateSkeletonRendererInstruction","rt":$n[0].Void,"p":[$n[5].SkeletonRendererInstruction,$n[4].Skeleton,$n[6].Dictionary$2(Spine.Slot,UnityEngine.Material),$n[6].List$1(Spine.Slot),$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"GetMeshBounds","t":8,"sn":"GetMeshBounds","rt":$n[2].Bounds},{"a":2,"n":"RequiresMultipleSubmeshesByDrawOrder","is":true,"t":8,"pi":[{"n":"skeleton","pt":$n[4].Skeleton,"ps":0}],"sn":"RequiresMultipleSubmeshesByDrawOrder","rt":$n[0].Boolean,"p":[$n[4].Skeleton],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"ScaleVertexData","t":8,"pi":[{"n":"scale","pt":$n[0].Single,"ps":0}],"sn":"ScaleVertexData","rt":$n[0].Void,"p":[$n[0].Single]},{"a":4,"n":"SolveTangents2DBuffer","is":true,"t":8,"pi":[{"n":"tangents","pt":System.Array.type(UnityEngine.Vector4),"ps":0},{"n":"tempTanBuffer","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"vertexCount","pt":$n[0].Int32,"ps":2}],"sn":"SolveTangents2DBuffer","rt":$n[0].Void,"p":[System.Array.type(UnityEngine.Vector4),System.Array.type(UnityEngine.Vector2),$n[0].Int32]},{"a":4,"n":"SolveTangents2DEnsureSize","is":true,"t":8,"pi":[{"n":"tangentBuffer","ref":true,"pt":System.Array.type(UnityEngine.Vector4),"ps":0},{"n":"tempTanBuffer","ref":true,"pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"vertexCount","pt":$n[0].Int32,"ps":2},{"n":"vertexBufferLength","pt":$n[0].Int32,"ps":3}],"sn":"SolveTangents2DEnsureSize","rt":$n[0].Void,"p":[System.Array.type(UnityEngine.Vector4),System.Array.type(UnityEngine.Vector2),$n[0].Int32,$n[0].Int32]},{"a":4,"n":"SolveTangents2DTriangles","is":true,"t":8,"pi":[{"n":"tempTanBuffer","pt":System.Array.type(UnityEngine.Vector2),"ps":0},{"n":"triangles","pt":$n[0].Array.type(System.Int32),"ps":1},{"n":"triangleCount","pt":$n[0].Int32,"ps":2},{"n":"vertices","pt":System.Array.type(UnityEngine.Vector3),"ps":3},{"n":"uvs","pt":System.Array.type(UnityEngine.Vector2),"ps":4},{"n":"vertexCount","pt":$n[0].Int32,"ps":5}],"sn":"SolveTangents2DTriangles","rt":$n[0].Void,"p":[System.Array.type(UnityEngine.Vector2),$n[0].Array.type(System.Int32),$n[0].Int32,System.Array.type(UnityEngine.Vector3),System.Array.type(UnityEngine.Vector2),$n[0].Int32]},{"a":2,"n":"SubmeshIndexCount","t":8,"pi":[{"n":"submeshIndex","pt":$n[0].Int32,"ps":0}],"sn":"SubmeshIndexCount","rt":$n[0].Int32,"p":[$n[0].Int32],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"TrimExcess","t":8,"sn":"TrimExcess","rt":$n[0].Void},{"a":2,"n":"TryReplaceMaterials","is":true,"t":8,"pi":[{"n":"workingSubmeshInstructions","pt":$n[4].ExposedList$1(Spine.Unity.SubmeshInstruction),"ps":0},{"n":"customMaterialOverride","pt":$n[6].Dictionary$2(UnityEngine.Material,UnityEngine.Material),"ps":1}],"sn":"TryReplaceMaterials","rt":$n[0].Void,"p":[$n[4].ExposedList$1(Spine.Unity.SubmeshInstruction),$n[6].Dictionary$2(UnityEngine.Material,UnityEngine.Material)]},{"a":2,"n":"Buffers","t":16,"rt":$n[5].MeshGeneratorBuffers,"g":{"a":2,"n":"get_Buffers","t":8,"rt":$n[5].MeshGeneratorBuffers,"fg":"Buffers"},"fn":"Buffers"},{"a":2,"n":"VertexCount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_VertexCount","t":8,"rt":$n[0].Int32,"fg":"VertexCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"VertexCount"},{"a":1,"n":"AttachmentColors32","is":true,"t":4,"rt":$n[6].List$1(UnityEngine.Color32),"sn":"AttachmentColors32"},{"a":1,"n":"AttachmentIndices","is":true,"t":4,"rt":$n[6].List$1(System.Int32),"sn":"AttachmentIndices"},{"a":1,"n":"AttachmentUVs","is":true,"t":4,"rt":$n[6].List$1(UnityEngine.Vector2),"sn":"AttachmentUVs"},{"a":1,"n":"AttachmentVerts","is":true,"t":4,"rt":$n[6].List$1(UnityEngine.Vector3),"sn":"AttachmentVerts"},{"a":1,"n":"BoundsMaxDefault","is":true,"t":4,"rt":$n[0].Single,"sn":"BoundsMaxDefault","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"BoundsMinDefault","is":true,"t":4,"rt":$n[0].Single,"sn":"BoundsMinDefault","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"clipper","t":4,"rt":$n[4].SkeletonClipping,"sn":"clipper"},{"a":3,"n":"colorBuffer","t":4,"rt":$n[4].ExposedList$1(UnityEngine.Color32),"sn":"colorBuffer","ro":true},{"a":1,"n":"meshBoundsMax","t":4,"rt":$n[2].Vector2,"sn":"meshBoundsMax"},{"a":1,"n":"meshBoundsMin","t":4,"rt":$n[2].Vector2,"sn":"meshBoundsMin"},{"a":1,"n":"meshBoundsThickness","t":4,"rt":$n[0].Single,"sn":"meshBoundsThickness","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"normals","t":4,"rt":System.Array.type(UnityEngine.Vector3),"sn":"normals"},{"a":1,"n":"regionTriangles","t":4,"rt":$n[0].Array.type(System.Int32),"sn":"regionTriangles"},{"a":2,"n":"settings","t":4,"rt":$n[5].MeshGenerator.Settings,"sn":"settings"},{"a":1,"n":"submeshIndex","t":4,"rt":$n[0].Int32,"sn":"submeshIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":3,"n":"submeshes","t":4,"rt":$n[4].ExposedList$1(Spine.ExposedList$1(System.Int32)),"sn":"submeshes","ro":true},{"a":1,"n":"tangents","t":4,"rt":System.Array.type(UnityEngine.Vector4),"sn":"tangents"},{"a":1,"n":"tempTanBuffer","t":4,"rt":System.Array.type(UnityEngine.Vector2),"sn":"tempTanBuffer"},{"a":1,"n":"tempVerts","t":4,"rt":$n[0].Array.type(System.Single),"sn":"tempVerts"},{"a":1,"n":"uv2","t":4,"rt":$n[4].ExposedList$1(UnityEngine.Vector2),"sn":"uv2"},{"a":1,"n":"uv3","t":4,"rt":$n[4].ExposedList$1(UnityEngine.Vector2),"sn":"uv3"},{"a":3,"n":"uvBuffer","t":4,"rt":$n[4].ExposedList$1(UnityEngine.Vector2),"sn":"uvBuffer","ro":true},{"a":3,"n":"vertexBuffer","t":4,"rt":$n[4].ExposedList$1(UnityEngine.Vector3),"sn":"vertexBuffer","ro":true}]}; }, $n);
     /*Spine.Unity.MeshGenerator end.*/
 
     /*Spine.Unity.MeshGenerator+Settings start.*/
-    $m("Spine.Unity.MeshGenerator.Settings", function () { return {"td":$n[4].MeshGenerator,"att":1057034,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Default","is":true,"t":16,"rt":$n[4].MeshGenerator.Settings,"g":{"a":2,"n":"get_Default","t":8,"rt":$n[4].MeshGenerator.Settings,"fg":"Default","is":true},"fn":"Default"},{"a":2,"n":"addNormals","t":4,"rt":$n[0].Boolean,"sn":"addNormals","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"calculateTangents","t":4,"rt":$n[0].Boolean,"sn":"calculateTangents","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Enable when using Additive blend mode at SkeletonGraphic under a CanvasGroup. When enabled, Additive alpha value is stored at uv2.g instead of color.a to capture CanvasGroup modifying color.a.")],"a":2,"n":"canvasGroupTintBlack","t":4,"rt":$n[0].Boolean,"sn":"canvasGroupTintBlack","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"immutableTriangles","t":4,"rt":$n[0].Boolean,"sn":"immutableTriangles","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SpaceAttribute.ctor(),new UnityEngine.HeaderAttribute("Vertex Data")],"a":2,"n":"pmaVertexColors","t":4,"rt":$n[0].Boolean,"sn":"pmaVertexColors","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"tintBlack","t":4,"rt":$n[0].Boolean,"sn":"tintBlack","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"useClipping","t":4,"rt":$n[0].Boolean,"sn":"useClipping","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SpaceAttribute.ctor(),new UnityEngine.RangeAttribute(-0.1, 0.0)],"a":2,"n":"zSpacing","t":4,"rt":$n[0].Single,"sn":"zSpacing","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("Spine.Unity.MeshGenerator.Settings", function () { return {"td":$n[5].MeshGenerator,"att":1057034,"a":2,"at":[new System.SerializableAttribute()],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Default","is":true,"t":16,"rt":$n[5].MeshGenerator.Settings,"g":{"a":2,"n":"get_Default","t":8,"rt":$n[5].MeshGenerator.Settings,"fg":"Default","is":true},"fn":"Default"},{"a":2,"n":"addNormals","t":4,"rt":$n[0].Boolean,"sn":"addNormals","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"calculateTangents","t":4,"rt":$n[0].Boolean,"sn":"calculateTangents","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.TooltipAttribute("Enable when using Additive blend mode at SkeletonGraphic under a CanvasGroup. When enabled, Additive alpha value is stored at uv2.g instead of color.a to capture CanvasGroup modifying color.a.")],"a":2,"n":"canvasGroupTintBlack","t":4,"rt":$n[0].Boolean,"sn":"canvasGroupTintBlack","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"immutableTriangles","t":4,"rt":$n[0].Boolean,"sn":"immutableTriangles","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SpaceAttribute.ctor(),new UnityEngine.HeaderAttribute("Vertex Data")],"a":2,"n":"pmaVertexColors","t":4,"rt":$n[0].Boolean,"sn":"pmaVertexColors","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"tintBlack","t":4,"rt":$n[0].Boolean,"sn":"tintBlack","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"useClipping","t":4,"rt":$n[0].Boolean,"sn":"useClipping","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SpaceAttribute.ctor(),new UnityEngine.RangeAttribute(-0.1, 0.0)],"a":2,"n":"zSpacing","t":4,"rt":$n[0].Single,"sn":"zSpacing","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*Spine.Unity.MeshGenerator+Settings end.*/
 
     /*Spine.Unity.MeshRendererBuffers start.*/
-    $m("Spine.Unity.MeshRendererBuffers", function () { return {"nested":[$n[4].MeshRendererBuffers.SmartMesh],"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"Dispose","t":8,"sn":"Dispose","rt":$n[0].Void},{"a":2,"n":"GetNextMesh","t":8,"sn":"GetNextMesh","rt":$n[4].MeshRendererBuffers.SmartMesh},{"a":2,"n":"GetUpdatedSharedMaterialsArray","t":8,"sn":"GetUpdatedSharedMaterialsArray","rt":System.Array.type(UnityEngine.Material)},{"a":2,"n":"Initialize","t":8,"sn":"Initialize","rt":$n[0].Void},{"a":2,"n":"MaterialsChangedInLastUpdate","t":8,"sn":"MaterialsChangedInLastUpdate","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"UpdateSharedMaterials","t":8,"pi":[{"n":"instructions","pt":$n[3].ExposedList$1(Spine.Unity.SubmeshInstruction),"ps":0}],"sn":"UpdateSharedMaterials","rt":$n[0].Void,"p":[$n[3].ExposedList$1(Spine.Unity.SubmeshInstruction)]},{"a":1,"n":"doubleBufferedMesh","t":4,"rt":$n[4].DoubleBuffered$1(Spine.Unity.MeshRendererBuffers.SmartMesh),"sn":"doubleBufferedMesh"},{"a":4,"n":"sharedMaterials","t":4,"rt":System.Array.type(UnityEngine.Material),"sn":"sharedMaterials"},{"a":4,"n":"submeshMaterials","t":4,"rt":$n[3].ExposedList$1(UnityEngine.Material),"sn":"submeshMaterials","ro":true}]}; }, $n);
+    $m("Spine.Unity.MeshRendererBuffers", function () { return {"nested":[$n[5].MeshRendererBuffers.SmartMesh],"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"Dispose","t":8,"sn":"Dispose","rt":$n[0].Void},{"a":2,"n":"GetNextMesh","t":8,"sn":"GetNextMesh","rt":$n[5].MeshRendererBuffers.SmartMesh},{"a":2,"n":"GetUpdatedSharedMaterialsArray","t":8,"sn":"GetUpdatedSharedMaterialsArray","rt":System.Array.type(UnityEngine.Material)},{"a":2,"n":"Initialize","t":8,"sn":"Initialize","rt":$n[0].Void},{"a":2,"n":"MaterialsChangedInLastUpdate","t":8,"sn":"MaterialsChangedInLastUpdate","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"UpdateSharedMaterials","t":8,"pi":[{"n":"instructions","pt":$n[4].ExposedList$1(Spine.Unity.SubmeshInstruction),"ps":0}],"sn":"UpdateSharedMaterials","rt":$n[0].Void,"p":[$n[4].ExposedList$1(Spine.Unity.SubmeshInstruction)]},{"a":1,"n":"doubleBufferedMesh","t":4,"rt":$n[5].DoubleBuffered$1(Spine.Unity.MeshRendererBuffers.SmartMesh),"sn":"doubleBufferedMesh"},{"a":4,"n":"sharedMaterials","t":4,"rt":System.Array.type(UnityEngine.Material),"sn":"sharedMaterials"},{"a":4,"n":"submeshMaterials","t":4,"rt":$n[4].ExposedList$1(UnityEngine.Material),"sn":"submeshMaterials","ro":true}]}; }, $n);
     /*Spine.Unity.MeshRendererBuffers end.*/
 
     /*Spine.Unity.MeshRendererBuffers+SmartMesh start.*/
-    $m("Spine.Unity.MeshRendererBuffers.SmartMesh", function () { return {"td":$n[4].MeshRendererBuffers,"att":1048578,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"Dispose","t":8,"sn":"Dispose","rt":$n[0].Void},{"a":2,"n":"instructionUsed","t":4,"rt":$n[4].SkeletonRendererInstruction,"sn":"instructionUsed"},{"a":2,"n":"mesh","t":4,"rt":$n[2].Mesh,"sn":"mesh"}]}; }, $n);
+    $m("Spine.Unity.MeshRendererBuffers.SmartMesh", function () { return {"td":$n[5].MeshRendererBuffers,"att":1048578,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"Dispose","t":8,"sn":"Dispose","rt":$n[0].Void},{"a":2,"n":"instructionUsed","t":4,"rt":$n[5].SkeletonRendererInstruction,"sn":"instructionUsed"},{"a":2,"n":"mesh","t":4,"rt":$n[2].Mesh,"sn":"mesh"}]}; }, $n);
     /*Spine.Unity.MeshRendererBuffers+SmartMesh end.*/
 
     /*Spine.Unity.SkeletonRendererInstruction start.*/
-    $m("Spine.Unity.SkeletonRendererInstruction", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"Dispose","t":8,"sn":"Dispose","rt":$n[0].Void},{"a":2,"n":"GeometryNotEqual","is":true,"t":8,"pi":[{"n":"a","pt":$n[4].SkeletonRendererInstruction,"ps":0},{"n":"b","pt":$n[4].SkeletonRendererInstruction,"ps":1}],"sn":"GeometryNotEqual","rt":$n[0].Boolean,"p":[$n[4].SkeletonRendererInstruction,$n[4].SkeletonRendererInstruction],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"Set","t":8,"pi":[{"n":"other","pt":$n[4].SkeletonRendererInstruction,"ps":0}],"sn":"Set","rt":$n[0].Void,"p":[$n[4].SkeletonRendererInstruction]},{"a":2,"n":"SetWithSubset","t":8,"pi":[{"n":"instructions","pt":$n[3].ExposedList$1(Spine.Unity.SubmeshInstruction),"ps":0},{"n":"startSubmesh","pt":$n[0].Int32,"ps":1},{"n":"endSubmesh","pt":$n[0].Int32,"ps":2}],"sn":"SetWithSubset","rt":$n[0].Void,"p":[$n[3].ExposedList$1(Spine.Unity.SubmeshInstruction),$n[0].Int32,$n[0].Int32]},{"a":2,"n":"attachments","t":4,"rt":$n[3].ExposedList$1(spine.Attachment),"sn":"attachments","ro":true},{"a":2,"n":"hasActiveClipping","t":4,"rt":$n[0].Boolean,"sn":"hasActiveClipping","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"immutableTriangles","t":4,"rt":$n[0].Boolean,"sn":"immutableTriangles","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"rawVertexCount","t":4,"rt":$n[0].Int32,"sn":"rawVertexCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"submeshInstructions","t":4,"rt":$n[3].ExposedList$1(Spine.Unity.SubmeshInstruction),"sn":"submeshInstructions","ro":true}]}; }, $n);
+    $m("Spine.Unity.SkeletonRendererInstruction", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Clear","t":8,"sn":"Clear","rt":$n[0].Void},{"a":2,"n":"Dispose","t":8,"sn":"Dispose","rt":$n[0].Void},{"a":2,"n":"GeometryNotEqual","is":true,"t":8,"pi":[{"n":"a","pt":$n[5].SkeletonRendererInstruction,"ps":0},{"n":"b","pt":$n[5].SkeletonRendererInstruction,"ps":1}],"sn":"GeometryNotEqual","rt":$n[0].Boolean,"p":[$n[5].SkeletonRendererInstruction,$n[5].SkeletonRendererInstruction],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"Set","t":8,"pi":[{"n":"other","pt":$n[5].SkeletonRendererInstruction,"ps":0}],"sn":"Set","rt":$n[0].Void,"p":[$n[5].SkeletonRendererInstruction]},{"a":2,"n":"SetWithSubset","t":8,"pi":[{"n":"instructions","pt":$n[4].ExposedList$1(Spine.Unity.SubmeshInstruction),"ps":0},{"n":"startSubmesh","pt":$n[0].Int32,"ps":1},{"n":"endSubmesh","pt":$n[0].Int32,"ps":2}],"sn":"SetWithSubset","rt":$n[0].Void,"p":[$n[4].ExposedList$1(Spine.Unity.SubmeshInstruction),$n[0].Int32,$n[0].Int32]},{"a":2,"n":"attachments","t":4,"rt":$n[4].ExposedList$1(spine.Attachment),"sn":"attachments","ro":true},{"a":2,"n":"hasActiveClipping","t":4,"rt":$n[0].Boolean,"sn":"hasActiveClipping","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"immutableTriangles","t":4,"rt":$n[0].Boolean,"sn":"immutableTriangles","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"rawVertexCount","t":4,"rt":$n[0].Int32,"sn":"rawVertexCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"submeshInstructions","t":4,"rt":$n[4].ExposedList$1(Spine.Unity.SubmeshInstruction),"sn":"submeshInstructions","ro":true}]}; }, $n);
     /*Spine.Unity.SkeletonRendererInstruction end.*/
 
     /*Spine.Unity.SpineMesh start.*/
@@ -18203,17 +22830,17 @@ if ( TRACE ) { TRACE( "Spine.Unity.SkeletonMecanim#OnBecameVisible", this ); }
     /*Spine.Unity.SpineMesh end.*/
 
     /*Spine.Unity.SubmeshInstruction start.*/
-    $m("Spine.Unity.SubmeshInstruction", function () { return {"att":1048841,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":2,"n":"ToString","t":8,"sn":"toString","rt":$n[0].String},{"a":2,"n":"SlotCount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_SlotCount","t":8,"rt":$n[0].Int32,"fg":"SlotCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"SlotCount"},{"a":2,"n":"endSlot","t":4,"rt":$n[0].Int32,"sn":"endSlot","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"forceSeparate","t":4,"rt":$n[0].Boolean,"sn":"forceSeparate","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"hasClipping","t":4,"rt":$n[0].Boolean,"sn":"hasClipping","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"hasPMAAdditiveSlot","t":4,"rt":$n[0].Boolean,"sn":"hasPMAAdditiveSlot","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"material","t":4,"rt":$n[2].Material,"sn":"material"},{"a":2,"n":"preActiveClippingSlotSource","t":4,"rt":$n[0].Int32,"sn":"preActiveClippingSlotSource","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"rawFirstVertexIndex","t":4,"rt":$n[0].Int32,"sn":"rawFirstVertexIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"rawTriangleCount","t":4,"rt":$n[0].Int32,"sn":"rawTriangleCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"rawVertexCount","t":4,"rt":$n[0].Int32,"sn":"rawVertexCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"skeleton","t":4,"rt":$n[3].Skeleton,"sn":"skeleton"},{"a":2,"n":"startSlot","t":4,"rt":$n[0].Int32,"sn":"startSlot","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    $m("Spine.Unity.SubmeshInstruction", function () { return {"att":1048841,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":2,"n":"ToString","t":8,"sn":"toString","rt":$n[0].String},{"a":2,"n":"SlotCount","t":16,"rt":$n[0].Int32,"g":{"a":2,"n":"get_SlotCount","t":8,"rt":$n[0].Int32,"fg":"SlotCount","box":function ($v) { return Bridge.box($v, System.Int32);}},"fn":"SlotCount"},{"a":2,"n":"endSlot","t":4,"rt":$n[0].Int32,"sn":"endSlot","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"forceSeparate","t":4,"rt":$n[0].Boolean,"sn":"forceSeparate","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"hasClipping","t":4,"rt":$n[0].Boolean,"sn":"hasClipping","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"hasPMAAdditiveSlot","t":4,"rt":$n[0].Boolean,"sn":"hasPMAAdditiveSlot","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"material","t":4,"rt":$n[2].Material,"sn":"material"},{"a":2,"n":"preActiveClippingSlotSource","t":4,"rt":$n[0].Int32,"sn":"preActiveClippingSlotSource","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"rawFirstVertexIndex","t":4,"rt":$n[0].Int32,"sn":"rawFirstVertexIndex","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"rawTriangleCount","t":4,"rt":$n[0].Int32,"sn":"rawTriangleCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"rawVertexCount","t":4,"rt":$n[0].Int32,"sn":"rawVertexCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"skeleton","t":4,"rt":$n[4].Skeleton,"sn":"skeleton"},{"a":2,"n":"startSlot","t":4,"rt":$n[0].Int32,"sn":"startSlot","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
     /*Spine.Unity.SubmeshInstruction end.*/
 
     /*Spine.Unity.BlendModeMaterialsAsset start.*/
-    $m("Spine.Unity.BlendModeMaterialsAsset", function () { return {"nested":[$n[4].BlendModeMaterialsAsset.AtlasMaterialCache],"att":1048577,"a":2,"at":[Bridge.apply(new UnityEngine.CreateAssetMenuAttribute(), {
+    $m("Spine.Unity.BlendModeMaterialsAsset", function () { return {"nested":[$n[5].BlendModeMaterialsAsset.AtlasMaterialCache],"att":1048577,"a":2,"at":[Bridge.apply(new UnityEngine.CreateAssetMenuAttribute(), {
         menuName: "Spine/SkeletonData Modifiers/Blend Mode Materials", order: 200
-    } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":2,"n":"Apply","t":8,"pi":[{"n":"skeletonData","pt":$n[3].SkeletonData,"ps":0}],"sn":"Apply","rt":$n[0].Void,"p":[$n[3].SkeletonData]},{"a":2,"n":"ApplyMaterials","is":true,"t":8,"pi":[{"n":"skeletonData","pt":$n[3].SkeletonData,"ps":0},{"n":"multiplyTemplate","pt":$n[2].Material,"ps":1},{"n":"screenTemplate","pt":$n[2].Material,"ps":2},{"n":"additiveTemplate","pt":$n[2].Material,"ps":3},{"n":"includeAdditiveSlots","pt":$n[0].Boolean,"ps":4}],"sn":"ApplyMaterials","rt":$n[0].Void,"p":[$n[3].SkeletonData,$n[2].Material,$n[2].Material,$n[2].Material,$n[0].Boolean]},{"a":2,"n":"additiveMaterialTemplate","t":4,"rt":$n[2].Material,"sn":"additiveMaterialTemplate"},{"a":2,"n":"applyAdditiveMaterial","t":4,"rt":$n[0].Boolean,"sn":"applyAdditiveMaterial","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"multiplyMaterialTemplate","t":4,"rt":$n[2].Material,"sn":"multiplyMaterialTemplate"},{"a":2,"n":"screenMaterialTemplate","t":4,"rt":$n[2].Material,"sn":"screenMaterialTemplate"}]}; }, $n);
+    } )],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"ov":true,"a":2,"n":"Apply","t":8,"pi":[{"n":"skeletonData","pt":$n[4].SkeletonData,"ps":0}],"sn":"Apply","rt":$n[0].Void,"p":[$n[4].SkeletonData]},{"a":2,"n":"ApplyMaterials","is":true,"t":8,"pi":[{"n":"skeletonData","pt":$n[4].SkeletonData,"ps":0},{"n":"multiplyTemplate","pt":$n[2].Material,"ps":1},{"n":"screenTemplate","pt":$n[2].Material,"ps":2},{"n":"additiveTemplate","pt":$n[2].Material,"ps":3},{"n":"includeAdditiveSlots","pt":$n[0].Boolean,"ps":4}],"sn":"ApplyMaterials","rt":$n[0].Void,"p":[$n[4].SkeletonData,$n[2].Material,$n[2].Material,$n[2].Material,$n[0].Boolean]},{"a":2,"n":"additiveMaterialTemplate","t":4,"rt":$n[2].Material,"sn":"additiveMaterialTemplate"},{"a":2,"n":"applyAdditiveMaterial","t":4,"rt":$n[0].Boolean,"sn":"applyAdditiveMaterial","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"multiplyMaterialTemplate","t":4,"rt":$n[2].Material,"sn":"multiplyMaterialTemplate"},{"a":2,"n":"screenMaterialTemplate","t":4,"rt":$n[2].Material,"sn":"screenMaterialTemplate"}]}; }, $n);
     /*Spine.Unity.BlendModeMaterialsAsset end.*/
 
     /*Spine.Unity.BlendModeMaterialsAsset+AtlasMaterialCache start.*/
-    $m("Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache", function () { return {"td":$n[4].BlendModeMaterialsAsset,"att":1048579,"a":1,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"CloneAtlasRegionWithMaterial","t":8,"pi":[{"n":"originalRegion","pt":$n[3].AtlasRegion,"ps":0},{"n":"materialTemplate","pt":$n[2].Material,"ps":1}],"sn":"CloneAtlasRegionWithMaterial","rt":$n[3].AtlasRegion,"p":[$n[3].AtlasRegion,$n[2].Material]},{"a":2,"n":"Dispose","t":8,"sn":"Dispose","rt":$n[0].Void},{"a":1,"n":"GetAtlasPageWithMaterial","t":8,"pi":[{"n":"originalPage","pt":$n[3].AtlasPage,"ps":0},{"n":"materialTemplate","pt":$n[2].Material,"ps":1}],"sn":"GetAtlasPageWithMaterial","rt":$n[3].AtlasPage,"p":[$n[3].AtlasPage,$n[2].Material]},{"a":1,"n":"cache","t":4,"rt":$n[5].Dictionary$2(System.Collections.Generic.KeyValuePair$2(Spine.AtlasPage,UnityEngine.Material),Spine.AtlasPage),"sn":"cache","ro":true}]}; }, $n);
+    $m("Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache", function () { return {"td":$n[5].BlendModeMaterialsAsset,"att":1048579,"a":1,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"CloneAtlasRegionWithMaterial","t":8,"pi":[{"n":"originalRegion","pt":$n[4].AtlasRegion,"ps":0},{"n":"materialTemplate","pt":$n[2].Material,"ps":1}],"sn":"CloneAtlasRegionWithMaterial","rt":$n[4].AtlasRegion,"p":[$n[4].AtlasRegion,$n[2].Material]},{"a":2,"n":"Dispose","t":8,"sn":"Dispose","rt":$n[0].Void},{"a":1,"n":"GetAtlasPageWithMaterial","t":8,"pi":[{"n":"originalPage","pt":$n[4].AtlasPage,"ps":0},{"n":"materialTemplate","pt":$n[2].Material,"ps":1}],"sn":"GetAtlasPageWithMaterial","rt":$n[4].AtlasPage,"p":[$n[4].AtlasPage,$n[2].Material]},{"a":1,"n":"cache","t":4,"rt":$n[6].Dictionary$2(System.Collections.Generic.KeyValuePair$2(Spine.AtlasPage,UnityEngine.Material),Spine.AtlasPage),"sn":"cache","ro":true}]}; }, $n);
     /*Spine.Unity.BlendModeMaterialsAsset+AtlasMaterialCache end.*/
 
     /*Spine.Unity.SpineAttributeBase start.*/
@@ -18221,7 +22848,7 @@ if ( TRACE ) { TRACE( "Spine.Unity.SkeletonMecanim#OnBecameVisible", this ); }
     /*Spine.Unity.SpineAttributeBase end.*/
 
     /*Spine.Unity.SpineBone start.*/
-    $m("Spine.Unity.SpineBone", function () { return {"att":1048577,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[0].String,$n[0].String,$n[0].Boolean,$n[0].Boolean],"pi":[{"n":"startsWith","dv":"","o":true,"pt":$n[0].String,"ps":0},{"n":"dataField","dv":"","o":true,"pt":$n[0].String,"ps":1},{"n":"includeNone","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"fallbackToTextField","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"ctor"},{"a":2,"n":"GetBone","is":true,"t":8,"pi":[{"n":"boneName","pt":$n[0].String,"ps":0},{"n":"renderer","pt":$n[4].SkeletonRenderer,"ps":1}],"sn":"getBone","rt":$n[3].Bone,"p":[$n[0].String,$n[4].SkeletonRenderer]},{"a":2,"n":"GetBoneData","is":true,"t":8,"pi":[{"n":"boneName","pt":$n[0].String,"ps":0},{"n":"skeletonDataAsset","pt":$n[4].SkeletonDataAsset,"ps":1}],"sn":"getBoneData","rt":spine.BoneData,"p":[$n[0].String,$n[4].SkeletonDataAsset]}]}; }, $n);
+    $m("Spine.Unity.SpineBone", function () { return {"att":1048577,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[0].String,$n[0].String,$n[0].Boolean,$n[0].Boolean],"pi":[{"n":"startsWith","dv":"","o":true,"pt":$n[0].String,"ps":0},{"n":"dataField","dv":"","o":true,"pt":$n[0].String,"ps":1},{"n":"includeNone","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"fallbackToTextField","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"ctor"},{"a":2,"n":"GetBone","is":true,"t":8,"pi":[{"n":"boneName","pt":$n[0].String,"ps":0},{"n":"renderer","pt":$n[5].SkeletonRenderer,"ps":1}],"sn":"getBone","rt":$n[4].Bone,"p":[$n[0].String,$n[5].SkeletonRenderer]},{"a":2,"n":"GetBoneData","is":true,"t":8,"pi":[{"n":"boneName","pt":$n[0].String,"ps":0},{"n":"skeletonDataAsset","pt":$n[5].SkeletonDataAsset,"ps":1}],"sn":"getBoneData","rt":spine.BoneData,"p":[$n[0].String,$n[5].SkeletonDataAsset]}]}; }, $n);
     /*Spine.Unity.SpineBone end.*/
 
     /*Spine.Unity.SpineSlot start.*/
@@ -18253,11 +22880,11 @@ if ( TRACE ) { TRACE( "Spine.Unity.SkeletonMecanim#OnBecameVisible", this ); }
     /*Spine.Unity.SpineSkin end.*/
 
     /*Spine.Unity.SpineAttachment start.*/
-    $m("Spine.Unity.SpineAttachment", function () { return {"nested":[$n[4].SpineAttachment.Hierarchy],"att":1048577,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[0].Boolean,$n[0].Boolean,$n[0].Boolean,$n[0].String,$n[0].String,$n[0].String,$n[0].Boolean,$n[0].Boolean],"pi":[{"n":"currentSkinOnly","dv":true,"o":true,"pt":$n[0].Boolean,"ps":0},{"n":"returnAttachmentPath","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"placeholdersOnly","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"slotField","dv":"","o":true,"pt":$n[0].String,"ps":3},{"n":"dataField","dv":"","o":true,"pt":$n[0].String,"ps":4},{"n":"skinField","dv":"","o":true,"pt":$n[0].String,"ps":5},{"n":"includeNone","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"fallbackToTextField","dv":false,"o":true,"pt":$n[0].Boolean,"ps":7}],"sn":"ctor"},{"a":2,"n":"GetAttachment","is":true,"t":8,"pi":[{"n":"attachmentPath","pt":$n[0].String,"ps":0},{"n":"skeletonData","pt":$n[3].SkeletonData,"ps":1}],"sn":"getAttachment","rt":spine.Attachment,"p":[$n[0].String,$n[3].SkeletonData]},{"a":2,"n":"GetAttachment","is":true,"t":8,"pi":[{"n":"attachmentPath","pt":$n[0].String,"ps":0},{"n":"skeletonDataAsset","pt":$n[4].SkeletonDataAsset,"ps":1}],"sn":"getAttachment$1","rt":spine.Attachment,"p":[$n[0].String,$n[4].SkeletonDataAsset]},{"a":2,"n":"GetHierarchy","is":true,"t":8,"pi":[{"n":"fullPath","pt":$n[0].String,"ps":0}],"sn":"getHierarchy","rt":$n[4].SpineAttachment.Hierarchy,"p":[$n[0].String]},{"a":2,"n":"currentSkinOnly","t":4,"rt":$n[0].Boolean,"sn":"currentSkinOnly","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"placeholdersOnly","t":4,"rt":$n[0].Boolean,"sn":"placeholdersOnly","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"returnAttachmentPath","t":4,"rt":$n[0].Boolean,"sn":"returnAttachmentPath","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"skinField","t":4,"rt":$n[0].String,"sn":"skinField"},{"a":2,"n":"slotField","t":4,"rt":$n[0].String,"sn":"slotField"}]}; }, $n);
+    $m("Spine.Unity.SpineAttachment", function () { return {"nested":[$n[5].SpineAttachment.Hierarchy],"att":1048577,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[0].Boolean,$n[0].Boolean,$n[0].Boolean,$n[0].String,$n[0].String,$n[0].String,$n[0].Boolean,$n[0].Boolean],"pi":[{"n":"currentSkinOnly","dv":true,"o":true,"pt":$n[0].Boolean,"ps":0},{"n":"returnAttachmentPath","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1},{"n":"placeholdersOnly","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"slotField","dv":"","o":true,"pt":$n[0].String,"ps":3},{"n":"dataField","dv":"","o":true,"pt":$n[0].String,"ps":4},{"n":"skinField","dv":"","o":true,"pt":$n[0].String,"ps":5},{"n":"includeNone","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"fallbackToTextField","dv":false,"o":true,"pt":$n[0].Boolean,"ps":7}],"sn":"ctor"},{"a":2,"n":"GetAttachment","is":true,"t":8,"pi":[{"n":"attachmentPath","pt":$n[0].String,"ps":0},{"n":"skeletonData","pt":$n[4].SkeletonData,"ps":1}],"sn":"getAttachment","rt":spine.Attachment,"p":[$n[0].String,$n[4].SkeletonData]},{"a":2,"n":"GetAttachment","is":true,"t":8,"pi":[{"n":"attachmentPath","pt":$n[0].String,"ps":0},{"n":"skeletonDataAsset","pt":$n[5].SkeletonDataAsset,"ps":1}],"sn":"getAttachment$1","rt":spine.Attachment,"p":[$n[0].String,$n[5].SkeletonDataAsset]},{"a":2,"n":"GetHierarchy","is":true,"t":8,"pi":[{"n":"fullPath","pt":$n[0].String,"ps":0}],"sn":"getHierarchy","rt":$n[5].SpineAttachment.Hierarchy,"p":[$n[0].String]},{"a":2,"n":"currentSkinOnly","t":4,"rt":$n[0].Boolean,"sn":"currentSkinOnly","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"placeholdersOnly","t":4,"rt":$n[0].Boolean,"sn":"placeholdersOnly","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"returnAttachmentPath","t":4,"rt":$n[0].Boolean,"sn":"returnAttachmentPath","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"skinField","t":4,"rt":$n[0].String,"sn":"skinField"},{"a":2,"n":"slotField","t":4,"rt":$n[0].String,"sn":"slotField"}]}; }, $n);
     /*Spine.Unity.SpineAttachment end.*/
 
     /*Spine.Unity.SpineAttachment+Hierarchy start.*/
-    $m("Spine.Unity.SpineAttachment.Hierarchy", function () { return {"td":$n[4].SpineAttachment,"att":1048842,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":".ctor","t":1,"p":[$n[0].String],"pi":[{"n":"fullPath","pt":$n[0].String,"ps":0}],"sn":"$ctor1"},{"a":2,"n":"name","t":4,"rt":$n[0].String,"sn":"name"},{"a":2,"n":"skin","t":4,"rt":$n[0].String,"sn":"skin"},{"a":2,"n":"slot","t":4,"rt":$n[0].String,"sn":"slot"}]}; }, $n);
+    $m("Spine.Unity.SpineAttachment.Hierarchy", function () { return {"td":$n[5].SpineAttachment,"att":1048842,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":".ctor","t":1,"p":[$n[0].String],"pi":[{"n":"fullPath","pt":$n[0].String,"ps":0}],"sn":"$ctor1"},{"a":2,"n":"name","t":4,"rt":$n[0].String,"sn":"name"},{"a":2,"n":"skin","t":4,"rt":$n[0].String,"sn":"skin"},{"a":2,"n":"slot","t":4,"rt":$n[0].String,"sn":"slot"}]}; }, $n);
     /*Spine.Unity.SpineAttachment+Hierarchy end.*/
 
     /*Spine.Unity.SpineAtlasRegion start.*/
@@ -18265,31 +22892,115 @@ if ( TRACE ) { TRACE( "Spine.Unity.SkeletonMecanim#OnBecameVisible", this ); }
     /*Spine.Unity.SpineAtlasRegion end.*/
 
     /*Spine.Unity.SkeletonExtensions start.*/
-    $m("Spine.Unity.SkeletonExtensions", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"GetColor","is":true,"t":8,"pi":[{"n":"a","pt":$n[3].MeshAttachment,"ps":0}],"sn":"GetColor","rt":$n[2].Color,"p":[$n[3].MeshAttachment]},{"a":2,"n":"GetColor","is":true,"t":8,"pi":[{"n":"a","pt":$n[3].RegionAttachment,"ps":0}],"sn":"GetColor$1","rt":$n[2].Color,"p":[$n[3].RegionAttachment]},{"a":2,"n":"GetColor","is":true,"t":8,"pi":[{"n":"s","pt":$n[3].Skeleton,"ps":0}],"sn":"GetColor$2","rt":$n[2].Color,"p":[$n[3].Skeleton]},{"a":2,"n":"GetColor","is":true,"t":8,"pi":[{"n":"s","pt":$n[3].Slot,"ps":0}],"sn":"GetColor$3","rt":$n[2].Color,"p":[$n[3].Slot]},{"a":2,"n":"GetColorTintBlack","is":true,"t":8,"pi":[{"n":"s","pt":$n[3].Slot,"ps":0}],"sn":"GetColorTintBlack","rt":$n[2].Color,"p":[$n[3].Slot]},{"a":2,"n":"GetLocalPosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0}],"sn":"GetLocalPosition","rt":$n[2].Vector2,"p":[$n[3].Bone]},{"a":2,"n":"GetLocalQuaternion","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0}],"sn":"GetLocalQuaternion","rt":$n[2].Quaternion,"p":[$n[3].Bone]},{"a":2,"n":"GetLocalScale","is":true,"t":8,"pi":[{"n":"skeleton","pt":$n[3].Skeleton,"ps":0}],"sn":"GetLocalScale","rt":$n[2].Vector2,"p":[$n[3].Skeleton]},{"a":2,"n":"GetLocalVertices","is":true,"t":8,"pi":[{"n":"va","pt":spine.VertexAttachment,"ps":0},{"n":"slot","pt":$n[3].Slot,"ps":1},{"n":"buffer","pt":System.Array.type(UnityEngine.Vector2),"ps":2}],"sn":"GetLocalVertices","rt":System.Array.type(UnityEngine.Vector2),"p":[spine.VertexAttachment,$n[3].Slot,System.Array.type(UnityEngine.Vector2)]},{"a":2,"n":"GetMaterial","is":true,"t":8,"pi":[{"n":"a","pt":spine.Attachment,"ps":0}],"sn":"GetMaterial","rt":$n[2].Material,"p":[spine.Attachment]},{"a":2,"n":"GetMatrix4x4","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0}],"sn":"GetMatrix4x4","rt":$n[2].Matrix4x4,"p":[$n[3].Bone]},{"a":2,"n":"GetQuaternion","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0}],"sn":"GetQuaternion","rt":$n[2].Quaternion,"p":[$n[3].Bone]},{"a":2,"n":"GetSkeletonSpacePosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0}],"sn":"GetSkeletonSpacePosition","rt":$n[2].Vector2,"p":[$n[3].Bone]},{"a":2,"n":"GetSkeletonSpacePosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0},{"n":"boneLocal","pt":$n[2].Vector2,"ps":1}],"sn":"GetSkeletonSpacePosition$1","rt":$n[2].Vector2,"p":[$n[3].Bone,$n[2].Vector2]},{"a":2,"n":"GetWorldPosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0},{"n":"spineGameObjectTransform","pt":$n[2].Transform,"ps":1}],"sn":"GetWorldPosition","rt":$n[2].Vector3,"p":[$n[3].Bone,$n[2].Transform]},{"a":2,"n":"GetWorldPosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0},{"n":"spineGameObjectTransform","pt":$n[2].Transform,"ps":1},{"n":"positionScale","pt":$n[0].Single,"ps":2}],"sn":"GetWorldPosition$1","rt":$n[2].Vector3,"p":[$n[3].Bone,$n[2].Transform,$n[0].Single]},{"a":2,"n":"GetWorldPosition","is":true,"t":8,"pi":[{"n":"attachment","pt":$n[3].PointAttachment,"ps":0},{"n":"bone","pt":$n[3].Bone,"ps":1},{"n":"spineGameObjectTransform","pt":$n[2].Transform,"ps":2}],"sn":"GetWorldPosition$2","rt":$n[2].Vector3,"p":[$n[3].PointAttachment,$n[3].Bone,$n[2].Transform]},{"a":2,"n":"GetWorldPosition","is":true,"t":8,"pi":[{"n":"attachment","pt":$n[3].PointAttachment,"ps":0},{"n":"slot","pt":$n[3].Slot,"ps":1},{"n":"spineGameObjectTransform","pt":$n[2].Transform,"ps":2}],"sn":"GetWorldPosition$3","rt":$n[2].Vector3,"p":[$n[3].PointAttachment,$n[3].Slot,$n[2].Transform]},{"a":2,"n":"GetWorldToLocalMatrix","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0},{"n":"ia","out":true,"pt":$n[0].Single,"ps":1},{"n":"ib","out":true,"pt":$n[0].Single,"ps":2},{"n":"ic","out":true,"pt":$n[0].Single,"ps":3},{"n":"id","out":true,"pt":$n[0].Single,"ps":4}],"sn":"GetWorldToLocalMatrix","rt":$n[0].Void,"p":[$n[3].Bone,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Single]},{"a":2,"n":"GetWorldVertices","is":true,"t":8,"pi":[{"n":"a","pt":spine.VertexAttachment,"ps":0},{"n":"slot","pt":$n[3].Slot,"ps":1},{"n":"buffer","pt":System.Array.type(UnityEngine.Vector2),"ps":2}],"sn":"GetWorldVertices","rt":System.Array.type(UnityEngine.Vector2),"p":[spine.VertexAttachment,$n[3].Slot,System.Array.type(UnityEngine.Vector2)]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"attachment","pt":$n[3].MeshAttachment,"ps":0},{"n":"color","pt":$n[2].Color,"ps":1}],"sn":"SetColor","rt":$n[0].Void,"p":[$n[3].MeshAttachment,$n[2].Color]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"attachment","pt":$n[3].MeshAttachment,"ps":0},{"n":"color","pt":$n[2].Color32,"ps":1}],"sn":"SetColor$1","rt":$n[0].Void,"p":[$n[3].MeshAttachment,$n[2].Color32]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"attachment","pt":$n[3].RegionAttachment,"ps":0},{"n":"color","pt":$n[2].Color,"ps":1}],"sn":"SetColor$2","rt":$n[0].Void,"p":[$n[3].RegionAttachment,$n[2].Color]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"attachment","pt":$n[3].RegionAttachment,"ps":0},{"n":"color","pt":$n[2].Color32,"ps":1}],"sn":"SetColor$3","rt":$n[0].Void,"p":[$n[3].RegionAttachment,$n[2].Color32]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"skeleton","pt":$n[3].Skeleton,"ps":0},{"n":"color","pt":$n[2].Color,"ps":1}],"sn":"SetColor$4","rt":$n[0].Void,"p":[$n[3].Skeleton,$n[2].Color]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"skeleton","pt":$n[3].Skeleton,"ps":0},{"n":"color","pt":$n[2].Color32,"ps":1}],"sn":"SetColor$5","rt":$n[0].Void,"p":[$n[3].Skeleton,$n[2].Color32]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"slot","pt":$n[3].Slot,"ps":0},{"n":"color","pt":$n[2].Color,"ps":1}],"sn":"SetColor$6","rt":$n[0].Void,"p":[$n[3].Slot,$n[2].Color]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"slot","pt":$n[3].Slot,"ps":0},{"n":"color","pt":$n[2].Color32,"ps":1}],"sn":"SetColor$7","rt":$n[0].Void,"p":[$n[3].Slot,$n[2].Color32]},{"a":2,"n":"SetLocalPosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0},{"n":"position","pt":$n[2].Vector2,"ps":1}],"sn":"SetLocalPosition","rt":$n[0].Void,"p":[$n[3].Bone,$n[2].Vector2]},{"a":2,"n":"SetLocalPosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0},{"n":"position","pt":$n[2].Vector3,"ps":1}],"sn":"SetLocalPosition$1","rt":$n[0].Void,"p":[$n[3].Bone,$n[2].Vector3]},{"a":2,"n":"SetLocalScale","is":true,"t":8,"pi":[{"n":"skeleton","pt":$n[3].Skeleton,"ps":0},{"n":"scale","pt":$n[2].Vector2,"ps":1}],"sn":"SetLocalScale","rt":$n[0].Void,"p":[$n[3].Skeleton,$n[2].Vector2]},{"a":2,"n":"SetPositionSkeletonSpace","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0},{"n":"skeletonSpacePosition","pt":$n[2].Vector2,"ps":1}],"sn":"SetPositionSkeletonSpace","rt":$n[2].Vector2,"p":[$n[3].Bone,$n[2].Vector2]},{"a":2,"n":"WorldToLocal","is":true,"t":8,"pi":[{"n":"bone","pt":$n[3].Bone,"ps":0},{"n":"worldPosition","pt":$n[2].Vector2,"ps":1}],"sn":"WorldToLocal","rt":$n[2].Vector2,"p":[$n[3].Bone,$n[2].Vector2]},{"a":1,"n":"ByteToFloat","is":true,"t":4,"rt":$n[0].Single,"sn":"ByteToFloat","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("Spine.Unity.SkeletonExtensions", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"GetColor","is":true,"t":8,"pi":[{"n":"a","pt":$n[4].MeshAttachment,"ps":0}],"sn":"GetColor","rt":$n[2].Color,"p":[$n[4].MeshAttachment]},{"a":2,"n":"GetColor","is":true,"t":8,"pi":[{"n":"a","pt":$n[4].RegionAttachment,"ps":0}],"sn":"GetColor$1","rt":$n[2].Color,"p":[$n[4].RegionAttachment]},{"a":2,"n":"GetColor","is":true,"t":8,"pi":[{"n":"s","pt":$n[4].Skeleton,"ps":0}],"sn":"GetColor$2","rt":$n[2].Color,"p":[$n[4].Skeleton]},{"a":2,"n":"GetColor","is":true,"t":8,"pi":[{"n":"s","pt":$n[4].Slot,"ps":0}],"sn":"GetColor$3","rt":$n[2].Color,"p":[$n[4].Slot]},{"a":2,"n":"GetColorTintBlack","is":true,"t":8,"pi":[{"n":"s","pt":$n[4].Slot,"ps":0}],"sn":"GetColorTintBlack","rt":$n[2].Color,"p":[$n[4].Slot]},{"a":2,"n":"GetLocalPosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0}],"sn":"GetLocalPosition","rt":$n[2].Vector2,"p":[$n[4].Bone]},{"a":2,"n":"GetLocalQuaternion","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0}],"sn":"GetLocalQuaternion","rt":$n[2].Quaternion,"p":[$n[4].Bone]},{"a":2,"n":"GetLocalScale","is":true,"t":8,"pi":[{"n":"skeleton","pt":$n[4].Skeleton,"ps":0}],"sn":"GetLocalScale","rt":$n[2].Vector2,"p":[$n[4].Skeleton]},{"a":2,"n":"GetLocalVertices","is":true,"t":8,"pi":[{"n":"va","pt":spine.VertexAttachment,"ps":0},{"n":"slot","pt":$n[4].Slot,"ps":1},{"n":"buffer","pt":System.Array.type(UnityEngine.Vector2),"ps":2}],"sn":"GetLocalVertices","rt":System.Array.type(UnityEngine.Vector2),"p":[spine.VertexAttachment,$n[4].Slot,System.Array.type(UnityEngine.Vector2)]},{"a":2,"n":"GetMaterial","is":true,"t":8,"pi":[{"n":"a","pt":spine.Attachment,"ps":0}],"sn":"GetMaterial","rt":$n[2].Material,"p":[spine.Attachment]},{"a":2,"n":"GetMatrix4x4","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0}],"sn":"GetMatrix4x4","rt":$n[2].Matrix4x4,"p":[$n[4].Bone]},{"a":2,"n":"GetQuaternion","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0}],"sn":"GetQuaternion","rt":$n[2].Quaternion,"p":[$n[4].Bone]},{"a":2,"n":"GetSkeletonSpacePosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0}],"sn":"GetSkeletonSpacePosition","rt":$n[2].Vector2,"p":[$n[4].Bone]},{"a":2,"n":"GetSkeletonSpacePosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0},{"n":"boneLocal","pt":$n[2].Vector2,"ps":1}],"sn":"GetSkeletonSpacePosition$1","rt":$n[2].Vector2,"p":[$n[4].Bone,$n[2].Vector2]},{"a":2,"n":"GetWorldPosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0},{"n":"spineGameObjectTransform","pt":$n[2].Transform,"ps":1}],"sn":"GetWorldPosition","rt":$n[2].Vector3,"p":[$n[4].Bone,$n[2].Transform]},{"a":2,"n":"GetWorldPosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0},{"n":"spineGameObjectTransform","pt":$n[2].Transform,"ps":1},{"n":"positionScale","pt":$n[0].Single,"ps":2}],"sn":"GetWorldPosition$1","rt":$n[2].Vector3,"p":[$n[4].Bone,$n[2].Transform,$n[0].Single]},{"a":2,"n":"GetWorldPosition","is":true,"t":8,"pi":[{"n":"attachment","pt":$n[4].PointAttachment,"ps":0},{"n":"bone","pt":$n[4].Bone,"ps":1},{"n":"spineGameObjectTransform","pt":$n[2].Transform,"ps":2}],"sn":"GetWorldPosition$2","rt":$n[2].Vector3,"p":[$n[4].PointAttachment,$n[4].Bone,$n[2].Transform]},{"a":2,"n":"GetWorldPosition","is":true,"t":8,"pi":[{"n":"attachment","pt":$n[4].PointAttachment,"ps":0},{"n":"slot","pt":$n[4].Slot,"ps":1},{"n":"spineGameObjectTransform","pt":$n[2].Transform,"ps":2}],"sn":"GetWorldPosition$3","rt":$n[2].Vector3,"p":[$n[4].PointAttachment,$n[4].Slot,$n[2].Transform]},{"a":2,"n":"GetWorldToLocalMatrix","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0},{"n":"ia","out":true,"pt":$n[0].Single,"ps":1},{"n":"ib","out":true,"pt":$n[0].Single,"ps":2},{"n":"ic","out":true,"pt":$n[0].Single,"ps":3},{"n":"id","out":true,"pt":$n[0].Single,"ps":4}],"sn":"GetWorldToLocalMatrix","rt":$n[0].Void,"p":[$n[4].Bone,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Single]},{"a":2,"n":"GetWorldVertices","is":true,"t":8,"pi":[{"n":"a","pt":spine.VertexAttachment,"ps":0},{"n":"slot","pt":$n[4].Slot,"ps":1},{"n":"buffer","pt":System.Array.type(UnityEngine.Vector2),"ps":2}],"sn":"GetWorldVertices","rt":System.Array.type(UnityEngine.Vector2),"p":[spine.VertexAttachment,$n[4].Slot,System.Array.type(UnityEngine.Vector2)]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"attachment","pt":$n[4].MeshAttachment,"ps":0},{"n":"color","pt":$n[2].Color,"ps":1}],"sn":"SetColor","rt":$n[0].Void,"p":[$n[4].MeshAttachment,$n[2].Color]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"attachment","pt":$n[4].MeshAttachment,"ps":0},{"n":"color","pt":$n[2].Color32,"ps":1}],"sn":"SetColor$1","rt":$n[0].Void,"p":[$n[4].MeshAttachment,$n[2].Color32]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"attachment","pt":$n[4].RegionAttachment,"ps":0},{"n":"color","pt":$n[2].Color,"ps":1}],"sn":"SetColor$2","rt":$n[0].Void,"p":[$n[4].RegionAttachment,$n[2].Color]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"attachment","pt":$n[4].RegionAttachment,"ps":0},{"n":"color","pt":$n[2].Color32,"ps":1}],"sn":"SetColor$3","rt":$n[0].Void,"p":[$n[4].RegionAttachment,$n[2].Color32]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"skeleton","pt":$n[4].Skeleton,"ps":0},{"n":"color","pt":$n[2].Color,"ps":1}],"sn":"SetColor$4","rt":$n[0].Void,"p":[$n[4].Skeleton,$n[2].Color]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"skeleton","pt":$n[4].Skeleton,"ps":0},{"n":"color","pt":$n[2].Color32,"ps":1}],"sn":"SetColor$5","rt":$n[0].Void,"p":[$n[4].Skeleton,$n[2].Color32]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"slot","pt":$n[4].Slot,"ps":0},{"n":"color","pt":$n[2].Color,"ps":1}],"sn":"SetColor$6","rt":$n[0].Void,"p":[$n[4].Slot,$n[2].Color]},{"a":2,"n":"SetColor","is":true,"t":8,"pi":[{"n":"slot","pt":$n[4].Slot,"ps":0},{"n":"color","pt":$n[2].Color32,"ps":1}],"sn":"SetColor$7","rt":$n[0].Void,"p":[$n[4].Slot,$n[2].Color32]},{"a":2,"n":"SetLocalPosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0},{"n":"position","pt":$n[2].Vector2,"ps":1}],"sn":"SetLocalPosition","rt":$n[0].Void,"p":[$n[4].Bone,$n[2].Vector2]},{"a":2,"n":"SetLocalPosition","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0},{"n":"position","pt":$n[2].Vector3,"ps":1}],"sn":"SetLocalPosition$1","rt":$n[0].Void,"p":[$n[4].Bone,$n[2].Vector3]},{"a":2,"n":"SetLocalScale","is":true,"t":8,"pi":[{"n":"skeleton","pt":$n[4].Skeleton,"ps":0},{"n":"scale","pt":$n[2].Vector2,"ps":1}],"sn":"SetLocalScale","rt":$n[0].Void,"p":[$n[4].Skeleton,$n[2].Vector2]},{"a":2,"n":"SetPositionSkeletonSpace","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0},{"n":"skeletonSpacePosition","pt":$n[2].Vector2,"ps":1}],"sn":"SetPositionSkeletonSpace","rt":$n[2].Vector2,"p":[$n[4].Bone,$n[2].Vector2]},{"a":2,"n":"WorldToLocal","is":true,"t":8,"pi":[{"n":"bone","pt":$n[4].Bone,"ps":0},{"n":"worldPosition","pt":$n[2].Vector2,"ps":1}],"sn":"WorldToLocal","rt":$n[2].Vector2,"p":[$n[4].Bone,$n[2].Vector2]},{"a":1,"n":"ByteToFloat","is":true,"t":4,"rt":$n[0].Single,"sn":"ByteToFloat","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*Spine.Unity.SkeletonExtensions end.*/
 
     /*Spine.Unity.WaitForSpineEvent start.*/
-    $m("Spine.Unity.WaitForSpineEvent", function () { return {"att":1048577,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[3].AnimationState,spine.EventData,$n[0].Boolean],"pi":[{"n":"state","pt":$n[3].AnimationState,"ps":0},{"n":"eventDataReference","pt":spine.EventData,"ps":1},{"n":"unsubscribeAfterFiring","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"ctor"},{"a":2,"n":".ctor","t":1,"p":[$n[3].AnimationState,$n[0].String,$n[0].Boolean],"pi":[{"n":"state","pt":$n[3].AnimationState,"ps":0},{"n":"eventName","pt":$n[0].String,"ps":1},{"n":"unsubscribeAfterFiring","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"$ctor1"},{"a":2,"n":".ctor","t":1,"p":[$n[4].SkeletonAnimation,spine.EventData,$n[0].Boolean],"pi":[{"n":"skeletonAnimation","pt":$n[4].SkeletonAnimation,"ps":0},{"n":"eventDataReference","pt":spine.EventData,"ps":1},{"n":"unsubscribeAfterFiring","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"$ctor2"},{"a":2,"n":".ctor","t":1,"p":[$n[4].SkeletonAnimation,$n[0].String,$n[0].Boolean],"pi":[{"n":"skeletonAnimation","pt":$n[4].SkeletonAnimation,"ps":0},{"n":"eventName","pt":$n[0].String,"ps":1},{"n":"unsubscribeAfterFiring","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"$ctor3"},{"a":1,"n":"Clear","t":8,"pi":[{"n":"state","pt":$n[3].AnimationState,"ps":0}],"sn":"Clear","rt":$n[0].Void,"p":[$n[3].AnimationState]},{"a":1,"n":"HandleAnimationStateEvent","t":8,"pi":[{"n":"trackEntry","pt":$n[3].TrackEntry,"ps":0},{"n":"e","pt":spine.Event,"ps":1}],"sn":"HandleAnimationStateEvent","rt":$n[0].Void,"p":[$n[3].TrackEntry,spine.Event]},{"a":1,"n":"HandleAnimationStateEventByName","t":8,"pi":[{"n":"trackEntry","pt":$n[3].TrackEntry,"ps":0},{"n":"e","pt":spine.Event,"ps":1}],"sn":"HandleAnimationStateEventByName","rt":$n[0].Void,"p":[$n[3].TrackEntry,spine.Event]},{"a":2,"n":"NowWaitFor","t":8,"pi":[{"n":"state","pt":$n[3].AnimationState,"ps":0},{"n":"eventDataReference","pt":spine.EventData,"ps":1},{"n":"unsubscribeAfterFiring","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"NowWaitFor","rt":$n[4].WaitForSpineEvent,"p":[$n[3].AnimationState,spine.EventData,$n[0].Boolean]},{"a":2,"n":"NowWaitFor","t":8,"pi":[{"n":"state","pt":$n[3].AnimationState,"ps":0},{"n":"eventName","pt":$n[0].String,"ps":1},{"n":"unsubscribeAfterFiring","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"NowWaitFor$1","rt":$n[4].WaitForSpineEvent,"p":[$n[3].AnimationState,$n[0].String,$n[0].Boolean]},{"a":1,"n":"Subscribe","t":8,"pi":[{"n":"state","pt":$n[3].AnimationState,"ps":0},{"n":"eventDataReference","pt":spine.EventData,"ps":1},{"n":"unsubscribe","pt":$n[0].Boolean,"ps":2}],"sn":"Subscribe","rt":$n[0].Void,"p":[$n[3].AnimationState,spine.EventData,$n[0].Boolean]},{"a":1,"n":"SubscribeByName","t":8,"pi":[{"n":"state","pt":$n[3].AnimationState,"ps":0},{"n":"eventName","pt":$n[0].String,"ps":1},{"n":"unsubscribe","pt":$n[0].Boolean,"ps":2}],"sn":"SubscribeByName","rt":$n[0].Void,"p":[$n[3].AnimationState,$n[0].String,$n[0].Boolean]},{"a":2,"n":"WillUnsubscribeAfterFiring","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_WillUnsubscribeAfterFiring","t":8,"rt":$n[0].Boolean,"fg":"WillUnsubscribeAfterFiring","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_WillUnsubscribeAfterFiring","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"WillUnsubscribeAfterFiring"},"fn":"WillUnsubscribeAfterFiring"},{"a":1,"n":"m_AnimationState","t":4,"rt":$n[3].AnimationState,"sn":"m_AnimationState"},{"a":1,"n":"m_EventName","t":4,"rt":$n[0].String,"sn":"m_EventName"},{"a":1,"n":"m_TargetEvent","t":4,"rt":spine.EventData,"sn":"m_TargetEvent"},{"a":1,"n":"m_WasFired","t":4,"rt":$n[0].Boolean,"sn":"m_WasFired","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"m_unsubscribeAfterFiring","t":4,"rt":$n[0].Boolean,"sn":"m_unsubscribeAfterFiring","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    $m("Spine.Unity.WaitForSpineEvent", function () { return {"att":1048577,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[4].AnimationState,spine.EventData,$n[0].Boolean],"pi":[{"n":"state","pt":$n[4].AnimationState,"ps":0},{"n":"eventDataReference","pt":spine.EventData,"ps":1},{"n":"unsubscribeAfterFiring","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"ctor"},{"a":2,"n":".ctor","t":1,"p":[$n[4].AnimationState,$n[0].String,$n[0].Boolean],"pi":[{"n":"state","pt":$n[4].AnimationState,"ps":0},{"n":"eventName","pt":$n[0].String,"ps":1},{"n":"unsubscribeAfterFiring","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"$ctor1"},{"a":2,"n":".ctor","t":1,"p":[$n[5].SkeletonAnimation,spine.EventData,$n[0].Boolean],"pi":[{"n":"skeletonAnimation","pt":$n[5].SkeletonAnimation,"ps":0},{"n":"eventDataReference","pt":spine.EventData,"ps":1},{"n":"unsubscribeAfterFiring","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"$ctor2"},{"a":2,"n":".ctor","t":1,"p":[$n[5].SkeletonAnimation,$n[0].String,$n[0].Boolean],"pi":[{"n":"skeletonAnimation","pt":$n[5].SkeletonAnimation,"ps":0},{"n":"eventName","pt":$n[0].String,"ps":1},{"n":"unsubscribeAfterFiring","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"$ctor3"},{"a":1,"n":"Clear","t":8,"pi":[{"n":"state","pt":$n[4].AnimationState,"ps":0}],"sn":"Clear","rt":$n[0].Void,"p":[$n[4].AnimationState]},{"a":1,"n":"HandleAnimationStateEvent","t":8,"pi":[{"n":"trackEntry","pt":$n[4].TrackEntry,"ps":0},{"n":"e","pt":spine.Event,"ps":1}],"sn":"HandleAnimationStateEvent","rt":$n[0].Void,"p":[$n[4].TrackEntry,spine.Event]},{"a":1,"n":"HandleAnimationStateEventByName","t":8,"pi":[{"n":"trackEntry","pt":$n[4].TrackEntry,"ps":0},{"n":"e","pt":spine.Event,"ps":1}],"sn":"HandleAnimationStateEventByName","rt":$n[0].Void,"p":[$n[4].TrackEntry,spine.Event]},{"a":2,"n":"NowWaitFor","t":8,"pi":[{"n":"state","pt":$n[4].AnimationState,"ps":0},{"n":"eventDataReference","pt":spine.EventData,"ps":1},{"n":"unsubscribeAfterFiring","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"NowWaitFor","rt":$n[5].WaitForSpineEvent,"p":[$n[4].AnimationState,spine.EventData,$n[0].Boolean]},{"a":2,"n":"NowWaitFor","t":8,"pi":[{"n":"state","pt":$n[4].AnimationState,"ps":0},{"n":"eventName","pt":$n[0].String,"ps":1},{"n":"unsubscribeAfterFiring","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"NowWaitFor$1","rt":$n[5].WaitForSpineEvent,"p":[$n[4].AnimationState,$n[0].String,$n[0].Boolean]},{"a":1,"n":"Subscribe","t":8,"pi":[{"n":"state","pt":$n[4].AnimationState,"ps":0},{"n":"eventDataReference","pt":spine.EventData,"ps":1},{"n":"unsubscribe","pt":$n[0].Boolean,"ps":2}],"sn":"Subscribe","rt":$n[0].Void,"p":[$n[4].AnimationState,spine.EventData,$n[0].Boolean]},{"a":1,"n":"SubscribeByName","t":8,"pi":[{"n":"state","pt":$n[4].AnimationState,"ps":0},{"n":"eventName","pt":$n[0].String,"ps":1},{"n":"unsubscribe","pt":$n[0].Boolean,"ps":2}],"sn":"SubscribeByName","rt":$n[0].Void,"p":[$n[4].AnimationState,$n[0].String,$n[0].Boolean]},{"a":2,"n":"WillUnsubscribeAfterFiring","t":16,"rt":$n[0].Boolean,"g":{"a":2,"n":"get_WillUnsubscribeAfterFiring","t":8,"rt":$n[0].Boolean,"fg":"WillUnsubscribeAfterFiring","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_WillUnsubscribeAfterFiring","t":8,"p":[$n[0].Boolean],"rt":$n[0].Void,"fs":"WillUnsubscribeAfterFiring"},"fn":"WillUnsubscribeAfterFiring"},{"a":1,"n":"m_AnimationState","t":4,"rt":$n[4].AnimationState,"sn":"m_AnimationState"},{"a":1,"n":"m_EventName","t":4,"rt":$n[0].String,"sn":"m_EventName"},{"a":1,"n":"m_TargetEvent","t":4,"rt":spine.EventData,"sn":"m_TargetEvent"},{"a":1,"n":"m_WasFired","t":4,"rt":$n[0].Boolean,"sn":"m_WasFired","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"m_unsubscribeAfterFiring","t":4,"rt":$n[0].Boolean,"sn":"m_unsubscribeAfterFiring","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Spine.Unity.WaitForSpineEvent end.*/
 
     /*Spine.Unity.AnimationTools.TimelineExtensions start.*/
-    $m("Spine.Unity.AnimationTools.TimelineExtensions", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"Evaluate","is":true,"t":8,"pi":[{"n":"timeline","pt":spine.RotateTimeline,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1},{"n":"skeletonData","dv":null,"o":true,"pt":$n[3].SkeletonData,"ps":2}],"sn":"Evaluate","rt":$n[0].Single,"p":[spine.RotateTimeline,$n[0].Single,$n[3].SkeletonData],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"Evaluate","is":true,"t":8,"pi":[{"n":"timeline","pt":spine.TranslateTimeline,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1},{"n":"skeletonData","dv":null,"o":true,"pt":$n[3].SkeletonData,"ps":2}],"sn":"Evaluate$1","rt":$n[2].Vector2,"p":[spine.TranslateTimeline,$n[0].Single,$n[3].SkeletonData]},{"a":2,"n":"Evaluate","is":true,"t":8,"pi":[{"n":"xTimeline","pt":spine.TranslateXTimeline,"ps":0},{"n":"yTimeline","pt":spine.TranslateYTimeline,"ps":1},{"n":"time","pt":$n[0].Single,"ps":2},{"n":"skeletonData","dv":null,"o":true,"pt":$n[3].SkeletonData,"ps":3}],"sn":"Evaluate$2","rt":$n[2].Vector2,"p":[spine.TranslateXTimeline,spine.TranslateYTimeline,$n[0].Single,$n[3].SkeletonData]},{"a":2,"n":"EvaluateRotateMix","is":true,"t":8,"pi":[{"n":"timeline","pt":spine.TransformConstraintTimeline,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1}],"sn":"EvaluateRotateMix","rt":$n[0].Single,"p":[spine.TransformConstraintTimeline,$n[0].Single],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"EvaluateTranslateXYMix","is":true,"t":8,"pi":[{"n":"timeline","pt":spine.TransformConstraintTimeline,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1}],"sn":"EvaluateTranslateXYMix","rt":$n[2].Vector2,"p":[spine.TransformConstraintTimeline,$n[0].Single]},{"a":2,"n":"FindTimelineForBone","is":true,"t":8,"pi":[{"n":"a","pt":$n[3].Animation,"ps":0},{"n":"boneIndex","pt":$n[0].Int32,"ps":1}],"tpc":1,"tprm":["T"],"sn":"FindTimelineForBone","rt":System.Object,"p":[$n[3].Animation,$n[0].Int32]},{"a":2,"n":"FindTransformConstraintTimeline","is":true,"t":8,"pi":[{"n":"a","pt":$n[3].Animation,"ps":0},{"n":"transformConstraintIndex","pt":$n[0].Int32,"ps":1}],"sn":"FindTransformConstraintTimeline","rt":spine.TransformConstraintTimeline,"p":[$n[3].Animation,$n[0].Int32]},{"a":2,"n":"FindTranslateTimelineForBone","is":true,"t":8,"pi":[{"n":"a","pt":$n[3].Animation,"ps":0},{"n":"boneIndex","pt":$n[0].Int32,"ps":1}],"sn":"FindTranslateTimelineForBone","rt":spine.TranslateTimeline,"p":[$n[3].Animation,$n[0].Int32]}]}; }, $n);
+    $m("Spine.Unity.AnimationTools.TimelineExtensions", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"Evaluate","is":true,"t":8,"pi":[{"n":"timeline","pt":spine.RotateTimeline,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1},{"n":"skeletonData","dv":null,"o":true,"pt":$n[4].SkeletonData,"ps":2}],"sn":"Evaluate","rt":$n[0].Single,"p":[spine.RotateTimeline,$n[0].Single,$n[4].SkeletonData],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"Evaluate","is":true,"t":8,"pi":[{"n":"timeline","pt":spine.TranslateTimeline,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1},{"n":"skeletonData","dv":null,"o":true,"pt":$n[4].SkeletonData,"ps":2}],"sn":"Evaluate$1","rt":$n[2].Vector2,"p":[spine.TranslateTimeline,$n[0].Single,$n[4].SkeletonData]},{"a":2,"n":"Evaluate","is":true,"t":8,"pi":[{"n":"xTimeline","pt":spine.TranslateXTimeline,"ps":0},{"n":"yTimeline","pt":spine.TranslateYTimeline,"ps":1},{"n":"time","pt":$n[0].Single,"ps":2},{"n":"skeletonData","dv":null,"o":true,"pt":$n[4].SkeletonData,"ps":3}],"sn":"Evaluate$2","rt":$n[2].Vector2,"p":[spine.TranslateXTimeline,spine.TranslateYTimeline,$n[0].Single,$n[4].SkeletonData]},{"a":2,"n":"EvaluateRotateMix","is":true,"t":8,"pi":[{"n":"timeline","pt":spine.TransformConstraintTimeline,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1}],"sn":"EvaluateRotateMix","rt":$n[0].Single,"p":[spine.TransformConstraintTimeline,$n[0].Single],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"EvaluateTranslateXYMix","is":true,"t":8,"pi":[{"n":"timeline","pt":spine.TransformConstraintTimeline,"ps":0},{"n":"time","pt":$n[0].Single,"ps":1}],"sn":"EvaluateTranslateXYMix","rt":$n[2].Vector2,"p":[spine.TransformConstraintTimeline,$n[0].Single]},{"a":2,"n":"FindTimelineForBone","is":true,"t":8,"pi":[{"n":"a","pt":$n[4].Animation,"ps":0},{"n":"boneIndex","pt":$n[0].Int32,"ps":1}],"tpc":1,"tprm":["T"],"sn":"FindTimelineForBone","rt":System.Object,"p":[$n[4].Animation,$n[0].Int32]},{"a":2,"n":"FindTransformConstraintTimeline","is":true,"t":8,"pi":[{"n":"a","pt":$n[4].Animation,"ps":0},{"n":"transformConstraintIndex","pt":$n[0].Int32,"ps":1}],"sn":"FindTransformConstraintTimeline","rt":spine.TransformConstraintTimeline,"p":[$n[4].Animation,$n[0].Int32]},{"a":2,"n":"FindTranslateTimelineForBone","is":true,"t":8,"pi":[{"n":"a","pt":$n[4].Animation,"ps":0},{"n":"boneIndex","pt":$n[0].Int32,"ps":1}],"sn":"FindTranslateTimelineForBone","rt":spine.TranslateTimeline,"p":[$n[4].Animation,$n[0].Int32]}]}; }, $n);
     /*Spine.Unity.AnimationTools.TimelineExtensions end.*/
 
     /*Spine.Unity.AttachmentTools.AtlasUtilities start.*/
-    $m("Spine.Unity.AttachmentTools.AtlasUtilities", function () { return {"nested":[$n[9].AtlasUtilities.IntAndAtlasRegionKey],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"ClearCache","is":true,"t":8,"sn":"ClearCache","rt":$n[0].Void},{"a":1,"n":"CopyTexture","is":true,"t":8,"pi":[{"n":"source","pt":$n[2].Texture2D,"ps":0},{"n":"sourceRect","pt":$n[2].Rect,"ps":1},{"n":"destination","pt":$n[2].Texture2D,"ps":2}],"sn":"CopyTexture","rt":$n[0].Void,"p":[$n[2].Texture2D,$n[2].Rect,$n[2].Texture2D]},{"a":1,"n":"CopyTextureApplyPMA","is":true,"t":8,"pi":[{"n":"source","pt":$n[2].Texture2D,"ps":0},{"n":"sourceRect","pt":$n[2].Rect,"ps":1},{"n":"destination","pt":$n[2].Texture2D,"ps":2}],"sn":"CopyTextureApplyPMA","rt":$n[0].Void,"p":[$n[2].Texture2D,$n[2].Rect,$n[2].Texture2D]},{"a":1,"n":"CopyTextureAttributesFrom","is":true,"t":8,"pi":[{"n":"destination","pt":$n[2].Texture2D,"ps":0},{"n":"source","pt":$n[2].Texture2D,"ps":1}],"sn":"CopyTextureAttributesFrom","rt":$n[0].Void,"p":[$n[2].Texture2D,$n[2].Texture2D]},{"a":1,"n":"GetClone","is":true,"t":8,"pi":[{"n":"t","pt":$n[2].Texture2D,"ps":0},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":1},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"linear","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"applyPMA","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4}],"sn":"GetClone","rt":$n[2].Texture2D,"p":[$n[2].Texture2D,$n[2].TextureFormat,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":1,"n":"GetMainTexture","is":true,"t":8,"pi":[{"n":"region","pt":$n[3].AtlasRegion,"ps":0}],"sn":"GetMainTexture","rt":$n[2].Texture2D,"p":[$n[3].AtlasRegion]},{"a":2,"n":"GetRepackedAttachments","is":true,"t":8,"pi":[{"n":"sourceAttachments","pt":$n[5].List$1(spine.Attachment),"ps":0},{"n":"outputAttachments","pt":$n[5].List$1(spine.Attachment),"ps":1},{"n":"materialPropertySource","pt":$n[2].Material,"ps":2},{"n":"outputMaterial","out":true,"pt":$n[2].Material,"ps":3},{"n":"outputTexture","out":true,"pt":$n[2].Texture2D,"ps":4},{"n":"maxAtlasSize","dv":1024,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"padding","dv":2,"o":true,"pt":$n[0].Int32,"ps":6},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":7},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":8},{"n":"newAssetName","dv":"Repacked Attachments","o":true,"pt":$n[0].String,"ps":9},{"n":"clearCache","dv":false,"o":true,"pt":$n[0].Boolean,"ps":10},{"n":"useOriginalNonrenderables","dv":true,"o":true,"pt":$n[0].Boolean,"ps":11},{"n":"additionalTexturePropertyIDsToCopy","dv":null,"o":true,"pt":$n[0].Array.type(System.Int32),"ps":12},{"n":"additionalOutputTextures","dv":null,"o":true,"pt":System.Array.type(UnityEngine.Texture2D),"ps":13},{"n":"additionalTextureFormats","dv":null,"o":true,"pt":System.Array.type(UnityEngine.TextureFormat),"ps":14},{"n":"additionalTextureIsLinear","dv":null,"o":true,"pt":$n[0].Array.type(System.Boolean),"ps":15}],"sn":"GetRepackedAttachments","rt":$n[0].Void,"p":[$n[5].List$1(spine.Attachment),$n[5].List$1(spine.Attachment),$n[2].Material,$n[2].Material,$n[2].Texture2D,$n[0].Int32,$n[0].Int32,$n[2].TextureFormat,$n[0].Boolean,$n[0].String,$n[0].Boolean,$n[0].Boolean,$n[0].Array.type(System.Int32),System.Array.type(UnityEngine.Texture2D),System.Array.type(UnityEngine.TextureFormat),$n[0].Array.type(System.Boolean)]},{"a":2,"n":"GetRepackedAttachments","is":true,"t":8,"pi":[{"n":"sourceAttachments","pt":$n[5].List$1(spine.Attachment),"ps":0},{"n":"outputAttachments","pt":$n[5].List$1(spine.Attachment),"ps":1},{"n":"shader","pt":$n[2].Shader,"ps":2},{"n":"outputMaterial","out":true,"pt":$n[2].Material,"ps":3},{"n":"outputTexture","out":true,"pt":$n[2].Texture2D,"ps":4},{"n":"maxAtlasSize","dv":1024,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"padding","dv":2,"o":true,"pt":$n[0].Int32,"ps":6},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":7},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":8},{"n":"newAssetName","dv":"Repacked Attachments","o":true,"pt":$n[0].String,"ps":9},{"n":"materialPropertySource","dv":null,"o":true,"pt":$n[2].Material,"ps":10},{"n":"clearCache","dv":false,"o":true,"pt":$n[0].Boolean,"ps":11},{"n":"useOriginalNonrenderables","dv":true,"o":true,"pt":$n[0].Boolean,"ps":12},{"n":"additionalTexturePropertyIDsToCopy","dv":null,"o":true,"pt":$n[0].Array.type(System.Int32),"ps":13},{"n":"additionalOutputTextures","dv":null,"o":true,"pt":System.Array.type(UnityEngine.Texture2D),"ps":14},{"n":"additionalTextureFormats","dv":null,"o":true,"pt":System.Array.type(UnityEngine.TextureFormat),"ps":15},{"n":"additionalTextureIsLinear","dv":null,"o":true,"pt":$n[0].Array.type(System.Boolean),"ps":16}],"sn":"GetRepackedAttachments$1","rt":$n[0].Void,"p":[$n[5].List$1(spine.Attachment),$n[5].List$1(spine.Attachment),$n[2].Shader,$n[2].Material,$n[2].Texture2D,$n[0].Int32,$n[0].Int32,$n[2].TextureFormat,$n[0].Boolean,$n[0].String,$n[2].Material,$n[0].Boolean,$n[0].Boolean,$n[0].Array.type(System.Int32),System.Array.type(UnityEngine.Texture2D),System.Array.type(UnityEngine.TextureFormat),$n[0].Array.type(System.Boolean)]},{"a":2,"n":"GetRepackedSkin","is":true,"t":8,"pi":[{"n":"o","pt":$n[3].Skin,"ps":0},{"n":"newName","pt":$n[0].String,"ps":1},{"n":"materialPropertySource","pt":$n[2].Material,"ps":2},{"n":"outputMaterial","out":true,"pt":$n[2].Material,"ps":3},{"n":"outputTexture","out":true,"pt":$n[2].Texture2D,"ps":4},{"n":"maxAtlasSize","dv":1024,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"padding","dv":2,"o":true,"pt":$n[0].Int32,"ps":6},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":7},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":8},{"n":"useOriginalNonrenderables","dv":true,"o":true,"pt":$n[0].Boolean,"ps":9},{"n":"clearCache","dv":false,"o":true,"pt":$n[0].Boolean,"ps":10},{"n":"additionalTexturePropertyIDsToCopy","dv":null,"o":true,"pt":$n[0].Array.type(System.Int32),"ps":11},{"n":"additionalOutputTextures","dv":null,"o":true,"pt":System.Array.type(UnityEngine.Texture2D),"ps":12},{"n":"additionalTextureFormats","dv":null,"o":true,"pt":System.Array.type(UnityEngine.TextureFormat),"ps":13},{"n":"additionalTextureIsLinear","dv":null,"o":true,"pt":$n[0].Array.type(System.Boolean),"ps":14}],"sn":"GetRepackedSkin","rt":$n[3].Skin,"p":[$n[3].Skin,$n[0].String,$n[2].Material,$n[2].Material,$n[2].Texture2D,$n[0].Int32,$n[0].Int32,$n[2].TextureFormat,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean,$n[0].Array.type(System.Int32),System.Array.type(UnityEngine.Texture2D),System.Array.type(UnityEngine.TextureFormat),$n[0].Array.type(System.Boolean)]},{"a":2,"n":"GetRepackedSkin","is":true,"t":8,"pi":[{"n":"o","pt":$n[3].Skin,"ps":0},{"n":"newName","pt":$n[0].String,"ps":1},{"n":"shader","pt":$n[2].Shader,"ps":2},{"n":"outputMaterial","out":true,"pt":$n[2].Material,"ps":3},{"n":"outputTexture","out":true,"pt":$n[2].Texture2D,"ps":4},{"n":"maxAtlasSize","dv":1024,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"padding","dv":2,"o":true,"pt":$n[0].Int32,"ps":6},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":7},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":8},{"n":"materialPropertySource","dv":null,"o":true,"pt":$n[2].Material,"ps":9},{"n":"clearCache","dv":false,"o":true,"pt":$n[0].Boolean,"ps":10},{"n":"useOriginalNonrenderables","dv":true,"o":true,"pt":$n[0].Boolean,"ps":11},{"n":"additionalTexturePropertyIDsToCopy","dv":null,"o":true,"pt":$n[0].Array.type(System.Int32),"ps":12},{"n":"additionalOutputTextures","dv":null,"o":true,"pt":System.Array.type(UnityEngine.Texture2D),"ps":13},{"n":"additionalTextureFormats","dv":null,"o":true,"pt":System.Array.type(UnityEngine.TextureFormat),"ps":14},{"n":"additionalTextureIsLinear","dv":null,"o":true,"pt":$n[0].Array.type(System.Boolean),"ps":15}],"sn":"GetRepackedSkin$1","rt":$n[3].Skin,"p":[$n[3].Skin,$n[0].String,$n[2].Shader,$n[2].Material,$n[2].Texture2D,$n[0].Int32,$n[0].Int32,$n[2].TextureFormat,$n[0].Boolean,$n[2].Material,$n[0].Boolean,$n[0].Boolean,$n[0].Array.type(System.Int32),System.Array.type(UnityEngine.Texture2D),System.Array.type(UnityEngine.TextureFormat),$n[0].Array.type(System.Boolean)]},{"a":1,"n":"GetSpineAtlasRect","is":true,"t":8,"pi":[{"n":"region","pt":$n[3].AtlasRegion,"ps":0},{"n":"includeRotate","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"GetSpineAtlasRect","rt":$n[2].Rect,"p":[$n[3].AtlasRegion,$n[0].Boolean]},{"a":1,"n":"GetTexture","is":true,"t":8,"pi":[{"n":"region","pt":$n[3].AtlasRegion,"ps":0},{"n":"texturePropertyId","pt":$n[0].Int32,"ps":1}],"sn":"GetTexture","rt":$n[2].Texture2D,"p":[$n[3].AtlasRegion,$n[0].Int32]},{"a":1,"n":"GetTexture","is":true,"t":8,"pi":[{"n":"region","pt":$n[3].AtlasRegion,"ps":0},{"n":"texturePropertyName","pt":$n[0].String,"ps":1}],"sn":"GetTexture$1","rt":$n[2].Texture2D,"p":[$n[3].AtlasRegion,$n[0].String]},{"a":1,"n":"GetUnityRect","is":true,"t":8,"pi":[{"n":"region","pt":$n[3].AtlasRegion,"ps":0}],"sn":"GetUnityRect","rt":$n[2].Rect,"p":[$n[3].AtlasRegion]},{"a":1,"n":"GetUnityRect","is":true,"t":8,"pi":[{"n":"region","pt":$n[3].AtlasRegion,"ps":0},{"n":"textureHeight","pt":$n[0].Int32,"ps":1}],"sn":"GetUnityRect$1","rt":$n[2].Rect,"p":[$n[3].AtlasRegion,$n[0].Int32]},{"at":[new UnityEngine.RuntimeInitializeOnLoadMethodAttribute.$ctor1(4)],"a":1,"n":"Init","is":true,"t":8,"sn":"Init","rt":$n[0].Void},{"a":1,"n":"InverseLerp","is":true,"t":8,"pi":[{"n":"a","pt":$n[0].Single,"ps":0},{"n":"b","pt":$n[0].Single,"ps":1},{"n":"value","pt":$n[0].Single,"ps":2}],"sn":"InverseLerp","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Single,$n[0].Single],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"IsRenderable","is":true,"t":8,"pi":[{"n":"a","pt":spine.Attachment,"ps":0}],"sn":"IsRenderable","rt":$n[0].Boolean,"p":[spine.Attachment],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"SpineUnityFlipRect","is":true,"t":8,"pi":[{"n":"rect","pt":$n[2].Rect,"ps":0},{"n":"textureHeight","pt":$n[0].Int32,"ps":1}],"sn":"SpineUnityFlipRect","rt":$n[2].Rect,"p":[$n[2].Rect,$n[0].Int32]},{"a":1,"n":"TextureRectToUVRect","is":true,"t":8,"pi":[{"n":"textureRect","pt":$n[2].Rect,"ps":0},{"n":"texWidth","pt":$n[0].Int32,"ps":1},{"n":"texHeight","pt":$n[0].Int32,"ps":2}],"sn":"TextureRectToUVRect","rt":$n[2].Rect,"p":[$n[2].Rect,$n[0].Int32,$n[0].Int32]},{"a":2,"n":"ToAtlasRegion","is":true,"t":8,"pi":[{"n":"s","pt":$n[2].Sprite,"ps":0},{"n":"page","pt":$n[3].AtlasPage,"ps":1}],"sn":"ToAtlasRegion","rt":$n[3].AtlasRegion,"p":[$n[2].Sprite,$n[3].AtlasPage]},{"a":4,"n":"ToAtlasRegion","is":true,"t":8,"pi":[{"n":"s","pt":$n[2].Sprite,"ps":0},{"n":"isolatedTexture","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"ToAtlasRegion$4","rt":$n[3].AtlasRegion,"p":[$n[2].Sprite,$n[0].Boolean]},{"a":2,"n":"ToAtlasRegion","is":true,"t":8,"pi":[{"n":"s","pt":$n[2].Sprite,"ps":0},{"n":"material","pt":$n[2].Material,"ps":1}],"sn":"ToAtlasRegion$1","rt":$n[3].AtlasRegion,"p":[$n[2].Sprite,$n[2].Material]},{"a":2,"n":"ToAtlasRegion","is":true,"t":8,"pi":[{"n":"t","pt":$n[2].Texture2D,"ps":0},{"n":"materialPropertySource","pt":$n[2].Material,"ps":1},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":2}],"sn":"ToAtlasRegion$2","rt":$n[3].AtlasRegion,"p":[$n[2].Texture2D,$n[2].Material,$n[0].Single]},{"a":2,"n":"ToAtlasRegion","is":true,"t":8,"pi":[{"n":"t","pt":$n[2].Texture2D,"ps":0},{"n":"shader","pt":$n[2].Shader,"ps":1},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":2},{"n":"materialPropertySource","dv":null,"o":true,"pt":$n[2].Material,"ps":3}],"sn":"ToAtlasRegion$3","rt":$n[3].AtlasRegion,"p":[$n[2].Texture2D,$n[2].Shader,$n[0].Single,$n[2].Material]},{"a":2,"n":"ToAtlasRegionPMAClone","is":true,"t":8,"pi":[{"n":"s","pt":$n[2].Sprite,"ps":0},{"n":"materialPropertySource","pt":$n[2].Material,"ps":1},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":2},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"ToAtlasRegionPMAClone","rt":$n[3].AtlasRegion,"p":[$n[2].Sprite,$n[2].Material,$n[2].TextureFormat,$n[0].Boolean]},{"a":2,"n":"ToAtlasRegionPMAClone","is":true,"t":8,"pi":[{"n":"t","pt":$n[2].Texture2D,"ps":0},{"n":"materialPropertySource","pt":$n[2].Material,"ps":1},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":2},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"ToAtlasRegionPMAClone$2","rt":$n[3].AtlasRegion,"p":[$n[2].Texture2D,$n[2].Material,$n[2].TextureFormat,$n[0].Boolean]},{"a":2,"n":"ToAtlasRegionPMAClone","is":true,"t":8,"pi":[{"n":"s","pt":$n[2].Sprite,"ps":0},{"n":"shader","pt":$n[2].Shader,"ps":1},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":2},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"materialPropertySource","dv":null,"o":true,"pt":$n[2].Material,"ps":4}],"sn":"ToAtlasRegionPMAClone$1","rt":$n[3].AtlasRegion,"p":[$n[2].Sprite,$n[2].Shader,$n[2].TextureFormat,$n[0].Boolean,$n[2].Material]},{"a":2,"n":"ToAtlasRegionPMAClone","is":true,"t":8,"pi":[{"n":"t","pt":$n[2].Texture2D,"ps":0},{"n":"shader","pt":$n[2].Shader,"ps":1},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":2},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"materialPropertySource","dv":null,"o":true,"pt":$n[2].Material,"ps":4}],"sn":"ToAtlasRegionPMAClone$3","rt":$n[3].AtlasRegion,"p":[$n[2].Texture2D,$n[2].Shader,$n[2].TextureFormat,$n[0].Boolean,$n[2].Material]},{"a":2,"n":"ToSpineAtlasPage","is":true,"t":8,"pi":[{"n":"m","pt":$n[2].Material,"ps":0}],"sn":"ToSpineAtlasPage","rt":$n[3].AtlasPage,"p":[$n[2].Material]},{"a":2,"n":"ToSprite","is":true,"t":8,"pi":[{"n":"ar","pt":$n[3].AtlasRegion,"ps":0},{"n":"pixelsPerUnit","dv":100.0,"o":true,"pt":$n[0].Single,"ps":1}],"sn":"ToSprite","rt":$n[2].Sprite,"p":[$n[3].AtlasRegion,$n[0].Single]},{"a":1,"n":"ToTexture","is":true,"t":8,"pi":[{"n":"s","pt":$n[2].Sprite,"ps":0},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":1},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"linear","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"applyPMA","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4}],"sn":"ToTexture$1","rt":$n[2].Texture2D,"p":[$n[2].Sprite,$n[2].TextureFormat,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"ToTexture","is":true,"t":8,"pi":[{"n":"ar","pt":$n[3].AtlasRegion,"ps":0},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":1},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"texturePropertyId","dv":0,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"linear","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"applyPMA","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"ToTexture","rt":$n[2].Texture2D,"p":[$n[3].AtlasRegion,$n[2].TextureFormat,$n[0].Boolean,$n[0].Int32,$n[0].Boolean,$n[0].Boolean]},{"a":1,"n":"UVRectToAtlasRegion","is":true,"t":8,"pi":[{"n":"uvRect","pt":$n[2].Rect,"ps":0},{"n":"referenceRegion","pt":$n[3].AtlasRegion,"ps":1},{"n":"page","pt":$n[3].AtlasPage,"ps":2}],"sn":"UVRectToAtlasRegion","rt":$n[3].AtlasRegion,"p":[$n[2].Rect,$n[3].AtlasRegion,$n[3].AtlasPage]},{"a":1,"n":"UVRectToTextureRect","is":true,"t":8,"pi":[{"n":"uvRect","pt":$n[2].Rect,"ps":0},{"n":"texWidth","pt":$n[0].Int32,"ps":1},{"n":"texHeight","pt":$n[0].Int32,"ps":2}],"sn":"UVRectToTextureRect","rt":$n[2].Rect,"p":[$n[2].Rect,$n[0].Int32,$n[0].Int32]},{"a":1,"n":"CachedRegionTextures","is":true,"t":4,"rt":$n[5].Dictionary$2(Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey,UnityEngine.Texture2D),"sn":"CachedRegionTextures"},{"a":1,"n":"CachedRegionTexturesList","is":true,"t":4,"rt":$n[5].List$1(UnityEngine.Texture2D),"sn":"CachedRegionTexturesList"},{"a":4,"n":"DefaultMipmapBias","is":true,"t":4,"rt":$n[0].Single,"sn":"DefaultMipmapBias","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":4,"n":"DefaultScale","is":true,"t":4,"rt":$n[0].Single,"sn":"DefaultScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"NonrenderingRegion","is":true,"t":4,"rt":$n[0].Int32,"sn":"NonrenderingRegion","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":4,"n":"SpineTextureFormat","is":true,"t":4,"rt":$n[2].TextureFormat,"sn":"SpineTextureFormat","box":function ($v) { return Bridge.box($v, UnityEngine.TextureFormat, System.Enum.toStringFn(UnityEngine.TextureFormat));}},{"a":4,"n":"UseMipMaps","is":true,"t":4,"rt":$n[0].Boolean,"sn":"UseMipMaps","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"existingRegions","is":true,"t":4,"rt":$n[5].Dictionary$2(Spine.AtlasRegion,System.Int32),"sn":"existingRegions","ro":true},{"a":1,"n":"inoutAttachments","is":true,"t":4,"rt":$n[5].List$1(spine.Attachment),"sn":"inoutAttachments"},{"a":1,"n":"originalRegions","is":true,"t":4,"rt":$n[5].List$1(Spine.AtlasRegion),"sn":"originalRegions","ro":true},{"a":1,"n":"regionIndices","is":true,"t":4,"rt":$n[5].List$1(System.Int32),"sn":"regionIndices","ro":true},{"a":1,"n":"repackedRegions","is":true,"t":4,"rt":$n[5].List$1(Spine.AtlasRegion),"sn":"repackedRegions","ro":true},{"a":1,"n":"texturesToPackAtParam","is":true,"t":4,"rt":System.Array.type(System.Collections.Generic.List$1(UnityEngine.Texture2D)),"sn":"texturesToPackAtParam"}]}; }, $n);
+    $m("Spine.Unity.AttachmentTools.AtlasUtilities", function () { return {"nested":[$n[9].AtlasUtilities.IntAndAtlasRegionKey],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"ClearCache","is":true,"t":8,"sn":"ClearCache","rt":$n[0].Void},{"a":1,"n":"CopyTexture","is":true,"t":8,"pi":[{"n":"source","pt":$n[2].Texture2D,"ps":0},{"n":"sourceRect","pt":$n[2].Rect,"ps":1},{"n":"destination","pt":$n[2].Texture2D,"ps":2}],"sn":"CopyTexture","rt":$n[0].Void,"p":[$n[2].Texture2D,$n[2].Rect,$n[2].Texture2D]},{"a":1,"n":"CopyTextureApplyPMA","is":true,"t":8,"pi":[{"n":"source","pt":$n[2].Texture2D,"ps":0},{"n":"sourceRect","pt":$n[2].Rect,"ps":1},{"n":"destination","pt":$n[2].Texture2D,"ps":2}],"sn":"CopyTextureApplyPMA","rt":$n[0].Void,"p":[$n[2].Texture2D,$n[2].Rect,$n[2].Texture2D]},{"a":1,"n":"CopyTextureAttributesFrom","is":true,"t":8,"pi":[{"n":"destination","pt":$n[2].Texture2D,"ps":0},{"n":"source","pt":$n[2].Texture2D,"ps":1}],"sn":"CopyTextureAttributesFrom","rt":$n[0].Void,"p":[$n[2].Texture2D,$n[2].Texture2D]},{"a":1,"n":"GetClone","is":true,"t":8,"pi":[{"n":"t","pt":$n[2].Texture2D,"ps":0},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":1},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"linear","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"applyPMA","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4}],"sn":"GetClone","rt":$n[2].Texture2D,"p":[$n[2].Texture2D,$n[2].TextureFormat,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":1,"n":"GetMainTexture","is":true,"t":8,"pi":[{"n":"region","pt":$n[4].AtlasRegion,"ps":0}],"sn":"GetMainTexture","rt":$n[2].Texture2D,"p":[$n[4].AtlasRegion]},{"a":2,"n":"GetRepackedAttachments","is":true,"t":8,"pi":[{"n":"sourceAttachments","pt":$n[6].List$1(spine.Attachment),"ps":0},{"n":"outputAttachments","pt":$n[6].List$1(spine.Attachment),"ps":1},{"n":"materialPropertySource","pt":$n[2].Material,"ps":2},{"n":"outputMaterial","out":true,"pt":$n[2].Material,"ps":3},{"n":"outputTexture","out":true,"pt":$n[2].Texture2D,"ps":4},{"n":"maxAtlasSize","dv":1024,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"padding","dv":2,"o":true,"pt":$n[0].Int32,"ps":6},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":7},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":8},{"n":"newAssetName","dv":"Repacked Attachments","o":true,"pt":$n[0].String,"ps":9},{"n":"clearCache","dv":false,"o":true,"pt":$n[0].Boolean,"ps":10},{"n":"useOriginalNonrenderables","dv":true,"o":true,"pt":$n[0].Boolean,"ps":11},{"n":"additionalTexturePropertyIDsToCopy","dv":null,"o":true,"pt":$n[0].Array.type(System.Int32),"ps":12},{"n":"additionalOutputTextures","dv":null,"o":true,"pt":System.Array.type(UnityEngine.Texture2D),"ps":13},{"n":"additionalTextureFormats","dv":null,"o":true,"pt":System.Array.type(UnityEngine.TextureFormat),"ps":14},{"n":"additionalTextureIsLinear","dv":null,"o":true,"pt":$n[0].Array.type(System.Boolean),"ps":15}],"sn":"GetRepackedAttachments","rt":$n[0].Void,"p":[$n[6].List$1(spine.Attachment),$n[6].List$1(spine.Attachment),$n[2].Material,$n[2].Material,$n[2].Texture2D,$n[0].Int32,$n[0].Int32,$n[2].TextureFormat,$n[0].Boolean,$n[0].String,$n[0].Boolean,$n[0].Boolean,$n[0].Array.type(System.Int32),System.Array.type(UnityEngine.Texture2D),System.Array.type(UnityEngine.TextureFormat),$n[0].Array.type(System.Boolean)]},{"a":2,"n":"GetRepackedAttachments","is":true,"t":8,"pi":[{"n":"sourceAttachments","pt":$n[6].List$1(spine.Attachment),"ps":0},{"n":"outputAttachments","pt":$n[6].List$1(spine.Attachment),"ps":1},{"n":"shader","pt":$n[2].Shader,"ps":2},{"n":"outputMaterial","out":true,"pt":$n[2].Material,"ps":3},{"n":"outputTexture","out":true,"pt":$n[2].Texture2D,"ps":4},{"n":"maxAtlasSize","dv":1024,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"padding","dv":2,"o":true,"pt":$n[0].Int32,"ps":6},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":7},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":8},{"n":"newAssetName","dv":"Repacked Attachments","o":true,"pt":$n[0].String,"ps":9},{"n":"materialPropertySource","dv":null,"o":true,"pt":$n[2].Material,"ps":10},{"n":"clearCache","dv":false,"o":true,"pt":$n[0].Boolean,"ps":11},{"n":"useOriginalNonrenderables","dv":true,"o":true,"pt":$n[0].Boolean,"ps":12},{"n":"additionalTexturePropertyIDsToCopy","dv":null,"o":true,"pt":$n[0].Array.type(System.Int32),"ps":13},{"n":"additionalOutputTextures","dv":null,"o":true,"pt":System.Array.type(UnityEngine.Texture2D),"ps":14},{"n":"additionalTextureFormats","dv":null,"o":true,"pt":System.Array.type(UnityEngine.TextureFormat),"ps":15},{"n":"additionalTextureIsLinear","dv":null,"o":true,"pt":$n[0].Array.type(System.Boolean),"ps":16}],"sn":"GetRepackedAttachments$1","rt":$n[0].Void,"p":[$n[6].List$1(spine.Attachment),$n[6].List$1(spine.Attachment),$n[2].Shader,$n[2].Material,$n[2].Texture2D,$n[0].Int32,$n[0].Int32,$n[2].TextureFormat,$n[0].Boolean,$n[0].String,$n[2].Material,$n[0].Boolean,$n[0].Boolean,$n[0].Array.type(System.Int32),System.Array.type(UnityEngine.Texture2D),System.Array.type(UnityEngine.TextureFormat),$n[0].Array.type(System.Boolean)]},{"a":2,"n":"GetRepackedSkin","is":true,"t":8,"pi":[{"n":"o","pt":$n[4].Skin,"ps":0},{"n":"newName","pt":$n[0].String,"ps":1},{"n":"materialPropertySource","pt":$n[2].Material,"ps":2},{"n":"outputMaterial","out":true,"pt":$n[2].Material,"ps":3},{"n":"outputTexture","out":true,"pt":$n[2].Texture2D,"ps":4},{"n":"maxAtlasSize","dv":1024,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"padding","dv":2,"o":true,"pt":$n[0].Int32,"ps":6},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":7},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":8},{"n":"useOriginalNonrenderables","dv":true,"o":true,"pt":$n[0].Boolean,"ps":9},{"n":"clearCache","dv":false,"o":true,"pt":$n[0].Boolean,"ps":10},{"n":"additionalTexturePropertyIDsToCopy","dv":null,"o":true,"pt":$n[0].Array.type(System.Int32),"ps":11},{"n":"additionalOutputTextures","dv":null,"o":true,"pt":System.Array.type(UnityEngine.Texture2D),"ps":12},{"n":"additionalTextureFormats","dv":null,"o":true,"pt":System.Array.type(UnityEngine.TextureFormat),"ps":13},{"n":"additionalTextureIsLinear","dv":null,"o":true,"pt":$n[0].Array.type(System.Boolean),"ps":14}],"sn":"GetRepackedSkin","rt":$n[4].Skin,"p":[$n[4].Skin,$n[0].String,$n[2].Material,$n[2].Material,$n[2].Texture2D,$n[0].Int32,$n[0].Int32,$n[2].TextureFormat,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean,$n[0].Array.type(System.Int32),System.Array.type(UnityEngine.Texture2D),System.Array.type(UnityEngine.TextureFormat),$n[0].Array.type(System.Boolean)]},{"a":2,"n":"GetRepackedSkin","is":true,"t":8,"pi":[{"n":"o","pt":$n[4].Skin,"ps":0},{"n":"newName","pt":$n[0].String,"ps":1},{"n":"shader","pt":$n[2].Shader,"ps":2},{"n":"outputMaterial","out":true,"pt":$n[2].Material,"ps":3},{"n":"outputTexture","out":true,"pt":$n[2].Texture2D,"ps":4},{"n":"maxAtlasSize","dv":1024,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"padding","dv":2,"o":true,"pt":$n[0].Int32,"ps":6},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":7},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":8},{"n":"materialPropertySource","dv":null,"o":true,"pt":$n[2].Material,"ps":9},{"n":"clearCache","dv":false,"o":true,"pt":$n[0].Boolean,"ps":10},{"n":"useOriginalNonrenderables","dv":true,"o":true,"pt":$n[0].Boolean,"ps":11},{"n":"additionalTexturePropertyIDsToCopy","dv":null,"o":true,"pt":$n[0].Array.type(System.Int32),"ps":12},{"n":"additionalOutputTextures","dv":null,"o":true,"pt":System.Array.type(UnityEngine.Texture2D),"ps":13},{"n":"additionalTextureFormats","dv":null,"o":true,"pt":System.Array.type(UnityEngine.TextureFormat),"ps":14},{"n":"additionalTextureIsLinear","dv":null,"o":true,"pt":$n[0].Array.type(System.Boolean),"ps":15}],"sn":"GetRepackedSkin$1","rt":$n[4].Skin,"p":[$n[4].Skin,$n[0].String,$n[2].Shader,$n[2].Material,$n[2].Texture2D,$n[0].Int32,$n[0].Int32,$n[2].TextureFormat,$n[0].Boolean,$n[2].Material,$n[0].Boolean,$n[0].Boolean,$n[0].Array.type(System.Int32),System.Array.type(UnityEngine.Texture2D),System.Array.type(UnityEngine.TextureFormat),$n[0].Array.type(System.Boolean)]},{"a":1,"n":"GetSpineAtlasRect","is":true,"t":8,"pi":[{"n":"region","pt":$n[4].AtlasRegion,"ps":0},{"n":"includeRotate","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"GetSpineAtlasRect","rt":$n[2].Rect,"p":[$n[4].AtlasRegion,$n[0].Boolean]},{"a":1,"n":"GetTexture","is":true,"t":8,"pi":[{"n":"region","pt":$n[4].AtlasRegion,"ps":0},{"n":"texturePropertyId","pt":$n[0].Int32,"ps":1}],"sn":"GetTexture","rt":$n[2].Texture2D,"p":[$n[4].AtlasRegion,$n[0].Int32]},{"a":1,"n":"GetTexture","is":true,"t":8,"pi":[{"n":"region","pt":$n[4].AtlasRegion,"ps":0},{"n":"texturePropertyName","pt":$n[0].String,"ps":1}],"sn":"GetTexture$1","rt":$n[2].Texture2D,"p":[$n[4].AtlasRegion,$n[0].String]},{"a":1,"n":"GetUnityRect","is":true,"t":8,"pi":[{"n":"region","pt":$n[4].AtlasRegion,"ps":0}],"sn":"GetUnityRect","rt":$n[2].Rect,"p":[$n[4].AtlasRegion]},{"a":1,"n":"GetUnityRect","is":true,"t":8,"pi":[{"n":"region","pt":$n[4].AtlasRegion,"ps":0},{"n":"textureHeight","pt":$n[0].Int32,"ps":1}],"sn":"GetUnityRect$1","rt":$n[2].Rect,"p":[$n[4].AtlasRegion,$n[0].Int32]},{"at":[new UnityEngine.RuntimeInitializeOnLoadMethodAttribute.$ctor1(4)],"a":1,"n":"Init","is":true,"t":8,"sn":"Init","rt":$n[0].Void},{"a":1,"n":"InverseLerp","is":true,"t":8,"pi":[{"n":"a","pt":$n[0].Single,"ps":0},{"n":"b","pt":$n[0].Single,"ps":1},{"n":"value","pt":$n[0].Single,"ps":2}],"sn":"InverseLerp","rt":$n[0].Single,"p":[$n[0].Single,$n[0].Single,$n[0].Single],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"IsRenderable","is":true,"t":8,"pi":[{"n":"a","pt":spine.Attachment,"ps":0}],"sn":"IsRenderable","rt":$n[0].Boolean,"p":[spine.Attachment],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"SpineUnityFlipRect","is":true,"t":8,"pi":[{"n":"rect","pt":$n[2].Rect,"ps":0},{"n":"textureHeight","pt":$n[0].Int32,"ps":1}],"sn":"SpineUnityFlipRect","rt":$n[2].Rect,"p":[$n[2].Rect,$n[0].Int32]},{"a":1,"n":"TextureRectToUVRect","is":true,"t":8,"pi":[{"n":"textureRect","pt":$n[2].Rect,"ps":0},{"n":"texWidth","pt":$n[0].Int32,"ps":1},{"n":"texHeight","pt":$n[0].Int32,"ps":2}],"sn":"TextureRectToUVRect","rt":$n[2].Rect,"p":[$n[2].Rect,$n[0].Int32,$n[0].Int32]},{"a":2,"n":"ToAtlasRegion","is":true,"t":8,"pi":[{"n":"s","pt":$n[2].Sprite,"ps":0},{"n":"page","pt":$n[4].AtlasPage,"ps":1}],"sn":"ToAtlasRegion","rt":$n[4].AtlasRegion,"p":[$n[2].Sprite,$n[4].AtlasPage]},{"a":4,"n":"ToAtlasRegion","is":true,"t":8,"pi":[{"n":"s","pt":$n[2].Sprite,"ps":0},{"n":"isolatedTexture","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"ToAtlasRegion$4","rt":$n[4].AtlasRegion,"p":[$n[2].Sprite,$n[0].Boolean]},{"a":2,"n":"ToAtlasRegion","is":true,"t":8,"pi":[{"n":"s","pt":$n[2].Sprite,"ps":0},{"n":"material","pt":$n[2].Material,"ps":1}],"sn":"ToAtlasRegion$1","rt":$n[4].AtlasRegion,"p":[$n[2].Sprite,$n[2].Material]},{"a":2,"n":"ToAtlasRegion","is":true,"t":8,"pi":[{"n":"t","pt":$n[2].Texture2D,"ps":0},{"n":"materialPropertySource","pt":$n[2].Material,"ps":1},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":2}],"sn":"ToAtlasRegion$2","rt":$n[4].AtlasRegion,"p":[$n[2].Texture2D,$n[2].Material,$n[0].Single]},{"a":2,"n":"ToAtlasRegion","is":true,"t":8,"pi":[{"n":"t","pt":$n[2].Texture2D,"ps":0},{"n":"shader","pt":$n[2].Shader,"ps":1},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":2},{"n":"materialPropertySource","dv":null,"o":true,"pt":$n[2].Material,"ps":3}],"sn":"ToAtlasRegion$3","rt":$n[4].AtlasRegion,"p":[$n[2].Texture2D,$n[2].Shader,$n[0].Single,$n[2].Material]},{"a":2,"n":"ToAtlasRegionPMAClone","is":true,"t":8,"pi":[{"n":"s","pt":$n[2].Sprite,"ps":0},{"n":"materialPropertySource","pt":$n[2].Material,"ps":1},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":2},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"ToAtlasRegionPMAClone","rt":$n[4].AtlasRegion,"p":[$n[2].Sprite,$n[2].Material,$n[2].TextureFormat,$n[0].Boolean]},{"a":2,"n":"ToAtlasRegionPMAClone","is":true,"t":8,"pi":[{"n":"t","pt":$n[2].Texture2D,"ps":0},{"n":"materialPropertySource","pt":$n[2].Material,"ps":1},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":2},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"ToAtlasRegionPMAClone$2","rt":$n[4].AtlasRegion,"p":[$n[2].Texture2D,$n[2].Material,$n[2].TextureFormat,$n[0].Boolean]},{"a":2,"n":"ToAtlasRegionPMAClone","is":true,"t":8,"pi":[{"n":"s","pt":$n[2].Sprite,"ps":0},{"n":"shader","pt":$n[2].Shader,"ps":1},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":2},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"materialPropertySource","dv":null,"o":true,"pt":$n[2].Material,"ps":4}],"sn":"ToAtlasRegionPMAClone$1","rt":$n[4].AtlasRegion,"p":[$n[2].Sprite,$n[2].Shader,$n[2].TextureFormat,$n[0].Boolean,$n[2].Material]},{"a":2,"n":"ToAtlasRegionPMAClone","is":true,"t":8,"pi":[{"n":"t","pt":$n[2].Texture2D,"ps":0},{"n":"shader","pt":$n[2].Shader,"ps":1},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":2},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"materialPropertySource","dv":null,"o":true,"pt":$n[2].Material,"ps":4}],"sn":"ToAtlasRegionPMAClone$3","rt":$n[4].AtlasRegion,"p":[$n[2].Texture2D,$n[2].Shader,$n[2].TextureFormat,$n[0].Boolean,$n[2].Material]},{"a":2,"n":"ToSpineAtlasPage","is":true,"t":8,"pi":[{"n":"m","pt":$n[2].Material,"ps":0}],"sn":"ToSpineAtlasPage","rt":$n[4].AtlasPage,"p":[$n[2].Material]},{"a":2,"n":"ToSprite","is":true,"t":8,"pi":[{"n":"ar","pt":$n[4].AtlasRegion,"ps":0},{"n":"pixelsPerUnit","dv":100.0,"o":true,"pt":$n[0].Single,"ps":1}],"sn":"ToSprite","rt":$n[2].Sprite,"p":[$n[4].AtlasRegion,$n[0].Single]},{"a":1,"n":"ToTexture","is":true,"t":8,"pi":[{"n":"s","pt":$n[2].Sprite,"ps":0},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":1},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"linear","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"applyPMA","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4}],"sn":"ToTexture$1","rt":$n[2].Texture2D,"p":[$n[2].Sprite,$n[2].TextureFormat,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"ToTexture","is":true,"t":8,"pi":[{"n":"ar","pt":$n[4].AtlasRegion,"ps":0},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":1},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"texturePropertyId","dv":0,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"linear","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"applyPMA","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"ToTexture","rt":$n[2].Texture2D,"p":[$n[4].AtlasRegion,$n[2].TextureFormat,$n[0].Boolean,$n[0].Int32,$n[0].Boolean,$n[0].Boolean]},{"a":1,"n":"UVRectToAtlasRegion","is":true,"t":8,"pi":[{"n":"uvRect","pt":$n[2].Rect,"ps":0},{"n":"referenceRegion","pt":$n[4].AtlasRegion,"ps":1},{"n":"page","pt":$n[4].AtlasPage,"ps":2}],"sn":"UVRectToAtlasRegion","rt":$n[4].AtlasRegion,"p":[$n[2].Rect,$n[4].AtlasRegion,$n[4].AtlasPage]},{"a":1,"n":"UVRectToTextureRect","is":true,"t":8,"pi":[{"n":"uvRect","pt":$n[2].Rect,"ps":0},{"n":"texWidth","pt":$n[0].Int32,"ps":1},{"n":"texHeight","pt":$n[0].Int32,"ps":2}],"sn":"UVRectToTextureRect","rt":$n[2].Rect,"p":[$n[2].Rect,$n[0].Int32,$n[0].Int32]},{"a":1,"n":"CachedRegionTextures","is":true,"t":4,"rt":$n[6].Dictionary$2(Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey,UnityEngine.Texture2D),"sn":"CachedRegionTextures"},{"a":1,"n":"CachedRegionTexturesList","is":true,"t":4,"rt":$n[6].List$1(UnityEngine.Texture2D),"sn":"CachedRegionTexturesList"},{"a":4,"n":"DefaultMipmapBias","is":true,"t":4,"rt":$n[0].Single,"sn":"DefaultMipmapBias","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":4,"n":"DefaultScale","is":true,"t":4,"rt":$n[0].Single,"sn":"DefaultScale","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"NonrenderingRegion","is":true,"t":4,"rt":$n[0].Int32,"sn":"NonrenderingRegion","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":4,"n":"SpineTextureFormat","is":true,"t":4,"rt":$n[2].TextureFormat,"sn":"SpineTextureFormat","box":function ($v) { return Bridge.box($v, UnityEngine.TextureFormat, System.Enum.toStringFn(UnityEngine.TextureFormat));}},{"a":4,"n":"UseMipMaps","is":true,"t":4,"rt":$n[0].Boolean,"sn":"UseMipMaps","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"existingRegions","is":true,"t":4,"rt":$n[6].Dictionary$2(Spine.AtlasRegion,System.Int32),"sn":"existingRegions","ro":true},{"a":1,"n":"inoutAttachments","is":true,"t":4,"rt":$n[6].List$1(spine.Attachment),"sn":"inoutAttachments"},{"a":1,"n":"originalRegions","is":true,"t":4,"rt":$n[6].List$1(Spine.AtlasRegion),"sn":"originalRegions","ro":true},{"a":1,"n":"regionIndices","is":true,"t":4,"rt":$n[6].List$1(System.Int32),"sn":"regionIndices","ro":true},{"a":1,"n":"repackedRegions","is":true,"t":4,"rt":$n[6].List$1(Spine.AtlasRegion),"sn":"repackedRegions","ro":true},{"a":1,"n":"texturesToPackAtParam","is":true,"t":4,"rt":System.Array.type(System.Collections.Generic.List$1(UnityEngine.Texture2D)),"sn":"texturesToPackAtParam"}]}; }, $n);
     /*Spine.Unity.AttachmentTools.AtlasUtilities end.*/
 
     /*Spine.Unity.AttachmentTools.AtlasUtilities+IntAndAtlasRegionKey start.*/
-    $m("Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey", function () { return {"td":$n[9].AtlasUtilities,"att":1048843,"a":1,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":".ctor","t":1,"p":[$n[0].Int32,$n[3].AtlasRegion],"pi":[{"n":"i","pt":$n[0].Int32,"ps":0},{"n":"region","pt":$n[3].AtlasRegion,"ps":1}],"sn":"$ctor1"},{"ov":true,"a":2,"n":"GetHashCode","t":8,"sn":"getHashCode","rt":$n[0].Int32,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"i","t":4,"rt":$n[0].Int32,"sn":"i","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"region","t":4,"rt":$n[3].AtlasRegion,"sn":"region"}]}; }, $n);
+    $m("Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey", function () { return {"td":$n[9].AtlasUtilities,"att":1048843,"a":1,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":".ctor","t":1,"p":[$n[0].Int32,$n[4].AtlasRegion],"pi":[{"n":"i","pt":$n[0].Int32,"ps":0},{"n":"region","pt":$n[4].AtlasRegion,"ps":1}],"sn":"$ctor1"},{"ov":true,"a":2,"n":"GetHashCode","t":8,"sn":"getHashCode","rt":$n[0].Int32,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"i","t":4,"rt":$n[0].Int32,"sn":"i","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"region","t":4,"rt":$n[4].AtlasRegion,"sn":"region"}]}; }, $n);
     /*Spine.Unity.AttachmentTools.AtlasUtilities+IntAndAtlasRegionKey end.*/
 
     /*Spine.Unity.AttachmentTools.AttachmentCloneExtensions start.*/
-    $m("Spine.Unity.AttachmentTools.AttachmentCloneExtensions", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"GetRemappedClone","is":true,"t":8,"pi":[{"n":"o","pt":spine.Attachment,"ps":0},{"n":"atlasRegion","pt":$n[3].AtlasRegion,"ps":1},{"n":"cloneMeshAsLinked","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"useOriginalRegionSize","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":4}],"sn":"GetRemappedClone","rt":spine.Attachment,"p":[spine.Attachment,$n[3].AtlasRegion,$n[0].Boolean,$n[0].Boolean,$n[0].Single]},{"a":2,"n":"GetRemappedClone","is":true,"t":8,"pi":[{"n":"o","pt":spine.Attachment,"ps":0},{"n":"sprite","pt":$n[2].Sprite,"ps":1},{"n":"sourceMaterial","pt":$n[2].Material,"ps":2},{"n":"premultiplyAlpha","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"cloneMeshAsLinked","dv":true,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"useOriginalRegionSize","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"pivotShiftsMeshUVCoords","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"useOriginalRegionScale","dv":false,"o":true,"pt":$n[0].Boolean,"ps":7},{"n":"pmaCloneTextureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":8},{"n":"pmaCloneMipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":9}],"sn":"GetRemappedClone$1","rt":spine.Attachment,"p":[spine.Attachment,$n[2].Sprite,$n[2].Material,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean,$n[2].TextureFormat,$n[0].Boolean]}]}; }, $n);
+    $m("Spine.Unity.AttachmentTools.AttachmentCloneExtensions", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"GetRemappedClone","is":true,"t":8,"pi":[{"n":"o","pt":spine.Attachment,"ps":0},{"n":"atlasRegion","pt":$n[4].AtlasRegion,"ps":1},{"n":"cloneMeshAsLinked","dv":true,"o":true,"pt":$n[0].Boolean,"ps":2},{"n":"useOriginalRegionSize","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":4}],"sn":"GetRemappedClone","rt":spine.Attachment,"p":[spine.Attachment,$n[4].AtlasRegion,$n[0].Boolean,$n[0].Boolean,$n[0].Single]},{"a":2,"n":"GetRemappedClone","is":true,"t":8,"pi":[{"n":"o","pt":spine.Attachment,"ps":0},{"n":"sprite","pt":$n[2].Sprite,"ps":1},{"n":"sourceMaterial","pt":$n[2].Material,"ps":2},{"n":"premultiplyAlpha","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"cloneMeshAsLinked","dv":true,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"useOriginalRegionSize","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"pivotShiftsMeshUVCoords","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"useOriginalRegionScale","dv":false,"o":true,"pt":$n[0].Boolean,"ps":7},{"n":"pmaCloneTextureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":8},{"n":"pmaCloneMipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":9}],"sn":"GetRemappedClone$1","rt":spine.Attachment,"p":[spine.Attachment,$n[2].Sprite,$n[2].Material,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean,$n[0].Boolean,$n[2].TextureFormat,$n[0].Boolean]}]}; }, $n);
     /*Spine.Unity.AttachmentTools.AttachmentCloneExtensions end.*/
 
     /*Spine.Unity.AttachmentTools.AttachmentRegionExtensions start.*/
-    $m("Spine.Unity.AttachmentTools.AttachmentRegionExtensions", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"SetPositionOffset","is":true,"t":8,"pi":[{"n":"regionAttachment","pt":$n[3].RegionAttachment,"ps":0},{"n":"offset","pt":$n[2].Vector2,"ps":1}],"sn":"SetPositionOffset$1","rt":$n[0].Void,"p":[$n[3].RegionAttachment,$n[2].Vector2]},{"a":2,"n":"SetPositionOffset","is":true,"t":8,"pi":[{"n":"regionAttachment","pt":$n[3].RegionAttachment,"ps":0},{"n":"x","pt":$n[0].Single,"ps":1},{"n":"y","pt":$n[0].Single,"ps":2}],"sn":"SetPositionOffset","rt":$n[0].Void,"p":[$n[3].RegionAttachment,$n[0].Single,$n[0].Single]},{"a":2,"n":"SetRotation","is":true,"t":8,"pi":[{"n":"regionAttachment","pt":$n[3].RegionAttachment,"ps":0},{"n":"rotation","pt":$n[0].Single,"ps":1}],"sn":"SetRotation","rt":$n[0].Void,"p":[$n[3].RegionAttachment,$n[0].Single]},{"a":2,"n":"SetScale","is":true,"t":8,"pi":[{"n":"regionAttachment","pt":$n[3].RegionAttachment,"ps":0},{"n":"scale","pt":$n[2].Vector2,"ps":1}],"sn":"SetScale$1","rt":$n[0].Void,"p":[$n[3].RegionAttachment,$n[2].Vector2]},{"a":2,"n":"SetScale","is":true,"t":8,"pi":[{"n":"regionAttachment","pt":$n[3].RegionAttachment,"ps":0},{"n":"x","pt":$n[0].Single,"ps":1},{"n":"y","pt":$n[0].Single,"ps":2}],"sn":"SetScale","rt":$n[0].Void,"p":[$n[3].RegionAttachment,$n[0].Single,$n[0].Single]},{"a":2,"n":"ToRegionAttachment","is":true,"t":8,"pi":[{"n":"sprite","pt":$n[2].Sprite,"ps":0},{"n":"page","pt":$n[3].AtlasPage,"ps":1},{"n":"rotation","dv":0.0,"o":true,"pt":$n[0].Single,"ps":2}],"sn":"ToRegionAttachment$1","rt":$n[3].RegionAttachment,"p":[$n[2].Sprite,$n[3].AtlasPage,$n[0].Single]},{"a":2,"n":"ToRegionAttachment","is":true,"t":8,"pi":[{"n":"sprite","pt":$n[2].Sprite,"ps":0},{"n":"material","pt":$n[2].Material,"ps":1},{"n":"rotation","dv":0.0,"o":true,"pt":$n[0].Single,"ps":2}],"sn":"ToRegionAttachment$2","rt":$n[3].RegionAttachment,"p":[$n[2].Sprite,$n[2].Material,$n[0].Single]},{"a":2,"n":"ToRegionAttachment","is":true,"t":8,"pi":[{"n":"region","pt":$n[3].AtlasRegion,"ps":0},{"n":"attachmentName","pt":$n[0].String,"ps":1},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":2},{"n":"rotation","dv":0.0,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"ToRegionAttachment","rt":$n[3].RegionAttachment,"p":[$n[3].AtlasRegion,$n[0].String,$n[0].Single,$n[0].Single]},{"a":2,"n":"ToRegionAttachmentPMAClone","is":true,"t":8,"pi":[{"n":"sprite","pt":$n[2].Sprite,"ps":0},{"n":"materialPropertySource","pt":$n[2].Material,"ps":1},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":2},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"rotation","dv":0.0,"o":true,"pt":$n[0].Single,"ps":4}],"sn":"ToRegionAttachmentPMAClone","rt":$n[3].RegionAttachment,"p":[$n[2].Sprite,$n[2].Material,$n[2].TextureFormat,$n[0].Boolean,$n[0].Single]},{"a":2,"n":"ToRegionAttachmentPMAClone","is":true,"t":8,"pi":[{"n":"sprite","pt":$n[2].Sprite,"ps":0},{"n":"shader","pt":$n[2].Shader,"ps":1},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":2},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"materialPropertySource","dv":null,"o":true,"pt":$n[2].Material,"ps":4},{"n":"rotation","dv":0.0,"o":true,"pt":$n[0].Single,"ps":5}],"sn":"ToRegionAttachmentPMAClone$1","rt":$n[3].RegionAttachment,"p":[$n[2].Sprite,$n[2].Shader,$n[2].TextureFormat,$n[0].Boolean,$n[2].Material,$n[0].Single]}]}; }, $n);
+    $m("Spine.Unity.AttachmentTools.AttachmentRegionExtensions", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"SetPositionOffset","is":true,"t":8,"pi":[{"n":"regionAttachment","pt":$n[4].RegionAttachment,"ps":0},{"n":"offset","pt":$n[2].Vector2,"ps":1}],"sn":"SetPositionOffset$1","rt":$n[0].Void,"p":[$n[4].RegionAttachment,$n[2].Vector2]},{"a":2,"n":"SetPositionOffset","is":true,"t":8,"pi":[{"n":"regionAttachment","pt":$n[4].RegionAttachment,"ps":0},{"n":"x","pt":$n[0].Single,"ps":1},{"n":"y","pt":$n[0].Single,"ps":2}],"sn":"SetPositionOffset","rt":$n[0].Void,"p":[$n[4].RegionAttachment,$n[0].Single,$n[0].Single]},{"a":2,"n":"SetRotation","is":true,"t":8,"pi":[{"n":"regionAttachment","pt":$n[4].RegionAttachment,"ps":0},{"n":"rotation","pt":$n[0].Single,"ps":1}],"sn":"SetRotation","rt":$n[0].Void,"p":[$n[4].RegionAttachment,$n[0].Single]},{"a":2,"n":"SetScale","is":true,"t":8,"pi":[{"n":"regionAttachment","pt":$n[4].RegionAttachment,"ps":0},{"n":"scale","pt":$n[2].Vector2,"ps":1}],"sn":"SetScale$1","rt":$n[0].Void,"p":[$n[4].RegionAttachment,$n[2].Vector2]},{"a":2,"n":"SetScale","is":true,"t":8,"pi":[{"n":"regionAttachment","pt":$n[4].RegionAttachment,"ps":0},{"n":"x","pt":$n[0].Single,"ps":1},{"n":"y","pt":$n[0].Single,"ps":2}],"sn":"SetScale","rt":$n[0].Void,"p":[$n[4].RegionAttachment,$n[0].Single,$n[0].Single]},{"a":2,"n":"ToRegionAttachment","is":true,"t":8,"pi":[{"n":"sprite","pt":$n[2].Sprite,"ps":0},{"n":"page","pt":$n[4].AtlasPage,"ps":1},{"n":"rotation","dv":0.0,"o":true,"pt":$n[0].Single,"ps":2}],"sn":"ToRegionAttachment$1","rt":$n[4].RegionAttachment,"p":[$n[2].Sprite,$n[4].AtlasPage,$n[0].Single]},{"a":2,"n":"ToRegionAttachment","is":true,"t":8,"pi":[{"n":"sprite","pt":$n[2].Sprite,"ps":0},{"n":"material","pt":$n[2].Material,"ps":1},{"n":"rotation","dv":0.0,"o":true,"pt":$n[0].Single,"ps":2}],"sn":"ToRegionAttachment$2","rt":$n[4].RegionAttachment,"p":[$n[2].Sprite,$n[2].Material,$n[0].Single]},{"a":2,"n":"ToRegionAttachment","is":true,"t":8,"pi":[{"n":"region","pt":$n[4].AtlasRegion,"ps":0},{"n":"attachmentName","pt":$n[0].String,"ps":1},{"n":"scale","dv":0.01,"o":true,"pt":$n[0].Single,"ps":2},{"n":"rotation","dv":0.0,"o":true,"pt":$n[0].Single,"ps":3}],"sn":"ToRegionAttachment","rt":$n[4].RegionAttachment,"p":[$n[4].AtlasRegion,$n[0].String,$n[0].Single,$n[0].Single]},{"a":2,"n":"ToRegionAttachmentPMAClone","is":true,"t":8,"pi":[{"n":"sprite","pt":$n[2].Sprite,"ps":0},{"n":"materialPropertySource","pt":$n[2].Material,"ps":1},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":2},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"rotation","dv":0.0,"o":true,"pt":$n[0].Single,"ps":4}],"sn":"ToRegionAttachmentPMAClone","rt":$n[4].RegionAttachment,"p":[$n[2].Sprite,$n[2].Material,$n[2].TextureFormat,$n[0].Boolean,$n[0].Single]},{"a":2,"n":"ToRegionAttachmentPMAClone","is":true,"t":8,"pi":[{"n":"sprite","pt":$n[2].Sprite,"ps":0},{"n":"shader","pt":$n[2].Shader,"ps":1},{"n":"textureFormat","dv":4,"o":true,"pt":$n[2].TextureFormat,"ps":2},{"n":"mipmaps","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"materialPropertySource","dv":null,"o":true,"pt":$n[2].Material,"ps":4},{"n":"rotation","dv":0.0,"o":true,"pt":$n[0].Single,"ps":5}],"sn":"ToRegionAttachmentPMAClone$1","rt":$n[4].RegionAttachment,"p":[$n[2].Sprite,$n[2].Shader,$n[2].TextureFormat,$n[0].Boolean,$n[2].Material,$n[0].Single]}]}; }, $n);
     /*Spine.Unity.AttachmentTools.AttachmentRegionExtensions end.*/
+
+    /*DG.Tweening.DOTweenModuleAudio start.*/
+    $m("DG.Tweening.DOTweenModuleAudio", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOComplete","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0},{"n":"withCallbacks","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOComplete","rt":$n[0].Int32,"p":[$n[10].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[2].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlip","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOFlip","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOGoto","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0},{"n":"to","pt":$n[0].Single,"ps":1},{"n":"andPlay","dv":false,"o":true,"pt":$n[0].Boolean,"ps":2}],"sn":"DOGoto","rt":$n[0].Int32,"p":[$n[10].AudioMixer,$n[0].Single,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOKill","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0},{"n":"complete","dv":false,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"DOKill","rt":$n[0].Int32,"p":[$n[10].AudioMixer,$n[0].Boolean],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPause","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOPause","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPitch","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].AudioSource,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPitch","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[2].AudioSource,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPlay","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOPlay","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayBackwards","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOPlayBackwards","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOPlayForward","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOPlayForward","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORestart","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DORestart","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DORewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DORewind","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOSetFloat","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0},{"n":"floatName","pt":$n[0].String,"ps":1},{"n":"endValue","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOSetFloat","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[10].AudioMixer,$n[0].String,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOSmoothRewind","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOSmoothRewind","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"DOTogglePause","is":true,"t":8,"pi":[{"n":"target","pt":$n[10].AudioMixer,"ps":0}],"sn":"DOTogglePause","rt":$n[0].Int32,"p":[$n[10].AudioMixer],"box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    /*DG.Tweening.DOTweenModuleAudio end.*/
+
+    /*DG.Tweening.DOTweenModulePhysics start.*/
+    $m("DG.Tweening.DOTweenModulePhysics", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody,"ps":0},{"n":"endValue","pt":$n[2].Vector3,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[12].Sequence,"p":[$n[2].Rigidbody,$n[2].Vector3,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody,"ps":0},{"n":"path","pt":$n[13].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[12].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[2].Rigidbody,$n[13].Path,$n[0].Single,$n[12].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[12].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[12].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[2].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[12].PathType,$n[12].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOLookAt","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody,"ps":0},{"n":"towards","pt":$n[2].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"axisConstraint","dv":0,"o":true,"pt":$n[12].AxisConstraint,"ps":3},{"n":"up","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector3),"ps":4}],"sn":"DOLookAt","rt":$n[11].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[2].Rigidbody,$n[2].Vector3,$n[0].Single,$n[12].AxisConstraint,$n[0].Nullable$1(UnityEngine.Vector3)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody,"ps":0},{"n":"endValue","pt":$n[2].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].Rigidbody,$n[2].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveZ","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].Rigidbody,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody,"ps":0},{"n":"path","pt":$n[13].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[12].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[2].Rigidbody,$n[13].Path,$n[0].Single,$n[12].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector3),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[12].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[12].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[2].Rigidbody,System.Array.type(UnityEngine.Vector3),$n[0].Single,$n[12].PathType,$n[12].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody,"ps":0},{"n":"endValue","pt":$n[2].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"mode","dv":0,"o":true,"pt":$n[12].RotateMode,"ps":3}],"sn":"DORotate","rt":$n[11].TweenerCore$3(UnityEngine.Quaternion,UnityEngine.Vector3,DG.Tweening.Plugins.Options.QuaternionOptions),"p":[$n[2].Rigidbody,$n[2].Vector3,$n[0].Single,$n[12].RotateMode]}]}; }, $n);
+    /*DG.Tweening.DOTweenModulePhysics end.*/
+
+    /*DG.Tweening.DOTweenModulePhysics2D start.*/
+    $m("DG.Tweening.DOTweenModulePhysics2D", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOJump","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJump","rt":$n[12].Sequence,"p":[$n[2].Rigidbody2D,$n[2].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody2D,"ps":0},{"n":"path","pt":$n[13].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[12].PathMode,"ps":3}],"sn":"DOLocalPath$1","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[2].Rigidbody2D,$n[13].Path,$n[0].Single,$n[12].PathMode]},{"a":2,"n":"DOLocalPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[12].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[12].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOLocalPath","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[2].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[12].PathType,$n[12].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DOMove","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMove","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].Rigidbody2D,$n[2].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveX","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveX","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMoveY","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMoveY","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].Rigidbody2D,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":4,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody2D,"ps":0},{"n":"path","pt":$n[13].Path,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathMode","dv":1,"o":true,"pt":$n[12].PathMode,"ps":3}],"sn":"DOPath$1","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[2].Rigidbody2D,$n[13].Path,$n[0].Single,$n[12].PathMode]},{"a":2,"n":"DOPath","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody2D,"ps":0},{"n":"path","pt":System.Array.type(UnityEngine.Vector2),"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"pathType","dv":0,"o":true,"pt":$n[12].PathType,"ps":3},{"n":"pathMode","dv":1,"o":true,"pt":$n[12].PathMode,"ps":4},{"n":"resolution","dv":10,"o":true,"pt":$n[0].Int32,"ps":5},{"n":"gizmoColor","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Color),"ps":6}],"sn":"DOPath","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[2].Rigidbody2D,System.Array.type(UnityEngine.Vector2),$n[0].Single,$n[12].PathType,$n[12].PathMode,$n[0].Int32,$n[0].Nullable$1(UnityEngine.Color)]},{"a":2,"n":"DORotate","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody2D,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DORotate","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[2].Rigidbody2D,$n[0].Single,$n[0].Single]}]}; }, $n);
+    /*DG.Tweening.DOTweenModulePhysics2D end.*/
+
+    /*DG.Tweening.DOTweenModuleSprite start.*/
+    $m("DG.Tweening.DOTweenModuleSprite", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[2].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[12].Tweener,"p":[$n[2].SpriteRenderer,$n[2].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[2].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[2].SpriteRenderer,$n[2].Color,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].SpriteRenderer,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[2].SpriteRenderer,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].SpriteRenderer,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[12].Sequence,"p":[$n[2].SpriteRenderer,pc.ColorGradient,$n[0].Single]}]}; }, $n);
+    /*DG.Tweening.DOTweenModuleSprite end.*/
+
+    /*DG.Tweening.DOTweenModuleUI start.*/
+    $m("DG.Tweening.DOTweenModuleUI", function () { return {"nested":[$n[12].DOTweenModuleUI.Utils],"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOAnchorMax","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMax","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].RectTransform,$n[2].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorMin","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorMin","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].RectTransform,$n[2].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].RectTransform,$n[2].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3D","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[2].Vector3,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3D","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].RectTransform,$n[2].Vector3,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DX","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DX","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DY","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DY","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPos3DZ","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPos3DZ","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,UnityEngine.Vector3,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosX","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosX","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOAnchorPosY","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOAnchorPosY","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].RectTransform,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Graphic,"ps":0},{"n":"endValue","pt":$n[2].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor","rt":$n[12].Tweener,"p":[$n[3].Graphic,$n[2].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Image,"ps":0},{"n":"endValue","pt":$n[2].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$1","rt":$n[12].Tweener,"p":[$n[3].Image,$n[2].Color,$n[0].Single]},{"a":2,"n":"DOBlendableColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Text,"ps":0},{"n":"endValue","pt":$n[2].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOBlendableColor$2","rt":$n[12].Tweener,"p":[$n[3].Text,$n[2].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Graphic,"ps":0},{"n":"endValue","pt":$n[2].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Graphic,$n[2].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Image,"ps":0},{"n":"endValue","pt":$n[2].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$1","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Image,$n[2].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Outline,"ps":0},{"n":"endValue","pt":$n[2].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$2","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Outline,$n[2].Color,$n[0].Single]},{"a":2,"n":"DOColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Text,"ps":0},{"n":"endValue","pt":$n[2].Color,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOColor$3","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Text,$n[2].Color,$n[0].Single]},{"a":2,"n":"DOCounter","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Text,"ps":0},{"n":"fromValue","pt":$n[0].Int32,"ps":1},{"n":"endValue","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"addThousandsSeparator","dv":true,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"culture","dv":null,"o":true,"pt":$n[14].CultureInfo,"ps":5}],"sn":"DOCounter","rt":$n[11].TweenerCore$3(System.Int32,System.Int32,DG.Tweening.Plugins.Options.NoOptions),"p":[$n[3].Text,$n[0].Int32,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[14].CultureInfo]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].CanvasGroup,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[2].CanvasGroup,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Graphic,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$1","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Graphic,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$2","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Outline,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$3","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Outline,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFade","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Text,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFade$4","rt":$n[11].TweenerCore$3(UnityEngine.Color,UnityEngine.Color,DG.Tweening.Plugins.Options.ColorOptions),"p":[$n[3].Text,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFillAmount","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Image,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOFillAmount","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[3].Image,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOFlexibleSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].LayoutElement,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOFlexibleSize","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[3].LayoutElement,$n[2].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Image,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[12].Sequence,"p":[$n[3].Image,pc.ColorGradient,$n[0].Single]},{"a":2,"n":"DOHorizontalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOHorizontalNormalizedPos","rt":$n[12].Tweener,"p":[$n[3].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOJumpAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"jumpPower","pt":$n[0].Single,"ps":2},{"n":"numJumps","pt":$n[0].Int32,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOJumpAnchorPos","rt":$n[12].Sequence,"p":[$n[2].RectTransform,$n[2].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOMinSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].LayoutElement,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOMinSize","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[3].LayoutElement,$n[2].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DONormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].ScrollRect,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DONormalizedPos","rt":$n[12].Tweener,"p":[$n[3].ScrollRect,$n[2].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPivot","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivot","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].RectTransform,$n[2].Vector2,$n[0].Single]},{"a":2,"n":"DOPivotX","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotX","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPivotY","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOPivotY","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].RectTransform,$n[0].Single,$n[0].Single]},{"a":2,"n":"DOPreferredSize","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].LayoutElement,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOPreferredSize","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[3].LayoutElement,$n[2].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOPunchAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"punch","pt":$n[2].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"elasticity","dv":1.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOPunchAnchorPos","rt":$n[12].Tweener,"p":[$n[2].RectTransform,$n[2].Vector2,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOScale","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Outline,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOScale","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[3].Outline,$n[2].Vector2,$n[0].Single]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","dv":100.0,"o":true,"pt":$n[0].Single,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"randomnessMode","dv":0,"o":true,"pt":$n[12].ShakeRandomnessMode,"ps":7}],"sn":"DOShakeAnchorPos","rt":$n[12].Tweener,"p":[$n[2].RectTransform,$n[0].Single,$n[0].Single,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean,$n[12].ShakeRandomnessMode]},{"a":2,"n":"DOShakeAnchorPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"strength","pt":$n[2].Vector2,"ps":2},{"n":"vibrato","dv":10,"o":true,"pt":$n[0].Int32,"ps":3},{"n":"randomness","dv":90.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5},{"n":"fadeOut","dv":true,"o":true,"pt":$n[0].Boolean,"ps":6},{"n":"randomnessMode","dv":0,"o":true,"pt":$n[12].ShakeRandomnessMode,"ps":7}],"sn":"DOShakeAnchorPos$1","rt":$n[12].Tweener,"p":[$n[2].RectTransform,$n[0].Single,$n[2].Vector2,$n[0].Int32,$n[0].Single,$n[0].Boolean,$n[0].Boolean,$n[12].ShakeRandomnessMode]},{"a":2,"n":"DOShapeCircle","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"center","pt":$n[2].Vector2,"ps":1},{"n":"endValueDegrees","pt":$n[0].Single,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3},{"n":"relativeCenter","dv":false,"o":true,"pt":$n[0].Boolean,"ps":4},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":5}],"sn":"DOShapeCircle","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.CircleOptions),"p":[$n[2].RectTransform,$n[2].Vector2,$n[0].Single,$n[0].Single,$n[0].Boolean,$n[0].Boolean]},{"a":2,"n":"DOSizeDelta","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].RectTransform,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOSizeDelta","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].RectTransform,$n[2].Vector2,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOText","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Text,"ps":0},{"n":"endValue","pt":$n[0].String,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"richTextEnabled","dv":true,"o":true,"pt":$n[0].Boolean,"ps":3},{"n":"scrambleMode","dv":0,"o":true,"pt":$n[12].ScrambleMode,"ps":4},{"n":"scrambleChars","dv":null,"o":true,"pt":$n[0].String,"ps":5}],"sn":"DOText","rt":$n[11].TweenerCore$3(System.String,System.String,DG.Tweening.Plugins.Options.StringOptions),"p":[$n[3].Text,$n[0].String,$n[0].Single,$n[0].Boolean,$n[12].ScrambleMode,$n[0].String]},{"a":2,"n":"DOValue","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].Slider,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOValue","rt":$n[11].TweenerCore$3(System.Single,System.Single,DG.Tweening.Plugins.Options.FloatOptions),"p":[$n[3].Slider,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOVerticalNormalizedPos","is":true,"t":8,"pi":[{"n":"target","pt":$n[3].ScrollRect,"ps":0},{"n":"endValue","pt":$n[0].Single,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":3}],"sn":"DOVerticalNormalizedPos","rt":$n[12].Tweener,"p":[$n[3].ScrollRect,$n[0].Single,$n[0].Single,$n[0].Boolean]}]}; }, $n);
+    /*DG.Tweening.DOTweenModuleUI end.*/
+
+    /*DG.Tweening.DOTweenModuleUI+Utils start.*/
+    $m("DG.Tweening.DOTweenModuleUI.Utils", function () { return {"td":$n[12].DOTweenModuleUI,"att":1048962,"a":2,"s":true,"m":[{"a":2,"n":"SwitchToRectTransform","is":true,"t":8,"pi":[{"n":"from","pt":$n[2].RectTransform,"ps":0},{"n":"to","pt":$n[2].RectTransform,"ps":1}],"sn":"SwitchToRectTransform","rt":$n[2].Vector2,"p":[$n[2].RectTransform,$n[2].RectTransform]}]}; }, $n);
+    /*DG.Tweening.DOTweenModuleUI+Utils end.*/
+
+    /*DG.Tweening.DOTweenModuleUnityVersion start.*/
+    $m("DG.Tweening.DOTweenModuleUnityVersion", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Material,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"duration","pt":$n[0].Single,"ps":2}],"sn":"DOGradientColor","rt":$n[12].Sequence,"p":[$n[2].Material,pc.ColorGradient,$n[0].Single]},{"a":2,"n":"DOGradientColor","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Material,"ps":0},{"n":"gradient","pt":pc.ColorGradient,"ps":1},{"n":"property","pt":$n[0].String,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOGradientColor$1","rt":$n[12].Sequence,"p":[$n[2].Material,pc.ColorGradient,$n[0].String,$n[0].Single]},{"a":2,"n":"DOOffset","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Material,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOOffset","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].Material,$n[2].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"DOTiling","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Material,"ps":0},{"n":"endValue","pt":$n[2].Vector2,"ps":1},{"n":"propertyID","pt":$n[0].Int32,"ps":2},{"n":"duration","pt":$n[0].Single,"ps":3}],"sn":"DOTiling","rt":$n[11].TweenerCore$3(UnityEngine.Vector2,UnityEngine.Vector2,DG.Tweening.Plugins.Options.VectorOptions),"p":[$n[2].Material,$n[2].Vector2,$n[0].Int32,$n[0].Single]},{"a":2,"n":"WaitForCompletion","is":true,"t":8,"pi":[{"n":"t","pt":$n[12].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForCompletion","rt":$n[2].CustomYieldInstruction,"p":[$n[12].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForElapsedLoops","is":true,"t":8,"pi":[{"n":"t","pt":$n[12].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForElapsedLoops","rt":$n[2].CustomYieldInstruction,"p":[$n[12].Tween,$n[0].Int32,$n[0].Boolean]},{"a":2,"n":"WaitForKill","is":true,"t":8,"pi":[{"n":"t","pt":$n[12].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForKill","rt":$n[2].CustomYieldInstruction,"p":[$n[12].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForPosition","is":true,"t":8,"pi":[{"n":"t","pt":$n[12].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":2}],"sn":"WaitForPosition","rt":$n[2].CustomYieldInstruction,"p":[$n[12].Tween,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"WaitForRewind","is":true,"t":8,"pi":[{"n":"t","pt":$n[12].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForRewind","rt":$n[2].CustomYieldInstruction,"p":[$n[12].Tween,$n[0].Boolean]},{"a":2,"n":"WaitForStart","is":true,"t":8,"pi":[{"n":"t","pt":$n[12].Tween,"ps":0},{"n":"returnCustomYieldInstruction","pt":$n[0].Boolean,"ps":1}],"sn":"WaitForStart","rt":$n[2].CustomYieldInstruction,"p":[$n[12].Tween,$n[0].Boolean]}]}; }, $n);
+    /*DG.Tweening.DOTweenModuleUnityVersion end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction start.*/
+    $m("DG.Tweening.DOTweenCYInstruction", function () { return {"nested":[$n[12].DOTweenCYInstruction.WaitForCompletion,$n[12].DOTweenCYInstruction.WaitForRewind,$n[12].DOTweenCYInstruction.WaitForKill,$n[12].DOTweenCYInstruction.WaitForElapsedLoops,$n[12].DOTweenCYInstruction.WaitForPosition,$n[12].DOTweenCYInstruction.WaitForStart],"att":1048961,"a":2,"s":true}; }, $n);
+    /*DG.Tweening.DOTweenCYInstruction end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction+WaitForCompletion start.*/
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForCompletion", function () { return {"td":$n[12].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[12].Tween],"pi":[{"n":"tween","pt":$n[12].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[12].Tween,"sn":"t","ro":true}]}; }, $n);
+    /*DG.Tweening.DOTweenCYInstruction+WaitForCompletion end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction+WaitForRewind start.*/
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForRewind", function () { return {"td":$n[12].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[12].Tween],"pi":[{"n":"tween","pt":$n[12].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[12].Tween,"sn":"t","ro":true}]}; }, $n);
+    /*DG.Tweening.DOTweenCYInstruction+WaitForRewind end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction+WaitForKill start.*/
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForKill", function () { return {"td":$n[12].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[12].Tween],"pi":[{"n":"tween","pt":$n[12].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[12].Tween,"sn":"t","ro":true}]}; }, $n);
+    /*DG.Tweening.DOTweenCYInstruction+WaitForKill end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction+WaitForElapsedLoops start.*/
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops", function () { return {"td":$n[12].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[12].Tween,$n[0].Int32],"pi":[{"n":"tween","pt":$n[12].Tween,"ps":0},{"n":"elapsedLoops","pt":$n[0].Int32,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"elapsedLoops","t":4,"rt":$n[0].Int32,"sn":"elapsedLoops","ro":true,"box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"t","t":4,"rt":$n[12].Tween,"sn":"t","ro":true}]}; }, $n);
+    /*DG.Tweening.DOTweenCYInstruction+WaitForElapsedLoops end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction+WaitForPosition start.*/
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForPosition", function () { return {"td":$n[12].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[12].Tween,$n[0].Single],"pi":[{"n":"tween","pt":$n[12].Tween,"ps":0},{"n":"position","pt":$n[0].Single,"ps":1}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"position","t":4,"rt":$n[0].Single,"sn":"position","ro":true,"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"t","t":4,"rt":$n[12].Tween,"sn":"t","ro":true}]}; }, $n);
+    /*DG.Tweening.DOTweenCYInstruction+WaitForPosition end.*/
+
+    /*DG.Tweening.DOTweenCYInstruction+WaitForStart start.*/
+    $m("DG.Tweening.DOTweenCYInstruction.WaitForStart", function () { return {"td":$n[12].DOTweenCYInstruction,"att":1048578,"a":2,"m":[{"a":2,"n":".ctor","t":1,"p":[$n[12].Tween],"pi":[{"n":"tween","pt":$n[12].Tween,"ps":0}],"sn":"ctor"},{"ov":true,"a":2,"n":"keepWaiting","t":16,"rt":$n[0].Boolean,"g":{"ov":true,"a":2,"n":"get_keepWaiting","t":8,"rt":$n[0].Boolean,"fg":"keepWaiting","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"fn":"keepWaiting"},{"a":1,"n":"t","t":4,"rt":$n[12].Tween,"sn":"t","ro":true}]}; }, $n);
+    /*DG.Tweening.DOTweenCYInstruction+WaitForStart end.*/
+
+    /*DG.Tweening.DOTweenModuleUtils start.*/
+    $m("DG.Tweening.DOTweenModuleUtils", function () { return {"nested":[$n[12].DOTweenModuleUtils.Physics],"att":1048961,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"Init","is":true,"t":8,"sn":"Init","rt":$n[0].Void},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":1,"n":"Preserver","is":true,"t":8,"sn":"Preserver","rt":$n[0].Void},{"a":1,"n":"_initialized","is":true,"t":4,"rt":$n[0].Boolean,"sn":"_initialized","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    /*DG.Tweening.DOTweenModuleUtils end.*/
+
+    /*DG.Tweening.DOTweenModuleUtils+Physics start.*/
+    $m("DG.Tweening.DOTweenModuleUtils.Physics", function () { return {"td":$n[12].DOTweenModuleUtils,"att":1048962,"a":2,"s":true,"m":[{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"CreateDOTweenPathTween","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].MonoBehaviour,"ps":0},{"n":"tweenRigidbody","pt":$n[0].Boolean,"ps":1},{"n":"isLocal","pt":$n[0].Boolean,"ps":2},{"n":"path","pt":$n[13].Path,"ps":3},{"n":"duration","pt":$n[0].Single,"ps":4},{"n":"pathMode","pt":$n[12].PathMode,"ps":5}],"sn":"CreateDOTweenPathTween","rt":$n[11].TweenerCore$3(UnityEngine.Vector3,DG.Tweening.Plugins.Core.PathCore.Path,DG.Tweening.Plugins.Options.PathOptions),"p":[$n[2].MonoBehaviour,$n[0].Boolean,$n[0].Boolean,$n[13].Path,$n[0].Single,$n[12].PathMode]},{"at":[new UnityEngine.Scripting.PreserveAttribute()],"a":2,"n":"HasRigidbody","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Component,"ps":0}],"sn":"HasRigidbody","rt":$n[0].Boolean,"p":[$n[2].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"HasRigidbody2D","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Component,"ps":0}],"sn":"HasRigidbody2D","rt":$n[0].Boolean,"p":[$n[2].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"SetOrientationOnPath","is":true,"t":8,"pi":[{"n":"options","pt":$n[15].PathOptions,"ps":0},{"n":"t","pt":$n[12].Tween,"ps":1},{"n":"newRot","pt":$n[2].Quaternion,"ps":2},{"n":"trans","pt":$n[2].Transform,"ps":3}],"sn":"SetOrientationOnPath","rt":$n[0].Void,"p":[$n[15].PathOptions,$n[12].Tween,$n[2].Quaternion,$n[2].Transform]}]}; }, $n);
+    /*DG.Tweening.DOTweenModuleUtils+Physics end.*/
+
+    /*DG.Tweening.DOTweenAnimation start.*/
+    $m("DG.Tweening.DOTweenAnimation", function () { return {"nested":[$n[12].DOTweenAnimation.AnimationType,$n[12].DOTweenAnimation.TargetType],"att":1048577,"a":2,"at":[new UnityEngine.AddComponentMenu.ctor("DOTween/DOTween Animation")],"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"CreateEditorPreview","t":8,"sn":"CreateEditorPreview","rt":$n[12].Tween},{"a":2,"n":"CreateTween","t":8,"pi":[{"n":"regenerateIfExists","dv":false,"o":true,"pt":$n[0].Boolean,"ps":0},{"n":"andPlay","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"CreateTween","rt":$n[0].Void,"p":[$n[0].Boolean,$n[0].Boolean]},{"ov":true,"a":2,"n":"DOComplete","t":8,"sn":"DOComplete","rt":$n[0].Void},{"ov":true,"a":2,"n":"DOKill","t":8,"sn":"DOKill","rt":$n[0].Void},{"a":2,"n":"DOKillAllById","t":8,"pi":[{"n":"id","pt":$n[0].String,"ps":0}],"sn":"DOKillAllById","rt":$n[0].Void,"p":[$n[0].String]},{"a":2,"n":"DOKillById","t":8,"pi":[{"n":"id","pt":$n[0].String,"ps":0}],"sn":"DOKillById","rt":$n[0].Void,"p":[$n[0].String]},{"ov":true,"a":2,"n":"DOPause","t":8,"sn":"DOPause","rt":$n[0].Void},{"a":2,"n":"DOPauseAllById","t":8,"pi":[{"n":"id","pt":$n[0].String,"ps":0}],"sn":"DOPauseAllById","rt":$n[0].Void,"p":[$n[0].String]},{"ov":true,"a":2,"n":"DOPlay","t":8,"sn":"DOPlay","rt":$n[0].Void},{"a":2,"n":"DOPlayAllById","t":8,"pi":[{"n":"id","pt":$n[0].String,"ps":0}],"sn":"DOPlayAllById","rt":$n[0].Void,"p":[$n[0].String]},{"ov":true,"a":2,"n":"DOPlayBackwards","t":8,"sn":"DOPlayBackwards","rt":$n[0].Void},{"a":2,"n":"DOPlayBackwardsAllById","t":8,"pi":[{"n":"id","pt":$n[0].String,"ps":0}],"sn":"DOPlayBackwardsAllById","rt":$n[0].Void,"p":[$n[0].String]},{"a":2,"n":"DOPlayBackwardsById","t":8,"pi":[{"n":"id","pt":$n[0].String,"ps":0}],"sn":"DOPlayBackwardsById","rt":$n[0].Void,"p":[$n[0].String]},{"a":2,"n":"DOPlayById","t":8,"pi":[{"n":"id","pt":$n[0].String,"ps":0}],"sn":"DOPlayById","rt":$n[0].Void,"p":[$n[0].String]},{"ov":true,"a":2,"n":"DOPlayForward","t":8,"sn":"DOPlayForward","rt":$n[0].Void},{"a":2,"n":"DOPlayForwardAllById","t":8,"pi":[{"n":"id","pt":$n[0].String,"ps":0}],"sn":"DOPlayForwardAllById","rt":$n[0].Void,"p":[$n[0].String]},{"a":2,"n":"DOPlayForwardById","t":8,"pi":[{"n":"id","pt":$n[0].String,"ps":0}],"sn":"DOPlayForwardById","rt":$n[0].Void,"p":[$n[0].String]},{"a":2,"n":"DOPlayNext","t":8,"sn":"DOPlayNext","rt":$n[0].Void},{"ov":true,"a":2,"n":"DORestart","t":8,"sn":"DORestart","rt":$n[0].Void},{"ov":true,"a":2,"n":"DORestart","t":8,"pi":[{"n":"fromHere","pt":$n[0].Boolean,"ps":0}],"sn":"DORestart$1","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":2,"n":"DORestartAllById","t":8,"pi":[{"n":"id","pt":$n[0].String,"ps":0}],"sn":"DORestartAllById","rt":$n[0].Void,"p":[$n[0].String]},{"a":2,"n":"DORestartById","t":8,"pi":[{"n":"id","pt":$n[0].String,"ps":0}],"sn":"DORestartById","rt":$n[0].Void,"p":[$n[0].String]},{"ov":true,"a":2,"n":"DORewind","t":8,"sn":"DORewind","rt":$n[0].Void},{"a":2,"n":"DORewindAllById","t":8,"pi":[{"n":"id","pt":$n[0].String,"ps":0}],"sn":"DORewindAllById","rt":$n[0].Void,"p":[$n[0].String]},{"a":2,"n":"DORewindAndPlayNext","t":8,"sn":"DORewindAndPlayNext","rt":$n[0].Void},{"ov":true,"a":2,"n":"DOTogglePause","t":8,"sn":"DOTogglePause","rt":$n[0].Void},{"a":1,"n":"Dispatch_OnReset","is":true,"t":8,"pi":[{"n":"anim","pt":$n[12].DOTweenAnimation,"ps":0}],"sn":"Dispatch_OnReset","rt":$n[0].Void,"p":[$n[12].DOTweenAnimation]},{"a":1,"n":"GetTweenGO","t":8,"sn":"GetTweenGO","rt":$n[2].GameObject},{"a":1,"n":"GetTweenTarget","t":8,"sn":"GetTweenTarget","rt":$n[2].GameObject},{"a":2,"n":"GetTweens","t":8,"sn":"GetTweens","rt":$n[6].List$1(DG.Tweening.Tween)},{"a":1,"n":"OnDestroy","t":8,"sn":"OnDestroy","rt":$n[0].Void},{"a":1,"n":"ReEvaluateRelativeTween","t":8,"sn":"ReEvaluateRelativeTween","rt":$n[0].Void},{"a":2,"n":"RecreateTween","t":8,"sn":"RecreateTween","rt":$n[0].Void},{"a":2,"n":"RecreateTweenAndPlay","t":8,"sn":"RecreateTweenAndPlay","rt":$n[0].Void},{"a":1,"n":"Reset","t":8,"sn":"Reset","rt":$n[0].Void},{"a":2,"n":"RewindThenRecreateTween","t":8,"sn":"RewindThenRecreateTween","rt":$n[0].Void},{"a":2,"n":"RewindThenRecreateTweenAndPlay","t":8,"sn":"RewindThenRecreateTweenAndPlay","rt":$n[0].Void},{"a":2,"n":"SetAnimationTarget","t":8,"pi":[{"n":"tweenTarget","pt":$n[2].Component,"ps":0},{"n":"useTweenTargetGameObjectForGroupOperations","dv":true,"o":true,"pt":$n[0].Boolean,"ps":1}],"sn":"SetAnimationTarget","rt":$n[0].Void,"p":[$n[2].Component,$n[0].Boolean]},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"TypeToDOTargetType","is":true,"t":8,"pi":[{"n":"t","pt":$n[0].Type,"ps":0}],"sn":"TypeToDOTargetType","rt":$n[12].DOTweenAnimation.TargetType,"p":[$n[0].Type],"box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":1,"n":"_playCount","t":4,"rt":$n[0].Int32,"sn":"_playCount","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"_tweenAutoGenerationCalled","t":4,"rt":$n[0].Boolean,"sn":"_tweenAutoGenerationCalled","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"animationType","t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"animationType","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"autoGenerate","t":4,"rt":$n[0].Boolean,"sn":"autoGenerate","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"autoKill","t":4,"rt":$n[0].Boolean,"sn":"autoKill","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"autoPlay","t":4,"rt":$n[0].Boolean,"sn":"autoPlay","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"delay","t":4,"rt":$n[0].Single,"sn":"delay","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"duration","t":4,"rt":$n[0].Single,"sn":"duration","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"easeCurve","t":4,"rt":pc.AnimationCurve,"sn":"easeCurve"},{"a":2,"n":"easeType","t":4,"rt":$n[12].Ease,"sn":"easeType","box":function ($v) { return Bridge.box($v, DG.Tweening.Ease, System.Enum.toStringFn(DG.Tweening.Ease));}},{"a":2,"n":"endValueColor","t":4,"rt":$n[2].Color,"sn":"endValueColor"},{"a":2,"n":"endValueFloat","t":4,"rt":$n[0].Single,"sn":"endValueFloat","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"endValueRect","t":4,"rt":$n[2].Rect,"sn":"endValueRect"},{"a":2,"n":"endValueString","t":4,"rt":$n[0].String,"sn":"endValueString"},{"a":2,"n":"endValueTransform","t":4,"rt":$n[2].Transform,"sn":"endValueTransform"},{"a":2,"n":"endValueV2","t":4,"rt":$n[2].Vector2,"sn":"endValueV2"},{"a":2,"n":"endValueV3","t":4,"rt":$n[2].Vector3,"sn":"endValueV3"},{"a":2,"n":"forcedTargetType","t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"forcedTargetType","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"id","t":4,"rt":$n[0].String,"sn":"id"},{"a":2,"n":"isActive","t":4,"rt":$n[0].Boolean,"sn":"isActive","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isFrom","t":4,"rt":$n[0].Boolean,"sn":"isFrom","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isIndependentUpdate","t":4,"rt":$n[0].Boolean,"sn":"isIndependentUpdate","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isRelative","t":4,"rt":$n[0].Boolean,"sn":"isRelative","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"isValid","t":4,"rt":$n[0].Boolean,"sn":"isValid","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"loopType","t":4,"rt":$n[12].LoopType,"sn":"loopType","box":function ($v) { return Bridge.box($v, DG.Tweening.LoopType, System.Enum.toStringFn(DG.Tweening.LoopType));}},{"a":2,"n":"loops","t":4,"rt":$n[0].Int32,"sn":"loops","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"optionalBool0","t":4,"rt":$n[0].Boolean,"sn":"optionalBool0","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"optionalBool1","t":4,"rt":$n[0].Boolean,"sn":"optionalBool1","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"optionalFloat0","t":4,"rt":$n[0].Single,"sn":"optionalFloat0","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"optionalInt0","t":4,"rt":$n[0].Int32,"sn":"optionalInt0","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"optionalRotationMode","t":4,"rt":$n[12].RotateMode,"sn":"optionalRotationMode","box":function ($v) { return Bridge.box($v, DG.Tweening.RotateMode, System.Enum.toStringFn(DG.Tweening.RotateMode));}},{"a":2,"n":"optionalScrambleMode","t":4,"rt":$n[12].ScrambleMode,"sn":"optionalScrambleMode","box":function ($v) { return Bridge.box($v, DG.Tweening.ScrambleMode, System.Enum.toStringFn(DG.Tweening.ScrambleMode));}},{"a":2,"n":"optionalShakeRandomnessMode","t":4,"rt":$n[12].ShakeRandomnessMode,"sn":"optionalShakeRandomnessMode","box":function ($v) { return Bridge.box($v, DG.Tweening.ShakeRandomnessMode, System.Enum.toStringFn(DG.Tweening.ShakeRandomnessMode));}},{"a":2,"n":"optionalString","t":4,"rt":$n[0].String,"sn":"optionalString"},{"a":2,"n":"target","t":4,"rt":$n[2].Component,"sn":"target"},{"a":2,"n":"targetGO","t":4,"rt":$n[2].GameObject,"sn":"targetGO"},{"a":2,"n":"targetIsSelf","t":4,"rt":$n[0].Boolean,"sn":"targetIsSelf","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"targetType","t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"targetType","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"tweenTargetIsTargetGO","t":4,"rt":$n[0].Boolean,"sn":"tweenTargetIsTargetGO","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"useTargetAsV3","t":4,"rt":$n[0].Boolean,"sn":"useTargetAsV3","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"OnReset","is":true,"t":2,"ad":{"a":2,"n":"add_OnReset","is":true,"t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"addOnReset","rt":$n[0].Void,"p":[Function]},"r":{"a":2,"n":"remove_OnReset","is":true,"t":8,"pi":[{"n":"value","pt":Function,"ps":0}],"sn":"removeOnReset","rt":$n[0].Void,"p":[Function]}}]}; }, $n);
+    /*DG.Tweening.DOTweenAnimation end.*/
+
+    /*DG.Tweening.DOTweenAnimation+AnimationType start.*/
+    $m("DG.Tweening.DOTweenAnimation.AnimationType", function () { return {"td":$n[12].DOTweenAnimation,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"CameraAspect","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"CameraAspect","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"CameraBackgroundColor","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"CameraBackgroundColor","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"CameraFieldOfView","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"CameraFieldOfView","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"CameraOrthoSize","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"CameraOrthoSize","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"CameraPixelRect","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"CameraPixelRect","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"CameraRect","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"CameraRect","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"Color","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"Color","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"Fade","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"Fade","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"LocalMove","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"LocalMove","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"LocalRotate","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"LocalRotate","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"Move","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"Move","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"None","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"None","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"PunchPosition","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"PunchPosition","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"PunchRotation","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"PunchRotation","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"PunchScale","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"PunchScale","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"Rotate","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"Rotate","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"Scale","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"Scale","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"ShakePosition","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"ShakePosition","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"ShakeRotation","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"ShakeRotation","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"ShakeScale","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"ShakeScale","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"Text","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"Text","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}},{"a":2,"n":"UIWidthHeight","is":true,"t":4,"rt":$n[12].DOTweenAnimation.AnimationType,"sn":"UIWidthHeight","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.AnimationType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.AnimationType));}}]}; }, $n);
+    /*DG.Tweening.DOTweenAnimation+AnimationType end.*/
+
+    /*DG.Tweening.DOTweenAnimation+TargetType start.*/
+    $m("DG.Tweening.DOTweenAnimation.TargetType", function () { return {"td":$n[12].DOTweenAnimation,"att":258,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Camera","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"Camera","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"CanvasGroup","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"CanvasGroup","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"Image","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"Image","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"Light","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"Light","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"RectTransform","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"RectTransform","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"Renderer","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"Renderer","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"Rigidbody","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"Rigidbody","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"Rigidbody2D","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"Rigidbody2D","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"SpriteRenderer","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"SpriteRenderer","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"Text","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"Text","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"TextMeshPro","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"TextMeshPro","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"TextMeshProUGUI","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"TextMeshProUGUI","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"Transform","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"Transform","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"Unset","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"Unset","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"tk2dBaseSprite","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"tk2dBaseSprite","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}},{"a":2,"n":"tk2dTextMesh","is":true,"t":4,"rt":$n[12].DOTweenAnimation.TargetType,"sn":"tk2dTextMesh","box":function ($v) { return Bridge.box($v, DG.Tweening.DOTweenAnimation.TargetType, System.Enum.toStringFn(DG.Tweening.DOTweenAnimation.TargetType));}}]}; }, $n);
+    /*DG.Tweening.DOTweenAnimation+TargetType end.*/
+
+    /*DG.Tweening.DOTweenAnimationExtensions start.*/
+    $m("DG.Tweening.DOTweenAnimationExtensions", function () { return {"att":1048961,"a":2,"s":true,"m":[{"a":2,"n":"IsSameOrSubclassOf","is":true,"t":8,"pi":[{"n":"t","pt":$n[2].Component,"ps":0}],"tpc":1,"tprm":["T"],"sn":"IsSameOrSubclassOf","rt":$n[0].Boolean,"p":[$n[2].Component],"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
+    /*DG.Tweening.DOTweenAnimationExtensions end.*/
+
+    /*DG.Tweening.DOTweenProShortcuts start.*/
+    $m("DG.Tweening.DOTweenProShortcuts", function () { return {"att":385,"a":2,"s":true,"m":[{"n":".cctor","t":1,"sn":"ctor","sm":true},{"a":2,"n":"DOSpiral","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Rigidbody,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"axis","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector3),"ps":2},{"n":"mode","dv":0,"o":true,"pt":$n[12].SpiralMode,"ps":3},{"n":"speed","dv":1.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"frequency","dv":10.0,"o":true,"pt":$n[0].Single,"ps":5},{"n":"depth","dv":0.0,"o":true,"pt":$n[0].Single,"ps":6},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":7}],"sn":"DOSpiral","rt":$n[12].Tweener,"p":[$n[2].Rigidbody,$n[0].Single,$n[0].Nullable$1(UnityEngine.Vector3),$n[12].SpiralMode,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Boolean]},{"a":2,"n":"DOSpiral","is":true,"t":8,"pi":[{"n":"target","pt":$n[2].Transform,"ps":0},{"n":"duration","pt":$n[0].Single,"ps":1},{"n":"axis","dv":null,"o":true,"pt":$n[0].Nullable$1(UnityEngine.Vector3),"ps":2},{"n":"mode","dv":0,"o":true,"pt":$n[12].SpiralMode,"ps":3},{"n":"speed","dv":1.0,"o":true,"pt":$n[0].Single,"ps":4},{"n":"frequency","dv":10.0,"o":true,"pt":$n[0].Single,"ps":5},{"n":"depth","dv":0.0,"o":true,"pt":$n[0].Single,"ps":6},{"n":"snapping","dv":false,"o":true,"pt":$n[0].Boolean,"ps":7}],"sn":"DOSpiral$1","rt":$n[12].Tweener,"p":[$n[2].Transform,$n[0].Single,$n[0].Nullable$1(UnityEngine.Vector3),$n[12].SpiralMode,$n[0].Single,$n[0].Single,$n[0].Single,$n[0].Boolean]}]}; }, $n);
+    /*DG.Tweening.DOTweenProShortcuts end.*/
 
     }});
