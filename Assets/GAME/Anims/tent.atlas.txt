@@ -1,0 +1,15 @@
+tent.png
+size:1480,1480
+filter:Linear,Linear
+pma:true
+1
+bounds:346,226,236,951
+offsets:1,2,238,954
+2
+bounds:2,63,342,1114
+offsets:1,1,344,1116
+3
+bounds:584,141,147,1036
+offsets:1,1,149,1038
+roof
+bounds:2,1179,1475,298

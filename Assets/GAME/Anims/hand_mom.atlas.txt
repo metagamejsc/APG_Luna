@@ -1,0 +1,15 @@
+hand_mom.png
+size:344,344
+filter:Linear,Linear
+pma:true
+mom_1_3
+bounds:168,51,182,171
+offsets:0,0,182,172
+rotate:90
+mom_2_1
+bounds:2,46,187,164
+offsets:1,1,188,165
+rotate:90
+mom_2_6
+bounds:2,235,263,104
+offsets:3,1,267,106
