@@ -17,9 +17,13 @@
   ],
   "groups": [
     [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/CameraController.cs"
+    ],
+    [
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DraggableItem.cs",
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DropZone.cs",
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/LunaManager.cs",
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/IQFill.cs",
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/GameController.cs"
     ],
     [

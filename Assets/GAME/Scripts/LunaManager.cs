@@ -53,6 +53,7 @@ public class LunaManager : MonoBehaviour
     public void CountPlay()
     {
         countPlay++;
+        GameController.instance.IQFill.AddValue();
         if (countPlay >= countPlayFinal)
         {
             ShowEndCard();

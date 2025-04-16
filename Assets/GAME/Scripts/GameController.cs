@@ -6,6 +6,7 @@ public class GameController : MonoBehaviour
     public Collider2D[] colliders;
     public bool isUpgrade = false;
     public static event System.Action OnUpgradePhase2;
+    public IQFill IQFill;
 
 
 
@@ -32,7 +33,6 @@ public class GameController : MonoBehaviour
     }
     public void EnableUpgrade(string name)
     {
-        print(name);
         if (name == "Mom")
         {
             if (isUpgrade) return;

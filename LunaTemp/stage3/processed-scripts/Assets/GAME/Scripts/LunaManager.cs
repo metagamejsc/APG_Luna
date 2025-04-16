@@ -25,10 +25,10 @@ public class LunaManager : MonoBehaviour
     [Space(10)]
     [Header("__________________________________")]
 
-    [LunaPlaygroundAsset("LogoGame")] public Texture2D logoGame;
-    public RawImage imgRawLogoGame;
-    [Space(10)]
-    [Header("__________________________________")]
+    // [LunaPlaygroundAsset("LogoGame")] public Texture2D logoGame;
+    // public RawImage imgRawLogoGame;
+    // [Space(10)]
+    // [Header("__________________________________")]
     //----------------------------------LUNA----------------------------
     public static LunaManager ins;
     private void Awake()
@@ -47,12 +47,13 @@ public class LunaManager : MonoBehaviour
             VARIABLE.onClick.AddListener(OnClickEndCard);
         }
         EndCard.SetActive(false);
-        //SetupField();
+        SetupField();
         Invoke(nameof(ShowEndCard), timeDropFinal);
     }
     public void CountPlay()
     {
         countPlay++;
+        GameController.instance.IQFill.AddValue();
         if (countPlay >= countPlayFinal)
         {
             ShowEndCard();
@@ -90,7 +91,7 @@ public class LunaManager : MonoBehaviour
     {
         imgBG.texture = bgSprite;
         imgBG.color = colorBG;
-        imgRawLogoGame.texture = logoGame;
+        //imgRawLogoGame.texture = logoGame;
     }
 
 }
