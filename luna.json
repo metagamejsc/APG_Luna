@@ -2,7 +2,7 @@
     "version": "6.0.0",
     "projectId": "cc2b1186a2056e546bb13add5b988034",
     "applicationID": 29138,
-    "creativeName": "APG_V01_TrangHT_AnhPD",
+    "creativeName": "APG_V01_TrangHT_AnhPD_v2",
     "pgServer": "EU",
     "window": {
         "‐ ": true
@@ -103,9 +103,11 @@
             ]
         },
         "scenes": [
-            "Assets/Scenes/SampleScene.unity"
+            "Assets/Scenes/V2.unity"
         ],
-        "disabledScenes": [],
+        "disabledScenes": [
+            "Assets/Scenes/V1.unity"
+        ],
         "startupScene": 0,
         "packages": {
             "default": {

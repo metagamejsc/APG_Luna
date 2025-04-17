@@ -65,4 +65,8 @@ public class DropZone : MonoBehaviour
             steps[0].gameObject.GetComponent<Image>().sprite = spriteUpgrade;
         }
     }
+    public int GetCurrentStep()
+    {
+        return currentStep;
+    }
 }
