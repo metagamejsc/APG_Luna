@@ -1,0 +1,178 @@
+man.png
+size:1152,444
+filter:Linear,Linear
+pma:true
+Comp 1_00000
+bounds:1034,220,48,44
+offsets:81,79,200,200
+Comp 1_00001
+bounds:1034,220,48,44
+offsets:81,79,200,200
+Comp 1_00002
+bounds:1034,220,48,44
+offsets:81,79,200,200
+Comp 1_00003
+bounds:123,336,102,105
+offsets:54,50,200,200
+Comp 1_00004
+bounds:123,336,102,105
+offsets:54,50,200,200
+Comp 1_00005
+bounds:726,40,129,125
+offsets:41,39,200,200
+Comp 1_00006
+bounds:726,40,129,125
+offsets:41,39,200,200
+Comp 1_00007
+bounds:726,40,129,125
+offsets:41,39,200,200
+Comp 1_00008
+bounds:571,18,156,153
+offsets:24,22,200,200
+rotate:90
+Comp 1_00009
+bounds:571,18,156,153
+offsets:24,22,200,200
+rotate:90
+Comp 1_00010
+bounds:571,18,156,153
+offsets:24,22,200,200
+rotate:90
+Comp 1_00011
+bounds:571,18,156,153
+offsets:24,22,200,200
+rotate:90
+Comp 1_00012
+bounds:657,176,156,146
+offsets:24,26,200,200
+rotate:90
+Comp 1_00013
+bounds:657,176,156,146
+offsets:24,26,200,200
+rotate:90
+Comp 1_00014
+bounds:657,176,156,146
+offsets:24,26,200,200
+rotate:90
+Comp 1_00015
+bounds:657,176,156,146
+offsets:24,26,200,200
+rotate:90
+Comp 1_00016
+bounds:657,176,156,146
+offsets:24,26,200,200
+rotate:90
+Comp 1_00017
+bounds:503,176,158,152
+offsets:20,26,200,200
+rotate:90
+Comp 1_00018
+bounds:503,176,158,152
+offsets:20,26,200,200
+rotate:90
+Comp 1_00019
+bounds:503,176,158,152
+offsets:20,26,200,200
+rotate:90
+Comp 1_00020
+bounds:503,176,158,152
+offsets:20,26,200,200
+rotate:90
+Comp 1_00021
+bounds:503,176,158,152
+offsets:20,26,200,200
+rotate:90
+Comp 1_00022
+bounds:413,16,158,156
+offsets:16,25,200,200
+rotate:90
+Comp 1_00023
+bounds:413,16,158,156
+offsets:16,25,200,200
+rotate:90
+Comp 1_00024
+bounds:413,16,158,156
+offsets:16,25,200,200
+rotate:90
+Comp 1_00025
+bounds:413,16,158,156
+offsets:16,25,200,200
+rotate:90
+Comp 1_00026
+bounds:413,16,158,156
+offsets:16,25,200,200
+rotate:90
+Group 1
+bounds:857,64,101,100
+offsets:1,1,103,102
+rotate:90
+Layer 118
+bounds:1076,180,60,38
+offsets:1,1,63,41
+Layer 119
+bounds:2,362,28,16
+offsets:1,1,31,18
+circle
+bounds:330,257,171,171
+man_1
+bounds:883,195,89,97
+offsets:1,1,91,99
+man_10
+bounds:42,400,14,12
+offsets:1,2,16,15
+man_11
+bounds:22,429,10,12
+offsets:1,1,12,14
+man_12
+bounds:857,14,52,48
+offsets:1,1,54,50
+man_13
+bounds:2,427,18,14
+offsets:1,1,20,16
+man_2
+bounds:1070,82,80,96
+offsets:0,0,80,97
+man_2a
+bounds:1011,8,100,73
+offsets:1,1,102,74
+man_3
+bounds:197,94,81,75
+man_3a
+bounds:2,139,72,86
+offsets:1,0,73,86
+man_4
+bounds:822,373,68,180
+offsets:0,5,68,185
+rotate:270
+man_5
+bounds:365,15,46,50
+man_6
+bounds:96,272,86,54
+offsets:1,1,88,56
+man_7
+bounds:920,3,87,123
+rotate:90
+man_7a
+bounds:950,245,126,85
+offsets:1,0,128,85
+rotate:90
+man_8
+bounds:974,142,106,89
+rotate:270
+man_8a
+bounds:968,88,83,112
+offsets:0,1,84,113
+man_9
+bounds:992,301,136,158
+offsets:0,1,136,160
+rotate:270
+man_body
+bounds:2,4,217,437
+man_body copy
+bounds:706,167,192,247
+man_body copy 3
+bounds:197,2,439,215
+offsets:0,9,439,224
+rotate:270
+star
+bounds:2,380,38,38

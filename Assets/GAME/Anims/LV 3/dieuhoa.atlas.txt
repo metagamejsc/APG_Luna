@@ -1,0 +1,13 @@
+dieuhoa.png
+size:364,304
+filter:Linear,Linear
+pma:true
+fan
+bounds:223,44,118,118
+offsets:1,1,120,120
+fan_
+bounds:223,164,137,137
+offsets:1,1,139,139
+fan_0
+bounds:2,2,219,299
+offsets:1,1,221,301

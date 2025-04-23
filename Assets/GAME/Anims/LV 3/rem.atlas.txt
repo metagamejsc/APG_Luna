@@ -1,0 +1,6 @@
+rem.png
+size:544,452
+filter:Linear,Linear
+pma:true
+rem
+bounds:2,2,537,446
