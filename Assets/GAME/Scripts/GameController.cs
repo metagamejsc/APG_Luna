@@ -31,21 +31,22 @@ public class GameController : MonoBehaviour
             collider.enabled = false;
         }
     }
-    public void EnableUpgrade(string name)
-    {
-        if (name == "Mom")
-        {
-            if (isUpgrade) return;
-            isUpgrade = true;
-            foreach (var collider in colliders)
-            {
-                collider.enabled = true;
-            }
-        }
-        else if (name == "House")
-        {
 
-            OnUpgradePhase2?.Invoke();
-        }
-    }
-}
+    // public void EnableUpgrade(string name)
+    // {
+    //     if (name == "Mom")
+    //     {
+    //         if (isUpgrade) return;
+    //         isUpgrade = true;
+    //         foreach (var collider in colliders)
+    //         {
+    //             collider.enabled = true;
+    //         }
+    //     }
+    //     else if (name == "House")
+    //     {
+
+    //         OnUpgradePhase2?.Invoke();
+    //     }
+
+}// 

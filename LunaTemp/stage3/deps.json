@@ -23,12 +23,17 @@
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DraggableItem.cs",
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DropZone.cs",
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/LunaManager.cs",
-      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/IQFill.cs",
-      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/GameController.cs"
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/GameController.cs",
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/Lv2/IQFill.cs"
     ],
     [
-      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/EventSystem/EventManager.cs",
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/EventSystem/EventManager.cs"
+    ],
+    [
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/EventSystem/GameEvent.cs"
+    ],
+    [
+      "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/Lv3/ClickItem.cs"
     ],
     [
       "D:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs"

@@ -3,50 +3,61 @@ using UnityEngine.UI;
 
 public class DropZone : MonoBehaviour
 {
-    public GameObject[] steps;
-    public bool isActive = false;
-    public Sprite spriteUpgrade;
-
-
-
-    private int currentStep = 0;
-    private BoxCollider2D boxCollider;
+    // public GameObject[] steps;
+    //public bool isActive = false;
+    //public Sprite spriteUpgrade;
+    //private int currentStep = 0;
+    public GameObject humman;
+    public GameObject[] stairPrefabs;
+    public Transform tranHoder;
+    private Collider2D collider2d;
 
     void Awake()
     {
-        boxCollider = GetComponent<BoxCollider2D>();
-        boxCollider.enabled = true;
-        currentStep = 0;
+        collider2d = GetComponent<Collider2D>();
+        collider2d.enabled = true;
+        //currentStep = 0;
         NextStep();
     }
-    public void DragMoney()
+    public void DragOn(int id)
     {
-        currentStep++;
-        NextStep();
-        CheckDone();
-        Upgrade();
         LunaManager.ins.CountPlay();
+
+        GameObject v = Instantiate(stairPrefabs[id], tranHoder.position, Quaternion.identity, tranHoder);
+        if (humman != null)
+        {
+            humman.transform.SetParent(v.transform, true);
+
+            // Optionally reset local position if needed
+            humman.transform.localPosition = Vector3.zero;
+        }
+
+        //currentStep++;
+        //NextStep();
+        //CheckDone();
+        //Upgrade();
+
     }
     void Upgrade()
     {
-        if (!isActive) return;
-        isActive = false;
-        GameController.instance.EnableUpgrade(gameObject.name);
+        // if (!isActive) return;
+        //isActive = false;
+        //GameController.instance.EnableUpgrade(gameObject.name);
     }
     void NextStep()
     {
-        foreach (var step in steps)
-        {
-            step.SetActive(false);
-        }
-        steps[currentStep].SetActive(true);
+        // foreach (var step in steps)
+        // {
+        //     step.SetActive(false);
+        // }
+        // steps[currentStep].SetActive(true);
     }
     void CheckDone()
     {
-        if (currentStep == steps.Length - 1)
-        {
-            boxCollider.enabled = false;
-        }
+        // if (currentStep == steps.Length - 1)
+        // {
+        //     collider2d.enabled = false;
+        // }
     }
     void OnEnable()
     {
@@ -59,14 +70,14 @@ public class DropZone : MonoBehaviour
     }
     public void EventUpgrade()
     {
-        print($"EventUpgrade called on {gameObject.name}");
-        if (spriteUpgrade != null && steps[0].gameObject.GetComponent<Image>() != null)
-        {
-            steps[0].gameObject.GetComponent<Image>().sprite = spriteUpgrade;
-        }
+        // print($"EventUpgrade called on {gameObject.name}");
+        // if (spriteUpgrade != null && steps[0].gameObject.GetComponent<Image>() != null)
+        // {
+        //     steps[0].gameObject.GetComponent<Image>().sprite = spriteUpgrade;
+        // }
     }
-    public int GetCurrentStep()
-    {
-        return currentStep;
-    }
+    // public int GetCurrentStep()
+    // {
+    //     return currentStep;
+    // }
 }

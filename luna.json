@@ -2,7 +2,7 @@
     "version": "6.0.0",
     "projectId": "cc2b1186a2056e546bb13add5b988034",
     "applicationID": 29138,
-    "creativeName": "APG_V01_TrangHT_AnhPD_v2",
+    "creativeName": "APG_V02_TrangHT_AnhPD",
     "pgServer": "EU",
     "window": {
         "‐ ": true
@@ -103,11 +103,9 @@
             ]
         },
         "scenes": [
-            "Assets/Scenes/V2.unity"
+            "Assets/Scenes/V3.unity"
         ],
-        "disabledScenes": [
-            "Assets/Scenes/V1.unity"
-        ],
+        "disabledScenes": [],
         "startupScene": 0,
         "packages": {
             "default": {
@@ -163,8 +161,8 @@
             },
             {
                 "name": "prefabs",
-                "excluded": true,
-                "forceIncluded": false
+                "excluded": false,
+                "forceIncluded": true
             },
             {
                 "name": "mecanim-wasm",
@@ -2415,10 +2413,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.PolygonCollider2D",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.SphereCollider",
                 "excluded": true
             },
@@ -4448,7 +4442,7 @@
             },
             {
                 "name": "UnityEngine.RectTransform.Edge",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.RemoteNotificationType",
@@ -6195,10 +6189,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.UI.LayoutGroup",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.UI.Shadow",
                 "excluded": true
             },
@@ -6208,10 +6198,6 @@
             },
             {
                 "name": "UnityEngine.UI.Dropdown",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.UI.GridLayoutGroup",
                 "excluded": true
             },
             {
@@ -6312,15 +6298,15 @@
             },
             {
                 "name": "UnityEngine.UI.GridLayoutGroup.Axis",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.UI.GridLayoutGroup.Constraint",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.UI.GridLayoutGroup.Corner",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.UI.IClipper",
@@ -6468,7 +6454,7 @@
             },
             {
                 "name": "UnityEngine.UI.ILayoutSelfController",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.UI.ILayoutGroup",
@@ -17118,7 +17104,7 @@
                     },
                     {
                         "name": "SetParent",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "DetachChildren",
@@ -18082,7 +18068,7 @@
                     },
                     {
                         "name": "anchorMax#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "anchorMin#get",
@@ -18090,7 +18076,7 @@
                     },
                     {
                         "name": "anchorMin#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "offsetMin#get",
@@ -18130,7 +18116,7 @@
                     },
                     {
                         "name": "sizeDelta#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "rect#get",
@@ -18170,7 +18156,7 @@
                     },
                     {
                         "name": "SetInsetAndSizeFromParentEdge",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ForceUpdateRectTransforms",
@@ -18866,7 +18852,7 @@
                     },
                     {
                         "name": "color#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -19142,7 +19128,7 @@
                     },
                     {
                         "name": "type#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "fillMethod#get",
@@ -19182,7 +19168,7 @@
                     },
                     {
                         "name": "fillAmount#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "preserveAspect#get",
@@ -19306,11 +19292,11 @@
                     },
                     {
                         "name": "CalculateLayoutInputHorizontal",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "CalculateLayoutInputVertical",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetNativeSize",
@@ -19340,7 +19326,7 @@
                     },
                     {
                         "name": "texture#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "mainTexture#get",
@@ -20070,7 +20056,7 @@
                     },
                     {
                         "name": "GetEnumerator",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "System$Collections$Generic$IEnumerable$1$GetEnumerator",
@@ -20212,27 +20198,27 @@
                     },
                     {
                         "name": "init",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "$ctor1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Dispose",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "VerifyState",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "moveNext",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "System$Collections$IEnumerator$reset",
@@ -22712,7 +22698,7 @@
                     },
                     {
                         "name": "Clear",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetTexture",
@@ -23222,7 +23208,7 @@
                     },
                     {
                         "name": "RegisterCanvasElementForLayoutRebuild",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "RegisterCanvasElementForGraphicRebuild",
@@ -23668,11 +23654,11 @@
                     },
                     {
                         "name": "Allocate",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "MarkLayoutRootForRebuild",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "HasValidLayoutController",
@@ -23684,7 +23670,7 @@
                     },
                     {
                         "name": "LayoutComplete",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GraphicUpdateComplete",
@@ -23696,23 +23682,23 @@
                     },
                     {
                         "name": "Rebuild",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PerformCalculateLayoutInputHorizontal",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PerformCalculateLayoutInputVertical",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PerformSetLayoutHorizontal",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PerformSetLayoutVertical",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -24485,15 +24471,7 @@
                 "staticMethods": [],
                 "instanceMethods": [
                     {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
                         "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "DragMoney",
                         "excluded": false
                     },
                     {
@@ -24519,6 +24497,10 @@
                     {
                         "name": "EventUpgrade",
                         "excluded": false
+                    },
+                    {
+                        "name": "DragOn",
+                        "excluded": false
                     }
                 ]
             },
@@ -24540,10 +24522,6 @@
                     },
                     {
                         "name": "InitFirst",
-                        "excluded": false
-                    },
-                    {
-                        "name": "EnableUpgrade",
                         "excluded": false
                     }
                 ]
@@ -24830,7 +24808,7 @@
                     },
                     {
                         "name": "Dispose",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -25326,7 +25304,7 @@
                     },
                     {
                         "name": "OnDestroy",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Rebuild",
@@ -25406,7 +25384,7 @@
                     },
                     {
                         "name": "Clear",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "TrimRenderers",
@@ -25438,7 +25416,7 @@
                     },
                     {
                         "name": "DisposeMeshBuffers",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "UpdateMeshSingleCanvasRenderer",
@@ -25478,7 +25456,7 @@
                     },
                     {
                         "name": "DestroyMeshes",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "EnsureSeparatorPartCount",
@@ -27456,23 +27434,23 @@
                 "instanceMethods": [
                     {
                         "name": "FromPaddings",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "vertical#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "horizontal#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "$ctor1",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -30910,7 +30888,7 @@
                     },
                     {
                         "name": "SetupField",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -31128,6 +31106,324 @@
                     },
                     {
                         "name": "reset",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "IQFill",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "InitializeFill",
+                        "excluded": false
+                    },
+                    {
+                        "name": "UpdateFillAmount",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ResetFill",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDestroy",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.PolygonCollider2D",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "m_Points#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "m_Points#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "points#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "points#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "pathCount#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "pathCount#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetPath",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetPath$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetPath",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetTotalPointCount",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.LayoutGroup",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "childAlignment#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childAlignment#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "padding#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "padding#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "preferredWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "flexibleWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "preferredHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "flexibleHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "layoutPriority#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "rectChildren#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "rectTransform#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "isRootLayoutGroup#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CalculateLayoutInputHorizontal",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetChildAlongAxis",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetChildAlongAxis$1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetLayoutInputForAxis",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetStartOffset",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetAlignmentOnAxis",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetTotalMinSize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetTotalPreferredSize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetTotalFlexibleSize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetProperty",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnTransformChildrenChanged",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnRectTransformDimensionsChange",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDidApplyAnimationProperties",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetDirty",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DelayedSetDirty",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.GridLayoutGroup",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "startCorner#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "startCorner#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "startAxis#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "startAxis#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "cellSize#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "cellSize#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "spacing#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "spacing#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "constraint#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "constraint#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "constraintCount#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "constraintCount#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalculateLayoutInputHorizontal",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalculateLayoutInputVertical",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetLayoutHorizontal",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetLayoutVertical",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetCellsAlongAxis",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "ClickItem",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ClickFunc",
+                        "excluded": false
+                    },
+                    {
+                        "name": "NextStep",
                         "excluded": true
                     }
                 ]
