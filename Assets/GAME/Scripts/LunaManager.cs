@@ -41,7 +41,7 @@ public class LunaManager : MonoBehaviour
         EndCard.SetActive(false);
         SetupField();
         Invoke(nameof(ShowEndCard), timeDropFinal);
-        countPlayFinal = Mathf.Min(countPlayFinal, 7f);
+        countPlayFinal = Mathf.Min(countPlayFinal, 5f);
     }
     public void SetupField()
     {
