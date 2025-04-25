@@ -1475,7 +1475,7 @@ Deserializers.productName = "My project";
 
 Deserializers.lunaInitializationTime = "04/15/2025 07:07:05";
 
-Deserializers.lunaDaysRunning = "9.1";
+Deserializers.lunaDaysRunning = "9.8";
 
 Deserializers.lunaVersion = "6.0.0";
 
@@ -1531,7 +1531,7 @@ Deserializers.preferWebGl2 = false;
 
 Deserializers.linearColorSpace = true;
 
-Deserializers.buildID = "814c5681-2d19-4079-b5d5-0fb39bd5e289";
+Deserializers.buildID = "bc8ba823-b678-4bae-be48-bb4ec9488475";
 
 Deserializers.runtimeInitializeOnLoadInfos = [[["UnityEngine","Experimental","Rendering","ScriptableRuntimeReflectionSystemSettings","ScriptingDirtyReflectionSystemInstance"]],[["Unity","VisualScripting","RuntimeVSUsageUtility","RuntimeInitializeOnLoadBeforeSceneLoad"]],[["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"]],[],[["Spine","Unity","AttachmentTools","AtlasUtilities","Init"]]];
 
