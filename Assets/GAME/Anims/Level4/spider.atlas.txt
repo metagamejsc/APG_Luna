@@ -1,0 +1,16 @@
+spider.png
+size:356,188
+filter:Linear,Linear
+pma:true
+Group 4 copy 19
+bounds:219,49,137,133
+offsets:4,4,145,141
+rotate:90
+spider
+bounds:219,2,46,45
+offsets:1,1,48,47
+web
+bounds:2,21,215,165
+web_
+bounds:2,6,13,154
+rotate:90

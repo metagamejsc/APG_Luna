@@ -1,0 +1,27 @@
+haugai.png
+size:140,872
+filter:Linear,Linear
+pma:true
+Group 4 copy 19
+bounds:2,395,137,133
+offsets:4,4,145,141
+rotate:90
+choi
+bounds:44,54,71,112
+g1
+bounds:27,2,106,82
+rotate:180
+g2
+bounds:2,113,110,87
+rotate:180
+g3
+bounds:2,534,121,333
+g4
+bounds:2,180,88,213
+offsets:0,0,88,215
+g5
+bounds:87,200,38,98
+offsets:0,0,38,99
+g7
+bounds:2,861,13,6
+offsets:1,1,15,8

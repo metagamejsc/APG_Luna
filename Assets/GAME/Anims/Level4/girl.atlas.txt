@@ -1,0 +1,129 @@
+girl.png
+size:280,1100
+filter:Linear,Linear
+pma:true
+Group 4 copy 19
+bounds:2,317,137,133
+offsets:4,4,145,141
+cry1/Comp 1_00000
+bounds:2,135,91,47
+offsets:4,18,100,100
+cry1/Comp 1_00001
+bounds:2,135,91,47
+offsets:4,18,100,100
+cry1/Comp 1_00002
+bounds:2,135,91,47
+offsets:4,18,100,100
+cry1/Comp 1_00003
+bounds:228,415,95,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00004
+bounds:228,415,95,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00005
+bounds:2,905,95,47
+offsets:2,18,100,100
+rotate:90
+cry1/Comp 1_00006
+bounds:2,905,95,47
+offsets:2,18,100,100
+rotate:90
+cry1/Comp 1_00007
+bounds:2,905,95,47
+offsets:2,18,100,100
+rotate:90
+cry1/Comp 1_00008
+bounds:2,1002,95,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00009
+bounds:2,1002,95,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00010
+bounds:151,153,91,47
+offsets:4,18,100,100
+cry1/Comp 1_00011
+bounds:151,153,91,47
+offsets:4,18,100,100
+cry1/Comp 1_00012
+bounds:168,251,95,47
+offsets:3,18,100,100
+cry1/Comp 1_00013
+bounds:168,251,95,47
+offsets:3,18,100,100
+cry1/Comp 1_00014
+bounds:168,251,95,47
+offsets:3,18,100,100
+cry1/Comp 1_00015
+bounds:160,202,95,47
+offsets:2,18,100,100
+cry1/Comp 1_00016
+bounds:160,202,95,47
+offsets:2,18,100,100
+cry1/Comp 1_00017
+bounds:93,55,88,47
+offsets:4,18,100,100
+cry1/Comp 1_00018
+bounds:93,55,88,47
+offsets:4,18,100,100
+cry1/Comp 1_00019
+bounds:93,55,88,47
+offsets:4,18,100,100
+cry1/Comp 1_00020
+bounds:2,86,89,47
+offsets:3,18,100,100
+cry1/Comp 1_00021
+bounds:2,86,89,47
+offsets:3,18,100,100
+cry1/Comp 1_00022
+bounds:95,104,90,47
+offsets:3,18,100,100
+cry1/Comp 1_00023
+bounds:95,104,90,47
+offsets:3,18,100,100
+cry1/Comp 1_00027
+bounds:95,104,90,47
+offsets:3,18,100,100
+cry1/Comp 1_00024
+bounds:187,104,89,47
+offsets:4,18,100,100
+cry1/Comp 1_00025
+bounds:187,104,89,47
+offsets:4,18,100,100
+cry1/Comp 1_00026
+bounds:187,104,89,47
+offsets:4,18,100,100
+girl1
+bounds:3,182,165,141
+rotate:180
+girl11
+bounds:124,499,126,217
+girl12
+bounds:76,2,136,71
+rotate:180
+girl13
+bounds:207,696,66,149
+girl2
+bounds:51,1088,19,9
+offsets:1,1,21,11
+girl3
+bounds:141,1076,51,10
+offsets:1,1,53,12
+girl4
+bounds:141,1088,52,9
+offsets:1,1,54,11
+girl5
+bounds:2,880,50,23
+offsets:1,2,52,26
+girl6
+bounds:174,867,92,230
+offsets:0,0,94,230
+girl7
+bounds:141,301,115,198
+girl8
+bounds:108,715,107,359
+girl9
+bounds:2,452,138,645

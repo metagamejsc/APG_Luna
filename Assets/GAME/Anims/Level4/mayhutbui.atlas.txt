@@ -1,0 +1,11 @@
+mayhutbui.png
+size:216,108
+filter:Linear,Linear
+pma:true
+decor_2
+bounds:2,2,143,104
+offsets:1,1,145,106
+phone
+bounds:147,18,88,66
+offsets:1,1,90,68
+rotate:90

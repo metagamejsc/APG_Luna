@@ -1,0 +1,25 @@
+boy.png
+size:152,544
+filter:Linear,Linear
+pma:true
+Group 4 copy 19
+bounds:2,73,137,133
+offsets:4,4,145,141
+rotate:90
+kid
+bounds:64,425,78,77
+offsets:1,1,80,79
+kid1
+bounds:78,231,71,173
+offsets:1,0,72,173
+kid2
+bounds:51,504,45,27
+offsets:1,1,47,29
+kid3
+bounds:32,2,37,115
+rotate:90
+kid4
+bounds:2,212,90,330
+kid5
+bounds:2,24,47,123
+rotate:90

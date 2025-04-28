@@ -1,0 +1,126 @@
+baby.png
+size:776,112
+filter:Linear,Linear
+pma:true
+baby1
+bounds:2,2,185,107
+baby2
+bounds:728,61,43,48
+offsets:1,1,45,51
+baby3
+bounds:728,10,36,49
+offsets:1,1,38,51
+cry1/Comp 1_00000
+bounds:483,18,91,47
+offsets:4,18,100,100
+rotate:90
+cry1/Comp 1_00001
+bounds:483,18,91,47
+offsets:4,18,100,100
+rotate:90
+cry1/Comp 1_00002
+bounds:483,18,91,47
+offsets:4,18,100,100
+rotate:90
+cry1/Comp 1_00003
+bounds:385,14,95,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00004
+bounds:385,14,95,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00005
+bounds:336,14,95,47
+offsets:2,18,100,100
+rotate:90
+cry1/Comp 1_00006
+bounds:336,14,95,47
+offsets:2,18,100,100
+rotate:90
+cry1/Comp 1_00007
+bounds:336,14,95,47
+offsets:2,18,100,100
+rotate:90
+cry1/Comp 1_00008
+bounds:287,14,95,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00009
+bounds:287,14,95,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00010
+bounds:434,18,91,47
+offsets:4,18,100,100
+rotate:90
+cry1/Comp 1_00011
+bounds:434,18,91,47
+offsets:4,18,100,100
+rotate:90
+cry1/Comp 1_00012
+bounds:238,14,95,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00013
+bounds:238,14,95,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00014
+bounds:238,14,95,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00015
+bounds:189,14,95,47
+offsets:2,18,100,100
+rotate:90
+cry1/Comp 1_00016
+bounds:189,14,95,47
+offsets:2,18,100,100
+rotate:90
+cry1/Comp 1_00017
+bounds:679,21,88,47
+offsets:4,18,100,100
+rotate:90
+cry1/Comp 1_00018
+bounds:679,21,88,47
+offsets:4,18,100,100
+rotate:90
+cry1/Comp 1_00019
+bounds:679,21,88,47
+offsets:4,18,100,100
+rotate:90
+cry1/Comp 1_00020
+bounds:630,20,89,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00021
+bounds:630,20,89,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00022
+bounds:532,19,90,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00023
+bounds:532,19,90,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00027
+bounds:532,19,90,47
+offsets:3,18,100,100
+rotate:90
+cry1/Comp 1_00024
+bounds:581,20,89,47
+offsets:4,18,100,100
+rotate:90
+cry1/Comp 1_00025
+bounds:581,20,89,47
+offsets:4,18,100,100
+rotate:90
+cry1/Comp 1_00026
+bounds:581,20,89,47
+offsets:4,18,100,100
+rotate:90
+z
+bounds:434,4,12,12

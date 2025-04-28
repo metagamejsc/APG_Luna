@@ -1,0 +1,93 @@
+toilet.png
+size:1952,108
+filter:Linear,Linear
+pma:true
+Comp 1/Comp 1_00000
+bounds:1880,6,70,99
+offsets:59,50,200,200
+Comp 1/Comp 1_00001
+bounds:1880,6,70,99
+offsets:59,50,200,200
+Comp 1/Comp 1_00002
+bounds:1880,6,70,99
+offsets:59,50,200,200
+Comp 1/Comp 1_00003
+bounds:1197,3,75,102
+offsets:57,50,200,200
+Comp 1/Comp 1_00004
+bounds:1120,3,75,102
+offsets:57,50,200,200
+Comp 1/Comp 1_00005
+bounds:1807,2,71,103
+offsets:63,50,200,200
+Comp 1/Comp 1_00006
+bounds:1734,2,71,103
+offsets:63,50,200,200
+Comp 1/Comp 1_00007
+bounds:1734,2,71,103
+offsets:63,50,200,200
+Comp 1/Comp 1_00008
+bounds:846,23,82,102
+offsets:60,50,200,200
+rotate:90
+Comp 1/Comp 1_00009
+bounds:742,23,82,102
+offsets:60,50,200,200
+rotate:90
+Comp 1/Comp 1_00010
+bounds:650,7,90,98
+offsets:56,50,200,200
+Comp 1/Comp 1_00011
+bounds:558,7,90,98
+offsets:56,50,200,200
+Comp 1/Comp 1_00012
+bounds:281,7,91,98
+offsets:60,50,200,200
+Comp 1/Comp 1_00013
+bounds:281,7,91,98
+offsets:60,50,200,200
+Comp 1/Comp 1_00014
+bounds:188,7,91,98
+offsets:60,50,200,200
+Comp 1/Comp 1_00015
+bounds:1657,7,75,98
+offsets:61,51,200,200
+Comp 1/Comp 1_00016
+bounds:1580,7,75,98
+offsets:61,51,200,200
+Comp 1/Comp 1_00017
+bounds:1352,5,76,100
+offsets:57,51,200,200
+Comp 1/Comp 1_00018
+bounds:1274,5,76,100
+offsets:57,51,200,200
+Comp 1/Comp 1_00019
+bounds:1274,5,76,100
+offsets:57,51,200,200
+Comp 1/Comp 1_00020
+bounds:1505,2,73,103
+offsets:60,50,200,200
+Comp 1/Comp 1_00021
+bounds:1430,2,73,103
+offsets:60,50,200,200
+Comp 1/Comp 1_00022
+bounds:1035,5,83,100
+offsets:58,49,200,200
+Comp 1/Comp 1_00023
+bounds:950,5,83,100
+offsets:58,49,200,200
+Comp 1/Comp 1_00024
+bounds:466,6,90,99
+offsets:56,50,200,200
+Comp 1/Comp 1_00025
+bounds:466,6,90,99
+offsets:56,50,200,200
+Comp 1/Comp 1_00026
+bounds:374,6,90,99
+offsets:56,50,200,200
+Comp 1/Comp 1_00027
+bounds:95,7,91,98
+offsets:59,51,200,200
+Comp 1/Comp 1_00028
+bounds:2,7,91,98
+offsets:59,51,200,200

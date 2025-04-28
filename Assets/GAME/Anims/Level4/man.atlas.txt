@@ -1,0 +1,15 @@
+man.png
+size:200,796
+filter:Linear,Linear
+pma:true
+Group 4 copy 19
+bounds:2,52,137,133
+offsets:4,4,145,141
+dad
+bounds:2,187,177,605
+dad1
+bounds:98,136,156,93
+rotate:90
+dad4
+bounds:43,2,154,91
+rotate:180

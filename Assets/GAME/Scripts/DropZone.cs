@@ -3,9 +3,10 @@ using UnityEngine.UI;
 
 public class DropZone : MonoBehaviour
 {
+    public int idDrop = 0;
     public GameObject[] steps;
-    public bool isActive = false;
-    public Sprite spriteUpgrade;
+    //public bool isActive = false;
+    //public Sprite spriteUpgrade;
 
 
 
@@ -24,14 +25,14 @@ public class DropZone : MonoBehaviour
         currentStep++;
         NextStep();
         CheckDone();
-        Upgrade();
+        //Upgrade();
         LunaManager.ins.CountPlay();
     }
     void Upgrade()
     {
-        if (!isActive) return;
-        isActive = false;
-        GameController.instance.EnableUpgrade(gameObject.name);
+        //if (!isActive) return;
+        //isActive = false;
+        //GameController.instance.EnableUpgrade(gameObject.name);
     }
     void NextStep()
     {
@@ -60,10 +61,10 @@ public class DropZone : MonoBehaviour
     public void EventUpgrade()
     {
         print($"EventUpgrade called on {gameObject.name}");
-        if (spriteUpgrade != null && steps[0].gameObject.GetComponent<Image>() != null)
-        {
-            steps[0].gameObject.GetComponent<Image>().sprite = spriteUpgrade;
-        }
+        // if (spriteUpgrade != null && steps[0].gameObject.GetComponent<Image>() != null)
+        // {
+        //     steps[0].gameObject.GetComponent<Image>().sprite = spriteUpgrade;
+        // }
     }
     public int GetCurrentStep()
     {
