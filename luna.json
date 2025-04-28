@@ -2,7 +2,7 @@
     "version": "6.0.0",
     "projectId": "cc2b1186a2056e546bb13add5b988034",
     "applicationID": 29138,
-    "creativeName": "APG_V01_TrangHT_AnhPD_v2",
+    "creativeName": "APG_V03_TrangHT_AnhPD",
     "pgServer": "EU",
     "window": {
         "‐ ": true
@@ -103,11 +103,9 @@
             ]
         },
         "scenes": [
-            "Assets/Scenes/V2.unity"
+            "Assets/Scenes/Level4.unity"
         ],
-        "disabledScenes": [
-            "Assets/Scenes/V1.unity"
-        ],
+        "disabledScenes": [],
         "startupScene": 0,
         "packages": {
             "default": {
@@ -6195,10 +6193,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.UI.LayoutGroup",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.UI.Shadow",
                 "excluded": true
             },
@@ -6212,10 +6206,6 @@
             },
             {
                 "name": "UnityEngine.UI.GridLayoutGroup",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.UI.HorizontalOrVerticalLayoutGroup",
                 "excluded": true
             },
             {
@@ -6236,10 +6226,6 @@
             },
             {
                 "name": "UnityEngine.UI.HorizontalLayoutGroup",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.UI.VerticalLayoutGroup",
                 "excluded": true
             },
             {
@@ -6468,7 +6454,7 @@
             },
             {
                 "name": "UnityEngine.UI.ILayoutSelfController",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.UI.ILayoutGroup",
@@ -18866,7 +18852,7 @@
                     },
                     {
                         "name": "color#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -19340,7 +19326,7 @@
                     },
                     {
                         "name": "texture#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "mainTexture#get",
@@ -24519,6 +24505,10 @@
                     {
                         "name": "EventUpgrade",
                         "excluded": false
+                    },
+                    {
+                        "name": "GetCurrentStep",
+                        "excluded": true
                     }
                 ]
             },
@@ -24540,10 +24530,6 @@
                     },
                     {
                         "name": "InitFirst",
-                        "excluded": false
-                    },
-                    {
-                        "name": "EnableUpgrade",
                         "excluded": false
                     }
                 ]
@@ -27456,7 +27442,7 @@
                 "instanceMethods": [
                     {
                         "name": "FromPaddings",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "vertical#get",
@@ -27468,11 +27454,11 @@
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "$ctor1",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -30910,7 +30896,7 @@
                     },
                     {
                         "name": "SetupField",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -31128,6 +31114,292 @@
                     },
                     {
                         "name": "reset",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.LayoutGroup",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "childAlignment#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childAlignment#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "padding#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "padding#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "preferredWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "flexibleWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "preferredHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "flexibleHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "layoutPriority#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "rectChildren#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "rectTransform#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "isRootLayoutGroup#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CalculateLayoutInputHorizontal",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetChildAlongAxis",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetChildAlongAxis$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLayoutInputForAxis",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetStartOffset",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetAlignmentOnAxis",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetTotalMinSize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetTotalPreferredSize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetTotalFlexibleSize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetProperty",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnTransformChildrenChanged",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnRectTransformDimensionsChange",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDidApplyAnimationProperties",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetDirty",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DelayedSetDirty",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.HorizontalOrVerticalLayoutGroup",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "spacing#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "spacing#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childForceExpandWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childForceExpandWidth#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childForceExpandHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childForceExpandHeight#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childControlWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childControlWidth#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childControlHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childControlHeight#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalcAlongAxis",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetChildrenAlongAxis",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetChildSizes",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.VerticalLayoutGroup",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalculateLayoutInputHorizontal",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CalculateLayoutInputVertical",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLayoutHorizontal",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLayoutVertical",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "ClickItem",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ClickFunc",
+                        "excluded": true
+                    },
+                    {
+                        "name": "NextStep",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ActiveStep",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FuncPhone",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "IQFill",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": true
+                    },
+                    {
+                        "name": "InitializeFill",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpdateFillAmount",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ResetFill",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDestroy",
                         "excluded": true
                     }
                 ]
