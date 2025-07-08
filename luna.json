@@ -2,7 +2,7 @@
     "version": "6.0.0",
     "projectId": "cc2b1186a2056e546bb13add5b988034",
     "applicationID": 29138,
-    "creativeName": "APG_V03_TrangHT_AnhPD",
+    "creativeName": "APG_V04_TrangHT_AnhPD",
     "pgServer": "EU",
     "window": {
         "‐ ": true
@@ -96,7 +96,8 @@
                 "Stubs/AppsFlyer",
                 "Stubs/IronSource",
                 "Stubs/Vungle",
-                "Stubs/MoreMountains.NiceVibrations"
+                "Stubs/MoreMountains.NiceVibrations",
+                "Assets/GAME/Audios/Sound/tornado-sound-29406.mp3"
             ],
             "includes": [
                 "Assets/Resources/DOTweenSettings.asset"
@@ -24483,10 +24484,6 @@
                         "excluded": false
                     },
                     {
-                        "name": "Upgrade",
-                        "excluded": false
-                    },
-                    {
                         "name": "NextStep",
                         "excluded": false
                     },
@@ -24495,19 +24492,15 @@
                         "excluded": false
                     },
                     {
-                        "name": "OnEnable",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnDisable",
-                        "excluded": true
-                    },
-                    {
                         "name": "EventUpgrade",
                         "excluded": false
                     },
                     {
                         "name": "GetCurrentStep",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpgradeStep",
                         "excluded": true
                     }
                 ]
@@ -30224,7 +30217,7 @@
                     },
                     {
                         "name": "SetId$2",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetId",
@@ -31357,12 +31350,8 @@
                         "excluded": true
                     },
                     {
-                        "name": "NextStep",
-                        "excluded": true
-                    },
-                    {
                         "name": "ActiveStep",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "FuncPhone",
@@ -31452,7 +31441,28 @@
                     "script": "",
                     "ext": ""
                 },
-                "overrides": []
+                "overrides": [
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 128,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Audios/Sound/tornado-sound-29406.mp3"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 128,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Audios/Lv4/BG_Gameplay.ogg"
+                    }
+                ]
             },
             "font": {
                 "default": {
