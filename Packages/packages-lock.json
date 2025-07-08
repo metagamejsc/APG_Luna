@@ -220,7 +220,7 @@
       "url": "https://packages.unity.com"
     },
     "uk.lunalabs.luna": {
-      "version": "file:../../../luna_playable_ads_6.0.0/scripts",
+      "version": "file:D:/luna_playable_ads_6.0.0/scripts",
       "depth": 0,
       "source": "local",
       "dependencies": {}
