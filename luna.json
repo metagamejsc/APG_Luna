@@ -2,7 +2,7 @@
     "version": "6.0.0",
     "projectId": "cc2b1186a2056e546bb13add5b988034",
     "applicationID": 29138,
-    "creativeName": "APG_V03_TrangHT_AnhPD",
+    "creativeName": "APG_V04_TrangHT_AnhPD",
     "pgServer": "EU",
     "window": {
         "‐ ": true
@@ -103,7 +103,7 @@
             ]
         },
         "scenes": [
-            "Assets/Scenes/Level4.unity"
+            "Assets/Scenes/Level8.unity"
         ],
         "disabledScenes": [],
         "startupScene": 0,
@@ -24483,10 +24483,6 @@
                         "excluded": false
                     },
                     {
-                        "name": "Upgrade",
-                        "excluded": false
-                    },
-                    {
                         "name": "NextStep",
                         "excluded": false
                     },
@@ -24495,19 +24491,15 @@
                         "excluded": false
                     },
                     {
-                        "name": "OnEnable",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnDisable",
-                        "excluded": true
-                    },
-                    {
                         "name": "EventUpgrade",
                         "excluded": false
                     },
                     {
                         "name": "GetCurrentStep",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpgradeStep",
                         "excluded": true
                     }
                 ]
@@ -30224,7 +30216,7 @@
                     },
                     {
                         "name": "SetId$2",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetId",
@@ -31357,12 +31349,8 @@
                         "excluded": true
                     },
                     {
-                        "name": "NextStep",
-                        "excluded": true
-                    },
-                    {
                         "name": "ActiveStep",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "FuncPhone",

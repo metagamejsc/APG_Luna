@@ -3,11 +3,13 @@ using UnityEngine;
 public class ClickItem : MonoBehaviour
 {
     public bool isPhone = false;
+    private int currentStep = 0;
     public GameObject[] steps;
-    public int currentStep = 0;
+
     void Start()
     {
         currentStep = 0;
+        ActiveStep();
     }
     public void ClickFunc()
     {
@@ -19,22 +21,30 @@ public class ClickItem : MonoBehaviour
         }
         else
         {
-            ActiveStep(currentStep);
+            currentStep++;
+            ActiveStep();
         }
 
 
     }
-    void NextStep()
+    // void NextStep()
+    // {
+    //     foreach (var step in steps)
+    //     {
+    //         step.SetActive(false);
+    //     }
+    //     steps[currentStep].SetActive(true);
+    // }
+    void ActiveStep()
     {
+
+        if (currentStep >= steps.Length) return;
+
         foreach (var step in steps)
         {
             step.SetActive(false);
         }
         steps[currentStep].SetActive(true);
-    }
-    void ActiveStep(int step)
-    {
-        steps[step].SetActive(true);
     }
     void FuncPhone()
     {

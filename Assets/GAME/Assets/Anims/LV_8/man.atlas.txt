@@ -1,0 +1,75 @@
+man.png
+size:464,1532
+filter:Linear,Linear
+pma:true
+Comp 1_00000
+bounds:204,135,200,200
+Comp 1_00001
+bounds:204,135,200,200
+Comp 1_00002
+bounds:204,135,200,200
+Comp 1_00003
+bounds:2,135,200,200
+Comp 1_00004
+bounds:2,135,200,200
+Comp 1_00012
+bounds:2,135,200,200
+Comp 1_00013
+bounds:2,135,200,200
+Comp 1_00005
+bounds:204,337,200,200
+Comp 1_00014
+bounds:204,337,200,200
+Comp 1_00006
+bounds:2,337,200,200
+Comp 1_00007
+bounds:2,337,200,200
+Comp 1_00015
+bounds:2,337,200,200
+Comp 1_00016
+bounds:2,337,200,200
+Comp 1_00008
+bounds:204,539,200,200
+Comp 1_00009
+bounds:2,539,200,200
+Comp 1_00010
+bounds:2,539,200,200
+Comp 1_00011
+bounds:202,741,200,200
+man1
+bounds:102,6,152,127
+man2
+bounds:295,2,131,143
+rotate:90
+man3
+bounds:407,134,46,92
+man4
+bounds:2,1141,277,389
+man6
+bounds:272,1070,187,460
+man7
+bounds:2,924,167,448
+rotate:90
+man8
+bounds:174,1074,85,175
+man9
+bounds:2,1092,93,133
+offsets:0,9,94,143
+rotate:90
+man_eye_heart1
+bounds:231,1251,29,24
+offsets:3,3,35,30
+man_face 1
+bounds:2,1207,59,37
+offsets:1,1,61,39
+man_mouth_2
+bounds:2,1499,41,31
+offsets:1,1,43,33
+man_mouth_3
+bounds:45,1513,39,17
+offsets:1,2,41,20
+man_mouth_4
+bounds:2,25,98,108
+offsets:14,18,145,142
+z
+bounds:227,8,64,57

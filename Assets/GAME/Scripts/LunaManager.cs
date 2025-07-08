@@ -11,6 +11,7 @@ public class LunaManager : MonoBehaviour
     public int countPlay = 0;
 
     [LunaPlaygroundField("CountDrop")] public float countPlayFinal;
+    public float countPlayMax = 8f;
     [LunaPlaygroundField("TimeDrop")] public float timeDropFinal;
     //---------------------------------
     [LunaPlaygroundField("ColorBG")] public Color colorBG;
@@ -41,7 +42,7 @@ public class LunaManager : MonoBehaviour
         EndCard.SetActive(false);
         SetupField();
         Invoke(nameof(ShowEndCard), timeDropFinal);
-        countPlayFinal = Mathf.Min(countPlayFinal, 8f);
+        countPlayFinal = Mathf.Min(countPlayFinal, countPlayMax);
     }
     public void SetupField()
     {

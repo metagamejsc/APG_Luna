@@ -5,8 +5,7 @@ public class DropZone : MonoBehaviour
 {
     public int idDrop = 0;
     public GameObject[] steps;
-    //public bool isActive = false;
-    //public Sprite spriteUpgrade;
+    public bool isWoman = false;
 
 
 
@@ -25,14 +24,13 @@ public class DropZone : MonoBehaviour
         currentStep++;
         NextStep();
         CheckDone();
-        //Upgrade();
+        UpgradeStep();
         LunaManager.ins.CountPlay();
     }
-    void Upgrade()
+    void UpgradeStep()
     {
-        //if (!isActive) return;
-        //isActive = false;
-        //GameController.instance.EnableUpgrade(gameObject.name);
+        if (!isWoman) return;
+        idDrop++;
     }
     void NextStep()
     {
@@ -49,15 +47,15 @@ public class DropZone : MonoBehaviour
             boxCollider.enabled = false;
         }
     }
-    void OnEnable()
-    {
-        GameController.OnUpgradePhase2 += EventUpgrade;
-    }
+    // void OnEnable()
+    // {
+    //     GameController.OnUpgradePhase2 += EventUpgrade;
+    // }
 
-    void OnDisable()
-    {
-        GameController.OnUpgradePhase2 -= EventUpgrade;
-    }
+    // void OnDisable()
+    // {
+    //     GameController.OnUpgradePhase2 -= EventUpgrade;
+    // }
     public void EventUpgrade()
     {
         print($"EventUpgrade called on {gameObject.name}");

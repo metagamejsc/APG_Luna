@@ -1,0 +1,12 @@
+tv.png
+size:364,624
+filter:Linear,Linear
+pma:true
+TV
+bounds:2,384,360,235
+offsets:1,1,362,237
+screenshot_TV_1
+bounds:2,192,346,190
+screenshot_TV_2
+bounds:2,2,344,188
+offsets:1,1,346,190

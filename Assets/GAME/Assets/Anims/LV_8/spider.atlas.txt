@@ -1,0 +1,8 @@
+spider.png
+size:548,248
+filter:Linear,Linear
+pma:true
+day
+bounds:538,161,7,82
+spider_web
+bounds:2,2,534,241
