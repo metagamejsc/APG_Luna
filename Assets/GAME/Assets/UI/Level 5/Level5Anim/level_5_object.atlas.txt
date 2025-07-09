@@ -1,0 +1,16 @@
+level_5_object.png
+size:880,472
+filter:Linear,Linear
+pma:true
+Door1
+bounds:2,2,96,875
+rotate:90
+Door2
+bounds:2,99,96,875
+rotate:90
+light_break
+bounds:664,179,130,131
+offsets:1,1,132,133
+light_break_ef
+bounds:2,197,390,273
+offsets:111,243,612,521

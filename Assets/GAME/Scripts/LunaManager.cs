@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,6 +17,9 @@ public class LunaManager : MonoBehaviour
     [LunaPlaygroundField("ColorBG")] public Color colorBG;
     [LunaPlaygroundAsset("BG")] public Texture2D texture2D;
     public RawImage rawImageBG;
+    public GameObject StartCard;
+    public TextMeshProUGUI textTarget;
+    public Image imgCircle;
     //---------------------------------
 
     // [LunaPlaygroundAsset("LogoGame")] public Texture2D logoGame;
@@ -41,11 +45,13 @@ public class LunaManager : MonoBehaviour
         EndCard.SetActive(false);
         SetupField();
         Invoke(nameof(ShowEndCard), timeDropFinal);
+        StartCard.SetActive(true);
     }
     public void SetupField()
     {
         rawImageBG.texture = texture2D;
         rawImageBG.color = colorBG;
+        UpdateTextCircle();
         // rawImageTable.texture = textureTable;
         // rawImageTable.color = colorTable;
         // imgRawLogoGame.texture = logoGame;
@@ -53,11 +59,18 @@ public class LunaManager : MonoBehaviour
     public void CountPlay()
     {
         countPlay++;
+        UpdateTextCircle();
         GameController.instance.IQFill.AddValue();
         if (countPlay >= countPlayFinal)
         {
             ShowEndCard();
         }
+    }
+    void UpdateTextCircle()
+    {
+        int all = 11;
+        imgCircle.fillAmount = (float)countPlay / all;
+        textTarget.text = $"{countPlay}/{all}";
     }
 
     // Update is called once per frame

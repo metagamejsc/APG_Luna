@@ -1,0 +1,14 @@
+level_5_curtain.png
+size:296,724
+filter:Linear,Linear
+pma:true
+1_new
+bounds:2,2,265,359
+1_old
+bounds:2,363,265,359
+2_new
+bounds:269,295,291,25
+rotate:90
+2_old
+bounds:269,2,291,25
+rotate:90

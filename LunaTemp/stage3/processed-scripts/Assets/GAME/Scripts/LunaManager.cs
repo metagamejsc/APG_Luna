@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,28 +8,23 @@ public class LunaManager : MonoBehaviour
     public GameObject EndCard;
 
     //----------------------------------LUNA----------------------------
-    [Space(10)]
-    [Header("__________________________________")]
-    [Space(10)]
+
     public int countPlay = 0;
 
-    [LunaPlaygroundField("CountDrop")]
-    public float countPlayFinal;
-    [LunaPlaygroundField("TimeDrop")]
-    public float timeDropFinal;
-    [Space(10)]
-    [Header("__________________________________")]
-    [Space(10)]
-    [LunaPlaygroundField("BG")] public Texture2D bgSprite;
-    public RawImage imgBG;
+    [LunaPlaygroundField("CountDrop")] public float countPlayFinal;
+    [LunaPlaygroundField("TimeDrop")] public float timeDropFinal;
+    //---------------------------------
     [LunaPlaygroundField("ColorBG")] public Color colorBG;
-    [Space(10)]
-    [Header("__________________________________")]
+    [LunaPlaygroundAsset("BG")] public Texture2D texture2D;
+    public RawImage rawImageBG;
+    public GameObject StartCard;
+    public TextMeshProUGUI textTarget;
+    public Image imgCircle;
+    //---------------------------------
 
     // [LunaPlaygroundAsset("LogoGame")] public Texture2D logoGame;
     // public RawImage imgRawLogoGame;
-    // [Space(10)]
-    // [Header("__________________________________")]
+    //---------------------------------
     //----------------------------------LUNA----------------------------
     public static LunaManager ins;
     private void Awake()
@@ -49,15 +45,32 @@ public class LunaManager : MonoBehaviour
         EndCard.SetActive(false);
         SetupField();
         Invoke(nameof(ShowEndCard), timeDropFinal);
+        StartCard.SetActive(true);
+    }
+    public void SetupField()
+    {
+        rawImageBG.texture = texture2D;
+        rawImageBG.color = colorBG;
+        UpdateTextCircle();
+        // rawImageTable.texture = textureTable;
+        // rawImageTable.color = colorTable;
+        // imgRawLogoGame.texture = logoGame;
     }
     public void CountPlay()
     {
         countPlay++;
+        UpdateTextCircle();
         GameController.instance.IQFill.AddValue();
         if (countPlay >= countPlayFinal)
         {
             ShowEndCard();
         }
+    }
+    void UpdateTextCircle()
+    {
+        int all = 11;
+        imgCircle.fillAmount = (float)countPlay / all;
+        textTarget.text = $"{countPlay}/{all}";
     }
 
     // Update is called once per frame
@@ -87,11 +100,6 @@ public class LunaManager : MonoBehaviour
         Luna.Unity.Playable.InstallFullGame();
     }
 
-    public void SetupField()
-    {
-        imgBG.texture = bgSprite;
-        imgBG.color = colorBG;
-        //imgRawLogoGame.texture = logoGame;
-    }
+
 
 }

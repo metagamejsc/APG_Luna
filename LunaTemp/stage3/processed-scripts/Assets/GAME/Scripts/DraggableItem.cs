@@ -61,6 +61,10 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         {
             if (hit.collider != null && hit.collider.gameObject != gameObject)
             {
+                if (LunaManager.ins != null && LunaManager.ins.StartCard.activeSelf)
+                {
+                    LunaManager.ins.StartCard.SetActive(false);
+                }
                 hit.collider.gameObject.GetComponent<DropZone>().DragMoney();
                 Destroy(gameObject);
             }
