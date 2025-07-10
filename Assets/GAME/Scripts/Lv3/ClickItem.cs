@@ -20,6 +20,10 @@ public class ClickItem : MonoBehaviour
         else
         {
             currentStep++;
+            if (currentStep >= steps.Length)
+            {
+                return;
+            }
             NextStep();
         }
 

@@ -7,10 +7,13 @@ public class DropZone : MonoBehaviour
     //public bool isActive = false;
     //public Sprite spriteUpgrade;
     //private int currentStep = 0;
-    public GameObject humman;
-    public GameObject[] stairPrefabs;
-    public Transform tranHoder;
+    // public GameObject humman;
+    public GameObject[] dancingGOs;
+    public GameObject[] sitGOs;
+    public GameObject[] charmPrefabs;
+    public RectTransform tranDancing;
     private Collider2D collider2d;
+    int currentGirl = -1;
 
     void Awake()
     {
@@ -22,15 +25,25 @@ public class DropZone : MonoBehaviour
     public void DragOn(int id)
     {
         LunaManager.ins.CountPlay();
+        LunaManager.ins.OnCLickStart();
 
-        GameObject v = Instantiate(stairPrefabs[id], tranHoder.position, Quaternion.identity, tranHoder);
-        if (humman != null)
-        {
-            humman.transform.SetParent(v.transform, true);
+        currentGirl++;
+        dancingGOs[currentGirl].SetActive(false);
+        sitGOs[currentGirl].SetActive(true);
+        GameObject v = Instantiate(charmPrefabs[id], charmPrefabs[id].transform.position, Quaternion.identity, sitGOs[currentGirl].transform);
+        v.transform.localPosition = Vector3.zero;
+        // Move tranDancing down by 50 units using anchoredPosition
+        Vector2 newPosition = tranDancing.anchoredPosition;
+        newPosition.y -= 50f;
+        tranDancing.anchoredPosition = newPosition;
 
-            // Optionally reset local position if needed
-            humman.transform.localPosition = Vector3.zero;
-        }
+        // if (humman != null)
+        // {
+        //     humman.transform.SetParent(v.transform, true);
+
+        //     // Optionally reset local position if needed
+        //     humman.transform.localPosition = Vector3.zero;
+        // }
 
         //currentStep++;
         //NextStep();

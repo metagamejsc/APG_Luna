@@ -16,6 +16,7 @@ public class LunaManager : MonoBehaviour
     [LunaPlaygroundField("ColorBG")] public Color colorBG;
     [LunaPlaygroundAsset("BG")] public Texture2D texture2D;
     public RawImage rawImageBG;
+    public GameObject hand;
     //---------------------------------
 
     // [LunaPlaygroundAsset("LogoGame")] public Texture2D logoGame;
@@ -41,7 +42,14 @@ public class LunaManager : MonoBehaviour
         EndCard.SetActive(false);
         SetupField();
         Invoke(nameof(ShowEndCard), timeDropFinal);
-        countPlayFinal = Mathf.Min(countPlayFinal, 5f);
+        countPlayFinal = Mathf.Min(countPlayFinal, 8f);
+    }
+    public void OnCLickStart()
+    {
+        if (hand.activeInHierarchy)
+        {
+            hand.SetActive(false);
+        }
     }
     public void SetupField()
     {

@@ -1,0 +1,12 @@
+daythung.png
+size:112,48
+filter:Linear,Linear
+pma:true
+man2
+bounds:2,2,43,93
+offsets:1,1,45,95
+rotate:90
+man3
+bounds:97,6,39,12
+offsets:1,1,41,14
+rotate:90
