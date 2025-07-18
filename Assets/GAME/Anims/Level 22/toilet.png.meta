@@ -1,0 +1,4315 @@
+fileFormatVersion: 2
+guid: 9ac9ccdcc39efc94bb16ad248135721b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8243884347342347663
+    second: toilet_0
+  - first:
+      213: -4879703352707559730
+    second: toilet_1
+  - first:
+      213: -1767755706354810716
+    second: toilet_2
+  - first:
+      213: 8784545413129680212
+    second: toilet_3
+  - first:
+      213: -980263191578305854
+    second: toilet_4
+  - first:
+      213: -7442169638290826945
+    second: toilet_5
+  - first:
+      213: 2850165724651844866
+    second: toilet_6
+  - first:
+      213: 516079872443734396
+    second: toilet_7
+  - first:
+      213: -7640796485655589297
+    second: toilet_8
+  - first:
+      213: -6111185143366480876
+    second: toilet_9
+  - first:
+      213: -6487887383901795743
+    second: toilet_10
+  - first:
+      213: 2439168642557662513
+    second: toilet_11
+  - first:
+      213: 8289191118967829659
+    second: toilet_12
+  - first:
+      213: 5798240656780512869
+    second: toilet_13
+  - first:
+      213: -8294632676143200615
+    second: toilet_14
+  - first:
+      213: 6892243810594619774
+    second: toilet_15
+  - first:
+      213: 4257755801800372028
+    second: toilet_16
+  - first:
+      213: -9147948703360120958
+    second: toilet_17
+  - first:
+      213: -717409558092029371
+    second: toilet_18
+  - first:
+      213: 6775405141121481861
+    second: toilet_19
+  - first:
+      213: 4498369278517323963
+    second: toilet_20
+  - first:
+      213: -4397135880917478769
+    second: toilet_21
+  - first:
+      213: -2563192059904315637
+    second: toilet_22
+  - first:
+      213: -7591824069569347513
+    second: toilet_23
+  - first:
+      213: 4298068410195721009
+    second: toilet_24
+  - first:
+      213: 1167422523381616774
+    second: toilet_25
+  - first:
+      213: -5551391307256142331
+    second: toilet_26
+  - first:
+      213: 7168137152458791133
+    second: toilet_27
+  - first:
+      213: -4709988305961636280
+    second: toilet_28
+  - first:
+      213: -6117853141934295014
+    second: toilet_29
+  - first:
+      213: -2735783700307933793
+    second: toilet_30
+  - first:
+      213: 3147978036403715569
+    second: toilet_31
+  - first:
+      213: -8901176141128152130
+    second: toilet_32
+  - first:
+      213: 2086339844303476261
+    second: toilet_33
+  - first:
+      213: -1270859217496593978
+    second: toilet_34
+  - first:
+      213: 3437223062291412421
+    second: toilet_35
+  - first:
+      213: -743937794771247873
+    second: toilet_36
+  - first:
+      213: -1531245235132992730
+    second: toilet_37
+  - first:
+      213: 2638484170929664003
+    second: toilet_38
+  - first:
+      213: -6126899563703894198
+    second: toilet_39
+  - first:
+      213: 301024164178233196
+    second: toilet_40
+  - first:
+      213: -3957591422572061684
+    second: toilet_41
+  - first:
+      213: 6814518922866192164
+    second: toilet_42
+  - first:
+      213: 4443854095005669556
+    second: toilet_43
+  - first:
+      213: -532921188368724704
+    second: toilet_44
+  - first:
+      213: -7622785891892059971
+    second: toilet_45
+  - first:
+      213: 4717832152806579764
+    second: toilet_46
+  - first:
+      213: -1055173726145150766
+    second: toilet_47
+  - first:
+      213: 1653852687380427125
+    second: toilet_48
+  - first:
+      213: -6329451037400359386
+    second: toilet_49
+  - first:
+      213: 1817150410130989142
+    second: toilet_50
+  - first:
+      213: -230153747616146199
+    second: toilet_51
+  - first:
+      213: 5734638416833753137
+    second: toilet_52
+  - first:
+      213: 5160533785556333379
+    second: toilet_53
+  - first:
+      213: -3758249236712138814
+    second: toilet_54
+  - first:
+      213: 6662303385744895766
+    second: toilet_55
+  - first:
+      213: -8854547149943027529
+    second: toilet_56
+  - first:
+      213: 8886424678526993704
+    second: toilet_57
+  - first:
+      213: -1245538567155363872
+    second: toilet_58
+  - first:
+      213: 6479008363289163080
+    second: toilet_59
+  - first:
+      213: -4443813310203873642
+    second: toilet_60
+  - first:
+      213: -2783315095208616680
+    second: toilet_61
+  - first:
+      213: -2570869502386384927
+    second: toilet_62
+  - first:
+      213: -6927435132157229663
+    second: toilet_63
+  - first:
+      213: -843529871743264687
+    second: toilet_64
+  - first:
+      213: -1669392722255899544
+    second: toilet_65
+  - first:
+      213: -4737004070998251979
+    second: toilet_66
+  - first:
+      213: -7606059222920542837
+    second: toilet_67
+  - first:
+      213: -4776171045369574997
+    second: toilet_68
+  - first:
+      213: -1805925773037891180
+    second: toilet_69
+  - first:
+      213: 1373385827375440102
+    second: toilet_70
+  - first:
+      213: -7526847945752201262
+    second: toilet_71
+  - first:
+      213: -56782658401025886
+    second: toilet_72
+  - first:
+      213: -518835028528956175
+    second: toilet_73
+  - first:
+      213: -8760505069155799565
+    second: toilet_74
+  - first:
+      213: -2751142729049495493
+    second: toilet_75
+  - first:
+      213: 3352555668466672330
+    second: toilet_76
+  - first:
+      213: 1570118212691512305
+    second: toilet_77
+  - first:
+      213: -1839417729064074814
+    second: toilet_78
+  - first:
+      213: -8664441633076267293
+    second: toilet_79
+  - first:
+      213: 4159661004324696945
+    second: toilet_80
+  - first:
+      213: 1951313177119229681
+    second: toilet_81
+  - first:
+      213: 4001014784271662088
+    second: toilet_82
+  - first:
+      213: 9024766036483012988
+    second: toilet_83
+  - first:
+      213: 7326939689629550102
+    second: toilet_84
+  - first:
+      213: 1953974248070290808
+    second: toilet_85
+  - first:
+      213: -3990203581143376245
+    second: toilet_86
+  - first:
+      213: 2763281124430456704
+    second: toilet_87
+  - first:
+      213: -7153131039675276743
+    second: toilet_88
+  - first:
+      213: 846706016942163905
+    second: toilet_89
+  - first:
+      213: 704485184472010672
+    second: toilet_90
+  - first:
+      213: 1972488048370016939
+    second: toilet_91
+  - first:
+      213: -1443184582725602031
+    second: toilet_92
+  - first:
+      213: 5084171957435469722
+    second: toilet_93
+  - first:
+      213: -2723989797284639044
+    second: toilet_94
+  - first:
+      213: -3095390058476514137
+    second: toilet_95
+  - first:
+      213: -3721412954192145598
+    second: toilet_96
+  - first:
+      213: 1505271278095526583
+    second: toilet_97
+  - first:
+      213: 1644108984012499951
+    second: toilet_98
+  - first:
+      213: 8339349680592321392
+    second: toilet_99
+  - first:
+      213: 276976499625819273
+    second: toilet_100
+  - first:
+      213: -3416409961933680797
+    second: toilet_101
+  - first:
+      213: 1152289282680501707
+    second: toilet_102
+  - first:
+      213: 1952113979327944628
+    second: toilet_103
+  - first:
+      213: 268492607300431295
+    second: toilet_104
+  - first:
+      213: 6989230139757851783
+    second: toilet_105
+  - first:
+      213: -5143323201625786188
+    second: toilet_106
+  - first:
+      213: 2272303093505022353
+    second: toilet_107
+  - first:
+      213: -3774540826728621960
+    second: toilet_108
+  - first:
+      213: 4202795963576858356
+    second: toilet_109
+  - first:
+      213: 3437087008638981469
+    second: toilet_110
+  - first:
+      213: -2999584642973611233
+    second: toilet_111
+  - first:
+      213: 8241123961206925669
+    second: toilet_112
+  - first:
+      213: 3599398862998992394
+    second: toilet_113
+  - first:
+      213: -5414593338647214397
+    second: toilet_114
+  - first:
+      213: -8435133668653766019
+    second: toilet_115
+  - first:
+      213: 1643542592230126434
+    second: toilet_116
+  - first:
+      213: -2001872542188515714
+    second: toilet_117
+  - first:
+      213: 2725686631256095968
+    second: toilet_118
+  - first:
+      213: -2641083621657248267
+    second: toilet_119
+  - first:
+      213: -5405033442429076089
+    second: toilet_120
+  - first:
+      213: -1928416839510990593
+    second: toilet_121
+  - first:
+      213: -1878696213646418736
+    second: toilet_122
+  - first:
+      213: 6604671798663023487
+    second: toilet_123
+  - first:
+      213: -5493483120509454640
+    second: toilet_124
+  - first:
+      213: 7782542685629962600
+    second: toilet_125
+  - first:
+      213: 841421609204877590
+    second: toilet_126
+  - first:
+      213: -7946624249998613287
+    second: toilet_127
+  - first:
+      213: 2623252341050496695
+    second: toilet_128
+  - first:
+      213: -3879726300844006771
+    second: toilet_129
+  - first:
+      213: 3733921501275706151
+    second: toilet_130
+  - first:
+      213: -3176245599703496017
+    second: toilet_131
+  - first:
+      213: -2177958772870737386
+    second: toilet_132
+  - first:
+      213: 936526812876168787
+    second: toilet_133
+  - first:
+      213: -5439768941535982124
+    second: toilet_134
+  - first:
+      213: 6007833101003271720
+    second: toilet_135
+  - first:
+      213: -592687904228421690
+    second: toilet_136
+  - first:
+      213: 2680580908911348620
+    second: toilet_137
+  - first:
+      213: -3042101700815982881
+    second: toilet_138
+  - first:
+      213: -9025811261056387057
+    second: toilet_139
+  - first:
+      213: 8221190075878109056
+    second: toilet_140
+  - first:
+      213: 1659259970543469199
+    second: toilet_141
+  - first:
+      213: -7235079424150512700
+    second: toilet_142
+  - first:
+      213: -4353413638481379997
+    second: toilet_143
+  - first:
+      213: 4295621986835372256
+    second: toilet_144
+  - first:
+      213: 7457934040275021692
+    second: toilet_145
+  - first:
+      213: -2703009058821709736
+    second: toilet_146
+  - first:
+      213: -8459787917160898618
+    second: toilet_147
+  - first:
+      213: -3847499956688268413
+    second: toilet_148
+  - first:
+      213: -3854745777167334368
+    second: toilet_149
+  - first:
+      213: -5293354778721489263
+    second: toilet_150
+  - first:
+      213: -699108727906799070
+    second: toilet_151
+  - first:
+      213: 7381336487529439838
+    second: toilet_152
+  - first:
+      213: -112111102667254569
+    second: toilet_153
+  - first:
+      213: -6635001799161752417
+    second: toilet_154
+  - first:
+      213: 6596996352648882267
+    second: toilet_155
+  - first:
+      213: 518719789443496672
+    second: toilet_156
+  - first:
+      213: -2429381823531134781
+    second: toilet_157
+  - first:
+      213: 8958336633569875106
+    second: toilet_158
+  - first:
+      213: 1751886858633028298
+    second: toilet_159
+  - first:
+      213: 3533570142980257216
+    second: toilet_160
+  - first:
+      213: -5951367361715651954
+    second: toilet_161
+  - first:
+      213: -3409188612442314100
+    second: toilet_162
+  - first:
+      213: -3196379554592608478
+    second: toilet_163
+  - first:
+      213: 1552957410548114222
+    second: toilet_164
+  - first:
+      213: 3106605333008012893
+    second: toilet_165
+  - first:
+      213: -256744278621523636
+    second: toilet_166
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toilet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 88
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172a1433dd6d79d80800000000000000
+      internalID: -8243884347342347663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece459c87afc74cb0800000000000000
+      internalID: -4879703352707559730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 88
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a04d011d8ba777e0800000000000000
+      internalID: -1767755706354810716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455b1eeb289f8e970800000000000000
+      internalID: 8784545413129680212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 2
+        width: 66
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca959722d76562f0800000000000000
+      internalID: -980263191578305854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 94
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f395a7fe42a18b890800000000000000
+      internalID: -7442169638290826945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2
+        width: 66
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205fdd030a2dd8720800000000000000
+      internalID: 2850165724651844866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 94
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79dcb0e8eb792700800000000000000
+      internalID: 516079872443734396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_8
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2
+        width: 52
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e0277341076f590800000000000000
+      internalID: -7640796485655589297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_9
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 91
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c0ff49d75b03ba0800000000000000
+      internalID: -6111185143366480876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_10
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 2
+        width: 52
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a8bc37cc466f5a0800000000000000
+      internalID: -6487887383901795743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 91
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135dbe605faa9d120800000000000000
+      internalID: 2439168642557662513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_12
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 2
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b947669976f190370800000000000000
+      internalID: 8289191118967829659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 86
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e41ad282d777050800000000000000
+      internalID: 5798240656780512869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_14
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 2
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9960324278b83ec80800000000000000
+      internalID: -8294632676143200615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_15
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 86
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7180e3aa3b26af50800000000000000
+      internalID: 6892243810594619774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_16
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 3
+        width: 71
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f6baad756961b30800000000000000
+      internalID: 4257755801800372028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_17
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 98
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28789b84f15fb0180800000000000000
+      internalID: -9147948703360120958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_18
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 93
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5426473decf3b06f0800000000000000
+      internalID: -717409558092029371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_19
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 3
+        width: 71
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cb6e50413170e50800000000000000
+      internalID: 6775405141121481861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_20
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 98
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb82e82860b6d6e30800000000000000
+      internalID: 4498369278517323963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_21
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 93
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f821acc963c3af2c0800000000000000
+      internalID: -4397135880917478769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_22
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 2
+        width: 68
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f2d42e666bd6cd0800000000000000
+      internalID: -2563192059904315637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_23
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 2
+        width: 68
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7400f006b3c64a690800000000000000
+      internalID: -7591824069569347513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_24
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 2
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b3b0a627ec5ab30800000000000000
+      internalID: 4298068410195721009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_25
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 2
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68093f88994833010800000000000000
+      internalID: 1167422523381616774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_26
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2
+        width: 61
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5066ec1c40f75f2b0800000000000000
+      internalID: -5551391307256142331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_27
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 97
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8169103c65a7360800000000000000
+      internalID: 7168137152458791133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_28
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 2
+        width: 61
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ea9ee1792c2aeb0800000000000000
+      internalID: -4709988305961636280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_29
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 97
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18bffe2bf4091ba0800000000000000
+      internalID: -6117853141934295014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_30
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 2
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9587d8283b880ad0800000000000000
+      internalID: -2735783700307933793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_31
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 2
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd339c685ddfab20800000000000000
+      internalID: 3147978036403715569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_32
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 2
+        width: 56
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbcfd8c57ba87480800000000000000
+      internalID: -8901176141128152130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_33
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 97
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526d374d80b24fc10800000000000000
+      internalID: 2086339844303476261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_34
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 2
+        width: 56
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9a59566400d5ee0800000000000000
+      internalID: -1270859217496593978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_35
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 97
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5f8a9f92873bf20800000000000000
+      internalID: 3437223062291412421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_36
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 2
+        width: 67
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc1ca764800da5f0800000000000000
+      internalID: -743937794771247873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_37
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 62
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62373ef429cefbae0800000000000000
+      internalID: -1531245235132992730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_38
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2
+        width: 61
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300f0c9cf57cd9420800000000000000
+      internalID: 2638484170929664003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_39
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 76
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ffeeafe41e8faa0800000000000000
+      internalID: -6126899563703894198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_40
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 61
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6707a6e1e37d2400800000000000000
+      internalID: 301024164178233196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_41
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 76
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c9573c19fc319c0800000000000000
+      internalID: -3957591422572061684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_42
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 83
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fed900bd8029e50800000000000000
+      internalID: 6814518922866192164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_43
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 83
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b85a7e31cdbbad30800000000000000
+      internalID: 4443854095005669556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_44
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 86
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02dc002b00faa98f0800000000000000
+      internalID: -532921188368724704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_45
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 86
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db02aea5e9c663690800000000000000
+      internalID: -7622785891892059971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_46
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 80
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ed3f9c85b197140800000000000000
+      internalID: 4717832152806579764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_47
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d00bcc26154b51f0800000000000000
+      internalID: -1055173726145150766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_48
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 80
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571b226b14aa3f610800000000000000
+      internalID: 1653852687380427125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_49
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e168cf0d54928a0800000000000000
+      internalID: -6329451037400359386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_50
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650205b9ba0d73910800000000000000
+      internalID: 1817150410130989142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_51
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec5d9dc2645eccf0800000000000000
+      internalID: -230153747616146199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_52
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 79
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1303fa6b147859f40800000000000000
+      internalID: 5734638416833753137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_53
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 81
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343bc73e226ed9740800000000000000
+      internalID: 5160533785556333379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_54
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 79
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7d3643b3408dbc0800000000000000
+      internalID: -3758249236712138814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_55
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 81
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fe43581a1457c50800000000000000
+      internalID: 6662303385744895766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_56
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 86
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8c2b0d7445e1580800000000000000
+      internalID: -8854547149943027529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_57
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 86
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825cddea92ce25b70800000000000000
+      internalID: 8886424678526993704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_58
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 81
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efc7a6b545f6bee0800000000000000
+      internalID: -1245538567155363872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_59
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 77
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845b2a677cf0ae950800000000000000
+      internalID: 6479008363289163080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_60
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 81
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6963525b6576452c0800000000000000
+      internalID: -4443813310203873642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_61
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 77
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d9b14eaadaf59d0800000000000000
+      internalID: -2783315095208616680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_62
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 87
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efcf520fcf625cd0800000000000000
+      internalID: -2570869502386384927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_63
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 74
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5053f437eccdf90800000000000000
+      internalID: -6927435132157229663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_64
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 61
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158df450d0e2b44f0800000000000000
+      internalID: -843529871743264687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_65
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 74
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8649057f92025d8e0800000000000000
+      internalID: -1669392722255899544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_66
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 61
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536e19825e7c24eb0800000000000000
+      internalID: -4737004070998251979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_67
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 73
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85cc357f69d17690800000000000000
+      internalID: -7606059222920542837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_68
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 57
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba98d3e4db1a7bdb0800000000000000
+      internalID: -4776171045369574997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_69
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 73
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4919a5fd31010f6e0800000000000000
+      internalID: -1805925773037891180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_70
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 57
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0e44c222f3f0310800000000000000
+      internalID: 1373385827375440102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_71
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 59
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7bf0b1ca34b8790800000000000000
+      internalID: -7526847945752201262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_72
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 72
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0ca981974463ff0800000000000000
+      internalID: -56782658401025886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_73
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 68
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc708b5a4abcc8f0800000000000000
+      internalID: -518835028528956175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_74
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 69
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fda5f30e0f6c6680800000000000000
+      internalID: -8760505069155799565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_75
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 71
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b382b9c934af1d9d0800000000000000
+      internalID: -2751142729049495493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_76
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 59
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2adac2e9ba68e20800000000000000
+      internalID: 3352555668466672330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_77
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 72
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb49d2123e2ac510800000000000000
+      internalID: 1570118212691512305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_78
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 68
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1849132531976e0800000000000000
+      internalID: -1839417729064074814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_79
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 69
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6326bad38b1c780800000000000000
+      internalID: -8664441633076267293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_80
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 71
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17371d405a51ab930800000000000000
+      internalID: 4159661004324696945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_81
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 68
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f60bbffef4741b10800000000000000
+      internalID: 1951313177119229681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_82
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 68
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c399d7fb5768730800000000000000
+      internalID: 4001014784271662088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_83
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 52
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79749915e86e3d70800000000000000
+      internalID: 9024766036483012988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_84
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 52
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6168413f3d48ea560800000000000000
+      internalID: 7326939689629550102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_85
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 66
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d9d7cd939ed1b10800000000000000
+      internalID: 1953974248070290808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_86
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 66
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e1574ebf2ff98c0800000000000000
+      internalID: -3990203581143376245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_87
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 70
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087283cca85295620800000000000000
+      internalID: 2763281124430456704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_88
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 70
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932a554e739fabc90800000000000000
+      internalID: -7153131039675276743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_89
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 61
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c70609e2aa10cb00800000000000000
+      internalID: 846706016942163905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_90
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 61
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfcaf1fa85d6c900800000000000000
+      internalID: 704485184472010672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_91
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba26cc6ed6faf5b10800000000000000
+      internalID: 1972488048370016939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_92
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 63
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115f151b447c8fbe0800000000000000
+      internalID: -1443184582725602031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_93
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 5
+        width: 101
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f81fb457b9e8640800000000000000
+      internalID: 5084171957435469722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_94
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 67
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe8f0136b1723ad0800000000000000
+      internalID: -2723989797284639044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_95
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 61
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a45b335427fa05d0800000000000000
+      internalID: -3095390058476514137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_96
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 62
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24317d292a2ea5cc0800000000000000
+      internalID: -3721412954192145598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_97
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 5
+        width: 101
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba6b7d804cc3e410800000000000000
+      internalID: 1505271278095526583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_98
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 67
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febe71cf86c01d610800000000000000
+      internalID: 1644108984012499951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_99
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 61
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07bf879c9525bb370800000000000000
+      internalID: 8339349680592321392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_100
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 62
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cf35fa8a408d300800000000000000
+      internalID: 276976499625819273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_101
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 54
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f46d39d397690d0800000000000000
+      internalID: -3416409961933680797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_102
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 54
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc539ac5ff0cdff00800000000000000
+      internalID: 1152289282680501707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_103
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 47
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b79aea425d471b10800000000000000
+      internalID: 1952113979327944628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_104
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbde5f29a90e9b300800000000000000
+      internalID: 268492607300431295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_105
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 47
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78478b518cbbef060800000000000000
+      internalID: 6989230139757851783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_106
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 50
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8f1127cce3f98b0800000000000000
+      internalID: -5143323201625786188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_107
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 55
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1995366df97d88f10800000000000000
+      internalID: 2272303093505022353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_108
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 55
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87891a0dd132e9bc0800000000000000
+      internalID: -3774540826728621960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_109
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 49
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6b17859a4535a30800000000000000
+      internalID: 4202795963576858356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_110
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 48
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5559048c6cf2bf20800000000000000
+      internalID: 3437087008638981469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_111
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 49
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b47d1e8a55f56d0800000000000000
+      internalID: -2999584642973611233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_112
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 48
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569e2b1549a5e5270800000000000000
+      internalID: 8241123961206925669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_113
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 52
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06fff90232a3f130800000000000000
+      internalID: 3599398862998992394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_114
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 52
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c68cb6db008bd4b0800000000000000
+      internalID: -5414593338647214397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_115
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a64fe9e9260fa80800000000000000
+      internalID: -8435133668653766019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_116
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263f91f97490fc610800000000000000
+      internalID: 1643542592230126434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_117
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 38
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ece3d778be734e0800000000000000
+      internalID: -2001872542188515714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_118
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 38
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecfc01cc8593d520800000000000000
+      internalID: 2725686631256095968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_119
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 50
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd740d607cf85bd0800000000000000
+      internalID: -2641083621657248267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_120
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 50
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d78e0a8b67df4b0800000000000000
+      internalID: -5405033442429076089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_121
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 2
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0e0160a13ec35e0800000000000000
+      internalID: -1928416839510990593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_122
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 26
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcdbb85fb78de5e0800000000000000
+      internalID: -1878696213646418736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_123
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 36
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b8951020288ab50800000000000000
+      internalID: 6604671798663023487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_124
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 26
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6fd66253a33c3b0800000000000000
+      internalID: -5493483120509454640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_125
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 36
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869d942c655210c60800000000000000
+      internalID: 7782542685629962600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_126
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 22
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6198efade745dab00800000000000000
+      internalID: 841421609204877590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_127
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 44
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4e35ff85be7b190800000000000000
+      internalID: -7946624249998613287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_128
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 22
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6d6880b1aa76420800000000000000
+      internalID: 2623252341050496695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_129
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 44
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82e37c2c71782ac0800000000000000
+      internalID: -3879726300844006771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_130
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 17
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7235bbe72dd81d330800000000000000
+      internalID: 3733921501275706151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_131
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 35
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa864e9475bbe3d0800000000000000
+      internalID: -3176245599703496017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_132
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 17
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612189f090656c1e0800000000000000
+      internalID: -2177958772870737386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_133
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 35
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35edc14ac263ffc00800000000000000
+      internalID: 936526812876168787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_134
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 33
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd8b8308fe0284b0800000000000000
+      internalID: -5439768941535982124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_135
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 33
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e222fdf5c106350800000000000000
+      internalID: 6007833101003271720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_136
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf4bc5cd7956c7f0800000000000000
+      internalID: -592687904228421690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_137
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 23
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8bca536226533520800000000000000
+      internalID: 2680580908911348620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_138
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde6040fe9848c5d0800000000000000
+      internalID: -3042101700815982881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_139
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 23
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0873079a70edb280800000000000000
+      internalID: -9025811261056387057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_140
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 17
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f6ea7f0d8871270800000000000000
+      internalID: 8221190075878109056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_141
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 23
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82c44ee620e60710800000000000000
+      internalID: 1659259970543469199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_142
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 17
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb55c9c895d79b90800000000000000
+      internalID: -7235079424150512700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_143
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 23
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36df9f57c519593c0800000000000000
+      internalID: -4353413638481379997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_144
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e81ea6107d1d9b30800000000000000
+      internalID: 4295621986835372256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_145
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fe2ecee77ef7760800000000000000
+      internalID: 7457934040275021692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_146
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 6
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850e448059bfc7ad0800000000000000
+      internalID: -2703009058821709736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_147
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 6
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf9b7216bbc89a80800000000000000
+      internalID: -8459787917160898618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_148
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383d340ac2fea9ac0800000000000000
+      internalID: -3847499956688268413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_149
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 3
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02401849321318ac0800000000000000
+      internalID: -3854745777167334368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_150
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 4
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e6038cfd93a86b0800000000000000
+      internalID: -5293354778721489263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_151
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 4
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2227db5e0544c46f0800000000000000
+      internalID: -699108727906799070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_152
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 2
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5262da6d66cf6660800000000000000
+      internalID: 7381336487529439838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_153
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 2
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4142ecb83b17ef0800000000000000
+      internalID: -112111102667254569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_154
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 9
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94d2e4740dbbe3a0800000000000000
+      internalID: -6635001799161752417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_155
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b582f28fa3d3d8b50800000000000000
+      internalID: 6596996352648882267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_156
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 9
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eabeb376ecd23700800000000000000
+      internalID: 518719789443496672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_157
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0d2a85a1a194ed0800000000000000
+      internalID: -2429381823531134781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_158
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 8
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a41d4674b7625c70800000000000000
+      internalID: 8958336633569875106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_159
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 8
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac22f77e0d3ff4810800000000000000
+      internalID: 1751886858633028298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_160
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 11
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5b349c253c90130800000000000000
+      internalID: 3533570142980257216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_161
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 11
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ab51d8aee786da0800000000000000
+      internalID: -5951367361715651954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_162
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 5
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8aa117050120b0d0800000000000000
+      internalID: -3409188612442314100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_163
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 2
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22faf21fabd24a3d0800000000000000
+      internalID: -3196379554592608478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_164
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 2
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23e70779863d8510800000000000000
+      internalID: 1552957410548114222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_165
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 5
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56d6434711ec1b20800000000000000
+      internalID: 3106605333008012893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toilet_166
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 5
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4176aa507cdf6cf0800000000000000
+      internalID: -256744278621523636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      toilet_0: -8243884347342347663
+      toilet_1: -4879703352707559730
+      toilet_10: -6487887383901795743
+      toilet_100: 276976499625819273
+      toilet_101: -3416409961933680797
+      toilet_102: 1152289282680501707
+      toilet_103: 1952113979327944628
+      toilet_104: 268492607300431295
+      toilet_105: 6989230139757851783
+      toilet_106: -5143323201625786188
+      toilet_107: 2272303093505022353
+      toilet_108: -3774540826728621960
+      toilet_109: 4202795963576858356
+      toilet_11: 2439168642557662513
+      toilet_110: 3437087008638981469
+      toilet_111: -2999584642973611233
+      toilet_112: 8241123961206925669
+      toilet_113: 3599398862998992394
+      toilet_114: -5414593338647214397
+      toilet_115: -8435133668653766019
+      toilet_116: 1643542592230126434
+      toilet_117: -2001872542188515714
+      toilet_118: 2725686631256095968
+      toilet_119: -2641083621657248267
+      toilet_12: 8289191118967829659
+      toilet_120: -5405033442429076089
+      toilet_121: -1928416839510990593
+      toilet_122: -1878696213646418736
+      toilet_123: 6604671798663023487
+      toilet_124: -5493483120509454640
+      toilet_125: 7782542685629962600
+      toilet_126: 841421609204877590
+      toilet_127: -7946624249998613287
+      toilet_128: 2623252341050496695
+      toilet_129: -3879726300844006771
+      toilet_13: 5798240656780512869
+      toilet_130: 3733921501275706151
+      toilet_131: -3176245599703496017
+      toilet_132: -2177958772870737386
+      toilet_133: 936526812876168787
+      toilet_134: -5439768941535982124
+      toilet_135: 6007833101003271720
+      toilet_136: -592687904228421690
+      toilet_137: 2680580908911348620
+      toilet_138: -3042101700815982881
+      toilet_139: -9025811261056387057
+      toilet_14: -8294632676143200615
+      toilet_140: 8221190075878109056
+      toilet_141: 1659259970543469199
+      toilet_142: -7235079424150512700
+      toilet_143: -4353413638481379997
+      toilet_144: 4295621986835372256
+      toilet_145: 7457934040275021692
+      toilet_146: -2703009058821709736
+      toilet_147: -8459787917160898618
+      toilet_148: -3847499956688268413
+      toilet_149: -3854745777167334368
+      toilet_15: 6892243810594619774
+      toilet_150: -5293354778721489263
+      toilet_151: -699108727906799070
+      toilet_152: 7381336487529439838
+      toilet_153: -112111102667254569
+      toilet_154: -6635001799161752417
+      toilet_155: 6596996352648882267
+      toilet_156: 518719789443496672
+      toilet_157: -2429381823531134781
+      toilet_158: 8958336633569875106
+      toilet_159: 1751886858633028298
+      toilet_16: 4257755801800372028
+      toilet_160: 3533570142980257216
+      toilet_161: -5951367361715651954
+      toilet_162: -3409188612442314100
+      toilet_163: -3196379554592608478
+      toilet_164: 1552957410548114222
+      toilet_165: 3106605333008012893
+      toilet_166: -256744278621523636
+      toilet_17: -9147948703360120958
+      toilet_18: -717409558092029371
+      toilet_19: 6775405141121481861
+      toilet_2: -1767755706354810716
+      toilet_20: 4498369278517323963
+      toilet_21: -4397135880917478769
+      toilet_22: -2563192059904315637
+      toilet_23: -7591824069569347513
+      toilet_24: 4298068410195721009
+      toilet_25: 1167422523381616774
+      toilet_26: -5551391307256142331
+      toilet_27: 7168137152458791133
+      toilet_28: -4709988305961636280
+      toilet_29: -6117853141934295014
+      toilet_3: 8784545413129680212
+      toilet_30: -2735783700307933793
+      toilet_31: 3147978036403715569
+      toilet_32: -8901176141128152130
+      toilet_33: 2086339844303476261
+      toilet_34: -1270859217496593978
+      toilet_35: 3437223062291412421
+      toilet_36: -743937794771247873
+      toilet_37: -1531245235132992730
+      toilet_38: 2638484170929664003
+      toilet_39: -6126899563703894198
+      toilet_4: -980263191578305854
+      toilet_40: 301024164178233196
+      toilet_41: -3957591422572061684
+      toilet_42: 6814518922866192164
+      toilet_43: 4443854095005669556
+      toilet_44: -532921188368724704
+      toilet_45: -7622785891892059971
+      toilet_46: 4717832152806579764
+      toilet_47: -1055173726145150766
+      toilet_48: 1653852687380427125
+      toilet_49: -6329451037400359386
+      toilet_5: -7442169638290826945
+      toilet_50: 1817150410130989142
+      toilet_51: -230153747616146199
+      toilet_52: 5734638416833753137
+      toilet_53: 5160533785556333379
+      toilet_54: -3758249236712138814
+      toilet_55: 6662303385744895766
+      toilet_56: -8854547149943027529
+      toilet_57: 8886424678526993704
+      toilet_58: -1245538567155363872
+      toilet_59: 6479008363289163080
+      toilet_6: 2850165724651844866
+      toilet_60: -4443813310203873642
+      toilet_61: -2783315095208616680
+      toilet_62: -2570869502386384927
+      toilet_63: -6927435132157229663
+      toilet_64: -843529871743264687
+      toilet_65: -1669392722255899544
+      toilet_66: -4737004070998251979
+      toilet_67: -7606059222920542837
+      toilet_68: -4776171045369574997
+      toilet_69: -1805925773037891180
+      toilet_7: 516079872443734396
+      toilet_70: 1373385827375440102
+      toilet_71: -7526847945752201262
+      toilet_72: -56782658401025886
+      toilet_73: -518835028528956175
+      toilet_74: -8760505069155799565
+      toilet_75: -2751142729049495493
+      toilet_76: 3352555668466672330
+      toilet_77: 1570118212691512305
+      toilet_78: -1839417729064074814
+      toilet_79: -8664441633076267293
+      toilet_8: -7640796485655589297
+      toilet_80: 4159661004324696945
+      toilet_81: 1951313177119229681
+      toilet_82: 4001014784271662088
+      toilet_83: 9024766036483012988
+      toilet_84: 7326939689629550102
+      toilet_85: 1953974248070290808
+      toilet_86: -3990203581143376245
+      toilet_87: 2763281124430456704
+      toilet_88: -7153131039675276743
+      toilet_89: 846706016942163905
+      toilet_9: -6111185143366480876
+      toilet_90: 704485184472010672
+      toilet_91: 1972488048370016939
+      toilet_92: -1443184582725602031
+      toilet_93: 5084171957435469722
+      toilet_94: -2723989797284639044
+      toilet_95: -3095390058476514137
+      toilet_96: -3721412954192145598
+      toilet_97: 1505271278095526583
+      toilet_98: 1644108984012499951
+      toilet_99: 8339349680592321392
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

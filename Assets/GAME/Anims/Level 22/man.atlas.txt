@@ -1,0 +1,103 @@
+man.png
+size:808,468
+filter:Linear,Linear
+pma:true
+Layer 26
+bounds:2,69,46,37
+offsets:1,1,48,39
+b1
+bounds:2,108,58,58
+offsets:1,1,60,60
+b2
+bounds:747,128,57,57
+offsets:1,1,59,59
+b3
+bounds:691,12,60,55
+offsets:1,1,62,57
+b4
+bounds:691,69,58,57
+offsets:2,1,61,59
+bot
+bounds:11,2,307,68
+rotate:180
+chau
+bounds:2,276,335,187
+offsets:1,1,337,189
+cry1/Comp 1_00000
+bounds:645,128,100,100
+cry1/Comp 1_00001
+bounds:645,128,100,100
+cry1/Comp 1_00002
+bounds:645,128,100,100
+cry1/Comp 1_00003
+bounds:589,26,100,100
+cry1/Comp 1_00004
+bounds:589,26,100,100
+cry1/Comp 1_00005
+bounds:543,332,100,100
+cry1/Comp 1_00006
+bounds:543,332,100,100
+cry1/Comp 1_00007
+bounds:543,332,100,100
+cry1/Comp 1_00008
+bounds:543,230,100,100
+cry1/Comp 1_00009
+bounds:543,230,100,100
+cry1/Comp 1_00010
+bounds:543,128,100,100
+cry1/Comp 1_00011
+bounds:543,128,100,100
+cry1/Comp 1_00012
+bounds:487,26,100,100
+cry1/Comp 1_00013
+bounds:487,26,100,100
+cry1/Comp 1_00014
+bounds:487,26,100,100
+cry1/Comp 1_00015
+bounds:441,332,100,100
+cry1/Comp 1_00016
+bounds:441,332,100,100
+cry1/Comp 1_00017
+bounds:441,230,100,100
+cry1/Comp 1_00018
+bounds:441,230,100,100
+cry1/Comp 1_00019
+bounds:441,230,100,100
+cry1/Comp 1_00020
+bounds:441,128,100,100
+cry1/Comp 1_00021
+bounds:441,128,100,100
+cry1/Comp 1_00022
+bounds:385,26,100,100
+cry1/Comp 1_00023
+bounds:385,26,100,100
+cry1/Comp 1_00027
+bounds:385,26,100,100
+cry1/Comp 1_00024
+bounds:339,313,100,100
+cry1/Comp 1_00025
+bounds:339,313,100,100
+cry1/Comp 1_00026
+bounds:339,313,100,100
+man_body
+bounds:70,59,127,219
+rotate:270
+man_face
+bounds:339,202,100,109
+offsets:1,1,102,111
+man_foot
+bounds:2,165,331,109
+man_fun
+bounds:339,415,53,48
+offsets:1,1,55,50
+man_hand1
+bounds:701,228,73,230
+rotate:180
+man_hand2
+bounds:645,230,72,224
+man_sad
+bounds:753,69,53,50
+rotate:90
+soap2
+bounds:311,2,198,74
+rotate:90

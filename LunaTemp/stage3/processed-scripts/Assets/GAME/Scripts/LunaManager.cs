@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,6 +17,10 @@ public class LunaManager : MonoBehaviour
     [LunaPlaygroundField("ColorBG")] public Color colorBG;
     [LunaPlaygroundAsset("BG")] public Texture2D texture2D;
     public RawImage rawImageBG;
+    public GameObject hand;
+    [Header("Progess")]
+    [SerializeField] private TextMeshProUGUI textProgess;
+    [SerializeField] private Image imgProgess;
     //---------------------------------
 
     // [LunaPlaygroundAsset("LogoGame")] public Texture2D logoGame;
@@ -41,7 +46,16 @@ public class LunaManager : MonoBehaviour
         EndCard.SetActive(false);
         SetupField();
         Invoke(nameof(ShowEndCard), timeDropFinal);
-        countPlayFinal = Mathf.Min(countPlayFinal, 8f);
+        countPlayFinal = Mathf.Min(countPlayFinal, 6f);
+        UpdateProgress();
+    }
+    public void TurnOffHand()
+    {
+        if (hand.activeInHierarchy)
+        {
+            hand.SetActive(false);
+        }
+
     }
     public void SetupField()
     {
@@ -54,11 +68,18 @@ public class LunaManager : MonoBehaviour
     public void CountPlay()
     {
         countPlay++;
+        UpdateProgress();
         //GameController.instance.IQFill.AddValue();
         if (countPlay >= countPlayFinal)
         {
             ShowEndCard();
         }
+    }
+    void UpdateProgress()
+    {
+        float value = countPlay / 10f;
+        imgProgess.fillAmount = value;
+        textProgess.text = countPlay + "/" + 10;
     }
 
     // Update is called once per frame

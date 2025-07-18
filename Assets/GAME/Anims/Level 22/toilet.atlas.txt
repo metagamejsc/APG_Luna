@@ -1,0 +1,100 @@
+toilet.png
+size:2016,120
+filter:Linear,Linear
+pma:true
+Comp 1/Comp 1_00000
+bounds:1880,18,70,99
+offsets:59,50,200,200
+Comp 1/Comp 1_00001
+bounds:1880,18,70,99
+offsets:59,50,200,200
+Comp 1/Comp 1_00002
+bounds:1880,18,70,99
+offsets:59,50,200,200
+Comp 1/Comp 1_00003
+bounds:1197,15,75,102
+offsets:57,50,200,200
+Comp 1/Comp 1_00004
+bounds:1120,15,75,102
+offsets:57,50,200,200
+Comp 1/Comp 1_00005
+bounds:1807,14,71,103
+offsets:63,50,200,200
+Comp 1/Comp 1_00006
+bounds:1734,14,71,103
+offsets:63,50,200,200
+Comp 1/Comp 1_00007
+bounds:1734,14,71,103
+offsets:63,50,200,200
+Comp 1/Comp 1_00008
+bounds:846,35,82,102
+offsets:60,50,200,200
+rotate:90
+Comp 1/Comp 1_00009
+bounds:742,35,82,102
+offsets:60,50,200,200
+rotate:90
+Comp 1/Comp 1_00010
+bounds:650,19,90,98
+offsets:56,50,200,200
+Comp 1/Comp 1_00011
+bounds:558,19,90,98
+offsets:56,50,200,200
+Comp 1/Comp 1_00012
+bounds:281,19,91,98
+offsets:60,50,200,200
+Comp 1/Comp 1_00013
+bounds:281,19,91,98
+offsets:60,50,200,200
+Comp 1/Comp 1_00014
+bounds:188,19,91,98
+offsets:60,50,200,200
+Comp 1/Comp 1_00015
+bounds:1657,19,75,98
+offsets:61,51,200,200
+Comp 1/Comp 1_00016
+bounds:1580,19,75,98
+offsets:61,51,200,200
+Comp 1/Comp 1_00017
+bounds:1352,17,76,100
+offsets:57,51,200,200
+Comp 1/Comp 1_00018
+bounds:1274,17,76,100
+offsets:57,51,200,200
+Comp 1/Comp 1_00019
+bounds:1274,17,76,100
+offsets:57,51,200,200
+Comp 1/Comp 1_00020
+bounds:1505,14,73,103
+offsets:60,50,200,200
+Comp 1/Comp 1_00021
+bounds:1430,14,73,103
+offsets:60,50,200,200
+Comp 1/Comp 1_00022
+bounds:1035,17,83,100
+offsets:58,49,200,200
+Comp 1/Comp 1_00023
+bounds:950,17,83,100
+offsets:58,49,200,200
+Comp 1/Comp 1_00024
+bounds:466,18,90,99
+offsets:56,50,200,200
+Comp 1/Comp 1_00025
+bounds:466,18,90,99
+offsets:56,50,200,200
+Comp 1/Comp 1_00026
+bounds:374,18,90,99
+offsets:56,50,200,200
+Comp 1/Comp 1_00027
+bounds:95,19,91,98
+offsets:59,51,200,200
+Comp 1/Comp 1_00028
+bounds:2,19,91,98
+offsets:59,51,200,200
+b3
+bounds:1952,2,60,55
+offsets:1,1,62,57
+b4
+bounds:1952,59,58,57
+offsets:2,1,61,59
+rotate:90

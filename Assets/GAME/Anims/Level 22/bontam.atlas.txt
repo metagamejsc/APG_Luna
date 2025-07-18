@@ -1,0 +1,10 @@
+bontam.png
+size:252,208
+filter:Linear,Linear
+pma:true
+bontam
+bounds:2,48,208,155
+room_2
+bounds:187,2,61,44
+room_2_
+bounds:2,6,183,40
