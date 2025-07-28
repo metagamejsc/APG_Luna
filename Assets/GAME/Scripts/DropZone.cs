@@ -7,7 +7,7 @@ public class DropZone : MonoBehaviour
     public GameObject[] steps;
     //public bool isActive = false;
     //public Sprite spriteUpgrade;
-
+    public bool isDontWork = false;
 
 
     private int currentStep = 0;
@@ -28,14 +28,15 @@ public class DropZone : MonoBehaviour
         //Upgrade();
         LunaManager.ins.CountPlay();
     }
-    void Upgrade()
+    public void UpgradeWoman()
     {
-        //if (!isActive) return;
-        //isActive = false;
-        //GameController.instance.EnableUpgrade(gameObject.name);
+        currentStep++;
+        NextStep();
+        CheckDone();
     }
     void NextStep()
     {
+        if (steps.Length <= 0) return;
         foreach (var step in steps)
         {
             step.SetActive(false);
