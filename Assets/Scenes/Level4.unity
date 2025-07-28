@@ -1031,7 +1031,6 @@ GameObject:
   - component: {fileID: 87177092}
   - component: {fileID: 87177094}
   - component: {fileID: 87177093}
-  - component: {fileID: 87177095}
   m_Layer: 5
   m_Name: Message
   m_TagString: Untagged
@@ -1056,7 +1055,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 119, y: 820}
+  m_AnchoredPosition: {x: 119, y: 767}
   m_SizeDelta: {x: 420, y: 205.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &87177093
@@ -1097,126 +1096,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87177091}
   m_CullTransparentMesh: 1
---- !u!114 &87177095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 87177091}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d0390bd8b8ffd640b34fe25065ff1df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  updateType: 0
-  isSpeedBased: 0
-  hasOnStart: 0
-  hasOnPlay: 0
-  hasOnUpdate: 0
-  hasOnStepComplete: 0
-  hasOnComplete: 1
-  hasOnTweenCreated: 0
-  hasOnRewind: 0
-  onStart:
-    m_PersistentCalls:
-      m_Calls: []
-  onPlay:
-    m_PersistentCalls:
-      m_Calls: []
-  onUpdate:
-    m_PersistentCalls:
-      m_Calls: []
-  onStepComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  onComplete:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 87177091}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onTweenCreated:
-    m_PersistentCalls:
-      m_Calls: []
-  onRewind:
-    m_PersistentCalls:
-      m_Calls: []
-  targetIsSelf: 1
-  targetGO: {fileID: 0}
-  tweenTargetIsTargetGO: 1
-  delay: 0
-  duration: 10
-  easeType: 1
-  easeCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  loopType: 0
-  loops: 1
-  id: 
-  isRelative: 0
-  isFrom: 0
-  isIndependentUpdate: 0
-  autoKill: 1
-  autoGenerate: 1
-  isActive: 1
-  isValid: 1
-  target: {fileID: 87177093}
-  animationType: 6
-  targetType: 3
-  forcedTargetType: 0
-  autoPlay: 1
-  useTargetAsV3: 0
-  endValueFloat: 0
-  endValueV3: {x: 0, y: 0, z: 0}
-  endValueV2: {x: 0, y: 0}
-  endValueColor: {r: 1, g: 1, b: 1, a: 0}
-  endValueString: 
-  endValueRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  endValueTransform: {fileID: 0}
-  optionalBool0: 0
-  optionalBool1: 0
-  optionalFloat0: 0
-  optionalInt0: 0
-  optionalRotationMode: 0
-  optionalScrambleMode: 0
-  optionalShakeRandomnessMode: 0
-  optionalString: 
 --- !u!1 &88646760
 GameObject:
   m_ObjectHideFlags: 0
@@ -1698,7 +1577,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &258685635
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2970,6 +2849,7 @@ MonoBehaviour:
   steps:
   - {fileID: 526469355}
   - {fileID: 147560423}
+  isActive: 0
   isDontWork: 0
 --- !u!61 &468528943
 BoxCollider2D:
@@ -4369,6 +4249,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1967331166}
   - {fileID: 1916022468}
+  isActive: 0
   isDontWork: 0
 --- !u!61 &642929983
 BoxCollider2D:
@@ -4991,6 +4872,7 @@ MonoBehaviour:
   steps:
   - {fileID: 709987406}
   - {fileID: 1602979948}
+  isActive: 0
   isDontWork: 0
 --- !u!1 &709987406
 GameObject:
@@ -5046,7 +4928,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &711365197
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5440,6 +5322,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1496754635}
   - {fileID: 1340546277}
+  isActive: 0
   isDontWork: 0
 --- !u!1 &778544596
 GameObject:
@@ -6524,6 +6407,7 @@ MonoBehaviour:
   steps:
   - {fileID: 778544596}
   - {fileID: 10052748}
+  isActive: 0
   isDontWork: 0
 --- !u!61 &1087131291
 BoxCollider2D:
@@ -7132,7 +7016,6 @@ GameObject:
   - component: {fileID: 1241720189}
   - component: {fileID: 1241720191}
   - component: {fileID: 1241720190}
-  - component: {fileID: 1241720192}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -7256,114 +7139,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241720188}
   m_CullTransparentMesh: 1
---- !u!114 &1241720192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241720188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d0390bd8b8ffd640b34fe25065ff1df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  updateType: 0
-  isSpeedBased: 0
-  hasOnStart: 0
-  hasOnPlay: 0
-  hasOnUpdate: 0
-  hasOnStepComplete: 0
-  hasOnComplete: 0
-  hasOnTweenCreated: 0
-  hasOnRewind: 0
-  onStart:
-    m_PersistentCalls:
-      m_Calls: []
-  onPlay:
-    m_PersistentCalls:
-      m_Calls: []
-  onUpdate:
-    m_PersistentCalls:
-      m_Calls: []
-  onStepComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  onComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  onTweenCreated:
-    m_PersistentCalls:
-      m_Calls: []
-  onRewind:
-    m_PersistentCalls:
-      m_Calls: []
-  targetIsSelf: 1
-  targetGO: {fileID: 0}
-  tweenTargetIsTargetGO: 1
-  delay: 0
-  duration: 10
-  easeType: 1
-  easeCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  loopType: 0
-  loops: 1
-  id: 
-  isRelative: 0
-  isFrom: 0
-  isIndependentUpdate: 0
-  autoKill: 1
-  autoGenerate: 1
-  isActive: 1
-  isValid: 1
-  target: {fileID: 1241720190}
-  animationType: 6
-  targetType: 3
-  forcedTargetType: 0
-  autoPlay: 1
-  useTargetAsV3: 0
-  endValueFloat: 0
-  endValueV3: {x: 0, y: 0, z: 0}
-  endValueV2: {x: 0, y: 0}
-  endValueColor: {r: 1, g: 1, b: 1, a: 0}
-  endValueString: 
-  endValueRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  endValueTransform: {fileID: 0}
-  optionalBool0: 0
-  optionalBool1: 0
-  optionalFloat0: 0
-  optionalInt0: 0
-  optionalRotationMode: 0
-  optionalScrambleMode: 0
-  optionalShakeRandomnessMode: 0
-  optionalString: 
 --- !u!1 &1243178952
 GameObject:
   m_ObjectHideFlags: 0
@@ -7419,6 +7194,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1553739979}
   - {fileID: 2074982367}
+  isActive: 0
   isDontWork: 0
 --- !u!61 &1243178955
 BoxCollider2D:
@@ -9172,6 +8948,7 @@ MonoBehaviour:
   steps:
   - {fileID: 100746335}
   - {fileID: 1439307205}
+  isActive: 0
   isDontWork: 0
 --- !u!61 &1582339128
 BoxCollider2D:
@@ -10040,6 +9817,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1536199155}
   - {fileID: 711365196}
+  isActive: 0
   isDontWork: 1
 --- !u!1 &1655968616
 GameObject:
@@ -10627,6 +10405,7 @@ MonoBehaviour:
   - {fileID: 455271779}
   - {fileID: 2024890735}
   - {fileID: 678794855}
+  isActive: 0
   isDontWork: 0
 --- !u!61 &1751860596
 BoxCollider2D:
@@ -11563,6 +11342,7 @@ MonoBehaviour:
   steps:
   - {fileID: 1199412332}
   - {fileID: 355847519}
+  isActive: 0
   isDontWork: 0
 --- !u!61 &2090460908
 BoxCollider2D:

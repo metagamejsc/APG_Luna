@@ -5,7 +5,7 @@ public class DropZone : MonoBehaviour
 {
     public int idDrop = 0;
     public GameObject[] steps;
-    //public bool isActive = false;
+    public bool isActive = false;
     //public Sprite spriteUpgrade;
     public bool isDontWork = false;
 
@@ -22,6 +22,7 @@ public class DropZone : MonoBehaviour
     }
     public void DragMoney()
     {
+
         currentStep++;
         NextStep();
         CheckDone();
@@ -30,9 +31,25 @@ public class DropZone : MonoBehaviour
     }
     public void UpgradeWoman()
     {
-        currentStep++;
-        NextStep();
-        CheckDone();
+        if (currentStep < steps.Length - 1)
+        {
+            currentStep++;
+        }
+        isActive = true;
+        NextStepUpgrade();
+        //CheckDone();
+    }
+    void NextStepUpgrade()
+    {
+        if (steps.Length <= 0 || !isActive) return;
+        steps[currentStep].SetActive(true);
+        Invoke("OffCurrentStep", 3f);
+    }
+    void OffCurrentStep()
+    {
+        if (steps.Length <= 0) return;
+        steps[currentStep].SetActive(false);
+        isActive = false;
     }
     void NextStep()
     {
