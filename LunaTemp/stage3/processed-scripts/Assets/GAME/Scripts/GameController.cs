@@ -3,10 +3,10 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     //public int numStep = 0;
-    public Collider2D[] colliders;
-    public bool isUpgrade = false;
+    //public Collider2D[] colliders;
+    //public bool isUpgrade = false;
     public static event System.Action OnUpgradePhase2;
-    public IQFill IQFill;
+    //public IQFill IQFill;
 
 
 
@@ -26,10 +26,10 @@ public class GameController : MonoBehaviour
 
     void InitFirst()
     {
-        foreach (var collider in colliders)
-        {
-            collider.enabled = false;
-        }
+        // foreach (var collider in colliders)
+        // {
+        //     collider.enabled = false;
+        // }
     }
 
     // public void EnableUpgrade(string name)

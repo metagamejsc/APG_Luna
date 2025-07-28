@@ -4,6 +4,8 @@ using UnityEngine.EventSystems;
 public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public int idDrag = 0;
+    public string idItem;
+    public int idMusic = 0;
     private RectTransform rectTransform;
     private Vector2 originalPosition;
     private CanvasGroup canvasGroup;
@@ -35,51 +37,27 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
         RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
-        if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop && hit.collider.gameObject.GetComponent<DropZone>().isDontWork)
+
+        if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop && hit.collider.gameObject.GetComponent<DropZone>().canDrop)
         {
-            hit.collider.gameObject.GetComponent<DropZone>().UpgradeWoman();
-            rectTransform.anchoredPosition = originalPosition;
+            hit.collider.gameObject.GetComponent<DropZone>().DragOn(idItem, idMusic);
+            //Destroy(gameObject);
+            this.gameObject.SetActive(false);
         }
         else
         {
-            if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop && !hit.collider.gameObject.GetComponent<DropZone>().isDontWork)
-            {
-                hit.collider.gameObject.GetComponent<DropZone>().DragMoney();
-                Destroy(gameObject);
-            }
-            else
-            {
-                rectTransform.anchoredPosition = originalPosition;
-            }
+            rectTransform.anchoredPosition = originalPosition;
         }
 
 
-
-        // if (isChease)
+        // if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop && hit.collider.gameObject.GetComponent<DropZone>().isDontWork)
         // {
-        //     if (hit.collider != null)
-        //     {
-        //         var name = hit.collider.gameObject.name;
-        //         if (name == "Mouse" && hit.collider.gameObject.GetComponent<DropZone>().GetCurrentStep() == 1)
-        //         {
-        //             hit.collider.gameObject.GetComponent<DropZone>().DragMoney();
-        //             Destroy(gameObject);
-        //         }
-        //         else
-        //         {
-        //             rectTransform.anchoredPosition = originalPosition;
-        //         }
-
-        //     }
-        //     else
-        //     {
-        //         rectTransform.anchoredPosition = originalPosition;
-        //     }
-
+        //     hit.collider.gameObject.GetComponent<DropZone>().UpgradeWoman();
+        //     rectTransform.anchoredPosition = originalPosition;
         // }
         // else
         // {
-        //     if (hit.collider != null && hit.collider.gameObject != gameObject)
+        //     if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop && !hit.collider.gameObject.GetComponent<DropZone>().isDontWork)
         //     {
         //         hit.collider.gameObject.GetComponent<DropZone>().DragMoney();
         //         Destroy(gameObject);
@@ -89,5 +67,6 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         //         rectTransform.anchoredPosition = originalPosition;
         //     }
         // }
+
     }
 }

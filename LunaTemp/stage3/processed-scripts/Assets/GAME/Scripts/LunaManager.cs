@@ -77,9 +77,9 @@ public class LunaManager : MonoBehaviour
     }
     void UpdateProgress()
     {
-        float value = countPlay / 10f;
+        float value = countPlay / 7f;
         imgProgess.fillAmount = value;
-        textProgess.text = countPlay + "/" + 10;
+        textProgess.text = countPlay + "/" + 7;
     }
 
     // Update is called once per frame

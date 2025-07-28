@@ -1,0 +1,147 @@
+girl1.png
+size:532,2048
+filter:Linear,Linear
+pma:true
+Comp 1/Comp 1_00000
+bounds:289,1435,98,102
+offsets:13,63,200,200
+Comp 1/Comp 1_00001
+bounds:289,1435,98,102
+offsets:13,63,200,200
+Comp 1/Comp 1_00002
+bounds:289,1435,98,102
+offsets:13,63,200,200
+Comp 1/Comp 1_00003
+bounds:222,1057,117,125
+offsets:18,46,200,200
+Comp 1/Comp 1_00004
+bounds:222,1057,117,125
+offsets:18,46,200,200
+Comp 1/Comp 1_00005
+bounds:176,74,138,164
+offsets:24,14,200,200
+Comp 1/Comp 1_00006
+bounds:176,74,138,164
+offsets:24,14,200,200
+Comp 1/Comp 1_00007
+bounds:176,74,138,164
+offsets:24,14,200,200
+Comp 1/Comp 1_00008
+bounds:162,596,146,175
+offsets:22,10,200,200
+Comp 1/Comp 1_00009
+bounds:162,596,146,175
+offsets:22,10,200,200
+Comp 1/Comp 1_00010
+bounds:2,80,139,172
+offsets:31,15,200,200
+rotate:90
+Comp 1/Comp 1_00011
+bounds:2,80,139,172
+offsets:31,15,200,200
+rotate:90
+Comp 1/Comp 1_00012
+bounds:249,1539,107,176
+offsets:64,14,200,200
+Comp 1/Comp 1_00013
+bounds:249,1539,107,176
+offsets:64,14,200,200
+Comp 1/Comp 1_00014
+bounds:249,1539,107,176
+offsets:64,14,200,200
+Comp 1/Comp 1_00015
+bounds:250,413,107,181
+offsets:67,12,200,200
+Comp 1/Comp 1_00016
+bounds:250,413,107,181
+offsets:67,12,200,200
+Comp 1/Comp 1_00017
+bounds:310,629,57,183
+offsets:117,13,200,200
+Comp 1/Comp 1_00018
+bounds:310,629,57,183
+offsets:117,13,200,200
+Comp 1/Comp 1_00019
+bounds:310,629,57,183
+offsets:117,13,200,200
+Comp 1/Comp 1_00020
+bounds:257,240,54,145
+offsets:122,10,200,200
+rotate:90
+Comp 1/Comp 1_00021
+bounds:257,240,54,145
+offsets:122,10,200,200
+rotate:90
+Comp 1/Comp 1_00022
+bounds:341,1027,54,147
+offsets:124,7,200,200
+Comp 1/Comp 1_00023
+bounds:341,1027,54,147
+offsets:124,7,200,200
+Comp 1/Comp 1_00024
+bounds:358,1647,51,146
+offsets:130,6,200,200
+Comp 1/Comp 1_00025
+bounds:358,1647,51,146
+offsets:130,6,200,200
+Comp 1/Comp 1_00026
+bounds:358,1647,51,146
+offsets:130,6,200,200
+Layer 217
+bounds:98,1985,66,61
+offsets:1,1,68,64
+girl_body
+bounds:2,328,192,335
+rotate:180
+girl_dress
+bounds:304,896,114,93
+offsets:0,0,115,93
+rotate:90
+girl_eye
+bounds:98,1785,62,35
+offsets:1,1,64,37
+girl_eye1
+bounds:98,1968,61,15
+offsets:1,1,63,17
+girl_eye2
+bounds:273,310,114,101
+offsets:4,3,123,110
+girl_face
+bounds:98,1822,120,126
+offsets:1,1,122,128
+girl_foot1
+bounds:98,1164,220,323
+girl_foot11
+bounds:98,850,218,321
+girl_foot2
+bounds:58,221,213,373
+girl_foot21
+bounds:98,1675,211,371
+girl_guoc1
+bounds:359,517,63,110
+offsets:1,1,65,113
+girl_hand
+bounds:242,1176,149,232
+girl_hand1
+bounds:209,2,205,161
+rotate:90
+girl_hải
+bounds:98,1404,189,275
+girl_mouth
+bounds:166,2028,28,18
+offsets:2,1,31,20
+girl_run
+bounds:270,1410,258,390
+rotate:180
+girl_scam
+bounds:265,1942,117,104
+offsets:21,11,147,123
+man_1_hand2
+bounds:160,773,126,167
+rotate:270
+man_1_hand3
+bounds:309,1795,145,67
+rotate:90
+ongnc
+bounds:2,662,94,1384
+offsets:0,474,94,1901

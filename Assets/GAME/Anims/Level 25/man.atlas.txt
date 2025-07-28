@@ -1,0 +1,152 @@
+man.png
+size:2040,1052
+filter:Linear,Linear
+pma:true
+CucGach
+bounds:1346,1023,55,27
+Layer 217
+bounds:705,888,66,61
+offsets:1,1,68,64
+Layer 218
+bounds:434,991,93,59
+offsets:0,1,94,61
+Shasetpe 10
+bounds:2,297,795,753
+box chat
+bounds:620,1010,53,40
+circle
+bounds:204,306,171,171
+curtain_2
+bounds:1134,745,422,305
+offsets:1,0,423,305
+man1_face_DauThui1
+bounds:365,1025,61,25
+offsets:1,1,63,27
+man1_face_DauThui2
+bounds:1969,946,44,104
+offsets:3,3,50,110
+man1_face_DauThui3
+bounds:377,313,77,102
+offsets:1,1,79,104
+man1_face_Gach
+bounds:799,315,97,60
+offsets:1,1,99,62
+man_1_body
+bounds:514,661,234,389
+man_1_face
+bounds:699,603,98,114
+offsets:1,1,101,116
+man_1_face_OngDot_2
+bounds:2,1027,23,23
+offsets:1,1,25,25
+man_1_face_OngDot_eb
+bounds:1504,968,56,13
+offsets:2,1,59,15
+man_1_face_OngDot_face
+bounds:720,329,77,102
+man_1_face_OngDot_mouth
+bounds:462,944,51,36
+man_1_foot1
+bounds:1473,622,209,428
+man_1_foot2
+bounds:1638,603,144,447
+man_1_hair
+bounds:1523,340,121,77
+offsets:1,3,123,81
+man_1_hand1
+bounds:589,79,122,373
+offsets:0,1,122,374
+rotate:90
+man_1_hand2
+bounds:1911,277,126,167
+man_1_hand3
+bounds:1426,983,145,67
+man_2body
+bounds:1134,525,323,223
+man_2face
+bounds:963,62,139,157
+offsets:5,1,146,159
+rotate:90
+man_2foot1
+bounds:1122,74,166,127
+offsets:1,1,169,129
+man_2foot2
+bounds:1704,122,151,248
+offsets:0,0,151,249
+rotate:270
+man_2foot3
+bounds:1659,332,250,112
+offsets:1,1,252,115
+man_2foot4
+bounds:1336,317,185,100
+offsets:1,1,187,103
+man_2hair
+bounds:1290,94,167,107
+offsets:1,1,169,109
+man_2hand1
+bounds:1459,5,237,196
+offsets:1,0,238,196
+man_2hand2
+bounds:372,73,128,215
+offsets:1,1,130,217
+rotate:90
+man_2hand3
+bounds:1915,25,99,250
+offsets:0,1,99,252
+rotate:180
+man_2hand4
+bounds:204,29,166,172
+offsets:1,1,168,174
+man_3face
+bounds:1659,499,78,102
+man_face_Chim2
+bounds:1378,424,77,102
+offsets:1,1,79,104
+man_face_ChimI
+bounds:702,951,86,99
+offsets:3,3,92,105
+oi/Comp 1_00000
+bounds:2,2,200,200
+oi/Comp 1_00001
+bounds:2,2,200,200
+oi/Comp 1_00002
+bounds:2,2,200,200
+oi/Comp 1_00003
+bounds:1134,331,200,200
+oi/Comp 1_00004
+bounds:1134,331,200,200
+oi/Comp 1_00012
+bounds:1134,331,200,200
+oi/Comp 1_00013
+bounds:1134,331,200,200
+oi/Comp 1_00005
+bounds:2,343,200,200
+oi/Comp 1_00014
+bounds:2,343,200,200
+oi/Comp 1_00006
+bounds:1457,419,200,200
+oi/Comp 1_00007
+bounds:1457,419,200,200
+oi/Comp 1_00015
+bounds:1457,419,200,200
+oi/Comp 1_00016
+bounds:1457,419,200,200
+oi/Comp 1_00008
+bounds:1779,446,200,200
+oi/Comp 1_00009
+bounds:1784,648,200,200
+oi/Comp 1_00010
+bounds:1784,648,200,200
+oi/Comp 1_00011
+bounds:1767,850,200,200
+ongnc
+bounds:2,204,92,1899
+offsets:1,1,94,1901
+rotate:90
+porch
+bounds:799,377,673,333
+offsets:1,1,675,335
+rotate:90
+star
+bounds:529,1025,26,25
+offsets:3,3,32,31

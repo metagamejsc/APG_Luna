@@ -1,61 +1,68 @@
+using System.Collections.Generic;
+using Spine.Unity;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class DropZone : MonoBehaviour
 {
-    public int idDrop = 0;
-    public GameObject[] steps;
-    public bool isDontWork = false;
-    //public Sprite spriteUpgrade;
-
-
-
-    private int currentStep = 0;
     private BoxCollider2D boxCollider;
+    public int idDrop = 0;
+    public SkeletonGraphic skeletonGraphic;
+    public bool canDrop = false;
+
+    [Header("Audio Settings")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private List<AudioClip> audioClips = new List<AudioClip>();
 
     void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
         boxCollider.enabled = true;
-        currentStep = 0;
-        NextStep();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+        SetAnimationIdle();
     }
-    public void DragMoney()
+    public void DragOn(string id, int idMusic = 0)
     {
-        currentStep++;
-        NextStep();
-        CheckDone();
-        //Upgrade();
+        canDrop = false;
         LunaManager.ins.CountPlay();
-    }
-    public void UpgradeWoman()
-    {
-        currentStep++;
-        NextStep();
-        //if (!isActive) return;
-        //isActive = false;
-        //GameController.instance.EnableUpgrade(gameObject.name);
-    }
-    void NextStep()
-    {
-        if (currentStep >= steps.Length)
-        {
-            return;
-        }
+        if (id == "") return;
+        var trackEntry = skeletonGraphic.AnimationState.SetAnimation(0, id, false);
+        trackEntry.Complete += OnActionAnimationComplete;
 
-        foreach (var step in steps)
-        {
-            step.SetActive(false);
-        }
-        steps[currentStep].SetActive(true);
+        // Play corresponding audio
+        PlayAudioById(idMusic);
+
+
     }
-    void CheckDone()
+    public void PlayAudioById(int id)
     {
-        if (currentStep == steps.Length - 1)
+        if (id >= 0 && id < audioClips.Count && audioClips[id] != null)
         {
-            boxCollider.enabled = false;
+            audioSource.clip = audioClips[id];
+            audioSource.Play();
+        }
+        else
+        {
+            Debug.LogWarning($"Audio clip with id {id} not found or invalid");
         }
     }
+    private void OnActionAnimationComplete(Spine.TrackEntry trackEntry)
+    {
+        // Remove the listener to prevent memory leaks
+        trackEntry.Complete -= OnActionAnimationComplete;
+        // Return to idle animation
+        SetAnimationIdle();
+    }
+    void SetAnimationIdle()
+    {
+        canDrop = true;
+        skeletonGraphic.AnimationState.SetAnimation(0, "idle", true);
+        //skeletonGraphic.Initialize(true);
+    }
+
     void OnEnable()
     {
         GameController.OnUpgradePhase2 += EventUpgrade;
@@ -73,8 +80,5 @@ public class DropZone : MonoBehaviour
         //     steps[0].gameObject.GetComponent<Image>().sprite = spriteUpgrade;
         // }
     }
-    public int GetCurrentStep()
-    {
-        return currentStep;
-    }
+
 }

@@ -1,0 +1,215 @@
+tofu.png
+size:136,1500
+filter:Linear,Linear
+pma:true
+stinks/Comp 1_00000
+bounds:2,74,63,59
+offsets:18,23,100,100
+stinks/Comp 1_00001
+bounds:2,74,63,59
+offsets:18,23,100,100
+stinks/Comp 1_00002
+bounds:2,135,65,61
+offsets:17,22,100,100
+stinks/Comp 1_00003
+bounds:2,135,65,61
+offsets:17,22,100,100
+stinks/Comp 1_00004
+bounds:2,832,71,81
+offsets:13,3,100,100
+rotate:90
+stinks/Comp 1_00005
+bounds:2,832,71,81
+offsets:13,3,100,100
+rotate:90
+stinks/Comp 1_00006
+bounds:2,979,74,83
+offsets:11,4,100,100
+rotate:90
+stinks/Comp 1_00007
+bounds:2,979,74,83
+offsets:11,4,100,100
+rotate:90
+stinks/Comp 1_00008
+bounds:2,1208,76,84
+offsets:9,4,100,100
+rotate:90
+stinks/Comp 1_00009
+bounds:2,1208,76,84
+offsets:9,4,100,100
+rotate:90
+stinks/Comp 1_00010
+bounds:2,905,72,85
+offsets:7,4,100,100
+rotate:90
+stinks/Comp 1_00011
+bounds:2,905,72,85
+offsets:7,4,100,100
+rotate:90
+stinks/Comp 1_00012
+bounds:2,1132,74,86
+offsets:5,4,100,100
+rotate:90
+stinks/Comp 1_00013
+bounds:2,1132,74,86
+offsets:5,4,100,100
+rotate:90
+stinks/Comp 1_00014
+bounds:2,1055,75,84
+offsets:4,7,100,100
+rotate:90
+stinks/Comp 1_00015
+bounds:2,1055,75,84
+offsets:4,7,100,100
+rotate:90
+stinks/Comp 1_00016
+bounds:2,1286,76,86
+offsets:2,6,100,100
+rotate:90
+stinks/Comp 1_00017
+bounds:2,1286,76,86
+offsets:2,6,100,100
+rotate:90
+stinks/Comp 1_00018
+bounds:81,629,39,51
+offsets:40,6,100,100
+stinks/Comp 1_00019
+bounds:81,629,39,51
+offsets:40,6,100,100
+stinks/Comp 1_00020
+bounds:83,452,39,57
+offsets:41,6,100,100
+stinks/Comp 1_00021
+bounds:83,452,39,57
+offsets:41,6,100,100
+stinks/Comp 1_00022
+bounds:83,392,44,58
+offsets:37,7,100,100
+stinks/Comp 1_00023
+bounds:83,392,44,58
+offsets:37,7,100,100
+stinks/Comp 1_00024
+bounds:83,330,46,60
+offsets:36,9,100,100
+stinks/Comp 1_00025
+bounds:82,268,47,60
+offsets:34,14,100,100
+stinks/Comp 1_00026
+bounds:82,268,47,60
+offsets:34,14,100,100
+stinks/Comp 1_00027
+bounds:69,123,51,73
+offsets:33,5,100,100
+stinks/Comp 1_00028
+bounds:69,123,51,73
+offsets:33,5,100,100
+stinks/Comp 1_00029
+bounds:2,198,53,77
+offsets:32,6,100,100
+rotate:90
+stinks/Comp 1_00030
+bounds:2,198,53,77
+offsets:32,6,100,100
+rotate:90
+stinks/Comp 1_00031
+bounds:2,253,55,78
+offsets:32,9,100,100
+rotate:90
+stinks/Comp 1_00032
+bounds:2,253,55,78
+offsets:32,9,100,100
+rotate:90
+stinks/Comp 1_00033
+bounds:2,372,60,79
+offsets:30,10,100,100
+rotate:90
+stinks/Comp 1_00034
+bounds:2,372,60,79
+offsets:30,10,100,100
+rotate:90
+stinks/Comp 1_00035
+bounds:2,699,63,79
+offsets:28,11,100,100
+rotate:90
+stinks/Comp 1_00036
+bounds:2,699,63,79
+offsets:28,11,100,100
+rotate:90
+stinks/Comp 1_00037
+bounds:2,434,61,79
+offsets:31,12,100,100
+rotate:90
+stinks/Comp 1_00038
+bounds:2,434,61,79
+offsets:31,12,100,100
+rotate:90
+stinks/Comp 1_00039
+bounds:2,497,63,77
+offsets:30,15,100,100
+rotate:90
+stinks/Comp 1_00040
+bounds:2,497,63,77
+offsets:30,15,100,100
+rotate:90
+stinks/Comp 1_00041
+bounds:2,310,60,76
+offsets:34,3,100,100
+rotate:90
+stinks/Comp 1_00042
+bounds:2,310,60,76
+offsets:34,3,100,100
+rotate:90
+stinks/Comp 1_00043
+bounds:2,633,64,77
+offsets:31,4,100,100
+rotate:90
+stinks/Comp 1_00044
+bounds:2,633,64,77
+offsets:31,4,100,100
+rotate:90
+stinks/Comp 1_00045
+bounds:2,764,66,78
+offsets:30,4,100,100
+rotate:90
+stinks/Comp 1_00046
+bounds:2,764,66,78
+offsets:30,4,100,100
+rotate:90
+stinks/Comp 1_00047
+bounds:2,562,71,69
+offsets:27,4,100,100
+stinks/Comp 1_00048
+bounds:58,2,49,69
+offsets:26,4,100,100
+rotate:90
+stinks/Comp 1_00049
+bounds:58,2,49,69
+offsets:26,4,100,100
+rotate:90
+stinks/Comp 1_00050
+bounds:82,198,49,68
+offsets:25,7,100,100
+stinks/Comp 1_00051
+bounds:82,198,49,68
+offsets:25,7,100,100
+stinks/Comp 1_00052
+bounds:67,53,52,68
+offsets:24,10,100,100
+stinks/Comp 1_00053
+bounds:67,53,52,68
+offsets:24,10,100,100
+stinks/Comp 1_00054
+bounds:75,562,53,65
+offsets:24,14,100,100
+stinks/Comp 1_00055
+bounds:75,562,53,65
+offsets:24,14,100,100
+stinks/Comp 1_00056
+bounds:2,9,54,63
+offsets:24,17,100,100
+tofu
+bounds:2,1364,123,66
+offsets:1,1,125,68
+tofuthoi
+bounds:2,1432,123,66
+offsets:1,1,125,68

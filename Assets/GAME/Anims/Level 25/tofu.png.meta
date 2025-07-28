@@ -1,0 +1,4715 @@
+fileFormatVersion: 2
+guid: 1cab09e4255700b47922ac4f994c2d4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8370601321967228845
+    second: tofu_0
+  - first:
+      213: 1786521120223827130
+    second: tofu_1
+  - first:
+      213: -7037246905254989131
+    second: tofu_2
+  - first:
+      213: -17921866555513542
+    second: tofu_3
+  - first:
+      213: -7737328083470676677
+    second: tofu_4
+  - first:
+      213: -3814830706510634088
+    second: tofu_5
+  - first:
+      213: -5406246066911047489
+    second: tofu_6
+  - first:
+      213: -6399862541707501470
+    second: tofu_7
+  - first:
+      213: 4374665925429631079
+    second: tofu_8
+  - first:
+      213: -5313546983953492131
+    second: tofu_9
+  - first:
+      213: -8978778336986927358
+    second: tofu_10
+  - first:
+      213: 1039967219558657912
+    second: tofu_11
+  - first:
+      213: -6010584374304267236
+    second: tofu_12
+  - first:
+      213: -3700928323010594398
+    second: tofu_13
+  - first:
+      213: -4178090306362733543
+    second: tofu_14
+  - first:
+      213: -3789659969901769480
+    second: tofu_15
+  - first:
+      213: -6069485507826289516
+    second: tofu_16
+  - first:
+      213: 4535750482943550757
+    second: tofu_17
+  - first:
+      213: -5122364599000234836
+    second: tofu_18
+  - first:
+      213: -1066588830952061376
+    second: tofu_19
+  - first:
+      213: 5626705900677291820
+    second: tofu_20
+  - first:
+      213: -5413357776473805119
+    second: tofu_21
+  - first:
+      213: 1111262863045671230
+    second: tofu_22
+  - first:
+      213: 6862920265615115915
+    second: tofu_23
+  - first:
+      213: 1230865031466572361
+    second: tofu_24
+  - first:
+      213: -7175211075020844630
+    second: tofu_25
+  - first:
+      213: -7334569101407450298
+    second: tofu_26
+  - first:
+      213: 4507172134477214231
+    second: tofu_27
+  - first:
+      213: 8174852414631744443
+    second: tofu_28
+  - first:
+      213: 4165600905090678569
+    second: tofu_29
+  - first:
+      213: 8707288167370221218
+    second: tofu_30
+  - first:
+      213: -7353021768661043888
+    second: tofu_31
+  - first:
+      213: 6196351040588202426
+    second: tofu_32
+  - first:
+      213: 7841632815083711233
+    second: tofu_33
+  - first:
+      213: 5657151985051468536
+    second: tofu_34
+  - first:
+      213: 5983988734469866633
+    second: tofu_35
+  - first:
+      213: 4255863979436685370
+    second: tofu_36
+  - first:
+      213: -5483905149406505047
+    second: tofu_37
+  - first:
+      213: 6142452474863931302
+    second: tofu_38
+  - first:
+      213: -7082353059976561096
+    second: tofu_39
+  - first:
+      213: 6226705950137847345
+    second: tofu_40
+  - first:
+      213: 8485573949826791954
+    second: tofu_41
+  - first:
+      213: 5363913368028960156
+    second: tofu_42
+  - first:
+      213: -2750464559275852434
+    second: tofu_43
+  - first:
+      213: 608441619355012812
+    second: tofu_44
+  - first:
+      213: 293114517674259380
+    second: tofu_45
+  - first:
+      213: 2961990159775163405
+    second: tofu_46
+  - first:
+      213: 5204986633033359019
+    second: tofu_47
+  - first:
+      213: 6416633416831062466
+    second: tofu_48
+  - first:
+      213: 4535229712373715326
+    second: tofu_49
+  - first:
+      213: -876372720955732869
+    second: tofu_50
+  - first:
+      213: -1491766384888587958
+    second: tofu_51
+  - first:
+      213: 4748194601851823731
+    second: tofu_52
+  - first:
+      213: 1126655742280591185
+    second: tofu_53
+  - first:
+      213: 1982821452750510544
+    second: tofu_54
+  - first:
+      213: -8854603350615486855
+    second: tofu_55
+  - first:
+      213: 6795928889770121872
+    second: tofu_56
+  - first:
+      213: -3506257689498445265
+    second: tofu_57
+  - first:
+      213: 2693854442375848784
+    second: tofu_58
+  - first:
+      213: -3211835218020778738
+    second: tofu_59
+  - first:
+      213: -6890681635088069304
+    second: tofu_60
+  - first:
+      213: 7165840353342953354
+    second: tofu_61
+  - first:
+      213: 6540425507182421169
+    second: tofu_62
+  - first:
+      213: 8587667557882590179
+    second: tofu_63
+  - first:
+      213: -7090970122052564668
+    second: tofu_64
+  - first:
+      213: 5859822427893705416
+    second: tofu_65
+  - first:
+      213: -113143158286447393
+    second: tofu_66
+  - first:
+      213: -3569080920700909540
+    second: tofu_67
+  - first:
+      213: -3099930702900901364
+    second: tofu_68
+  - first:
+      213: -4856999588168804191
+    second: tofu_69
+  - first:
+      213: -2834705982907522584
+    second: tofu_70
+  - first:
+      213: 3434078839557795310
+    second: tofu_71
+  - first:
+      213: -460946184862115028
+    second: tofu_72
+  - first:
+      213: -101078481081003192
+    second: tofu_73
+  - first:
+      213: -4011109983570380050
+    second: tofu_74
+  - first:
+      213: -117673307828065605
+    second: tofu_75
+  - first:
+      213: 2143808861875026058
+    second: tofu_76
+  - first:
+      213: 1592228761042158416
+    second: tofu_77
+  - first:
+      213: -8037700404035512040
+    second: tofu_78
+  - first:
+      213: 571568753030482142
+    second: tofu_79
+  - first:
+      213: 7145711036329294124
+    second: tofu_80
+  - first:
+      213: 2898399463278430758
+    second: tofu_81
+  - first:
+      213: 60961739879866257
+    second: tofu_82
+  - first:
+      213: 4461882970475315769
+    second: tofu_83
+  - first:
+      213: 1784742793334451713
+    second: tofu_84
+  - first:
+      213: -952180551909756858
+    second: tofu_85
+  - first:
+      213: -8124454301766693123
+    second: tofu_86
+  - first:
+      213: 3553047613786148923
+    second: tofu_87
+  - first:
+      213: 3807795827874781265
+    second: tofu_88
+  - first:
+      213: -3792131995279504071
+    second: tofu_89
+  - first:
+      213: 3757711819440022904
+    second: tofu_90
+  - first:
+      213: 4281603066923004854
+    second: tofu_91
+  - first:
+      213: -1110813313742104601
+    second: tofu_92
+  - first:
+      213: -801353265870574036
+    second: tofu_93
+  - first:
+      213: -3365480556358296214
+    second: tofu_94
+  - first:
+      213: 7202007369608957737
+    second: tofu_95
+  - first:
+      213: -6158312893928189256
+    second: tofu_96
+  - first:
+      213: -7963633792875848370
+    second: tofu_97
+  - first:
+      213: 5659526973478596119
+    second: tofu_98
+  - first:
+      213: 8682592170121453880
+    second: tofu_99
+  - first:
+      213: -6614522665601647354
+    second: tofu_100
+  - first:
+      213: 756660776700349208
+    second: tofu_101
+  - first:
+      213: 7020627099078721574
+    second: tofu_102
+  - first:
+      213: 1995202347728216228
+    second: tofu_103
+  - first:
+      213: 2878114745696543053
+    second: tofu_104
+  - first:
+      213: 5313694527252142025
+    second: tofu_105
+  - first:
+      213: -915930818302366106
+    second: tofu_106
+  - first:
+      213: 6366067187175474002
+    second: tofu_107
+  - first:
+      213: -2238102742251809297
+    second: tofu_108
+  - first:
+      213: 5364430154384153335
+    second: tofu_109
+  - first:
+      213: -6062051897512679285
+    second: tofu_110
+  - first:
+      213: -1841186692690542875
+    second: tofu_111
+  - first:
+      213: 8664607458127033189
+    second: tofu_112
+  - first:
+      213: 4201417625429139256
+    second: tofu_113
+  - first:
+      213: -390091268651821596
+    second: tofu_114
+  - first:
+      213: 6480664965510724154
+    second: tofu_115
+  - first:
+      213: 1025325491108507883
+    second: tofu_116
+  - first:
+      213: -6172986345270639511
+    second: tofu_117
+  - first:
+      213: -1515230195800118333
+    second: tofu_118
+  - first:
+      213: 8923445437562932077
+    second: tofu_119
+  - first:
+      213: -7691616211534765669
+    second: tofu_120
+  - first:
+      213: -5674528073626750343
+    second: tofu_121
+  - first:
+      213: -334084583766388716
+    second: tofu_122
+  - first:
+      213: -2409316748865540335
+    second: tofu_123
+  - first:
+      213: -7707410575569486401
+    second: tofu_124
+  - first:
+      213: 3678377265364521046
+    second: tofu_125
+  - first:
+      213: 3532373186511642097
+    second: tofu_126
+  - first:
+      213: -1880363357623349054
+    second: tofu_127
+  - first:
+      213: -6539046147224532608
+    second: tofu_128
+  - first:
+      213: -6425240037163278189
+    second: tofu_129
+  - first:
+      213: 1325663021276712810
+    second: tofu_130
+  - first:
+      213: 5124898990253912665
+    second: tofu_131
+  - first:
+      213: -7691586838574024021
+    second: tofu_132
+  - first:
+      213: 1521275041442848823
+    second: tofu_133
+  - first:
+      213: -5870940787086756967
+    second: tofu_134
+  - first:
+      213: 601364886427167905
+    second: tofu_135
+  - first:
+      213: 4197199494142099145
+    second: tofu_136
+  - first:
+      213: -9070099028520771064
+    second: tofu_137
+  - first:
+      213: -4391967469200416857
+    second: tofu_138
+  - first:
+      213: -3119481710165493831
+    second: tofu_139
+  - first:
+      213: -2406357402836080762
+    second: tofu_140
+  - first:
+      213: -1107292550853534933
+    second: tofu_141
+  - first:
+      213: 3465037077752840670
+    second: tofu_142
+  - first:
+      213: -37822317505283579
+    second: tofu_143
+  - first:
+      213: 3432952143169035198
+    second: tofu_144
+  - first:
+      213: 8784680580012586196
+    second: tofu_145
+  - first:
+      213: -3180064878885257452
+    second: tofu_146
+  - first:
+      213: 4384429321133887171
+    second: tofu_147
+  - first:
+      213: -758586268781917294
+    second: tofu_148
+  - first:
+      213: 9031979145734149021
+    second: tofu_149
+  - first:
+      213: -1532599583918104089
+    second: tofu_150
+  - first:
+      213: -3759131568478588320
+    second: tofu_151
+  - first:
+      213: -4327747144267362138
+    second: tofu_152
+  - first:
+      213: 7649287724687119514
+    second: tofu_153
+  - first:
+      213: -4028562128840217106
+    second: tofu_154
+  - first:
+      213: 6851086973864885484
+    second: tofu_155
+  - first:
+      213: 8230255972082949246
+    second: tofu_156
+  - first:
+      213: 5780098705466457966
+    second: tofu_157
+  - first:
+      213: -4431399430729663983
+    second: tofu_158
+  - first:
+      213: -7135476026362137403
+    second: tofu_159
+  - first:
+      213: 8744115487266525469
+    second: tofu_160
+  - first:
+      213: 3341704239886554669
+    second: tofu_161
+  - first:
+      213: -502081028895367327
+    second: tofu_162
+  - first:
+      213: -7399079767878764776
+    second: tofu_163
+  - first:
+      213: 8773314143607237631
+    second: tofu_164
+  - first:
+      213: 790419479453974146
+    second: tofu_165
+  - first:
+      213: -1087216104611816982
+    second: tofu_166
+  - first:
+      213: 6005193659055733938
+    second: tofu_167
+  - first:
+      213: 1095761988057069734
+    second: tofu_168
+  - first:
+      213: 8631803757966593479
+    second: tofu_169
+  - first:
+      213: -4642667833271941423
+    second: tofu_170
+  - first:
+      213: -3031754430786607953
+    second: tofu_171
+  - first:
+      213: 6651029531667976028
+    second: tofu_172
+  - first:
+      213: 7723528909977184883
+    second: tofu_173
+  - first:
+      213: -3801370818819611870
+    second: tofu_174
+  - first:
+      213: 3206054990205471268
+    second: tofu_175
+  - first:
+      213: 4855394389885573412
+    second: tofu_176
+  - first:
+      213: 6962453616644805233
+    second: tofu_177
+  - first:
+      213: 3886475545681290491
+    second: tofu_178
+  - first:
+      213: -1196557123207719131
+    second: tofu_179
+  - first:
+      213: -5700071854092741336
+    second: tofu_180
+  - first:
+      213: -5538742543329498412
+    second: tofu_181
+  - first:
+      213: -7974595232218255396
+    second: tofu_182
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 70
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tofu_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1481
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da795409d895a2470800000000000000
+      internalID: 8370601321967228845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1461
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab49ca25e7ffac810800000000000000
+      internalID: 1786521120223827130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1490
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b23f8f793da65e90800000000000000
+      internalID: -7037246905254989131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1490
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a352f36482450cff0800000000000000
+      internalID: -17921866555513542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1427
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d831a2a1d7f9490800000000000000
+      internalID: -7737328083470676677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1465
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8936e2c2faffe0bc0800000000000000
+      internalID: -3814830706510634088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1448
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb01a6d78d729f4b0800000000000000
+      internalID: -5406246066911047489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_7
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1437
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260223e1dee1f27a0800000000000000
+      internalID: -6399862541707501470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1378
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7681d303b7fe5bc30800000000000000
+      internalID: 4374665925429631079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1420
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d579a14ab2d7246b0800000000000000
+      internalID: -5313546983953492131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1366
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20febe29ca8f46380800000000000000
+      internalID: -8978778336986927358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1403
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f28db1da4be6e00800000000000000
+      internalID: 1039967219558657912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_12
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1359
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14a4156b5d169ca0800000000000000
+      internalID: -6010584374304267236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1366
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a975cf6c49a3acc0800000000000000
+      internalID: -3700928323010594398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1358
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c0fb9b0017406c0800000000000000
+      internalID: -4178090306362733543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1303
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fccc7af55c686bc0800000000000000
+      internalID: -3789659969901769480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1342
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494f1a0961bd4cba0800000000000000
+      internalID: -6069485507826289516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_17
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1346
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52528a5680932fe30800000000000000
+      internalID: 4535750482943550757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1338
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca40e826984b9e8b0800000000000000
+      internalID: -5122364599000234836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1315
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04604b9fb17b231f0800000000000000
+      internalID: -1066588830952061376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_20
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1326
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fd6718433161e40800000000000000
+      internalID: 5626705900677291820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1312
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce2e2398c3efd4b0800000000000000
+      internalID: -5413357776473805119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_22
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1303
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39bbebafaffb6f00800000000000000
+      internalID: 1111262863045671230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_23
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1290
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8681d9ce9dfd3f50800000000000000
+      internalID: 6862920265615115915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1269
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ad3078939e41110800000000000000
+      internalID: 1230865031466572361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_25
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1262
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa11fec0b878c6c90800000000000000
+      internalID: -7175211075020844630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1251
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b8d023340663a90800000000000000
+      internalID: -7334569101407450298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_27
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1253
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712bd012d21bc8e30800000000000000
+      internalID: 4507172134477214231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_28
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1258
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb39e5975f8e27170800000000000000
+      internalID: 8174852414631744443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_29
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1266
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fb9ffe3ff2fc930800000000000000
+      internalID: 4165600905090678569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_30
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1253
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6601d747086d870800000000000000
+      internalID: 8707288167370221218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_31
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1258
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0557e3dc8a1d4f990800000000000000
+      internalID: -7353021768661043888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_32
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1233
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1c1e5117cddf550800000000000000
+      internalID: 6196351040588202426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_33
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1219
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b6c12af7313dc60800000000000000
+      internalID: 7841632815083711233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_34
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1248
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2836de1cd328e40800000000000000
+      internalID: 5657151985051468536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_35
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1245
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984040aac066b0350800000000000000
+      internalID: 5983988734469866633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1235
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3834b2adbddf0b30800000000000000
+      internalID: 4255863979436685370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_37
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1214
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a790b3525145e3b0800000000000000
+      internalID: -5483905149406505047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_38
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1199
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afcbf55bff5e3550800000000000000
+      internalID: 6142452474863931302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_39
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1206
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e32367a6d66bd90800000000000000
+      internalID: -7082353059976561096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1196
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e07c63214b96650800000000000000
+      internalID: 6226705950137847345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1171
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21afbb28c80d2c570800000000000000
+      internalID: 8485573949826791954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1195
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95d55bf9c2707a40800000000000000
+      internalID: 5363913368028960156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_43
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1196
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6dbf015e0364d9d0800000000000000
+      internalID: -2750464559275852434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_44
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1191
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce083cdd6e917800800000000000000
+      internalID: 608441619355012812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_45
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1197
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3fb70d91a511400800000000000000
+      internalID: 293114517674259380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1129
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04e9956b5a1b1920800000000000000
+      internalID: 2961990159775163405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_47
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1182
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae1c9af3c3db3840800000000000000
+      internalID: 5204986633033359019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1166
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1dd1888167c0950800000000000000
+      internalID: 6416633416831062466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_49
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1155
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7115dc056f50fe30800000000000000
+      internalID: 4535229712373715326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_50
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1124
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c479c47af76d3f0800000000000000
+      internalID: -876372720955732869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_51
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1131
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49d8dc606e2c4be0800000000000000
+      internalID: -1491766384888587958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_52
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1109
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3762ec755d9f4e140800000000000000
+      internalID: 4748194601851823731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_53
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1116
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157e9c6ad6fa2af00800000000000000
+      internalID: 1126655742280591185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_54
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1095
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9d7381b95648b10800000000000000
+      internalID: 1982821452750510544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_55
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1093
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e84939a212e1580800000000000000
+      internalID: -8854603350615486855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_56
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1070
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a1091a15dff4e50800000000000000
+      internalID: 6795928889770121872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_57
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1062
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a96765535475fc0800000000000000
+      internalID: -3506257689498445265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_58
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1070
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053ab6ab75e726520800000000000000
+      internalID: 2693854442375848784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_59
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1076
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d38c0e2e44d63d0800000000000000
+      internalID: -3211835218020778738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_60
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1072
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d8440bf816f50a0800000000000000
+      internalID: -6890681635088069304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_61
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1049
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a879a2ac5dd227360800000000000000
+      internalID: 7165840353342953354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_62
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1030
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4238b985244ca50800000000000000
+      internalID: 6540425507182421169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_63
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1054
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3fcbcf4268d2770800000000000000
+      internalID: 8587667557882590179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_64
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1039
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449062a5e30d79d90800000000000000
+      internalID: -7090970122052564668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_65
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1044
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8caa8759375425150800000000000000
+      internalID: 5859822427893705416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_66
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1001
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc0291a5e80e6ef0800000000000000
+      internalID: -113143158286447393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_67
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1014
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c188ffaffc3187ec0800000000000000
+      internalID: -3569080920700909540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_68
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1012
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ac3492375daf4d0800000000000000
+      internalID: -3099930702900901364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_69
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1006
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8daf8ab98789cb0800000000000000
+      internalID: -4856999588168804191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_70
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 990
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e16f1e6de919a8d0800000000000000
+      internalID: -2834705982907522584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_71
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1004
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed2782928c48af20800000000000000
+      internalID: 3434078839557795310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_72
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 995
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bd8b613e36a99f0800000000000000
+      internalID: -460946184862115028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_73
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 989
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8431bb038a5e89ef0800000000000000
+      internalID: -101078481081003192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_74
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 972
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeab342c8bca558c0800000000000000
+      internalID: -4011109983570380050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_75
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 980
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbaec5fffb0fd5ef0800000000000000
+      internalID: -117673307828065605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_76
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 983
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88356e2dc650cd10800000000000000
+      internalID: 2143808861875026058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_77
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 942
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05304174f9bb81610800000000000000
+      internalID: 1592228761042158416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_78
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 978
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819137e611a547090800000000000000
+      internalID: -8037700404035512040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_79
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 950
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed84819a0ce9ee700800000000000000
+      internalID: 571568753030482142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_80
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 953
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29fef3f35aaa2360800000000000000
+      internalID: 7145711036329294124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_81
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 894
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ac4e994fe293820800000000000000
+      internalID: 2898399463278430758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_82
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 933
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fdd62216498d000800000000000000
+      internalID: 60961739879866257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_83
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 927
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932cb8cebeacbed30800000000000000
+      internalID: 4461882970475315769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 921
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e63245d1ea4c810800000000000000
+      internalID: 1784742793334451713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_85
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 872
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640326935dc29c2f0800000000000000
+      internalID: -952180551909756858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_86
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 868
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe4d459bd3204f80800000000000000
+      internalID: -8124454301766693123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_87
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 879
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30d5c9daf5fe4130800000000000000
+      internalID: 3553047613786148923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 853
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158d0b1812208d430800000000000000
+      internalID: 3807795827874781265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_89
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 858
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93dc8f7ba04af5bc0800000000000000
+      internalID: -3792131995279504071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_90
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 827
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87562069df2162430800000000000000
+      internalID: 3757711819440022904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_91
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 841
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b33b21fd4f4b6b30800000000000000
+      internalID: 4281603066923004854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_92
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 802
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e790ae2d299590f0800000000000000
+      internalID: -1110813313742104601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_93
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 834
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e6f20537501e4f0800000000000000
+      internalID: -801353265870574036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_94
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 819
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d97cbd3496b41d0800000000000000
+      internalID: -3365480556358296214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_95
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 829
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f89477b8ba2f360800000000000000
+      internalID: 7202007369608957737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_96
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 804
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2d3b51d07498aa0800000000000000
+      internalID: -6158312893928189256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_97
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 765
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d965e224d7b7190800000000000000
+      internalID: -7963633792875848370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_98
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 769
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71eeee20ccdaa8e40800000000000000
+      internalID: 5659526973478596119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_99
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 779
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8316dad8393ce7870800000000000000
+      internalID: 8682592170121453880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_100
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 768
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d3b0e4eae7434a0800000000000000
+      internalID: -6614522665601647354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_101
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 722
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b02baa7f2308a00800000000000000
+      internalID: 756660776700349208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_102
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 750
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620811556274e6160800000000000000
+      internalID: 7020627099078721574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_103
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 737
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0ad57d6f160bb10800000000000000
+      internalID: 1995202347728216228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_104
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 742
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d416e00cc1e11f720800000000000000
+      internalID: 2878114745696543053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_105
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 728
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c71dc5f4090eb940800000000000000
+      internalID: 5313694527252142025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_106
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 675
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e214806c5f943f0800000000000000
+      internalID: -915930818302366106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_107
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 697
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2534ddbb060d85850800000000000000
+      internalID: 6366067187175474002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_108
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 701
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5d045f969a0f0e0800000000000000
+      internalID: -2238102742251809297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_109
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 671
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa167eadc8427a40800000000000000
+      internalID: 5364430154384153335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_110
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 669
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8826c6dae34fdba0800000000000000
+      internalID: -6062051897512679285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_111
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 654
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eef001457ac276e0800000000000000
+      internalID: -1841186692690542875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_112
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 640
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563bcdb739ede3870800000000000000
+      internalID: 8664607458127033189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_113
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 650
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fd4ccf11f6e4a30800000000000000
+      internalID: 4201417625429139256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_114
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 632
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5d606de0e169af0800000000000000
+      internalID: -390091268651821596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_115
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 606
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3af5993372ffe950800000000000000
+      internalID: 6480664965510724154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_116
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 598
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0fcac0a10ba3e00800000000000000
+      internalID: 1025325491108507883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_117
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 624
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9648ec6ff95255aa0800000000000000
+      internalID: -6172986345270639511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_118
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 627
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb636a3a22d8fae0800000000000000
+      internalID: -1515230195800118333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_119
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 614
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bc486d85276db70800000000000000
+      internalID: 8923445437562932077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_120
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 588
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91a5dabec3e14590800000000000000
+      internalID: -7691616211534765669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_121
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 601
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972fe7f28c60041b0800000000000000
+      internalID: -5674528073626750343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_122
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 560
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4109ba357d71d5bf0800000000000000
+      internalID: -334084583766388716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_123
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 574
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f68789e23609ed0800000000000000
+      internalID: -2409316748865540335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_124
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 573
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd7719cae6c90590800000000000000
+      internalID: -7707410575569486401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_125
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 558
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650dceb42a83c0330800000000000000
+      internalID: 3678377265364521046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_126
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 583
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd1424a2b2850130800000000000000
+      internalID: 3532373186511642097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_127
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 554
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c013342d7b97e5e0800000000000000
+      internalID: -1880363357623349054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_128
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 558
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0898bc8ac24a045a0800000000000000
+      internalID: -6539046147224532608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_129
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 554
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390e3448a36f4d6a0800000000000000
+      internalID: -6425240037163278189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_130
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 544
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fc1138e73b56210800000000000000
+      internalID: 1325663021276712810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_131
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 543
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952b7df8a7c4f1740800000000000000
+      internalID: 5124898990253912665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_132
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 536
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baab9b7a58ef14590800000000000000
+      internalID: -7691586838574024021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_133
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 522
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7306ed21797ac1510800000000000000
+      internalID: 1521275041442848823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_134
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 516
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9937750b57a368ea0800000000000000
+      internalID: -5870940787086756967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_135
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 522
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac62e39d2a785800800000000000000
+      internalID: 601364886427167905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_136
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 506
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cef9c3c3b27f3a30800000000000000
+      internalID: 4197199494142099145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_137
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 492
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802676f2df8802280800000000000000
+      internalID: -9070099028520771064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_138
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 504
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afdc3d3bd89c03c0800000000000000
+      internalID: -4391967469200416857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_139
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 459
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7f14e89ef55b4d0800000000000000
+      internalID: -3119481710165493831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_140
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 492
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687e25901b6ea9ed0800000000000000
+      internalID: -2406357402836080762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_141
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 490
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b50fbaa4b12a0f0800000000000000
+      internalID: -1107292550853534933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_142
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 478
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed104091dd8461030800000000000000
+      internalID: 3465037077752840670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_143
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 447
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50af3887dc0a97ff0800000000000000
+      internalID: -37822317505283579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_144
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 476
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb918029cb44af20800000000000000
+      internalID: 3432952143169035198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_145
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 465
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d43cecb17479e970800000000000000
+      internalID: 8784680580012586196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_146
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 440
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f395367d32ed3d0800000000000000
+      internalID: -3180064878885257452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_147
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 430
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce0ef4ec3f98dc30800000000000000
+      internalID: 4384429321133887171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_148
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 406
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bc3c5cec5f875f0800000000000000
+      internalID: -758586268781917294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_149
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 418
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d935838fd29085d70800000000000000
+      internalID: 9031979145734149021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_150
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 409
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e166a96ccc1bbae0800000000000000
+      internalID: -1532599583918104089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_151
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 388
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06270e451c1e4dbc0800000000000000
+      internalID: -3759131568478588320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_152
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 317
+        width: 8
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a09b34d6e0c0f3c0800000000000000
+      internalID: -4327747144267362138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_153
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 346
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a945bbe68aab72a60800000000000000
+      internalID: 7649287724687119514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_154
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 347
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed23ea861ca718c0800000000000000
+      internalID: -4028562128840217106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_155
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 330
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cecb58add43f31f50800000000000000
+      internalID: 6851086973864885484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_156
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 354
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c9a8a633eb73270800000000000000
+      internalID: 8230255972082949246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_157
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 329
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ff50af529073050800000000000000
+      internalID: 5780098705466457966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_158
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 335
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a7d7142b18082c0800000000000000
+      internalID: -4431399430729663983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_159
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 332
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c47e510c52b9fc90800000000000000
+      internalID: -7135476026362137403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_160
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 329
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11538515b6595970800000000000000
+      internalID: 8744115487266525469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_161
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 311
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26dad21d4e106e20800000000000000
+      internalID: 3341704239886554669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_162
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 264
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f9a30e6ff3809f0800000000000000
+      internalID: -502081028895367327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_163
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 294
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8177ec23720315990800000000000000
+      internalID: -7399079767878764776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_164
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 276
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbae980bb211c970800000000000000
+      internalID: 8773314143607237631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_165
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 277
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e3768245228fa00800000000000000
+      internalID: 790419479453974146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_166
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 264
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9578296be69e0f0800000000000000
+      internalID: -1087216104611816982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_167
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 261
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcf177e0dbb65350800000000000000
+      internalID: 6005193659055733938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_168
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 248
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a87488f8bde43f00800000000000000
+      internalID: 1095761988057069734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_169
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 246
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd0b7cd8c35ac770800000000000000
+      internalID: 8631803757966593479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_170
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 243
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d681bb143ee19fb0800000000000000
+      internalID: -4642667833271941423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_171
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 244
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa46fba786b0de5d0800000000000000
+      internalID: -3031754430786607953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_172
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 233
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fc3b1de143d4c50800000000000000
+      internalID: 6651029531667976028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_173
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 235
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a66a36f9c7f2b60800000000000000
+      internalID: 7723528909977184883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_174
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 217
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223a8bc7161de3bc0800000000000000
+      internalID: -3801370818819611870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_175
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ac095f6023e7c20800000000000000
+      internalID: 3206054990205471268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_176
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 174
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429dd8df873d16340800000000000000
+      internalID: 4855394389885573412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_177
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 202
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1725f39fcaa9f9060800000000000000
+      internalID: 6962453616644805233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_178
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 197
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf46398dae88fe530800000000000000
+      internalID: 3886475545681290491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_179
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 181
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5279db5d2a9f46fe0800000000000000
+      internalID: -1196557123207719131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_180
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 125
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825999659d645e0b0800000000000000
+      internalID: -5700071854092741336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_181
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 137
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da608a900f6223b0800000000000000
+      internalID: -5538742543329498412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tofu_182
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 125
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf6b1433eb845190800000000000000
+      internalID: -7974595232218255396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tofu_0: 8370601321967228845
+      tofu_1: 1786521120223827130
+      tofu_10: -8978778336986927358
+      tofu_100: -6614522665601647354
+      tofu_101: 756660776700349208
+      tofu_102: 7020627099078721574
+      tofu_103: 1995202347728216228
+      tofu_104: 2878114745696543053
+      tofu_105: 5313694527252142025
+      tofu_106: -915930818302366106
+      tofu_107: 6366067187175474002
+      tofu_108: -2238102742251809297
+      tofu_109: 5364430154384153335
+      tofu_11: 1039967219558657912
+      tofu_110: -6062051897512679285
+      tofu_111: -1841186692690542875
+      tofu_112: 8664607458127033189
+      tofu_113: 4201417625429139256
+      tofu_114: -390091268651821596
+      tofu_115: 6480664965510724154
+      tofu_116: 1025325491108507883
+      tofu_117: -6172986345270639511
+      tofu_118: -1515230195800118333
+      tofu_119: 8923445437562932077
+      tofu_12: -6010584374304267236
+      tofu_120: -7691616211534765669
+      tofu_121: -5674528073626750343
+      tofu_122: -334084583766388716
+      tofu_123: -2409316748865540335
+      tofu_124: -7707410575569486401
+      tofu_125: 3678377265364521046
+      tofu_126: 3532373186511642097
+      tofu_127: -1880363357623349054
+      tofu_128: -6539046147224532608
+      tofu_129: -6425240037163278189
+      tofu_13: -3700928323010594398
+      tofu_130: 1325663021276712810
+      tofu_131: 5124898990253912665
+      tofu_132: -7691586838574024021
+      tofu_133: 1521275041442848823
+      tofu_134: -5870940787086756967
+      tofu_135: 601364886427167905
+      tofu_136: 4197199494142099145
+      tofu_137: -9070099028520771064
+      tofu_138: -4391967469200416857
+      tofu_139: -3119481710165493831
+      tofu_14: -4178090306362733543
+      tofu_140: -2406357402836080762
+      tofu_141: -1107292550853534933
+      tofu_142: 3465037077752840670
+      tofu_143: -37822317505283579
+      tofu_144: 3432952143169035198
+      tofu_145: 8784680580012586196
+      tofu_146: -3180064878885257452
+      tofu_147: 4384429321133887171
+      tofu_148: -758586268781917294
+      tofu_149: 9031979145734149021
+      tofu_15: -3789659969901769480
+      tofu_150: -1532599583918104089
+      tofu_151: -3759131568478588320
+      tofu_152: -4327747144267362138
+      tofu_153: 7649287724687119514
+      tofu_154: -4028562128840217106
+      tofu_155: 6851086973864885484
+      tofu_156: 8230255972082949246
+      tofu_157: 5780098705466457966
+      tofu_158: -4431399430729663983
+      tofu_159: -7135476026362137403
+      tofu_16: -6069485507826289516
+      tofu_160: 8744115487266525469
+      tofu_161: 3341704239886554669
+      tofu_162: -502081028895367327
+      tofu_163: -7399079767878764776
+      tofu_164: 8773314143607237631
+      tofu_165: 790419479453974146
+      tofu_166: -1087216104611816982
+      tofu_167: 6005193659055733938
+      tofu_168: 1095761988057069734
+      tofu_169: 8631803757966593479
+      tofu_17: 4535750482943550757
+      tofu_170: -4642667833271941423
+      tofu_171: -3031754430786607953
+      tofu_172: 6651029531667976028
+      tofu_173: 7723528909977184883
+      tofu_174: -3801370818819611870
+      tofu_175: 3206054990205471268
+      tofu_176: 4855394389885573412
+      tofu_177: 6962453616644805233
+      tofu_178: 3886475545681290491
+      tofu_179: -1196557123207719131
+      tofu_18: -5122364599000234836
+      tofu_180: -5700071854092741336
+      tofu_181: -5538742543329498412
+      tofu_182: -7974595232218255396
+      tofu_19: -1066588830952061376
+      tofu_2: -7037246905254989131
+      tofu_20: 5626705900677291820
+      tofu_21: -5413357776473805119
+      tofu_22: 1111262863045671230
+      tofu_23: 6862920265615115915
+      tofu_24: 1230865031466572361
+      tofu_25: -7175211075020844630
+      tofu_26: -7334569101407450298
+      tofu_27: 4507172134477214231
+      tofu_28: 8174852414631744443
+      tofu_29: 4165600905090678569
+      tofu_3: -17921866555513542
+      tofu_30: 8707288167370221218
+      tofu_31: -7353021768661043888
+      tofu_32: 6196351040588202426
+      tofu_33: 7841632815083711233
+      tofu_34: 5657151985051468536
+      tofu_35: 5983988734469866633
+      tofu_36: 4255863979436685370
+      tofu_37: -5483905149406505047
+      tofu_38: 6142452474863931302
+      tofu_39: -7082353059976561096
+      tofu_4: -7737328083470676677
+      tofu_40: 6226705950137847345
+      tofu_41: 8485573949826791954
+      tofu_42: 5363913368028960156
+      tofu_43: -2750464559275852434
+      tofu_44: 608441619355012812
+      tofu_45: 293114517674259380
+      tofu_46: 2961990159775163405
+      tofu_47: 5204986633033359019
+      tofu_48: 6416633416831062466
+      tofu_49: 4535229712373715326
+      tofu_5: -3814830706510634088
+      tofu_50: -876372720955732869
+      tofu_51: -1491766384888587958
+      tofu_52: 4748194601851823731
+      tofu_53: 1126655742280591185
+      tofu_54: 1982821452750510544
+      tofu_55: -8854603350615486855
+      tofu_56: 6795928889770121872
+      tofu_57: -3506257689498445265
+      tofu_58: 2693854442375848784
+      tofu_59: -3211835218020778738
+      tofu_6: -5406246066911047489
+      tofu_60: -6890681635088069304
+      tofu_61: 7165840353342953354
+      tofu_62: 6540425507182421169
+      tofu_63: 8587667557882590179
+      tofu_64: -7090970122052564668
+      tofu_65: 5859822427893705416
+      tofu_66: -113143158286447393
+      tofu_67: -3569080920700909540
+      tofu_68: -3099930702900901364
+      tofu_69: -4856999588168804191
+      tofu_7: -6399862541707501470
+      tofu_70: -2834705982907522584
+      tofu_71: 3434078839557795310
+      tofu_72: -460946184862115028
+      tofu_73: -101078481081003192
+      tofu_74: -4011109983570380050
+      tofu_75: -117673307828065605
+      tofu_76: 2143808861875026058
+      tofu_77: 1592228761042158416
+      tofu_78: -8037700404035512040
+      tofu_79: 571568753030482142
+      tofu_8: 4374665925429631079
+      tofu_80: 7145711036329294124
+      tofu_81: 2898399463278430758
+      tofu_82: 60961739879866257
+      tofu_83: 4461882970475315769
+      tofu_84: 1784742793334451713
+      tofu_85: -952180551909756858
+      tofu_86: -8124454301766693123
+      tofu_87: 3553047613786148923
+      tofu_88: 3807795827874781265
+      tofu_89: -3792131995279504071
+      tofu_9: -5313546983953492131
+      tofu_90: 3757711819440022904
+      tofu_91: 4281603066923004854
+      tofu_92: -1110813313742104601
+      tofu_93: -801353265870574036
+      tofu_94: -3365480556358296214
+      tofu_95: 7202007369608957737
+      tofu_96: -6158312893928189256
+      tofu_97: -7963633792875848370
+      tofu_98: 5659526973478596119
+      tofu_99: 8682592170121453880
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,6 @@
+owl.png
+size:136,180
+filter:Linear,Linear
+pma:true
+owl
+bounds:2,2,131,175
