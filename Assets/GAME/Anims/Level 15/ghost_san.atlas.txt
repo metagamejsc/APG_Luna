@@ -1,0 +1,14 @@
+ghost_san.png
+size:292,572
+filter:Linear,Linear
+pma:true
+ghost100
+bounds:2,88,199,240
+ghost_guong1
+bounds:2,330,199,240
+sannha
+bounds:2,2,255,84
+sannha_
+bounds:203,183,387,84
+offsets:1,1,389,86
+rotate:90

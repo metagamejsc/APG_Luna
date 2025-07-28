@@ -1,0 +1,11 @@
+ghost_door.png
+size:404,652
+filter:Linear,Linear
+pma:true
+door_close
+bounds:2,203,217,447
+door_open
+bounds:221,178,179,472
+ghost_guong1
+bounds:2,2,199,240
+rotate:90

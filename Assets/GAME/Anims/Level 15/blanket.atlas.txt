@@ -1,0 +1,8 @@
+blanket.png
+size:1080,356
+filter:Linear,Linear
+pma:true
+chan
+bounds:701,2,376,352
+chan_
+bounds:2,4,786,350
