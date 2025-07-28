@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,6 +7,9 @@ public class LunaManager : MonoBehaviour
     public Button[] lstBtnInstall;
     public GameObject EndCard;
     public GameObject hand;
+    [Header("Progess")]
+    [SerializeField] private TextMeshProUGUI textProgess;
+    [SerializeField] private Image imgProgess;
     //----------------------------------LUNA----------------------------
 
     public int countPlay = 0;
@@ -42,7 +46,8 @@ public class LunaManager : MonoBehaviour
         EndCard.SetActive(false);
         SetupField();
         Invoke(nameof(ShowEndCard), timeDropFinal);
-        countPlayFinal = Mathf.Min(countPlayFinal, 8f);
+        countPlayFinal = Mathf.Min(countPlayFinal, 5f);
+        UpdateProgress();
     }
     public void TurnOffHand()
     {
@@ -63,13 +68,19 @@ public class LunaManager : MonoBehaviour
     public void CountPlay()
     {
         countPlay++;
+        UpdateProgress();
         //GameController.instance.IQFill.AddValue();
         if (countPlay >= countPlayFinal)
         {
             ShowEndCard();
         }
     }
-
+    void UpdateProgress()
+    {
+        float value = countPlay / 12f;
+        imgProgess.fillAmount = value;
+        textProgess.text = countPlay + "/" + 12;
+    }
     // Update is called once per frame
     public void PauseGameplay()
     {
