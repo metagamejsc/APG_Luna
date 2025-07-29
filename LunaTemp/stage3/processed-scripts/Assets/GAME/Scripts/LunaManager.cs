@@ -21,6 +21,7 @@ public class LunaManager : MonoBehaviour
     [Header("Progess")]
     [SerializeField] private TextMeshProUGUI textProgess;
     [SerializeField] private Image imgProgess;
+    [SerializeField] private GameObject chatBox;
     //---------------------------------
 
     // [LunaPlaygroundAsset("LogoGame")] public Texture2D logoGame;
@@ -49,6 +50,17 @@ public class LunaManager : MonoBehaviour
         countPlayFinal = Mathf.Min(countPlayFinal, 4f);
         UpdateProgress();
     }
+    public void OpenChatBox()
+    {
+        if (chatBox.activeInHierarchy)
+        {
+            chatBox.SetActive(false);
+        }
+        else
+        {
+            chatBox.SetActive(true);
+        }
+    }
     public void TurnOffHand()
     {
         if (hand.activeInHierarchy)
@@ -68,6 +80,10 @@ public class LunaManager : MonoBehaviour
     public void CountPlay()
     {
         countPlay++;
+        if (countPlay == 1)
+        {
+            OpenChatBox();
+        }
         UpdateProgress();
         //GameController.instance.IQFill.AddValue();
         if (countPlay >= countPlayFinal)
