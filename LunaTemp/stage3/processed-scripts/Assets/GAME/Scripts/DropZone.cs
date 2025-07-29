@@ -7,62 +7,58 @@ public class DropZone : MonoBehaviour
 {
     private BoxCollider2D boxCollider;
     public int idDrop = 0;
-    public SkeletonGraphic skeletonGraphic;
-    public bool canDrop = false;
-
-    [Header("Audio Settings")]
-    [SerializeField] private AudioSource audioSource;
-    [SerializeField] private List<AudioClip> audioClips = new List<AudioClip>();
+    // public SkeletonGraphic skeletonGraphic;
+    // public bool canDrop = false;
+    private int currentStep = 0;
+    public GameObject[] steps;
+    public bool isDontWork = false;
+    // [Header("Audio Settings")]
+    // [SerializeField] private AudioSource audioSource;
+    // [SerializeField] private List<AudioClip> audioClips = new List<AudioClip>();
 
     void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
         boxCollider.enabled = true;
-        if (audioSource == null)
-        {
-            audioSource = gameObject.AddComponent<AudioSource>();
-        }
-        SetAnimationIdle();
+        currentStep = 0;
+        NextStep();
     }
-    public void DragOn(string id, int idMusic = 0)
+    public void DragOn()
     {
-        canDrop = false;
+        currentStep++;
+        NextStep();
+        CheckDone();
+        //Upgrade();
         LunaManager.ins.CountPlay();
-        if (id == "") return;
-        var trackEntry = skeletonGraphic.AnimationState.SetAnimation(0, id, false);
-        trackEntry.Complete += OnActionAnimationComplete;
-
-        // Play corresponding audio
-        PlayAudioById(idMusic);
-
-
     }
-    public void PlayAudioById(int id)
+    public void UpgradeWoman()
     {
-        if (id >= 0 && id < audioClips.Count && audioClips[id] != null)
+        currentStep++;
+        NextStep();
+        //if (!isActive) return;
+        //isActive = false;
+        //GameController.instance.EnableUpgrade(gameObject.name);
+    }
+    void NextStep()
+    {
+        if (currentStep >= steps.Length)
         {
-            audioSource.clip = audioClips[id];
-            audioSource.Play();
+            return;
         }
-        else
-        {
-            Debug.LogWarning($"Audio clip with id {id} not found or invalid");
-        }
-    }
-    private void OnActionAnimationComplete(Spine.TrackEntry trackEntry)
-    {
-        // Remove the listener to prevent memory leaks
-        trackEntry.Complete -= OnActionAnimationComplete;
-        // Return to idle animation
-        SetAnimationIdle();
-    }
-    void SetAnimationIdle()
-    {
-        canDrop = true;
-        skeletonGraphic.AnimationState.SetAnimation(0, "idle", true);
-        //skeletonGraphic.Initialize(true);
-    }
 
+        foreach (var step in steps)
+        {
+            step.SetActive(false);
+        }
+        steps[currentStep].SetActive(true);
+    }
+    void CheckDone()
+    {
+        if (currentStep == steps.Length - 1)
+        {
+            boxCollider.enabled = false;
+        }
+    }
     void OnEnable()
     {
         GameController.OnUpgradePhase2 += EventUpgrade;

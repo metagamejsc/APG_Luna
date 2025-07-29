@@ -46,7 +46,7 @@ public class LunaManager : MonoBehaviour
         EndCard.SetActive(false);
         SetupField();
         Invoke(nameof(ShowEndCard), timeDropFinal);
-        countPlayFinal = Mathf.Min(countPlayFinal, 6f);
+        countPlayFinal = Mathf.Min(countPlayFinal, 4f);
         UpdateProgress();
     }
     public void TurnOffHand()
@@ -77,9 +77,9 @@ public class LunaManager : MonoBehaviour
     }
     void UpdateProgress()
     {
-        float value = countPlay / 7f;
+        float value = countPlay / 6f;
         imgProgess.fillAmount = value;
-        textProgess.text = countPlay + "/" + 7;
+        textProgess.text = countPlay + "/" + 6;
     }
 
     // Update is called once per frame
