@@ -1,0 +1,6 @@
+level_23_curtain.png
+size:312,380
+filter:Linear,Linear
+pma:true
+anim_window_blind
+bounds:2,2,306,373

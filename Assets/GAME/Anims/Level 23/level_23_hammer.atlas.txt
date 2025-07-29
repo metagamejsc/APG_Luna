@@ -1,0 +1,6 @@
+level_23_hammer.png
+size:124,60
+filter:Linear,Linear
+pma:true
+anim_hammer
+bounds:2,2,117,54
