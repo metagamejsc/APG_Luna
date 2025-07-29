@@ -97,7 +97,8 @@
                 "Stubs/IronSource",
                 "Stubs/Vungle",
                 "Stubs/MoreMountains.NiceVibrations",
-                "Assets/GAME/Audios/Sound/tornado-sound-29406.mp3"
+                "Assets/GAME/Audios/Sound/tornado-sound-29406.mp3",
+                "Assets/GAME/Assets/Icon.png"
             ],
             "includes": [
                 "Assets/Resources/DOTweenSettings.asset",
