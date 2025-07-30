@@ -5,33 +5,30 @@ operable program or batch file.
 Exporting assets from Unity........
 
 [ Stage1 ] Assets exported from Unity and staged for further processing
-Using E:/ProjectGitHub/APG_Luna/Assets/TextMesh Pro/Fonts/LiberationSans.ttf file to generate an atlas for LiberationSans[43688] font
+Using E:/ProjectGitHub/APG_Luna/Assets/GAME/Assets/Fonts/MUSEOSANSROUNDED-1000.TTF file to generate an atlas for MUSEOSANSROUNDED-1000[26654] font
   Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
-Using E:/ProjectGitHub/APG_Luna/Assets/GAME/Assets/Fonts/MUSEOSANSROUNDED-1000.TTF file to generate an atlas for MUSEOSANSROUNDED-1000[43812] font
+Using E:/ProjectGitHub/APG_Luna/Assets/TextMesh Pro/Fonts/LiberationSans.ttf file to generate an atlas for LiberationSans[26856] font
   Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
-Combined 97 glyphs into bitmap texture at E:/ProjectGitHub/APG_Luna/LunaTemp/stage1/tmp/fonts/LiberationSans-43688/output_0.png (56kb)
-Combined 97 glyphs into bitmap texture at E:/ProjectGitHub/APG_Luna/LunaTemp/stage1/tmp/fonts/MUSEOSANSROUNDED-1000-43812/output_0.png (56kb)
+Combined 97 glyphs into bitmap texture at E:/ProjectGitHub/APG_Luna/LunaTemp/stage1/tmp/fonts/MUSEOSANSROUNDED-1000-26654/output_0.png (56kb)
+Combined 97 glyphs into bitmap texture at E:/ProjectGitHub/APG_Luna/LunaTemp/stage1/tmp/fonts/LiberationSans-26856/output_0.png (56kb)
 Found custom rules for texture Assets/GAME/Assets/Fonts/MUSEOSANSROUNDED-1000 SDF.asset
   {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/GAME/Assets/Fonts/MUSEOSANSROUNDED-1000 SDF.asset","isOverride":true}
-Found custom rules for texture Assets/GAME/Level5/Level 29 art/BG copy.png
-  {"maxWidth":2048,"maxHeight":2048,"format":"png32","compression":"quantQuality","quality":65,"script":"","ext":"","name":"Assets/GAME/Level5/Level 29 art/BG copy.png","isOverride":true}
-Found custom rules for texture Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset","isOverride":true}
 Found custom rules for texture Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
   {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset","isOverride":true}
+Found custom rules for texture Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset","isOverride":true}
 Resources:
 {}
 [ Stage2 ] Assets postprocessed and bundled successfully
 Authorized using stored user info.
 MSBuild version 17.13.19+0d9f5a35a for .NET Framework
 
-Build started 7/10/2025 2:58:33 PM.
+Build started 7/30/2025 3:34:28 PM.
 
 
 
 Project "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
 CoreClean:
-
   Deleting file "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
 
   Deleting file "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
@@ -46,7 +43,6 @@ CoreClean:
   Deleting file "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
 
   Deleting file "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
-
   Deleting file "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
 
   Deleting file "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
@@ -54,8 +50,6 @@ CoreClean:
   Deleting file "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
 
   Deleting file "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
-
-  Deleting file "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\spine-csharp.dll".
 
   Deleting file "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
 
@@ -105,25 +99,25 @@ E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\
   CompilerServer: server - server processed compilation - Scripts
 
 _CopyFilesMarkedCopyLocal:
+  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
 
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
-  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
 
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
 
-  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
+  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
 
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
-  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
 
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
 
-  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
-  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
 
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\com.esotericsoftware.spine.spine-csharp\4.1\spine-csharp.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\spine-csharp.dll".
 
-  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
 
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
 
@@ -134,16 +128,17 @@ _CopyFilesMarkedCopyLocal:
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
 
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
-
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.xml" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
 
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
 
+  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
 
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
-  Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
 
   Copying file from "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" to "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
 
@@ -172,16 +167,17 @@ Done Building Project "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompile
 Build succeeded.
 
 
+
 "E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
 (CoreCompile target) -> 
-
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Lv2\IQFill.cs(8,36): warning CS0649: Field 'IQFill.fillImage' is never assigned to, and will always have its default value null [E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [E:\luna_playable_ads_6.0.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
     2 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:08.17
+
+Time Elapsed 00:00:08.40
 
 Source code compiled successfully!
 ﻿
@@ -190,5 +186,5 @@ Diagnostics gathered successfully
 [ Stage3 ] Code compiled and bundled successfully.
 [ Stage4 ] Target platform: playground
 [ Stage4 ] Package bundled successfully
-navigateto:https://assets-lunalabs-io.s3-accelerate.amazonaws.com/uploads%2Fdirect%2Fc2fbf54849ff28e48c5b2e5d54d1cfb6%2FAPG_V06_TrangHT_AnhPD_build.zip
+navigateto:https://assets-lunalabs-io.s3-accelerate.amazonaws.com/uploads%2Fdirect%2F77f9af1f2254ed4c82106d7d46ac84e1%2FAPG_V09_NgocNDL_AnhPD_build.zip
 [ Stage4 ] Package uploaded successfully

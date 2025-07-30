@@ -6,6 +6,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 {
     public int itemID;
     private Sprite itemSprite;
+    public bool isHammer = false;
     //public bool isChease = false;
     private RectTransform rectTransform;
     private Vector2 originalPosition;
@@ -38,7 +39,12 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
         RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
-        if (hit.collider != null && hit.collider.gameObject != gameObject)
+        if (isHammer && hit.collider != null && hit.collider.gameObject != gameObject && hit.collider.gameObject.GetComponent<DropZone>().idDrop == itemID)
+        {
+            hit.collider.gameObject.GetComponent<DropZone>().DragOn();
+            Destroy(gameObject);
+        }
+        else if (!isHammer && hit.collider != null && hit.collider.gameObject != gameObject)
         {
             hit.collider.gameObject.GetComponent<DropZone>().DragOn(itemID);
             Destroy(gameObject);
@@ -47,40 +53,8 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         {
             rectTransform.anchoredPosition = originalPosition;
         }
-
-        // if (isChease)
-        // {
-        //     if (hit.collider != null)
-        //     {
-        //         var name = hit.collider.gameObject.name;
-        //         if (name == "Mouse" && hit.collider.gameObject.GetComponent<DropZone>().GetCurrentStep() == 1)
-        //         {
-        //             hit.collider.gameObject.GetComponent<DropZone>().DragOn();
-        //             Destroy(gameObject);
-        //         }
-        //         else
-        //         {
-        //             rectTransform.anchoredPosition = originalPosition;
-        //         }
-
-        //     }
-        //     else
-        //     {
-        //         rectTransform.anchoredPosition = originalPosition;
-        //     }
-
-        // }
-        // else
-        // {
-        //     if (hit.collider != null && hit.collider.gameObject != gameObject)
-        //     {
-        //         hit.collider.gameObject.GetComponent<DropZone>().DragOn();
-        //         Destroy(gameObject);
-        //     }
-        //     else
-        //     {
-        //         rectTransform.anchoredPosition = originalPosition;
-        //     }
-        // }
     }
+
+
+
 }

@@ -3,39 +3,47 @@ using UnityEngine.UI;
 
 public class DropZone : MonoBehaviour
 {
-    // public GameObject[] steps;
+    public int idDrop = 0;
+    public GameObject[] steps;
     //public bool isActive = false;
     //public Sprite spriteUpgrade;
-    //private int currentStep = 0;
+    private int currentStep = 0;
     // public GameObject humman;
-    public GameObject[] dancingGOs;
-    public GameObject[] sitGOs;
+    //public GameObject[] dancingGOs;
+    //public GameObject[] sitGOs;
     public GameObject[] charmPrefabs;
-    public RectTransform tranDancing;
+    public RectTransform tranSpawn;
     private Collider2D collider2d;
-    int currentGirl = -1;
+    //int currentGirl = -1;
 
     void Awake()
     {
         collider2d = GetComponent<Collider2D>();
         collider2d.enabled = true;
-        //currentStep = 0;
+        currentStep = 0;
         NextStep();
+    }
+    public void DragOn()
+    {
+        print("HAMEMẺME");
+        currentStep++;
+        NextStep();
+        CheckDone();
     }
     public void DragOn(int id)
     {
         LunaManager.ins.CountPlay();
         LunaManager.ins.OnCLickStart();
 
-        currentGirl++;
-        dancingGOs[currentGirl].SetActive(false);
-        sitGOs[currentGirl].SetActive(true);
-        GameObject v = Instantiate(charmPrefabs[id], charmPrefabs[id].transform.position, Quaternion.identity, sitGOs[currentGirl].transform);
-        v.transform.localPosition = Vector3.zero;
+        //currentGirl++;
+        //dancingGOs[currentGirl].SetActive(false);
+        //sitGOs[currentGirl].SetActive(true);
+        GameObject v = Instantiate(charmPrefabs[id], charmPrefabs[id].transform.position, Quaternion.identity, tranSpawn.transform);
+        // v.transform.localPosition = Vector3.zero;
         // Move tranDancing down by 50 units using anchoredPosition
-        Vector2 newPosition = tranDancing.anchoredPosition;
-        newPosition.y -= 50f;
-        tranDancing.anchoredPosition = newPosition;
+        // Vector2 newPosition = tranSpawn.anchoredPosition;
+        // newPosition.y -= 50f;
+        // tranSpawn.anchoredPosition = newPosition;
 
         // if (humman != null)
         // {
@@ -59,18 +67,19 @@ public class DropZone : MonoBehaviour
     }
     void NextStep()
     {
-        // foreach (var step in steps)
-        // {
-        //     step.SetActive(false);
-        // }
-        // steps[currentStep].SetActive(true);
+        if (steps.Length <= 0) return;
+        foreach (var step in steps)
+        {
+            step.SetActive(false);
+        }
+        steps[currentStep].SetActive(true);
     }
     void CheckDone()
     {
-        // if (currentStep == steps.Length - 1)
-        // {
-        //     collider2d.enabled = false;
-        // }
+        if (currentStep == steps.Length - 1)
+        {
+            collider2d.enabled = false;
+        }
     }
     void OnEnable()
     {

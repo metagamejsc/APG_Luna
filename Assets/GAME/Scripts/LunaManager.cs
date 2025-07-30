@@ -17,6 +17,7 @@ public class LunaManager : MonoBehaviour
     [LunaPlaygroundAsset("BG")] public Texture2D texture2D;
     public RawImage rawImageBG;
     public GameObject hand;
+    public IQFill iQFill;
     //---------------------------------
 
     // [LunaPlaygroundAsset("LogoGame")] public Texture2D logoGame;
@@ -42,7 +43,7 @@ public class LunaManager : MonoBehaviour
         EndCard.SetActive(false);
         SetupField();
         Invoke(nameof(ShowEndCard), timeDropFinal);
-        countPlayFinal = Mathf.Min(countPlayFinal, 8f);
+        countPlayFinal = Mathf.Min(countPlayFinal, 5f);
     }
     public void OnCLickStart()
     {
@@ -67,6 +68,7 @@ public class LunaManager : MonoBehaviour
         {
             ShowEndCard();
         }
+        iQFill.AddValue();
     }
 
     // Update is called once per frame
