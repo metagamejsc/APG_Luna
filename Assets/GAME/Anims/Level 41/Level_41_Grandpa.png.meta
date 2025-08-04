@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: e9f61418aa25331429bb02ed953764ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4218115080426083448
+    second: Level_41_Grandpa_0
+  - first:
+      213: 4194475948395510142
+    second: Level_41_Grandpa_1
+  - first:
+      213: -8738694159054040671
+    second: Level_41_Grandpa_2
+  - first:
+      213: 33679534085280595
+    second: Level_41_Grandpa_3
+  - first:
+      213: -8814215936732791531
+    second: Level_41_Grandpa_4
+  - first:
+      213: 6209248539013299693
+    second: Level_41_Grandpa_5
+  - first:
+      213: 4427952013415418301
+    second: Level_41_Grandpa_6
+  - first:
+      213: 8015626290568553848
+    second: Level_41_Grandpa_7
+  - first:
+      213: -4740028117241676465
+    second: Level_41_Grandpa_8
+  - first:
+      213: -3528136375646824510
+    second: Level_41_Grandpa_9
+  - first:
+      213: 3136524276311722776
+    second: Level_41_Grandpa_10
+  - first:
+      213: 1225378144091785604
+    second: Level_41_Grandpa_11
+  - first:
+      213: -4152123025403802983
+    second: Level_41_Grandpa_12
+  - first:
+      213: -3845558136201434581
+    second: Level_41_Grandpa_13
+  - first:
+      213: 8536683764539282243
+    second: Level_41_Grandpa_14
+  - first:
+      213: -3709951115689038287
+    second: Level_41_Grandpa_15
+  - first:
+      213: -6529902835579386598
+    second: Level_41_Grandpa_16
+  - first:
+      213: 634714005450916638
+    second: Level_41_Grandpa_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 70
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level_41_Grandpa_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 364
+        width: 173
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b2c71deae3675c0800000000000000
+      internalID: -4218115080426083448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 486
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79b80bd6a5c53a30800000000000000
+      internalID: 4194475948395510142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 364
+        width: 74
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a19dc046fbe9b680800000000000000
+      internalID: -8738694159054040671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 486
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3539a599b57a77000800000000000000
+      internalID: 33679534085280595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 449
+        width: 92
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d74752e4d9da580800000000000000
+      internalID: -8814215936732791531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 413
+        width: 100
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded3002f5aeab2650800000000000000
+      internalID: 6209248539013299693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 198
+        width: 179
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db90a1a55ee337d30800000000000000
+      internalID: 4427952013415418301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 310
+        width: 145
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875ee9584a93d3f60800000000000000
+      internalID: 8015626290568553848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_8
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 363
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d32768a89083eb0800000000000000
+      internalID: -4740028117241676465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_9
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 310
+        width: 118
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7df62c8aa890fc0800000000000000
+      internalID: -3528136375646824510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_10
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 156
+        width: 168
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b03f6163c278b20800000000000000
+      internalID: 3136524276311722776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_11
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 282
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4894e120eea610110800000000000000
+      internalID: 1225378144091785604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_12
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 156
+        width: 80
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a06177b12b066c0800000000000000
+      internalID: -4152123025403802983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_13
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 282
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2aa990ff35d1aac0800000000000000
+      internalID: -3845558136201434581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 181
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343553197a4687670800000000000000
+      internalID: 8536683764539282243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 2
+        width: 190
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e6a4fcd1b938cc0800000000000000
+      internalID: -3709951115689038287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_16
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 2
+        width: 54
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15897bc7ff1165a0800000000000000
+      internalID: -6529902835579386598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Grandpa_17
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e130edc6605fec800800000000000000
+      internalID: 634714005450916638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Level_41_Grandpa_0: -4218115080426083448
+      Level_41_Grandpa_1: 4194475948395510142
+      Level_41_Grandpa_10: 3136524276311722776
+      Level_41_Grandpa_11: 1225378144091785604
+      Level_41_Grandpa_12: -4152123025403802983
+      Level_41_Grandpa_13: -3845558136201434581
+      Level_41_Grandpa_14: 8536683764539282243
+      Level_41_Grandpa_15: -3709951115689038287
+      Level_41_Grandpa_16: -6529902835579386598
+      Level_41_Grandpa_17: 634714005450916638
+      Level_41_Grandpa_2: -8738694159054040671
+      Level_41_Grandpa_3: 33679534085280595
+      Level_41_Grandpa_4: -8814215936732791531
+      Level_41_Grandpa_5: 6209248539013299693
+      Level_41_Grandpa_6: 4427952013415418301
+      Level_41_Grandpa_7: 8015626290568553848
+      Level_41_Grandpa_8: -4740028117241676465
+      Level_41_Grandpa_9: -3528136375646824510
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
