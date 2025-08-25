@@ -31492,6 +31492,16 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/GAME/Audios/Lv4/BG_Gameplay.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:30.000",
+                        "lengthInSeconds": 30.0,
+                        "bitrate": 32,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Audios/Level_41/BGM_jingleBell_dark.ogg"
                     }
                 ]
             },
