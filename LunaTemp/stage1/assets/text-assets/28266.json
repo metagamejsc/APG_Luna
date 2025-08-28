@@ -1,1 +1,0 @@
-{"id":28266,"path":"Assets\/GAME\/Anims\/Level 15\/ghost_door.atlas.txt","assetBundleId":-1,"data":["ghost_door.atlas",null,"ghost_door.png\r\nsize:404,652\r\nfilter:Linear,Linear\r\npma:true\r\ndoor_close\r\nbounds:2,203,217,447\r\ndoor_open\r\nbounds:221,178,179,472\r\nghost_guong1\r\nbounds:2,2,199,240\r\nrotate:90\r\n"]}
