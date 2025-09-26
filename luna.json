@@ -97,7 +97,8 @@
                 "Stubs/IronSource",
                 "Stubs/Vungle",
                 "Stubs/MoreMountains.NiceVibrations",
-                "Assets/GAME/Audios/Sound/tornado-sound-29406.mp3"
+                "Assets/GAME/Audios/Sound/tornado-sound-29406.mp3",
+                "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
             ],
             "includes": [
                 "Assets/Resources/DOTweenSettings.asset",
@@ -31486,12 +31487,22 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
+                        "endTime": "00:30.000",
+                        "lengthInSeconds": 30.0,
+                        "bitrate": 64,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Audios/Lv4/BG_Gameplay.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
                         "endTime": "00:00.000",
                         "lengthInSeconds": 0.0,
                         "bitrate": 128,
                         "script": "",
                         "ext": "",
-                        "name": "Assets/GAME/Audios/Lv4/BG_Gameplay.ogg"
+                        "name": "Assets/GAME/Audios/Level_22/TiengcoRua.ogg"
                     }
                 ]
             },
