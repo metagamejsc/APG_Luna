@@ -1,0 +1,7 @@
+man_shoe.png
+size:140,104
+filter:Linear,Linear
+pma:true
+boy_3
+bounds:2,2,135,99
+offsets:1,1,137,101

@@ -1,0 +1,11 @@
+phone.png
+size:1104,552
+filter:Linear,Linear
+pma:true
+boy_16
+bounds:1022,462,78,86
+offsets:1,1,80,88
+light2
+bounds:2,2,546,1018
+offsets:61,0,658,1018
+rotate:90

@@ -21,6 +21,8 @@ public class LunaManager : MonoBehaviour
     [Header("Progess")]
     [SerializeField] private TextMeshProUGUI textProgess;
     [SerializeField] private Image imgProgess;
+
+    public Transform posTele;
     //---------------------------------
 
     // [LunaPlaygroundAsset("LogoGame")] public Texture2D logoGame;

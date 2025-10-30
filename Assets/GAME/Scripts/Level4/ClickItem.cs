@@ -1,27 +1,38 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class ClickItem : MonoBehaviour
+public class ClickItem : MonoBehaviour, IPointerClickHandler
 {
-    public bool isPhone = false;
+    //public bool isPhone = false;
     public GameObject[] steps;
     public int currentStep = 0;
+    private RectTransform rectTransform;
+    private Vector2 originalPosition;
+    private CanvasGroup canvasGroup;
+
+    void Awake()
+    {
+        rectTransform = GetComponent<RectTransform>();
+        canvasGroup = GetComponent<CanvasGroup>();
+        originalPosition = rectTransform.anchoredPosition;
+    }
+    public void OnPointerClick(PointerEventData eventData)
+    {
+
+        print("Begin Drag");
+        currentStep++;
+        NextStep();
+    }
+
     void Start()
     {
         currentStep = 0;
+        NextStep();
     }
     public void ClickFunc()
     {
-        if (isPhone)
-        {
-            //currentStep++;
-            //NextStep();
-            FuncPhone();
-        }
-        else
-        {
-            ActiveStep(currentStep);
-        }
 
+        ActiveStep(currentStep);
 
     }
     void NextStep()
@@ -41,4 +52,6 @@ public class ClickItem : MonoBehaviour
         steps[0].SetActive(false);
         steps[currentStep].SetActive(true);
     }
+
+
 }

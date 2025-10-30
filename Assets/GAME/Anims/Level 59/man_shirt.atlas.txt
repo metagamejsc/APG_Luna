@@ -1,0 +1,6 @@
+man_shirt.png
+size:284,272
+filter:Linear,Linear
+pma:true
+boy_6
+bounds:2,2,277,268

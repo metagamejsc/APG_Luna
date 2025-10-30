@@ -1,0 +1,174 @@
+zombie.png
+size:2020,428
+filter:Linear,Linear
+pma:true
+Comp 1/Comp 1_00001
+bounds:162,3,102,46
+offsets:52,148,200,200
+Comp 1/Comp 1_00002
+bounds:1477,194,109,58
+offsets:50,135,200,200
+Comp 1/Comp 1_00003
+bounds:1789,351,118,75
+offsets:44,118,200,200
+Comp 1/Comp 1_00004
+bounds:318,4,127,157
+offsets:40,36,200,200
+Comp 1/Comp 1_00005
+bounds:889,2,136,172
+offsets:33,20,200,200
+Comp 1/Comp 1_00006
+bounds:800,240,133,186
+offsets:32,6,200,200
+Comp 1/Comp 1_00007
+bounds:1592,257,137,169
+offsets:29,23,200,200
+Comp 1/Comp 1_00008
+bounds:1568,23,140,169
+offsets:27,23,200,200
+Comp 1/Comp 1_00009
+bounds:1463,254,127,172
+offsets:33,20,200,200
+Comp 1/Comp 1_00010
+bounds:1027,2,127,175
+offsets:33,18,200,200
+Comp 1/Comp 1_00011
+bounds:1156,2,106,175
+offsets:33,18,200,200
+Comp 1/Comp 1_00012
+bounds:1327,4,75,175
+offsets:64,17,200,200
+Comp 1/Comp 1_00013
+bounds:1023,179,62,176
+offsets:63,16,200,200
+rotate:90
+Comp 1/Comp 1_00014
+bounds:1264,3,61,176
+offsets:64,16,200,200
+Comp 1/Comp 1_00015
+bounds:1405,248,56,178
+offsets:68,14,200,200
+Comp 1/Comp 1_00016
+bounds:1731,257,56,169
+offsets:68,23,200,200
+Comp 1/Comp 1_00017
+bounds:1462,13,54,170
+offsets:68,22,200,200
+Comp 1/Comp 1_00018
+bounds:1404,13,56,170
+offsets:67,22,200,200
+Comp 1/Comp 1_00019
+bounds:1588,195,57,167
+offsets:67,26,200,200
+rotate:90
+Comp 1/Comp 1_00020
+bounds:728,2,58,164
+offsets:67,28,200,200
+Comp 1/Comp 1_00021
+bounds:1201,181,62,174
+offsets:63,18,200,200
+rotate:90
+Comp 1/Comp 1_00022
+bounds:1342,247,61,179
+offsets:63,13,200,200
+Comp 1/Comp 1_00023
+bounds:840,176,62,181
+offsets:62,11,200,200
+rotate:90
+Comp 1/Comp 1_00024
+bounds:1051,244,61,182
+offsets:63,9,200,200
+Comp 1/Comp 1_00025
+bounds:935,242,60,184
+offsets:65,6,200,200
+Comp 1/Comp 1_00026
+bounds:997,243,52,183
+offsets:70,7,200,200
+Comp 1/Comp 1_00027
+bounds:1518,22,48,170
+offsets:74,20,200,200
+Comp 1/Comp 1_00028
+bounds:2,2,47,158
+offsets:74,32,200,200
+rotate:90
+Comp 1/Comp 1_00029
+bounds:839,2,48,164
+offsets:74,25,200,200
+Comp 1/Comp 1_00030
+bounds:509,164,49,165
+offsets:74,23,200,200
+rotate:90
+Comp 1/Comp 1_00031
+bounds:788,2,49,164
+offsets:74,24,200,200
+Comp 1/Comp 1_00032
+bounds:1757,206,49,153
+offsets:74,31,200,200
+rotate:90
+Comp 1/Comp 1_00033
+bounds:266,2,50,159
+offsets:74,22,200,200
+Comp 1/Comp 1_00034
+bounds:350,163,50,157
+offsets:74,20,200,200
+rotate:90
+boy_1
+bounds:1789,276,73,117
+offsets:1,1,75,119
+rotate:90
+p2
+bounds:513,227,199,111
+offsets:3,3,205,117
+rotate:90
+z1
+bounds:1903,33,151,115
+rotate:90
+z2
+bounds:1827,93,111,74
+rotate:90
+z3
+bounds:1710,32,115,161
+z4
+bounds:676,168,162,65
+zb_1
+bounds:218,163,130,263
+zb_4
+bounds:218,163,130,263
+zb_2
+bounds:1114,245,112,181
+zb_3
+bounds:629,2,160,97
+rotate:90
+zb_5
+bounds:1228,245,112,181
+zb_6
+bounds:2,51,214,375
+zombie_1
+bounds:1912,295,131,104
+rotate:90
+zombie_10
+bounds:218,108,27,25
+offsets:1,1,29,27
+zombie_11
+bounds:447,8,153,180
+offsets:1,1,155,182
+rotate:90
+zombie_13
+bounds:1912,186,104,107
+zombie_2
+bounds:1377,185,60,98
+rotate:90
+zombie_3
+bounds:626,235,191,172
+offsets:1,1,193,174
+rotate:90
+zombie_4
+bounds:350,215,211,161
+rotate:90
+zombie_8
+bounds:218,135,26,39
+rotate:90
+zombie_9
+bounds:247,82,51,15
+offsets:1,1,53,17
+rotate:90

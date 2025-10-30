@@ -1,0 +1,6 @@
+man_necklace.png
+size:80,124
+filter:Linear,Linear
+pma:true
+boy_1
+bounds:2,2,75,119

@@ -1,3 +1,5 @@
+using DG.Tweening;
+using Spine.Unity;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,28 +7,55 @@ public class DropZone : MonoBehaviour
 {
     public int idDrop = 0;
     public GameObject[] steps;
-    public bool isDontWork = false;
+    //public bool isDontWork = false;
     //public Sprite spriteUpgrade;
 
 
 
     private int currentStep = 0;
     private BoxCollider2D boxCollider;
+    private SkeletonGraphic skeletonGraphic;
+    private Sequence _seq;
 
     void Awake()
     {
+        skeletonGraphic = steps[1].GetComponent<SkeletonGraphic>();
         boxCollider = GetComponent<BoxCollider2D>();
         boxCollider.enabled = true;
         currentStep = 0;
         NextStep();
     }
-    public void DragMoney()
+    public void DragOn(int id)
+    {
+        string nameSke = "action" + id.ToString();
+        skeletonGraphic.AnimationState.SetAnimation(0, nameSke, true);
+        MoveTele();
+        currentStep++;
+        NextStep();
+        CheckDone();
+
+
+    }
+    public void DragUseId()
     {
         currentStep++;
         NextStep();
         CheckDone();
-        //Upgrade();
         LunaManager.ins.CountPlay();
+    }
+    void MoveTele()
+    {
+        var target = LunaManager.ins.posTele;
+        var duration = 2f;
+        _seq?.Kill();
+
+        _seq = DOTween.Sequence().SetUpdate(false).SetLink(gameObject)
+            .Join(steps[1].transform.DOMove(target.position, duration).SetEase(Ease.InOutQuad))
+            .Join(steps[1].transform.DOScale(0.6f, duration).SetEase(Ease.InOutQuad))
+            .OnComplete(() =>
+            {
+                steps[1].SetActive(false);
+            });
     }
     public void UpgradeWoman()
     {
