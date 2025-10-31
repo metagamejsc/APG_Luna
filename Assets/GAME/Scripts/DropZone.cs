@@ -41,11 +41,20 @@ public class DropZone : MonoBehaviour
         currentStep++;
         NextStep();
         CheckDone();
-        LunaManager.ins.CountPlay();
+
+        if (idDrop == 12)
+        {
+            GameController.instance.GhostSmoke.DragOn(8);
+            Invoke(nameof(DelayOffStep2), 2f);
+        }
+    }
+    void DelayOffStep2()
+    {
+        steps[1].SetActive(false);
     }
     void MoveTele()
     {
-        var target = LunaManager.ins.posTele;
+        var target = GameController.instance.posTele;
         var duration = 2f;
         _seq?.Kill();
 

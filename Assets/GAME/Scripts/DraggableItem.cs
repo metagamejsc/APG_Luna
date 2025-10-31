@@ -41,6 +41,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         {
             if (hit.collider != null && hit.collider.gameObject != gameObject)
             {
+                LunaManager.ins.CountPlay();
                 hit.collider.gameObject.GetComponent<DropZone>().DragOn(idDrag);
                 Destroy(gameObject);
             }
@@ -53,6 +54,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         {
             if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop)
             {
+                LunaManager.ins.CountPlay();
                 hit.collider.gameObject.GetComponent<DropZone>().DragUseId();
                 Destroy(gameObject);
             }

@@ -12,17 +12,16 @@ public class LunaManager : MonoBehaviour
     public int countPlay = 0;
 
     [LunaPlaygroundField("CountDrop")] public float countPlayFinal;
+    [LunaPlaygroundField("CountDrop")] public float countPlayFinalMax;
     [LunaPlaygroundField("TimeDrop")] public float timeDropFinal;
     //---------------------------------
     [LunaPlaygroundField("ColorBG")] public Color colorBG;
     [LunaPlaygroundAsset("BG")] public Texture2D texture2D;
-    public RawImage rawImageBG;
+    public RawImage[] rawImageBG;
     public GameObject hand;
     [Header("Progess")]
     [SerializeField] private TextMeshProUGUI textProgess;
     [SerializeField] private Image imgProgess;
-
-    public Transform posTele;
     //---------------------------------
 
     // [LunaPlaygroundAsset("LogoGame")] public Texture2D logoGame;
@@ -48,7 +47,7 @@ public class LunaManager : MonoBehaviour
         EndCard.SetActive(false);
         SetupField();
         Invoke(nameof(ShowEndCard), timeDropFinal);
-        countPlayFinal = Mathf.Min(countPlayFinal, 6f);
+        countPlayFinal = Mathf.Min(countPlayFinal, 8f);
         UpdateProgress();
     }
     public void TurnOffHand()
@@ -61,8 +60,13 @@ public class LunaManager : MonoBehaviour
     }
     public void SetupField()
     {
-        rawImageBG.texture = texture2D;
-        rawImageBG.color = colorBG;
+        foreach (var rawImageBG in rawImageBG)
+        {
+            rawImageBG.texture = texture2D;
+            rawImageBG.color = colorBG;
+        }
+        // rawImageBG.texture = texture2D;
+        // rawImageBG.color = colorBG;
         // rawImageTable.texture = textureTable;
         // rawImageTable.color = colorTable;
         // imgRawLogoGame.texture = logoGame;
@@ -79,9 +83,9 @@ public class LunaManager : MonoBehaviour
     }
     void UpdateProgress()
     {
-        float value = countPlay / 10f;
+        float value = countPlay / countPlayFinalMax;
         imgProgess.fillAmount = value;
-        textProgess.text = countPlay + "/" + 10;
+        textProgess.text = countPlay + "/" + countPlayFinalMax;
     }
 
     // Update is called once per frame
