@@ -39,7 +39,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
         if (!isUseID)
         {
-            if (hit.collider != null && hit.collider.gameObject != gameObject)
+            if (hit.collider != null && hit.collider.gameObject != gameObject && hit.collider.gameObject.GetComponent<DropZone>().idDrop != 12)
             {
                 LunaManager.ins.CountPlay();
                 hit.collider.gameObject.GetComponent<DropZone>().DragOn(idDrag);
