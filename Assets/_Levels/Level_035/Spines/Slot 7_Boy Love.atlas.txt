@@ -1,0 +1,19 @@
+Slot 7_Boy Love.png
+size:656,524
+filter:Linear,Linear
+pma:true
+dude
+bounds:2,303,217,650
+rotate:90
+dude_arm
+bounds:259,2,95,255
+rotate:90
+dude_arm _full
+bounds:2,2,95,255
+rotate:90
+dude_body
+bounds:2,99,202,603
+rotate:90
+dude_head
+bounds:516,9,86,88
+offsets:1,2,88,91

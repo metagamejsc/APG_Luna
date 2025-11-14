@@ -1,0 +1,13 @@
+Slot 3_Loc Xoay.png
+size:1100,400
+filter:Linear,Linear
+pma:true
+iron_fan_anim
+bounds:870,137,260,226
+rotate:90
+tornado1
+bounds:2,2,395,447
+rotate:90
+tornado2
+bounds:451,31,366,417
+rotate:90

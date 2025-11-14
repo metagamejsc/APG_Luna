@@ -1,0 +1,12 @@
+Tolet.png
+size:392,324
+filter:Linear,Linear
+pma:true
+bathhroom
+bounds:2,110,211,333
+rotate:90
+door_closed
+bounds:2,2,106,280
+rotate:90
+door_opened
+bounds:337,17,52,304

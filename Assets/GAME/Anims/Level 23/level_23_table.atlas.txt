@@ -1,6 +1,0 @@
-level_23_table.png
-size:296,112
-filter:Linear,Linear
-pma:true
-tablecloth
-bounds:2,2,292,105

@@ -1,0 +1,12 @@
+Slot 4_Dog.png
+size:300,204
+filter:Linear,Linear
+pma:true
+bone
+bounds:241,76,124,55
+offsets:1,1,126,57
+rotate:90
+dog_sit
+bounds:2,2,198,237
+offsets:19,0,217,237
+rotate:90

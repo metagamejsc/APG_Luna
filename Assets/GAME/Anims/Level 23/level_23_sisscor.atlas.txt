@@ -1,8 +1,0 @@
-level_23_sisscor.png
-size:80,68
-filter:Linear,Linear
-pma:true
-sisscor1
-bounds:2,33,76,30
-sisscor2
-bounds:2,2,76,29

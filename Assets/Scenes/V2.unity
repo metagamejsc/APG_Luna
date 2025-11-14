@@ -184,6 +184,7 @@ MonoBehaviour:
   additiveMaterial: {fileID: 0}
   multiplyMaterial: {fileID: 0}
   screenMaterial: {fileID: 0}
+  m_SkeletonColor: {r: 1, g: 1, b: 1, a: 1}
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
@@ -193,7 +194,9 @@ MonoBehaviour:
   freeze: 0
   layoutScaleMode: 0
   referenceSize: {x: 100, y: 100}
+  pivotOffset: {x: 0, y: 0}
   referenceScale: 1
+  layoutScale: 1
   rectTransformSize: {x: 100, y: 100}
   editReferenceRect: 0
   updateWhenInvisible: 3
@@ -205,15 +208,18 @@ MonoBehaviour:
   updateSeparatorPartLocation: 1
   updateSeparatorPartScale: 0
   disableMeshAssignmentOnOverride: 1
+  physicsPositionInheritanceFactor: {x: 1, y: 1}
+  physicsRotationInheritanceFactor: 1
+  physicsMovementRelativeTo: {fileID: 0}
   meshGenerator:
     settings:
       useClipping: 1
       zSpacing: 0
-      pmaVertexColors: 1
       tintBlack: 0
-      canvasGroupTintBlack: 0
-      calculateTangents: 0
+      canvasGroupCompatible: 0
+      pmaVertexColors: 1
       addNormals: 0
+      calculateTangents: 0
       immutableTriangles: 0
   updateTiming: 1
   unscaledTime: 0
@@ -288,7 +294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1237cff4e0c435489b43d15e4b50f77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isChease: 0
+  itemID: 0
+  isHammer: 0
 --- !u!114 &21441848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -573,6 +580,7 @@ MonoBehaviour:
   additiveMaterial: {fileID: 0}
   multiplyMaterial: {fileID: 0}
   screenMaterial: {fileID: 0}
+  m_SkeletonColor: {r: 1, g: 1, b: 1, a: 1}
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
@@ -582,7 +590,9 @@ MonoBehaviour:
   freeze: 0
   layoutScaleMode: 0
   referenceSize: {x: 100, y: 100}
+  pivotOffset: {x: 0, y: 0}
   referenceScale: 1
+  layoutScale: 1
   rectTransformSize: {x: 100, y: 100}
   editReferenceRect: 0
   updateWhenInvisible: 3
@@ -594,15 +604,18 @@ MonoBehaviour:
   updateSeparatorPartLocation: 1
   updateSeparatorPartScale: 0
   disableMeshAssignmentOnOverride: 1
+  physicsPositionInheritanceFactor: {x: 1, y: 1}
+  physicsRotationInheritanceFactor: 1
+  physicsMovementRelativeTo: {fileID: 0}
   meshGenerator:
     settings:
       useClipping: 1
       zSpacing: 0
-      pmaVertexColors: 1
       tintBlack: 0
-      canvasGroupTintBlack: 0
-      calculateTangents: 0
+      canvasGroupCompatible: 0
+      pmaVertexColors: 1
       addNormals: 0
+      calculateTangents: 0
       immutableTriangles: 0
   updateTiming: 1
   unscaledTime: 0
@@ -614,6 +627,131 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 88646760}
   m_CullTransparentMesh: 1
+--- !u!1001 &94710726
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1180188559258856514, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1530372458763541950, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2468552980235780042, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686775657184938125, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839767360669448063, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3051514361968593293, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Name
+      value: L_035
+      objectReference: {fileID: 0}
+    - target: {fileID: 3174639279208120793, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3826873777280920613, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884381738790788856, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4149072384072629923, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535331708616907653, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535331708616907653, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535331708616907653, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535331708616907653, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535331708616907653, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535331708616907653, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535331708616907653, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535331708616907653, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535331708616907653, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4535331708616907653, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713271839165966040, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859933954503275485, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5956768816200056069, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6647791175857447078, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391132781498684101, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7438769292126433461, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608418524744385762, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759279473907447104, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f9256c8376d65f94bbaf4a3b9f6b7ac5, type: 3}
 --- !u!1 &135936274
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,11 +848,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14a3372869da814491a686bf4d6a9f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  idDrop: 0
   steps:
   - {fileID: 597356782}
   - {fileID: 10006996}
-  isActive: 1
-  spriteUpgrade: {fileID: 0}
+  charmPrefabs: []
+  tranSpawn: {fileID: 0}
 --- !u!1 &179073084
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,6 +1048,7 @@ MonoBehaviour:
   additiveMaterial: {fileID: 0}
   multiplyMaterial: {fileID: 0}
   screenMaterial: {fileID: 0}
+  m_SkeletonColor: {r: 1, g: 1, b: 1, a: 1}
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
@@ -918,7 +1058,9 @@ MonoBehaviour:
   freeze: 0
   layoutScaleMode: 0
   referenceSize: {x: 100, y: 100}
+  pivotOffset: {x: 0, y: 0}
   referenceScale: 1
+  layoutScale: 1
   rectTransformSize: {x: 100, y: 100}
   editReferenceRect: 0
   updateWhenInvisible: 3
@@ -930,15 +1072,18 @@ MonoBehaviour:
   updateSeparatorPartLocation: 1
   updateSeparatorPartScale: 0
   disableMeshAssignmentOnOverride: 1
+  physicsPositionInheritanceFactor: {x: 1, y: 1}
+  physicsRotationInheritanceFactor: 1
+  physicsMovementRelativeTo: {fileID: 0}
   meshGenerator:
     settings:
       useClipping: 1
       zSpacing: 0
-      pmaVertexColors: 1
       tintBlack: 0
-      canvasGroupTintBlack: 0
-      calculateTangents: 0
+      canvasGroupCompatible: 0
+      pmaVertexColors: 1
       addNormals: 0
+      calculateTangents: 0
       immutableTriangles: 0
   updateTiming: 1
   unscaledTime: 0
@@ -1769,7 +1914,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1237cff4e0c435489b43d15e4b50f77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isChease: 0
+  itemID: 0
+  isHammer: 0
 --- !u!114 &443929710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2170,6 +2316,7 @@ MonoBehaviour:
   additiveMaterial: {fileID: 0}
   multiplyMaterial: {fileID: 0}
   screenMaterial: {fileID: 0}
+  m_SkeletonColor: {r: 1, g: 1, b: 1, a: 1}
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
@@ -2179,7 +2326,9 @@ MonoBehaviour:
   freeze: 0
   layoutScaleMode: 0
   referenceSize: {x: 100, y: 100}
+  pivotOffset: {x: 0, y: 0}
   referenceScale: 1
+  layoutScale: 1
   rectTransformSize: {x: 100, y: 100}
   editReferenceRect: 0
   updateWhenInvisible: 3
@@ -2191,15 +2340,18 @@ MonoBehaviour:
   updateSeparatorPartLocation: 1
   updateSeparatorPartScale: 0
   disableMeshAssignmentOnOverride: 1
+  physicsPositionInheritanceFactor: {x: 1, y: 1}
+  physicsRotationInheritanceFactor: 1
+  physicsMovementRelativeTo: {fileID: 0}
   meshGenerator:
     settings:
       useClipping: 1
       zSpacing: 0
-      pmaVertexColors: 1
       tintBlack: 0
-      canvasGroupTintBlack: 0
-      calculateTangents: 0
+      canvasGroupCompatible: 0
+      pmaVertexColors: 1
       addNormals: 0
+      calculateTangents: 0
       immutableTriangles: 0
   updateTiming: 1
   unscaledTime: 1
@@ -2380,6 +2532,7 @@ MonoBehaviour:
   additiveMaterial: {fileID: 0}
   multiplyMaterial: {fileID: 0}
   screenMaterial: {fileID: 0}
+  m_SkeletonColor: {r: 1, g: 1, b: 1, a: 1}
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
@@ -2389,7 +2542,9 @@ MonoBehaviour:
   freeze: 0
   layoutScaleMode: 0
   referenceSize: {x: 100, y: 100}
+  pivotOffset: {x: 0, y: 0}
   referenceScale: 1
+  layoutScale: 1
   rectTransformSize: {x: 100, y: 100}
   editReferenceRect: 0
   updateWhenInvisible: 3
@@ -2401,15 +2556,18 @@ MonoBehaviour:
   updateSeparatorPartLocation: 1
   updateSeparatorPartScale: 0
   disableMeshAssignmentOnOverride: 1
+  physicsPositionInheritanceFactor: {x: 1, y: 1}
+  physicsRotationInheritanceFactor: 1
+  physicsMovementRelativeTo: {fileID: 0}
   meshGenerator:
     settings:
       useClipping: 1
       zSpacing: 0
-      pmaVertexColors: 1
       tintBlack: 0
-      canvasGroupTintBlack: 0
-      calculateTangents: 0
+      canvasGroupCompatible: 0
+      pmaVertexColors: 1
       addNormals: 0
+      calculateTangents: 0
       immutableTriangles: 0
   updateTiming: 1
   unscaledTime: 0
@@ -2680,6 +2838,11 @@ MonoBehaviour:
   colorBG: {r: 1, g: 0.75, b: 0.75, a: 1}
   texture2D: {fileID: 0}
   rawImageBG: {fileID: 342935849}
+  hand: {fileID: 0}
+  iQFill: {fileID: 0}
+  timeFillImage: {fileID: 0}
+  timeText: {fileID: 0}
+  isEndGame: 0
 --- !u!1 &687472714
 GameObject:
   m_ObjectHideFlags: 0
@@ -2731,11 +2894,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14a3372869da814491a686bf4d6a9f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  idDrop: 0
   steps:
   - {fileID: 1077269165}
   - {fileID: 482907502}
-  isActive: 0
-  spriteUpgrade: {fileID: 4189620600400905816, guid: 1e2c55c17b0e546439e875deb59cff50, type: 3}
+  charmPrefabs: []
+  tranSpawn: {fileID: 0}
 --- !u!61 &687472717
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2911,11 +3075,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14a3372869da814491a686bf4d6a9f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  idDrop: 0
   steps:
   - {fileID: 1843258237}
   - {fileID: 1008496170}
-  isActive: 0
-  spriteUpgrade: {fileID: 0}
+  charmPrefabs: []
+  tranSpawn: {fileID: 0}
 --- !u!61 &704048689
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3340,7 +3505,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1237cff4e0c435489b43d15e4b50f77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isChease: 0
+  itemID: 0
+  isHammer: 0
 --- !u!114 &771221285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3454,7 +3620,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1237cff4e0c435489b43d15e4b50f77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isChease: 0
+  itemID: 0
+  isHammer: 0
 --- !u!114 &787501555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3555,6 +3722,7 @@ MonoBehaviour:
   additiveMaterial: {fileID: 0}
   multiplyMaterial: {fileID: 0}
   screenMaterial: {fileID: 0}
+  m_SkeletonColor: {r: 1, g: 1, b: 1, a: 1}
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
@@ -3564,7 +3732,9 @@ MonoBehaviour:
   freeze: 0
   layoutScaleMode: 0
   referenceSize: {x: 100, y: 100}
+  pivotOffset: {x: 0, y: 0}
   referenceScale: 1
+  layoutScale: 1
   rectTransformSize: {x: 100, y: 100}
   editReferenceRect: 0
   updateWhenInvisible: 3
@@ -3576,15 +3746,18 @@ MonoBehaviour:
   updateSeparatorPartLocation: 1
   updateSeparatorPartScale: 0
   disableMeshAssignmentOnOverride: 1
+  physicsPositionInheritanceFactor: {x: 1, y: 1}
+  physicsRotationInheritanceFactor: 1
+  physicsMovementRelativeTo: {fileID: 0}
   meshGenerator:
     settings:
       useClipping: 1
       zSpacing: 0
-      pmaVertexColors: 1
       tintBlack: 0
-      canvasGroupTintBlack: 0
-      calculateTangents: 0
+      canvasGroupCompatible: 0
+      pmaVertexColors: 1
       addNormals: 0
+      calculateTangents: 0
       immutableTriangles: 0
   updateTiming: 1
   unscaledTime: 0
@@ -3659,7 +3832,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1237cff4e0c435489b43d15e4b50f77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isChease: 0
+  itemID: 0
+  isHammer: 0
 --- !u!114 &884543786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3927,7 +4101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1237cff4e0c435489b43d15e4b50f77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isChease: 1
+  itemID: 0
+  isHammer: 0
 --- !u!114 &971165619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4455,6 +4630,7 @@ MonoBehaviour:
   additiveMaterial: {fileID: 0}
   multiplyMaterial: {fileID: 0}
   screenMaterial: {fileID: 0}
+  m_SkeletonColor: {r: 1, g: 1, b: 1, a: 1}
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
@@ -4464,7 +4640,9 @@ MonoBehaviour:
   freeze: 0
   layoutScaleMode: 0
   referenceSize: {x: 100, y: 100}
+  pivotOffset: {x: 0, y: 0}
   referenceScale: 1
+  layoutScale: 1
   rectTransformSize: {x: 100, y: 100}
   editReferenceRect: 0
   updateWhenInvisible: 3
@@ -4476,15 +4654,18 @@ MonoBehaviour:
   updateSeparatorPartLocation: 1
   updateSeparatorPartScale: 0
   disableMeshAssignmentOnOverride: 1
+  physicsPositionInheritanceFactor: {x: 1, y: 1}
+  physicsRotationInheritanceFactor: 1
+  physicsMovementRelativeTo: {fileID: 0}
   meshGenerator:
     settings:
       useClipping: 1
       zSpacing: 0
-      pmaVertexColors: 1
       tintBlack: 0
-      canvasGroupTintBlack: 0
-      calculateTangents: 0
+      canvasGroupCompatible: 0
+      pmaVertexColors: 1
       addNormals: 0
+      calculateTangents: 0
       immutableTriangles: 0
   updateTiming: 1
   unscaledTime: 0
@@ -4711,7 +4892,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1237cff4e0c435489b43d15e4b50f77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isChease: 0
+  itemID: 0
+  isHammer: 0
 --- !u!114 &1340564479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4765,7 +4947,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1358141101
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4850,6 +5032,7 @@ MonoBehaviour:
   additiveMaterial: {fileID: 0}
   multiplyMaterial: {fileID: 0}
   screenMaterial: {fileID: 0}
+  m_SkeletonColor: {r: 1, g: 1, b: 1, a: 1}
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
@@ -4859,7 +5042,9 @@ MonoBehaviour:
   freeze: 0
   layoutScaleMode: 0
   referenceSize: {x: 100, y: 100}
+  pivotOffset: {x: 0, y: 0}
   referenceScale: 1
+  layoutScale: 1
   rectTransformSize: {x: 100, y: 100}
   editReferenceRect: 0
   updateWhenInvisible: 3
@@ -4871,15 +5056,18 @@ MonoBehaviour:
   updateSeparatorPartLocation: 1
   updateSeparatorPartScale: 0
   disableMeshAssignmentOnOverride: 1
+  physicsPositionInheritanceFactor: {x: 1, y: 1}
+  physicsRotationInheritanceFactor: 1
+  physicsMovementRelativeTo: {fileID: 0}
   meshGenerator:
     settings:
       useClipping: 1
       zSpacing: 0
-      pmaVertexColors: 1
       tintBlack: 0
-      canvasGroupTintBlack: 0
-      calculateTangents: 0
+      canvasGroupCompatible: 0
+      pmaVertexColors: 1
       addNormals: 0
+      calculateTangents: 0
       immutableTriangles: 0
   updateTiming: 1
   unscaledTime: 0
@@ -5025,12 +5213,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14a3372869da814491a686bf4d6a9f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  idDrop: 0
   steps:
   - {fileID: 2128707425}
   - {fileID: 1177421700}
   - {fileID: 862336760}
-  isActive: 0
-  spriteUpgrade: {fileID: 0}
+  charmPrefabs: []
+  tranSpawn: {fileID: 0}
 --- !u!61 &1532165651
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5299,11 +5488,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14a3372869da814491a686bf4d6a9f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  idDrop: 0
   steps:
   - {fileID: 2110168576}
   - {fileID: 1289542642}
-  isActive: 0
-  spriteUpgrade: {fileID: 0}
+  charmPrefabs: []
+  tranSpawn: {fileID: 0}
 --- !u!61 &1586580372
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5691,11 +5881,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14a3372869da814491a686bf4d6a9f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  idDrop: 0
   steps:
   - {fileID: 1536199155}
   - {fileID: 1726074491}
-  isActive: 1
-  spriteUpgrade: {fileID: 0}
+  charmPrefabs: []
+  tranSpawn: {fileID: 0}
 --- !u!1 &1674978264
 GameObject:
   m_ObjectHideFlags: 0
@@ -5759,7 +5950,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1237cff4e0c435489b43d15e4b50f77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isChease: 0
+  itemID: 0
+  isHammer: 0
 --- !u!114 &1674978268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5937,7 +6129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1237cff4e0c435489b43d15e4b50f77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isChease: 0
+  itemID: 0
+  isHammer: 0
 --- !u!114 &1731950778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6472,11 +6665,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14a3372869da814491a686bf4d6a9f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  idDrop: 0
   steps:
   - {fileID: 219075215}
   - {fileID: 1368895467}
-  isActive: 0
-  spriteUpgrade: {fileID: 0}
+  charmPrefabs: []
+  tranSpawn: {fileID: 0}
 --- !u!61 &2052754745
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6658,6 +6852,7 @@ MonoBehaviour:
   additiveMaterial: {fileID: 0}
   multiplyMaterial: {fileID: 0}
   screenMaterial: {fileID: 0}
+  m_SkeletonColor: {r: 1, g: 1, b: 1, a: 1}
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
@@ -6667,7 +6862,9 @@ MonoBehaviour:
   freeze: 0
   layoutScaleMode: 0
   referenceSize: {x: 100, y: 100}
+  pivotOffset: {x: 0, y: 0}
   referenceScale: 1
+  layoutScale: 1
   rectTransformSize: {x: 100, y: 100}
   editReferenceRect: 0
   updateWhenInvisible: 3
@@ -6679,15 +6876,18 @@ MonoBehaviour:
   updateSeparatorPartLocation: 1
   updateSeparatorPartScale: 0
   disableMeshAssignmentOnOverride: 1
+  physicsPositionInheritanceFactor: {x: 1, y: 1}
+  physicsRotationInheritanceFactor: 1
+  physicsMovementRelativeTo: {fileID: 0}
   meshGenerator:
     settings:
       useClipping: 1
       zSpacing: 0
-      pmaVertexColors: 1
       tintBlack: 0
-      canvasGroupTintBlack: 0
-      calculateTangents: 0
+      canvasGroupCompatible: 0
+      pmaVertexColors: 1
       addNormals: 0
+      calculateTangents: 0
       immutableTriangles: 0
   updateTiming: 1
   unscaledTime: 0
@@ -27438,3 +27638,4 @@ SceneRoots:
   - {fileID: 976739332}
   - {fileID: 655028670}
   - {fileID: 1380668060}
+  - {fileID: 94710726}

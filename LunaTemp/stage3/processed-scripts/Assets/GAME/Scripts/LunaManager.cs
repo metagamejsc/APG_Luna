@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,6 +19,13 @@ public class LunaManager : MonoBehaviour
     public RawImage rawImageBG;
     public GameObject hand;
     public IQFill iQFill;
+    [Header("Countdown UI")]
+    public Image timeFillImage;
+    public TextMeshProUGUI timeText;
+    private float currentTime;
+    private bool isCounting = false;
+    public bool isEndGame = false;
+
     //---------------------------------
 
     // [LunaPlaygroundAsset("LogoGame")] public Texture2D logoGame;
@@ -42,9 +50,40 @@ public class LunaManager : MonoBehaviour
         }
         EndCard.SetActive(false);
         SetupField();
-        Invoke(nameof(ShowEndCard), timeDropFinal);
+
+        currentTime = timeDropFinal;
+        isCounting = true;
+
         countPlayFinal = Mathf.Min(countPlayFinal, 5f);
     }
+    void Update()
+    {
+        if (!isCounting) return;
+
+        currentTime -= Time.deltaTime;
+
+        // Clamp để tránh âm
+        currentTime = Mathf.Max(currentTime, 0);
+
+        // Update UI
+        if (timeFillImage != null)
+        {
+            timeFillImage.fillAmount = currentTime / timeDropFinal;
+        }
+
+        if (timeText != null)
+        {
+            timeText.text = Mathf.CeilToInt(currentTime).ToString();
+        }
+
+        // Khi hết giờ
+        if (currentTime <= 0)
+        {
+            isCounting = false;
+            ShowEndCard();
+        }
+    }
+
     public void OnCLickStart()
     {
         if (hand.activeInHierarchy)
@@ -86,6 +125,7 @@ public class LunaManager : MonoBehaviour
 
     public void ShowEndCard()
     {
+        isEndGame = true;
         //AudioManager.ins.PlaySoundReward();
         EndCard.SetActive(true);
         Debug.Log("Show end card");

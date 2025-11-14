@@ -1,6 +1,0 @@
-fish.png
-size:164,164
-filter:Linear,Linear
-pma:true
-fish
-bounds:2,20,157,139

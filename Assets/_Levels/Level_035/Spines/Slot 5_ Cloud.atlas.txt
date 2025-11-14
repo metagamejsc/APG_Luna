@@ -1,0 +1,15 @@
+Slot 5_ Cloud.png
+size:708,316
+filter:Linear,Linear
+pma:true
+cloud
+bounds:283,204,421,109
+sun
+bounds:283,2,200,200
+offsets:5,5,210,210
+sun_ Glow
+bounds:485,2,200,200
+offsets:5,5,210,210
+sun_fx
+bounds:2,24,279,289
+offsets:2,5,283,299
