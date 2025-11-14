@@ -136,7 +136,7 @@
         "enableMecanimWASM": true,
         "minify": true,
         "forceUncompressed": false,
-        "forceBase64": false,
+        "forceBase64": true,
         "genericCheck": true,
         "disableAntiAliasing": true,
         "preferWebGl2": false,
