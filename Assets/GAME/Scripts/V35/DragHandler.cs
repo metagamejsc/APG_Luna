@@ -1,4 +1,5 @@
 using UnityEngine;
+// using UnityEngine.EventSystems; // ❌ Không cần nữa
 using System;
 using Spine.Unity;
 using Spine;
@@ -12,106 +13,156 @@ public class DragHandler : MonoBehaviour
     private Vector3 startPosition;
     private AudioSource audioSource;
 
-    private SkeletonAnimation targetSkeleton; // object2
+    private SkeletonAnimation targetSkeleton;
+    public SkeletonAnimation playerSkeleton;
+
     private Action onDroppedCorrectly;
 
     [Header("Child Spine Animation")]
-    public SkeletonAnimation childSkeleton; // <-- Gán ở inspector hoặc tự động tìm
-    [SpineAnimation("","childSkeleton")]public string correctDropAnimation;
-    [SpineSkin("","childSkeleton")]public string correctSkin;
-    //[SpineAnimation("","childSkeleton")]public string wrongDropAnimation;
+    public SkeletonAnimation childSkeleton;
+    [SpineAnimation("", "childSkeleton")] public string correctDropAnimation;
+    [SpineSkin("", "playerSkeleton")] public string correctPlayerSkin;
+    [SpineSkin("", "childSkeleton")] public string correctSkin;
+
+    [Header("Callback Options")]
+    [Tooltip("Nếu bật: onDroppedCorrectly sẽ chạy SAU khi correctDropAnimation chạy xong. " +
+             "Nếu tắt (default): onDroppedCorrectly chạy NGAY khi bắt đầu animation.")]
+    public bool waitCallbackUntilAnimComplete = false;
 
     private string initialAnimation;
 
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        // Nếu muốn lấy vị trí ban đầu ngay khi start (phòng khi Init không được gọi)
+        startPosition = transform.position;
     }
+
     public void Init(SkeletonAnimation target, Action callback)
     {
         targetSkeleton = target;
         onDroppedCorrectly = callback;
         startPosition = transform.position;
 
-        // Lấy lại animation gốc từ child
         if (childSkeleton != null)
         {
             var current = childSkeleton.AnimationState.GetCurrent(0);
             initialAnimation = current?.Animation?.Name ?? "";
         }
     }
-    private void OnMouseDown()
+
+    void Update()
     {
         if (LunaManager.ins.isEndGame)
-        {
             return;
-        }
-        if (isDragging==false)
+
+        // ==========================
+        // LẤY SỰ KIỆN MOUSE DOWN
+        // ==========================
+        if (Input.GetMouseButtonDown(0))
         {
-            if (audioSource!=null)
+            Vector3 mouseWorldPos = GetMouseWorldPos();
+            // Kiểm tra xem click có trúng object này không
+            Collider2D hit = Physics2D.OverlapPoint(mouseWorldPos);
+            if (hit != null && hit.gameObject == gameObject)
             {
-                audioSource.Play();
+                if (!isDragging)
+                {
+                    audioSource?.Play();
+                }
+
+                isDragging = true;
+                offset = transform.position - mouseWorldPos;
             }
         }
-        isDragging = true;
-        offset = transform.position - GetMouseWorldPos();
+
+        // ==========================
+        // LẤY SỰ KIỆN MOUSE UP
+        // ==========================
+        if (Input.GetMouseButtonUp(0))
+        {
+            if (isDragging)
+            {
+                isDragging = false;
+                HandleDrop();
+            }
+        }
+
+        // ==========================
+        // DRAG
+        // ==========================
+        if (isDragging)
+        {
+            transform.position = GetMouseWorldPos() + offset;
+        }
     }
 
-    private void OnMouseUp()
+    private void HandleDrop()
     {
-        if (LunaManager.ins.isEndGame)
-        {
-            return;
-        }
-        isDragging = false;
-
         if (IsOverlappingWithTarget())
         {
             Debug.Log("Dropped on correct target!");
-
+            
+            if (playerSkeleton != null)
+            {
+                playerSkeleton.Skeleton.SetSkin(correctSkin);
+                playerSkeleton.Skeleton.SetToSetupPose();
+                playerSkeleton.AnimationState.Apply(playerSkeleton.Skeleton); // Cập nhật lại ngay
+            }
             if (childSkeleton != null)
             {
                 childSkeleton.transform.position = targetSkeleton.transform.position;
-
                 childSkeleton.Skeleton.SetSkin(correctSkin);
                 childSkeleton.Skeleton.SetToSetupPose();
                 childSkeleton.AnimationState.ClearTrack(0);
+
+                // Có animation rơi đúng
                 if (!string.IsNullOrEmpty(correctDropAnimation))
                 {
                     var track = childSkeleton.AnimationState.SetAnimation(0, correctDropAnimation, false);
 
-                    // Chờ animation kết thúc rồi tắt object1 và gọi callback
-                    track.Complete += (entry) =>
+                    if (waitCallbackUntilAnimComplete)
                     {
-                        Debug.Log("✅ Animation hoàn tất. Tắt object1.");
-                        gameObject.SetActive(false);
-                    };
+                        // ❗ MODE 2: ĐỢI ANIMATION XONG RỒI MỚI GỌI CALLBACK
+                        track.Complete += (entry) =>
+                        {
+                            Debug.Log("✅ Animation hoàn tất. Gọi callback rồi tắt object1.");
+                            onDroppedCorrectly?.Invoke();
+                            gameObject.SetActive(false);
+                        };
+                    }
+                    else
+                    {
+                        // ✅ MODE 1 (DEFAULT): GỌI CALLBACK NGAY LẬP TỨC CÙNG LÚC VỚI ANIMATION
+                        onDroppedCorrectly?.Invoke();
+
+                        track.Complete += (entry) =>
+                        {
+                            Debug.Log("✅ Animation hoàn tất. Tắt object1.");
+                            gameObject.SetActive(false);
+                        };
+                    }
                 }
-                
-                onDroppedCorrectly?.Invoke();
+                else
+                {
+                    // Không có correctDropAnimation → cứ gọi callback và tắt luôn
+                    onDroppedCorrectly?.Invoke();
+                    gameObject.SetActive(false);
+                }
             }
             else
             {
-                // Không có Skeleton hoặc không có animation → tắt luôn
+                // Không dùng childSkeleton → giữ logic cũ
                 gameObject.SetActive(false);
                 onDroppedCorrectly?.Invoke();
             }
 
-            this.enabled = false; // Ngăn kéo lại sau khi đúng
+            this.enabled = false;
         }
         else
         {
             Debug.Log("Dropped on wrong area. Returning to start.");
             ReturnToStart();
-        }
-    }
-
-
-    private void Update()
-    {
-        if (isDragging)
-        {
-            transform.position = GetMouseWorldPos() + offset;
         }
     }
 

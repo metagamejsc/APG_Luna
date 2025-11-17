@@ -18,7 +18,6 @@ public class LunaManager : MonoBehaviour
     [LunaPlaygroundAsset("BG")] public Texture2D texture2D;
     public RawImage rawImageBG;
     public GameObject hand;
-    public IQFill iQFill;
     [Header("Countdown UI")]
     public Image timeFillImage;
     public TextMeshProUGUI timeText;
@@ -107,7 +106,6 @@ public class LunaManager : MonoBehaviour
         {
             ShowEndCard();
         }
-        iQFill.AddValue();
     }
 
     // Update is called once per frame
