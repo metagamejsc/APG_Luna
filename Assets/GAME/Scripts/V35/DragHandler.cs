@@ -20,6 +20,9 @@ public class DragHandler : MonoBehaviour
 
     [Header("Child Spine Animation")]
     public SkeletonAnimation childSkeleton;
+    public SpriteRenderer childSpriteRenderer;
+    public int childSortingOrderOffset;
+    public int childSortingOrderOffsetSelected=40;
     [SpineAnimation("", "childSkeleton")] public string correctDropAnimation;
     [SpineSkin("", "playerSkeleton")] public string correctPlayerSkin;
     [SpineSkin("", "childSkeleton")] public string correctSkin;
@@ -33,6 +36,11 @@ public class DragHandler : MonoBehaviour
 
     void Start()
     {
+        if (childSpriteRenderer!=null)
+        {
+            childSortingOrderOffset= childSpriteRenderer.sortingOrder;
+        }
+        
         audioSource = GetComponent<AudioSource>();
         // Nếu muốn lấy vị trí ban đầu ngay khi start (phòng khi Init không được gọi)
         startPosition = transform.position;
@@ -71,6 +79,10 @@ public class DragHandler : MonoBehaviour
                     audioSource?.Play();
                 }
 
+                if (childSpriteRenderer)
+                {
+                    childSpriteRenderer.sortingOrder = childSortingOrderOffsetSelected;
+                }
                 isDragging = true;
                 offset = transform.position - mouseWorldPos;
             }
@@ -161,6 +173,7 @@ public class DragHandler : MonoBehaviour
         }
         else
         {
+            
             Debug.Log("Dropped on wrong area. Returning to start.");
             ReturnToStart();
         }
@@ -187,6 +200,10 @@ public class DragHandler : MonoBehaviour
 
     private void ReturnToStart()
     {
+        if (childSpriteRenderer)
+        {
+            childSpriteRenderer.sortingOrder = childSortingOrderOffset;
+        }
         transform.DOMove(startPosition, 0.3f).SetEase(Ease.OutQuad)
             .OnComplete(() =>
             {

@@ -2,7 +2,7 @@ Slot 1_Phone.png
 size:480,196
 filter:Linear,Linear
 pma:true
-faded_0d0c15_60%
+fade
 bounds:370,2,108,192
 phone_anim
 bounds:2,9,185,366

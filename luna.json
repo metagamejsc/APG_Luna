@@ -1,8 +1,8 @@
 {
     "version": "6.4.0",
     "projectId": "cc2b1186a2056e546bb13add5b988034",
-    "applicationID": 29138,
-    "creativeName": "APG_V09_NgocNDL_AnhPD",
+    "applicationID": 34530,
+    "creativeName": "BM_ThamNT_ToiNT_V09",
     "pgServer": "EU",
     "window": {
         "‐′": true
@@ -8939,10 +8939,6 @@
                 "excluded": true
             },
             {
-                "name": "Spine.DeformTimeline",
-                "excluded": true
-            },
-            {
                 "name": "Spine.IkConstraintTimeline",
                 "excluded": true
             },
@@ -12780,7 +12776,7 @@
                     },
                     {
                         "name": "remove",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetEnumerator",
@@ -18486,7 +18482,7 @@
                     },
                     {
                         "name": "sortingOrder#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "sortingOrder#set",
@@ -28974,11 +28970,11 @@
                     },
                     {
                         "name": "InsertNewLine",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "RestoreWordWrappingState",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SaveSpriteVertexInfo",
@@ -35164,7 +35160,7 @@
                     },
                     {
                         "name": "Resize",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -35402,7 +35398,7 @@
                     },
                     {
                         "name": "UnRegisterTextObjectForUpdate",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "UnRegisterTextElementForRebuild",
@@ -35434,7 +35430,7 @@
                     },
                     {
                         "name": "InternalUnRegisterTextObjectForUpdate",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -35482,7 +35478,7 @@
                     },
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetWord",
@@ -35498,7 +35494,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -36436,7 +36432,7 @@
                     },
                     {
                         "name": "Id#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Bones#get",
@@ -36456,7 +36452,7 @@
                     },
                     {
                         "name": "TimelineAttachment#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "TimelineAttachment#set",
@@ -37092,7 +37088,7 @@
                     },
                     {
                         "name": "Index#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Name#get",
@@ -39180,7 +39176,7 @@
                     },
                     {
                         "name": "ReturnToStart",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "HandleDrop",
@@ -39464,6 +39460,44 @@
                     },
                     {
                         "name": "init",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Spine.DeformTimeline",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "SlotIndex#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Attachment#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Vertices#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetFrame",
+                        "excluded": false
+                    },
+                    {
+                        "name": "setBezier",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetCurvePercent",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Apply",
                         "excluded": false
                     }
                 ]
