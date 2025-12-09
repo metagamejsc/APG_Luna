@@ -34243,8 +34243,8 @@
                     {
                         "channels": 1,
                         "startTime": "00:01.364",
-                        "endTime": "00:22.165",
-                        "lengthInSeconds": 20.801000595092775,
+                        "endTime": "00:40.579",
+                        "lengthInSeconds": 39.21500015258789,
                         "bitrate": 128,
                         "script": "",
                         "ext": "",
@@ -34253,9 +34253,9 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
+                        "endTime": "00:22.165",
+                        "lengthInSeconds": 22.165000915527345,
+                        "bitrate": 32,
                         "script": "",
                         "ext": "",
                         "name": "Assets/GAME/Audios/lv73 Audios/voice/1764322178917293760-339023172304992.mp3"
@@ -34263,9 +34263,9 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
+                        "endTime": "00:22.165",
+                        "lengthInSeconds": 22.165000915527345,
+                        "bitrate": 32,
                         "script": "",
                         "ext": "",
                         "name": "Assets/GAME/Audios/lv73 Audios/voice/1764322506121834989-339024574541907.mp3"
@@ -34273,9 +34273,9 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
+                        "endTime": "00:22.165",
+                        "lengthInSeconds": 22.165000915527345,
+                        "bitrate": 32,
                         "script": "",
                         "ext": "",
                         "name": "Assets/GAME/Audios/lv73 Audios/voice/1764322474645804767-339024435744852.mp3"
@@ -34283,9 +34283,9 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
+                        "endTime": "00:22.165",
+                        "lengthInSeconds": 22.165000915527345,
+                        "bitrate": 32,
                         "script": "",
                         "ext": "",
                         "name": "Assets/GAME/Audios/lv73 Audios/voice/1764322215960970147-339023337136224.mp3"
@@ -34293,9 +34293,9 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
+                        "endTime": "00:22.165",
+                        "lengthInSeconds": 22.165000915527345,
+                        "bitrate": 32,
                         "script": "",
                         "ext": "",
                         "name": "Assets/GAME/Audios/lv73 Audios/voice/1764322410853321741-339024210333780.mp3"
@@ -34303,9 +34303,9 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
+                        "endTime": "00:22.165",
+                        "lengthInSeconds": 22.165000915527345,
+                        "bitrate": 32,
                         "script": "",
                         "ext": "",
                         "name": "Assets/GAME/Audios/lv73 Audios/voice/1764322127256791799-339023163830337.mp3"
