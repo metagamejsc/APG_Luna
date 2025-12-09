@@ -2,43 +2,47 @@ using UnityEngine;
 
 public class ClickItem : MonoBehaviour
 {
-    public bool isPhone = false;
+    //public bool isPhone = false;
     public GameObject[] steps;
     public int currentStep = 0;
+    public bool isProcess = false;
     void Start()
     {
+        SetUp();
+    }
+    void SetUp()
+    {
         currentStep = 0;
-    }
-    public void ClickFunc()
-    {
-        if (isPhone)
-        {
-            //currentStep++;
-            //NextStep();
-            FuncPhone();
-        }
-        else
-        {
-            ActiveStep(currentStep);
-        }
-
-
-    }
-    void NextStep()
-    {
         foreach (var step in steps)
         {
             step.SetActive(false);
         }
         steps[currentStep].SetActive(true);
     }
-    void ActiveStep(int step)
+    public void ClickFunc()
     {
-        steps[step].SetActive(true);
+        currentStep++;
+        NextStep();
     }
-    void FuncPhone()
+    void NextStep()
     {
-        steps[0].SetActive(false);
+        if (currentStep >= steps.Length) return;
+        foreach (var step in steps)
+        {
+            step.SetActive(false);
+        }
         steps[currentStep].SetActive(true);
+        if (isProcess)
+        {
+            LunaManager.ins.CountPlay();
+        }
+    }
+    void ActiveStep(int stepActive)
+    {
+        foreach (var step in steps)
+        {
+            step.SetActive(false);
+        }
+        steps[stepActive].SetActive(true);
     }
 }

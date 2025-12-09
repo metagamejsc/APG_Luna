@@ -5,51 +5,24 @@ public class DropZone : MonoBehaviour
 {
     public int idDrop = 0;
     public GameObject[] steps;
-    public bool isActive = false;
-    //public Sprite spriteUpgrade;
-    public bool isDontWork = false;
 
 
     private int currentStep = 0;
-    private BoxCollider2D boxCollider;
+    private Collider2D boxCollider;
 
     void Awake()
     {
-        boxCollider = GetComponent<BoxCollider2D>();
+        boxCollider = GetComponent<Collider2D>();
         boxCollider.enabled = true;
         currentStep = 0;
         NextStep();
     }
-    public void DragMoney()
+    public void DragItem()
     {
 
         currentStep++;
         NextStep();
         CheckDone();
-        //Upgrade();
-        LunaManager.ins.CountPlay();
-    }
-    public void UpgradeWoman()
-    {
-        if (currentStep < steps.Length - 1)
-        {
-            currentStep++;
-        }
-        isActive = true;
-        NextStepUpgrade();
-        //CheckDone();
-    }
-    void NextStepUpgrade()
-    {
-        if (steps.Length <= 0 || !isActive) return;
-        steps[currentStep].SetActive(true);
-        Invoke("OffCurrentStep", 3f);
-    }
-    void OffCurrentStep()
-    {
-        if (steps.Length <= 0) return;
-        steps[currentStep].SetActive(false);
-        isActive = false;
     }
     void NextStep()
     {

@@ -1,0 +1,5 @@
+man_B.png
+size:168,188
+filter:Linear,Linear
+man10
+bounds:2,2,161,182

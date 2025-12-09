@@ -7,6 +7,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     private RectTransform rectTransform;
     private Vector2 originalPosition;
     private CanvasGroup canvasGroup;
+    public bool isProcess = false;
 
     void Awake()
     {
@@ -24,7 +25,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     {
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
         rectTransform.position = worldPoint;
-        LunaManager.ins.TurnOffHand();
+        LunaManager.ins.OffStartCard();
         //rectTransform.position = Input.mousePosition;
     }
 
@@ -36,22 +37,20 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
         RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
 
-        if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop && hit.collider.gameObject.GetComponent<DropZone>().isDontWork)
+
+        if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop)
         {
-            hit.collider.gameObject.GetComponent<DropZone>().UpgradeWoman();
-            rectTransform.anchoredPosition = originalPosition;
+            hit.collider.gameObject.GetComponent<DropZone>().DragItem();
+            if (isProcess)
+            {
+                LunaManager.ins.CountPlay();
+            }
+            Destroy(gameObject);
         }
         else
         {
-            if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop && !hit.collider.gameObject.GetComponent<DropZone>().isDontWork)
-            {
-                hit.collider.gameObject.GetComponent<DropZone>().DragMoney();
-                Destroy(gameObject);
-            }
-            else
-            {
-                rectTransform.anchoredPosition = originalPosition;
-            }
+            rectTransform.anchoredPosition = originalPosition;
         }
+
     }
 }
