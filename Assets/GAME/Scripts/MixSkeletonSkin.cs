@@ -7,9 +7,19 @@ public class MixSkeletonSkin : MonoBehaviour
     public SkeletonGraphic skeletonAnimation;
 
     [Tooltip("Danh sách tên skin trong Spine (body, hat, shirt, ...)")]
-    [SpineSkin()] public string[] skinNames; // Size = 2 thì 2 name, Size = 3 thì 3 name
+    [SpineSkin] public string[] skinNames; // Set trong Inspector nếu muốn auto mix khi Start
 
     void Start()
+    {
+        // Nếu muốn tự động mix theo mảng skinNames trong Inspector khi game chạy
+        MixAndApplySkins();
+    }
+
+    /// <summary>
+    /// Public function: Mix skin theo danh sách truyền vào.
+    /// Nếu không truyền gì (hoặc null / rỗng) thì sẽ dùng mảng skinNames trong Inspector.
+    /// </summary>
+    public void MixAndApplySkins(params string[] skinsToMix)
     {
         if (skeletonAnimation == null)
         {
@@ -31,17 +41,22 @@ public class MixSkeletonSkin : MonoBehaviour
             return;
         }
 
-        if (skinNames == null || skinNames.Length == 0)
+        // Nếu không truyền skinsToMix thì dùng mảng skinNames trong Inspector
+        string[] namesToUse = (skinsToMix != null && skinsToMix.Length > 0)
+            ? skinsToMix
+            : skinNames;
+
+        if (namesToUse == null || namesToUse.Length == 0)
         {
-            Debug.LogWarning("Chưa nhập tên skin nào trong mảng skinNames.");
+            Debug.LogWarning("Chưa nhập tên skin nào để mix.");
             return;
         }
 
         // Tạo skin mới
         Skin combinedSkin = new Skin("combined-skin");
 
-        // Lặp qua tất cả tên skin trong mảng
-        foreach (var skinName in skinNames)
+        // Lặp qua tất cả tên skin
+        foreach (var skinName in namesToUse)
         {
             if (string.IsNullOrEmpty(skinName))
                 continue;
@@ -58,7 +73,8 @@ public class MixSkeletonSkin : MonoBehaviour
 
         // Gán skin mới vào skeleton
         skeleton.SetSkin(combinedSkin);
-        skeleton.SetToSetupPose();
+        skeleton.SetSlotsToSetupPose();          // hoặc SetToSetupPose() tùy bạn
         skeletonAnimation.AnimationState.Apply(skeleton);
+        skeletonAnimation.LateUpdate();
     }
 }

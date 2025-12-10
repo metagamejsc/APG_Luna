@@ -106,7 +106,7 @@
             ]
         },
         "scenes": [
-            "Assets/Scenes/Level4.unity"
+            "Assets/Scenes/Game.unity"
         ],
         "disabledScenes": [],
         "startupScene": 0,
@@ -136,7 +136,7 @@
         "enableMecanimWASM": true,
         "minify": true,
         "forceUncompressed": false,
-        "forceBase64": false,
+        "forceBase64": true,
         "genericCheck": true,
         "disableAntiAliasing": true,
         "preferWebGl2": false,
@@ -2141,10 +2141,6 @@
             },
             {
                 "name": "UnityEngine.AssetBundleRequest",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.AudioClip",
                 "excluded": true
             },
             {
@@ -25047,7 +25043,7 @@
                     },
                     {
                         "name": "Skeleton#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Skeleton#set",
@@ -25063,7 +25059,7 @@
                     },
                     {
                         "name": "AnimationState#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "MeshGenerator#get",
@@ -30714,11 +30710,11 @@
                         "excluded": false
                     },
                     {
-                        "name": "TurnOffHand",
-                        "excluded": true
+                        "name": "UpdateProgress",
+                        "excluded": false
                     },
                     {
-                        "name": "UpdateProgress",
+                        "name": "OffStartCard",
                         "excluded": false
                     }
                 ]
@@ -34137,6 +34133,186 @@
                 "instanceMethods": [
                     {
                         "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "MixAndApplySkins",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.AudioClip",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "name#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "name#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "length#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "AudioController",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "BuildDictionary",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TryGetEntry",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlayBgm",
+                        "excluded": true
+                    },
+                    {
+                        "name": "StopBgm",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlaySfx",
+                        "excluded": false
+                    },
+                    {
+                        "name": "StopSfx",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "AudioEntry",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "DragCustom",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnBeginDrag",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDrag",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEndDrag",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "DropCustom",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DragItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DragItemCustomBride",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DragItemCustomGroom",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ClickGroom",
+                        "excluded": true
+                    },
+                    {
+                        "name": "NextStep",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CheckDone",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EventUpgrade",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetCurrentStep",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "SpineHelper",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ChangeSkinAndAnimation",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ChangeSkin",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ChangeAnimation",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CreateCombinedSkin",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MixAndApplySkins",
                         "excluded": true
                     }
                 ]

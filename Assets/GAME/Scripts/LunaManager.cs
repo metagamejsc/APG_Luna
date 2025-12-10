@@ -28,6 +28,8 @@ public class LunaManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timeText;
     private float currentTime;
     private bool isRunning = true;
+    //----------------------------------OTHER----------------------------
+    public bool isHead = false;
 
     //----------------------------------LUNA----------------------------
     public static LunaManager ins;
