@@ -1,0 +1,15 @@
+o_dien.png
+size:260,80
+filter:Linear,Linear
+pma:true
+money_socket
+bounds:85,22,56,97
+offsets:14,1,71,101
+rotate:90
+socket_b
+bounds:184,3,75,73
+offsets:1,2,77,76
+rotate:90
+socket_f
+bounds:2,2,81,76
+offsets:1,5,83,82

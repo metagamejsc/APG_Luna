@@ -1,0 +1,71 @@
+{
+"skeleton": {
+	"hash": "4f3S5bimg1o",
+	"spine": "4.2.33",
+	"x": 203.17,
+	"y": 124.13,
+	"width": 434,
+	"height": 340,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "arm2", "parent": "root", "length": 177.06, "rotation": 178.54, "x": 406.81, "y": 286.01 }
+],
+"slots": [
+	{ "name": "window", "bone": "root", "attachment": "window" },
+	{ "name": "window_door", "bone": "arm2", "attachment": "window_door" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"window": {
+				"window": { "x": 420.17, "y": 294.13, "width": 434, "height": 340 }
+			},
+			"window_door": {
+				"window_door": { "x": 83.01, "y": 5.99, "rotation": -178.54, "width": 203, "height": 284 }
+			}
+		}
+	}
+],
+"animations": {
+	"act1": {
+		"bones": {
+			"arm2": {
+				"scale": [
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"slot 6_ cua so_open": {
+		"bones": {
+			"arm2": {
+				"translate": [
+					{
+						"curve": [ 0.122, 0, 0.244, 201, 0.122, 0, 0.244, 0 ]
+					},
+					{
+						"time": 0.3667,
+						"x": 201,
+						"curve": [ 0.4, 201, 0.433, 196.43, 0.4, 0, 0.433, 0 ]
+					},
+					{ "time": 0.4667, "x": 196.43 }
+				]
+			}
+		}
+	},
+	"slot 6_ cua so_open_loop": {
+		"bones": {
+			"arm2": {
+				"translate": [
+					{ "x": 196.43 },
+					{ "time": 0.6667, "x": 196.43 }
+				]
+			}
+		}
+	}
+}
+}

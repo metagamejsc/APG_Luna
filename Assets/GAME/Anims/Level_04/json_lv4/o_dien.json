@@ -1,0 +1,126 @@
+{
+"skeleton": {
+	"hash": "Mdk2G+hmF0o",
+	"spine": "4.2.33",
+	"x": 384,
+	"y": -0.53,
+	"width": 83,
+	"height": 82,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "socket_b", "parent": "root", "x": 425.55, "y": 39.51 }
+],
+"slots": [
+	{ "name": "socket_b", "bone": "root", "attachment": "socket_b" },
+	{ "name": "money_socket", "bone": "root" },
+	{ "name": "socket_f", "bone": "socket_b", "attachment": "socket_f" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"money_socket": {
+				"money_socket": { "x": 411.46, "y": 57.97, "width": 71, "height": 101 }
+			},
+			"socket_b": {
+				"socket_b": { "x": 425.5, "y": 40.47, "width": 77, "height": 76 }
+			},
+			"socket_f": {
+				"socket_f": { "x": -0.05, "y": 0.95, "width": 83, "height": 82 }
+			}
+		}
+	}
+],
+"animations": {
+	"act1": {
+		"bones": {
+			"socket_b": {
+				"scale": [
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"slot 8_o dien_close": {
+		"slots": {
+			"money_socket": {
+				"attachment": [
+					{ "name": "money_socket" }
+				]
+			}
+		},
+		"bones": {
+			"socket_b": {
+				"translate": [
+					{
+						"x": 74.43,
+						"curve": [ 0.074, 74.43, 0.193, -1.95, 0.074, 0, 0.193, 0 ]
+					},
+					{
+						"time": 0.2667,
+						"x": -1.95,
+						"curve": [ 0.311, -1.95, 0.356, 0, 0.311, 0, 0.356, 0 ]
+					},
+					{ "time": 0.4 }
+				]
+			}
+		}
+	},
+	"slot 8_o dien_open": {
+		"bones": {
+			"socket_b": {
+				"translate": [
+					{
+						"curve": [ 0.036, 0, 0.064, -5.03, 0.036, 0, 0.064, 0 ]
+					},
+					{
+						"time": 0.1,
+						"x": -5.03,
+						"curve": [ 0.175, -5.03, 0.291, 75.28, 0.175, 0, 0.291, 0 ]
+					},
+					{
+						"time": 0.3667,
+						"x": 75.28,
+						"curve": [ 0.422, 75.28, 0.478, 74.43, 0.422, 0, 0.478, 0 ]
+					},
+					{ "time": 0.5333, "x": 74.43 }
+				]
+			}
+		}
+	},
+	"slot 8_o dien_open_loop": {
+		"slots": {
+			"money_socket": {
+				"attachment": [
+					{ "name": "money_socket" }
+				]
+			}
+		},
+		"bones": {
+			"socket_b": {
+				"translate": [
+					{ "x": 74.43 }
+				],
+				"scale": [
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"slot 8_o dien_open_loop_no money": {
+		"bones": {
+			"socket_b": {
+				"translate": [
+					{ "x": 74.43 }
+				],
+				"scale": [
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	}
+}
+}

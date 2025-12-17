@@ -1,0 +1,132 @@
+{
+"skeleton": {
+	"hash": "kJQvVAK6zPM",
+	"spine": "4.2.33",
+	"x": -93.66,
+	"y": -188.62,
+	"width": 264,
+	"height": 266,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "fridge_closed", "parent": "root", "length": 242.41, "rotation": 90.79, "x": -84.64, "y": -171.17 },
+	{ "name": "fridge_opened2", "parent": "root", "length": 245.73, "rotation": 90, "x": -93.32, "y": -173.84 }
+],
+"slots": [
+	{ "name": "fridge_closed", "bone": "fridge_closed", "attachment": "fridge_closed" },
+	{ "name": "fridge_opened2", "bone": "fridge_opened2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"fridge_closed": {
+				"fridge_closed": { "x": 113.85, "y": -124.57, "rotation": -90.79, "width": 264, "height": 266 }
+			},
+			"fridge_opened2": {
+				"fridge_opened2": { "x": 124.72, "y": -133.37, "rotation": -90, "width": 264, "height": 296 }
+			}
+		}
+	}
+],
+"events": {
+	"Fridge_Close": {},
+	"Fridge_Open": {}
+},
+"animations": {
+	"act1": {
+		"bones": {
+			"root": {
+				"scale": [
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"slot 3_tu lanh_close": {
+		"bones": {
+			"fridge_closed": {
+				"scale": [
+					{
+						"x": 1.011,
+						"y": 0.204,
+						"curve": [ 0.048, 1.011, 0.119, 1, 0.048, 0.204, 0.119, 1.045 ]
+					},
+					{
+						"time": 0.1667,
+						"y": 1.045,
+						"curve": [ 0.189, 1, 0.211, 1, 0.189, 1.045, 0.211, 1 ]
+					},
+					{ "time": 0.2333 }
+				]
+			}
+		},
+		"events": [
+			{ "name": "Fridge_Close" }
+		]
+	},
+	"slot 3_tu lanh_open": {
+		"slots": {
+			"fridge_closed": {
+				"attachment": [
+					{ "time": 0.2 }
+				]
+			},
+			"fridge_opened2": {
+				"attachment": [
+					{ "time": 0.2, "name": "fridge_opened2" }
+				]
+			}
+		},
+		"bones": {
+			"fridge_closed": {
+				"scale": [
+					{
+						"curve": [ 0.067, 1, 0.133, 1.011, 0.067, 1, 0.133, 0.204 ]
+					},
+					{ "time": 0.2, "x": 1.011, "y": 0.204 }
+				]
+			},
+			"fridge_opened2": {
+				"scale": [
+					{
+						"curve": [ 0.067, 1, 0.133, 1, 0.067, 1, 0.133, 1.149 ]
+					},
+					{
+						"time": 0.2,
+						"y": 1.149,
+						"curve": [ 0.244, 1, 0.289, 1, 0.244, 1.149, 0.289, 1 ]
+					},
+					{ "time": 0.3333 }
+				]
+			}
+		},
+		"events": [
+			{ "name": "Fridge_Open" }
+		]
+	},
+	"slot 3_tu lanh_open_loop": {
+		"slots": {
+			"fridge_closed": {
+				"attachment": [
+					{}
+				]
+			},
+			"fridge_opened2": {
+				"attachment": [
+					{ "name": "fridge_opened2" }
+				]
+			}
+		},
+		"bones": {
+			"fridge_closed": {
+				"scale": [
+					{ "x": 1.011, "y": 0.204 }
+				]
+			}
+		}
+	}
+}
+}

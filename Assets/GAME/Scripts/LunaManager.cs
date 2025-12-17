@@ -7,6 +7,7 @@ public class LunaManager : MonoBehaviour
     public Button[] lstBtnInstall;
     public GameObject StartCard;
     public GameObject EndCard;
+    public GameObject Parent;
     //public GameObject hand;
     [Header("Progess")]
     [SerializeField] private TextMeshProUGUI textProgess;

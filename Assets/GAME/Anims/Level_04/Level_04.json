@@ -1,0 +1,261 @@
+{ "skeleton": { "images": "C:/Users/PC/Desktop/Sever/Full file spine/Brain Master/Level_04/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG", "bone": "root", "attachment": "BG" },
+	{ "name": "fridge_opened", "bone": "root", "attachment": "fridge_opened" },
+	{ "name": "melon", "bone": "root", "attachment": "melon" },
+	{ "name": "melon_1st_half", "bone": "root", "attachment": "melon_1st_half" },
+	{ "name": "money_melon", "bone": "root", "attachment": "money_melon" },
+	{ "name": "melon_1st_half_f", "bone": "root", "attachment": "melon_1st_half_f" },
+	{ "name": "melon_2nd_half", "bone": "root", "attachment": "melon_2nd_half" },
+	{ "name": "knife", "bone": "root", "attachment": "knife" },
+	{ "name": "fridge_closed", "bone": "root", "attachment": "fridge_closed" },
+	{ "name": "money_carpet", "bone": "root", "attachment": "money_carpet" },
+	{ "name": "carpet_up", "bone": "root", "attachment": "carpet_up" },
+	{ "name": "carpet", "bone": "root", "attachment": "carpet" },
+	{ "name": "sofa", "bone": "root", "attachment": "sofa" },
+	{ "name": "money_sofa", "bone": "root", "attachment": "money_sofa" },
+	{ "name": "seat1_down", "bone": "root", "attachment": "seat1_down" },
+	{ "name": "seat1_up", "bone": "root", "attachment": "seat1_up" },
+	{ "name": "seat2_down", "bone": "root", "attachment": "seat2_down" },
+	{ "name": "man", "bone": "root", "attachment": "man" },
+	{ "name": "face_man", "bone": "root", "attachment": "face_man" },
+	{ "name": "shaking", "bone": "root", "attachment": "shaking" },
+	{ "name": "Table", "bone": "root", "attachment": "Table" },
+	{ "name": "wall", "bone": "root", "attachment": "wall" },
+	{ "name": "crack", "bone": "root", "attachment": "crack" },
+	{ "name": "hole", "bone": "root", "attachment": "hole" },
+	{ "name": "money_hole", "bone": "root", "attachment": "money_hole" },
+	{ "name": "poster", "bone": "root", "attachment": "poster" },
+	{ "name": "poster_scroll", "bone": "root", "attachment": "poster_scroll" },
+	{ "name": "hammer", "bone": "root", "attachment": "hammer" },
+	{ "name": "smoke", "bone": "root", "attachment": "smoke" },
+	{ "name": "AC_opened", "bone": "root", "attachment": "AC_opened" },
+	{ "name": "money_AC", "bone": "root", "attachment": "money_AC" },
+	{ "name": "AC_closed", "bone": "root", "attachment": "AC_closed" },
+	{ "name": "vase", "bone": "root", "attachment": "vase" },
+	{ "name": "money_vase", "bone": "root", "attachment": "money_vase" },
+	{ "name": "flower", "bone": "root", "attachment": "flower" },
+	{ "name": "vase_f", "bone": "root", "attachment": "vase_f" },
+	{ "name": "socket_b", "bone": "root", "attachment": "socket_b" },
+	{ "name": "money_socket", "bone": "root", "attachment": "money_socket" },
+	{ "name": "socket_f", "bone": "root", "attachment": "socket_f" },
+	{ "name": "arm2", "bone": "root", "attachment": "arm2" },
+	{ "name": "body", "bone": "root", "attachment": "body" },
+	{ "name": "arm1", "bone": "root", "attachment": "arm1" },
+	{ "name": "arm3", "bone": "root", "attachment": "arm3" },
+	{ "name": "headP", "bone": "root", "attachment": "headP" },
+	{ "name": "face", "bone": "root", "attachment": "face" },
+	{ "name": "face2", "bone": "root", "attachment": "face2" },
+	{ "name": "window", "bone": "root", "attachment": "window" },
+	{ "name": "window_door", "bone": "root", "attachment": "window_door" },
+	{ "name": "money", "bone": "root", "attachment": "money" },
+	{ "name": "Door_opened", "bone": "root", "attachment": "Door_opened" },
+	{ "name": "door_closed", "bone": "root", "attachment": "door_closed" },
+	{ "name": "RollingPin", "bone": "root", "attachment": "RollingPin" },
+	{ "name": "arm_b", "bone": "root", "attachment": "arm_b" },
+	{ "name": "leg2", "bone": "root", "attachment": "leg2" },
+	{ "name": "leg1", "bone": "root", "attachment": "leg1" },
+	{ "name": "lowerbody", "bone": "root", "attachment": "lowerbody" },
+	{ "name": "upperbody", "bone": "root", "attachment": "upperbody" },
+	{ "name": "head", "bone": "root", "attachment": "head" },
+	{ "name": "head2", "bone": "root", "attachment": "head2" },
+	{ "name": "laser_eye", "bone": "root", "attachment": "laser_eye" },
+	{ "name": "arm_f", "bone": "root", "attachment": "arm_f" },
+	{ "name": "UI", "bone": "root", "attachment": "UI" }
+],
+"skins": {
+	"default": {
+		"BG": {
+			"BG": { "x": 540, "y": -960, "width": 1082, "height": 1922 }
+		},
+		"fridge_opened": {
+			"fridge_opened": { "x": 578, "y": -992, "width": 268, "height": 334 }
+		},
+		"melon": {
+			"melon": { "x": 577, "y": -976, "width": 110, "height": 106 }
+		},
+		"melon_1st_half": {
+			"melon_1st_half": { "x": 577, "y": -983.5, "width": 110, "height": 91 }
+		},
+		"money_melon": {
+			"money_melon": { "x": 574, "y": -990.5, "width": 74, "height": 95 }
+		},
+		"melon_1st_half_f": {
+			"melon_1st_half_f": { "x": 577, "y": -984, "width": 110, "height": 90 }
+		},
+		"melon_2nd_half": {
+			"melon_2nd_half": { "x": 551, "y": -898.5, "width": 106, "height": 83 }
+		},
+		"knife": {
+			"knife": { "x": 584, "y": -1099, "width": 172, "height": 34 }
+		},
+		"fridge_closed": {
+			"fridge_closed": { "x": 579, "y": -988.5, "width": 266, "height": 327 }
+		},
+		"money_carpet": {
+			"money_carpet": { "x": 534, "y": -1310.5, "width": 204, "height": 141 }
+		},
+		"carpet_up": {
+			"carpet_up": { "x": 833, "y": -1348, "width": 854, "height": 278 }
+		},
+		"carpet": {
+			"carpet": { "x": 833, "y": -1348.5, "width": 854, "height": 277 }
+		},
+		"sofa": {
+			"sofa": { "x": 864.5, "y": -1335.5, "width": 571, "height": 361 }
+		},
+		"money_sofa": {
+			"money_sofa": { "x": 768, "y": -1364.5, "width": 204, "height": 141 }
+		},
+		"seat1_down": {
+			"seat1_down": { "x": 753, "y": -1351.5, "width": 230, "height": 165 }
+		},
+		"seat1_up": {
+			"seat1_up": { "x": 759, "y": -1244.5, "width": 218, "height": 185 }
+		},
+		"seat2_down": {
+			"seat2_down": { "x": 975, "y": -1349.5, "width": 232, "height": 165 }
+		},
+		"man": {
+			"man": { "x": 988, "y": -1268, "width": 324, "height": 490 }
+		},
+		"face_man": {
+			"face_man": { "x": 1020, "y": -1091, "width": 86, "height": 104 }
+		},
+		"shaking": {
+			"shaking": { "x": 975, "y": -1049, "width": 138, "height": 118 }
+		},
+		"Table": {
+			"Table": { "x": 882.5, "y": -1626, "width": 397, "height": 424 }
+		},
+		"wall": {
+			"wall": { "x": 350.5, "y": -960.5, "width": 149, "height": 1435 }
+		},
+		"crack": {
+			"crack": { "x": 578.5, "y": -483, "width": 175, "height": 168 }
+		},
+		"hole": {
+			"hole": { "x": 578, "y": -479.5, "width": 174, "height": 173 }
+		},
+		"money_hole": {
+			"money_hole": { "x": 578, "y": -479.5, "width": 174, "height": 173 }
+		},
+		"poster": {
+			"poster": { "x": 567.5, "y": -483.5, "width": 263, "height": 175 }
+		},
+		"poster_scroll": {
+			"poster_scroll": { "x": 457.5, "y": -484, "width": 43, "height": 186 }
+		},
+		"hammer": {
+			"hammer": { "x": 814, "y": -1032.5, "width": 166, "height": 165 }
+		},
+		"smoke": {
+			"smoke": { "x": 680, "y": -532, "width": 514, "height": 514 }
+		},
+		"AC_opened": {
+			"AC_opened": { "x": 892, "y": -370, "width": 374, "height": 130 }
+		},
+		"money_AC": {
+			"money_AC": { "x": 881, "y": -414, "width": 190, "height": 58 }
+		},
+		"AC_closed": {
+			"AC_closed": { "x": 892.5, "y": -361, "width": 373, "height": 114 }
+		},
+		"vase": {
+			"vase": { "x": 649.5, "y": -786.5, "width": 87, "height": 141 }
+		},
+		"money_vase": {
+			"money_vase": { "x": 650, "y": -723, "width": 60, "height": 52 }
+		},
+		"flower": {
+			"flower": { "x": 631.5, "y": -689, "width": 189, "height": 236 }
+		},
+		"vase_f": {
+			"vase_f": { "x": 649.5, "y": -786.5, "width": 87, "height": 141 }
+		},
+		"socket_b": {
+			"socket_b": { "x": 965.5, "y": -921, "width": 77, "height": 76 }
+		},
+		"money_socket": {
+			"money_socket": { "x": 951.5, "y": -903.5, "width": 71, "height": 101 }
+		},
+		"socket_f": {
+			"socket_f": { "x": 965.5, "y": -921, "width": 83, "height": 82 }
+		},
+		"arm2": {
+			"arm2": { "x": 867, "y": -678, "width": 218, "height": 288 }
+		},
+		"body": {
+			"body": { "x": 859, "y": -746, "width": 112, "height": 148 }
+		},
+		"arm1": {
+			"arm1": { "x": 938.5, "y": -748.5, "width": 111, "height": 141 }
+		},
+		"arm3": {
+			"arm3": { "x": 939, "y": -742.5, "width": 112, "height": 153 }
+		},
+		"headP": {
+			"headP": { "x": 840.5, "y": -653, "width": 113, "height": 116 }
+		},
+		"face": {
+			"face": { "x": 823, "y": -678.5, "width": 48, "height": 53 }
+		},
+		"face2": {
+			"face2": { "x": 826, "y": -679, "width": 54, "height": 54 }
+		},
+		"window": {
+			"window": { "x": 960, "y": -667, "width": 434, "height": 340 }
+		},
+		"window_door": {
+			"window_door": { "x": 863.5, "y": -679, "width": 203, "height": 284 }
+		},
+		"money": {
+			"money": { "x": 901, "y": -1458.5, "width": 298, "height": 173 }
+		},
+		"Door_opened": {
+			"Door_opened": { "x": 142.5, "y": -840.5, "width": 325, "height": 659 }
+		},
+		"door_closed": {
+			"door_closed": { "x": 317.5, "y": -1085, "width": 91, "height": 1156 }
+		},
+		"RollingPin": {
+			"RollingPin": { "x": 381, "y": -1083, "width": 38, "height": 186 }
+		},
+		"arm_b": {
+			"arm_b": { "x": 107.5, "y": -987, "width": 131, "height": 216 }
+		},
+		"leg2": {
+			"leg2": { "x": 187, "y": -1241, "width": 78, "height": 250 }
+		},
+		"leg1": {
+			"leg1": { "x": 228.5, "y": -1277, "width": 101, "height": 266 }
+		},
+		"lowerbody": {
+			"lowerbody": { "x": 230, "y": -1077.5, "width": 192, "height": 257 }
+		},
+		"upperbody": {
+			"upperbody": { "x": 205.5, "y": -944, "width": 187, "height": 242 }
+		},
+		"head": {
+			"head": { "x": 143, "y": -814, "width": 164, "height": 152 }
+		},
+		"head2": {
+			"head2": { "x": 143, "y": -814, "width": 164, "height": 152 }
+		},
+		"laser_eye": {
+			"laser_eye": { "x": 281, "y": -708, "width": 476, "height": 62 }
+		},
+		"arm_f": {
+			"arm_f": { "x": 308.5, "y": -944, "width": 191, "height": 162 }
+		},
+		"UI": {
+			"UI": { "x": 540, "y": -960, "width": 1082, "height": 1922 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

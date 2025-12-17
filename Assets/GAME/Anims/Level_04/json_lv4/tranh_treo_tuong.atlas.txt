@@ -1,0 +1,9 @@
+tranh_treo_tuong.png
+size:312,188
+filter:Linear,Linear
+pma:true
+poster
+bounds:2,10,263,175
+poster_scroll
+bounds:267,2,41,183
+offsets:1,2,43,186

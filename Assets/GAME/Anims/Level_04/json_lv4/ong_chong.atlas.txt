@@ -1,0 +1,14 @@
+ong_chong.png
+size:612,328
+filter:Linear,Linear
+pma:true
+face_man
+bounds:494,87,84,101
+offsets:1,2,86,104
+man
+bounds:2,2,324,490
+rotate:90
+shaking
+bounds:494,190,136,116
+offsets:1,1,138,118
+rotate:90

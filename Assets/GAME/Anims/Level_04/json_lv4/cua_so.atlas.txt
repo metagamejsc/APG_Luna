@@ -1,0 +1,10 @@
+cua_so.png
+size:640,344
+filter:Linear,Linear
+pma:true
+window
+bounds:2,2,432,338
+offsets:1,1,434,340
+window_door
+bounds:436,58,201,282
+offsets:1,1,203,284

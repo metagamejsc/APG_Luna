@@ -1,0 +1,137 @@
+{
+"skeleton": {
+	"hash": "A9H5LtKcnhY",
+	"spine": "4.2.33",
+	"x": 165.19,
+	"y": 526.12,
+	"width": 374,
+	"height": 131,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "money_AC", "parent": "root", "length": 100.33, "rotation": -91.13, "x": 342.5, "y": 649.8 },
+	{ "name": "AC_closed", "parent": "root", "x": 353.85, "y": 655.23 }
+],
+"slots": [
+	{ "name": "AC_opened", "bone": "money_AC", "attachment": "AC_opened" },
+	{ "name": "money_AC", "bone": "money_AC" },
+	{ "name": "AC_closed", "bone": "AC_closed", "attachment": "AC_closed" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"AC_closed": {
+				"AC_closed": { "x": -1.17, "y": -55.11, "width": 373, "height": 114 }
+			},
+			"AC_opened": {
+				"AC_opened": { "x": 58.48, "y": 10.84, "rotation": 91.13, "width": 374, "height": 130 }
+			},
+			"money_AC": {
+				"money_AC": { "x": 102.87, "y": 1.27, "rotation": 91.13, "width": 190, "height": 58 }
+			}
+		}
+	}
+],
+"animations": {
+	"act1": {
+		"bones": {
+			"AC_closed": {
+				"scale": [
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"slot 5_dieu hoa_close": {
+		"slots": {
+			"money_AC": {
+				"attachment": [
+					{ "name": "money_AC" }
+				]
+			}
+		},
+		"bones": {
+			"money_AC": {
+				"translate": [
+					{
+						"y": -26.75,
+						"curve": [ 0.067, 0, 0.133, 0, 0.067, -26.75, 0.133, -0.74 ]
+					},
+					{
+						"time": 0.2,
+						"y": -0.74,
+						"curve": [ 0.244, 0, 0.289, 0, 0.244, -0.74, 0.289, 0 ]
+					},
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.067, 1, 0.133, 0.941, 0.067, 1, 0.133, 1 ]
+					},
+					{
+						"time": 0.2,
+						"x": 0.941,
+						"curve": [ 0.244, 0.941, 0.289, 1, 0.244, 1, 0.289, 1 ]
+					},
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"slot 5_dieu hoa_open": {
+		"bones": {
+			"money_AC": {
+				"translate": [
+					{
+						"curve": [ 0.086, 0, 0.148, 0, 0.086, 0, 0.148, -28.81 ]
+					},
+					{
+						"time": 0.2333,
+						"y": -28.81,
+						"curve": [ 0.267, 0, 0.3, 0, 0.267, -28.81, 0.3, -26.75 ]
+					},
+					{ "time": 0.3333, "y": -26.75 }
+				]
+			}
+		}
+	},
+	"slot 5_dieu hoa_open_loop": {
+		"slots": {
+			"money_AC": {
+				"attachment": [
+					{ "name": "money_AC" }
+				]
+			}
+		},
+		"bones": {
+			"money_AC": {
+				"translate": [
+					{ "y": -26.75 }
+				]
+			},
+			"AC_closed": {
+				"scale": [
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	},
+	"slot 5_dieu hoa_open_loop_no money": {
+		"bones": {
+			"money_AC": {
+				"translate": [
+					{ "y": -26.75 }
+				]
+			},
+			"AC_closed": {
+				"scale": [
+					{ "time": 0.6667 }
+				]
+			}
+		}
+	}
+}
+}

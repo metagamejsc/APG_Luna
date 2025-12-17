@@ -1,0 +1,12 @@
+cua_tu_lanh.png
+size:560,268
+filter:Linear,Linear
+pma:true
+fridge_closed
+bounds:298,2,264,257
+offsets:0,8,264,266
+rotate:90
+fridge_opened2
+bounds:2,2,264,294
+offsets:0,2,264,296
+rotate:90

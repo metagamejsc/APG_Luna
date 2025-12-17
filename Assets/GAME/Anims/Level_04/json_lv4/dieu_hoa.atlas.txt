@@ -1,0 +1,15 @@
+dieu_hoa.png
+size:248,432
+filter:Linear,Linear
+pma:true
+AC_closed
+bounds:132,59,370,111
+offsets:1,2,373,114
+rotate:90
+AC_opened
+bounds:2,58,371,128
+offsets:1,1,374,130
+rotate:90
+money_AC
+bounds:2,2,182,54
+offsets:7,2,190,58
