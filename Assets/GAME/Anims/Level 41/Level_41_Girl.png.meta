@@ -1,0 +1,565 @@
+fileFormatVersion: 2
+guid: 55551ab0b7c24bd4b8e614ffabf48a50
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8129644389251344661
+    second: Level_41_Girl_0
+  - first:
+      213: -7797077613567716573
+    second: Level_41_Girl_1
+  - first:
+      213: -5620472333765565433
+    second: Level_41_Girl_2
+  - first:
+      213: -8025622632253393024
+    second: Level_41_Girl_3
+  - first:
+      213: 6002364282399787543
+    second: Level_41_Girl_4
+  - first:
+      213: 3168826688024951562
+    second: Level_41_Girl_5
+  - first:
+      213: -7315846596969783059
+    second: Level_41_Girl_6
+  - first:
+      213: 4796934424437272093
+    second: Level_41_Girl_7
+  - first:
+      213: 2669057272384016030
+    second: Level_41_Girl_8
+  - first:
+      213: 516213582174360555
+    second: Level_41_Girl_9
+  - first:
+      213: 4413940456566186043
+    second: Level_41_Girl_10
+  - first:
+      213: -7945485674501136981
+    second: Level_41_Girl_11
+  - first:
+      213: -3166994793247437528
+    second: Level_41_Girl_12
+  - first:
+      213: -2418429957138028451
+    second: Level_41_Girl_13
+  - first:
+      213: 5224023090399749329
+    second: Level_41_Girl_14
+  - first:
+      213: -5686429180843994509
+    second: Level_41_Girl_15
+  - first:
+      213: -5191817576440608550
+    second: Level_41_Girl_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 70
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level_41_Girl_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 485
+        width: 143
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519e293df7c42d070800000000000000
+      internalID: 8129644389251344661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 467
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323552d98373bc390800000000000000
+      internalID: -7797077613567716573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 506
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7042ef3e0321002b0800000000000000
+      internalID: -5620472333765565433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 447
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087733fccb24f9090800000000000000
+      internalID: -8025622632253393024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 241
+        width: 120
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a8ee0538eac4350800000000000000
+      internalID: 6002364282399787543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_5
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 376
+        width: 83
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b3186651fe9fb20800000000000000
+      internalID: 3168826688024951562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_6
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 240
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0ad54f744e87a90800000000000000
+      internalID: -7315846596969783059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_7
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 376
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e2d6b9172229240800000000000000
+      internalID: 4796934424437272093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_8
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 237
+        width: 36
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e4f9da2756a0520800000000000000
+      internalID: 2669057272384016030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_9
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 261
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be31cb99485f92700800000000000000
+      internalID: 516213582174360555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 237
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b306a5d8577714d30800000000000000
+      internalID: 4413940456566186043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 196
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad976340e6fbb190800000000000000
+      internalID: -7945485674501136981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 168
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d89f6d3039c04d0800000000000000
+      internalID: -3166994793247437528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_13
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 208
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58ef9274c2007ed0800000000000000
+      internalID: -2418429957138028451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_14
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 168
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d427b992557f7840800000000000000
+      internalID: 5224023090399749329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 97
+        width: 96
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372d06bb9ceb511b0800000000000000
+      internalID: -5686429180843994509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level_41_Girl_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 3
+        width: 95
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8c0a1fb65f2f7b0800000000000000
+      internalID: -5191817576440608550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Level_41_Girl_0: 8129644389251344661
+      Level_41_Girl_1: -7797077613567716573
+      Level_41_Girl_10: 4413940456566186043
+      Level_41_Girl_11: -7945485674501136981
+      Level_41_Girl_12: -3166994793247437528
+      Level_41_Girl_13: -2418429957138028451
+      Level_41_Girl_14: 5224023090399749329
+      Level_41_Girl_15: -5686429180843994509
+      Level_41_Girl_16: -5191817576440608550
+      Level_41_Girl_2: -5620472333765565433
+      Level_41_Girl_3: -8025622632253393024
+      Level_41_Girl_4: 6002364282399787543
+      Level_41_Girl_5: 3168826688024951562
+      Level_41_Girl_6: -7315846596969783059
+      Level_41_Girl_7: 4796934424437272093
+      Level_41_Girl_8: 2669057272384016030
+      Level_41_Girl_9: 516213582174360555
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

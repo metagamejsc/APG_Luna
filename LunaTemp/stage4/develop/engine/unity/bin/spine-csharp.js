@@ -9160,7 +9160,7 @@ var spine = (() => {
  * @version 4.1.0.0
  * @author Esoteric Software
  * @copyright Copyright © Esoteric Software 2013-2016
- * @compiler Bridge.NET 17.9.40-luna
+ * @compiler Bridge.NET 17.9.42-luna
  */
 Bridge.assembly("spine-csharp", function ($asm, globals) {
     "use strict";
@@ -11147,11 +11147,33 @@ if ( TRACE ) { TRACE( "Spine.Skeleton#FlipY#set", this ); }
             $ctor1: function (data) {
 if ( TRACE ) { TRACE( "Spine.Skeleton#$ctor1", this ); }
 
-                var $t;
+                var $t, $t1, $t2, $t3, $t4;
                 this.$initialize();
                 Bridge.apply(this, new spine.Skeleton( data ));
-                for (var i = 0; i < this.bones.length; i++) {
+                if (data != null) {
+                    data.__proto__ = Spine.SkeletonData.prototype;
+                }
+
+                if (this.skin != null) {
+                    this.skin.__proto__ = Spine.Skin.prototype;
+                }
+
+                var i;
+                for (i = 0; i < this.bones.length; i++) {
                     ($t = this.bones)[i].skeleton = this;
+                    ($t1 = this.bones)[i].__proto__ = Spine.Bone.prototype;
+                }
+
+                for (i = 0; i < this.slots.length; i++) {
+                    ($t2 = this.slots)[i].__proto__ = Spine.Slot.prototype;
+                }
+
+                for (i = 0; i < this.drawOrder.length; i++) {
+                    ($t3 = this.drawOrder)[i].__proto__ = Spine.Slot.prototype;
+                }
+
+                for (i = 0; i < this.transformConstraints.length; i++) {
+                    ($t4 = this.transformConstraints)[i].__proto__ = Spine.TransformConstraint.prototype;
                 }
             },
             ctor: function (skeleton) {
@@ -11295,28 +11317,6 @@ if ( TRACE ) { TRACE( "Spine.SkeletonClipping#ctor", this ); }
 if ( TRACE ) { TRACE( "Spine.SkeletonClipping#ClipTriangles", this ); }
 
                 this.clipTriangles(vertices, verticesLength, triangles, trianglesLength, uvs, Spine.UnityColor.white, Spine.UnityColor.white, false);
-
-                // var vertexBuffer = ClippedVerticesNative;
-                // // why stride 8?
-                // var stride = 8;
-                // stride = 2;
-                // var length = vertexBuffer.Length / stride * 2;
-                //
-                // ClippedUVs = new ExposedList<float>();
-                // var uv = ClippedUVs.Items;
-                // var vert = new float[ length ];
-                //
-                // for ( int i = 0; i < vertexBuffer.Length; i += stride ) {
-                //     var index = ( i / stride | 0 ) * 2;
-                //
-                //     vert[ index ] = vertexBuffer[ i ];
-                //     vert[ index + 1 ] = vertexBuffer[ i + 1 ];
-                //
-                //     uv[ index ] = vertexBuffer[ i + 6 ];
-                //     uv[ index + 1 ] = vertexBuffer[ i + 7 ];
-                // }
-                //
-                // ClippedVerticesNative = vert;
             },
             /*Spine.SkeletonClipping.ClipTriangles end.*/
 
@@ -11502,9 +11502,31 @@ if ( TRACE ) { TRACE( "Spine.SkeletonData#ctor", this ); }
             $ctor1: function (data) {
 if ( TRACE ) { TRACE( "Spine.SkeletonData#$ctor1", this ); }
 
+                var $t, $t1, $t2, $t3;
                 this.$initialize();
                 Bridge.apply(this, new spine.SkeletonData());
                 Bridge.apply( this, data );
+
+                if (this.defaultSkin != null) {
+                    this.defaultSkin.__proto__ = Spine.Skin.prototype;
+                }
+
+                var i;
+                for (i = 0; i < this.slots.length; i++) {
+                    ($t = this.slots)[i].__proto__ = Spine.SlotData.prototype;
+                }
+
+                for (i = 0; i < this.skins.length; i++) {
+                    ($t1 = this.skins)[i].__proto__ = Spine.Skin.prototype;
+                }
+
+                for (i = 0; i < this.animations.length; i++) {
+                    ($t2 = this.animations)[i].__proto__ = Spine.Animation.prototype;
+                }
+
+                for (i = 0; i < this.transformConstraints.length; i++) {
+                    ($t3 = this.transformConstraints)[i].__proto__ = Spine.TransformConstraintData.prototype;
+                }
             }
         },
         methods: {

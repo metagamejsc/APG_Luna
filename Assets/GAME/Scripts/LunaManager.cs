@@ -29,7 +29,6 @@ public class LunaManager : MonoBehaviour
     private float currentTime;
     private bool isRunning = true;
     //----------------------------------OTHER----------------------------
-    public bool isHead = false;
 
     //----------------------------------LUNA----------------------------
     public static LunaManager ins;
