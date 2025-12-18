@@ -33,6 +33,7 @@ public class DropZone : MonoBehaviour
     {
         print("DragLose called");
         LunaManager.ins.ShowEndCard();
+        LunaManager.ins.ShowLoseTitle();
     }
     void NextStep()
     {

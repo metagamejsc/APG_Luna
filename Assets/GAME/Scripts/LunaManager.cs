@@ -8,6 +8,7 @@ public class LunaManager : MonoBehaviour
     public GameObject StartCard;
     public GameObject EndCard;
     public GameObject Parent;
+    public GameObject LoseTitle;
     public GameObject[] tutorial;
     [Header("Progess")]
     [SerializeField] private TextMeshProUGUI textProgess;
@@ -78,7 +79,7 @@ public class LunaManager : MonoBehaviour
         }
         EndCard.SetActive(false);
         currentTime = timeDropFinal;
-
+        LoseTitle.SetActive(false);
     }
     // public void TurnOffHand()
     // {
@@ -92,6 +93,14 @@ public class LunaManager : MonoBehaviour
     {
         tutorial[0].SetActive(false);
         tutorial[1].SetActive(true);
+
+    }
+    public void ShowLoseTitle()
+    {
+        if (!LoseTitle.activeInHierarchy)
+        {
+            LoseTitle.SetActive(true);
+        }
 
     }
     public void OffStartCard()
