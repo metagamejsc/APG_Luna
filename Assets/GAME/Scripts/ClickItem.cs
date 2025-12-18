@@ -23,6 +23,7 @@ public class ClickItem : MonoBehaviour
     {
         currentStep++;
         NextStep();
+        LunaManager.ins.CheckTutorial();
     }
     void NextStep()
     {

@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class DropZone : MonoBehaviour
 {
     public int idDrop = 0;
+    public bool isLose = false;
     public GameObject[] steps;
 
 
@@ -19,10 +20,19 @@ public class DropZone : MonoBehaviour
     }
     public void DragItem()
     {
-
+        if (isLose)
+        {
+            // DragLose();\
+            Invoke(nameof(DragLose), 1f);
+        }
         currentStep++;
         NextStep();
         CheckDone();
+    }
+    void DragLose()
+    {
+        print("DragLose called");
+        LunaManager.ins.ShowEndCard();
     }
     void NextStep()
     {

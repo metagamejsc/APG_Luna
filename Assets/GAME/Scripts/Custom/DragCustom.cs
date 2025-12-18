@@ -26,7 +26,7 @@ public class DragCustom : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
     {
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
         rectTransform.position = worldPoint;
-        LunaManager.ins.OffStartCard();
+        //LunaManager.ins.OffStartCard();
         //rectTransform.position = Input.mousePosition;
     }
 

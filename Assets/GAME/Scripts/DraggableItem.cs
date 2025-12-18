@@ -28,7 +28,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     {
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
         rectTransform.position = worldPoint;
-        LunaManager.ins.OffStartCard();
+        //LunaManager.ins.OffStartCard();
         //rectTransform.position = Input.mousePosition;
     }
 
@@ -47,6 +47,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             hit.collider.gameObject.GetComponent<DropZone>().DragItem();
             if (isProcess)
             {
+                LunaManager.ins.OffStartCard();
                 LunaManager.ins.CountPlay();
             }
             Destroy(gameObject);

@@ -7,7 +7,8 @@ public class LunaManager : MonoBehaviour
     public Button[] lstBtnInstall;
     public GameObject StartCard;
     public GameObject EndCard;
-    //public GameObject hand;
+    public GameObject Parent;
+    public GameObject[] tutorial;
     [Header("Progess")]
     [SerializeField] private TextMeshProUGUI textProgess;
     [SerializeField] private Image imgProgess;
@@ -87,6 +88,12 @@ public class LunaManager : MonoBehaviour
     //     }
 
     // }
+    public void CheckTutorial()
+    {
+        tutorial[0].SetActive(false);
+        tutorial[1].SetActive(true);
+
+    }
     public void OffStartCard()
     {
         if (StartCard.activeInHierarchy)
