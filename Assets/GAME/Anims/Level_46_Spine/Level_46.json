@@ -1,0 +1,361 @@
+{ "skeleton": { "images": "C:/Users/PC/Desktop/BRAIN MASTER/ANIMATION/Level/Level_46/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG1", "bone": "root", "attachment": "BG1" },
+	{ "name": "screen_cursed", "bone": "root", "attachment": "screen_cursed" },
+	{ "name": "ringgirl1", "bone": "root", "attachment": "ringgirl1" },
+	{ "name": "ringgirl2", "bone": "root", "attachment": "ringgirl2" },
+	{ "name": "ringgirl3", "bone": "root", "attachment": "ringgirl3" },
+	{ "name": "dude_idle", "bone": "root", "attachment": "dude_idle" },
+	{ "name": "dude_shocked", "bone": "root", "attachment": "dude_shocked" },
+	{ "name": "shake_fx", "bone": "root", "attachment": "shake_fx" },
+	{ "name": "bubble", "bone": "root", "attachment": "bubble" },
+	{ "name": "TV", "bone": "root", "attachment": "TV" },
+	{ "name": "remote", "bone": "root", "attachment": "remote" },
+	{ "name": "remote_drag", "bone": "root", "attachment": "remote_drag" },
+	{ "name": "questionmark", "bone": "root", "attachment": "questionmark" },
+	{ "name": "BG_B", "bone": "root" },
+	{ "name": "BG_F", "bone": "root" },
+	{ "name": "lane_loop", "bone": "root" },
+	{ "name": "graas_lopp1", "bone": "root" },
+	{ "name": "graas_lopp2", "bone": "root" },
+	{ "name": "graas_lopp3", "bone": "root" },
+	{ "name": "seal", "bone": "root" },
+	{ "name": "car_B", "bone": "root" },
+	{ "name": "car_wheels", "bone": "root" },
+	{ "name": "wheels_fx", "bone": "root" },
+	{ "name": "dude_drive", "bone": "root" },
+	{ "name": "dude_focus", "bone": "root" },
+	{ "name": "dude_ugly", "bone": "root" },
+	{ "name": "dude_relief", "bone": "root" },
+	{ "name": "sign_fx", "bone": "root" },
+	{ "name": "steeringwheel", "bone": "root" },
+	{ "name": "dude_drive_arm_L", "bone": "root" },
+	{ "name": "dude_drive_arm_R", "bone": "root" },
+	{ "name": "rearview_mirror", "bone": "root" },
+	{ "name": "electric_sparks", "bone": "root" },
+	{ "name": "box", "bone": "root" },
+	{ "name": "holywater", "bone": "root" },
+	{ "name": "box_lid", "bone": "root" },
+	{ "name": "cross", "bone": "root" },
+	{ "name": "cloth", "bone": "root" },
+	{ "name": "cloth_anim", "bone": "root" },
+	{ "name": "car_F", "bone": "root" },
+	{ "name": "flashlight", "bone": "root" },
+	{ "name": "cat_sleep", "bone": "root" },
+	{ "name": "car_hood_closed", "bone": "root" },
+	{ "name": "car_hood_opened", "bone": "root" },
+	{ "name": "ghost_cling", "bone": "root" },
+	{ "name": "ghost_cling_arm", "bone": "root" },
+	{ "name": "ghost_haed", "bone": "root" },
+	{ "name": "ghost_flashlight_face", "bone": "root" },
+	{ "name": "ghost_vomit_face", "bone": "root" },
+	{ "name": "vomit", "bone": "root" },
+	{ "name": "highlight", "bone": "root" },
+	{ "name": "vomit_fx1", "bone": "root" },
+	{ "name": "vomit_fx2", "bone": "root" },
+	{ "name": "ghost_died_face", "bone": "root" },
+	{ "name": "seal_anim", "bone": "root" },
+	{ "name": "ghost_sock_face", "bone": "root" },
+	{ "name": "ghost_blocked_arm", "bone": "root" },
+	{ "name": "ghost_sock_arm", "bone": "root" },
+	{ "name": "ghost_scared", "bone": "root" },
+	{ "name": "alert_fx", "bone": "root" },
+	{ "name": "ghost_electrocuted1", "bone": "root" },
+	{ "name": "ghost_electrocuted2", "bone": "root" },
+	{ "name": "ghost_crawl_leg_L", "bone": "root", "attachment": "ghost_crawl_leg_L" },
+	{ "name": "ghost_crawl_leg_R", "bone": "root", "attachment": "ghost_crawl_leg_R" },
+	{ "name": "ghost_crawl_elbow_R", "bone": "root", "attachment": "ghost_crawl_elbow_R" },
+	{ "name": "ghost_crawl_body", "bone": "root", "attachment": "ghost_crawl_body" },
+	{ "name": "ghost_crawl_elbow_L", "bone": "root", "attachment": "ghost_crawl_elbow_L" },
+	{ "name": "ghost_crawl_arm_L", "bone": "root", "attachment": "ghost_crawl_arm_L" },
+	{ "name": "ghost_crawl_arm_R", "bone": "root", "attachment": "ghost_crawl_arm_R" },
+	{ "name": "ghost_crawl_haed", "bone": "root", "attachment": "ghost_crawl_haed" },
+	{ "name": "ghost_jump_fx", "bone": "root", "attachment": "ghost_jump_fx" },
+	{ "name": "rocket", "bone": "root" },
+	{ "name": "ghost_felt", "bone": "root" },
+	{ "name": "cat_pissed", "bone": "root" },
+	{ "name": "scream_fx", "bone": "root" },
+	{ "name": "flashlight_anim", "bone": "root" },
+	{ "name": "light_fx", "bone": "root" },
+	{ "name": "holywater_anim", "bone": "root" },
+	{ "name": "water_fx", "bone": "root" },
+	{ "name": "smoke_fx", "bone": "root" },
+	{ "name": "sock_anim", "bone": "root" },
+	{ "name": "smelly_fx", "bone": "root" },
+	{ "name": "sock", "bone": "root" },
+	{ "name": "halo_fx", "bone": "root" },
+	{ "name": "cross_anim", "bone": "root" },
+	{ "name": "FireExport", "bone": "root" },
+	{ "name": "rocket_anim", "bone": "root" }
+],
+"skins": {
+	"default": {
+		"BG1": {
+			"BG1": { "x": 540, "y": -924, "width": 1082, "height": 1258 }
+		},
+		"screen_cursed": {
+			"screen_cursed": { "x": 555, "y": -730.5, "width": 310, "height": 171 }
+		},
+		"ringgirl1": {
+			"ringgirl1": { "x": 497.5, "y": -714.5, "width": 83, "height": 159 }
+		},
+		"ringgirl2": {
+			"ringgirl2": { "x": 629, "y": -732.5, "width": 94, "height": 195 }
+		},
+		"ringgirl3": {
+			"ringgirl3": { "x": 543, "y": -801, "width": 364, "height": 284 }
+		},
+		"dude_idle": {
+			"dude_idle": { "x": 925.5, "y": -1130.5, "width": 243, "height": 801 }
+		},
+		"dude_shocked": {
+			"dude_shocked": { "x": 921.5, "y": -810, "width": 75, "height": 92 }
+		},
+		"shake_fx": {
+			"shake_fx": { "x": 910, "y": -1022, "width": 216, "height": 544 }
+		},
+		"bubble": {
+			"bubble": { "x": 664, "y": -561, "width": 396, "height": 418 }
+		},
+		"TV": {
+			"TV": { "x": 641, "y": -537, "width": 212, "height": 154 }
+		},
+		"remote": {
+			"remote": { "x": 366.5, "y": -1359.5, "width": 75, "height": 133 }
+		},
+		"remote_drag": {
+			"remote_drag": { "x": 307.5, "y": -430.5, "width": 73, "height": 227 }
+		},
+		"questionmark": {
+			"questionmark": { "x": 955, "y": -682.5, "width": 44, "height": 71 }
+		},
+		"BG_B": {
+			"BG_B": { "x": 540, "y": -445, "width": 1082, "height": 300 }
+		},
+		"BG_F": {
+			"BG_F": { "x": 540, "y": -1069.5, "width": 1082, "height": 967 }
+		},
+		"lane_loop": {
+			"lane_loop": { "x": 545, "y": -930.5, "width": 74, "height": 1759 }
+		},
+		"graas_lopp1": {
+			"graas_lopp1": { "x": 869, "y": -643.5, "width": 178, "height": 57 }
+		},
+		"graas_lopp2": {
+			"graas_lopp2": { "x": 1032.5, "y": -676.5, "width": 77, "height": 13 }
+		},
+		"graas_lopp3": {
+			"graas_lopp3": { "x": 984, "y": -764, "width": 114, "height": 20 }
+		},
+		"seal": {
+			"seal": { "x": 200, "y": -530, "width": 36, "height": 74 }
+		},
+		"car_B": {
+			"car_B": { "x": 544, "y": -906, "width": 652, "height": 300 }
+		},
+		"car_wheels": {
+			"car_wheels": { "x": 544.5, "y": -1371.5, "width": 869, "height": 291 }
+		},
+		"wheels_fx": {
+			"wheels_fx": { "x": 167, "y": -1246, "width": 98, "height": 510 }
+		},
+		"dude_drive": {
+			"dude_drive": { "x": 391.5, "y": -948, "width": 219, "height": 324 }
+		},
+		"dude_focus": {
+			"dude_focus": { "x": 382.5, "y": -854.5, "width": 57, "height": 79 }
+		},
+		"dude_ugly": {
+			"dude_ugly": { "x": 383, "y": -855, "width": 56, "height": 80 }
+		},
+		"dude_relief": {
+			"dude_relief": { "x": 383.5, "y": -854.5, "width": 57, "height": 79 }
+		},
+		"sign_fx": {
+			"sign_fx": { "x": 367.5, "y": -909, "width": 33, "height": 32 }
+		},
+		"steeringwheel": {
+			"steeringwheel": { "x": 390, "y": -1047.5, "width": 156, "height": 157 }
+		},
+		"dude_drive_arm_L": {
+			"dude_drive_arm_L": { "x": 459, "y": -1015, "width": 66, "height": 44 }
+		},
+		"dude_drive_arm_R": {
+			"dude_drive_arm_R": { "x": 320, "y": -1019.5, "width": 66, "height": 45 }
+		},
+		"rearview_mirror": {
+			"rearview_mirror": { "x": 155.5, "y": -1003, "width": 111, "height": 80 }
+		},
+		"electric_sparks": {
+			"electric_sparks": { "x": 160, "y": -1000, "width": 128, "height": 104 }
+		},
+		"box": {
+			"box": { "x": 698.5, "y": -1019, "width": 175, "height": 142 }
+		},
+		"holywater": {
+			"holywater": { "x": 706.5, "y": -966, "width": 107, "height": 46 }
+		},
+		"box_lid": {
+			"box_lid": { "x": 699, "y": -968.5, "width": 178, "height": 71 }
+		},
+		"cross": {
+			"cross": { "x": 529.5, "y": -851.5, "width": 85, "height": 99 }
+		},
+		"cloth": {
+			"cloth": { "x": 797.5, "y": -841.5, "width": 79, "height": 171 }
+		},
+		"cloth_anim": {
+			"cloth_anim": { "x": 393.5, "y": -858, "width": 149, "height": 190 }
+		},
+		"car_F": {
+			"car_F": { "x": 545, "y": -1048, "width": 860, "height": 778 }
+		},
+		"flashlight": {
+			"flashlight": { "x": 544, "y": -1044.5, "width": 122, "height": 57 }
+		},
+		"cat_sleep": {
+			"cat_sleep": { "x": 629.5, "y": -1164.5, "width": 191, "height": 103 }
+		},
+		"car_hood_closed": {
+			"car_hood_closed": { "x": 544, "y": -1143, "width": 738, "height": 172 }
+		},
+		"car_hood_opened": {
+			"car_hood_opened": { "x": 543.5, "y": -1096, "width": 777, "height": 78 }
+		},
+		"ghost_cling": {
+			"ghost_cling": { "x": 513.5, "y": -638, "width": 425, "height": 244 }
+		},
+		"ghost_cling_arm": {
+			"ghost_cling_arm": { "x": 721.5, "y": -673.5, "width": 61, "height": 185 }
+		},
+		"ghost_haed": {
+			"ghost_haed": { "x": 543.5, "y": -685.5, "width": 149, "height": 199 }
+		},
+		"ghost_flashlight_face": {
+			"ghost_flashlight_face": { "x": 530, "y": -693, "width": 60, "height": 74 }
+		},
+		"ghost_vomit_face": {
+			"ghost_vomit_face": { "x": 530, "y": -693, "width": 60, "height": 74 }
+		},
+		"vomit": {
+			"vomit": { "x": 538.5, "y": -744, "width": 47, "height": 82 }
+		},
+		"highlight": {
+			"highlight": { "x": 531.5, "y": -746, "width": 5, "height": 30 }
+		},
+		"vomit_fx1": {
+			"vomit_fx1": { "x": 537.5, "y": -775, "width": 99, "height": 38 }
+		},
+		"vomit_fx2": {
+			"vomit_fx2": { "x": 533, "y": -773, "width": 110, "height": 54 }
+		},
+		"ghost_died_face": {
+			"ghost_died_face": { "x": 530, "y": -693, "width": 60, "height": 74 }
+		},
+		"seal_anim": {
+			"seal_anim": { "x": 540.5, "y": -661, "width": 69, "height": 82 }
+		},
+		"ghost_sock_face": {
+			"ghost_sock_face": { "x": 530, "y": -693, "width": 60, "height": 74 }
+		},
+		"ghost_blocked_arm": {
+			"ghost_blocked_arm": { "x": 658, "y": -605, "width": 172, "height": 88 }
+		},
+		"ghost_sock_arm": {
+			"ghost_sock_arm": { "x": 618, "y": -656.5, "width": 202, "height": 137 }
+		},
+		"ghost_scared": {
+			"ghost_scared": { "x": 523, "y": -699.5, "width": 70, "height": 73 }
+		},
+		"alert_fx": {
+			"alert_fx": { "x": 566.5, "y": -587.5, "width": 55, "height": 47 }
+		},
+		"ghost_electrocuted1": {
+			"ghost_electrocuted1": { "x": 532.5, "y": -653, "width": 603, "height": 378 }
+		},
+		"ghost_electrocuted2": {
+			"ghost_electrocuted2": { "x": 532.5, "y": -653, "width": 603, "height": 378 }
+		},
+		"ghost_crawl_leg_L": {
+			"ghost_crawl_leg_L": { "x": 866.5, "y": -660.5, "width": 83, "height": 47 }
+		},
+		"ghost_crawl_leg_R": {
+			"ghost_crawl_leg_R": { "x": 983, "y": -641.5, "width": 86, "height": 43 }
+		},
+		"ghost_crawl_elbow_R": {
+			"ghost_crawl_elbow_R": { "x": 989, "y": -669.5, "width": 76, "height": 47 }
+		},
+		"ghost_crawl_body": {
+			"ghost_crawl_body": { "x": 925.5, "y": -652.5, "width": 113, "height": 103 }
+		},
+		"ghost_crawl_elbow_L": {
+			"ghost_crawl_elbow_L": { "x": 886, "y": -666.5, "width": 58, "height": 47 }
+		},
+		"ghost_crawl_arm_L": {
+			"ghost_crawl_arm_L": { "x": 882, "y": -694, "width": 52, "height": 44 }
+		},
+		"ghost_crawl_arm_R": {
+			"ghost_crawl_arm_R": { "x": 1025, "y": -683.5, "width": 32, "height": 71 }
+		},
+		"ghost_crawl_haed": {
+			"ghost_crawl_haed": { "x": 946, "y": -669, "width": 72, "height": 98 }
+		},
+		"ghost_jump_fx": {
+			"ghost_jump_fx": { "x": 850.5, "y": -708, "width": 259, "height": 186 }
+		},
+		"rocket": {
+			"rocket": { "x": 942.5, "y": -459.5, "width": 127, "height": 233 }
+		},
+		"ghost_felt": {
+			"ghost_felt": { "x": 944.5, "y": -715.5, "width": 189, "height": 267 }
+		},
+		"cat_pissed": {
+			"cat_pissed": { "x": 347, "y": -713, "width": 140, "height": 166 }
+		},
+		"scream_fx": {
+			"scream_fx": { "x": 437.5, "y": -640, "width": 101, "height": 146 }
+		},
+		"flashlight_anim": {
+			"flashlight_anim": { "x": 836, "y": -517.5, "width": 128, "height": 97 }
+		},
+		"light_fx": {
+			"light_fx": { "x": 654.5, "y": -643.5, "width": 293, "height": 227 }
+		},
+		"holywater_anim": {
+			"holywater_anim": { "x": 730.5, "y": -452.5, "width": 127, "height": 111 }
+		},
+		"water_fx": {
+			"water_fx": { "x": 643.5, "y": -540.5, "width": 55, "height": 81 }
+		},
+		"smoke_fx": {
+			"smoke_fx": { "x": 563, "y": -597.5, "width": 128, "height": 127 }
+		},
+		"sock_anim": {
+			"sock_anim": { "x": 677, "y": -599.5, "width": 74, "height": 127 }
+		},
+		"smelly_fx": {
+			"smelly_fx": { "x": 644, "y": -517.5, "width": 76, "height": 77 }
+		},
+		"sock": {
+			"sock": { "x": 923.5, "y": -1004.5, "width": 69, "height": 83 }
+		},
+		"halo_fx": {
+			"halo_fx": { "x": 672, "y": -485.5, "width": 400, "height": 453 }
+		},
+		"cross_anim": {
+			"cross_anim": { "x": 664, "y": -501, "width": 110, "height": 148 }
+		},
+		"FireExport": {
+			"FireExport": { "x": -93.5, "y": -621, "width": 619, "height": 330 }
+		},
+		"rocket_anim": {
+			"rocket_anim": { "x": 257, "y": -649, "width": 486, "height": 252 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

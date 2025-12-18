@@ -1,0 +1,7 @@
+Khan.png
+size:64,132
+filter:Linear,Linear
+pma:true
+scale:0.75
+cloth
+bounds:2,2,59,128

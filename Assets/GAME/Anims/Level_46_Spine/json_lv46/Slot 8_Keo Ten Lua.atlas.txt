@@ -1,0 +1,11 @@
+Slot 8_Keo Ten Lua.png
+size:456,436
+filter:Linear,Linear
+pma:true
+scale:0.75
+FireExport
+bounds:2,192,452,241
+offsets:4,4,464,248
+rocket_anim
+bounds:2,2,365,188
+offsets:0,0,365,189

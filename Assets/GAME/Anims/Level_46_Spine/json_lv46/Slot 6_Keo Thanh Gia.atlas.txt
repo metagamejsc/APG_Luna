@@ -1,0 +1,11 @@
+Slot 6_Keo Thanh Gia.png
+size:424,324
+filter:Linear,Linear
+pma:true
+scale:0.75
+cross_anim
+bounds:337,208,83,111
+halo_fx
+bounds:2,2,317,333
+offsets:0,2,317,338
+rotate:90

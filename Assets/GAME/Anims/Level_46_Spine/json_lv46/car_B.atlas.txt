@@ -1,0 +1,7 @@
+car_B.png
+size:252,120
+filter:Linear,Linear
+pma:true
+scale:0.75
+car_B
+bounds:2,2,245,113

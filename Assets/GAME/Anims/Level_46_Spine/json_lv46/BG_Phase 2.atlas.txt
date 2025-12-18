@@ -1,0 +1,11 @@
+BG_Phase 2.png
+size:484,412
+filter:Linear,Linear
+pma:true
+scale:0.75
+BG_B
+bounds:367,2,406,113
+rotate:90
+BG_F
+bounds:2,2,406,363
+rotate:90

@@ -1,0 +1,8 @@
+Thanh Gia.png
+size:68,80
+filter:Linear,Linear
+pma:true
+scale:0.75
+cross
+bounds:2,2,63,73
+offsets:1,0,64,74

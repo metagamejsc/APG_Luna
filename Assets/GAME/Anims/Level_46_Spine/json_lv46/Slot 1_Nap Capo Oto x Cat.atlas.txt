@@ -1,0 +1,20 @@
+Slot 1_Nap Capo Oto x Cat.png
+size:796,196
+filter:Linear,Linear
+pma:true
+scale:0.75
+car_hood_closed
+bounds:2,63,554,129
+car_hood_opened
+bounds:2,2,582,59
+offsets:1,0,583,59
+cat_pissed
+bounds:558,87,105,125
+rotate:90
+cat_sleep
+bounds:586,9,141,76
+offsets:1,1,143,77
+scream_fx
+bounds:685,116,76,109
+offsets:0,1,76,110
+rotate:90

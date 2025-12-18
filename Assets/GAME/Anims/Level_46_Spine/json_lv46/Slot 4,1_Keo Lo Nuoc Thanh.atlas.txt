@@ -1,0 +1,16 @@
+Slot 4,1_Keo Lo Nuoc Thanh.png
+size:224,100
+filter:Linear,Linear
+pma:true
+scale:0.75
+holywater_anim
+bounds:96,2,94,82
+offsets:0,0,95,83
+rotate:90
+smoke_fx
+bounds:2,2,94,92
+offsets:1,1,96,95
+rotate:90
+water_fx
+bounds:180,36,40,60
+offsets:0,0,41,61

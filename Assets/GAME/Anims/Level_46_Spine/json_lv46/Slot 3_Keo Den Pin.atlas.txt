@@ -1,0 +1,11 @@
+Slot 3_Keo Den Pin.png
+size:280,160
+filter:Linear,Linear
+pma:true
+scale:0.75
+flashlight_anim
+bounds:203,62,96,73
+rotate:90
+light_fx
+bounds:2,2,199,156
+offsets:21,13,220,170

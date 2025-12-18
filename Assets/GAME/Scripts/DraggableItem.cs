@@ -20,12 +20,14 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if (!GetIsDrag()) return;
         canvasGroup.alpha = 0.6f;
         canvasGroup.blocksRaycasts = false;
         transform.SetParent(LunaManager.ins.Parent.transform);
     }
     public void OnDrag(PointerEventData eventData)
     {
+        if (!GetIsDrag()) return;
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
         rectTransform.position = worldPoint;
         //LunaManager.ins.OffStartCard();
@@ -34,29 +36,37 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        if (!GetIsDrag()) return;
         transform.SetParent(originParent.transform);
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
 
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
-        RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(worldPoint, Vector2.zero);
 
-
-        if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop)
+        foreach (var hit in hits)
         {
-            hit.collider.gameObject.GetComponent<DropZone>().DragItem();
-            if (isProcess)
+            if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop)
             {
-                LunaManager.ins.OffStartCard();
-                LunaManager.ins.CountPlay();
+                hit.collider.gameObject.GetComponent<DropZone>().DragItem();
+                LunaManager.ins.SetIsDrag(false);
+                LunaManager.ins.DelaySetDrag();
+                if (isProcess)
+                {
+                    LunaManager.ins.OffStartCard();
+                    LunaManager.ins.CountPlay();
+                }
+                Destroy(gameObject);
+                return;
             }
-            Destroy(gameObject);
-        }
-        else
-        {
-            rectTransform.anchoredPosition = originalPosition;
-
         }
 
+        rectTransform.anchoredPosition = originalPosition;
+
+    }
+
+    bool GetIsDrag()
+    {
+        return LunaManager.ins.isDrag;
     }
 }

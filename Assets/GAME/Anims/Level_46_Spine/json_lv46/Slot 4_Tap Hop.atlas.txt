@@ -1,0 +1,16 @@
+Slot 4_Tap Hop.png
+size:204,140
+filter:Linear,Linear
+pma:true
+scale:0.75
+box
+bounds:2,5,131,107
+rotate:90
+box_lid
+bounds:111,2,134,52
+offsets:0,1,134,53
+rotate:90
+holywater
+bounds:165,58,78,35
+offsets:1,0,80,35
+rotate:90

@@ -2,7 +2,7 @@
     "version": "6.4.0",
     "projectId": "cc2b1186a2056e546bb13add5b988034",
     "applicationID": 34530,
-    "creativeName": "BM_V07_ManhND_AnhPD",
+    "creativeName": "BM_V08_ManhND_AnhPD",
     "pgServer": "EU",
     "window": {
         "‐′": true
@@ -182,6 +182,21 @@
                 "name": "reflection",
                 "excluded": false,
                 "forceIncluded": true
+            },
+            {
+                "name": "physics3d",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "prefabs",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "mecanim-wasm",
+                "excluded": false,
+                "forceIncluded": false
             }
         ],
         "disableRuntimeAnalysisForCode": true,
@@ -8772,6 +8787,16 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+                    },
+                    {
+                        "maxWidth": 2048,
+                        "maxHeight": 2048,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Anims/Level_46_Spine/json_lv46/Phase 1.png"
                     }
                 ]
             },

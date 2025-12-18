@@ -1,0 +1,7 @@
+Den Pin.png
+size:96,48
+filter:Linear,Linear
+pma:true
+scale:0.75
+flashlight
+bounds:2,2,92,43
