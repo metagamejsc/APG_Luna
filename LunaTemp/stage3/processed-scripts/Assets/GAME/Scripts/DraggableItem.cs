@@ -53,8 +53,8 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
                 LunaManager.ins.DelaySetDrag();
                 if (isProcess)
                 {
-                    LunaManager.ins.OffStartCard();
                     LunaManager.ins.CountPlay();
+                    LunaManager.ins.CheckTutorial();
                 }
                 Destroy(gameObject);
                 return;

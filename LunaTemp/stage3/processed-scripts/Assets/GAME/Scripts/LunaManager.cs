@@ -95,8 +95,16 @@ public class LunaManager : MonoBehaviour
     // }
     public void CheckTutorial()
     {
-        tutorial[0].SetActive(false);
-        tutorial[1].SetActive(true);
+        if (countPlay == 1)
+        {
+            tutorial[0].SetActive(false);
+            tutorial[1].SetActive(true);
+        }
+        else
+        {
+            OffStartCard();
+        }
+
 
     }
     public void ShowLoseTitle()
@@ -112,6 +120,10 @@ public class LunaManager : MonoBehaviour
         if (StartCard.activeInHierarchy)
         {
             StartCard.SetActive(false);
+            foreach (var i in tutorial)
+            {
+                i.SetActive(false);
+            }
         }
 
     }
