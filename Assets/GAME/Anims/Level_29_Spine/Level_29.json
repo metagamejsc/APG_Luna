@@ -1,0 +1,181 @@
+{ "skeleton": { "images": "C:/Users/PC/Desktop/BRAIN MASTER/ANIMATION/Level/Level_29/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG_old", "bone": "root", "attachment": "BG_old" },
+	{ "name": "BG_new", "bone": "root", "attachment": "BG_new" },
+	{ "name": "bike", "bone": "root", "attachment": "bike" },
+	{ "name": "car", "bone": "root", "attachment": "car" },
+	{ "name": "girl_ clean", "bone": "root", "attachment": "girl_ clean" },
+	{ "name": "window_old", "bone": "root", "attachment": "window_old" },
+	{ "name": "window_new", "bone": "root", "attachment": "window_new" },
+	{ "name": "wall", "bone": "root", "attachment": "wall" },
+	{ "name": "basin_old", "bone": "root", "attachment": "basin_old" },
+	{ "name": "bathtub_new", "bone": "root", "attachment": "bathtub_new" },
+	{ "name": "steam1", "bone": "root", "attachment": "steam1" },
+	{ "name": "steam2", "bone": "root", "attachment": "steam2" },
+	{ "name": "door_new_opened", "bone": "root", "attachment": "door_new_opened" },
+	{ "name": "door_new_closed", "bone": "root", "attachment": "door_new_closed" },
+	{ "name": "door_old_closed", "bone": "root", "attachment": "door_old_closed" },
+	{ "name": "dude", "bone": "root", "attachment": "dude" },
+	{ "name": "dude_love", "bone": "root", "attachment": "dude_love" },
+	{ "name": "dude_mouth", "bone": "root", "attachment": "dude_mouth" },
+	{ "name": "dude _laugh", "bone": "root", "attachment": "dude _laugh" },
+	{ "name": "laugh_fx", "bone": "root", "attachment": "laugh_fx" },
+	{ "name": "shiba_old", "bone": "root", "attachment": "shiba_old" },
+	{ "name": "shiba_dance_body", "bone": "root", "attachment": "shiba_dance_body" },
+	{ "name": "shiba_dance_leg1", "bone": "root", "attachment": "shiba_dance_leg1" },
+	{ "name": "shiba_dance_leg2", "bone": "root", "attachment": "shiba_dance_leg2" },
+	{ "name": "shiba_dance_arm1", "bone": "root", "attachment": "shiba_dance_arm1" },
+	{ "name": "shiba_dance_upperarm", "bone": "root", "attachment": "shiba_dance_upperarm" },
+	{ "name": "shiba_dance_forearm", "bone": "root", "attachment": "shiba_dance_forearm" },
+	{ "name": "shiba_dance_head", "bone": "root", "attachment": "shiba_dance_head" },
+	{ "name": "money_sign_glasses", "bone": "root", "attachment": "money_sign_glasses" },
+	{ "name": "gold_chain", "bone": "root", "attachment": "gold_chain" },
+	{ "name": "chair_old", "bone": "root", "attachment": "chair_old" },
+	{ "name": "makeup_station_new", "bone": "root", "attachment": "makeup_station_new" },
+	{ "name": "girl_skinny", "bone": "root", "attachment": "girl_skinny" },
+	{ "name": "stomach_fx", "bone": "root", "attachment": "stomach_fx" },
+	{ "name": "shaking_fx", "bone": "root", "attachment": "shaking_fx" },
+	{ "name": "girl_feeded", "bone": "root", "attachment": "girl_feeded" },
+	{ "name": "girl_ outfit", "bone": "root", "attachment": "girl_ outfit" },
+	{ "name": "table_old", "bone": "root", "attachment": "table_old" },
+	{ "name": "table_new", "bone": "root", "attachment": "table_new" },
+	{ "name": "food_new", "bone": "root", "attachment": "food_new" },
+	{ "name": "cassette_old", "bone": "root", "attachment": "cassette_old" },
+	{ "name": "TV_new", "bone": "root", "attachment": "TV_new" }
+],
+"skins": {
+	"default": {
+		"BG_old": {
+			"BG_old": { "x": 540.5, "y": -926, "width": 1085, "height": 1262 }
+		},
+		"BG_new": {
+			"BG_new": { "x": 540.5, "y": -926, "width": 1085, "height": 1262 }
+		},
+		"bike": {
+			"bike": { "x": 605, "y": -618.5, "width": 190, "height": 119 }
+		},
+		"car": {
+			"car": { "x": 612, "y": -651.5, "width": 212, "height": 117 }
+		},
+		"girl_ clean": {
+			"girl_ clean": { "x": 761, "y": -967, "width": 270, "height": 680 }
+		},
+		"window_old": {
+			"window_old": { "x": 638.5, "y": -586.5, "width": 321, "height": 355 }
+		},
+		"window_new": {
+			"window_new": { "x": 641.5, "y": -588, "width": 403, "height": 344 }
+		},
+		"wall": {
+			"wall": { "x": 356, "y": -883, "width": 172, "height": 1364 }
+		},
+		"basin_old": {
+			"basin_old": { "x": 939.5, "y": -839.5, "width": 163, "height": 103 }
+		},
+		"bathtub_new": {
+			"bathtub_new": { "x": 943, "y": -802.5, "width": 168, "height": 179 }
+		},
+		"steam1": {
+			"steam1": { "x": 903.5, "y": -785, "width": 61, "height": 68 }
+		},
+		"steam2": {
+			"steam2": { "x": 933.5, "y": -741.5, "width": 45, "height": 45 }
+		},
+		"door_new_opened": {
+			"door_new_opened": { "x": 140, "y": -732.5, "width": 296, "height": 615 }
+		},
+		"door_new_closed": {
+			"door_new_closed": { "x": 327, "y": -961.5, "width": 100, "height": 1077 }
+		},
+		"door_old_closed": {
+			"door_old_closed": { "x": 327, "y": -962, "width": 104, "height": 1082 }
+		},
+		"dude": {
+			"dude": { "x": 174.5, "y": -983.5, "width": 309, "height": 783 }
+		},
+		"dude_love": {
+			"dude_love": { "x": 169, "y": -672.5, "width": 44, "height": 73 }
+		},
+		"dude_mouth": {
+			"dude_mouth": { "x": 216, "y": -671.5, "width": 120, "height": 43 }
+		},
+		"dude _laugh": {
+			"dude _laugh": { "x": 185, "y": -980.5, "width": 330, "height": 789 }
+		},
+		"laugh_fx": {
+			"laugh_fx": { "x": 202.5, "y": -586.5, "width": 59, "height": 55 }
+		},
+		"shiba_old": {
+			"shiba_old": { "x": 568.5, "y": -998, "width": 173, "height": 168 }
+		},
+		"shiba_dance_body": {
+			"shiba_dance_body": { "x": 556.5, "y": -995.5, "width": 91, "height": 119 }
+		},
+		"shiba_dance_leg1": {
+			"shiba_dance_leg1": { "x": 528.5, "y": -1053.5, "width": 21, "height": 57 }
+		},
+		"shiba_dance_leg2": {
+			"shiba_dance_leg2": { "x": 582.5, "y": -1054.5, "width": 21, "height": 57 }
+		},
+		"shiba_dance_arm1": {
+			"shiba_dance_arm1": { "x": 612.5, "y": -972.5, "width": 55, "height": 19 }
+		},
+		"shiba_dance_upperarm": {
+			"shiba_dance_upperarm": { "x": 512, "y": -974.5, "width": 34, "height": 17 }
+		},
+		"shiba_dance_forearm": {
+			"shiba_dance_forearm": { "x": 493, "y": -965.5, "width": 30, "height": 31 }
+		},
+		"shiba_dance_head": {
+			"shiba_dance_head": { "x": 556.5, "y": -931.5, "width": 101, "height": 91 }
+		},
+		"money_sign_glasses": {
+			"money_sign_glasses": { "x": 548, "y": -928, "width": 96, "height": 42 }
+		},
+		"gold_chain": {
+			"gold_chain": { "x": 555.5, "y": -994.5, "width": 87, "height": 67 }
+		},
+		"chair_old": {
+			"chair_old": { "x": 977.5, "y": -1161, "width": 157, "height": 256 }
+		},
+		"makeup_station_new": {
+			"makeup_station_new": { "x": 943.5, "y": -1046, "width": 341, "height": 458 }
+		},
+		"girl_skinny": {
+			"girl_skinny": { "x": 761, "y": -967, "width": 270, "height": 680 }
+		},
+		"stomach_fx": {
+			"stomach_fx": { "x": 805.5, "y": -915, "width": 69, "height": 88 }
+		},
+		"shaking_fx": {
+			"shaking_fx": { "x": 755.5, "y": -938, "width": 217, "height": 576 }
+		},
+		"girl_feeded": {
+			"girl_feeded": { "x": 761, "y": -967, "width": 270, "height": 680 }
+		},
+		"girl_ outfit": {
+			"girl_ outfit": { "x": 772, "y": -976, "width": 226, "height": 694 }
+		},
+		"table_old": {
+			"table_old": { "x": 625, "y": -1488, "width": 348, "height": 276 }
+		},
+		"table_new": {
+			"table_new": { "x": 631.5, "y": -1448.5, "width": 371, "height": 219 }
+		},
+		"food_new": {
+			"food_new": { "x": 632, "y": -1359.5, "width": 174, "height": 123 }
+		},
+		"cassette_old": {
+			"cassette_old": { "x": 965, "y": -1466, "width": 194, "height": 144 }
+		},
+		"TV_new": {
+			"TV_new": { "x": 946, "y": -1461, "width": 256, "height": 182 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

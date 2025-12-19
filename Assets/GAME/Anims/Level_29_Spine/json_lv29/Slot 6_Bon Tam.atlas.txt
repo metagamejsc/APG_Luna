@@ -1,0 +1,19 @@
+Slot 6_Bon Tam.png
+size:344,172
+filter:Linear,Linear
+pma:true
+basin_old
+bounds:181,7,161,101
+offsets:1,1,163,103
+rotate:90
+bathtub_new
+bounds:2,2,166,177
+offsets:1,1,168,179
+rotate:90
+steam1
+bounds:284,105,56,63
+offsets:2,3,61,68
+steam2
+bounds:284,61,42,38
+offsets:1,4,45,45
+rotate:90

@@ -1,0 +1,21 @@
+Slot 8_House Door.png
+size:1980,380
+filter:Linear,Linear
+pma:true
+door_new_closed
+bounds:2,2,98,1074
+offsets:1,2,100,1077
+rotate:90
+door_new_opened
+bounds:1365,83,294,611
+offsets:1,2,296,615
+rotate:90
+door_old_closed
+bounds:2,102,104,1082
+rotate:90
+tim
+bounds:1086,72,154,134
+wall
+bounds:2,208,169,1361
+offsets:1,2,172,1364
+rotate:90

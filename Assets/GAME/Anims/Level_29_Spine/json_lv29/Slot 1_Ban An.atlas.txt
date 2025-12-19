@@ -1,0 +1,14 @@
+Slot 1_Ban An.png
+size:376,192
+filter:Linear,Linear
+pma:true
+food_new
+bounds:142,16,172,120
+offsets:1,2,174,123
+rotate:90
+table_new
+bounds:264,2,186,110
+rotate:90
+table_old
+bounds:2,14,174,138
+rotate:90

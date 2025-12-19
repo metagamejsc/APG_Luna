@@ -1,0 +1,9 @@
+Slot 7_Window.png
+size:372,180
+filter:Linear,Linear
+pma:true
+window_new
+bounds:2,4,202,172
+window_old
+bounds:206,2,161,174
+offsets:0,1,161,178

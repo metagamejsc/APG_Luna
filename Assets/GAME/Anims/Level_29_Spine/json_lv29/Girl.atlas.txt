@@ -1,0 +1,23 @@
+Girl.png
+size:1600,580
+filter:Linear,Linear
+pma:true
+girl_ clean
+bounds:2,306,270,680
+rotate:90
+girl_ outfit
+bounds:684,80,226,694
+rotate:90
+girl_feeded
+bounds:2,36,268,678
+rotate:90
+girl_skinny
+bounds:684,308,268,678
+rotate:90
+shaking_fx
+bounds:1380,2,215,574
+offsets:1,1,217,576
+stomach_fx
+bounds:682,11,67,86
+offsets:1,1,69,88
+rotate:90

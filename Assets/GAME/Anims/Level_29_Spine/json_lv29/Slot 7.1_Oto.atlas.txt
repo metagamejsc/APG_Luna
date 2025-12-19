@@ -1,0 +1,9 @@
+Slot 7.1_Oto.png
+size:452,124
+filter:Linear,Linear
+pma:true
+bike
+bounds:259,2,188,117
+offsets:1,1,190,119
+car
+bounds:2,4,255,115

@@ -1,0 +1,11 @@
+Slot 2_TV.png
+size:404,196
+filter:Linear,Linear
+pma:true
+TV_new
+bounds:2,14,254,180
+offsets:1,1,256,182
+cassette_old
+bounds:258,2,192,142
+offsets:1,1,194,144
+rotate:90

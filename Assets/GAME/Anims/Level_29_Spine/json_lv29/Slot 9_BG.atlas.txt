@@ -1,0 +1,8 @@
+Slot 9_BG.png
+size:1092,636
+filter:Linear,Linear
+pma:true
+BG_new
+bounds:2,2,543,632
+BG_old
+bounds:547,2,543,632
