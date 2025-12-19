@@ -2,7 +2,7 @@
     "version": "6.4.0",
     "projectId": "cc2b1186a2056e546bb13add5b988034",
     "applicationID": 34530,
-    "creativeName": "BM_V08_ManhND_AnhPD",
+    "creativeName": "BM_V03_ManhND_AnhPD",
     "pgServer": "EU",
     "window": {
         "‐′": true
@@ -8797,6 +8797,36 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/GAME/Anims/Level_46_Spine/json_lv46/Phase 1.png"
+                    },
+                    {
+                        "maxWidth": 1024,
+                        "maxHeight": 1024,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Anims/Level_29_Spine/json_lv29/Girl.png"
+                    },
+                    {
+                        "maxWidth": 1024,
+                        "maxHeight": 1024,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Anims/Level_29_Spine/json_lv29/Slot 5_Dog.png"
+                    },
+                    {
+                        "maxWidth": 2048,
+                        "maxHeight": 2048,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Anims/Level_29_Spine/json_lv29/Boy.png"
                     }
                 ]
             },

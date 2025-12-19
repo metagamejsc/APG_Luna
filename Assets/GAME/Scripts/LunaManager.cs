@@ -11,7 +11,7 @@ public class LunaManager : MonoBehaviour
     public GameObject Parent;
     public GameObject LoseTitle;
     public GameObject[] tutorial;
-    //public float timeDrag = 4;
+    public float timeDrag = 1f;
     public bool isDrag = true;
     [Header("Progess")]
     [SerializeField] private TextMeshProUGUI textProgess;
@@ -184,7 +184,7 @@ public class LunaManager : MonoBehaviour
     }
     IEnumerator SetIsDragTrue()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(timeDrag);
         isDrag = true;
     }
 
