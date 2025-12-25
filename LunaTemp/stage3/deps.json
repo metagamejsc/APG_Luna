@@ -18,14 +18,10 @@
   "groups": [
     [
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/AudioController.cs",
-      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/Custom/DropCustom.cs",
-      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/Custom/DragCustom.cs",
-      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/LunaManager.cs",
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/ClickItem.cs",
-      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DraggableItem.cs",
-      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DropZone.cs",
-      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/GameController.cs",
-      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/IQFill.cs",
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/LunaManager.cs",
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/Custom/DragCustom.cs",
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/Custom/DropCustom.cs",
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonGraphic.cs",
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/MixSkeletonSkin.cs",
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/SpineAttributes.cs",
@@ -70,7 +66,11 @@
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/ActivateBasedOnFlipDirection.cs",
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/SpineHelper.cs",
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonGraphicCustomMaterials.cs",
-      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Internal/SkeletonSubmeshGraphic.cs"
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Internal/SkeletonSubmeshGraphic.cs",
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/GameController.cs",
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DropZone.cs",
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DraggableItem.cs",
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/IQFill.cs"
     ],
     [
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/CameraController.cs"
@@ -162,13 +162,13 @@
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineTrackEntryEnd.cs"
     ],
     [
-      "E:/luna_playable_ads_6.0.0/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
+      "F:/6.4.0/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
     ],
     [
-      "E:/luna_playable_ads_6.0.0/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
+      "F:/6.4.0/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
     ],
     [
-      "E:/luna_playable_ads_6.0.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+      "F:/6.4.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
     ]
   ]
 }

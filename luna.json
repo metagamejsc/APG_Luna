@@ -2,7 +2,7 @@
     "version": "6.4.0",
     "projectId": "cc2b1186a2056e546bb13add5b988034",
     "applicationID": 29138,
-    "creativeName": "BEQ_V16_NgocNDL_AnhPD",
+    "creativeName": "BEQ_V17_NgocNDL_AnhPD",
     "pgServer": "EU",
     "window": {
         "‐′": true
@@ -8895,6 +8895,36 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/GAME/Audios/lv73 Audios/voice/1764322443746746283-339024210333802.mp3"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:02.514",
+                        "endTime": "00:32.683",
+                        "lengthInSeconds": 30.16899871826172,
+                        "bitrate": 32,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Audios/Asphyxia.mp3"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 128,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Audios/Sound/Game Reward Sound Effect (HD) SOUND FX.mp3"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:30.223",
+                        "lengthInSeconds": 30.222999572753908,
+                        "bitrate": 32,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Audios/Else - Paris - Nhạc Nền Review Phim Cực Hot - YouTube.mp3"
                     }
                 ]
             },

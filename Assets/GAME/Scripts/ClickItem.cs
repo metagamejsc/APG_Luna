@@ -35,6 +35,7 @@ public class ClickItem : MonoBehaviour
         if (isProcess)
         {
             LunaManager.ins.CountPlay();
+            AudioController.Instance.PlaySfx("Click");
         }
     }
     void ActiveStep(int stepActive)
