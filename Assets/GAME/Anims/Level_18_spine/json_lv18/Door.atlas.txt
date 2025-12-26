@@ -1,0 +1,11 @@
+Door.png
+size:340,112
+filter:Linear,Linear
+pma:true
+door
+bounds:2,2,108,295
+rotate:90
+meat
+bounds:299,67,43,39
+offsets:1,1,46,41
+rotate:90

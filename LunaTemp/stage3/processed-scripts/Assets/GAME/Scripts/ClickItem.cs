@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ClickItem : MonoBehaviour
 {
@@ -6,6 +7,12 @@ public class ClickItem : MonoBehaviour
     public GameObject[] steps;
     public int currentStep = 0;
     public bool isProcess = false;
+    private Button button;
+    void Awake()
+    {
+        button = GetComponent<Button>();
+        button.onClick.AddListener(ClickFunc);
+    }
     void Start()
     {
         SetUp();
@@ -23,7 +30,7 @@ public class ClickItem : MonoBehaviour
     {
         currentStep++;
         NextStep();
-        LunaManager.ins.CheckTutorial();
+        //LunaManager.ins.CheckTutorial();
     }
     void NextStep()
     {

@@ -1,0 +1,6 @@
+Rain.png
+size:112,196
+filter:Linear,Linear
+pma:true
+rain_fx
+bounds:2,2,108,192

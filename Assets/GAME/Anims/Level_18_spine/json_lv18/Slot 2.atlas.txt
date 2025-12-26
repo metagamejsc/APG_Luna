@@ -1,0 +1,7 @@
+Slot 2.png
+size:88,164
+filter:Linear,Linear
+pma:true
+lantern
+bounds:2,2,84,157
+offsets:1,1,86,159

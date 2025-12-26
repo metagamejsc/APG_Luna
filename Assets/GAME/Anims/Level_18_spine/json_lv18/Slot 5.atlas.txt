@@ -1,0 +1,7 @@
+Slot 5.png
+size:168,180
+filter:Linear,Linear
+pma:true
+sign
+bounds:2,2,164,176
+offsets:1,1,166,178

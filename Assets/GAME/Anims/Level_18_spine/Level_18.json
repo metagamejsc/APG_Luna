@@ -1,0 +1,189 @@
+{ "skeleton": { "images": "C:/Users/PC/Desktop/BRAIN MASTER/ANIMATION/Level/Level_18/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG", "bone": "root", "attachment": "BG" },
+	{ "name": "flood_low", "bone": "root", "attachment": "flood_low" },
+	{ "name": "flood_anim", "bone": "root", "attachment": "flood_anim" },
+	{ "name": "step_umbrella", "bone": "root", "attachment": "step_umbrella" },
+	{ "name": "step_lantern", "bone": "root", "attachment": "step_lantern" },
+	{ "name": "step_traffic_light", "bone": "root", "attachment": "step_traffic_light" },
+	{ "name": "step_plank", "bone": "root", "attachment": "step_plank" },
+	{ "name": "step_sign", "bone": "root", "attachment": "step_sign" },
+	{ "name": "step_floater", "bone": "root", "attachment": "step_floater" },
+	{ "name": "step_foliage", "bone": "root", "attachment": "step_foliage" },
+	{ "name": "step_piranha", "bone": "root", "attachment": "step_piranha" },
+	{ "name": "step_satellite", "bone": "root", "attachment": "step_satellite" },
+	{ "name": "step_lightningrod", "bone": "root", "attachment": "step_lightningrod" },
+	{ "name": "lantern", "bone": "root", "attachment": "lantern" },
+	{ "name": "traffic_light", "bone": "root", "attachment": "traffic_light" },
+	{ "name": "plank", "bone": "root", "attachment": "plank" },
+	{ "name": "sign", "bone": "root", "attachment": "sign" },
+	{ "name": "floater", "bone": "root", "attachment": "floater" },
+	{ "name": "foliage", "bone": "root", "attachment": "foliage" },
+	{ "name": "meat", "bone": "root", "attachment": "meat" },
+	{ "name": "door", "bone": "root", "attachment": "door" },
+	{ "name": "meat_hooked", "bone": "root", "attachment": "meat_hooked" },
+	{ "name": "string", "bone": "root", "attachment": "string" },
+	{ "name": "piranha", "bone": "root", "attachment": "piranha" },
+	{ "name": "jaw", "bone": "root", "attachment": "jaw" },
+	{ "name": "fin", "bone": "root", "attachment": "fin" },
+	{ "name": "splash", "bone": "root", "attachment": "splash" },
+	{ "name": "satellite", "bone": "root", "attachment": "satellite" },
+	{ "name": "lightningrod", "bone": "root", "attachment": "lightningrod" },
+	{ "name": "flood_high", "bone": "root", "attachment": "flood_high" },
+	{ "name": "girl_start", "bone": "root", "attachment": "girl_start" },
+	{ "name": "umbrella_start", "bone": "root", "attachment": "umbrella_start" },
+	{ "name": "shaking_fx", "bone": "root", "attachment": "shaking_fx" },
+	{ "name": "arm_b", "bone": "root", "attachment": "arm_b" },
+	{ "name": "leg_b", "bone": "root", "attachment": "leg_b" },
+	{ "name": "umbrella_climb", "bone": "root", "attachment": "umbrella_climb" },
+	{ "name": "head", "bone": "root", "attachment": "head" },
+	{ "name": "leg_f", "bone": "root", "attachment": "leg_f" },
+	{ "name": "body", "bone": "root", "attachment": "body" },
+	{ "name": "arm_f", "bone": "root", "attachment": "arm_f" },
+	{ "name": "girl_end", "bone": "root", "attachment": "girl_end" },
+	{ "name": "sigh_fx", "bone": "root", "attachment": "sigh_fx" },
+	{ "name": "rain_fx", "bone": "root", "attachment": "rain_fx" },
+	{ "name": "gameplay_UI", "bone": "root", "attachment": "gameplay_UI" }
+],
+"skins": {
+	"default": {
+		"BG": {
+			"BG": { "x": 540.5, "y": -946, "width": 1085, "height": 1302 }
+		},
+		"flood_low": {
+			"flood_low": { "x": 540, "y": -1381.5, "width": 1090, "height": 561 }
+		},
+		"flood_anim": {
+			"flood_anim": { "x": 532, "y": -1395, "width": 10, "height": 142 }
+		},
+		"step_umbrella": {
+			"step_umbrella": { "x": 224.5, "y": -1090, "width": 89, "height": 98 }
+		},
+		"step_lantern": {
+			"step_lantern": { "x": 436, "y": -930.5, "width": 88, "height": 95 }
+		},
+		"step_traffic_light": {
+			"step_traffic_light": { "x": 380, "y": -971, "width": 84, "height": 84 }
+		},
+		"step_plank": {
+			"step_plank": { "x": 330.5, "y": -1007.5, "width": 81, "height": 83 }
+		},
+		"step_sign": {
+			"step_sign": { "x": 275, "y": -1044, "width": 102, "height": 96 }
+		},
+		"step_floater": {
+			"step_floater": { "x": 488.5, "y": -895.5, "width": 69, "height": 77 }
+		},
+		"step_foliage": {
+			"step_foliage": { "x": 546, "y": -862.5, "width": 78, "height": 83 }
+		},
+		"step_piranha": {
+			"step_piranha": { "x": 588.5, "y": -825.5, "width": 69, "height": 77 }
+		},
+		"step_satellite": {
+			"step_satellite": { "x": 643, "y": -791.5, "width": 60, "height": 71 }
+		},
+		"step_lightningrod": {
+			"step_lightningrod": { "x": 675.5, "y": -773, "width": 71, "height": 94 }
+		},
+		"lantern": {
+			"lantern": { "x": 153, "y": -1276.5, "width": 86, "height": 159 }
+		},
+		"traffic_light": {
+			"traffic_light": { "x": 155.5, "y": -1467, "width": 165, "height": 78 }
+		},
+		"plank": {
+			"plank": { "x": 479, "y": -1452.5, "width": 236, "height": 59 }
+		},
+		"sign": {
+			"sign": { "x": 796, "y": -1411, "width": 166, "height": 178 }
+		},
+		"floater": {
+			"floater": { "x": 454.5, "y": -1189.5, "width": 155, "height": 61 }
+		},
+		"foliage": {
+			"foliage": { "x": 977.5, "y": -1198.5, "width": 83, "height": 129 }
+		},
+		"meat": {
+			"meat": { "x": 834, "y": -1175.5, "width": 46, "height": 41 }
+		},
+		"door": {
+			"door": { "x": 802, "y": -1145.5, "width": 108, "height": 295 }
+		},
+		"meat_hooked": {
+			"meat_hooked": { "x": 651.5, "y": -1139, "width": 39, "height": 64 }
+		},
+		"string": {
+			"string": { "x": 540, "y": -960, "width": 1082, "height": 1922 }
+		},
+		"piranha": {
+			"piranha": { "x": 619.5, "y": -1211.5, "width": 107, "height": 119 }
+		},
+		"jaw": {
+			"jaw": { "x": 659, "y": -1174, "width": 30, "height": 46 }
+		},
+		"fin": {
+			"fin": { "x": 657.5, "y": -1230, "width": 31, "height": 28 }
+		},
+		"splash": {
+			"splash": { "x": 621.5, "y": -1274, "width": 135, "height": 60 }
+		},
+		"satellite": {
+			"satellite": { "x": 882.5, "y": -898, "width": 125, "height": 106 }
+		},
+		"lightningrod": {
+			"lightningrod": { "x": 932, "y": -609.5, "width": 28, "height": 227 }
+		},
+		"flood_high": {
+			"flood_high": { "x": 540, "y": -1317.5, "width": 1090, "height": 689 }
+		},
+		"girl_start": {
+			"girl_start": { "x": 115, "y": -867, "width": 166, "height": 458 }
+		},
+		"umbrella_start": {
+			"umbrella_start": { "x": 133, "y": -681, "width": 244, "height": 212 }
+		},
+		"shaking_fx": {
+			"shaking_fx": { "x": 125, "y": -689, "width": 178, "height": 138 }
+		},
+		"arm_b": {
+			"arm_b": { "x": 890.5, "y": -579, "width": 117, "height": 48 }
+		},
+		"leg_b": {
+			"leg_b": { "x": 711.5, "y": -691, "width": 147, "height": 148 }
+		},
+		"umbrella_climb": {
+			"umbrella_climb": { "x": 895, "y": -546.5, "width": 248, "height": 197 }
+		},
+		"head": {
+			"head": { "x": 540, "y": -960, "width": 1082, "height": 1922 }
+		},
+		"leg_f": {
+			"leg_f": { "x": 742, "y": -727.5, "width": 144, "height": 155 }
+		},
+		"body": {
+			"body": { "x": 812.5, "y": -621, "width": 137, "height": 120 }
+		},
+		"arm_f": {
+			"arm_f": { "x": 900.5, "y": -635.5, "width": 97, "height": 75 }
+		},
+		"girl_end": {
+			"girl_end": { "x": 979.5, "y": -523, "width": 151, "height": 404 }
+		},
+		"sigh_fx": {
+			"sigh_fx": { "x": 946, "y": -392.5, "width": 24, "height": 23 }
+		},
+		"rain_fx": {
+			"rain_fx": { "x": 540, "y": -960, "width": 1082, "height": 1922 }
+		},
+		"gameplay_UI": {
+			"gameplay_UI": { "x": 540, "y": -960, "width": 1112, "height": 1922 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

@@ -1,0 +1,10 @@
+BG.png
+size:700,544
+filter:Linear,Linear
+pma:true
+BG
+bounds:2,2,540,628
+rotate:90
+flicker
+bounds:632,434,108,65
+rotate:90

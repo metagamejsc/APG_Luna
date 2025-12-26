@@ -1,0 +1,6 @@
+Slot 7.png
+size:88,136
+filter:Linear,Linear
+pma:true
+foliage
+bounds:2,2,83,129

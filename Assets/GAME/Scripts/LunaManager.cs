@@ -8,7 +8,7 @@ public class LunaManager : MonoBehaviour
     public Button[] lstBtnInstall;
     public GameObject StartCard;
     public GameObject EndCard;
-    public GameObject Parent;
+    public Transform Parent;
     public GameObject LoseTitle;
     public GameObject[] tutorial;
     //public float timeDrag = 4;

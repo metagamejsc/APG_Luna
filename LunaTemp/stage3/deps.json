@@ -23,10 +23,8 @@
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/Custom/DragCustom.cs",
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/LunaManager.cs",
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/ClickItem.cs",
-      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DraggableItem.cs",
-      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DropZone.cs",
-      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/GameController.cs",
-      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/IQFill.cs",
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/Custom/DragSpawn.cs",
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/Custom/DropSpawn.cs",
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonGraphic.cs",
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/MixSkeletonSkin.cs",
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/SpineAttributes.cs",
@@ -125,7 +123,11 @@
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineTrackEntryEnd.cs",
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/ActivateBasedOnFlipDirection.cs",
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonGraphicCustomMaterials.cs",
-      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Internal/SkeletonSubmeshGraphic.cs"
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Internal/SkeletonSubmeshGraphic.cs",
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/GameController.cs",
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DropZone.cs",
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/DraggableItem.cs",
+      "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/IQFill.cs"
     ],
     [
       "E:/ProjectGitHub/APG_Luna/LunaTemp/stage3/processed-scripts/Assets/GAME/Scripts/CameraController.cs"

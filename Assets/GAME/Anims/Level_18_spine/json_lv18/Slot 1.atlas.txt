@@ -1,0 +1,7 @@
+Slot 1.png
+size:168,76
+filter:Linear,Linear
+pma:true
+traffic_light
+bounds:2,2,163,71
+offsets:1,6,165,78

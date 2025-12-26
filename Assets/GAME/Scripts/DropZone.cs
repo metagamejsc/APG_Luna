@@ -13,6 +13,7 @@ public class DropZone : MonoBehaviour
 
     void Awake()
     {
+        print("DropZone Awake called");
         boxCollider = GetComponent<Collider2D>();
         boxCollider.enabled = true;
         currentStep = 0;

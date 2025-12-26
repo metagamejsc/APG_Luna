@@ -1,0 +1,7 @@
+Slot 6.png
+size:160,64
+filter:Linear,Linear
+pma:true
+floater
+bounds:2,2,153,59
+offsets:1,1,155,61
