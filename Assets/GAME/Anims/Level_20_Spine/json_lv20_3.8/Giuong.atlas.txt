@@ -1,0 +1,11 @@
+Giuong.png
+size:1151,570
+filter:Linear,Linear
+pma:true
+bed
+bounds:2,2,981,566
+offsets:2,1,984,568
+cabinet
+bounds:985,246,322,164
+offsets:1,1,324,166
+rotate:90

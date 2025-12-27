@@ -1,0 +1,11 @@
+Slot 8.1_Thanh Gia.png
+size:760,578
+filter:Linear,Linear
+pma:true
+cross_anim
+bounds:608,327,150,249
+offsets:1,2,152,252
+halo_fx
+bounds:2,2,574,604
+offsets:0,5,575,614
+rotate:90

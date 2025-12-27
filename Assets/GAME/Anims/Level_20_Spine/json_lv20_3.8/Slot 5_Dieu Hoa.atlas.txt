@@ -1,0 +1,13 @@
+Slot 5_Dieu Hoa.png
+size:678,75
+filter:Linear,Linear
+pma:true
+AC_closed
+bounds:469,11,207,62
+offsets:1,1,209,64
+AC_opened
+bounds:259,2,208,71
+offsets:1,1,210,73
+AC_wind_fx
+bounds:2,6,255,67
+offsets:2,2,259,70

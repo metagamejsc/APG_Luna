@@ -1,0 +1,10 @@
+Slot 4_Computer.png
+size:331,123
+filter:Linear,Linear
+pma:true
+screen
+bounds:2,2,216,119
+offsets:1,1,218,121
+violinist
+bounds:220,8,113,109
+rotate:90

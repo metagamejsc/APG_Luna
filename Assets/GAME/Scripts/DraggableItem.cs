@@ -9,6 +9,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     private GameObject originParent;
     private CanvasGroup canvasGroup;
     public bool isProcess = false;
+    public bool isLose = false;
 
     void Awake()
     {
@@ -48,14 +49,24 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         {
             if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop)
             {
-                hit.collider.gameObject.GetComponent<DropZone>().DragItem();
+                if (isLose)
+                {
+                    hit.collider.gameObject.GetComponent<DropZone>().DragItemLose();
+                    //LunaManager.ins.ShowLoseTitle();
+                }
+                else
+                {
+                    hit.collider.gameObject.GetComponent<DropZone>().DragItem();
+                }
+
                 LunaManager.ins.SetIsDrag(false);
                 LunaManager.ins.DelaySetDrag();
                 if (isProcess)
                 {
                     LunaManager.ins.CountPlay();
-                    LunaManager.ins.CheckTutorial();
+                    //LunaManager.ins.CheckTutorial();
                 }
+
                 Destroy(gameObject);
                 return;
             }

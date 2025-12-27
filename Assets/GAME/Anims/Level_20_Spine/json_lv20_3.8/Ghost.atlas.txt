@@ -1,0 +1,12 @@
+Ghost.png
+size:682,384
+filter:Linear,Linear
+pma:true
+ghost
+bounds:2,2,380,559
+rotate:90
+ghost_scared
+bounds:563,83,62,74
+offsets:1,2,65,77
+smoke
+bounds:563,159,117,223

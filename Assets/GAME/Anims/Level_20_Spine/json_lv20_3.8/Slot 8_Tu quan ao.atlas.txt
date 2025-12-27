@@ -1,0 +1,12 @@
+Slot 8_Tu quan ao.png
+size:474,286
+filter:Linear,Linear
+pma:true
+door_closed
+bounds:2,2,215,419
+offsets:1,1,217,421
+rotate:90
+door_opened
+bounds:2,219,65,470
+offsets:1,1,67,472
+rotate:90

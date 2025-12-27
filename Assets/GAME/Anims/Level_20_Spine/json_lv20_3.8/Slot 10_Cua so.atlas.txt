@@ -1,0 +1,18 @@
+Slot 10_Cua so.png
+size:848,253
+filter:Linear,Linear
+pma:true
+curtain_closed
+bounds:2,2,337,249
+curtain_opened
+bounds:655,4,113,247
+offsets:1,1,115,249
+window_door_closed1
+bounds:499,28,154,223
+offsets:1,1,156,225
+window_door_closed2
+bounds:341,28,156,223
+offsets:1,1,158,225
+window_door_opened1
+bounds:770,9,76,242
+offsets:1,1,78,244

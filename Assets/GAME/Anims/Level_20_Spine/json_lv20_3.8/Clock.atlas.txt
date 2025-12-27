@@ -1,0 +1,10 @@
+Clock.png
+size:141,82
+filter:Linear,Linear
+pma:true
+alarm
+bounds:2,2,74,78
+offsets:1,1,76,80
+fx
+bounds:78,4,76,61
+rotate:90

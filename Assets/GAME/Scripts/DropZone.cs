@@ -4,8 +4,9 @@ using UnityEngine.UI;
 public class DropZone : MonoBehaviour
 {
     public int idDrop = 0;
-    public bool isLose = false;
+    // public bool isLose = false;
     public GameObject[] steps;
+    public GameObject stepLose;
 
 
     private int currentStep = 0;
@@ -18,21 +19,30 @@ public class DropZone : MonoBehaviour
         boxCollider.enabled = true;
         currentStep = 0;
         NextStep();
+        if (stepLose != null) stepLose.SetActive(false);
     }
     public void DragItem()
     {
-        if (isLose)
-        {
-            // DragLose();\
-            Invoke(nameof(DragLose), 1f);
-        }
+        LunaManager.ins.OffStartCard();
         currentStep++;
         NextStep();
         CheckDone();
     }
+    public void DragItemLose()
+    {
+        foreach (var step in steps)
+        {
+            step.SetActive(false);
+        }
+        stepLose.SetActive(true);
+        Invoke(nameof(DragLose), 1f);
+
+    }
     void DragLose()
     {
         print("DragLose called");
+
+
         LunaManager.ins.ShowEndCard();
         LunaManager.ins.ShowLoseTitle();
     }

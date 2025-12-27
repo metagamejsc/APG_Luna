@@ -1,0 +1,11 @@
+Slot 3_May loc kk.png
+size:380,271
+filter:Linear,Linear
+pma:true
+Air
+bounds:2,10,259,250
+offsets:41,50,300,300
+rotate:90
+airfilter
+bounds:254,2,124,267
+offsets:1,1,126,269

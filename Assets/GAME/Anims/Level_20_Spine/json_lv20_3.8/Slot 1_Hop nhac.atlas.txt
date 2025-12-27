@@ -1,0 +1,11 @@
+Slot 1_Hop nhac.png
+size:351,175
+filter:Linear,Linear
+pma:true
+music_fx
+bounds:296,73,100,53
+offsets:1,1,102,56
+rotate:90
+vinyl
+bounds:2,2,171,292
+rotate:90
