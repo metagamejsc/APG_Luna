@@ -1,0 +1,8 @@
+door.png
+size:136,800
+filter:Linear,Linear
+pma:true
+Door1
+bounds:70,6,61,791
+Door2
+bounds:2,2,66,795

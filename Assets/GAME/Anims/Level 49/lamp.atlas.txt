@@ -1,0 +1,12 @@
+lamp.png
+size:588,304
+filter:Linear,Linear
+pma:true
+Chandelier
+bounds:394,82,190,218
+Lamp1
+bounds:394,2,140,78
+offsets:1,1,142,80
+light_break_ef
+bounds:2,27,390,273
+offsets:111,243,612,521

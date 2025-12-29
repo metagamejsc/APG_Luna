@@ -1,0 +1,44 @@
+mom.png
+size:376,572
+filter:Linear,Linear
+pma:true
+G_fx
+bounds:206,285,148,284
+offsets:3,6,154,295
+Old woman_1
+bounds:102,82,91,102
+offsets:4,1,96,104
+rotate:90
+Old woman_10
+bounds:45,27,57,138
+offsets:0,2,58,140
+Old woman_2
+bounds:102,12,68,99
+offsets:1,2,69,101
+rotate:90
+Old woman_3
+bounds:2,2,70,77
+offsets:0,0,71,77
+rotate:180
+Old woman_4
+bounds:165,146,164,137
+Old woman_5
+bounds:2,162,150,161
+rotate:270
+Old woman_6
+bounds:2,283,202,286
+Old woman_7
+bounds:200,17,48,129
+offsets:3,0,61,129
+rotate:90
+Old woman_8
+bounds:206,96,94,155
+rotate:270
+Old woman_9
+bounds:216,62,63,139
+offsets:0,0,64,139
+rotate:270
+hihi
+bounds:329,12,68,42
+offsets:5,3,78,48
+rotate:90
