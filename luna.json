@@ -8809,9 +8809,9 @@
                     {
                         "channels": 1,
                         "startTime": "00:01.364",
-                        "endTime": "00:40.579",
-                        "lengthInSeconds": 39.21500015258789,
-                        "bitrate": 128,
+                        "endTime": "00:32.395",
+                        "lengthInSeconds": 31.0310001373291,
+                        "bitrate": 32,
                         "script": "",
                         "ext": "",
                         "name": "Assets/GAME/Audios/lv73 Audios/comedy-funny-cartoon-background-music-330177.ogg"
