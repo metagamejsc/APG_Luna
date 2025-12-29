@@ -410,7 +410,7 @@ MonoBehaviour:
   _usedByLunaBuild: []
   _includedShaderVariants: []
   _excludedShaderVariants: []
-  version: 330
+  version: 347
   _shaderParsedShaders:
   - ParsedSubShaders:
     - Index: 0
@@ -6184,9 +6184,8 @@ MonoBehaviour:
       keywords:
       - UNITY_UI_ALPHACLIP
       - UNITY_UI_CLIP_RECT
-  _modifiedShaders:
-  - Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton.shader
-  invalidShaders: 1
+  _modifiedShaders: []
+  invalidShaders: 0
   _sceneLightData:
     PointLightCount: 0
     SpotLightCount: 0
