@@ -2022,7 +2022,7 @@ Deserializers.productName = "My project";
 
 Deserializers.lunaInitializationTime = "07/08/2025 01:59:59";
 
-Deserializers.lunaDaysRunning = "172.0";
+Deserializers.lunaDaysRunning = "174.1";
 
 Deserializers.lunaVersion = "6.4.0";
 
@@ -2030,7 +2030,7 @@ Deserializers.lunaSHA = "6639120529aa36186c6141b5c3fb20246c28bff0";
 
 Deserializers.creativeName = "BM_V05_ManhND_AnhPD";
 
-Deserializers.lunaAppID = "29138";
+Deserializers.lunaAppID = "34530";
 
 Deserializers.projectId = "cc2b1186a2056e546bb13add5b988034";
 
@@ -2078,7 +2078,7 @@ Deserializers.graphicsConstraint = 28;
 
 Deserializers.linearColorSpace = true;
 
-Deserializers.buildID = "64328c58-0c9e-480c-8b1e-9012e5973a39";
+Deserializers.buildID = "65a6af26-b27c-4a18-984d-bebbd941f339";
 
 Deserializers.runtimeInitializeOnLoadInfos = [[["UnityEngine","Experimental","Rendering","ScriptableRuntimeReflectionSystemSettings","ScriptingDirtyReflectionSystemInstance"]],[["Unity","VisualScripting","RuntimeVSUsageUtility","RuntimeInitializeOnLoadBeforeSceneLoad"]],[["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"]],[],[["Spine","Unity","AttachmentTools","AtlasUtilities","Init"]]];
 
