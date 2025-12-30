@@ -103,6 +103,7 @@ public class LunaManager : MonoBehaviour
     }
     public void CountPlay()
     {
+        OffStartCard();
         countPlay++;
         UpdateProgress();
         if (countPlay >= countPlayFinal)
