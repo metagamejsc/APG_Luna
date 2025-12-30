@@ -1,0 +1,9 @@
+Slot 5_Tap Cua Xe.png
+size:284,260
+filter:Linear,Linear
+pma:true
+scale:0.75
+truck_door_closed
+bounds:2,16,181,239
+truck_door_opened
+bounds:185,2,96,253

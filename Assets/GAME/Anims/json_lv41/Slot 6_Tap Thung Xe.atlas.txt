@@ -1,0 +1,9 @@
+Slot 6_Tap Thung Xe.png
+size:216,200
+filter:Linear,Linear
+pma:true
+scale:0.75
+truck_rollingdoor1
+bounds:2,26,208,170
+truck_rollingdoor2
+bounds:2,2,209,22

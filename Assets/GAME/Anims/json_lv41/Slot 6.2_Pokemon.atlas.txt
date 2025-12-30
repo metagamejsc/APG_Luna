@@ -1,0 +1,18 @@
+Slot 6.2_Pokemon.png
+size:296,292
+filter:Linear,Linear
+pma:true
+scale:0.75
+pokeball__opened
+bounds:203,121,41,56
+pokemon_summon_fx
+bounds:203,179,111,89
+rotate:90
+squirtle
+bounds:145,8,104,134
+rotate:90
+squirtle _silhousette
+bounds:2,2,110,141
+rotate:90
+water_fx2
+bounds:2,114,199,176

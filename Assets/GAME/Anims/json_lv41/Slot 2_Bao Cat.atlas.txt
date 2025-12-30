@@ -1,0 +1,7 @@
+Slot 2_Bao Cat.png
+size:516,100
+filter:Linear,Linear
+pma:true
+scale:0.75
+sand
+bounds:2,2,512,95

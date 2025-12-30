@@ -51,8 +51,9 @@ public class DragSpawn : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         }
         else
         {
-            rectTransform.anchoredPosition = originalPosition;
             gameObject.transform.SetParent(parentAfterDrag);
+            rectTransform.anchoredPosition = originalPosition;
+
         }
     }
 }

@@ -1,0 +1,17 @@
+Slot 5.2_Truc Thang_In.png
+size:1044,104
+filter:Linear,Linear
+pma:true
+scale:0.75
+helicoper_blades
+bounds:845,8,194,24
+offsets:0,0,194,25
+helicopter
+bounds:392,9,252,92
+rainfx_2
+bounds:2,13,88,388
+rotate:90
+vomit_fx1
+bounds:845,34,178,67
+vomit_fx2
+bounds:646,2,197,99
