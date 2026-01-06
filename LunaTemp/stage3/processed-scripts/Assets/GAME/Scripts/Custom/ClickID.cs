@@ -30,6 +30,8 @@ public class ClickID : MonoBehaviour
     }
     public void ClickFunc()
     {
+        if (currentStep >= steps.Length - 1 || !LunaManager.ins.isDrag) return;
+        LunaManager.ins.OffStartCard();
         currentStep++;
         NextStep();
         dropID.DragItemID(id);

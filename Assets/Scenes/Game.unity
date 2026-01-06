@@ -2869,8 +2869,8 @@ MonoBehaviour:
   isDrag: 0
   timeDrag: 1
   countPlay: 0
-  countPlayFinal: 12
-  countPlayMax: 12
+  countPlayFinal: 7
+  countPlayMax: 7
   timeDropFinal: 30
   colorBG: {r: 1, g: 1, b: 1, a: 1}
   texture2D: {fileID: 2800000, guid: 4294fc5480052ab44b9df43c2bffd687, type: 3}
