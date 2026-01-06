@@ -81,6 +81,7 @@ public class DropID : MonoBehaviour
                 break;
         }
         //
+        AudioController.Instance.PlaySfx("Oe");
         var index = mans.Count - 1;
         if (index < 0) return;
 

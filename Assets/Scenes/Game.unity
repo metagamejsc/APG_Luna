@@ -665,8 +665,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2876,7 +2876,6 @@ MonoBehaviour:
   texture2D: {fileID: 2800000, guid: 4294fc5480052ab44b9df43c2bffd687, type: 3}
   rawImageBG: {fileID: 342935849}
   timeText: {fileID: 128708068}
-  isHead: 0
 --- !u!1 &720408047
 GameObject:
   m_ObjectHideFlags: 0
@@ -6358,6 +6357,9 @@ MonoBehaviour:
   audioEntries:
   - key: Click
     clip: {fileID: 8300000, guid: 3cbefb9ad994c6b42bdd0ea36162bdc6, type: 3}
+    volume: 1
+  - key: Oe
+    clip: {fileID: 8300000, guid: 4ef286ec7b9493042acc4c0141bc6ecf, type: 3}
     volume: 1
   - key: Item0
     clip: {fileID: 8300000, guid: 3f80cabeee9b8be418f22d89a089bdf0, type: 3}
