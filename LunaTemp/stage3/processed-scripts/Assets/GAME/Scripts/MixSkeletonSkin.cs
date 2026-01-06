@@ -1,80 +1,107 @@
 using Spine;
 using Spine.Unity;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class MixSkeletonSkin : MonoBehaviour
 {
     public SkeletonGraphic skeletonAnimation;
 
-    [Tooltip("Danh sách tên skin trong Spine (body, hat, shirt, ...)")]
-    [SpineSkin] public string[] skinNames; // Set trong Inspector nếu muốn auto mix khi Start
+    [SpineSkin]
+    public List<string> skinNames = new List<string>();
+
+    public string defaultAnim;
+
+    TrackEntry currentEntry;
 
     void Start()
     {
-        // Nếu muốn tự động mix theo mảng skinNames trong Inspector khi game chạy
         MixAndApplySkins();
+
+        if (!string.IsNullOrEmpty(defaultAnim))
+        {
+            skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, true);
+        }
     }
 
-    /// <summary>
-    /// Public function: Mix skin theo danh sách truyền vào.
-    /// Nếu không truyền gì (hoặc null / rỗng) thì sẽ dùng mảng skinNames trong Inspector.
-    /// </summary>
     public void MixAndApplySkins(params string[] skinsToMix)
     {
-        if (skeletonAnimation == null)
-        {
-            Debug.LogError("skeletonAnimation chưa được gán trong Inspector!");
-            return;
-        }
+        if (skeletonAnimation == null) return;
 
         var skeleton = skeletonAnimation.Skeleton;
-        if (skeleton == null)
-        {
-            Debug.LogError("Skeleton của SkeletonGraphic đang null.");
-            return;
-        }
+        if (skeleton == null) return;
 
         var skeletonData = skeleton.Data;
-        if (skeletonData == null)
-        {
-            Debug.LogError("SkeletonData đang null.");
-            return;
-        }
+        if (skeletonData == null) return;
 
-        // Nếu không truyền skinsToMix thì dùng mảng skinNames trong Inspector
-        string[] namesToUse = (skinsToMix != null && skinsToMix.Length > 0)
-            ? skinsToMix
-            : skinNames;
+        IEnumerable<string> namesToUse =
+            (skinsToMix != null && skinsToMix.Length > 0)
+                ? (IEnumerable<string>)skinsToMix
+                : skinNames;
 
-        if (namesToUse == null || namesToUse.Length == 0)
-        {
-            Debug.LogWarning("Chưa nhập tên skin nào để mix.");
-            return;
-        }
+        if (namesToUse == null) return;
 
-        // Tạo skin mới
         Skin combinedSkin = new Skin("combined-skin");
 
-        // Lặp qua tất cả tên skin
         foreach (var skinName in namesToUse)
         {
-            if (string.IsNullOrEmpty(skinName))
-                continue;
+            if (string.IsNullOrEmpty(skinName)) continue;
 
             Skin skin = skeletonData.FindSkin(skinName);
-            if (skin == null)
-            {
-                Debug.LogWarning("Không tìm thấy skin: " + skinName);
-                continue;
-            }
+            if (skin == null) continue;
 
             combinedSkin.AddSkin(skin);
         }
 
-        // Gán skin mới vào skeleton
         skeleton.SetSkin(combinedSkin);
-        skeleton.SetSlotsToSetupPose();          // hoặc SetToSetupPose() tùy bạn
+        skeleton.SetSlotsToSetupPose();
         skeletonAnimation.AnimationState.Apply(skeleton);
         skeletonAnimation.LateUpdate();
+    }
+
+    public void AddSkin(string skinName)
+    {
+        if (string.IsNullOrEmpty(skinName)) return;
+        skinNames.Add(skinName);
+    }
+
+    public void RemoveSkinAt(int index)
+    {
+        if (index < 0 || index >= skinNames.Count) return;
+        skinNames.RemoveAt(index);
+    }
+
+    public void RemoveSkinName(string skinName)
+    {
+        if (string.IsNullOrEmpty(skinName)) return;
+        skinNames.RemoveAll(s => s == skinName);
+    }
+
+    public void PlayAnimation(string animName)
+    {
+        if (skeletonAnimation == null) return;
+        if (string.IsNullOrEmpty(animName)) return;
+
+        var state = skeletonAnimation.AnimationState;
+
+        if (currentEntry != null)
+        {
+            currentEntry.Complete -= OnAnimationComplete;
+        }
+
+        currentEntry = state.SetAnimation(0, animName, false);
+        currentEntry.Complete += OnAnimationComplete;
+    }
+
+    void OnAnimationComplete(TrackEntry entry)
+    {
+        entry.Complete -= OnAnimationComplete;
+
+        if (!string.IsNullOrEmpty(defaultAnim))
+        {
+            skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, true);
+        }
+
+        currentEntry = null;
     }
 }

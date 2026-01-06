@@ -1,0 +1,7 @@
+quan.png
+size:116,92
+filter:Linear,Linear
+pma:true
+man_12
+bounds:2,2,111,85
+offsets:1,1,113,87

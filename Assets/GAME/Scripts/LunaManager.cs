@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,6 +12,10 @@ public class LunaManager : MonoBehaviour
     [Header("Progess")]
     [SerializeField] private TextMeshProUGUI textProgess;
     [SerializeField] private Image imgProgess;
+    public GameObject Parent;
+    public bool isDrag = false;
+    public float timeDrag = 1f;
+
 
     //----------------------------------LUNA----------------------------
 
@@ -29,7 +34,7 @@ public class LunaManager : MonoBehaviour
     private float currentTime;
     private bool isRunning = true;
     //----------------------------------OTHER----------------------------
-    public bool isHead = false;
+    //public bool isHead = false;
 
     //----------------------------------LUNA----------------------------
     public static LunaManager ins;
@@ -78,7 +83,7 @@ public class LunaManager : MonoBehaviour
         }
         EndCard.SetActive(false);
         currentTime = timeDropFinal;
-
+        SetIsDrag(true);
     }
     // public void TurnOffHand()
     // {
@@ -143,6 +148,19 @@ public class LunaManager : MonoBehaviour
         Luna.Unity.Playable.InstallFullGame();
     }
 
-
+    //---------------------------------OTHER----------------------------
+    public void SetIsDrag(bool value)
+    {
+        isDrag = value;
+    }
+    public void DelaySetDrag()
+    {
+        StartCoroutine(SetIsDragTrue());
+    }
+    IEnumerator SetIsDragTrue()
+    {
+        yield return new WaitForSeconds(timeDrag);
+        isDrag = true;
+    }
 
 }
