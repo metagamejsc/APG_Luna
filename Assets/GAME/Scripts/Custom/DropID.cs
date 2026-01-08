@@ -6,13 +6,11 @@ using UnityEngine;
 
 public class DropID : MonoBehaviour
 {
-    // public int idDrop = 0;
-    //public GameObject[] steps;
     // public SkeletonGraphic skeletonGraphic;
-    // public string animationNameDefault = "idle";
     public GameObject GridMan;
-    public List<GameObject> mans;
-    public MixSkeletonSkin mixSkeletonSkin;
+    public List<GameObject> girls;
+    public SkeletonDataAsset[] skeletonDataAssets;
+    //public MixSkeletonSkin mixSkeletonSkin;
     //----------------------------------------------
 
     //------------------------------------
@@ -39,97 +37,222 @@ public class DropID : MonoBehaviour
     }
     public void DragItemID(int id)
     {
+        var index = 0;
+        if (index < 0) return;
+        AudioController.Instance.PlaySfx("Done");
+        var go = girls[0];
+        var skeletonGraphic = go.GetComponent<SkeletonGraphic>();
+
+        if (skeletonGraphic == null) return;
+        skeletonGraphic.skeletonDataAsset = skeletonDataAssets[id];
+        skeletonGraphic.Initialize(true);
+
+        var state = skeletonGraphic.AnimationState;
+
         switch (id)
         {
             case 0:
-                //keo
-                mixSkeletonSkin.RemoveSkinName("vay");
-                mixSkeletonSkin.MixAndApplySkins();
-                AudioController.Instance.PlaySfx("Item0");
+                var girlFan = LunaManager.ins.girlFan;
+                var skeGragirlFan = girlFan.GetComponent<SkeletonGraphic>();
+                var stategirlFan = skeGragirlFan.AnimationState;
+                stategirlFan.SetAnimation(0, "action", true);
+                TrackEntry entry = state.SetAnimation(0, "action", false);
+                entry.Complete += _ =>
+                {
+                    state.SetAnimation(0, "move", true);
+                    MoveGrid();
+                    //move girl
+                    go.transform.localScale = new Vector3(-1f, 1f, 1f);
+                    go.transform.DOKill();
+                    go.transform.DOLocalMove(new Vector3(-750f, 230f, 0f), 2f).OnComplete(() =>
+                    {
+                        LunaManager.ins.SetIsDrag(true);
+                        Destroy(go);
+                        girls.RemoveAt(index);
+
+                    });
+
+                };
                 break;
             case 1:
-                //phi tieu
-                mixSkeletonSkin.RemoveSkinName("nguc");
-                mixSkeletonSkin.MixAndApplySkins();
-                AudioController.Instance.PlaySfx("Item1");
+                AudioController.Instance.PlaySfx("Ufo");
+                TrackEntry entry1 = state.SetAnimation(0, "action", false);
+                entry1.Complete += _ =>
+                {
+                    MoveGrid();
+                    //move girl
+                    LunaManager.ins.SetIsDrag(true);
+                    Destroy(go);
+                    girls.RemoveAt(index);
+
+                };
                 break;
             case 2:
-                //mic
-                mixSkeletonSkin.PlayAnimation("action_hat");
+                //cho duoi
+                AudioController.Instance.PlaySfx("Scare");
+                TrackEntry entry2 = state.SetAnimation(0, "action", false);
+                var dog = LunaManager.ins.dog;
+                var skeGraDog = dog.GetComponent<SkeletonGraphic>();
+                var stateDog = skeGraDog.AnimationState;
+                stateDog.SetAnimation(0, "idle2", true);
+                entry2.Complete += _ =>
+                {
+                    //move dog
+                    stateDog.SetAnimation(0, "action", true);
+                    dog.transform.DOKill();
+                    dog.transform.DOLocalMove(new Vector3(-750f, 230f, 0f), 2f).OnComplete(() =>
+                    {
+                        Destroy(dog);
+                    });
+                    //movegirl
+                    state.SetAnimation(0, "win", true);
+                    MoveGrid();
+
+                    go.transform.DOKill();
+                    go.transform.DOLocalMove(new Vector3(-750f, 230f, 0f), 2f).OnComplete(() =>
+                    {
+                        LunaManager.ins.SetIsDrag(true);
+                        Destroy(go);
+                        girls.RemoveAt(index);
+
+                    });
+
+                };
                 break;
             case 3:
-                //click cabinet
+                //voi nuoc
+                AudioController.Instance.PlaySfx("Water");
+                var water = LunaManager.ins.water;
+                water.SetActive(true);
+                TrackEntry entry3 = state.SetAnimation(0, "action", false);
+                entry3.Complete += _ =>
+                {
 
+                    state.SetAnimation(0, "win", true);
+                    MoveGrid();
+                    //move girl
+                    go.transform.DOKill();
+                    go.transform.DOLocalMove(new Vector3(-750f, 230f, 0f), 2f).OnComplete(() =>
+                    {
+                        LunaManager.ins.SetIsDrag(true);
+                        Destroy(go);
+                        Destroy(water);
+                        girls.RemoveAt(index);
+
+                    });
+
+                };
                 break;
             case 4:
-                //click hair
-                mixSkeletonSkin.RemoveSkinName("toc");
-                mixSkeletonSkin.MixAndApplySkins();
+                //trung chim
+                AudioController.Instance.PlaySfx("Bird");
+                TrackEntry entry4 = state.SetAnimation(0, "win", true);
+
+                //state.SetAnimation(0, "win", true);
+                MoveGrid();
+                //move girl
+                go.transform.DOKill();
+                go.transform.DOLocalMove(new Vector3(-750f, 230f, 0f), 2f).OnComplete(() =>
+                {
+                    LunaManager.ins.SetIsDrag(true);
+                    Destroy(go);
+                    girls.RemoveAt(index);
+
+                });
                 break;
+
             case 5:
-                //khau trang
-                mixSkeletonSkin.RemoveSkinName("khautrang");
-                mixSkeletonSkin.MixAndApplySkins();
+                //rac
+                AudioController.Instance.PlaySfx("Die");
+                TrackEntry entry5 = state.SetAnimation(0, "action", true);
+                entry5.Complete += _ =>
+                {
+                    MoveGrid();
+                    LunaManager.ins.SetIsDrag(true);
+                    Destroy(go);
+                    girls.RemoveAt(index);
+
+
+                };
                 break;
             case 6:
-                //sip
-                mixSkeletonSkin.RemoveSkinName("face");
-                mixSkeletonSkin.MixAndApplySkins();
+                //mat troi
+                AudioController.Instance.PlaySfx("Die");
+                TrackEntry entry6 = state.SetAnimation(0, "action", true);
+                entry6.Complete += _ =>
+                {
+                    MoveGrid();
+                    LunaManager.ins.SetIsDrag(true);
+                    Destroy(go);
+                    girls.RemoveAt(index);
+
+
+                };
                 break;
+            case 7:
+                //but ve
+                var decor = LunaManager.ins.womanDecor;
+                Destroy(decor);
+                TrackEntry entry7 = state.SetAnimation(0, "move", true);
+                MoveGrid();
+                go.transform.DOKill();
+                go.transform.DOLocalMove(new Vector3(-750f, 230f, 0f), 2f).OnComplete(() =>
+                {
+                    LunaManager.ins.SetIsDrag(true);
+
+                    Destroy(go);
+                    girls.RemoveAt(index);
+
+                });
+                break;
+            case 8:
+                //money
+
+                TrackEntry entry8 = state.SetAnimation(0, "action", false);
+                entry8.Complete += _ =>
+                {
+
+                    state.SetAnimation(0, "win", true);
+                    MoveGrid();
+                    //move girl
+                    go.transform.DOKill();
+                    go.transform.DOLocalMove(new Vector3(-750f, 230f, 0f), 2f).OnComplete(() =>
+                    {
+                        LunaManager.ins.SetIsDrag(true);
+                        Destroy(go);
+                        girls.RemoveAt(index);
+
+                    });
+
+                };
+                break;
+
             default:
-                currentAnimation = "";
+
                 break;
         }
-        //
-        AudioController.Instance.PlaySfx("Oe");
-        var index = mans.Count - 1;
-        if (index < 0) return;
 
-        var go = mans[index];
-        var skeletonGraphic = go.GetComponent<SkeletonGraphic>();
-        var state = skeletonGraphic.AnimationState;
 
-        TrackEntry entry = state.SetAnimation(0, "action", false);
-        entry.Complete += _ =>
-        {
-            state.SetAnimation(0, "idle", true);
-
-            if (GridMan != null)
-            {
-                GridMan.transform.DOKill();
-
-                GridMan.transform
-                    .DOLocalMove(
-                        GridMan.transform.localPosition + new Vector3(-80f, -20f, 0f),
-                        0.3f
-                    )
-                    .SetEase(Ease.OutQuad);
-            }
-            LunaManager.ins.SetIsDrag(true);
-            Destroy(go);
-            mans.RemoveAt(index);
-        };
 
 
 
     }
+    void MoveGrid()
+    {
+        if (GridMan != null)
+        {
+            GridMan.transform.DOKill();
 
-    // void NextStep()
-    // {
-    //     if (steps.Length <= 0) return;
-    //     foreach (var step in steps)
-    //     {
-    //         step.SetActive(false);
-    //     }
-    //     steps[currentStep].SetActive(true);
-    // }
-    // void CheckDone()
-    // {
-    //     if (currentStep == steps.Length - 1)
-    //     {
-    //         boxCollider.enabled = false;
-    //     }
-    // }
+            GridMan.transform
+                .DOLocalMove(
+                    GridMan.transform.localPosition + new Vector3(63f, 56f, 0f),
+                    0.3f
+                )
+                .SetEase(Ease.OutQuad);
+        }
+
+
+    }
     void OnEnable()
     {
         GameController.OnUpgradePhase2 += EventUpgrade;

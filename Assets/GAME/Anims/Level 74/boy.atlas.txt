@@ -1,0 +1,15 @@
+boy.png
+size:148,276
+filter:Linear,Linear
+pma:true
+boy1
+bounds:2,56,126,215
+boy2
+bounds:43,2,57,64
+rotate:270
+boy3
+bounds:103,45,34,65
+offsets:0,0,35,65
+boy4
+bounds:90,110,98,56
+rotate:90

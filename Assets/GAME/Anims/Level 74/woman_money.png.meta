@@ -1,0 +1,1015 @@
+fileFormatVersion: 2
+guid: 55e4719b81fd0bf4fa4a0b2e0bb32b74
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4045187864859589983
+    second: woman_money_0
+  - first:
+      213: 2378125541428203339
+    second: woman_money_1
+  - first:
+      213: -8021905553973707012
+    second: woman_money_2
+  - first:
+      213: 7842160586711831936
+    second: woman_money_3
+  - first:
+      213: 4839800950183785022
+    second: woman_money_4
+  - first:
+      213: -3114170802646257148
+    second: woman_money_5
+  - first:
+      213: 7218069656520153144
+    second: woman_money_6
+  - first:
+      213: 7927825774502761674
+    second: woman_money_7
+  - first:
+      213: -3676180421367958342
+    second: woman_money_8
+  - first:
+      213: -7980181065560745634
+    second: woman_money_9
+  - first:
+      213: 3592623714137338373
+    second: woman_money_10
+  - first:
+      213: -5291146870385323926
+    second: woman_money_11
+  - first:
+      213: -1120626079671739054
+    second: woman_money_12
+  - first:
+      213: 6744828794801333964
+    second: woman_money_13
+  - first:
+      213: -3424463804101646413
+    second: woman_money_14
+  - first:
+      213: -1442899610755905991
+    second: woman_money_15
+  - first:
+      213: -2520131754721629790
+    second: woman_money_16
+  - first:
+      213: 8092613291476842145
+    second: woman_money_17
+  - first:
+      213: -2391818983720945910
+    second: woman_money_18
+  - first:
+      213: -1352449110236933506
+    second: woman_money_19
+  - first:
+      213: -8100550433305472157
+    second: woman_money_20
+  - first:
+      213: -3197591674200026
+    second: woman_money_21
+  - first:
+      213: 3578522769746024624
+    second: woman_money_22
+  - first:
+      213: 551243225243132029
+    second: woman_money_23
+  - first:
+      213: -6010237759446989315
+    second: woman_money_24
+  - first:
+      213: 8501674579128482574
+    second: woman_money_25
+  - first:
+      213: -1289551651649739353
+    second: woman_money_26
+  - first:
+      213: 8406372119243421320
+    second: woman_money_27
+  - first:
+      213: -5056043357434071401
+    second: woman_money_28
+  - first:
+      213: 3573019355732023699
+    second: woman_money_29
+  - first:
+      213: -2934217715943284999
+    second: woman_money_30
+  - first:
+      213: -6301220632702474290
+    second: woman_money_31
+  - first:
+      213: 1939678874607610343
+    second: woman_money_32
+  - first:
+      213: -4391572812447110719
+    second: woman_money_33
+  - first:
+      213: -20019386200948221
+    second: woman_money_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 70
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woman_money_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1120
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d3da64ee4632830800000000000000
+      internalID: 4045187864859589983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1149
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f8c10849cc00120800000000000000
+      internalID: 2378125541428203339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1153
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfef9a986677ca090800000000000000
+      internalID: -8021905553973707012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1089
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085178a0183f4dc60800000000000000
+      internalID: 7842160586711831936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1153
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e327d43625d6a2340800000000000000
+      internalID: 4839800950183785022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1105
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4027062972e38c4d0800000000000000
+      internalID: -3114170802646257148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_6
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1082
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838d8e01c1cbb2460800000000000000
+      internalID: 7218069656520153144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1084
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac45c6ad98b450e60800000000000000
+      internalID: 7927825774502761674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1086
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4fd1e42659bfcc0800000000000000
+      internalID: -3676180421367958342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_9
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1040
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5914f70a93b04190800000000000000
+      internalID: -7980181065560745634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_10
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1078
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502fcc4cb309bd130800000000000000
+      internalID: 3592623714137338373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_11
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1058
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60534084f11296b0800000000000000
+      internalID: -5291146870385323926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1003
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d9023948cb270f0800000000000000
+      internalID: -1120626079671739054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1044
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6a5f0ad027a9d50800000000000000
+      internalID: 6744828794801333964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_14
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1037
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7a652505cd970d0800000000000000
+      internalID: -3424463804101646413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 953
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9364856e27ac9fbe0800000000000000
+      internalID: -1442899610755905991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_16
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 990
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9a2a47581b60dd0800000000000000
+      internalID: -2520131754721629790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_17
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 988
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6f41f79ecbe4070800000000000000
+      internalID: 8092613291476842145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 908
+        width: 191
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07f6448e4d8eced0800000000000000
+      internalID: -2391818983720945910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 839
+        width: 152
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72d88723b22b3de0800000000000000
+      internalID: -1352449110236933506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_20
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 850
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363d0b9ac40159f80800000000000000
+      internalID: -8100550433305472157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 737
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6206f1caec3a4fff0800000000000000
+      internalID: -3197591674200026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 751
+        width: 78
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8db5fcf7779a130800000000000000
+      internalID: 3578522769746024624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_23
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 742
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d702571fac866a700800000000000000
+      internalID: 551243225243132029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_24
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 742
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5c584f998579ca0800000000000000
+      internalID: -6010237759446989315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 663
+        width: 186
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bfbe46cf30cf570800000000000000
+      internalID: 8501674579128482574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 583
+        width: 186
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a526ebea979a1ee0800000000000000
+      internalID: -1289551651649739353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 456
+        width: 144
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886704157ee69a470800000000000000
+      internalID: 8406372119243421320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_28
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 489
+        width: 40
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7963b2fba5355d9b0800000000000000
+      internalID: -5056043357434071401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_29
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 464
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39990026c2ae59130800000000000000
+      internalID: 3573019355732023699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 283
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9feda8398809747d0800000000000000
+      internalID: -2934217715943284999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 169
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7286848319d88a0800000000000000
+      internalID: -6301220632702474290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_32
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 250
+        width: 91
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9e05bd8af1bea10800000000000000
+      internalID: 1939678874607610343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_33
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 234
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9a3dc6bcffd03c0800000000000000
+      internalID: -4391572812447110719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_money_34
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3020fdc6970e8bff0800000000000000
+      internalID: -20019386200948221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      woman_money_0: 4045187864859589983
+      woman_money_1: 2378125541428203339
+      woman_money_10: 3592623714137338373
+      woman_money_11: -5291146870385323926
+      woman_money_12: -1120626079671739054
+      woman_money_13: 6744828794801333964
+      woman_money_14: -3424463804101646413
+      woman_money_15: -1442899610755905991
+      woman_money_16: -2520131754721629790
+      woman_money_17: 8092613291476842145
+      woman_money_18: -2391818983720945910
+      woman_money_19: -1352449110236933506
+      woman_money_2: -8021905553973707012
+      woman_money_20: -8100550433305472157
+      woman_money_21: -3197591674200026
+      woman_money_22: 3578522769746024624
+      woman_money_23: 551243225243132029
+      woman_money_24: -6010237759446989315
+      woman_money_25: 8501674579128482574
+      woman_money_26: -1289551651649739353
+      woman_money_27: 8406372119243421320
+      woman_money_28: -5056043357434071401
+      woman_money_29: 3573019355732023699
+      woman_money_3: 7842160586711831936
+      woman_money_30: -2934217715943284999
+      woman_money_31: -6301220632702474290
+      woman_money_32: 1939678874607610343
+      woman_money_33: -4391572812447110719
+      woman_money_34: -20019386200948221
+      woman_money_4: 4839800950183785022
+      woman_money_5: -3114170802646257148
+      woman_money_6: 7218069656520153144
+      woman_money_7: 7927825774502761674
+      woman_money_8: -3676180421367958342
+      woman_money_9: -7980181065560745634
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

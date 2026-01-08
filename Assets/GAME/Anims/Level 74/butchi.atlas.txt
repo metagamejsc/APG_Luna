@@ -1,0 +1,6 @@
+butchi.png
+size:32,72
+filter:Linear,Linear
+pma:true
+butchi
+bounds:2,2,28,68

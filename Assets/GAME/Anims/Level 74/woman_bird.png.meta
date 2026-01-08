@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: f6de449267b68b24bad0f03c004bc047
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7795823005359613718
+    second: woman_bird_0
+  - first:
+      213: 258705863108335139
+    second: woman_bird_1
+  - first:
+      213: 7199795755741727608
+    second: woman_bird_2
+  - first:
+      213: 6448835463588598611
+    second: woman_bird_3
+  - first:
+      213: -6596466235659141216
+    second: woman_bird_4
+  - first:
+      213: 8532363416656094020
+    second: woman_bird_5
+  - first:
+      213: -497461086607737468
+    second: woman_bird_6
+  - first:
+      213: -4804983441827844092
+    second: woman_bird_7
+  - first:
+      213: -4188590259335528125
+    second: woman_bird_8
+  - first:
+      213: 200965535265497288
+    second: woman_bird_9
+  - first:
+      213: -3755534305930890567
+    second: woman_bird_10
+  - first:
+      213: -1516481963053725378
+    second: woman_bird_11
+  - first:
+      213: 3802085124053359983
+    second: woman_bird_12
+  - first:
+      213: -3776456473939686768
+    second: woman_bird_13
+  - first:
+      213: 2979633736095591959
+    second: woman_bird_14
+  - first:
+      213: 5114627032622705547
+    second: woman_bird_15
+  - first:
+      213: -1764289243690831020
+    second: woman_bird_16
+  - first:
+      213: -8977317746327263912
+    second: woman_bird_17
+  - first:
+      213: 7634699627936005844
+    second: woman_bird_18
+  - first:
+      213: 3672147787844887970
+    second: woman_bird_19
+  - first:
+      213: 3751693595166250891
+    second: woman_bird_20
+  - first:
+      213: 4040649366492125798
+    second: woman_bird_21
+  - first:
+      213: -6609437168737992724
+    second: woman_bird_22
+  - first:
+      213: 7479911772424765870
+    second: woman_bird_23
+  - first:
+      213: 1196688628493028413
+    second: woman_bird_24
+  - first:
+      213: -7090813735682101137
+    second: woman_bird_25
+  - first:
+      213: 3480776813167481221
+    second: woman_bird_26
+  - first:
+      213: -5341527090546070125
+    second: woman_bird_27
+  - first:
+      213: 9149309833696753538
+    second: woman_bird_28
+  - first:
+      213: 7814142435653965765
+    second: woman_bird_29
+  - first:
+      213: 2035260027156404485
+    second: woman_bird_30
+  - first:
+      213: 3021292117923896637
+    second: woman_bird_31
+  - first:
+      213: -5455837301706130666
+    second: woman_bird_32
+  - first:
+      213: 7909367339954433214
+    second: woman_bird_33
+  - first:
+      213: 8408081602812037685
+    second: woman_bird_34
+  - first:
+      213: -5468713433223169718
+    second: woman_bird_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 70
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woman_bird_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1325
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617274628b3503c60800000000000000
+      internalID: 7795823005359613718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1374
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32612ef9c9b179300800000000000000
+      internalID: 258705863108335139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1374
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bc95cf710dae360800000000000000
+      internalID: 7199795755741727608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1333
+        width: 93
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353d32ecfadde7950800000000000000
+      internalID: 6448835463588598611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1267
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0afbda288e4a474a0800000000000000
+      internalID: -6596466235659141216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1281
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4432350325b096670800000000000000
+      internalID: 8532363416656094020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1295
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d7a2307c9a819f0800000000000000
+      internalID: -497461086607737468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1266
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400b73e7405415db0800000000000000
+      internalID: -4804983441827844092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1292
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34105aae9532fd5c0800000000000000
+      internalID: -4188590259335528125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1279
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0a89de619f9c200800000000000000
+      internalID: 200965535265497288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_10
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1277
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b232394279a1ebc0800000000000000
+      internalID: -3755534305930890567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1258
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3945e370bf54fae0800000000000000
+      internalID: -1516481963053725378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1255
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d5ff8a648b3c430800000000000000
+      internalID: 3802085124053359983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1237
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ac91178d4579bc0800000000000000
+      internalID: -3776456473939686768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1230
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e6fb0a819c95920800000000000000
+      internalID: 2979633736095591959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1066
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b261e003ecaf640800000000000000
+      internalID: 5114627032622705547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1151
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453f3ccc74cf387e0800000000000000
+      internalID: -1764289243690831020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_17
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1095
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8556a56d2192a6380800000000000000
+      internalID: -8977317746327263912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 928
+        width: 152
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4debee97cd6e3f960800000000000000
+      internalID: 7634699627936005844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_19
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 995
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a52b3905f616f230800000000000000
+      internalID: 3672147787844887970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_20
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1001
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b871efd8271b01430800000000000000
+      internalID: 3751693595166250891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_21
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 978
+        width: 32
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a9ba7c035431830800000000000000
+      internalID: 4040649366492125798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_22
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 940
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefbb10d9ef8644a0800000000000000
+      internalID: -6609437168737992724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_23
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 961
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea104a2702cfdc760800000000000000
+      internalID: 7479911772424765870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_24
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 940
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c8310a7fd7b9010800000000000000
+      internalID: 1196688628493028413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 826
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f603534e97e589d90800000000000000
+      internalID: -7090813735682101137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 735
+        width: 145
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5819343d1143e4030800000000000000
+      internalID: 3480776813167481221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_27
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 744
+        width: 74
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d20e969651fd5b0800000000000000
+      internalID: -5341527090546070125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 661
+        width: 186
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287bb7191d0e8fe70800000000000000
+      internalID: 9149309833696753538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_29
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 581
+        width: 186
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7d575e429617c60800000000000000
+      internalID: 7814142435653965765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 454
+        width: 144
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50995302632be3c10800000000000000
+      internalID: 2035260027156404485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_31
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 506
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d9a8b7c29cde920800000000000000
+      internalID: 3021292117923896637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_32
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 482
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bfa7f51e8f844b0800000000000000
+      internalID: -5455837301706130666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 281
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc6f08a0b7b3cd60800000000000000
+      internalID: 7909367339954433214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_34
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 169
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53acb1a7ba18fa470800000000000000
+      internalID: 8408081602812037685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_bird_35
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 243
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4973526b1a3b14b0800000000000000
+      internalID: -5468713433223169718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      woman_bird_0: 7795823005359613718
+      woman_bird_1: 258705863108335139
+      woman_bird_10: -3755534305930890567
+      woman_bird_11: -1516481963053725378
+      woman_bird_12: 3802085124053359983
+      woman_bird_13: -3776456473939686768
+      woman_bird_14: 2979633736095591959
+      woman_bird_15: 5114627032622705547
+      woman_bird_16: -1764289243690831020
+      woman_bird_17: -8977317746327263912
+      woman_bird_18: 7634699627936005844
+      woman_bird_19: 3672147787844887970
+      woman_bird_2: 7199795755741727608
+      woman_bird_20: 3751693595166250891
+      woman_bird_21: 4040649366492125798
+      woman_bird_22: -6609437168737992724
+      woman_bird_23: 7479911772424765870
+      woman_bird_24: 1196688628493028413
+      woman_bird_25: -7090813735682101137
+      woman_bird_26: 3480776813167481221
+      woman_bird_27: -5341527090546070125
+      woman_bird_28: 9149309833696753538
+      woman_bird_29: 7814142435653965765
+      woman_bird_3: 6448835463588598611
+      woman_bird_30: 2035260027156404485
+      woman_bird_31: 3021292117923896637
+      woman_bird_32: -5455837301706130666
+      woman_bird_33: 7909367339954433214
+      woman_bird_34: 8408081602812037685
+      woman_bird_35: -5468713433223169718
+      woman_bird_4: -6596466235659141216
+      woman_bird_5: 8532363416656094020
+      woman_bird_6: -497461086607737468
+      woman_bird_7: -4804983441827844092
+      woman_bird_8: -4188590259335528125
+      woman_bird_9: 200965535265497288
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

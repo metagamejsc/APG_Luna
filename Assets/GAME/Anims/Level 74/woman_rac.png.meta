@@ -1,0 +1,1165 @@
+fileFormatVersion: 2
+guid: 868c0e6762adda44b9971198f8306123
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1225900218009926454
+    second: woman_rac_0
+  - first:
+      213: 1648826925994823447
+    second: woman_rac_1
+  - first:
+      213: 1576294063068740501
+    second: woman_rac_2
+  - first:
+      213: 8991368983883577738
+    second: woman_rac_3
+  - first:
+      213: 2025189016107798154
+    second: woman_rac_4
+  - first:
+      213: 3532981181326394623
+    second: woman_rac_5
+  - first:
+      213: 4588294667839056357
+    second: woman_rac_6
+  - first:
+      213: -7447666416805957991
+    second: woman_rac_7
+  - first:
+      213: -6386431800652746892
+    second: woman_rac_8
+  - first:
+      213: 7170327453346092687
+    second: woman_rac_9
+  - first:
+      213: -2812925605716231573
+    second: woman_rac_10
+  - first:
+      213: -7856270476148253399
+    second: woman_rac_11
+  - first:
+      213: -1614418987212900096
+    second: woman_rac_12
+  - first:
+      213: 1785100782513708578
+    second: woman_rac_13
+  - first:
+      213: -1012164358218492943
+    second: woman_rac_14
+  - first:
+      213: 8220066970456838678
+    second: woman_rac_15
+  - first:
+      213: 6501024394475305262
+    second: woman_rac_16
+  - first:
+      213: 4888674945615068961
+    second: woman_rac_17
+  - first:
+      213: -7648736665658356482
+    second: woman_rac_18
+  - first:
+      213: 389887007933942923
+    second: woman_rac_19
+  - first:
+      213: 1494337736175501737
+    second: woman_rac_20
+  - first:
+      213: 2358344560091707152
+    second: woman_rac_21
+  - first:
+      213: -4977783963006381316
+    second: woman_rac_22
+  - first:
+      213: 9197610205100466489
+    second: woman_rac_23
+  - first:
+      213: -4808791105662069971
+    second: woman_rac_24
+  - first:
+      213: -2987071806406723565
+    second: woman_rac_25
+  - first:
+      213: -7283509132579123366
+    second: woman_rac_26
+  - first:
+      213: -1948368446066396537
+    second: woman_rac_27
+  - first:
+      213: -5061740619010949938
+    second: woman_rac_28
+  - first:
+      213: -8835456073911167961
+    second: woman_rac_29
+  - first:
+      213: 8936120999505063243
+    second: woman_rac_30
+  - first:
+      213: -2736130860510760106
+    second: woman_rac_31
+  - first:
+      213: 8107313711068092330
+    second: woman_rac_32
+  - first:
+      213: -7500725299422458979
+    second: woman_rac_33
+  - first:
+      213: -1825604720292309095
+    second: woman_rac_34
+  - first:
+      213: -3476822546689318446
+    second: woman_rac_35
+  - first:
+      213: 2802804881209062180
+    second: woman_rac_36
+  - first:
+      213: -3371304544507395056
+    second: woman_rac_37
+  - first:
+      213: 584358254364808938
+    second: woman_rac_38
+  - first:
+      213: 4847026950753473398
+    second: woman_rac_39
+  - first:
+      213: -7611310199064192799
+    second: woman_rac_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 70
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woman_rac_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 294
+        width: 93
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4c17f2f3abcfee0800000000000000
+      internalID: -1225900218009926454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 331
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f45047a5fc1e610800000000000000
+      internalID: 1648826925994823447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 293
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bf4ca491f10e510800000000000000
+      internalID: 1576294063068740501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 331
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8978d8d372c7cc70800000000000000
+      internalID: 8991368983883577738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 287
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ec0242eaaea1c10800000000000000
+      internalID: 2025189016107798154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 304
+        width: 91
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff489177aaba70130800000000000000
+      internalID: 3532981181326394623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_6
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 309
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9ad59c0b5ecaf30800000000000000
+      internalID: 4588294667839056357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_7
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 293
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99eaca47ad294a890800000000000000
+      internalID: -7447666416805957991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_8
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 305
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47fa5d33d16de57a0800000000000000
+      internalID: -6386431800652746892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_9
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 290
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86dceb24de128360800000000000000
+      internalID: 7170327453346092687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_10
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 274
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6afeaba01b76f8d0800000000000000
+      internalID: -2812925605716231573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_11
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 267
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d5bc150abe8f290800000000000000
+      internalID: -7856270476148253399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_12
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 263
+        width: 58
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00977841c7e6899e0800000000000000
+      internalID: -1614418987212900096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_13
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 162
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e500e24b3f5c810800000000000000
+      internalID: 1785100782513708578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_14
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 236
+        width: 143
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3531ef0e114f1f0800000000000000
+      internalID: -1012164358218492943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_15
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 312
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612500c9b5b831270800000000000000
+      internalID: 8220066970456838678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_16
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 310
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2979dc2e37483a50800000000000000
+      internalID: 6501024394475305262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 247
+        width: 191
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ffcb336ff08d340800000000000000
+      internalID: 4888674945615068961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_18
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 201
+        width: 144
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc8deef68a3ad590800000000000000
+      internalID: -7648736665658356482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_19
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 201
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c41720b28296500800000000000000
+      internalID: 389887007933942923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_20
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 269
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1c333f044fcb410800000000000000
+      internalID: 1494337736175501737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_21
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 271
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017bd32e1e58ab020800000000000000
+      internalID: 2358344560091707152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_22
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 172
+        width: 228
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf25e5cebdb5beab0800000000000000
+      internalID: -4977783963006381316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 213
+        width: 186
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931658120c974af70800000000000000
+      internalID: 9197610205100466489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_24
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 288
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2354fba7fdb34db0800000000000000
+      internalID: -4808791105662069971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_25
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 237
+        width: 152
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318fa8ca40acb86d0800000000000000
+      internalID: -2987071806406723565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_26
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 279
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fce4a9807cbea90800000000000000
+      internalID: -7283509132579123366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_27
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 201
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782f1a0a83106f4e0800000000000000
+      internalID: -1948368446066396537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_28
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 213
+        width: 186
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccbfaaa9b511c9b0800000000000000
+      internalID: -5061740619010949938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_29
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 258
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72415f55387226580800000000000000
+      internalID: -8835456073911167961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_30
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 258
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d686514ba730c70800000000000000
+      internalID: 8936120999505063243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_31
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 202
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653b540aa7f470ad0800000000000000
+      internalID: -2736130860510760106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_32
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 225
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa71ed6add6f28070800000000000000
+      internalID: 8107313711068092330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_33
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 263
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b832aa41218e790800000000000000
+      internalID: -7500725299422458979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_34
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 197
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99753baed262aa6e0800000000000000
+      internalID: -1825604720292309095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 498
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1a3859058dfbfc0800000000000000
+      internalID: -3476822546689318446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_36
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1
+        width: 409
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4237237803095e620800000000000000
+      internalID: 2802804881209062180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_37
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1
+        width: 414
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0140af2f068b631d0800000000000000
+      internalID: -3371304544507395056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_38
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1
+        width: 317
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae65bfc7cbe0c1800800000000000000
+      internalID: 584358254364808938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_39
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 188
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673d760c459144340800000000000000
+      internalID: 4847026950753473398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_rac_40
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 4
+        width: 280
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8987d43b13f5690800000000000000
+      internalID: -7611310199064192799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      woman_rac_0: -1225900218009926454
+      woman_rac_1: 1648826925994823447
+      woman_rac_10: -2812925605716231573
+      woman_rac_11: -7856270476148253399
+      woman_rac_12: -1614418987212900096
+      woman_rac_13: 1785100782513708578
+      woman_rac_14: -1012164358218492943
+      woman_rac_15: 8220066970456838678
+      woman_rac_16: 6501024394475305262
+      woman_rac_17: 4888674945615068961
+      woman_rac_18: -7648736665658356482
+      woman_rac_19: 389887007933942923
+      woman_rac_2: 1576294063068740501
+      woman_rac_20: 1494337736175501737
+      woman_rac_21: 2358344560091707152
+      woman_rac_22: -4977783963006381316
+      woman_rac_23: 9197610205100466489
+      woman_rac_24: -4808791105662069971
+      woman_rac_25: -2987071806406723565
+      woman_rac_26: -7283509132579123366
+      woman_rac_27: -1948368446066396537
+      woman_rac_28: -5061740619010949938
+      woman_rac_29: -8835456073911167961
+      woman_rac_3: 8991368983883577738
+      woman_rac_30: 8936120999505063243
+      woman_rac_31: -2736130860510760106
+      woman_rac_32: 8107313711068092330
+      woman_rac_33: -7500725299422458979
+      woman_rac_34: -1825604720292309095
+      woman_rac_35: -3476822546689318446
+      woman_rac_36: 2802804881209062180
+      woman_rac_37: -3371304544507395056
+      woman_rac_38: 584358254364808938
+      woman_rac_39: 4847026950753473398
+      woman_rac_4: 2025189016107798154
+      woman_rac_40: -7611310199064192799
+      woman_rac_5: 3532981181326394623
+      woman_rac_6: 4588294667839056357
+      woman_rac_7: -7447666416805957991
+      woman_rac_8: -6386431800652746892
+      woman_rac_9: 7170327453346092687
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

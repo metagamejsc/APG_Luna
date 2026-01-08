@@ -1,0 +1,1015 @@
+fileFormatVersion: 2
+guid: 14abb9b82f8c23142a101059fd36d8d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7261399247626922538
+    second: woman_door_0
+  - first:
+      213: 2672705277169169214
+    second: woman_door_1
+  - first:
+      213: -3218992407521626227
+    second: woman_door_2
+  - first:
+      213: -6766846150855742125
+    second: woman_door_3
+  - first:
+      213: 2961547032699755062
+    second: woman_door_4
+  - first:
+      213: -30485918203469399
+    second: woman_door_5
+  - first:
+      213: -1116025333593225576
+    second: woman_door_6
+  - first:
+      213: -7990547196405809176
+    second: woman_door_7
+  - first:
+      213: -6321292946378443304
+    second: woman_door_8
+  - first:
+      213: 3172078403965835019
+    second: woman_door_9
+  - first:
+      213: 4755687088018451790
+    second: woman_door_10
+  - first:
+      213: -1822577293590518460
+    second: woman_door_11
+  - first:
+      213: -640223294354775819
+    second: woman_door_12
+  - first:
+      213: 1464694742089643447
+    second: woman_door_13
+  - first:
+      213: 8367457263150032898
+    second: woman_door_14
+  - first:
+      213: -928325246898079286
+    second: woman_door_15
+  - first:
+      213: -2600059435319342093
+    second: woman_door_16
+  - first:
+      213: -6024282231346638296
+    second: woman_door_17
+  - first:
+      213: 6227697269915308697
+    second: woman_door_18
+  - first:
+      213: 5318850476425974478
+    second: woman_door_19
+  - first:
+      213: -3440473815857259587
+    second: woman_door_20
+  - first:
+      213: 5317277179711636717
+    second: woman_door_21
+  - first:
+      213: -8854656145776306545
+    second: woman_door_22
+  - first:
+      213: 787133251397022537
+    second: woman_door_23
+  - first:
+      213: -3886515914979671307
+    second: woman_door_24
+  - first:
+      213: -3035887584715330505
+    second: woman_door_25
+  - first:
+      213: 1187937890591963484
+    second: woman_door_26
+  - first:
+      213: 4937543613400988915
+    second: woman_door_27
+  - first:
+      213: 7710804659986699031
+    second: woman_door_28
+  - first:
+      213: -548476314141299654
+    second: woman_door_29
+  - first:
+      213: -8567558459278612907
+    second: woman_door_30
+  - first:
+      213: -49439053504842293
+    second: woman_door_31
+  - first:
+      213: -8728635470956158151
+    second: woman_door_32
+  - first:
+      213: 301080901115272820
+    second: woman_door_33
+  - first:
+      213: 610004069557744678
+    second: woman_door_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 70
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woman_door_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1120
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d598e85bd35a3b90800000000000000
+      internalID: -7261399247626922538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1149
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33fafaf94b571520800000000000000
+      internalID: 2672705277169169214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1153
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d877ef6d577d353d0800000000000000
+      internalID: -3218992407521626227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1089
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d268037455712a0800000000000000
+      internalID: -6766846150855742125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1153
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a5ea5d557891920800000000000000
+      internalID: 2961547032699755062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1105
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1a4da0831b39ff0800000000000000
+      internalID: -30485918203469399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_6
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1082
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896c6de3fd41380f0800000000000000
+      internalID: -1116025333593225576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1084
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8effc3d19afdb1190800000000000000
+      internalID: -7990547196405809176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1086
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d53ee19e814648a0800000000000000
+      internalID: -6321292946378443304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_9
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1040
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b075214808c750c20800000000000000
+      internalID: 3172078403965835019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_10
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1078
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d6048b5389ff140800000000000000
+      internalID: 4755687088018451790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_11
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1058
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44528df9b97e4b6e0800000000000000
+      internalID: -1822577293590518460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1003
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0ad0b4e487d17f0800000000000000
+      internalID: -640223294354775819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1044
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5b2ae8b14a35410800000000000000
+      internalID: 1464694742089643447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_14
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1037
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208e1535c0e2f1470800000000000000
+      internalID: 8367457263150032898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 953
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9fc9e3b1ded13f0800000000000000
+      internalID: -928325246898079286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_16
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 990
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb43e228bbbaebd0800000000000000
+      internalID: -2600059435319342093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_17
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 988
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822d2e58a33756ca0800000000000000
+      internalID: -6024282231346638296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 908
+        width: 191
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992d8f5dba93d6650800000000000000
+      internalID: 6227697269915308697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 839
+        width: 152
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec299cce35a50d940800000000000000
+      internalID: 5318850476425974478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_20
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 850
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb9bcafa4bf040d0800000000000000
+      internalID: -3440473815857259587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 737
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4c00d3c63cac940800000000000000
+      internalID: 5317277179711636717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 751
+        width: 78
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8616ce3621fd1580800000000000000
+      internalID: -8854656145776306545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_23
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 742
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943fa6095857cea00800000000000000
+      internalID: 787133251397022537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_24
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 742
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f20cb1fd52501ac0800000000000000
+      internalID: -3886515914979671307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 663
+        width: 186
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c2607935c5ed5d0800000000000000
+      internalID: -3035887584715330505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 583
+        width: 186
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59f5ffa7376c7010800000000000000
+      internalID: 1187937890591963484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 456
+        width: 144
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcb3c391cda58440800000000000000
+      internalID: 4937543613400988915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_28
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 489
+        width: 40
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7131fe21cf7420b60800000000000000
+      internalID: 7710804659986699031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_29
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 464
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c64efb2bb6368f0800000000000000
+      internalID: -548476314141299654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 283
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5562e4269fae91980800000000000000
+      internalID: -8567558459278612907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 169
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5ffc9517b505ff0800000000000000
+      internalID: -49439053504842293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_32
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 250
+        width: 91
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933a8c31948add680800000000000000
+      internalID: -8728635470956158151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_33
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 234
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e51affb77ad2400800000000000000
+      internalID: 301080901115272820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_door_34
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6243885287b277800800000000000000
+      internalID: 610004069557744678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      woman_door_0: -7261399247626922538
+      woman_door_1: 2672705277169169214
+      woman_door_10: 4755687088018451790
+      woman_door_11: -1822577293590518460
+      woman_door_12: -640223294354775819
+      woman_door_13: 1464694742089643447
+      woman_door_14: 8367457263150032898
+      woman_door_15: -928325246898079286
+      woman_door_16: -2600059435319342093
+      woman_door_17: -6024282231346638296
+      woman_door_18: 6227697269915308697
+      woman_door_19: 5318850476425974478
+      woman_door_2: -3218992407521626227
+      woman_door_20: -3440473815857259587
+      woman_door_21: 5317277179711636717
+      woman_door_22: -8854656145776306545
+      woman_door_23: 787133251397022537
+      woman_door_24: -3886515914979671307
+      woman_door_25: -3035887584715330505
+      woman_door_26: 1187937890591963484
+      woman_door_27: 4937543613400988915
+      woman_door_28: 7710804659986699031
+      woman_door_29: -548476314141299654
+      woman_door_3: -6766846150855742125
+      woman_door_30: -8567558459278612907
+      woman_door_31: -49439053504842293
+      woman_door_32: -8728635470956158151
+      woman_door_33: 301080901115272820
+      woman_door_34: 610004069557744678
+      woman_door_4: 2961547032699755062
+      woman_door_5: -30485918203469399
+      woman_door_6: -1116025333593225576
+      woman_door_7: -7990547196405809176
+      woman_door_8: -6321292946378443304
+      woman_door_9: 3172078403965835019
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

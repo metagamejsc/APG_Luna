@@ -1,0 +1,171 @@
+girl2.png
+size:384,1984
+filter:Linear,Linear
+pma:true
+Comp 1/Comp 1_00000
+bounds:235,1879,98,102
+offsets:13,63,200,200
+Comp 1/Comp 1_00001
+bounds:235,1879,98,102
+offsets:13,63,200,200
+Comp 1/Comp 1_00002
+bounds:235,1879,98,102
+offsets:13,63,200,200
+Comp 1/Comp 1_00003
+bounds:143,488,117,125
+offsets:18,46,200,200
+Comp 1/Comp 1_00004
+bounds:143,488,117,125
+offsets:18,46,200,200
+Comp 1/Comp 1_00005
+bounds:2,1108,138,164
+offsets:24,14,200,200
+rotate:90
+Comp 1/Comp 1_00006
+bounds:2,1108,138,164
+offsets:24,14,200,200
+rotate:90
+Comp 1/Comp 1_00007
+bounds:2,1108,138,164
+offsets:24,14,200,200
+rotate:90
+Comp 1/Comp 1_00008
+bounds:2,1389,146,175
+offsets:22,10,200,200
+rotate:90
+Comp 1/Comp 1_00009
+bounds:2,1389,146,175
+offsets:22,10,200,200
+rotate:90
+Comp 1/Comp 1_00010
+bounds:2,1248,139,172
+offsets:31,15,200,200
+rotate:90
+Comp 1/Comp 1_00011
+bounds:2,1248,139,172
+offsets:31,15,200,200
+rotate:90
+Comp 1/Comp 1_00012
+bounds:2,377,107,176
+offsets:64,14,200,200
+rotate:90
+Comp 1/Comp 1_00013
+bounds:2,377,107,176
+offsets:64,14,200,200
+rotate:90
+Comp 1/Comp 1_00014
+bounds:2,377,107,176
+offsets:64,14,200,200
+rotate:90
+Comp 1/Comp 1_00015
+bounds:2,999,107,181
+offsets:67,12,200,200
+rotate:90
+Comp 1/Comp 1_00016
+bounds:2,999,107,181
+offsets:67,12,200,200
+rotate:90
+Comp 1/Comp 1_00017
+bounds:176,1204,57,183
+offsets:117,13,200,200
+Comp 1/Comp 1_00018
+bounds:176,1204,57,183
+offsets:117,13,200,200
+Comp 1/Comp 1_00019
+bounds:176,1204,57,183
+offsets:117,13,200,200
+Comp 1/Comp 1_00020
+bounds:282,442,54,145
+offsets:122,10,200,200
+Comp 1/Comp 1_00021
+bounds:282,442,54,145
+offsets:122,10,200,200
+Comp 1/Comp 1_00022
+bounds:279,1518,54,147
+offsets:124,7,200,200
+Comp 1/Comp 1_00023
+bounds:279,1518,54,147
+offsets:124,7,200,200
+Comp 1/Comp 1_00024
+bounds:287,1140,51,146
+offsets:130,6,200,200
+Comp 1/Comp 1_00025
+bounds:287,1140,51,146
+offsets:130,6,200,200
+Comp 1/Comp 1_00026
+bounds:287,1140,51,146
+offsets:130,6,200,200
+cry1/Comp 1_00000
+bounds:185,1102,100,100
+cry1/Comp 1_00001
+bounds:185,1102,100,100
+cry1/Comp 1_00002
+bounds:185,1102,100,100
+cry1/Comp 1_00003
+bounds:180,386,100,100
+cry1/Comp 1_00004
+bounds:180,386,100,100
+cry1/Comp 1_00005
+bounds:179,1392,100,100
+cry1/Comp 1_00006
+bounds:179,1392,100,100
+cry1/Comp 1_00007
+bounds:179,1392,100,100
+girl1_ 10
+bounds:29,730,211,343
+girl1_ 11
+bounds:2,111,264,156
+rotate:90
+girl1_ 12
+bounds:226,1620,144,272
+girl1_ 13
+bounds:2,1537,231,444
+girl1_ 14
+bounds:178,1818,26,21
+offsets:2,2,29,24
+girl1_ 15
+bounds:2,137,58,13
+offsets:1,2,62,16
+girl1_ 16
+bounds:226,740,245,154
+rotate:90
+girl1_ 3
+bounds:270,1836,44,41
+offsets:1,1,46,43
+girl2_ 10
+bounds:194,719,97,234
+offsets:2,1,101,237
+girl2_ 11
+bounds:167,1493,112,235
+offsets:1,2,114,238
+girl2_ 12
+bounds:115,2,219,380
+offsets:17,0,236,380
+rotate:180
+girl2_ 14
+bounds:216,1818,52,38
+offsets:1,1,53,40
+girl2_ 2
+bounds:238,994,96,104
+girl2_ 4
+bounds:309,1342,67,174
+girl2_ 6
+bounds:2,486,139,136
+offsets:4,4,147,144
+girl2_ 7
+bounds:249,588,123,97
+girl2_ 8
+bounds:289,103,88,181
+offsets:1,1,90,183
+girl2_ 9
+bounds:84,615,175,152
+offsets:0,9,176,162
+rotate:90
+girl2_15
+bounds:175,1955,57,26
+girl2_16
+bounds:144,1730,126,86
+offsets:5,0,131,87
+heat
+bounds:235,1288,92,102
+offsets:1,0,94,102

@@ -1,0 +1,7 @@
+money.png
+size:56,80
+filter:Linear,Linear
+pma:true
+woman6
+bounds:2,2,50,73
+offsets:0,1,50,74

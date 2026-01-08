@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 586490aed1bbda44b9fd3f521da4976c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 462618608729744706
+    second: woman_voinuoc_0
+  - first:
+      213: -2086168385748599963
+    second: woman_voinuoc_1
+  - first:
+      213: -4059742480270612204
+    second: woman_voinuoc_2
+  - first:
+      213: 8283587141297524997
+    second: woman_voinuoc_3
+  - first:
+      213: 3768838346498893403
+    second: woman_voinuoc_4
+  - first:
+      213: 8801235102457788515
+    second: woman_voinuoc_5
+  - first:
+      213: 1300216840791222963
+    second: woman_voinuoc_6
+  - first:
+      213: -365629675440798580
+    second: woman_voinuoc_7
+  - first:
+      213: -2985704736216295065
+    second: woman_voinuoc_8
+  - first:
+      213: -1739818402389057838
+    second: woman_voinuoc_9
+  - first:
+      213: 1859295806464942946
+    second: woman_voinuoc_10
+  - first:
+      213: -800302823943967478
+    second: woman_voinuoc_11
+  - first:
+      213: -2647072793919918863
+    second: woman_voinuoc_12
+  - first:
+      213: -8177349159042859103
+    second: woman_voinuoc_13
+  - first:
+      213: 4577437206743952099
+    second: woman_voinuoc_14
+  - first:
+      213: 6534127623704508290
+    second: woman_voinuoc_15
+  - first:
+      213: -4359923777276555650
+    second: woman_voinuoc_16
+  - first:
+      213: 1124159516892721161
+    second: woman_voinuoc_17
+  - first:
+      213: -4212906212242878540
+    second: woman_voinuoc_18
+  - first:
+      213: -4934769565442628188
+    second: woman_voinuoc_19
+  - first:
+      213: -9013437962622720938
+    second: woman_voinuoc_20
+  - first:
+      213: 8781988069606430929
+    second: woman_voinuoc_21
+  - first:
+      213: 8414423950863173218
+    second: woman_voinuoc_22
+  - first:
+      213: -8231131521415778520
+    second: woman_voinuoc_23
+  - first:
+      213: -3491437770554186024
+    second: woman_voinuoc_24
+  - first:
+      213: 4007863411290255594
+    second: woman_voinuoc_25
+  - first:
+      213: 3488222115027727208
+    second: woman_voinuoc_26
+  - first:
+      213: 8839556729432646393
+    second: woman_voinuoc_27
+  - first:
+      213: -4269143020922745346
+    second: woman_voinuoc_28
+  - first:
+      213: 1938896804133221114
+    second: woman_voinuoc_29
+  - first:
+      213: 1265445476926872178
+    second: woman_voinuoc_30
+  - first:
+      213: 5730612338831155945
+    second: woman_voinuoc_31
+  - first:
+      213: -1010946321129814038
+    second: woman_voinuoc_32
+  - first:
+      213: 5270429568173399275
+    second: woman_voinuoc_33
+  - first:
+      213: 3287989081305381963
+    second: woman_voinuoc_34
+  - first:
+      213: -7574437473569166612
+    second: woman_voinuoc_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 70
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woman_voinuoc_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1873
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24562df6c2d8b6600800000000000000
+      internalID: 462618608729744706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1922
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bfdc9f7e07c03e0800000000000000
+      internalID: -2086168385748599963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1922
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41928ef39b5e8a7c0800000000000000
+      internalID: -4059742480270612204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1881
+        width: 93
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501580fdd9635f270800000000000000
+      internalID: 8283587141297524997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1815
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56efea028a9d4430800000000000000
+      internalID: 3768838346498893403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1829
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368f1bad1b4442a70800000000000000
+      internalID: 8801235102457788515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1843
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba675ee35c4b0210800000000000000
+      internalID: 1300216840791222963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1814
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8482045fb50deaf0800000000000000
+      internalID: -365629675440798580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76950a18c55a096d0800000000000000
+      internalID: -2985704736216295065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1806
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de99e7816cead7e0800000000000000
+      internalID: -1739818402389057838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1803
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26367bc5fab8dc910800000000000000
+      internalID: 1859295806464942946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1785
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0de31262d0c4e4f0800000000000000
+      internalID: -800302823943967478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1778
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc6dc79155b34bd0800000000000000
+      internalID: -2647072793919918863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1614
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af39eae348348e80800000000000000
+      internalID: -8177349159042859103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1699
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea21a123e2568f30800000000000000
+      internalID: 4577437206743952099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_15
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1643
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28779f75472edaa50800000000000000
+      internalID: 6534127623704508290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1543
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ec6a7ac607e73c0800000000000000
+      internalID: -4359923777276555650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1576
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900f343ef11d99f00800000000000000
+      internalID: 1124159516892721161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1560
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf0a33fe10c885c0800000000000000
+      internalID: -4212906212242878540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1476
+        width: 152
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5226bc93d248bb0800000000000000
+      internalID: -4934769565442628188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1539
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6542ad0ade5d9e280800000000000000
+      internalID: -9013437962622720938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_21
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1539
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d81c9ece93efd970800000000000000
+      internalID: 8781988069606430929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1292
+        width: 74
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2660db4700a06c470800000000000000
+      internalID: 8414423950863173218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1483
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fed7edd7525cd80800000000000000
+      internalID: -8231131521415778520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1374
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d66cba98dbeb8fc0800000000000000
+      internalID: -3491437770554186024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1282
+        width: 143
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0bd3ab98ace9730800000000000000
+      internalID: 4007863411290255594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1208
+        width: 186
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863b3ef3887a86030800000000000000
+      internalID: 3488222115027727208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1128
+        width: 186
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f22fbde20a6caa70800000000000000
+      internalID: 8839556729432646393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1001
+        width: 144
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efdcf869a05f0c4c0800000000000000
+      internalID: -4269143020922745346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_29
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1036
+        width: 32
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af23082ee5858ea10800000000000000
+      internalID: 1938896804133221114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_30
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1074
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ad9d6e4f3cf8110800000000000000
+      internalID: 1265445476926872178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 828
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e260816f89378f40800000000000000
+      internalID: 5730612338831155945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 600
+        width: 142
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7c11a5da568f1f0800000000000000
+      internalID: -1010946321129814038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_33
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 753
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becd0b0b4c3542940800000000000000
+      internalID: 5270429568173399275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 187
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cf19026a841ad20800000000000000
+      internalID: 3287989081305381963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_voinuoc_35
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 320
+        width: 169
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceaa086bf3132e690800000000000000
+      internalID: -7574437473569166612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      woman_voinuoc_0: 462618608729744706
+      woman_voinuoc_1: -2086168385748599963
+      woman_voinuoc_10: 1859295806464942946
+      woman_voinuoc_11: -800302823943967478
+      woman_voinuoc_12: -2647072793919918863
+      woman_voinuoc_13: -8177349159042859103
+      woman_voinuoc_14: 4577437206743952099
+      woman_voinuoc_15: 6534127623704508290
+      woman_voinuoc_16: -4359923777276555650
+      woman_voinuoc_17: 1124159516892721161
+      woman_voinuoc_18: -4212906212242878540
+      woman_voinuoc_19: -4934769565442628188
+      woman_voinuoc_2: -4059742480270612204
+      woman_voinuoc_20: -9013437962622720938
+      woman_voinuoc_21: 8781988069606430929
+      woman_voinuoc_22: 8414423950863173218
+      woman_voinuoc_23: -8231131521415778520
+      woman_voinuoc_24: -3491437770554186024
+      woman_voinuoc_25: 4007863411290255594
+      woman_voinuoc_26: 3488222115027727208
+      woman_voinuoc_27: 8839556729432646393
+      woman_voinuoc_28: -4269143020922745346
+      woman_voinuoc_29: 1938896804133221114
+      woman_voinuoc_3: 8283587141297524997
+      woman_voinuoc_30: 1265445476926872178
+      woman_voinuoc_31: 5730612338831155945
+      woman_voinuoc_32: -1010946321129814038
+      woman_voinuoc_33: 5270429568173399275
+      woman_voinuoc_34: 3287989081305381963
+      woman_voinuoc_35: -7574437473569166612
+      woman_voinuoc_4: 3768838346498893403
+      woman_voinuoc_5: 8801235102457788515
+      woman_voinuoc_6: 1300216840791222963
+      woman_voinuoc_7: -365629675440798580
+      woman_voinuoc_8: -2985704736216295065
+      woman_voinuoc_9: -1739818402389057838
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

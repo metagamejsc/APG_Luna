@@ -1,3 +1,4 @@
+using Spine.Unity;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -10,6 +11,7 @@ public class DragID : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     private GameObject originParent;
     private CanvasGroup canvasGroup;
     public bool isProcess = false;
+    public bool isInvisible = false;
 
     void Awake()
     {
@@ -17,6 +19,10 @@ public class DragID : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         canvasGroup = GetComponent<CanvasGroup>();
         originalPosition = rectTransform.anchoredPosition;
         originParent = transform.parent.gameObject;
+        if (isInvisible)
+        {
+            canvasGroup.alpha = 0f;
+        }
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -25,6 +31,8 @@ public class DragID : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         canvasGroup.alpha = 0.6f;
         canvasGroup.blocksRaycasts = false;
         transform.SetParent(LunaManager.ins.Parent.transform);
+        if (idDrag == 2) SpecialDog(true);
+        if (idDrag == 0) SpecialGirlFan(true);
     }
     public void OnDrag(PointerEventData eventData)
     {
@@ -33,13 +41,17 @@ public class DragID : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         rectTransform.position = worldPoint;
         LunaManager.ins.OffStartCard();
         //rectTransform.position = Input.mousePosition;
+
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
         if (!GetIsDrag()) return;
         transform.SetParent(originParent.transform);
-        canvasGroup.alpha = 1f;
+        if (idDrag == 2) SpecialDog(false);
+        if (idDrag == 0) SpecialGirlFan(false);
+        float alpha = isInvisible ? 0f : 1f;
+        canvasGroup.alpha = alpha;
         canvasGroup.blocksRaycasts = true;
 
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
@@ -63,5 +75,32 @@ public class DragID : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     bool GetIsDrag()
     {
         return LunaManager.ins.isDrag;
+    }
+    void SpecialDog(bool isBone = false)
+    {
+        var skeGra = LunaManager.ins.dog.GetComponent<SkeletonGraphic>();
+        var state = skeGra.AnimationState;
+        if (isBone)
+        {
+            state.SetAnimation(0, "idle2", true);
+        }
+        else
+        {
+            state.SetAnimation(0, "idle1", true);
+        }
+    }
+    void SpecialGirlFan(bool isFan = false)
+    {
+
+        var skeGra = LunaManager.ins.girlFan.GetComponent<SkeletonGraphic>();
+        var state = skeGra.AnimationState;
+        if (isFan)
+        {
+            state.SetAnimation(0, "action", true);
+        }
+        else
+        {
+            state.SetAnimation(0, "idle", true);
+        }
     }
 }

@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 66a2962664775314b8d84a39d2c521b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7072089662170299137
+    second: woman_quat_0
+  - first:
+      213: 1069560169300923015
+    second: woman_quat_1
+  - first:
+      213: -510431810050312514
+    second: woman_quat_2
+  - first:
+      213: -542440822623772092
+    second: woman_quat_3
+  - first:
+      213: 2278103816698644555
+    second: woman_quat_4
+  - first:
+      213: 44371322826937034
+    second: woman_quat_5
+  - first:
+      213: 8485588682618622800
+    second: woman_quat_6
+  - first:
+      213: 179203727830291964
+    second: woman_quat_7
+  - first:
+      213: -6666438535834965714
+    second: woman_quat_8
+  - first:
+      213: -3899933939005285722
+    second: woman_quat_9
+  - first:
+      213: -1924158471845375047
+    second: woman_quat_10
+  - first:
+      213: -5415986918099593128
+    second: woman_quat_11
+  - first:
+      213: -3128731204969090366
+    second: woman_quat_12
+  - first:
+      213: 5332473324916079483
+    second: woman_quat_13
+  - first:
+      213: 6857974225379171698
+    second: woman_quat_14
+  - first:
+      213: 1608707619871793617
+    second: woman_quat_15
+  - first:
+      213: 4808822249070004935
+    second: woman_quat_16
+  - first:
+      213: 3110928454702928052
+    second: woman_quat_17
+  - first:
+      213: 5497426430912851403
+    second: woman_quat_18
+  - first:
+      213: 319185627601103316
+    second: woman_quat_19
+  - first:
+      213: -4957897767154094745
+    second: woman_quat_20
+  - first:
+      213: -205550199351073095
+    second: woman_quat_21
+  - first:
+      213: 4078582338820928135
+    second: woman_quat_22
+  - first:
+      213: 5920260241019832539
+    second: woman_quat_23
+  - first:
+      213: -6997360102043143908
+    second: woman_quat_24
+  - first:
+      213: -8868944524364043421
+    second: woman_quat_25
+  - first:
+      213: -3883736772624798973
+    second: woman_quat_26
+  - first:
+      213: 7174550554314210345
+    second: woman_quat_27
+  - first:
+      213: 3768589334616939055
+    second: woman_quat_28
+  - first:
+      213: 5707478740197583955
+    second: woman_quat_29
+  - first:
+      213: 403649989838117858
+    second: woman_quat_30
+  - first:
+      213: -5996788636345103450
+    second: woman_quat_31
+  - first:
+      213: 2882906686780367255
+    second: woman_quat_32
+  - first:
+      213: -5713369507168041407
+    second: woman_quat_33
+  - first:
+      213: 4288152309692046103
+    second: woman_quat_34
+  - first:
+      213: -6599044442679809908
+    second: woman_quat_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 70
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woman_quat_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1873
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b7f55041c152260800000000000000
+      internalID: 7072089662170299137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1922
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7829615ae47d7de00800000000000000
+      internalID: 1069560169300923015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1922
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb634ef19f49ae8f0800000000000000
+      internalID: -510431810050312514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1881
+        width: 93
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442e6df12fcd878f0800000000000000
+      internalID: -542440822623772092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1815
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48c8c3f9537d9f10800000000000000
+      internalID: 2278103816698644555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1829
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac25057ab73ad9000800000000000000
+      internalID: 44371322826937034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1843
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053de81c2fdd2c570800000000000000
+      internalID: 8485588682618622800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1814
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf510cb47d8ac7200800000000000000
+      internalID: 179203727830291964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29e492d87d0c73a0800000000000000
+      internalID: -6666438535834965714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1806
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa9916ceb6a0e9c0800000000000000
+      internalID: -3899933939005285722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1803
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3191280140c45e0800000000000000
+      internalID: -1924158471845375047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1785
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858d286d79c86d4b0800000000000000
+      internalID: -5415986918099593128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1778
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2332abb838494d0800000000000000
+      internalID: -3128731204969090366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1614
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b7ed18c30c00a40800000000000000
+      internalID: 5332473324916079483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1699
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d928e093b6c2f50800000000000000
+      internalID: 6857974225379171698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_15
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1643
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d12ce59e07435610800000000000000
+      internalID: 1608707619871793617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1543
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca00d77b5e5cb240800000000000000
+      internalID: 4808822249070004935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1576
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0193872fc3c2b20800000000000000
+      internalID: 3110928454702928052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1560
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd67695638ca4c40800000000000000
+      internalID: 5497426430912851403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1476
+        width: 152
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9e29e13a9fd6400800000000000000
+      internalID: 319185627601103316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1539
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76de314bf32023bb0800000000000000
+      internalID: -4957897767154094745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_21
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1539
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b62b28ce2db52df0800000000000000
+      internalID: -205550199351073095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1292
+        width: 74
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7827a9427090a9830800000000000000
+      internalID: 4078582338820928135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1483
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd80bd3825df82250800000000000000
+      internalID: 5920260241019832539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1374
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c113a309f0264ee90800000000000000
+      internalID: -6997360102043143908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1282
+        width: 143
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ba2acd1fd2be480800000000000000
+      internalID: -8868944524364043421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1208
+        width: 186
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ba3927bf13a1ac0800000000000000
+      internalID: -3883736772624798973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1128
+        width: 186
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cfafc77bf119360800000000000000
+      internalID: 7174550554314210345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1001
+        width: 144
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a1b227808bc4430800000000000000
+      internalID: 3768589334616939055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_29
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1036
+        width: 32
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c2298bca9053f40800000000000000
+      internalID: 5707478740197583955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_30
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1074
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb14e1f68d0a9500800000000000000
+      internalID: 403649989838117858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 828
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab0d81f18027cca0800000000000000
+      internalID: -5996788636345103450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 600
+        width: 142
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791642a7b54220820800000000000000
+      internalID: 2882906686780367255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_33
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 753
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14643b634b806b0b0800000000000000
+      internalID: -5713369507168041407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 187
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b17f95ec3928b30800000000000000
+      internalID: 4288152309692046103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_quat_35
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 320
+        width: 169
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88ed09ea0c7b64a0800000000000000
+      internalID: -6599044442679809908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      woman_quat_0: 7072089662170299137
+      woman_quat_1: 1069560169300923015
+      woman_quat_10: -1924158471845375047
+      woman_quat_11: -5415986918099593128
+      woman_quat_12: -3128731204969090366
+      woman_quat_13: 5332473324916079483
+      woman_quat_14: 6857974225379171698
+      woman_quat_15: 1608707619871793617
+      woman_quat_16: 4808822249070004935
+      woman_quat_17: 3110928454702928052
+      woman_quat_18: 5497426430912851403
+      woman_quat_19: 319185627601103316
+      woman_quat_2: -510431810050312514
+      woman_quat_20: -4957897767154094745
+      woman_quat_21: -205550199351073095
+      woman_quat_22: 4078582338820928135
+      woman_quat_23: 5920260241019832539
+      woman_quat_24: -6997360102043143908
+      woman_quat_25: -8868944524364043421
+      woman_quat_26: -3883736772624798973
+      woman_quat_27: 7174550554314210345
+      woman_quat_28: 3768589334616939055
+      woman_quat_29: 5707478740197583955
+      woman_quat_3: -542440822623772092
+      woman_quat_30: 403649989838117858
+      woman_quat_31: -5996788636345103450
+      woman_quat_32: 2882906686780367255
+      woman_quat_33: -5713369507168041407
+      woman_quat_34: 4288152309692046103
+      woman_quat_35: -6599044442679809908
+      woman_quat_4: 2278103816698644555
+      woman_quat_5: 44371322826937034
+      woman_quat_6: 8485588682618622800
+      woman_quat_7: 179203727830291964
+      woman_quat_8: -6666438535834965714
+      woman_quat_9: -3899933939005285722
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

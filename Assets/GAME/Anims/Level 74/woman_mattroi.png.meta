@@ -1,0 +1,1165 @@
+fileFormatVersion: 2
+guid: 26e242c99d5df884b9353a7c09fd396d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7378716133768245514
+    second: woman_mattroi_0
+  - first:
+      213: 131835994788489851
+    second: woman_mattroi_1
+  - first:
+      213: -4169992006041428503
+    second: woman_mattroi_2
+  - first:
+      213: -1431036612610465212
+    second: woman_mattroi_3
+  - first:
+      213: 600000781944906607
+    second: woman_mattroi_4
+  - first:
+      213: -9211446525600281277
+    second: woman_mattroi_5
+  - first:
+      213: 6431144311097959528
+    second: woman_mattroi_6
+  - first:
+      213: 2479306664666587330
+    second: woman_mattroi_7
+  - first:
+      213: -6081561108555590410
+    second: woman_mattroi_8
+  - first:
+      213: 6368467216566216072
+    second: woman_mattroi_9
+  - first:
+      213: -2920974768208846144
+    second: woman_mattroi_10
+  - first:
+      213: 4283492315471658286
+    second: woman_mattroi_11
+  - first:
+      213: 3803315361282884044
+    second: woman_mattroi_12
+  - first:
+      213: 1040900413651060236
+    second: woman_mattroi_13
+  - first:
+      213: -2625222910768195681
+    second: woman_mattroi_14
+  - first:
+      213: -7187436664262427291
+    second: woman_mattroi_15
+  - first:
+      213: -3539899099940728944
+    second: woman_mattroi_16
+  - first:
+      213: 8106954568741015017
+    second: woman_mattroi_17
+  - first:
+      213: 6394096636822670132
+    second: woman_mattroi_18
+  - first:
+      213: 1707526184463493388
+    second: woman_mattroi_19
+  - first:
+      213: -1244709671601442828
+    second: woman_mattroi_20
+  - first:
+      213: -3044681922589930748
+    second: woman_mattroi_21
+  - first:
+      213: 6101359008196740576
+    second: woman_mattroi_22
+  - first:
+      213: 1404321147140731370
+    second: woman_mattroi_23
+  - first:
+      213: -5525685550458137707
+    second: woman_mattroi_24
+  - first:
+      213: -7946054586313669593
+    second: woman_mattroi_25
+  - first:
+      213: 2824215404167571014
+    second: woman_mattroi_26
+  - first:
+      213: 5983151911851425185
+    second: woman_mattroi_27
+  - first:
+      213: 4267163520578155272
+    second: woman_mattroi_28
+  - first:
+      213: 8091997311656219254
+    second: woman_mattroi_29
+  - first:
+      213: -4635043636858517218
+    second: woman_mattroi_30
+  - first:
+      213: 8805840821354820071
+    second: woman_mattroi_31
+  - first:
+      213: -3827282080417336453
+    second: woman_mattroi_32
+  - first:
+      213: 3561224756124219290
+    second: woman_mattroi_33
+  - first:
+      213: 1149616315370817727
+    second: woman_mattroi_34
+  - first:
+      213: 3220612962739957926
+    second: woman_mattroi_35
+  - first:
+      213: -5879484692454465502
+    second: woman_mattroi_36
+  - first:
+      213: -2230804253253268794
+    second: woman_mattroi_37
+  - first:
+      213: -4876671628149887817
+    second: woman_mattroi_38
+  - first:
+      213: 8861235870899369619
+    second: woman_mattroi_39
+  - first:
+      213: -7735132597405475723
+    second: woman_mattroi_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 70
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woman_mattroi_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 294
+        width: 93
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fecc4c35c8899990800000000000000
+      internalID: -7378716133768245514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 331
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a6af5832064d100800000000000000
+      internalID: 131835994788489851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 293
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed9ea33d563126c0800000000000000
+      internalID: -4169992006041428503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 331
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44266c468cfe32ce0800000000000000
+      internalID: -1431036612610465212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 287
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6368c04881a35800800000000000000
+      internalID: 600000781944906607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 304
+        width: 91
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34dc616703e5a2080800000000000000
+      internalID: -9211446525600281277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_6
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 309
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864a4426da3004950800000000000000
+      internalID: 6431144311097959528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_7
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 293
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0e5bc8644486220800000000000000
+      internalID: 2479306664666587330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_8
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 305
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f496bca464f99ba0800000000000000
+      internalID: -6081561108555590410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_9
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 290
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885662f1137516850800000000000000
+      internalID: 6368467216566216072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_10
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 274
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2680f9cec9677d0800000000000000
+      internalID: -2920974768208846144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_11
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 267
+        width: 28
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2dbdc5e095027b30800000000000000
+      internalID: 4283492315471658286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_12
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 263
+        width: 58
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc18d069b2718c430800000000000000
+      internalID: 3803315361282884044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_13
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 162
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c068a3a4965027e00800000000000000
+      internalID: 1040900413651060236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_14
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 236
+        width: 143
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97d173fba5519bd0800000000000000
+      internalID: -2625222910768195681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_15
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 312
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56df40d3f68114c90800000000000000
+      internalID: -7187436664262427291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_16
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 310
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fce471680cfdec0800000000000000
+      internalID: -3539899099940728944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_17
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 247
+        width: 191
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edc9005a30b18070800000000000000
+      internalID: 8106954568741015017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_18
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 201
+        width: 144
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bc55983056cb850800000000000000
+      internalID: 6394096636822670132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_19
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 201
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09ef95940a52b710800000000000000
+      internalID: 1707526184463493388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_20
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 269
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffe3bff527e9bee0800000000000000
+      internalID: -1244709671601442828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_21
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 271
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b49fd3ced1fb5d0800000000000000
+      internalID: -3044681922589930748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_22
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 172
+        width: 228
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e542ba01b16ca450800000000000000
+      internalID: 6101359008196740576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 213
+        width: 186
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae174e594a62d7310800000000000000
+      internalID: 1404321147140731370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_24
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 288
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5931f68a442d053b0800000000000000
+      internalID: -5525685550458137707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_25
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 237
+        width: 152
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72409e82471f9b190800000000000000
+      internalID: -7946054586313669593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_26
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 279
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646289e52f0a13720800000000000000
+      internalID: 2824215404167571014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_27
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 201
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad7a17b6fc680350800000000000000
+      internalID: 5983151911851425185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_28
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 213
+        width: 186
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803f0921d92083b30800000000000000
+      internalID: 4267163520578155272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_29
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 258
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6725fa48eac8c4070800000000000000
+      internalID: 8091997311656219254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_30
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 258
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e190d9aae540dafb0800000000000000
+      internalID: -4635043636858517218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_31
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 202
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1fc795291a43a70800000000000000
+      internalID: 8805840821354820071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_32
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 225
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73b185c933c2eac0800000000000000
+      internalID: -3827282080417336453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_33
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 263
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a977c1a2c030c6130800000000000000
+      internalID: 3561224756124219290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_34
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 197
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8cba9a2f144ff00800000000000000
+      internalID: 1149616315370817727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 498
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a032231d6ae1bc20800000000000000
+      internalID: 3220612962739957926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_36
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1
+        width: 409
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220a7e3b2dfd76ea0800000000000000
+      internalID: -5879484692454465502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_37
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1
+        width: 414
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca8869d9579a01e0800000000000000
+      internalID: -2230804253253268794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_38
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1
+        width: 317
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc66ededf4925cb0800000000000000
+      internalID: -4876671628149887817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_39
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 188
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396f7e3631f69fa70800000000000000
+      internalID: 8861235870899369619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_mattroi_40
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 4
+        width: 280
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c1a1992e947a490800000000000000
+      internalID: -7735132597405475723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      woman_mattroi_0: -7378716133768245514
+      woman_mattroi_1: 131835994788489851
+      woman_mattroi_10: -2920974768208846144
+      woman_mattroi_11: 4283492315471658286
+      woman_mattroi_12: 3803315361282884044
+      woman_mattroi_13: 1040900413651060236
+      woman_mattroi_14: -2625222910768195681
+      woman_mattroi_15: -7187436664262427291
+      woman_mattroi_16: -3539899099940728944
+      woman_mattroi_17: 8106954568741015017
+      woman_mattroi_18: 6394096636822670132
+      woman_mattroi_19: 1707526184463493388
+      woman_mattroi_2: -4169992006041428503
+      woman_mattroi_20: -1244709671601442828
+      woman_mattroi_21: -3044681922589930748
+      woman_mattroi_22: 6101359008196740576
+      woman_mattroi_23: 1404321147140731370
+      woman_mattroi_24: -5525685550458137707
+      woman_mattroi_25: -7946054586313669593
+      woman_mattroi_26: 2824215404167571014
+      woman_mattroi_27: 5983151911851425185
+      woman_mattroi_28: 4267163520578155272
+      woman_mattroi_29: 8091997311656219254
+      woman_mattroi_3: -1431036612610465212
+      woman_mattroi_30: -4635043636858517218
+      woman_mattroi_31: 8805840821354820071
+      woman_mattroi_32: -3827282080417336453
+      woman_mattroi_33: 3561224756124219290
+      woman_mattroi_34: 1149616315370817727
+      woman_mattroi_35: 3220612962739957926
+      woman_mattroi_36: -5879484692454465502
+      woman_mattroi_37: -2230804253253268794
+      woman_mattroi_38: -4876671628149887817
+      woman_mattroi_39: 8861235870899369619
+      woman_mattroi_4: 600000781944906607
+      woman_mattroi_40: -7735132597405475723
+      woman_mattroi_5: -9211446525600281277
+      woman_mattroi_6: 6431144311097959528
+      woman_mattroi_7: 2479306664666587330
+      woman_mattroi_8: -6081561108555590410
+      woman_mattroi_9: 6368467216566216072
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

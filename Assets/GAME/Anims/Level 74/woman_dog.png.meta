@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: 4ea5fd260641e974c8050dec87e39734
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5857619795108174606
+    second: woman_dog_0
+  - first:
+      213: 4108760670880682362
+    second: woman_dog_1
+  - first:
+      213: -5732454731514207922
+    second: woman_dog_2
+  - first:
+      213: 9126244080247521330
+    second: woman_dog_3
+  - first:
+      213: -7701415538021776589
+    second: woman_dog_4
+  - first:
+      213: -2495644306151081680
+    second: woman_dog_5
+  - first:
+      213: 4502147036797803990
+    second: woman_dog_6
+  - first:
+      213: -634906705272230222
+    second: woman_dog_7
+  - first:
+      213: 472461343288698995
+    second: woman_dog_8
+  - first:
+      213: -2139901817728718656
+    second: woman_dog_9
+  - first:
+      213: 2721093189674346685
+    second: woman_dog_10
+  - first:
+      213: 1403371966541005716
+    second: woman_dog_11
+  - first:
+      213: 1242761582786049263
+    second: woman_dog_12
+  - first:
+      213: 7737968486786035610
+    second: woman_dog_13
+  - first:
+      213: -5897255219026930336
+    second: woman_dog_14
+  - first:
+      213: -6047528344374109073
+    second: woman_dog_15
+  - first:
+      213: 6098531667584054550
+    second: woman_dog_16
+  - first:
+      213: 8248035248912646852
+    second: woman_dog_17
+  - first:
+      213: 1985560220958045156
+    second: woman_dog_18
+  - first:
+      213: 8654201392684119267
+    second: woman_dog_19
+  - first:
+      213: -1322358109424912673
+    second: woman_dog_20
+  - first:
+      213: -7679581941057808886
+    second: woman_dog_21
+  - first:
+      213: -8329023659319768829
+    second: woman_dog_22
+  - first:
+      213: -6672435459695783018
+    second: woman_dog_23
+  - first:
+      213: -6884072397873564146
+    second: woman_dog_24
+  - first:
+      213: 460295431451577970
+    second: woman_dog_25
+  - first:
+      213: -6461361512239845105
+    second: woman_dog_26
+  - first:
+      213: 1148979344879576316
+    second: woman_dog_27
+  - first:
+      213: 5491136780167346330
+    second: woman_dog_28
+  - first:
+      213: -1634349585732595743
+    second: woman_dog_29
+  - first:
+      213: 8018162348624988896
+    second: woman_dog_30
+  - first:
+      213: 5261393411560648504
+    second: woman_dog_31
+  - first:
+      213: -6600907830971105572
+    second: woman_dog_32
+  - first:
+      213: -2725396557989667830
+    second: woman_dog_33
+  - first:
+      213: -4286590648480454743
+    second: woman_dog_34
+  - first:
+      213: -494176722526065063
+    second: woman_dog_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 70
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woman_dog_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1873
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4e743d4dd85bea0800000000000000
+      internalID: -5857619795108174606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1922
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7150fe9f00450930800000000000000
+      internalID: 4108760670880682362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1922
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41a6152bca3270b0800000000000000
+      internalID: -5732454731514207922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1881
+        width: 93
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2304aa853aee6ae70800000000000000
+      internalID: 9126244080247521330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1815
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333c98c3f531f1590800000000000000
+      internalID: -7701415538021776589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1829
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039732ed9b0bd5dd0800000000000000
+      internalID: -2495644306151081680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1843
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd19e660e6da7e30800000000000000
+      internalID: 4502147036797803990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1814
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be2cb627bb5037f0800000000000000
+      internalID: -634906705272230222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378a3d8a6158e8600800000000000000
+      internalID: 472461343288698995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1806
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8211c62aa8d42e0800000000000000
+      internalID: -2139901817728718656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1803
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8264bc6d343c520800000000000000
+      internalID: 2721093189674346685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1785
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4930b614e57c97310800000000000000
+      internalID: 1403371966541005716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1778
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4f67a331d2f3110800000000000000
+      internalID: 1242761582786049263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1614
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f6c0a5759c26b60800000000000000
+      internalID: 7737968486786035610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1699
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065d4109f9db82ea0800000000000000
+      internalID: -5897255219026930336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_15
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1643
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c9970130dd21ca0800000000000000
+      internalID: -6047528344374109073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1543
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61571d18d3652a450800000000000000
+      internalID: 6098531667584054550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1576
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2c652eb58e67270800000000000000
+      internalID: 8248035248912646852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1560
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3b95240802e8b10800000000000000
+      internalID: 1985560220958045156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1476
+        width: 152
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4b0a19056e91870800000000000000
+      internalID: 8654201392684119267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1539
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6fedd3e4a06ade0800000000000000
+      internalID: -1322358109424912673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_21
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1539
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a069ebba9e4ac6590800000000000000
+      internalID: -7679581941057808886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1292
+        width: 74
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309cb646c1d596c80800000000000000
+      internalID: -8329023659319768829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1483
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693dc1e2d4fb663a0800000000000000
+      internalID: -6672435459695783018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1374
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06bca4a0acd670a0800000000000000
+      internalID: -6884072397873564146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1282
+        width: 143
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e0863914c436600800000000000000
+      internalID: 460295431451577970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1208
+        width: 186
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01309930f1a456a0800000000000000
+      internalID: -6461361512239845105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1128
+        width: 186
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4eec960aef1ff00800000000000000
+      internalID: 1148979344879576316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1001
+        width: 144
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98f4faeecf643c40800000000000000
+      internalID: 5491136780167346330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_29
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1036
+        width: 32
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef0a9ff5bf9159e0800000000000000
+      internalID: -1634349585732595743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_30
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1074
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea443d8c2c364f60800000000000000
+      internalID: 8018162348624988896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 828
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f27a78e69340940800000000000000
+      internalID: 5261393411560648504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 600
+        width: 142
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde7fd30d4dd464a0800000000000000
+      internalID: -6600907830971105572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_33
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 753
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c14f035427d2ad0800000000000000
+      internalID: -2725396557989667830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 187
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7afcb3488f284c0800000000000000
+      internalID: -4286590648480454743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_dog_35
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 320
+        width: 169
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e219d93e45429f0800000000000000
+      internalID: -494176722526065063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      woman_dog_0: -5857619795108174606
+      woman_dog_1: 4108760670880682362
+      woman_dog_10: 2721093189674346685
+      woman_dog_11: 1403371966541005716
+      woman_dog_12: 1242761582786049263
+      woman_dog_13: 7737968486786035610
+      woman_dog_14: -5897255219026930336
+      woman_dog_15: -6047528344374109073
+      woman_dog_16: 6098531667584054550
+      woman_dog_17: 8248035248912646852
+      woman_dog_18: 1985560220958045156
+      woman_dog_19: 8654201392684119267
+      woman_dog_2: -5732454731514207922
+      woman_dog_20: -1322358109424912673
+      woman_dog_21: -7679581941057808886
+      woman_dog_22: -8329023659319768829
+      woman_dog_23: -6672435459695783018
+      woman_dog_24: -6884072397873564146
+      woman_dog_25: 460295431451577970
+      woman_dog_26: -6461361512239845105
+      woman_dog_27: 1148979344879576316
+      woman_dog_28: 5491136780167346330
+      woman_dog_29: -1634349585732595743
+      woman_dog_3: 9126244080247521330
+      woman_dog_30: 8018162348624988896
+      woman_dog_31: 5261393411560648504
+      woman_dog_32: -6600907830971105572
+      woman_dog_33: -2725396557989667830
+      woman_dog_34: -4286590648480454743
+      woman_dog_35: -494176722526065063
+      woman_dog_4: -7701415538021776589
+      woman_dog_5: -2495644306151081680
+      woman_dog_6: 4502147036797803990
+      woman_dog_7: -634906705272230222
+      woman_dog_8: 472461343288698995
+      woman_dog_9: -2139901817728718656
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

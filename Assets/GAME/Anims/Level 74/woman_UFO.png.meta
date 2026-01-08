@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: ce34eca3671d1a943b384044428e7918
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8505901903777034596
+    second: woman_UFO_0
+  - first:
+      213: -2184371881584421963
+    second: woman_UFO_1
+  - first:
+      213: 6098951142145178507
+    second: woman_UFO_2
+  - first:
+      213: 6253103323618050993
+    second: woman_UFO_3
+  - first:
+      213: -1260549527704452801
+    second: woman_UFO_4
+  - first:
+      213: 8496499408558903025
+    second: woman_UFO_5
+  - first:
+      213: 109137333245841386
+    second: woman_UFO_6
+  - first:
+      213: -1845669489855721219
+    second: woman_UFO_7
+  - first:
+      213: 885083423164714897
+    second: woman_UFO_8
+  - first:
+      213: 6441583760979563330
+    second: woman_UFO_9
+  - first:
+      213: -950566547904664155
+    second: woman_UFO_10
+  - first:
+      213: 4384956860146983887
+    second: woman_UFO_11
+  - first:
+      213: -6063368525931914667
+    second: woman_UFO_12
+  - first:
+      213: -1887318180826079234
+    second: woman_UFO_13
+  - first:
+      213: -3189957706218082785
+    second: woman_UFO_14
+  - first:
+      213: -5129209991918805930
+    second: woman_UFO_15
+  - first:
+      213: -1972494043189138998
+    second: woman_UFO_16
+  - first:
+      213: 1137918404847591311
+    second: woman_UFO_17
+  - first:
+      213: -3679169565457454863
+    second: woman_UFO_18
+  - first:
+      213: 1542173583072912963
+    second: woman_UFO_19
+  - first:
+      213: 206440622701613331
+    second: woman_UFO_20
+  - first:
+      213: -7124152684224580658
+    second: woman_UFO_21
+  - first:
+      213: 3056787394056075423
+    second: woman_UFO_22
+  - first:
+      213: -3933545268560034844
+    second: woman_UFO_23
+  - first:
+      213: 6661161878037902288
+    second: woman_UFO_24
+  - first:
+      213: -4691031649861302060
+    second: woman_UFO_25
+  - first:
+      213: 2253812166979558108
+    second: woman_UFO_26
+  - first:
+      213: -8330810668900875122
+    second: woman_UFO_27
+  - first:
+      213: 1549901379159914528
+    second: woman_UFO_28
+  - first:
+      213: 3986142133067761688
+    second: woman_UFO_29
+  - first:
+      213: 2077137142929844350
+    second: woman_UFO_30
+  - first:
+      213: 8735343452303235131
+    second: woman_UFO_31
+  - first:
+      213: 6212963948196762550
+    second: woman_UFO_32
+  - first:
+      213: 5493588795480192984
+    second: woman_UFO_33
+  - first:
+      213: 410287091033187875
+    second: woman_UFO_34
+  - first:
+      213: -4373130117432227751
+    second: woman_UFO_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 70
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woman_UFO_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1873
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e0d03e847f4f980800000000000000
+      internalID: -8505901903777034596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1922
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b31fc4d85d8fa1e0800000000000000
+      internalID: -2184371881584421963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1922
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bb60a00c3d3a450800000000000000
+      internalID: 6098951142145178507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1881
+        width: 93
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3811ca75c77c650800000000000000
+      internalID: 6253103323618050993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1815
+        width: 67
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31c36b12e0a18ee0800000000000000
+      internalID: -1260549527704452801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1829
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe48791231a9e570800000000000000
+      internalID: 8496499408558903025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1843
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef0adb83dbb38100800000000000000
+      internalID: 109137333245841386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1814
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df09f54b06dd266e0800000000000000
+      internalID: -1845669489855721219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1840
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fc15a1fa2784c00800000000000000
+      internalID: 885083423164714897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1806
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2439c183d4a156950800000000000000
+      internalID: 6441583760979563330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1803
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ade5c0d2c8eec2f0800000000000000
+      internalID: -950566547904664155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1785
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc32974280f7adc30800000000000000
+      internalID: 4384956860146983887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1778
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a5b8563769adba0800000000000000
+      internalID: -6063368525931914667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_13
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1614
+        width: 120
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff99bd2d16eec5e0800000000000000
+      internalID: -1887318180826079234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1699
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ee9580e5efab3d0800000000000000
+      internalID: -3189957706218082785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_15
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1643
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c9b4520b261d8b0800000000000000
+      internalID: -5129209991918805930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1543
+        width: 91
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac923225e1b40a4e0800000000000000
+      internalID: -1972494043189138998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1576
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fd150a2c2bacf00800000000000000
+      internalID: 1137918404847591311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1560
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8ea76f5c6f0fcc0800000000000000
+      internalID: -3679169565457454863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1476
+        width: 152
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3466d09f3b6e66510800000000000000
+      internalID: 1542173583072912963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1539
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311175f07ac6dd200800000000000000
+      internalID: 206440622701613331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_21
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1539
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3f52b01ece12d90800000000000000
+      internalID: -7124152684224580658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1292
+        width: 74
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98ba9870f3eb6a20800000000000000
+      internalID: 3056787394056075423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1483
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e38f874b6d3969c0800000000000000
+      internalID: -3933545268560034844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1374
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3b2db8f63317c50800000000000000
+      internalID: 6661161878037902288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1282
+        width: 143
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d807ef819b16eeb0800000000000000
+      internalID: -4691031649861302060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1208
+        width: 186
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda15438936274f10800000000000000
+      internalID: 2253812166979558108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1128
+        width: 186
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84012dc5d3036c80800000000000000
+      internalID: -8330810668900875122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1001
+        width: 144
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028f6b5b71b528510800000000000000
+      internalID: 1549901379159914528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_29
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1036
+        width: 32
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818c8b9862f915730800000000000000
+      internalID: 3986142133067761688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_30
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1074
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e786a12f93973dc10800000000000000
+      internalID: 2077137142929844350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 828
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b389199869c2a3970800000000000000
+      internalID: 8735343452303235131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 600
+        width: 142
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3939e0bc1e83650800000000000000
+      internalID: 6212963948196762550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_33
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 753
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7b9a837e52d3c40800000000000000
+      internalID: 5493588795480192984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 187
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32626fc7fe1a1b500800000000000000
+      internalID: 410287091033187875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woman_UFO_35
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 320
+        width: 169
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958c3e9f3558f43c0800000000000000
+      internalID: -4373130117432227751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      woman_UFO_0: -8505901903777034596
+      woman_UFO_1: -2184371881584421963
+      woman_UFO_10: -950566547904664155
+      woman_UFO_11: 4384956860146983887
+      woman_UFO_12: -6063368525931914667
+      woman_UFO_13: -1887318180826079234
+      woman_UFO_14: -3189957706218082785
+      woman_UFO_15: -5129209991918805930
+      woman_UFO_16: -1972494043189138998
+      woman_UFO_17: 1137918404847591311
+      woman_UFO_18: -3679169565457454863
+      woman_UFO_19: 1542173583072912963
+      woman_UFO_2: 6098951142145178507
+      woman_UFO_20: 206440622701613331
+      woman_UFO_21: -7124152684224580658
+      woman_UFO_22: 3056787394056075423
+      woman_UFO_23: -3933545268560034844
+      woman_UFO_24: 6661161878037902288
+      woman_UFO_25: -4691031649861302060
+      woman_UFO_26: 2253812166979558108
+      woman_UFO_27: -8330810668900875122
+      woman_UFO_28: 1549901379159914528
+      woman_UFO_29: 3986142133067761688
+      woman_UFO_3: 6253103323618050993
+      woman_UFO_30: 2077137142929844350
+      woman_UFO_31: 8735343452303235131
+      woman_UFO_32: 6212963948196762550
+      woman_UFO_33: 5493588795480192984
+      woman_UFO_34: 410287091033187875
+      woman_UFO_35: -4373130117432227751
+      woman_UFO_4: -1260549527704452801
+      woman_UFO_5: 8496499408558903025
+      woman_UFO_6: 109137333245841386
+      woman_UFO_7: -1845669489855721219
+      woman_UFO_8: 885083423164714897
+      woman_UFO_9: 6441583760979563330
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
