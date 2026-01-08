@@ -9,6 +9,18 @@ public class PuzzlePiece : MonoBehaviour,
     IDragHandler,
     IEndDragHandler
 {
+    [Header("Border sides")]
+    public Image borderTop;
+    public Image borderBottom;
+    public Image borderLeft;
+    public Image borderRight;
+
+    [Header("Correct neighbors")]
+    public PuzzlePiece correctUp;
+    public PuzzlePiece correctDown;
+    public PuzzlePiece correctLeft;
+    public PuzzlePiece correctRight;
+
     [Header("Correct position in grid")]
     public int correctX;
     public int correctY;
@@ -24,7 +36,14 @@ public class PuzzlePiece : MonoBehaviour,
     public PuzzleBoard _board;
 
     public Transform _dragRoot;
-
+[ContextMenu("Create")]
+    public void SetBoder()
+    {
+        borderTop = transform.GetChild(0).GetComponent<Image>();
+        borderBottom = transform.GetChild(1).GetComponent<Image>();
+        borderLeft = transform.GetChild(2).GetComponent<Image>();
+        borderRight = transform.GetChild(3).GetComponent<Image>();
+    }
     public void Init(PuzzleBoard board, Canvas canvas, Transform dragRoot)
     {
         _board = board;
@@ -34,6 +53,13 @@ public class PuzzlePiece : MonoBehaviour,
         // Đảm bảo anchor/pivot đúng
         _rt.anchorMin = _rt.anchorMax = new Vector2(0.5f, 0.5f);
         _rt.pivot = new Vector2(0.5f, 0.5f);
+    }
+    public void SetBorderSideVisible(bool top, bool bottom, bool left, bool right)
+    {
+        if (borderTop != null) borderTop.enabled = top;
+        if (borderBottom != null) borderBottom.enabled = bottom;
+        if (borderLeft != null) borderLeft.enabled = left;
+        if (borderRight != null) borderRight.enabled = right;
     }
 
     private void Awake()

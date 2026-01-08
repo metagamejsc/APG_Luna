@@ -27,6 +27,13 @@ public class PuzzleBoard : MonoBehaviour
     {
         yield return null; // chờ 1 frame cho hierarchy/setup xong
         RegisterAllPieces();
+        yield return null;
+        //AssignCorrectNeighbors();
+        foreach (var s in slots)
+        {
+            if (s?.CurrentPiece != null)
+                ApplyBorderRule(s.CurrentPiece);
+        }
     }
 
     // Gọi hàm này sau khi bạn đã tạo pieces và gắn vào slot, để init board cho mỗi piece
@@ -107,35 +114,79 @@ public class PuzzleBoard : MonoBehaviour
 
     private void ApplyBorderRule(PuzzlePiece p)
     {
-        // Mặc định border hiện
-        bool hide = ShouldHideBorder(p);
+        var s = p.GetCurrentSlot();
+        if (s == null)
+        {
+            p.SetBorderSideVisible(true, true, true, true);
+            return;
+        }
 
-        // Nếu hide == true -> border tắt; ngược lại bật
-        p.SetBorderVisible(!hide);
+        var up = GetSlot(s.x, s.y - 1)?.CurrentPiece;
+        var down = GetSlot(s.x, s.y + 1)?.CurrentPiece;
+        var leftP = GetSlot(s.x - 1, s.y)?.CurrentPiece;
+        var rightP = GetSlot(s.x + 1, s.y)?.CurrentPiece;
+
+        bool top = !IsCorrectNeighbor(p, up, Vector2Int.up);
+        bool bottom = !IsCorrectNeighbor(p, down, Vector2Int.down);
+        bool left = !IsCorrectNeighbor(p, leftP, Vector2Int.left);
+        bool right = !IsCorrectNeighbor(p, rightP, Vector2Int.right);
+
+        p.SetBorderSideVisible(top, bottom, left, right);
+        Debug.Log($"[Border] {p.transform.parent.name} -> Top:{!top} Bottom:{!bottom} Left:{!left} Right:{!right}");
+
+    }
+
+
+    [ContextMenu("Create")]
+    public void AssignCorrectNeighbors()
+    {
+        foreach (var slot in slots)
+        {
+            var piece = slot.CurrentPiece;
+            if (piece == null) continue;
+
+            piece.correctUp    = GetSlot(slot.x, slot.y - 1)?.CurrentPiece;
+            piece.correctDown  = GetSlot(slot.x, slot.y + 1)?.CurrentPiece;
+            piece.correctLeft  = GetSlot(slot.x - 1, slot.y)?.CurrentPiece;
+            piece.correctRight = GetSlot(slot.x + 1, slot.y)?.CurrentPiece;
+        }
+    }
+
+    private bool IsCorrectNeighbor(PuzzlePiece center, PuzzlePiece neighbor, Vector2Int dir)
+    {
+        if (neighbor == null) return false;
+        //if (!IsPieceCorrect(neighbor)) return false;
+
+        if (dir == Vector2Int.up) return center.correctUp == neighbor;
+        if (dir == Vector2Int.down) return center.correctDown == neighbor;
+        if (dir == Vector2Int.left) return center.correctLeft == neighbor;
+        if (dir == Vector2Int.right) return center.correctRight == neighbor;
+
+        return false;
     }
 
     private bool ShouldHideBorder(PuzzlePiece p)
     {
-        // Điều kiện 1: mảnh phải đúng vị trí
-        if (!IsPieceCorrect(p)) return false;
-
         var s = p.GetCurrentSlot();
         if (s == null) return false;
 
-        // Điều kiện 2: phải có đủ 4 hướng (mảnh ở giữa, không ở mép)
-        if (s.x <= 0 || s.x >= size - 1 || s.y <= 0 || s.y >= size - 1)
-            return false;
+        // kiểm tra 4 hướng
+        if (IsCorrectNeighbor(p, GetSlot(s.x, s.y - 1)?.CurrentPiece, Vector2Int.up))
+            return true;
 
-        // Điều kiện 3: 4 hàng xóm đều đúng vị trí
-        var up = GetSlot(s.x, s.y - 1)?.CurrentPiece;
-        var down = GetSlot(s.x, s.y + 1)?.CurrentPiece;
-        var left = GetSlot(s.x - 1, s.y)?.CurrentPiece;
-        var right = GetSlot(s.x + 1, s.y)?.CurrentPiece;
+        if (IsCorrectNeighbor(p, GetSlot(s.x, s.y + 1)?.CurrentPiece, Vector2Int.down))
+            return true;
 
-        if (up == null || down == null || left == null || right == null) return false;
+        if (IsCorrectNeighbor(p, GetSlot(s.x - 1, s.y)?.CurrentPiece, Vector2Int.left))
+            return true;
 
-        return IsPieceCorrect(up) && IsPieceCorrect(down) && IsPieceCorrect(left) && IsPieceCorrect(right);
+        if (IsCorrectNeighbor(p, GetSlot(s.x + 1, s.y)?.CurrentPiece, Vector2Int.right))
+            return true;
+
+        return false;
     }
+
+
 
     private void RefreshAllBorders()
     {

@@ -207,10 +207,11 @@
             ]
         },
         "scenes": [
-            "Assets/Scenes/V3.unity"
+            "Assets/SampleScene.unity"
         ],
         "disabledScenes": [
-            "Assets/Scenes/V1.unity"
+            "Assets/Scenes/V1.unity",
+            "Assets/Scenes/V3.unity"
         ],
         "startupScene": 0,
         "packages": {
@@ -3548,10 +3549,6 @@
             },
             {
                 "name": "UnityEngine.UnityVersion",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.Vector2Int",
                 "excluded": true
             },
             {
@@ -17512,7 +17509,7 @@
                     },
                     {
                         "name": "GetChild",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "IsChildOf",
@@ -17520,7 +17517,7 @@
                     },
                     {
                         "name": "InverseTransformPoint",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "TransformPoint$1",
@@ -18648,7 +18645,7 @@
                     },
                     {
                         "name": "pivot#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetSizeWithCurrentAnchors",
@@ -19580,7 +19577,7 @@
                     },
                     {
                         "name": "OnTransformParentChanged",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PixelAdjustPoint",
@@ -19666,7 +19663,7 @@
                     },
                     {
                         "name": "OnTransformParentChanged",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ParentMaskStateChanged",
@@ -19812,7 +19809,7 @@
                     },
                     {
                         "name": "enabled#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "pixelsPerUnitMultiplier#get",
@@ -27314,7 +27311,7 @@
                     },
                     {
                         "name": "$ctor2",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "$ctor1",
@@ -27464,15 +27461,15 @@
                     },
                     {
                         "name": "ScreenPointToLocalPointInRectangle",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ScreenPointToWorldPointInRectangle",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ScreenPointToRay",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PixelAdjustPoint",
@@ -32960,7 +32957,7 @@
                     },
                     {
                         "name": "isRootLayoutGroup#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnDisable",
@@ -32976,7 +32973,7 @@
                     },
                     {
                         "name": "OnRectTransformDimensionsChange",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnDidApplyAnimationProperties",
@@ -39305,20 +39302,6 @@
                 ]
             },
             {
-                "className": "AudioManager",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "PlaySound",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
                 "className": "StepManager",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -39498,6 +39481,294 @@
                     },
                     {
                         "name": "Apply",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Vector2Int",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "zero#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "one#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "up#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "down#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "left#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "right#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Distance",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Min",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Max",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Scale",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FloorToInt",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CeilToInt",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RoundToInt",
+                        "excluded": true
+                    },
+                    {
+                        "name": "op_Implicit",
+                        "excluded": true
+                    },
+                    {
+                        "name": "op_Addition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "op_Subtraction",
+                        "excluded": true
+                    },
+                    {
+                        "name": "op_Multiply$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "op_Multiply",
+                        "excluded": true
+                    },
+                    {
+                        "name": "op_Equality",
+                        "excluded": false
+                    },
+                    {
+                        "name": "op_Inequality",
+                        "excluded": true
+                    },
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "x#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "x#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "y#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "y#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "magnitude#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "sqrMagnitude#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "setItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Clamp",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "toString",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PuzzleBoard",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "RegisterAllPieces",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetSlot",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsPieceCorrect",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FindSlotUnderPointer",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SwapPieces",
+                        "excluded": false
+                    },
+                    {
+                        "name": "UpdateBordersAroundSlot",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ApplyBorderRule",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AssignCorrectNeighbors",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsCorrectNeighbor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShouldHideBorder",
+                        "excluded": false
+                    },
+                    {
+                        "name": "RefreshAllBorders",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PuzzlePiece",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetCurrentSlot",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetCurrentSlot",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetBorderVisible",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPointerDown",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnBeginDrag",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDrag",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEndDrag",
+                        "excluded": false
+                    },
+                    {
+                        "name": "BringToFrontAndAlign",
+                        "excluded": false
+                    },
+                    {
+                        "name": "MoveToPointer",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PuzzleSlot",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetPiece",
                         "excluded": false
                     }
                 ]

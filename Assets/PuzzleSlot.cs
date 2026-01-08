@@ -12,7 +12,11 @@ public class PuzzleSlot : MonoBehaviour
         var piece = GetComponentInChildren<PuzzlePiece>();
         if (piece != null) SetPiece(piece);
     }
-
+[ContextMenu("SetCurrentPiece")]
+    public void SetCurrentPiece()
+    {
+        CurrentPiece = transform.GetChild(0).GetComponent<PuzzlePiece>();
+    }
     public void SetPiece(PuzzlePiece piece)
     {
         CurrentPiece = piece;
