@@ -146,7 +146,7 @@ MonoBehaviour:
   _usedByLunaBuild: []
   _includedShaderVariants: []
   _excludedShaderVariants: []
-  version: 496
+  version: 662
   _shaderParsedShaders:
   - ParsedSubShaders:
     - Index: 0
@@ -1654,11 +1654,8 @@ MonoBehaviour:
       keywords:
       - UNITY_UI_ALPHACLIP
       - UNITY_UI_CLIP_RECT
-  _modifiedShaders:
-  - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-  - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
-  - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
-  invalidShaders: 1
+  _modifiedShaders: []
+  invalidShaders: 0
   _sceneLightData:
     PointLightCount: 0
     SpotLightCount: 0
