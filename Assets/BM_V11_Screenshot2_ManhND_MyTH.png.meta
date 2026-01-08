@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b72085d203dfb8840bb762ee86627e85
+guid: 87c58d6847f113f4588ef3fb39728b97
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -94,19 +94,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -123,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: icon_1_0
+      name: BM_V11_Screenshot2_ManhND_MyTH_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
-        width: 128
-        height: 128
+        y: 1440
+        width: 270
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 293f9df9f97a0784d8b1d10d3bcea04f
-      internalID: -1830617345
+      spriteID: e094638b460d94344aa77047651e8aad
+      internalID: 1070006240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_1_1
+      name: BM_V11_Screenshot2_ManhND_MyTH_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 384
-        width: 128
-        height: 128
+        x: 270
+        y: 1440
+        width: 270
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e9ccb6170735c140859de39949adf5a
-      internalID: 114965471
+      spriteID: cc899339c3cdd864ba66cf190d9c1692
+      internalID: 1296297887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_1_2
+      name: BM_V11_Screenshot2_ManhND_MyTH_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 384
-        width: 128
-        height: 128
+        x: 540
+        y: 1440
+        width: 270
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acdef1985c02ffa439a690d6c5637cec
-      internalID: 1168725364
+      spriteID: 306ca36f2d97f414b88136755bdf6abb
+      internalID: -1833766393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_1_3
+      name: BM_V11_Screenshot2_ManhND_MyTH_3
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
-        width: 128
-        height: 128
+        x: 810
+        y: 1440
+        width: 270
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,104 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1925597eeefba4f4da242597fba98879
-      internalID: -1463689011
+      spriteID: 141f18dc8c2e3a241baca3c366d0691f
+      internalID: -1326117674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_1_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6bc295b3a6f78a64296acba67f83352b
-      internalID: 724758569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: icon_1_5
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d702ec43e8252b749aecf008d4ea69b4
-      internalID: -1849576681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: icon_1_6
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73cf4424453f98549a02fa6b42dbe855
-      internalID: -1154846890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: icon_1_7
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 256
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4d9f0a03953fc84389e51a1df6b54a0
-      internalID: -422779269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: icon_1_8
+      name: BM_V11_Screenshot2_ManhND_MyTH_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 128
-        height: 128
+        y: 960
+        width: 270
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e493c5165de5864590740f026cd6989
-      internalID: -14071296
+      spriteID: 5da1dcfa056647f4ca97c12b774529b2
+      internalID: -1022353062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_1_9
+      name: BM_V11_Screenshot2_ManhND_MyTH_5
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 128
-        height: 128
+        x: 270
+        y: 960
+        width: 270
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44d998aa93236d64a9c54efcc7a200e3
-      internalID: -1112031829
+      spriteID: 679ac2f6a1b7f3a4abe774c7e238a81d
+      internalID: -628119176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_1_10
+      name: BM_V11_Screenshot2_ManhND_MyTH_6
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 128
-        height: 128
+        x: 540
+        y: 960
+        width: 270
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ccfce6f78e9f864e9ae7b17e5356751
-      internalID: -1818606316
+      spriteID: d71746779f8c9fe4fac94d3eb0996f09
+      internalID: 1048180552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_1_11
+      name: BM_V11_Screenshot2_ManhND_MyTH_7
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
-        width: 128
-        height: 128
+        x: 810
+        y: 960
+        width: 270
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +271,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ed4cadb06defbc48a39c31b78a884bf
-      internalID: -520655577
+      spriteID: 582175af30b43344da7aa7f6a36ba25b
+      internalID: -1585322191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_1_12
+      name: BM_V11_Screenshot2_ManhND_MyTH_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e02f7f990a8d54baf2d2bef5cbcc14
+      internalID: 1687209095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BM_V11_Screenshot2_ManhND_MyTH_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 480
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05297dcd9b0a658479525ebcd98b887d
+      internalID: 765525511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BM_V11_Screenshot2_ManhND_MyTH_10
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 480
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d2ecf4c64823c448b070ee45df538b
+      internalID: 1473148187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BM_V11_Screenshot2_ManhND_MyTH_11
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 480
+        width: 270
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf670de6e22f0b48974d950f745ee02
+      internalID: 1912596940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BM_V11_Screenshot2_ManhND_MyTH_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 128
+        width: 270
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3beeef0e28137d4d8d748b30d6ebfa6
-      internalID: -1246474572
+      spriteID: 38d577d7ba2028849901d0bc03b2e3f0
+      internalID: -2039401871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_1_13
+      name: BM_V11_Screenshot2_ManhND_MyTH_13
       rect:
         serializedVersion: 2
-        x: 128
+        x: 270
         y: 0
-        width: 128
-        height: 128
+        width: 270
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,20 +397,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d66a910d2a30424385e6952326dc9c5
-      internalID: 843838964
+      spriteID: 1f97a248337b2e64c85bdde01270c507
+      internalID: 667121491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_1_14
+      name: BM_V11_Screenshot2_ManhND_MyTH_14
       rect:
         serializedVersion: 2
-        x: 256
+        x: 540
         y: 0
-        width: 128
-        height: 128
+        width: 270
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,20 +418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58af65a6f4eadd34b98bb598b9e5fe69
-      internalID: 689644114
+      spriteID: c3193029c9633044c8780169dd8e61f3
+      internalID: -628831759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: icon_1_15
+      name: BM_V11_Screenshot2_ManhND_MyTH_15
       rect:
         serializedVersion: 2
-        x: 384
+        x: 810
         y: 0
-        width: 128
-        height: 128
+        width: 270
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,8 +439,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24a99483a957e7e40ae98e8e0585c8a4
-      internalID: 738289840
+      spriteID: f6cf2e102cdc4254ab65d7af2908a8ee
+      internalID: 256976249
       vertices: []
       indices: 
       edges: []
@@ -469,22 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      icon_1_0: -1830617345
-      icon_1_1: 114965471
-      icon_1_10: -1818606316
-      icon_1_11: -520655577
-      icon_1_12: -1246474572
-      icon_1_13: 843838964
-      icon_1_14: 689644114
-      icon_1_15: 738289840
-      icon_1_2: 1168725364
-      icon_1_3: -1463689011
-      icon_1_4: 724758569
-      icon_1_5: -1849576681
-      icon_1_6: -1154846890
-      icon_1_7: -422779269
-      icon_1_8: -14071296
-      icon_1_9: -1112031829
+      BM_V11_Screenshot2_ManhND_MyTH_0: 1070006240
+      BM_V11_Screenshot2_ManhND_MyTH_1: 1296297887
+      BM_V11_Screenshot2_ManhND_MyTH_10: 1473148187
+      BM_V11_Screenshot2_ManhND_MyTH_11: 1912596940
+      BM_V11_Screenshot2_ManhND_MyTH_12: -2039401871
+      BM_V11_Screenshot2_ManhND_MyTH_13: 667121491
+      BM_V11_Screenshot2_ManhND_MyTH_14: -628831759
+      BM_V11_Screenshot2_ManhND_MyTH_15: 256976249
+      BM_V11_Screenshot2_ManhND_MyTH_2: -1833766393
+      BM_V11_Screenshot2_ManhND_MyTH_3: -1326117674
+      BM_V11_Screenshot2_ManhND_MyTH_4: -1022353062
+      BM_V11_Screenshot2_ManhND_MyTH_5: -628119176
+      BM_V11_Screenshot2_ManhND_MyTH_6: 1048180552
+      BM_V11_Screenshot2_ManhND_MyTH_7: -1585322191
+      BM_V11_Screenshot2_ManhND_MyTH_8: 1687209095
+      BM_V11_Screenshot2_ManhND_MyTH_9: 765525511
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
