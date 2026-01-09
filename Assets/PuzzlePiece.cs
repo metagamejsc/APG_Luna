@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -7,6 +8,7 @@ public class PuzzlePiece : MonoBehaviour,
     IPointerDownHandler,
     IBeginDragHandler,
     IDragHandler,
+    IPointerUpHandler,
     IEndDragHandler
 {
     [Header("Border sides")]
@@ -20,6 +22,7 @@ public class PuzzlePiece : MonoBehaviour,
     public PuzzlePiece correctDown;
     public PuzzlePiece correctLeft;
     public PuzzlePiece correctRight;
+    private bool _wasDragged = false;
 
     [Header("Correct position in grid")]
     public int correctX;
@@ -83,14 +86,18 @@ public class PuzzlePiece : MonoBehaviour,
     // 📌 Khi vừa nhấn chuột xuống
     public void OnPointerDown(PointerEventData eventData)
     {
+        _wasDragged = false; // reset mỗi lần nhấn
         BringToFrontAndAlign(eventData);
     }
 
+
     public void OnBeginDrag(PointerEventData eventData)
     {
+        _wasDragged = true;
         _cg.blocksRaycasts = false;
         BringToFrontAndAlign(eventData);
     }
+
 
     public void OnDrag(PointerEventData eventData)
     {
@@ -132,4 +139,14 @@ public class PuzzlePiece : MonoBehaviour,
             _rt.anchoredPosition = localPoint;
         }
     }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        if (!_wasDragged)
+        {
+            _currentSlot.SetPiece(this); // Trả mảnh về đúng chỗ
+        }
+        LunaManager.ins.CountPlay();
+    }
+
 }

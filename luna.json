@@ -3708,10 +3708,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.WaitForSeconds",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.WaitForSecondsRealtime",
                 "excluded": true
             },
@@ -17393,7 +17389,7 @@
                     },
                     {
                         "name": "localScale#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "localEulerAngles#get",
@@ -17505,7 +17501,7 @@
                     },
                     {
                         "name": "cachedLocalToWorldMatrix#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetChild",
@@ -18657,7 +18653,7 @@
                     },
                     {
                         "name": "GetWorldCorners",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ForceUpdateRectTransforms",
@@ -39756,6 +39752,22 @@
                     {
                         "name": "MoveToPointer",
                         "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetBoder",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetBorderSideVisible",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPointerUp",
+                        "excluded": false
                     }
                 ]
             },
@@ -39769,6 +39781,90 @@
                     },
                     {
                         "name": "SetPiece",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetCurrentPiece",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "HandTutorial",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "MoveLoop",
+                        "excluded": false
+                    },
+                    {
+                        "name": "MoveFromTo",
+                        "excluded": false
+                    },
+                    {
+                        "name": "WorldPosFromRect",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PuzzleScaler",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ScaleToFitScreen",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "TutorialOverlay",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "OnPointerClick",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.WaitForSeconds",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Reset",
                         "excluded": false
                     }
                 ]
