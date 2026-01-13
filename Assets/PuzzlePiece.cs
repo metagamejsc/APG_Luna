@@ -11,6 +11,15 @@ public class PuzzlePiece : MonoBehaviour,
     IPointerUpHandler,
     IEndDragHandler
 {
+ [Header("Visual")]
+    public Graphic[] tintTargets; // kéo Image artwork vào đây (không kéo border)
+
+    public void SetTint(Color c)
+    {
+        if (tintTargets == null) return;
+        foreach (var g in tintTargets)
+            if (g) g.color = c;
+    }
     [Header("Border sides")]
     public Image borderTop;
     public Image borderBottom;
@@ -88,6 +97,7 @@ public class PuzzlePiece : MonoBehaviour,
     {
         _wasDragged = false; // reset mỗi lần nhấn
         BringToFrontAndAlign(eventData);
+        TutorialOverlay.ins.HideTut();
     }
 
 

@@ -13,6 +13,7 @@ public class LunaManager : MonoBehaviour
 
     [LunaPlaygroundField("CountDrop")] public float countPlayFinal;
     [LunaPlaygroundField("TimeDrop")] public float timeDropFinal;
+    [LunaPlaygroundField("Anchor Y")] public Vector2 anchorY;
     //---------------------------------
     [LunaPlaygroundField("ColorBG")] public Color colorBG;
     [LunaPlaygroundAsset("BG")] public Texture2D texture2D;

@@ -1,8 +1,8 @@
 {
     "version": "6.4.0",
     "projectId": "cc2b1186a2056e546bb13add5b988034",
-    "applicationID": 34530,
-    "creativeName": "BM_ThamNT_ToiNT_V09",
+    "applicationID": 36041,
+    "creativeName": "BTTP_V01_ManhND_ToiNT",
     "pgServer": "EU",
     "window": {
         "‐′": true
@@ -8412,10 +8412,6 @@
                 "excluded": true
             },
             {
-                "name": "DG.Tweening.DOVirtual",
-                "excluded": true
-            },
-            {
                 "name": "DG.Tweening.EaseFactory",
                 "excluded": true
             },
@@ -8433,10 +8429,6 @@
             },
             {
                 "name": "DG.Tweening.TweenParams",
-                "excluded": true
-            },
-            {
-                "name": "DG.Tweening.Core.SequenceCallback",
                 "excluded": true
             },
             {
@@ -8537,11 +8529,11 @@
             },
             {
                 "name": "DG.Tweening.Core.Enums.FilterType",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "DG.Tweening.Core.Enums.OperationType",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "DG.Tweening.Core.OnDisableBehaviour",
@@ -17385,7 +17377,7 @@
                     },
                     {
                         "name": "localScale#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "localScale#set",
@@ -17413,7 +17405,7 @@
                     },
                     {
                         "name": "localRotation#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "rotation#set",
@@ -30821,7 +30813,7 @@
                     },
                     {
                         "name": "FilteredOperation",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Complete",
@@ -31147,7 +31139,7 @@
                     },
                     {
                         "name": "Kill",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Kill$1",
@@ -31499,7 +31491,7 @@
                     },
                     {
                         "name": "DOScale$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "DOScale",
@@ -31507,7 +31499,7 @@
                     },
                     {
                         "name": "DOScaleX",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "DOScaleY",
@@ -31555,7 +31547,7 @@
                     },
                     {
                         "name": "DOLocalJump",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "DOPath$1",
@@ -31833,7 +31825,7 @@
                     },
                     {
                         "name": "ElapsedPercentage",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ElapsedDirectionalPercentage",
@@ -31943,7 +31935,7 @@
                     },
                     {
                         "name": "SetId$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetId$2",
@@ -32003,7 +31995,7 @@
                     },
                     {
                         "name": "OnStart",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnPlay",
@@ -32019,7 +32011,7 @@
                     },
                     {
                         "name": "OnUpdate",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnStepComplete",
@@ -32047,11 +32039,11 @@
                     },
                     {
                         "name": "Join",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Insert",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PrependInterval",
@@ -32067,7 +32059,7 @@
                     },
                     {
                         "name": "InsertCallback",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "From",
@@ -32103,7 +32095,7 @@
                     },
                     {
                         "name": "SetRelative",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetSpeedBased",
@@ -32311,7 +32303,7 @@
                     },
                     {
                         "name": "SetRelativeEndValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetSpeedBasedDuration",
@@ -33239,7 +33231,7 @@
                     },
                     {
                         "name": "DoInsertCallback",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "UpdateDelay",
@@ -39702,6 +39694,26 @@
                     {
                         "name": "RefreshAllBorders",
                         "excluded": false
+                    },
+                    {
+                        "name": "DealPiecesLikeCards",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlayDealThenFlipReveal",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CreateDealSequence",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FlipRevealAllPieces",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetAllPiecesTint",
+                        "excluded": false
                     }
                 ]
             },
@@ -39768,6 +39780,10 @@
                     {
                         "name": "OnPointerUp",
                         "excluded": false
+                    },
+                    {
+                        "name": "SetTint",
+                        "excluded": false
                     }
                 ]
             },
@@ -39802,10 +39818,6 @@
                         "excluded": false
                     },
                     {
-                        "name": "OnEnable",
-                        "excluded": false
-                    },
-                    {
                         "name": "MoveLoop",
                         "excluded": false
                     },
@@ -39815,6 +39827,10 @@
                     },
                     {
                         "name": "WorldPosFromRect",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
                         "excluded": false
                     }
                 ]
@@ -39828,15 +39844,19 @@
                         "excluded": false
                     },
                     {
-                        "name": "Start",
-                        "excluded": false
-                    },
-                    {
                         "name": "Update",
                         "excluded": false
                     },
                     {
-                        "name": "ScaleToFitScreen",
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ScaleToFitArea",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
                         "excluded": false
                     }
                 ]
@@ -39865,6 +39885,88 @@
                     },
                     {
                         "name": "Reset",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "AudioManager",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlaySound",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "DG.Tweening.DOVirtual",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Float",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Int",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Vector3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Color",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EasedValue$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue$4",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue$5",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue$6",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue$7",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DelayedCall",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "DG.Tweening.Core.SequenceCallback",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
                         "excluded": false
                     }
                 ]
