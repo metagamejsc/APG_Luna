@@ -1,0 +1,201 @@
+{ "skeleton": { "images": "C:/Users/PC/Desktop/BRAIN MASTER/ANIMATION/Level/Level_52/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG_F", "bone": "root", "attachment": "BG_F" },
+	{ "name": "carriage", "bone": "root", "attachment": "carriage" },
+	{ "name": "car", "bone": "root", "attachment": "car" },
+	{ "name": "room_new", "bone": "root", "attachment": "room_new" },
+	{ "name": "window_old", "bone": "root", "attachment": "window_old" },
+	{ "name": "window_new", "bone": "root", "attachment": "window_new" },
+	{ "name": "window_door_closed1", "bone": "root", "attachment": "window_door_closed1" },
+	{ "name": "window_door_closed2", "bone": "root", "attachment": "window_door_closed2" },
+	{ "name": "makeup_desk", "bone": "root", "attachment": "makeup_desk" },
+	{ "name": "PC", "bone": "root", "attachment": "PC" },
+	{ "name": "window_door_opened1", "bone": "root", "attachment": "window_door_opened1" },
+	{ "name": "window_door_opened2", "bone": "root", "attachment": "window_door_opened2" },
+	{ "name": "wall", "bone": "root", "attachment": "wall" },
+	{ "name": "mirror_old", "bone": "root", "attachment": "mirror_old" },
+	{ "name": "mirror_new", "bone": "root", "attachment": "mirror_new" },
+	{ "name": "girl_stand", "bone": "root", "attachment": "girl_stand" },
+	{ "name": "gỉl_laugh", "bone": "root", "attachment": "gỉl_laugh" },
+	{ "name": "girl_end_tears", "bone": "root", "attachment": "girl_end_tears" },
+	{ "name": "mouth_drool", "bone": "root", "attachment": "mouth_drool" },
+	{ "name": "eye_heart copy", "bone": "root", "attachment": "eye_heart copy" },
+	{ "name": "eye_heart", "bone": "root", "attachment": "eye_heart" },
+	{ "name": "girl_run_leg_B", "bone": "root", "attachment": "girl_run_leg_B" },
+	{ "name": "girl_run_arm_B", "bone": "root", "attachment": "girl_run_arm_B" },
+	{ "name": "girl_run_body", "bone": "root", "attachment": "girl_run_body" },
+	{ "name": "girl_run_arm_F", "bone": "root", "attachment": "girl_run_arm_F" },
+	{ "name": "girl_run_leg_F", "bone": "root", "attachment": "girl_run_leg_F" },
+	{ "name": "dude_before", "bone": "root", "attachment": "dude_before" },
+	{ "name": "dude_after", "bone": "root", "attachment": "dude_after" },
+	{ "name": "dude_after_arm", "bone": "root", "attachment": "dude_after_arm" },
+	{ "name": "dumbbell_anim", "bone": "root", "attachment": "dumbbell_anim" },
+	{ "name": "buttplug", "bone": "root", "attachment": "buttplug" },
+	{ "name": "dumbbell", "bone": "root", "attachment": "dumbbell" },
+	{ "name": "bed", "bone": "root", "attachment": "bed" },
+	{ "name": "love_chair", "bone": "root", "attachment": "love_chair" },
+	{ "name": "highheels", "bone": "root", "attachment": "highheels" },
+	{ "name": "shoes", "bone": "root", "attachment": "shoes" },
+	{ "name": "boxing_gloves", "bone": "root", "attachment": "boxing_gloves" },
+	{ "name": "cat paws", "bone": "root", "attachment": "cat paws" },
+	{ "name": "hat_old", "bone": "root", "attachment": "hat_old" },
+	{ "name": "hat_new", "bone": "root", "attachment": "hat_new" },
+	{ "name": "poster_old", "bone": "root", "attachment": "poster_old" },
+	{ "name": "poster_new", "bone": "root", "attachment": "poster_new" },
+	{ "name": "wall_F", "bone": "root", "attachment": "wall_F" },
+	{ "name": "door_blue_opened", "bone": "root", "attachment": "door_blue_opened" },
+	{ "name": "door_blue_closed", "bone": "root", "attachment": "door_blue_closed" },
+	{ "name": "door_pink_closed", "bone": "root", "attachment": "door_pink_closed" },
+	{ "name": "girl_roll", "bone": "root", "attachment": "girl_roll" }
+],
+"skins": {
+	"default": {
+		"BG_F": {
+			"BG_F": { "x": 540, "y": -925, "width": 1082, "height": 1258 }
+		},
+		"carriage": {
+			"carriage": { "x": 736.5, "y": -499, "width": 167, "height": 166 }
+		},
+		"car": {
+			"car": { "x": 732, "y": -520.5, "width": 178, "height": 105 }
+		},
+		"room_new": {
+			"room_new": { "x": 629, "y": -925, "width": 904, "height": 1258 }
+		},
+		"window_old": {
+			"window_old": { "x": 703.5, "y": -495, "width": 307, "height": 280 }
+		},
+		"window_new": {
+			"window_new": { "x": 702, "y": -478.5, "width": 282, "height": 247 }
+		},
+		"window_door_closed1": {
+			"window_door_closed1": { "x": 636.5, "y": -476.5, "width": 133, "height": 225 }
+		},
+		"window_door_closed2": {
+			"window_door_closed2": { "x": 766, "y": -476.5, "width": 134, "height": 225 }
+		},
+		"makeup_desk": {
+			"makeup_desk": { "x": 921, "y": -783, "width": 458, "height": 438 }
+		},
+		"PC": {
+			"PC": { "x": 884, "y": -825.5, "width": 402, "height": 353 }
+		},
+		"window_door_opened1": {
+			"window_door_opened1": { "x": 538.5, "y": -477.5, "width": 81, "height": 243 }
+		},
+		"window_door_opened2": {
+			"window_door_opened2": { "x": 861.5, "y": -477.5, "width": 81, "height": 243 }
+		},
+		"wall": {
+			"wall": { "x": 253, "y": -925, "width": 148, "height": 1258 }
+		},
+		"mirror_old": {
+			"mirror_old": { "x": 412, "y": -480.5, "width": 154, "height": 219 }
+		},
+		"mirror_new": {
+			"mirror_new": { "x": 411.5, "y": -476.5, "width": 153, "height": 211 }
+		},
+		"girl_stand": {
+			"girl_stand": { "x": 885, "y": -991, "width": 338, "height": 570 }
+		},
+		"gỉl_laugh": {
+			"gỉl_laugh": { "x": 857, "y": -800, "width": 62, "height": 72 }
+		},
+		"girl_end_tears": {
+			"girl_end_tears": { "x": 860, "y": -778, "width": 128, "height": 44 }
+		},
+		"mouth_drool": {
+			"mouth_drool": { "x": 857.5, "y": -836.5, "width": 49, "height": 59 }
+		},
+		"eye_heart copy": {
+			"eye_heart copy": { "x": 832.5, "y": -783, "width": 45, "height": 42 }
+		},
+		"eye_heart": {
+			"eye_heart": { "x": 867, "y": -781.5, "width": 48, "height": 43 }
+		},
+		"girl_run_leg_B": {
+			"girl_run_leg_B": { "x": 473, "y": -1103, "width": 168, "height": 228 }
+		},
+		"girl_run_arm_B": {
+			"girl_run_arm_B": { "x": 661.5, "y": -1024.5, "width": 161, "height": 91 }
+		},
+		"girl_run_body": {
+			"girl_run_body": { "x": 554.5, "y": -997, "width": 349, "height": 202 }
+		},
+		"girl_run_arm_F": {
+			"girl_run_arm_F": { "x": 556, "y": -1008, "width": 116, "height": 168 }
+		},
+		"girl_run_leg_F": {
+			"girl_run_leg_F": { "x": 353.5, "y": -962.5, "width": 229, "height": 137 }
+		},
+		"dude_before": {
+			"dude_before": { "x": 653.5, "y": -915.5, "width": 275, "height": 725 }
+		},
+		"dude_after": {
+			"dude_after": { "x": 645.5, "y": -903.5, "width": 265, "height": 785 }
+		},
+		"dude_after_arm": {
+			"dude_after_arm": { "x": 530, "y": -713, "width": 50, "height": 154 }
+		},
+		"dumbbell_anim": {
+			"dumbbell_anim": { "x": 531.5, "y": -661, "width": 77, "height": 158 }
+		},
+		"buttplug": {
+			"buttplug": { "x": 427.5, "y": -1311.5, "width": 171, "height": 121 }
+		},
+		"dumbbell": {
+			"dumbbell": { "x": 441, "y": -1290, "width": 158, "height": 148 }
+		},
+		"bed": {
+			"bed": { "x": 816, "y": -1332.5, "width": 534, "height": 445 }
+		},
+		"love_chair": {
+			"love_chair": { "x": 840.5, "y": -1385.5, "width": 555, "height": 279 }
+		},
+		"highheels": {
+			"highheels": { "x": 901.5, "y": -1115.5, "width": 129, "height": 123 }
+		},
+		"shoes": {
+			"shoes": { "x": 895.5, "y": -1128.5, "width": 151, "height": 97 }
+		},
+		"boxing_gloves": {
+			"boxing_gloves": { "x": 479, "y": -1235, "width": 156, "height": 124 }
+		},
+		"cat paws": {
+			"cat paws": { "x": 453, "y": -1082, "width": 186, "height": 110 }
+		},
+		"hat_old": {
+			"hat_old": { "x": 429, "y": -797, "width": 188, "height": 242 }
+		},
+		"hat_new": {
+			"hat_new": { "x": 432, "y": -796, "width": 132, "height": 244 }
+		},
+		"poster_old": {
+			"poster_old": { "x": 993.5, "y": -447, "width": 135, "height": 166 }
+		},
+		"poster_new": {
+			"poster_new": { "x": 993.5, "y": -447, "width": 135, "height": 166 }
+		},
+		"wall_F": {
+			"wall_F": { "x": 295.5, "y": -925, "width": 63, "height": 1258 }
+		},
+		"door_blue_opened": {
+			"door_blue_opened": { "x": 62.5, "y": -669, "width": 261, "height": 596 }
+		},
+		"door_blue_closed": {
+			"door_blue_closed": { "x": 222, "y": -945.5, "width": 102, "height": 1159 }
+		},
+		"door_pink_closed": {
+			"door_pink_closed": { "x": 222, "y": -946.5, "width": 102, "height": 1159 }
+		},
+		"girl_roll": {
+			"girl_roll": { "x": 147, "y": -1039.5, "width": 256, "height": 393 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

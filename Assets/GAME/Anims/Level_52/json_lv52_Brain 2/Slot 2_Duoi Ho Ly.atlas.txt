@@ -1,0 +1,12 @@
+Slot 2_Duoi Ho Ly.png
+size:272,172
+filter:Linear,Linear
+pma:true
+buttplug
+bounds:150,2,168,119
+offsets:1,1,171,121
+rotate:90
+dumbbell
+bounds:2,14,156,146
+offsets:1,1,158,148
+rotate:90

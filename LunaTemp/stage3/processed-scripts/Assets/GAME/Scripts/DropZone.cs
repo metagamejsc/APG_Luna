@@ -5,6 +5,7 @@ public class DropZone : MonoBehaviour
 {
     public int idDrop = 0;
     public GameObject[] steps;
+    public GameObject stepLose;
 
 
     private int currentStep = 0;
@@ -17,9 +18,21 @@ public class DropZone : MonoBehaviour
         currentStep = 0;
         NextStep();
     }
+    public void LoseStep()
+    {
+        if (stepLose != null)
+        {
+            foreach (var step in steps)
+            {
+                step.SetActive(false);
+            }
+            stepLose.SetActive(true);
+            boxCollider.enabled = false;
+        }
+        LunaManager.ins.ShowEndCard();
+    }
     public void DragItem()
     {
-
         currentStep++;
         NextStep();
         CheckDone();

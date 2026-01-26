@@ -1,0 +1,10 @@
+Slot 8_Tranh Dan Tuong.png
+size:272,168
+filter:Linear,Linear
+pma:true
+poster_new
+bounds:2,2,133,164
+offsets:1,1,135,166
+poster_old
+bounds:137,2,133,164
+offsets:1,1,135,166

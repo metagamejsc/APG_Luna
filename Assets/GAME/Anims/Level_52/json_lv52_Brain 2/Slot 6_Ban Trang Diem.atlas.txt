@@ -1,0 +1,11 @@
+Slot 6_Ban Trang Diem.png
+size:816,440
+filter:Linear,Linear
+pma:true
+PC
+bounds:460,39,399,351
+offsets:2,1,402,353
+rotate:90
+makeup_desk
+bounds:2,2,456,436
+offsets:1,1,458,438

@@ -1,0 +1,8 @@
+BG.png
+size:1000,636
+filter:Linear,Linear
+pma:true
+BG_F
+bounds:2,2,541,629
+room_new
+bounds:545,2,452,629

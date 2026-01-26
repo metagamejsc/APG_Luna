@@ -1,0 +1,10 @@
+Slot 5_Mu Vanh.png
+size:324,248
+filter:Linear,Linear
+pma:true
+hat_new
+bounds:190,2,130,242
+offsets:1,1,132,244
+hat_old
+bounds:2,4,186,240
+offsets:1,1,188,242

@@ -1,0 +1,10 @@
+Slot 4_Gang Tay.png
+size:344,128
+filter:Linear,Linear
+pma:true
+boxing_gloves
+bounds:186,2,154,121
+offsets:1,2,156,124
+cat paws
+bounds:2,16,182,107
+offsets:2,2,186,110

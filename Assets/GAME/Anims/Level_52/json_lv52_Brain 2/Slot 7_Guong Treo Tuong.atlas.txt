@@ -1,0 +1,12 @@
+Slot 7_Guong Treo Tuong.png
+size:432,156
+filter:Linear,Linear
+pma:true
+mirror_new
+bounds:2,3,151,209
+offsets:1,1,153,211
+rotate:90
+mirror_old
+bounds:213,2,152,217
+offsets:1,1,154,219
+rotate:90

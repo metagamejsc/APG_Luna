@@ -1,0 +1,12 @@
+Slot 1_Bed.png
+size:728,560
+filter:Linear,Linear
+pma:true
+bed
+bounds:2,23,532,443
+offsets:1,1,534,445
+rotate:90
+love_chair
+bounds:447,2,553,277
+offsets:1,1,555,279
+rotate:90

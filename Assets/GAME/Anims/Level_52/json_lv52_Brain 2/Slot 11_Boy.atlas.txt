@@ -1,0 +1,15 @@
+Slot 11_Boy.png
+size:1648,280
+filter:Linear,Linear
+pma:true
+dude_after
+bounds:2,12,265,785
+rotate:90
+dude_after_arm
+bounds:1593,123,50,154
+dude_before
+bounds:789,2,275,725
+rotate:90
+dumbbell_anim
+bounds:1516,121,75,156
+offsets:1,1,77,158

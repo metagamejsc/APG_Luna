@@ -1,0 +1,12 @@
+Slot 3_Giay Cao Got.png
+size:224,152
+filter:Linear,Linear
+pma:true
+highheels
+bounds:2,24,126,121
+offsets:1,1,129,123
+rotate:90
+shoes
+bounds:125,2,148,95
+offsets:2,1,151,97
+rotate:90
