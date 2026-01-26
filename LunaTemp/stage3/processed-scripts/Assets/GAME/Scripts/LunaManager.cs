@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class LunaManager : MonoBehaviour
 {
     public Button[] lstBtnInstall;
+    public GameObject WinGO;
+    public GameObject LoseGO;
     public GameObject StartCard;
     public GameObject EndCard;
     //public GameObject hand;
