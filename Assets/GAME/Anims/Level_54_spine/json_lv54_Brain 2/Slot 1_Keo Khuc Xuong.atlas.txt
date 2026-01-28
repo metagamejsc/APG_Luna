@@ -1,0 +1,27 @@
+Slot 1_Keo Khuc Xuong.png
+size:452,560
+filter:Linear,Linear
+pma:true
+bone_inbowl
+bounds:281,2,124,83
+offsets:1,1,126,85
+rotate:90
+dog_lick
+bounds:2,345,211,251
+rotate:90
+dog_sad
+bounds:255,333,187,223
+offsets:0,0,187,224
+dog_shaking
+bounds:2,139,204,212
+offsets:1,1,206,214
+rotate:90
+dog_sit
+bounds:216,128,211,203
+dog_sit_arm
+bounds:366,26,81,100
+dog_tongue
+bounds:159,2,120,124
+dogbowl
+bounds:2,23,155,114
+offsets:1,1,157,116

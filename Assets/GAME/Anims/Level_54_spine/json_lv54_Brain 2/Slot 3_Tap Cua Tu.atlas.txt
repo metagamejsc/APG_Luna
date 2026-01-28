@@ -1,0 +1,14 @@
+Slot 3_Tap Cua Tu.png
+size:292,120
+filter:Linear,Linear
+pma:true
+drawer_closed
+bounds:157,61,133,54
+offsets:1,1,135,56
+drawer_opened
+bounds:2,14,153,101
+offsets:1,1,155,103
+milk
+bounds:157,2,57,79
+offsets:1,1,59,81
+rotate:90

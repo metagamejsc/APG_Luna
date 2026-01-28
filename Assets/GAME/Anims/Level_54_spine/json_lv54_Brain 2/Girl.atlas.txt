@@ -1,0 +1,94 @@
+Girl.png
+size:884,1032
+filter:Linear,Linear
+pma:true
+girl_dressed
+bounds:2,699,331,877
+rotate:90
+girl_feet
+bounds:732,582,144,115
+offsets:2,1,147,117
+girl_head
+bounds:732,468,112,141
+offsets:1,1,115,143
+rotate:90
+girl_legs 1
+bounds:716,233,156,233
+offsets:2,1,159,235
+girl_legs 2
+bounds:411,541,156,319
+offsets:2,1,159,321
+rotate:90
+girl_legs 3
+bounds:2,36,156,407
+offsets:2,1,159,409
+rotate:90
+girl_legs 4
+bounds:2,194,159,503
+girl_pain
+bounds:474,258,66,46
+offsets:1,1,68,48
+rotate:90
+girl_shirt 1
+bounds:623,21,210,155
+offsets:1,1,213,157
+rotate:90
+girl_shirt 2
+bounds:411,2,210,201
+offsets:1,1,213,203
+girl_shirt 3
+bounds:163,487,210,235
+offsets:1,1,213,237
+rotate:90
+girl_shirt 4
+bounds:163,198,210,268
+offsets:1,1,213,270
+girl_shirt 5
+bounds:411,326,213,303
+rotate:90
+girl_shy
+bounds:572,216,54,38
+offsets:1,2,56,41
+rotate:90
+girl_sleep
+bounds:522,258,66,46
+offsets:1,1,69,48
+rotate:90
+needle
+bounds:131,15,61,19
+offsets:1,1,64,21
+needle copy
+bounds:572,272,52,42
+offsets:1,1,54,45
+rotate:90
+needle copy 2
+bounds:194,19,62,15
+offsets:1,1,64,18
+needle copy 3
+bounds:375,391,57,33
+offsets:1,2,59,36
+rotate:90
+needle copy 4
+bounds:474,209,47,47
+offsets:1,1,49,49
+needle copy 5
+bounds:2,12,22,63
+offsets:1,1,24,65
+rotate:90
+needle copy 6
+bounds:523,209,47,47
+offsets:1,1,49,49
+needle copy 7
+bounds:67,12,22,62
+offsets:1,1,24,64
+rotate:90
+shake_fx
+bounds:375,205,119,97
+offsets:1,1,121,99
+rotate:90
+sleep_fx
+bounds:375,450,34,35
+offsets:1,1,36,38
+snort
+bounds:131,3,14,10
+offsets:1,1,16,13

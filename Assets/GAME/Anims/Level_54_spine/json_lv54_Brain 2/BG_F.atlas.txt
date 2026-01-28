@@ -1,0 +1,6 @@
+BG_F.png
+size:544,632
+filter:Linear,Linear
+pma:true
+BG2
+bounds:2,2,540,628

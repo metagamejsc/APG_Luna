@@ -6,14 +6,13 @@ public class DropCustom : MonoBehaviour
     //public int idDrop = 0;
     //public GameObject[] steps;
     public SkeletonGraphic skeletonGraphic;
-    public string animationNameDefault = "idle";
     public MixSkeletonSkin mixSkeletonSkin;
     public MixSkeletonSkin skeDoor;
-    int numBody = 0;
+    public MixSkeletonSkin skeDog;
+    public int numBody = 0;
     //----------------------------------------------
     public GameObject[] items;
     //------------------------------------
-    private string currentAnimation = "";
     private int currentStep = 0;
     private Collider2D boxCollider;
 
@@ -23,43 +22,47 @@ public class DropCustom : MonoBehaviour
         boxCollider = GetComponent<Collider2D>();
         boxCollider.enabled = true;
         currentStep = 0;
-        currentAnimation = animationNameDefault;
-        numBody = 8;
     }
+    //----------------------------------------------------------------------------------------------------------------------------
     public void DragItemDress(string animationName)
     {
-        // mixSkeletonSkin.PlayAnimationWithSkin(animationName, "default", () => { }, true);
         mixSkeletonSkin.PlayAnimationOnly(animationName, true);
     }
 
-    public void DragItemCustomAnim(int id, string animationName)
+    public void DragItemCustomAnim(int idDrag)
     {
-        numBody--;
-        string nameSkin = "girl_body_" + numBody;
-        mixSkeletonSkin.PlayAnimationWithSkin(animationName, nameSkin, () => { SetDefaultAnimation(); });
-        SpawnItem(id);
-
+        if (idDrag == 1)
+        {
+            ChangeAnimationDog();
+        }
+        numBody++;
+        string nameSkin = "Tang Chieu Cao " + numBody;
+        mixSkeletonSkin.PlayAnimationWithSkin(nameSkin, "default", () => { SetDefaultAnimation(nameSkin); }, false);
+        SpawnItem(idDrag);
+        AudioController.Instance.PlaySfx("Click");
     }
-    void SetDefaultAnimation()
+    void SetDefaultAnimation(string nameSkin = "default")
     {
-        SpineHelper.ChangeAnimation(skeletonGraphic, currentAnimation, true);
+        var nameLoop = nameSkin + "_Loop";
+        SpineHelper.ChangeAnimation(skeletonGraphic, nameLoop, true);
         LunaManager.ins.SetIsDrag(true);
     }
     public void SpawnItem(int id)
     {
         var item = Instantiate(items[id], transform.position, Quaternion.identity);
-        item.transform.SetParent(this.transform);
+        item.transform.SetParent(LunaManager.ins.Parent.transform);
         item.transform.localScale = Vector3.one;
         item.transform.localPosition = Vector3.zero;
-        Destroy(item, 2f);
+        Destroy(item, 1.333f);
 
     }
+    //----------------------------------------------------------------------------------------------------------------------------
     public void ButtonClickDoor()
     {
-        if (LunaManager.ins.countPlay < 8)
+        if (LunaManager.ins.countPlay < 10)
         {
             //lose
-            skeDoor.PlayAnimationWithSkin("Thao Tac Sai", "default", () => { LoseGame(); }, false);
+            skeDoor.PlayAnimationWithSkin("Outro", "default", () => { LoseGame(); }, false);
             LunaManager.ins.LoseGO.SetActive(true);
         }
         else
@@ -80,7 +83,15 @@ public class DropCustom : MonoBehaviour
         skeDoor.PlayAnimationOnly("Outro_Loop", true);
         LunaManager.ins.ShowEndCard();
     }
-
+    //----------------------------------------------------------------------------------------------------------------------------
+    public void ChangeAnimationDog()
+    {
+        skeDog.PlayAnimationOnly("Slot 1_Keo Khuc Xuong", false, () =>
+                {
+                    skeDog.PlayAnimationOnly("Slot 1_Keo Khuc Xuong_Loop", true);
+                });
+    }
+    //----------------------------------------------------------------------------------------------------------------------------
     void OnEnable()
     {
         GameController.OnUpgradePhase2 += EventUpgrade;

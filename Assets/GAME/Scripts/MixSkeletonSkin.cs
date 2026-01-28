@@ -123,6 +123,36 @@ public class MixSkeletonSkin : MonoBehaviour
             currentEntry.Complete += OnAnimationComplete;
         }
     }
+    public void PlayAnimationOnly(string animName, bool loop, System.Action onComplete)
+    {
+        if (skeletonAnimation == null) return;
+        if (string.IsNullOrEmpty(animName)) return;
+
+        var state = skeletonAnimation.AnimationState;
+
+        if (currentEntry != null)
+        {
+            currentEntry.Complete -= OnAnimationComplete;
+        }
+
+        currentEntry = state.SetAnimation(0, animName, loop);
+
+        if (!loop)
+        {
+            currentEntry.Complete += entry =>
+            {
+                onComplete?.Invoke();
+
+                if (!string.IsNullOrEmpty(defaultAnim))
+                {
+                    skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, true);
+                }
+
+                currentEntry = null;
+            };
+        }
+    }
+
     public void ApplySkinOnly(string skinName, bool loop = true)
     {
         if (string.IsNullOrEmpty(skinName)) return;
@@ -135,6 +165,31 @@ public class MixSkeletonSkin : MonoBehaviour
             skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, loop);
         }
     }
+    public void ApplySkinOnly(string skinName, bool loop, System.Action onComplete)
+    {
+        if (string.IsNullOrEmpty(skinName)) return;
+        if (skeletonAnimation == null) return;
+
+        MixAndApplySkins(skinName);
+
+        if (!string.IsNullOrEmpty(defaultAnim))
+        {
+            var entry = skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, loop);
+
+            if (!loop)
+            {
+                entry.Complete += _ =>
+                {
+                    onComplete?.Invoke();
+                };
+            }
+            else
+            {
+                onComplete?.Invoke();
+            }
+        }
+    }
+
     public void PlayAnimationWithSkin(string animName, string skinName, System.Action onComplete, bool loop = false)
     {
         if (string.IsNullOrEmpty(animName)) return;

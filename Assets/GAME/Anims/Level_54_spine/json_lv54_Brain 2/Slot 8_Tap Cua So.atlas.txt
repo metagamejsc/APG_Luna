@@ -1,0 +1,22 @@
+Slot 8_Tap Cua So.png
+size:620,340
+filter:Linear,Linear
+pma:true
+sunlight
+bounds:2,4,324,332
+offsets:6,8,332,340
+window_door_closed1
+bounds:328,71,131,223
+offsets:1,1,133,225
+rotate:90
+window_door_closed2
+bounds:328,204,132,223
+offsets:1,1,134,225
+rotate:90
+window_door_opened1
+bounds:553,66,62,270
+offsets:1,1,64,272
+window_door_opened2
+bounds:328,2,62,270
+offsets:1,1,64,272
+rotate:90
