@@ -1,0 +1,22 @@
+Slot 7_Tap Cua So.png
+size:792,136
+filter:Linear,Linear
+pma:true
+window_door_closed1
+bounds:227,3,131,223
+offsets:1,1,133,225
+rotate:90
+window_door_closed2
+bounds:2,2,132,223
+offsets:1,1,134,225
+rotate:90
+window_door_opened1
+bounds:452,72,62,270
+offsets:1,1,64,272
+rotate:90
+window_door_opened2
+bounds:452,8,62,270
+offsets:1,1,64,272
+rotate:90
+woodpecker
+bounds:724,54,64,80

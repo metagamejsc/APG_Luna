@@ -1,0 +1,317 @@
+{ "skeleton": { "images": "C:/Users/PC/Desktop/BRAIN MASTER/ANIMATION/Level/Level_53/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG", "bone": "root", "attachment": "BG" },
+	{ "name": "dreass", "bone": "root", "attachment": "dreass" },
+	{ "name": "woodpecker", "bone": "root", "attachment": "woodpecker" },
+	{ "name": "ice", "bone": "root", "attachment": "ice" },
+	{ "name": "fridge_closed", "bone": "root", "attachment": "fridge_closed" },
+	{ "name": "fridge_opened", "bone": "root", "attachment": "fridge_opened" },
+	{ "name": "window_door_closed1", "bone": "root", "attachment": "window_door_closed1" },
+	{ "name": "window_door_closed2", "bone": "root", "attachment": "window_door_closed2" },
+	{ "name": "window_door_opened1", "bone": "root", "attachment": "window_door_opened1" },
+	{ "name": "window_door_opened2", "bone": "root", "attachment": "window_door_opened2" },
+	{ "name": "pill", "bone": "root", "attachment": "pill" },
+	{ "name": "hairdryer", "bone": "root", "attachment": "hairdryer" },
+	{ "name": "poster", "bone": "root", "attachment": "poster" },
+	{ "name": "door_opened", "bone": "root", "attachment": "door_opened" },
+	{ "name": "dog_arm_B", "bone": "root", "attachment": "dog_arm_B" },
+	{ "name": "dog_leg_B", "bone": "root", "attachment": "dog_leg_B" },
+	{ "name": "dog_tail", "bone": "root", "attachment": "dog_tail" },
+	{ "name": "dog_body", "bone": "root", "attachment": "dog_body" },
+	{ "name": "dog_head", "bone": "root", "attachment": "dog_head" },
+	{ "name": "dog_arm_F", "bone": "root", "attachment": "dog_arm_F" },
+	{ "name": "dog_leg_F", "bone": "root", "attachment": "dog_leg_F" },
+	{ "name": "dog_mouth", "bone": "root", "attachment": "dog_mouth" },
+	{ "name": "dog_heart_eyes", "bone": "root" },
+	{ "name": "tongue", "bone": "root", "attachment": "tongue" },
+	{ "name": "dog_squint", "bone": "root" },
+	{ "name": "dog_vomit", "bone": "root", "attachment": "dog_vomit" },
+	{ "name": "rainbow_vomit", "bone": "root", "attachment": "rainbow_vomit" },
+	{ "name": "vomit_fx1", "bone": "root", "attachment": "vomit_fx1" },
+	{ "name": "vomit_fx2", "bone": "root", "attachment": "vomit_fx2" },
+	{ "name": "dude_arm_point", "bone": "root", "attachment": "dude_arm_point" },
+	{ "name": "dude_neck", "bone": "root", "attachment": "dude_neck" },
+	{ "name": "dude_body", "bone": "root", "attachment": "dude_body" },
+	{ "name": "dude_head", "bone": "root", "attachment": "dude_head" },
+	{ "name": "dude_chuckle", "bone": "root", "attachment": "dude_chuckle" },
+	{ "name": "dude_tears", "bone": "root", "attachment": "dude_tears" },
+	{ "name": "dude_heart_eyes", "bone": "root", "attachment": "dude_heart_eyes" },
+	{ "name": "dude_mouth", "bone": "root", "attachment": "dude_mouth" },
+	{ "name": "dude_inpain", "bone": "root", "attachment": "dude_inpain" },
+	{ "name": "question_mark", "bone": "root", "attachment": "question_mark" },
+	{ "name": "banging_fx", "bone": "root", "attachment": "banging_fx" },
+	{ "name": "door_closed", "bone": "root", "attachment": "door_closed" },
+	{ "name": "treadmill_B", "bone": "root", "attachment": "treadmill_B" },
+	{ "name": "treadmill_track", "bone": "root", "attachment": "treadmill_track" },
+	{ "name": "speed_line", "bone": "root", "attachment": "speed_line" },
+	{ "name": "girl_body_1", "bone": "root", "attachment": "girl_body_1" },
+	{ "name": "girl_body_2", "bone": "root", "attachment": "girl_body_2" },
+	{ "name": "girl_body_3", "bone": "root", "attachment": "girl_body_3" },
+	{ "name": "girl_body_4", "bone": "root", "attachment": "girl_body_4" },
+	{ "name": "girl_body_5", "bone": "root", "attachment": "girl_body_5" },
+	{ "name": "girl_body_6", "bone": "root", "attachment": "girl_body_6" },
+	{ "name": "girl_body_7", "bone": "root", "attachment": "girl_body_7" },
+	{ "name": "girl_body_8", "bone": "root", "attachment": "girl_body_8" },
+	{ "name": "girl_arms", "bone": "root", "attachment": "girl_arms" },
+	{ "name": "girl_head", "bone": "root", "attachment": "girl_head" },
+	{ "name": "girl_tickled", "bone": "root", "attachment": "girl_tickled" },
+	{ "name": "girl_tears", "bone": "root", "attachment": "girl_tears" },
+	{ "name": "laugh_fx", "bone": "root", "attachment": "laugh_fx" },
+	{ "name": "girl_sweat", "bone": "root", "attachment": "girl_sweat" },
+	{ "name": "girl_tongue", "bone": "root", "attachment": "girl_tongue" },
+	{ "name": "girl_freeze", "bone": "root", "attachment": "girl_freeze" },
+	{ "name": "shake_fx", "bone": "root", "attachment": "shake_fx" },
+	{ "name": "treadmill_F", "bone": "root", "attachment": "treadmill_F" },
+	{ "name": "girl_dressed", "bone": "root", "attachment": "girl_dressed" },
+	{ "name": "roller", "bone": "root", "attachment": "roller" },
+	{ "name": "roller_anim", "bone": "root", "attachment": "roller_anim" },
+	{ "name": "female_dog_sleep", "bone": "root", "attachment": "female_dog_sleep" },
+	{ "name": "female_dog_lick", "bone": "root", "attachment": "female_dog_lick" },
+	{ "name": "dog_tongue", "bone": "root", "attachment": "dog_tongue" },
+	{ "name": "sleep_fx", "bone": "root", "attachment": "sleep_fx" },
+	{ "name": "hairdryer_anim", "bone": "root", "attachment": "hairdryer_anim" },
+	{ "name": "wind_fx", "bone": "root", "attachment": "wind_fx" },
+	{ "name": "wind_fx2", "bone": "root", "attachment": "wind_fx2" },
+	{ "name": "woodpecker_legs", "bone": "root", "attachment": "woodpecker_legs" },
+	{ "name": "woodpecker_body", "bone": "root", "attachment": "woodpecker_body" },
+	{ "name": "pill_anim", "bone": "root", "attachment": "pill_anim" },
+	{ "name": "ice_anim", "bone": "root", "attachment": "ice_anim" }
+],
+"skins": {
+	"default": {
+		"BG": {
+			"BG": { "x": 540, "y": -924, "width": 1082, "height": 1258 }
+		},
+		"dreass": {
+			"dreass": { "x": 985, "y": -686, "width": 122, "height": 272 }
+		},
+		"woodpecker": {
+			"woodpecker": { "x": 721, "y": -462, "width": 64, "height": 80 }
+		},
+		"ice": {
+			"ice": { "x": 427.5, "y": -586.5, "width": 85, "height": 85 }
+		},
+		"fridge_closed": {
+			"fridge_closed": { "x": 465.5, "y": -660.5, "width": 219, "height": 305 }
+		},
+		"fridge_opened": {
+			"fridge_opened": { "x": 553.5, "y": -674, "width": 45, "height": 332 }
+		},
+		"window_door_closed1": {
+			"window_door_closed1": { "x": 696.5, "y": -488.5, "width": 133, "height": 225 }
+		},
+		"window_door_closed2": {
+			"window_door_closed2": { "x": 826, "y": -488.5, "width": 134, "height": 225 }
+		},
+		"window_door_opened1": {
+			"window_door_opened1": { "x": 608, "y": -511, "width": 64, "height": 272 }
+		},
+		"window_door_opened2": {
+			"window_door_opened2": { "x": 914, "y": -511, "width": 64, "height": 272 }
+		},
+		"pill": {
+			"pill": { "x": 464.5, "y": -446.5, "width": 71, "height": 125 }
+		},
+		"hairdryer": {
+			"hairdryer": { "x": 1005.5, "y": -912, "width": 99, "height": 74 }
+		},
+		"poster": {
+			"poster": { "x": 134.5, "y": -556, "width": 167, "height": 214 }
+		},
+		"door_opened": {
+			"door_opened": { "x": 184.5, "y": -639.5, "width": 293, "height": 577 }
+		},
+		"dog_arm_B": {
+			"dog_arm_B": { "x": 143.5, "y": -1045, "width": 41, "height": 58 }
+		},
+		"dog_leg_B": {
+			"dog_leg_B": { "x": 134.5, "y": -1143, "width": 35, "height": 50 }
+		},
+		"dog_tail": {
+			"dog_tail": { "x": 49.5, "y": -1109, "width": 29, "height": 40 }
+		},
+		"dog_body": {
+			"dog_body": { "x": 97, "y": -1097.5, "width": 90, "height": 115 }
+		},
+		"dog_head": {
+			"dog_head": { "x": 98.5, "y": -1037.5, "width": 101, "height": 91 }
+		},
+		"dog_arm_F": {
+			"dog_arm_F": { "x": 52, "y": -1060, "width": 40, "height": 56 }
+		},
+		"dog_leg_F": {
+			"dog_leg_F": { "x": 79.5, "y": -1154, "width": 29, "height": 48 }
+		},
+		"dog_mouth": {
+			"dog_mouth": { "x": 102, "y": -1074, "width": 40, "height": 24 }
+		},
+		"dog_heart_eyes": {
+			"dog_heart_eyes": { "x": 105, "y": -1035, "width": 66, "height": 36 }
+		},
+		"tongue": {
+			"tongue": { "x": 106.5, "y": -1093, "width": 25, "height": 38 }
+		},
+		"dog_squint": {
+			"dog_squint": { "x": 106, "y": -1049, "width": 56, "height": 46 }
+		},
+		"dog_vomit": {
+			"dog_vomit": { "x": 107, "y": -1033, "width": 64, "height": 24 }
+		},
+		"rainbow_vomit": {
+			"rainbow_vomit": { "x": 113, "y": -1127.5, "width": 46, "height": 97 }
+		},
+		"vomit_fx1": {
+			"vomit_fx1": { "x": 121.5, "y": -1164, "width": 123, "height": 58 }
+		},
+		"vomit_fx2": {
+			"vomit_fx2": { "x": 124.5, "y": -1163.5, "width": 133, "height": 79 }
+		},
+		"dude_arm_point": {
+			"dude_arm_point": { "x": 259.5, "y": -955.5, "width": 231, "height": 69 }
+		},
+		"dude_neck": {
+			"dude_neck": { "x": 118, "y": -999, "width": 286, "height": 56 }
+		},
+		"dude_body": {
+			"dude_body": { "x": 43.5, "y": -1019, "width": 395, "height": 164 }
+		},
+		"dude_head": {
+			"dude_head": { "x": 222, "y": -966.5, "width": 130, "height": 111 }
+		},
+		"dude_chuckle": {
+			"dude_chuckle": { "x": 244, "y": -974, "width": 50, "height": 68 }
+		},
+		"dude_tears": {
+			"dude_tears": { "x": 240.5, "y": -951.5, "width": 105, "height": 47 }
+		},
+		"dude_heart_eyes": {
+			"dude_heart_eyes": { "x": 250.5, "y": -966.5, "width": 61, "height": 29 }
+		},
+		"dude_mouth": {
+			"dude_mouth": { "x": 244, "y": -991.5, "width": 34, "height": 23 }
+		},
+		"dude_inpain": {
+			"dude_inpain": { "x": 261.5, "y": -980.5, "width": 81, "height": 87 }
+		},
+		"question_mark": {
+			"question_mark": { "x": 126.5, "y": -998.5, "width": 33, "height": 55 }
+		},
+		"banging_fx": {
+			"banging_fx": { "x": 241, "y": -965, "width": 116, "height": 256 }
+		},
+		"door_closed": {
+			"door_closed": { "x": 299, "y": -932, "width": 66, "height": 1160 }
+		},
+		"treadmill_B": {
+			"treadmill_B": { "x": 716, "y": -1088, "width": 594, "height": 462 }
+		},
+		"treadmill_track": {
+			"treadmill_track": { "x": 672, "y": -1235, "width": 448, "height": 36 }
+		},
+		"speed_line": {
+			"speed_line": { "x": 758, "y": -1234, "width": 130, "height": 4 }
+		},
+		"girl_body_1": {
+			"girl_body_1": { "x": 634, "y": -1000, "width": 136, "height": 528 }
+		},
+		"girl_body_2": {
+			"girl_body_2": { "x": 636, "y": -886, "width": 148, "height": 302 }
+		},
+		"girl_body_3": {
+			"girl_body_3": { "x": 634, "y": -902, "width": 176, "height": 334 }
+		},
+		"girl_body_4": {
+			"girl_body_4": { "x": 633.5, "y": -900, "width": 265, "height": 326 }
+		},
+		"girl_body_5": {
+			"girl_body_5": { "x": 633.5, "y": -923.5, "width": 321, "height": 367 }
+		},
+		"girl_body_6": {
+			"girl_body_6": { "x": 633, "y": -939, "width": 370, "height": 394 }
+		},
+		"girl_body_7": {
+			"girl_body_7": { "x": 633, "y": -968.5, "width": 420, "height": 451 }
+		},
+		"girl_body_8": {
+			"girl_body_8": { "x": 633, "y": -986.5, "width": 476, "height": 485 }
+		},
+		"girl_arms": {
+			"girl_arms": { "x": 633.5, "y": -877.5, "width": 131, "height": 257 }
+		},
+		"girl_head": {
+			"girl_head": { "x": 632, "y": -705, "width": 112, "height": 168 }
+		},
+		"girl_tickled": {
+			"girl_tickled": { "x": 631, "y": -693.5, "width": 64, "height": 65 }
+		},
+		"girl_tears": {
+			"girl_tears": { "x": 635.5, "y": -691.5, "width": 155, "height": 31 }
+		},
+		"laugh_fx": {
+			"laugh_fx": { "x": 636.5, "y": -601, "width": 17, "height": 32 }
+		},
+		"girl_sweat": {
+			"girl_sweat": { "x": 630.5, "y": -702, "width": 57, "height": 38 }
+		},
+		"girl_tongue": {
+			"girl_tongue": { "x": 633, "y": -725, "width": 22, "height": 26 }
+		},
+		"girl_freeze": {
+			"girl_freeze": { "x": 632.5, "y": -696.5, "width": 61, "height": 65 }
+		},
+		"shake_fx": {
+			"shake_fx": { "x": 630.5, "y": -665.5, "width": 121, "height": 99 }
+		},
+		"treadmill_F": {
+			"treadmill_F": { "x": 876.5, "y": -1059.5, "width": 239, "height": 405 }
+		},
+		"girl_dressed": {
+			"girl_dressed": { "x": 623, "y": -950, "width": 216, "height": 660 }
+		},
+		"roller": {
+			"roller": { "x": 479.5, "y": -1432, "width": 213, "height": 82 }
+		},
+		"roller_anim": {
+			"roller_anim": { "x": 818, "y": -725.5, "width": 214, "height": 47 }
+		},
+		"female_dog_sleep": {
+			"female_dog_sleep": { "x": 963.5, "y": -1432.5, "width": 189, "height": 123 }
+		},
+		"female_dog_lick": {
+			"female_dog_lick": { "x": 913, "y": -1462, "width": 38, "height": 34 }
+		},
+		"dog_tongue": {
+			"dog_tongue": { "x": 675, "y": -1471.5, "width": 506, "height": 13 }
+		},
+		"sleep_fx": {
+			"sleep_fx": { "x": 870, "y": -1415, "width": 36, "height": 38 }
+		},
+		"hairdryer_anim": {
+			"hairdryer_anim": { "x": 780.5, "y": -922.5, "width": 123, "height": 119 }
+		},
+		"wind_fx": {
+			"wind_fx": { "x": 688, "y": -939, "width": 120, "height": 134 }
+		},
+		"wind_fx2": {
+			"wind_fx2": { "x": 698, "y": -915.5, "width": 78, "height": 29 }
+		},
+		"woodpecker_legs": {
+			"woodpecker_legs": { "x": 681, "y": -841.5, "width": 34, "height": 33 }
+		},
+		"woodpecker_body": {
+			"woodpecker_body": { "x": 696, "y": -835.5, "width": 90, "height": 145 }
+		},
+		"pill_anim": {
+			"pill_anim": { "x": 616.5, "y": -876.5, "width": 71, "height": 125 }
+		},
+		"ice_anim": {
+			"ice_anim": { "x": 628, "y": -945.5, "width": 160, "height": 155 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

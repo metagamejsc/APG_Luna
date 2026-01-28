@@ -3,19 +3,15 @@ using UnityEngine;
 
 public class DropCustom : MonoBehaviour
 {
-    public int idDrop = 0;
-    public GameObject[] steps;
+    //public int idDrop = 0;
+    //public GameObject[] steps;
     public SkeletonGraphic skeletonGraphic;
     public string animationNameDefault = "idle";
     public MixSkeletonSkin mixSkeletonSkin;
+    public MixSkeletonSkin skeDoor;
+    int numBody = 0;
     //----------------------------------------------
-    //BRIDE
-    private bool isHead = false;
-    private bool isClickSmile = false;
-    //GROOM
-    private bool isShoes = false;
-    private bool isTie = false;
-    private bool isLeg = false;
+    public GameObject[] items;
     //------------------------------------
     private string currentAnimation = "";
     private int currentStep = 0;
@@ -27,147 +23,64 @@ public class DropCustom : MonoBehaviour
         boxCollider = GetComponent<Collider2D>();
         boxCollider.enabled = true;
         currentStep = 0;
-        NextStep();
         currentAnimation = animationNameDefault;
+        numBody = 8;
+    }
+    public void DragItemDress(string animationName)
+    {
+        // mixSkeletonSkin.PlayAnimationWithSkin(animationName, "default", () => { }, true);
+        mixSkeletonSkin.PlayAnimationOnly(animationName, true);
+    }
+
+    public void DragItemCustomAnim(int id, string animationName)
+    {
+        numBody--;
+        string nameSkin = "girl_body_" + numBody;
+        mixSkeletonSkin.PlayAnimationWithSkin(animationName, nameSkin, () => { SetDefaultAnimation(); });
+        SpawnItem(id);
+
+    }
+    void SetDefaultAnimation()
+    {
         SpineHelper.ChangeAnimation(skeletonGraphic, currentAnimation, true);
+        LunaManager.ins.SetIsDrag(true);
     }
-    public void DragItem()
+    public void SpawnItem(int id)
     {
-
-        currentStep++;
-        NextStep();
-        CheckDone();
-    }
-
-    public void DragItemCustomBride(string animationName)
-    {
-        if (animationName == "action" && !isClickSmile)
-        {
-            isClickSmile = true;
-
-        }
-        if (animationName == "win" && !isClickSmile) return;
-        LunaManager.ins.CountPlay();
-
-        if (animationName == "win")
-        {
-            AudioController.Instance.PlaySfx("4");
-        }
-
-        if (animationName == "trumdau" && !isHead)
-        {
-            isHead = true;
-            AudioController.Instance.PlaySfx("5");
-        }
-
-        if (animationName != "trumdau")
-        {
-            if (animationName == "action")
-            {
-                AudioController.Instance.PlaySfx("1");
-            }
-
-            currentAnimation = animationName;
-        }
-
-        if (skeletonGraphic != null)
-        {
-            if (isHead)
-            {
-                SpineHelper.ChangeSkinAndAnimation(skeletonGraphic, "trumdau", animationName, true);
-            }
-            else
-            {
-                SpineHelper.ChangeSkinAndAnimation(skeletonGraphic, "default", animationName, true);
-            }
-
-        }
+        var item = Instantiate(items[id], transform.position, Quaternion.identity);
+        item.transform.SetParent(this.transform);
+        item.transform.localScale = Vector3.one;
+        item.transform.localPosition = Vector3.zero;
+        Destroy(item, 2f);
 
     }
-    public void DragItemCustomGroom(string animationName)
+    public void ButtonClickDoor()
     {
-        //SKINMIX
-        if (animationName == "shoes" && !isShoes)
+        if (LunaManager.ins.countPlay < 8)
         {
-            AudioController.Instance.PlaySfx("6");
-            isShoes = true;
+            //lose
+            skeDoor.PlayAnimationWithSkin("Thao Tac Sai", "default", () => { LoseGame(); }, false);
+            LunaManager.ins.LoseGO.SetActive(true);
         }
-        if (animationName == "tie" && !isTie)
-        {
-            AudioController.Instance.PlaySfx("7");
-            isTie = true;
-        }
-        if (animationName == "leg" && !isLeg)
-        {
-            LunaManager.ins.CountPlay();
-            AudioController.Instance.PlaySfx("9");
-            isLeg = true;
-        }
-
-
-        if (isShoes && isTie && isLeg)
-        {
-            mixSkeletonSkin.MixAndApplySkins("giay", "cavat", "ongquan");
-        }
-        else if (isTie && isLeg)
-        {
-            mixSkeletonSkin.MixAndApplySkins("cavat", "ongquan");
-        }
-        else if (isShoes && isTie)
-        {
-            mixSkeletonSkin.MixAndApplySkins("giay", "cavat");
-        }
-        else if (isShoes && isLeg)
-        {
-            mixSkeletonSkin.MixAndApplySkins("giay", "ongquan");
-        }
-        else if (isShoes)
-        {
-            mixSkeletonSkin.MixAndApplySkins("giay");
-        }
-        else if (isTie)
-        {
-            mixSkeletonSkin.MixAndApplySkins("cavat");
-        }
-        else if (isLeg)
-        {
-            mixSkeletonSkin.MixAndApplySkins("ongquan");
-        }
-
         else
         {
-            mixSkeletonSkin.MixAndApplySkins("default");
+            //win
+            skeDoor.PlayAnimationWithSkin("Outro", "default", () => { WinGame(); }, false);
+            LunaManager.ins.WinGO.SetActive(true);
         }
+
     }
-    public void ClickGroom(string animationName)
+    void LoseGame()
     {
-        if (animationName == "action1")
-        {
-            AudioController.Instance.PlaySfx("2");
-        }
-        else if (animationName == "win")
-        {
-            AudioController.Instance.PlaySfx("10");
-        }
-        LunaManager.ins.CountPlay();
-        SpineHelper.ChangeAnimation(skeletonGraphic, animationName, true);
+        skeDoor.PlayAnimationOnly("Thao Tac Sai_Loop", true);
+        LunaManager.ins.ShowEndCard();
     }
-    void NextStep()
+    void WinGame()
     {
-        if (steps.Length <= 0) return;
-        foreach (var step in steps)
-        {
-            step.SetActive(false);
-        }
-        steps[currentStep].SetActive(true);
+        skeDoor.PlayAnimationOnly("Outro_Loop", true);
+        LunaManager.ins.ShowEndCard();
     }
-    void CheckDone()
-    {
-        if (currentStep == steps.Length - 1)
-        {
-            boxCollider.enabled = false;
-        }
-    }
+
     void OnEnable()
     {
         GameController.OnUpgradePhase2 += EventUpgrade;

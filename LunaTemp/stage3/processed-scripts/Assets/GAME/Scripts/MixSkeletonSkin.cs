@@ -16,12 +16,12 @@ public class MixSkeletonSkin : MonoBehaviour
 
     void Start()
     {
-        MixAndApplySkins();
+        // MixAndApplySkins();
 
-        if (!string.IsNullOrEmpty(defaultAnim))
-        {
-            skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, true);
-        }
+        // if (!string.IsNullOrEmpty(defaultAnim))
+        // {
+        //     skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, true);
+        // }
     }
 
     public void MixAndApplySkins(params string[] skinsToMix)
@@ -104,4 +104,65 @@ public class MixSkeletonSkin : MonoBehaviour
 
         currentEntry = null;
     }
+    public void PlayAnimationOnly(string animName, bool loop = false)
+    {
+        if (skeletonAnimation == null) return;
+        if (string.IsNullOrEmpty(animName)) return;
+
+        var state = skeletonAnimation.AnimationState;
+
+        if (currentEntry != null)
+        {
+            currentEntry.Complete -= OnAnimationComplete;
+        }
+
+        currentEntry = state.SetAnimation(0, animName, loop);
+
+        if (!loop)
+        {
+            currentEntry.Complete += OnAnimationComplete;
+        }
+    }
+    public void ApplySkinOnly(string skinName, bool loop = true)
+    {
+        if (string.IsNullOrEmpty(skinName)) return;
+        if (skeletonAnimation == null) return;
+
+        MixAndApplySkins(skinName);
+
+        if (!string.IsNullOrEmpty(defaultAnim))
+        {
+            skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, loop);
+        }
+    }
+    public void PlayAnimationWithSkin(string animName, string skinName, System.Action onComplete, bool loop = false)
+    {
+        if (string.IsNullOrEmpty(animName)) return;
+        if (string.IsNullOrEmpty(skinName)) return;
+        if (skeletonAnimation == null) return;
+
+        MixAndApplySkins(skinName);
+
+        var state = skeletonAnimation.AnimationState;
+
+        if (currentEntry != null)
+        {
+            currentEntry.Complete -= OnAnimationComplete;
+        }
+
+        currentEntry = state.SetAnimation(0, animName, loop);
+
+        currentEntry.Complete += entry =>
+        {
+            onComplete?.Invoke();
+
+            if (!string.IsNullOrEmpty(defaultAnim))
+            {
+                //skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, true);
+            }
+
+            currentEntry = null;
+        };
+    }
+
 }

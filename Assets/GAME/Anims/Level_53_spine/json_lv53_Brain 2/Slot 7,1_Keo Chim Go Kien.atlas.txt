@@ -1,0 +1,10 @@
+Slot 7,1_Keo Chim Go Kien.png
+size:184,96
+filter:Linear,Linear
+pma:true
+woodpecker_body
+bounds:2,2,90,145
+rotate:90
+woodpecker_legs
+bounds:149,58,34,33
+rotate:90

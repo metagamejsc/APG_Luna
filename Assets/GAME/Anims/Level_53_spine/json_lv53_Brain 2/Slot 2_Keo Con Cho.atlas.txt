@@ -1,0 +1,15 @@
+Slot 2_Keo Con Cho.png
+size:228,124
+filter:Linear,Linear
+pma:true
+female_dog_lick
+bounds:190,53,32,32
+offsets:1,1,38,34
+female_dog_sleep
+bounds:2,2,186,120
+offsets:2,2,189,123
+sleep_fx
+bounds:190,87,34,35
+offsets:1,1,36,38
+tongue
+bounds:190,13,25,38

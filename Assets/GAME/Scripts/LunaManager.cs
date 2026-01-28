@@ -114,7 +114,7 @@ public class LunaManager : MonoBehaviour
         UpdateProgress();
         if (countPlay >= countPlayFinal)
         {
-            ShowEndCard();
+            // ShowEndCard();
         }
     }
     void UpdateProgress()

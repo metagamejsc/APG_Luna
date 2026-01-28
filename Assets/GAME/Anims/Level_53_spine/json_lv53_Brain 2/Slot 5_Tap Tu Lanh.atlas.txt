@@ -1,0 +1,12 @@
+Slot 5_Tap Tu Lanh.png
+size:336,268
+filter:Linear,Linear
+pma:true
+fridge_closed
+bounds:2,2,217,303
+offsets:1,1,219,305
+rotate:90
+fridge_opened
+bounds:2,221,42,330
+offsets:1,1,45,332
+rotate:90
