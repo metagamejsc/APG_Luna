@@ -153,7 +153,7 @@ public class MixSkeletonSkin : MonoBehaviour
         }
     }
 
-    public void ApplySkinOnly(string skinName, bool loop = true)
+    public void PlaySkinOnly(string skinName, bool loop = true)
     {
         if (string.IsNullOrEmpty(skinName)) return;
         if (skeletonAnimation == null) return;
@@ -165,7 +165,7 @@ public class MixSkeletonSkin : MonoBehaviour
             skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, loop);
         }
     }
-    public void ApplySkinOnly(string skinName, bool loop, System.Action onComplete)
+    public void PlaySkinOnly(string skinName, bool loop, System.Action onComplete)
     {
         if (string.IsNullOrEmpty(skinName)) return;
         if (skeletonAnimation == null) return;

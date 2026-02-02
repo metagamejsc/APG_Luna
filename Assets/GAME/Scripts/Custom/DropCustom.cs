@@ -7,11 +7,13 @@ public class DropCustom : MonoBehaviour
     //public GameObject[] steps;
     public SkeletonGraphic skeletonGraphic;
     public MixSkeletonSkin mixSkeletonSkin;
-    public MixSkeletonSkin skeDoor;
-    public MixSkeletonSkin skeDog;
-    public int numBody = 0;
+    //public MixSkeletonSkin skeDoor;
+    //public MixSkeletonSkin skeDog;
+    //public int numBody = 0;
     //----------------------------------------------
-    public GameObject[] items;
+    // public GameObject[] items;
+    //------------------------------------
+
     //------------------------------------
     private int currentStep = 0;
     private Collider2D boxCollider;
@@ -24,73 +26,91 @@ public class DropCustom : MonoBehaviour
         currentStep = 0;
     }
     //----------------------------------------------------------------------------------------------------------------------------
-    public void DragItemDress(string animationName)
-    {
-        mixSkeletonSkin.PlayAnimationOnly(animationName, true);
-    }
+    // public void DragItemDress(string animationName)
+    // {
+    //     mixSkeletonSkin.PlayAnimationOnly(animationName, true);
+    // }
 
-    public void DragItemCustomAnim(int idDrag)
+    public void DragItemCustomAnim(int idDrag = 0, string animationName = "default")
     {
-        if (idDrag == 1)
+        if (idDrag == 7)
         {
-            ChangeAnimationDog();
+            mixSkeletonSkin.PlaySkinOnly("hair", true);
         }
-        numBody++;
-        string nameSkin = "Tang Chieu Cao " + numBody;
-        mixSkeletonSkin.PlayAnimationWithSkin(nameSkin, "default", () => { SetDefaultAnimation(nameSkin); }, false);
-        SpawnItem(idDrag);
+        mixSkeletonSkin.PlayAnimationOnly(animationName, false, () => { SetDefaultAnimation(idDrag, "idle"); });
+
+        string sfxName = "Item" + idDrag;
+        AudioController.Instance.PlaySfx(sfxName);
         AudioController.Instance.PlaySfx("Click");
-    }
-    void SetDefaultAnimation(string nameSkin = "default")
-    {
-        var nameLoop = nameSkin + "_Loop";
-        SpineHelper.ChangeAnimation(skeletonGraphic, nameLoop, true);
-        LunaManager.ins.SetIsDrag(true);
-    }
-    public void SpawnItem(int id)
-    {
-        var item = Instantiate(items[id], transform.position, Quaternion.identity);
-        item.transform.SetParent(LunaManager.ins.Parent.transform);
-        item.transform.localScale = Vector3.one;
-        item.transform.localPosition = Vector3.zero;
-        Destroy(item, 1.333f);
+        AudioController.Instance.PlaySfx("SlipWater");
 
     }
+    void SetDefaultAnimation(int id = 0, string nameSkin = "default")
+    {
+        if (id == 9)
+        {
+            mixSkeletonSkin.PlayAnimationOnly("lose", true);
+            AnimLose();
+        }
+        else
+        {
+            mixSkeletonSkin.PlayAnimationOnly(nameSkin, true);
+            LunaManager.ins.SetIsDrag(true);
+
+
+        }
+
+
+    }
+    public void AnimLose()
+    {
+        LunaManager.ins.LoseGO.SetActive(true);
+        LunaManager.ins.ShowEndCard();
+    }
+    // public void SpawnItem(int id)
+    // {
+    //     var item = Instantiate(items[id], transform.position, Quaternion.identity);
+    //     item.transform.SetParent(LunaManager.ins.Parent.transform);
+    //     item.transform.localScale = Vector3.one;
+    //     item.transform.localPosition = Vector3.zero;
+    //     Destroy(item, 1.333f);
+
+    // }
     //----------------------------------------------------------------------------------------------------------------------------
     public void ButtonClickDoor()
     {
         if (LunaManager.ins.countPlay < 10)
         {
             //lose
-            skeDoor.PlayAnimationWithSkin("Outro", "default", () => { LoseGame(); }, false);
+            // skeDoor.PlayAnimationWithSkin("Outro", "default", () => { LoseGame(); }, false);
             LunaManager.ins.LoseGO.SetActive(true);
         }
         else
         {
             //win
-            skeDoor.PlayAnimationWithSkin("Outro", "default", () => { WinGame(); }, false);
+            //  skeDoor.PlayAnimationWithSkin("Outro", "default", () => { WinGame(); }, false);
             LunaManager.ins.WinGO.SetActive(true);
         }
 
     }
     void LoseGame()
     {
-        skeDoor.PlayAnimationOnly("Thao Tac Sai_Loop", true);
+        // skeDoor.PlayAnimationOnly("Thao Tac Sai_Loop", true);
         LunaManager.ins.ShowEndCard();
     }
     void WinGame()
     {
-        skeDoor.PlayAnimationOnly("Outro_Loop", true);
+        //skeDoor.PlayAnimationOnly("Outro_Loop", true);
         LunaManager.ins.ShowEndCard();
     }
     //----------------------------------------------------------------------------------------------------------------------------
-    public void ChangeAnimationDog()
-    {
-        skeDog.PlayAnimationOnly("Slot 1_Keo Khuc Xuong", false, () =>
-                {
-                    skeDog.PlayAnimationOnly("Slot 1_Keo Khuc Xuong_Loop", true);
-                });
-    }
+    // public void ChangeAnimationDog()
+    // {
+    //     skeDog.PlayAnimationOnly("Slot 1_Keo Khuc Xuong", false, () =>
+    //             {
+    //                 skeDog.PlayAnimationOnly("Slot 1_Keo Khuc Xuong_Loop", true);
+    //             });
+    // }
     //----------------------------------------------------------------------------------------------------------------------------
     void OnEnable()
     {

@@ -114,6 +114,7 @@ public class LunaManager : MonoBehaviour
         UpdateProgress();
         if (countPlay >= countPlayFinal)
         {
+            WinGO.SetActive(true);
             ShowEndCard();
         }
     }

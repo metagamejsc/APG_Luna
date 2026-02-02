@@ -44,20 +44,11 @@ public class DragCustom : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
         RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
-        if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == 9 && LunaManager.ins.countPlay > 8)
-        {
-            //LunaManager.ins.SetIsDrag(false);
-            hit.collider.gameObject.GetComponent<DropCustom>().DragItemDress(animationName);
-            if (isProcess)
-            {
-                LunaManager.ins.CountPlay();
-            }
-            Destroy(gameObject);
-        }
-        if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag != 9)
+
+        if (hit.collider != null && hit.collider.gameObject != gameObject)
         {
             LunaManager.ins.SetIsDrag(false);
-            hit.collider.gameObject.GetComponent<DropCustom>().DragItemCustomAnim(idDrag);
+            hit.collider.gameObject.GetComponent<DropCustom>().DragItemCustomAnim(idDrag, animationName);
             if (isProcess)
             {
                 LunaManager.ins.CountPlay();

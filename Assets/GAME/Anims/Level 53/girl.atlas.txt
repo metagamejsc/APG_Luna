@@ -1,0 +1,349 @@
+girl.png
+size:988,1020
+filter:Linear,Linear
+pma:true
+Comp 1/buble_00000
+bounds:746,2,78,93
+offsets:40,80,200,200
+Comp 1/buble_00001
+bounds:825,389,78,93
+offsets:41,81,200,200
+Comp 1/buble_00002
+bounds:717,558,79,91
+offsets:41,83,200,200
+rotate:90
+Comp 1/buble_00003
+bounds:717,477,79,90
+offsets:42,85,200,200
+rotate:90
+Comp 1/buble_00004
+bounds:905,347,80,89
+offsets:42,87,200,200
+Comp 1/buble_00005
+bounds:477,484,81,87
+offsets:42,89,200,200
+Comp 1/buble_00006
+bounds:560,486,80,85
+offsets:43,91,200,200
+Comp 1/buble_00007
+bounds:112,319,82,130
+offsets:43,47,200,200
+Comp 1/buble_00008
+bounds:52,50,81,131
+offsets:44,47,200,200
+Comp 1/buble_00009
+bounds:112,187,82,130
+offsets:44,48,200,200
+Comp 1/buble_00010
+bounds:112,451,83,130
+offsets:44,48,200,200
+Comp 1/buble_00011
+bounds:196,188,82,129
+offsets:45,49,200,200
+Comp 1/buble_00012
+bounds:858,583,83,128
+offsets:45,50,200,200
+rotate:90
+Comp 1/buble_00013
+bounds:657,369,82,106
+offsets:46,51,200,200
+Comp 1/buble_00014
+bounds:265,479,83,108
+offsets:46,51,200,200
+Comp 1/buble_00015
+bounds:637,7,83,107
+offsets:46,52,200,200
+rotate:90
+Comp 1/buble_00016
+bounds:747,99,82,107
+offsets:47,53,200,200
+Comp 1/buble_00017
+bounds:796,285,82,107
+offsets:47,54,200,200
+rotate:90
+Comp 1/buble_00018
+bounds:741,369,82,106
+offsets:47,55,200,200
+Comp 1/buble_00019
+bounds:530,2,81,105
+offsets:48,57,200,200
+rotate:90
+Comp 1/buble_00020
+bounds:905,476,81,105
+offsets:48,58,200,200
+Comp 1/buble_00021
+bounds:905,4,48,93
+offsets:81,59,200,200
+Comp 1/buble_00022
+bounds:701,320,47,93
+offsets:81,60,200,200
+rotate:90
+Comp 1/buble_00023
+bounds:590,320,47,109
+offsets:81,46,200,200
+rotate:90
+Comp 1/buble_00024
+bounds:52,3,45,111
+offsets:82,47,200,200
+rotate:90
+Comp 1/buble_00025
+bounds:609,205,43,113
+offsets:82,47,200,200
+Comp 1/buble_00026
+bounds:474,320,42,114
+offsets:83,47,200,200
+rotate:90
+Comp 1/buble_00027
+bounds:417,199,40,119
+offsets:83,44,200,200
+Comp 1/buble_00028
+bounds:381,75,39,120
+offsets:83,44,200,200
+Comp 1/buble_00029
+bounds:344,197,37,121
+offsets:84,44,200,200
+Comp 1/buble_00030
+bounds:309,69,36,123
+offsets:84,44,200,200
+Comp 1/buble_00031
+bounds:330,353,35,124
+offsets:84,44,200,200
+Comp 1/buble_00032
+bounds:362,617,34,125
+offsets:83,44,200,200
+rotate:90
+Comp 1/buble_00033
+bounds:362,722,34,126
+offsets:82,44,200,200
+rotate:90
+Comp 1/buble_00034
+bounds:362,686,34,126
+offsets:81,45,200,200
+rotate:90
+Comp 1/buble_00035
+bounds:230,324,33,127
+offsets:80,45,200,200
+Comp 1/buble_00036
+bounds:230,453,33,128
+offsets:79,45,200,200
+Comp 1/buble_00037
+bounds:204,57,34,129
+offsets:77,45,200,200
+Comp 1/buble_00038
+bounds:275,57,32,129
+offsets:77,45,200,200
+Comp 1/buble_00039
+bounds:240,57,33,129
+offsets:75,46,200,200
+Comp 1/buble_00040
+bounds:170,55,32,130
+offsets:75,46,200,200
+Comp 1/buble_00041
+bounds:135,55,33,130
+offsets:73,46,200,200
+Comp 1/buble_00042
+bounds:196,319,32,130
+offsets:73,47,200,200
+Comp 1/buble_00043
+bounds:197,451,31,130
+offsets:72,47,200,200
+Comp 1/buble_00044
+bounds:350,584,31,125
+offsets:71,48,200,200
+rotate:90
+Comp 1/buble_00045
+bounds:362,653,31,126
+offsets:70,48,200,200
+rotate:90
+Comp 1/buble_00046
+bounds:350,551,31,125
+offsets:69,49,200,200
+rotate:90
+Comp 1/buble_00047
+bounds:265,320,30,125
+offsets:69,50,200,200
+rotate:90
+Comp 1/buble_00048
+bounds:265,352,31,125
+offsets:68,51,200,200
+Comp 1/buble_00049
+bounds:298,352,30,125
+offsets:68,52,200,200
+Comp 1/buble_00050
+bounds:367,357,30,124
+offsets:68,53,200,200
+Comp 1/buble_00051
+bounds:280,194,30,124
+offsets:68,54,200,200
+Comp 1/buble_00052
+bounds:312,195,30,123
+offsets:67,55,200,200
+Comp 1/buble_00053
+bounds:347,74,32,121
+offsets:65,57,200,200
+Comp 1/buble_00054
+bounds:383,198,32,120
+offsets:64,58,200,200
+Comp 1/buble_00055
+bounds:906,312,33,80
+offsets:63,59,200,200
+rotate:90
+Comp 1/buble_00056
+bounds:392,320,35,80
+offsets:61,61,200,200
+rotate:90
+Comp 1/buble_00057
+bounds:905,438,36,81
+offsets:60,62,200,200
+rotate:90
+Comp 1/buble_00058
+bounds:856,499,37,82
+offsets:58,63,200,200
+Comp 1/buble_00059
+bounds:947,125,38,82
+offsets:57,65,200,200
+Comp 1/buble_00060
+bounds:906,101,39,106
+offsets:56,43,200,200
+Comp 1/buble_00061
+bounds:588,597,40,108
+offsets:55,43,200,200
+rotate:90
+Comp 1/buble_00062
+bounds:704,97,41,109
+offsets:54,43,200,200
+Comp 1/buble_00063
+bounds:654,207,43,111
+offsets:53,43,200,200
+Comp 1/buble_00064
+bounds:810,484,44,111
+offsets:52,44,200,200
+Comp 1/buble_00065
+bounds:810,654,46,113
+offsets:51,44,200,200
+Comp 1/buble_00066
+bounds:235,589,48,113
+offsets:50,45,200,200
+rotate:90
+Comp 1/buble_00067
+bounds:119,587,50,114
+offsets:49,45,200,200
+rotate:90
+Comp 1/buble_00068
+bounds:2,584,53,115
+offsets:48,46,200,200
+rotate:90
+Comp 1/buble_00069
+bounds:525,366,55,116
+offsets:47,46,200,200
+Comp 1/buble_00070
+bounds:422,80,58,117
+offsets:46,47,200,200
+Comp 1/buble_00071
+bounds:464,364,59,117
+offsets:46,48,200,200
+Comp 1/buble_00072
+bounds:399,363,63,118
+offsets:44,49,200,200
+Comp 1/buble_00073
+bounds:314,3,64,117
+offsets:44,51,200,200
+rotate:90
+Comp 1/buble_00074
+bounds:350,483,66,118
+offsets:43,51,200,200
+rotate:90
+Comp 1/buble_00075
+bounds:292,639,68,117
+offsets:42,53,200,200
+Comp 1/buble_00076
+bounds:221,639,69,117
+offsets:42,54,200,200
+Comp 1/buble_00077
+bounds:149,639,70,117
+offsets:41,55,200,200
+Comp 1/buble_00078
+bounds:76,639,71,117
+offsets:41,56,200,200
+Comp 1/buble_00079
+bounds:2,639,72,117
+offsets:40,57,200,200
+Comp 1/buble_00080
+bounds:459,202,73,116
+offsets:40,59,200,200
+Comp 1/buble_00081
+bounds:582,369,73,115
+offsets:40,60,200,200
+Comp 1/buble_00082
+bounds:482,85,72,115
+offsets:40,61,200,200
+Comp 1/buble_00083
+bounds:534,205,73,113
+offsets:39,63,200,200
+Comp 1/buble_00084
+bounds:556,90,72,113
+offsets:39,64,200,200
+Comp 1/buble_00085
+bounds:630,92,72,111
+offsets:39,66,200,200
+Comp 1/buble_00086
+bounds:699,208,72,110
+offsets:39,68,200,200
+Comp 1/buble_00087
+bounds:642,486,73,109
+offsets:39,69,200,200
+Comp 1/buble_00088
+bounds:831,99,73,107
+offsets:40,71,200,200
+Comp 1/buble_00089
+bounds:490,682,74,97
+offsets:40,72,200,200
+rotate:90
+Comp 1/buble_00090
+bounds:773,208,75,96
+offsets:40,74,200,200
+rotate:90
+Comp 1/buble_00091
+bounds:433,2,76,95
+offsets:40,76,200,200
+rotate:90
+Comp 1/buble_00092
+bounds:826,3,77,94
+offsets:40,78,200,200
+bon1
+bounds:2,758,587,260
+offsets:1,1,589,262
+bon2
+bounds:591,924,366,94
+bon3
+bounds:858,668,254,128
+rotate:90
+bon4
+bounds:2,183,398,108
+rotate:90
+girl_1
+bounds:165,3,60,50
+offsets:2,1,65,55
+girl_2
+bounds:810,597,55,46
+offsets:1,1,57,48
+rotate:90
+girl_3
+bounds:227,6,85,49
+girl_4
+bounds:2,30,151,48
+rotate:90
+girl_5
+bounds:490,573,96,107
+offsets:1,2,98,110
+girl_6
+bounds:591,769,265,153
+girl_7
+bounds:591,639,128,217
+rotate:90
+girl_8
+bounds:871,209,74,82
+offsets:1,1,77,84
+rotate:90
+mouth
+bounds:959,992,27,26
