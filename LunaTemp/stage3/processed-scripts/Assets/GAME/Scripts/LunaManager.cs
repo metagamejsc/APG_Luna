@@ -164,5 +164,35 @@ public class LunaManager : MonoBehaviour
         yield return new WaitForSeconds(timeDrag);
         isDrag = true;
     }
+    public MixSkeletonSkin skeDoor;
+    public MixSkeletonSkin mixSkeletonSkin;
+    public void ButtonClickDoor(bool isWin)
+    {
+        OffStartCard();
+        if (!isWin)
+        {
+            //lose
+            skeDoor.PlayAnimationWithSkin("Thao Tac Sai", "default", () => { LoseGame(); }, false);
+            LoseGO.SetActive(true);
+        }
+        else
+        {
+            //win
+            skeDoor.PlayAnimationWithSkin("Outro", "default", () => { WinGame(); }, false);
+            mixSkeletonSkin.PlayAnimationOnly("Outro_Loop", true);
+            WinGO.SetActive(true);
+        }
+
+    }
+    void LoseGame()
+    {
+        skeDoor.PlayAnimationOnly("Thao Tac Sai_Loop", true);
+        ShowEndCard();
+    }
+    void WinGame()
+    {
+        skeDoor.PlayAnimationOnly("Outro_Loop", true);
+        ShowEndCard();
+    }
 
 }

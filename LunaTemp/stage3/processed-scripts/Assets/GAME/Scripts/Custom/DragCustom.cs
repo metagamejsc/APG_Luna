@@ -21,6 +21,7 @@ public class DragCustom : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        return;
         if (!GetIsDrag()) return;
         canvasGroup.alpha = 0.6f;
         canvasGroup.blocksRaycasts = false;
@@ -28,6 +29,7 @@ public class DragCustom : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
     }
     public void OnDrag(PointerEventData eventData)
     {
+        return;
         if (!GetIsDrag()) return;
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
         rectTransform.position = worldPoint;
@@ -37,6 +39,7 @@ public class DragCustom : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        return;
         if (!GetIsDrag()) return;
         transform.SetParent(originParent.transform);
         canvasGroup.alpha = 1f;
