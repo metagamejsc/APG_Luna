@@ -631,7 +631,8 @@ Deserializers["DropCustom"] = function (request, data, root) {
   i618.animationNameDefault = i619[2]
   request.r(i619[3], i619[4], 0, i618, 'mixSkeletonSkin')
   request.r(i619[5], i619[6], 0, i618, 'skeDoor')
-  var i621 = i619[7]
+  i618.numBody = i619[7]
+  var i621 = i619[8]
   var i620 = []
   for(var i = 0; i < i621.length; i += 2) {
   request.r(i621[i + 0], i621[i + 1], 2, i620, '')
@@ -2036,15 +2037,15 @@ Deserializers.productName = "My project";
 
 Deserializers.lunaInitializationTime = "07/08/2025 01:59:59";
 
-Deserializers.lunaDaysRunning = "203.3";
+Deserializers.lunaDaysRunning = "217.3";
 
 Deserializers.lunaVersion = "6.4.0";
 
 Deserializers.lunaSHA = "6639120529aa36186c6141b5c3fb20246c28bff0";
 
-Deserializers.creativeName = "BTTP_V09_ManhND_AnhPD";
+Deserializers.creativeName = "BM_V12_ManhND_AnhPD";
 
-Deserializers.lunaAppID = "36041";
+Deserializers.lunaAppID = "34530";
 
 Deserializers.projectId = "cc2b1186a2056e546bb13add5b988034";
 
@@ -2092,7 +2093,7 @@ Deserializers.graphicsConstraint = 28;
 
 Deserializers.linearColorSpace = true;
 
-Deserializers.buildID = "e256b7fe-e24b-4c0f-a385-90dc46f7de27";
+Deserializers.buildID = "10ccfd15-0bf3-403b-9103-85c23336ab1d";
 
 Deserializers.runtimeInitializeOnLoadInfos = [[["UnityEngine","Experimental","Rendering","ScriptableRuntimeReflectionSystemSettings","ScriptingDirtyReflectionSystemInstance"]],[["Unity","VisualScripting","RuntimeVSUsageUtility","RuntimeInitializeOnLoadBeforeSceneLoad"]],[["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"]],[],[["Spine","Unity","AttachmentTools","AtlasUtilities","Init"]]];
 

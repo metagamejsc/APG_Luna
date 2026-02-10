@@ -9,7 +9,7 @@ public class DropCustom : MonoBehaviour
     public string animationNameDefault = "idle";
     public MixSkeletonSkin mixSkeletonSkin;
     public MixSkeletonSkin skeDoor;
-    int numBody = 0;
+    public int numBody = 0;
     //----------------------------------------------
     public GameObject[] items;
     //------------------------------------
