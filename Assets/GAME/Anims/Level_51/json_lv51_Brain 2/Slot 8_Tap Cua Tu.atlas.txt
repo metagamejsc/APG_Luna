@@ -1,0 +1,12 @@
+Slot 8_Tap Cua Tu.png
+size:260,204
+filter:Linear,Linear
+pma:true
+scale:0.75
+fridge_closed
+bounds:2,2,164,229
+rotate:90
+fridge_opened
+bounds:2,168,32,253
+offsets:0,0,32,254
+rotate:90

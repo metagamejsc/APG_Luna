@@ -1,0 +1,8 @@
+Slot 6_Keo Vong Tap_B.png
+size:236,104
+filter:Linear,Linear
+pma:true
+scale:0.75
+hula_hoop_anim_B
+bounds:2,2,229,100
+offsets:0,1,229,102

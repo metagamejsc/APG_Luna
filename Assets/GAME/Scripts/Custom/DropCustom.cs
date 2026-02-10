@@ -36,16 +36,22 @@ public class DropCustom : MonoBehaviour
             ChangeAnimationDog();
         }
         numBody++;
-        string nameSkin = "Tang Chieu Cao " + numBody;
-        mixSkeletonSkin.PlayAnimationWithSkin(nameSkin, "default", () => { SetDefaultAnimation(nameSkin); }, false);
+        string nameSkin = "Co Bap " + numBody;
+        mixSkeletonSkin.PlayAnimationWithSkin(nameSkin, "dude_bottom 1", () => { SetDefaultAnimation(nameSkin); }, false);
         SpawnItem(idDrag);
         AudioController.Instance.PlaySfx("Click");
+
     }
     void SetDefaultAnimation(string nameSkin = "default")
     {
         var nameLoop = nameSkin + "_Loop";
         SpineHelper.ChangeAnimation(skeletonGraphic, nameLoop, true);
         LunaManager.ins.SetIsDrag(true);
+        //WIN
+        if (numBody >= 10)
+        {
+            ButtonClickDoor();
+        }
     }
     public void SpawnItem(int id)
     {
@@ -62,7 +68,7 @@ public class DropCustom : MonoBehaviour
         if (LunaManager.ins.countPlay < 10)
         {
             //lose
-            skeDoor.PlayAnimationWithSkin("Outro", "default", () => { LoseGame(); }, false);
+            skeDoor.PlayAnimationWithSkin("Thao Tac Sai", "default", () => { LoseGame(); }, false);
             LunaManager.ins.LoseGO.SetActive(true);
         }
         else

@@ -1,0 +1,8 @@
+Table.png
+size:252,296
+filter:Linear,Linear
+pma:true
+scale:0.75
+table
+bounds:2,2,245,289
+offsets:0,56,344,345

@@ -1,0 +1,18 @@
+Slot 4_Keo Cai Bua.png
+size:208,172
+filter:Linear,Linear
+pma:true
+scale:0.75
+crack
+bounds:154,9,83,46
+offsets:1,1,85,48
+rotate:90
+hammer
+bounds:87,94,116,74
+hole
+bounds:2,2,166,83
+offsets:1,0,168,83
+rotate:90
+rocks
+bounds:87,5,87,65
+rotate:90

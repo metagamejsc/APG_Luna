@@ -42,27 +42,28 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
         RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
 
-        if (hit.collider != null && hit.collider.gameObject != gameObject && hit.collider.gameObject.GetComponent<DropZone>().idDrop == 14)
-        {
-            if (LunaManager.ins.countPlay < LunaManager.ins.countPlayMax - 1)
-            {
-                print("Lose");
-                hit.collider.gameObject.GetComponent<DropZone>().LoseStep();
-                Destroy(gameObject);
-            }
-            else
-            {
-                print("Win");
-                hit.collider.gameObject.GetComponent<DropZone>().DragItem();
-                if (isProcess)
-                {
-                    LunaManager.ins.CountPlay();
-                }
-                Destroy(gameObject);
-            }
+        // if (hit.collider != null && hit.collider.gameObject != gameObject && hit.collider.gameObject.GetComponent<DropZone>().idDrop == 14)
+        // {
+        //     if (LunaManager.ins.countPlay < LunaManager.ins.countPlayMax - 1)
+        //     {
+        //         print("Lose");
+        //         hit.collider.gameObject.GetComponent<DropZone>().LoseStep();
+        //         Destroy(gameObject);
+        //     }
+        //     else
+        //     {
+        //         print("Win");
+        //         hit.collider.gameObject.GetComponent<DropZone>().DragItem();
+        //         if (isProcess)
+        //         {
+        //             LunaManager.ins.CountPlay();
+        //         }
+        //         Destroy(gameObject);
+        //     }
 
-        }
-        else if (hit.collider != null && hit.collider.gameObject != gameObject && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop)
+        // }
+        // else 
+        if (hit.collider != null && hit.collider.gameObject != gameObject && hit.collider.gameObject.GetComponent<DropZone>() != null && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop)
         {
             hit.collider.gameObject.GetComponent<DropZone>().DragItem();
             if (isProcess)
