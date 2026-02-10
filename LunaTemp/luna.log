@@ -2,12 +2,12 @@ Authorized using stored user info.
 stderr: 'rm' is not recognized as an internal or external command,
 operable program or batch file.
 
-Exporting assets from Unity...........
+Exporting assets from Unity.........
 
 [ Stage1 ] Assets exported from Unity and staged for further processing
-Using E:/ProjectGitHub/APG_Luna/Assets/TextMesh Pro/Resources/Fonts & Materials/MUSEOSANSROUNDED-1000.TTF file to generate an atlas for MUSEOSANSROUNDED-1000[27338] font
+Using E:/ProjectGitHub/APG_Luna/Assets/TextMesh Pro/Resources/Fonts & Materials/MUSEOSANSROUNDED-1000.TTF file to generate an atlas for MUSEOSANSROUNDED-1000[25864] font
   Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
-Combined 97 glyphs into bitmap texture at E:/ProjectGitHub/APG_Luna/LunaTemp/stage1/tmp/fonts/MUSEOSANSROUNDED-1000-27338/output_0.png (56kb)
+Combined 97 glyphs into bitmap texture at E:/ProjectGitHub/APG_Luna/LunaTemp/stage1/tmp/fonts/MUSEOSANSROUNDED-1000-25864/output_0.png (56kb)
 Found custom rules for sound Assets/GAME/Audios/lv73 Audios/comedy-funny-cartoon-background-music-330177.ogg
   {"channels":1,"startTime":"00:01.364","endTime":"00:32.395","lengthInSeconds":31.0310001373291,"bitrate":32,"script":"","ext":"","name":"Assets/GAME/Audios/lv73 Audios/comedy-funny-cartoon-background-music-330177.ogg","isOverride":true}
 Found custom rules for sound Assets/GAME/Audios/Sound/Game Reward Sound Effect (HD) SOUND FX.mp3
@@ -20,7 +20,7 @@ Resources:
 Authorized using stored user info.
 MSBuild version 17.13.19+0d9f5a35a for .NET Framework
 
-Build started 2/10/2026 1:52:52 PM.
+Build started 2/10/2026 3:35:22 PM.
 
 
 
@@ -106,21 +106,23 @@ E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\
   CompilerServer: server - server processed compilation - Scripts
 
 _CopyFilesMarkedCopyLocal:
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
-
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
 
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
 
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
-
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.esotericsoftware.spine.spine-csharp\4.1\spine-csharp.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\spine-csharp.dll".
 
@@ -144,8 +146,9 @@ _CopyFilesMarkedCopyLocal:
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
 
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
 
   Creating "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date" because "AlwaysCreate" was specified.
 
@@ -179,17 +182,17 @@ Build succeeded.
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(18,42): warning CS0649: Field 'AudioController.sfxSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\IQFill.cs(8,36): warning CS0649: Field 'IQFill.fillImage' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(15,46): warning CS0649: Field 'LunaManager.textProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(35,46): warning CS0649: Field 'LunaManager.timeText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(17,42): warning CS0649: Field 'AudioController.bgmSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\DropID.cs(19,20): warning CS0414: The field 'DropID.currentAnimation' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
     8 Warning(s)
     0 Error(s)
 
 
-Time Elapsed 00:00:08.87
+Time Elapsed 00:00:09.53
 
 Source code compiled successfully!
 ﻿
@@ -198,5 +201,4 @@ Diagnostics gathered successfully
 [ Stage3 ] Code compiled and bundled successfully.
 [ Stage4 ] Target platform: playground
 [ Stage4 ] Package bundled successfully
-navigateto:https://assets-lunalabs-io.s3-accelerate.amazonaws.com/uploads%2Fdirect%2F99373ee68b6ee92213d0a4834e87cbf8%2FBTTP_V12_ManhND_AnhPD_build.zip
 [ Stage4 ] Package uploaded successfully
