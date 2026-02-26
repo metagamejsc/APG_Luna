@@ -1,0 +1,11 @@
+Slot 9_Tap Cua So.png
+size:268,160
+filter:Linear,Linear
+pma:true
+scale:0.75
+mom_window
+bounds:198,56,66,101
+offsets:49,0,115,101
+window_door
+bounds:2,2,155,194
+rotate:90

@@ -1,0 +1,11 @@
+Slot 7,1_Tap Quan Ao.png
+size:588,172
+filter:Linear,Linear
+pma:true
+scale:0.75
+clothes
+bounds:2,36,133,339
+rotate:90
+mom_wardrobe_b
+bounds:343,2,167,241
+rotate:90

@@ -1,0 +1,10 @@
+Slot 3_Keo Cai Nap.png
+size:476,276
+filter:Linear,Linear
+pma:true
+scale:0.75
+mom_table
+bounds:359,158,112,113
+table
+bounds:2,2,355,269
+offsets:0,0,356,269

@@ -1,0 +1,14 @@
+Slot 1_Keo Con Dao.png
+size:396,472
+filter:Linear,Linear
+pma:true
+scale:0.75
+love_chair
+bounds:2,181,384,288
+offsets:0,0,385,288
+love_chair_ripped
+bounds:2,2,255,177
+offsets:2,1,260,179
+mom_chair
+bounds:259,3,176,134
+rotate:90

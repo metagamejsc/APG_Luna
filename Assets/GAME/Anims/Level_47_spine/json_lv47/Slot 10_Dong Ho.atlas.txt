@@ -1,0 +1,14 @@
+Slot 10_Dong Ho.png
+size:228,88
+filter:Linear,Linear
+pma:true
+scale:0.75
+clock
+bounds:2,2,84,86
+offsets:0,1,84,87
+rotate:90
+crack
+bounds:90,6,80,80
+offsets:1,1,81,81
+mom_crack
+bounds:172,23,54,63

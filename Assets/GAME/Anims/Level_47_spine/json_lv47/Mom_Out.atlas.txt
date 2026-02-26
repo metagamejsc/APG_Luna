@@ -1,0 +1,11 @@
+Mom_Out.png
+size:504,220
+filter:Linear,Linear
+pma:true
+scale:0.75
+mom_run
+bounds:294,7,210,206
+rotate:90
+run_fx
+bounds:2,2,290,215
+offsets:1,1,292,217

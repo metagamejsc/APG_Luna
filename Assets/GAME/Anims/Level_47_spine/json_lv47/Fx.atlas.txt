@@ -1,0 +1,8 @@
+Fx.png
+size:48,40
+filter:Linear,Linear
+pma:true
+scale:0.75
+alert_fx
+bounds:2,2,41,34
+offsets:0,0,41,35

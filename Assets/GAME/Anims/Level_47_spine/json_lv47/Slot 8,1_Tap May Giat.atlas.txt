@@ -1,0 +1,11 @@
+Slot 8,1_Tap May Giat.png
+size:160,64
+filter:Linear,Linear
+pma:true
+scale:0.75
+mom_wm
+bounds:116,17,41,44
+wm_door_closed
+bounds:2,2,59,59
+wm_door_opened
+bounds:63,2,51,59

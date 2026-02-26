@@ -1,0 +1,20 @@
+Slot 5_Tap Hop Qua.png
+size:260,308
+filter:Linear,Linear
+pma:true
+scale:0.75
+mom_present
+bounds:2,137,169,162
+rotate:90
+present_b
+bounds:2,2,133,131
+offsets:1,1,134,132
+rotate:90
+present_f
+bounds:135,2,133,121
+offsets:1,0,134,122
+rotate:90
+present_lid
+bounds:166,153,153,89
+offsets:1,0,155,89
+rotate:90

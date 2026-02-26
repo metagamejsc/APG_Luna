@@ -1,0 +1,225 @@
+{ "skeleton": { "images": "C:/Users/PC/Desktop/BRAIN MASTER/ANIMATION/Level/Level_47/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG", "bone": "root", "attachment": "BG" },
+	{ "name": "crack", "bone": "root", "attachment": "crack" },
+	{ "name": "mom_crack", "bone": "root", "attachment": "mom_crack" },
+	{ "name": "clock", "bone": "root", "attachment": "clock" },
+	{ "name": "mom_tree", "bone": "root", "attachment": "mom_tree" },
+	{ "name": "foliage", "bone": "root", "attachment": "foliage" },
+	{ "name": "1", "bone": "root", "attachment": "1" },
+	{ "name": "2", "bone": "root", "attachment": "2" },
+	{ "name": "leaf3", "bone": "root", "attachment": "leaf3" },
+	{ "name": "leaf2", "bone": "root", "attachment": "leaf2" },
+	{ "name": "leaf1", "bone": "root", "attachment": "leaf1" },
+	{ "name": "mom_window", "bone": "root", "attachment": "mom_window" },
+	{ "name": "window_door", "bone": "root", "attachment": "window_door" },
+	{ "name": "mom_wm", "bone": "root", "attachment": "mom_wm" },
+	{ "name": "wm_door_closed", "bone": "root", "attachment": "wm_door_closed" },
+	{ "name": "mom_bathroom", "bone": "root", "attachment": "mom_bathroom" },
+	{ "name": "wm_door_opened", "bone": "root", "attachment": "wm_door_opened" },
+	{ "name": "bathhroom_door_closed", "bone": "root", "attachment": "bathhroom_door_closed" },
+	{ "name": "bathhroom_door_opened", "bone": "root", "attachment": "bathhroom_door_opened" },
+	{ "name": "mom_wardrobe_b", "bone": "root", "attachment": "mom_wardrobe_b" },
+	{ "name": "clothes", "bone": "root", "attachment": "clothes" },
+	{ "name": "mom_wardrobe_f", "bone": "root", "attachment": "mom_wardrobe_f" },
+	{ "name": "wardrobe_door_closed_R", "bone": "root", "attachment": "wardrobe_door_closed_R" },
+	{ "name": "wardrobe_door_closed_L", "bone": "root", "attachment": "wardrobe_door_closed_L" },
+	{ "name": "wardrobe_door_opened", "bone": "root", "attachment": "wardrobe_door_opened" },
+	{ "name": "dude", "bone": "root", "attachment": "dude" },
+	{ "name": "dude_angry", "bone": "root", "attachment": "dude_angry" },
+	{ "name": "angry_fx", "bone": "root", "attachment": "angry_fx" },
+	{ "name": "dude_kiss", "bone": "root", "attachment": "dude_kiss" },
+	{ "name": "wife", "bone": "root", "attachment": "wife" },
+	{ "name": "wife_kiss", "bone": "root", "attachment": "wife_kiss" },
+	{ "name": "grasscutter", "bone": "root", "attachment": "grasscutter" },
+	{ "name": "blanket", "bone": "root", "attachment": "blanket" },
+	{ "name": "mom_run", "bone": "root", "attachment": "mom_run" },
+	{ "name": "run_fx", "bone": "root", "attachment": "run_fx" },
+	{ "name": "luggage", "bone": "root", "attachment": "luggage" },
+	{ "name": "luggage_B", "bone": "root", "attachment": "luggage_B" },
+	{ "name": "mom_luggage", "bone": "root", "attachment": "mom_luggage" },
+	{ "name": "luggage_F", "bone": "root", "attachment": "luggage_F" },
+	{ "name": "love_chair", "bone": "root", "attachment": "love_chair" },
+	{ "name": "love_chair_ripped", "bone": "root", "attachment": "love_chair_ripped" },
+	{ "name": "mom_chair", "bone": "root", "attachment": "mom_chair" },
+	{ "name": "table", "bone": "root", "attachment": "table" },
+	{ "name": "mom_table", "bone": "root", "attachment": "mom_table" },
+	{ "name": "lid", "bone": "root", "attachment": "lid" },
+	{ "name": "knife", "bone": "root", "attachment": "knife" },
+	{ "name": "present_b", "bone": "root", "attachment": "present_b" },
+	{ "name": "mom_present", "bone": "root", "attachment": "mom_present" },
+	{ "name": "present_f", "bone": "root", "attachment": "present_f" },
+	{ "name": "present_lid", "bone": "root", "attachment": "present_lid" },
+	{ "name": "smoke_fx", "bone": "root", "attachment": "smoke_fx" },
+	{ "name": "heart", "bone": "root", "attachment": "heart" },
+	{ "name": "smoke_fx2", "bone": "root", "attachment": "smoke_fx2" }
+],
+"skins": {
+	"default": {
+		"BG": {
+			"BG": { "x": 540, "y": -923.5, "width": 1082, "height": 1257 }
+		},
+		"crack": {
+			"crack": { "x": 929, "y": -362, "width": 108, "height": 108 }
+		},
+		"mom_crack": {
+			"mom_crack": { "x": 932, "y": -374, "width": 72, "height": 84 }
+		},
+		"clock": {
+			"clock": { "x": 930, "y": -366, "width": 112, "height": 116 }
+		},
+		"mom_tree": {
+			"mom_tree": { "x": 380, "y": -412.5, "width": 58, "height": 71 }
+		},
+		"foliage": {
+			"foliage": { "x": 405.5, "y": -416, "width": 133, "height": 94 }
+		},
+		"1": {
+			"1": { "x": 466.5, "y": -456, "width": 113, "height": 32 }
+		},
+		"2": {
+			"2": { "x": 459, "y": -442, "width": 92, "height": 78 }
+		},
+		"leaf3": {
+			"leaf3": { "x": 404.5, "y": -474, "width": 15, "height": 18 }
+		},
+		"leaf2": {
+			"leaf2": { "x": 388.5, "y": -486, "width": 11, "height": 18 }
+		},
+		"leaf1": {
+			"leaf1": { "x": 355, "y": -501.5, "width": 18, "height": 13 }
+		},
+		"mom_window": {
+			"mom_window": { "x": 346.5, "y": -561.5, "width": 153, "height": 135 }
+		},
+		"window_door": {
+			"window_door": { "x": 442.5, "y": -497.5, "width": 207, "height": 259 }
+		},
+		"mom_wm": {
+			"mom_wm": { "x": 994, "y": -770, "width": 54, "height": 58 }
+		},
+		"wm_door_closed": {
+			"wm_door_closed": { "x": 987.5, "y": -767, "width": 79, "height": 78 }
+		},
+		"mom_bathroom": {
+			"mom_bathroom": { "x": 893.5, "y": -722.5, "width": 123, "height": 283 }
+		},
+		"wm_door_opened": {
+			"wm_door_opened": { "x": 921, "y": -767, "width": 68, "height": 78 }
+		},
+		"bathhroom_door_closed": {
+			"bathhroom_door_closed": { "x": 927, "y": -676.5, "width": 212, "height": 451 }
+		},
+		"bathhroom_door_opened": {
+			"bathhroom_door_opened": { "x": 1092.5, "y": -683.5, "width": 125, "height": 491 }
+		},
+		"mom_wardrobe_b": {
+			"mom_wardrobe_b": { "x": 107.5, "y": -598.5, "width": 223, "height": 321 }
+		},
+		"clothes": {
+			"clothes": { "x": 113.5, "y": -651, "width": 177, "height": 452 }
+		},
+		"mom_wardrobe_f": {
+			"mom_wardrobe_f": { "x": 106.5, "y": -691.5, "width": 185, "height": 369 }
+		},
+		"wardrobe_door_closed_R": {
+			"wardrobe_door_closed_R": { "x": 114, "y": -651.5, "width": 178, "height": 453 }
+		},
+		"wardrobe_door_closed_L": {
+			"wardrobe_door_closed_L": { "x": -59.5, "y": -652, "width": 177, "height": 454 }
+		},
+		"wardrobe_door_opened": {
+			"wardrobe_door_opened": { "x": 226.5, "y": -672.5, "width": 61, "height": 499 }
+		},
+		"dude": {
+			"dude": { "x": 426, "y": -897.5, "width": 264, "height": 415 }
+		},
+		"dude_angry": {
+			"dude_angry": { "x": 419.5, "y": -740, "width": 45, "height": 60 }
+		},
+		"angry_fx": {
+			"angry_fx": { "x": 398.5, "y": -703.5, "width": 39, "height": 39 }
+		},
+		"dude_kiss": {
+			"dude_kiss": { "x": 429, "y": -763.5, "width": 42, "height": 27 }
+		},
+		"wife": {
+			"wife": { "x": 630, "y": -861, "width": 210, "height": 296 }
+		},
+		"wife_kiss": {
+			"wife_kiss": { "x": 613.5, "y": -774.5, "width": 41, "height": 21 }
+		},
+		"grasscutter": {
+			"grasscutter": { "x": 592, "y": -1061, "width": 126, "height": 74 }
+		},
+		"blanket": {
+			"blanket": { "x": 556.5, "y": -1041.5, "width": 717, "height": 425 }
+		},
+		"mom_run": {
+			"mom_run": { "x": 796, "y": -1064, "width": 280, "height": 274 }
+		},
+		"run_fx": {
+			"run_fx": { "x": 811.5, "y": -1277.5, "width": 389, "height": 289 }
+		},
+		"luggage": {
+			"luggage": { "x": 985, "y": -976.5, "width": 176, "height": 271 }
+		},
+		"luggage_B": {
+			"luggage_B": { "x": 971, "y": -973.5, "width": 148, "height": 265 }
+		},
+		"mom_luggage": {
+			"mom_luggage": { "x": 945, "y": -944, "width": 168, "height": 284 }
+		},
+		"luggage_F": {
+			"luggage_F": { "x": 1017.5, "y": -981.5, "width": 109, "height": 275 }
+		},
+		"love_chair": {
+			"love_chair": { "x": 807.5, "y": -1350, "width": 513, "height": 384 }
+		},
+		"love_chair_ripped": {
+			"love_chair_ripped": { "x": 871, "y": -1376, "width": 346, "height": 238 }
+		},
+		"mom_chair": {
+			"mom_chair": { "x": 887.5, "y": -1392, "width": 235, "height": 178 }
+		},
+		"table": {
+			"table": { "x": 263.5, "y": -1402.5, "width": 475, "height": 359 }
+		},
+		"mom_table": {
+			"mom_table": { "x": 265.5, "y": -1262.5, "width": 149, "height": 151 }
+		},
+		"lid": {
+			"lid": { "x": 258.5, "y": -1267.5, "width": 267, "height": 203 }
+		},
+		"knife": {
+			"knife": { "x": 253, "y": -1407.5, "width": 154, "height": 31 }
+		},
+		"present_b": {
+			"present_b": { "x": 102.5, "y": -1086, "width": 179, "height": 176 }
+		},
+		"mom_present": {
+			"mom_present": { "x": 104.5, "y": -1007, "width": 225, "height": 216 }
+		},
+		"present_f": {
+			"present_f": { "x": 102.5, "y": -1095, "width": 179, "height": 162 }
+		},
+		"present_lid": {
+			"present_lid": { "x": 112, "y": -871.5, "width": 206, "height": 119 }
+		},
+		"smoke_fx": {
+			"smoke_fx": { "x": 530.5, "y": -802.5, "width": 367, "height": 351 }
+		},
+		"heart": {
+			"heart": { "x": 478.5, "y": -707, "width": 59, "height": 52 }
+		},
+		"smoke_fx2": {
+			"smoke_fx2": { "x": 653.5, "y": -951.5, "width": 71, "height": 93 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

@@ -37,6 +37,7 @@ public class LunaManager : MonoBehaviour
     private bool isRunning = true;
     //----------------------------------OTHER----------------------------
     //public bool isHead = false;
+    public MixSkeletonSkin mixSkeletonSkin;
 
     //----------------------------------LUNA----------------------------
     public static LunaManager ins;
@@ -114,7 +115,8 @@ public class LunaManager : MonoBehaviour
         UpdateProgress();
         if (countPlay >= countPlayFinal)
         {
-            //ShowEndCard();
+            WinGO.SetActive(true);
+            ShowEndCard();
         }
     }
     void UpdateProgress()
@@ -163,6 +165,14 @@ public class LunaManager : MonoBehaviour
     {
         yield return new WaitForSeconds(timeDrag);
         isDrag = true;
+    }
+    ////////////////////////////
+    public void PlayAnimBoyAngry()
+    {
+        mixSkeletonSkin.PlayAnimationOnly("Act 1", false, () =>
+        {
+            mixSkeletonSkin.PlayAnimationOnly("Mom_Out", true);
+        });
     }
 
 }

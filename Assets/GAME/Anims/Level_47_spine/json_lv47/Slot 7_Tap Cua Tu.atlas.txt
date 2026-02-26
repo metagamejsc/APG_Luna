@@ -1,0 +1,18 @@
+Slot 7_Tap Cua Tu.png
+size:488,332
+filter:Linear,Linear
+pma:true
+scale:0.75
+mom_wardrobe_f
+bounds:344,50,139,277
+wardrobe_door_closed_L
+bounds:2,58,133,340
+offsets:0,1,133,341
+rotate:90
+wardrobe_door_closed_R
+bounds:2,193,134,340
+rotate:90
+wardrobe_door_opened
+bounds:2,2,46,373
+offsets:0,0,46,374
+rotate:90

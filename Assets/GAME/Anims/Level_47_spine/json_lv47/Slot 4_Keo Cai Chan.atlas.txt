@@ -1,0 +1,7 @@
+Slot 4_Keo Cai Chan.png
+size:284,156
+filter:Linear,Linear
+pma:true
+scale:0.75
+mom_blanket
+bounds:2,2,278,151

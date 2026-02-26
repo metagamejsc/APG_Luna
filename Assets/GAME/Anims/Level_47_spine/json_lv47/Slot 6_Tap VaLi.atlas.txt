@@ -1,0 +1,16 @@
+Slot 6_Tap VaLi.png
+size:464,216
+filter:Linear,Linear
+pma:true
+scale:0.75
+luggage
+bounds:217,9,132,203
+luggage_B
+bounds:351,14,111,198
+offsets:0,1,111,199
+luggage_F
+bounds:2,2,82,206
+rotate:90
+mom_luggage
+bounds:2,86,126,213
+rotate:90

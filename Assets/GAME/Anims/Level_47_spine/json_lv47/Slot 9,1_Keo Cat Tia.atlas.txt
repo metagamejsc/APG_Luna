@@ -1,0 +1,25 @@
+Slot 9,1_Keo Cat Tia.png
+size:252,76
+filter:Linear,Linear
+pma:true
+scale:0.75
+1
+bounds:165,50,84,22
+offsets:1,1,85,24
+2
+bounds:104,3,69,59
+rotate:90
+foliage
+bounds:2,2,100,70
+offsets:0,1,100,71
+leaf1
+bounds:236,38,14,10
+leaf2
+bounds:236,28,8,14
+rotate:90
+leaf3
+bounds:220,37,11,14
+rotate:90
+mom_tree
+bounds:165,4,44,53
+rotate:90
