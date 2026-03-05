@@ -1,0 +1,62 @@
+Slot 2_Bep.png
+size:1008,421
+filter:Linear,Linear
+pma:true
+Comp 1/lua_00000
+bounds:861,91,81,49
+offsets:2,26,100,100
+Comp 1/lua_00002
+bounds:893,15,74,49
+offsets:2,26,100,100
+rotate:90
+Comp 1/lua_00004
+bounds:861,146,76,50
+offsets:3,26,100,100
+rotate:90
+Comp 1/lua_00006
+bounds:761,2,80,51
+offsets:2,26,100,100
+Comp 1/lua_00008
+bounds:934,142,81,51
+offsets:3,26,100,100
+rotate:90
+Comp 1/lua_00010
+bounds:849,224,83,50
+offsets:3,27,100,100
+Comp 1/lua_00012
+bounds:811,89,84,48
+offsets:4,27,100,100
+rotate:90
+Comp 1/lua_00014
+bounds:761,175,86,47
+offsets:3,27,100,100
+Comp 1/lua_00016
+bounds:761,224,86,50
+offsets:3,26,100,100
+Comp 1/lua_00018
+bounds:761,55,85,48
+offsets:3,27,100,100
+rotate:90
+Comp 1/lua_00020
+bounds:843,4,83,48
+offsets:3,27,100,100
+rotate:90
+Comp 1/lua_00022
+bounds:944,56,84,47
+offsets:3,26,100,100
+rotate:90
+food_steam_fx
+bounds:761,276,143,172
+offsets:6,14,153,193
+rotate:90
+pot_new
+bounds:431,14,405,328
+offsets:0,1,406,329
+rotate:90
+tripod
+bounds:2,3,427,416
+offsets:1,1,429,418
+wood
+bounds:935,225,194,71
+offsets:1,1,196,73
+rotate:90

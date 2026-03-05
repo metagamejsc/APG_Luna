@@ -1,0 +1,10 @@
+Slot 9.1_Cua So.png
+size:374,362
+filter:Linear,Linear
+pma:true
+window_new
+bounds:2,2,184,358
+offsets:1,1,186,360
+window_old
+bounds:188,2,184,358
+offsets:1,1,186,360

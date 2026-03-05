@@ -1,0 +1,8 @@
+BG_f.png
+size:1090,642
+filter:Linear,Linear
+pma:true
+BG_new
+bounds:2,2,542,638
+BG_old
+bounds:546,2,542,638

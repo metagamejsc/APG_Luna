@@ -1,0 +1,7 @@
+BG_b.png
+size:185,333
+filter:Linear,Linear
+pma:true
+BG_back
+bounds:2,2,181,329
+offsets:1,1,183,331

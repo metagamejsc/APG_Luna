@@ -1,0 +1,12 @@
+Slot 8_Mang Nhen.png
+size:409,225
+filter:Linear,Linear
+pma:true
+web_new
+bounds:2,2,221,253
+offsets:1,1,223,255
+rotate:90
+web_old
+bounds:257,12,211,150
+offsets:2,1,214,153
+rotate:90

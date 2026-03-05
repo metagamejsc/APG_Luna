@@ -1,0 +1,20 @@
+Slot 5_Tree.png
+size:609,873
+filter:Linear,Linear
+pma:true
+LED1
+bounds:2,276,295,272
+offsets:2,2,298,276
+LED2
+bounds:299,169,295,272
+offsets:2,2,298,276
+LED3
+bounds:2,2,295,272
+offsets:2,2,298,276
+tree_new
+bounds:2,550,321,432
+offsets:0,4,321,436
+rotate:90
+tree_old
+bounds:436,443,171,428
+offsets:1,1,173,430

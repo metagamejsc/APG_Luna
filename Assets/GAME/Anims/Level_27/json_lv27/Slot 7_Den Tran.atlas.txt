@@ -1,0 +1,11 @@
+Slot 7_Den Tran.png
+size:368,202
+filter:Linear,Linear
+pma:true
+ceilinglight_old
+bounds:246,72,128,120
+offsets:1,1,130,122
+rotate:90
+chandelier_new
+bounds:2,2,242,198
+offsets:1,1,244,200

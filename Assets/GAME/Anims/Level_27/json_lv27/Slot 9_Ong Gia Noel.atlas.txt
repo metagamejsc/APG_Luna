@@ -1,0 +1,15 @@
+Slot 9_Ong Gia Noel.png
+size:420,312
+filter:Linear,Linear
+pma:true
+landlord
+bounds:280,5,138,305
+landlord_arm
+bounds:88,4,73,111
+rotate:90
+santa
+bounds:2,79,231,276
+rotate:90
+santa_arm
+bounds:2,2,75,84
+rotate:90

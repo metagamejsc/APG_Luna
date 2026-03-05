@@ -1,0 +1,18 @@
+Slot 1_Mom.png
+size:409,771
+filter:Linear,Linear
+pma:true
+elbow
+bounds:2,697,72,115
+offsets:1,1,74,118
+rotate:90
+forearm
+bounds:119,689,115,80
+offsets:1,2,117,83
+ladle
+bounds:236,660,111,109
+offsets:1,1,113,111
+mom_new
+bounds:167,2,240,656
+mom_poor
+bounds:2,25,163,662
