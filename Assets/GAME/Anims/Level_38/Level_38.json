@@ -1,0 +1,233 @@
+{ "skeleton": { "images": "C:/Users/PC/Desktop/BRAIN MASTER/ANIMATION/Level/Level_38/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG_B", "bone": "root", "attachment": "BG_B" },
+	{ "name": "mom_elbow", "bone": "root", "attachment": "mom_elbow" },
+	{ "name": "mom_body", "bone": "root", "attachment": "mom_body" },
+	{ "name": "mom_head", "bone": "root", "attachment": "mom_head" },
+	{ "name": "mom_mad", "bone": "root", "attachment": "mom_mad" },
+	{ "name": "mad_fx", "bone": "root", "attachment": "mad_fx" },
+	{ "name": "mom_happy", "bone": "root", "attachment": "mom_happy" },
+	{ "name": "BG_F", "bone": "root", "attachment": "BG_F" },
+	{ "name": "rat", "bone": "root", "attachment": "rat" },
+	{ "name": "rat _died", "bone": "root", "attachment": "rat _died" },
+	{ "name": "vent_cursed", "bone": "root", "attachment": "vent_cursed" },
+	{ "name": "web", "bone": "root", "attachment": "web" },
+	{ "name": "spider", "bone": "root", "attachment": "spider" },
+	{ "name": "spider_died", "bone": "root", "attachment": "spider_died" },
+	{ "name": "trashbin_b", "bone": "root", "attachment": "trashbin_b" },
+	{ "name": "food_trashbin", "bone": "root", "attachment": "food_trashbin" },
+	{ "name": "trashbin_f", "bone": "root", "attachment": "trashbin_f" },
+	{ "name": "trashbin_lid", "bone": "root", "attachment": "trashbin_lid" },
+	{ "name": "mom_foraarm1", "bone": "root", "attachment": "mom_foraarm1" },
+	{ "name": "mom_forearm2", "bone": "root", "attachment": "mom_forearm2" },
+	{ "name": "bowl_f", "bone": "root", "attachment": "bowl_f" },
+	{ "name": "chair1", "bone": "root", "attachment": "chair1" },
+	{ "name": "chair2", "bone": "root", "attachment": "chair2" },
+	{ "name": "dad", "bone": "root", "attachment": "dad" },
+	{ "name": "dad_scared", "bone": "root", "attachment": "dad_scared" },
+	{ "name": "dad_vomit", "bone": "root", "attachment": "dad_vomit" },
+	{ "name": "girl", "bone": "root", "attachment": "girl" },
+	{ "name": "girl_scared", "bone": "root", "attachment": "girl_scared" },
+	{ "name": "girl_vomit", "bone": "root", "attachment": "girl_vomit" },
+	{ "name": "table", "bone": "root", "attachment": "table" },
+	{ "name": "dish_1", "bone": "root", "attachment": "dish_1" },
+	{ "name": "dish_2", "bone": "root", "attachment": "dish_2" },
+	{ "name": "dish_3", "bone": "root", "attachment": "dish_3" },
+	{ "name": "dish_4", "bone": "root", "attachment": "dish_4" },
+	{ "name": "dish_5", "bone": "root", "attachment": "dish_5" },
+	{ "name": "dish_6", "bone": "root", "attachment": "dish_6" },
+	{ "name": "dish_7", "bone": "root", "attachment": "dish_7" },
+	{ "name": "rainbow_vomit", "bone": "root", "attachment": "rainbow_vomit" },
+	{ "name": "vomit_fx1", "bone": "root", "attachment": "vomit_fx1" },
+	{ "name": "vomit_fx2", "bone": "root", "attachment": "vomit_fx2" },
+	{ "name": "teddy", "bone": "root", "attachment": "teddy" },
+	{ "name": "teddy_demon", "bone": "root", "attachment": "teddy_demon" },
+	{ "name": "plant", "bone": "root", "attachment": "plant" },
+	{ "name": "plant_died", "bone": "root", "attachment": "plant_died" },
+	{ "name": "crack", "bone": "root", "attachment": "crack" },
+	{ "name": "hole", "bone": "root", "attachment": "hole" },
+	{ "name": "food_hole", "bone": "root", "attachment": "food_hole" },
+	{ "name": "dirt_pile_cover", "bone": "root", "attachment": "dirt_pile_cover" },
+	{ "name": "tile", "bone": "root", "attachment": "tile" },
+	{ "name": "shovel_anim", "bone": "root", "attachment": "shovel_anim" },
+	{ "name": "dirt_pile", "bone": "root", "attachment": "dirt_pile" },
+	{ "name": "dirt_anim", "bone": "root", "attachment": "dirt_anim" },
+	{ "name": "fish_anim", "bone": "root", "attachment": "fish_anim" },
+	{ "name": "fish_died", "bone": "root", "attachment": "fish_died" },
+	{ "name": "gameplay_UI", "bone": "root", "attachment": "gameplay_UI" }
+],
+"skins": {
+	"default": {
+		"BG_B": {
+			"BG_B": { "x": 475.5, "y": -498, "width": 381, "height": 406 }
+		},
+		"mom_elbow": {
+			"mom_elbow": { "x": 399.5, "y": -495, "width": 101, "height": 152 }
+		},
+		"mom_body": {
+			"mom_body": { "x": 482, "y": -532.5, "width": 206, "height": 289 }
+		},
+		"mom_head": {
+			"mom_head": { "x": 467.5, "y": -395.5, "width": 169, "height": 201 }
+		},
+		"mom_mad": {
+			"mom_mad": { "x": 472, "y": -391.5, "width": 66, "height": 71 }
+		},
+		"mad_fx": {
+			"mad_fx": { "x": 500.5, "y": -335.5, "width": 29, "height": 33 }
+		},
+		"mom_happy": {
+			"mom_happy": { "x": 470.5, "y": -391.5, "width": 65, "height": 71 }
+		},
+		"BG_F": {
+			"BG_F": { "x": 540, "y": -924, "width": 1082, "height": 1258 }
+		},
+		"rat": {
+			"rat": { "x": 904.5, "y": -419, "width": 101, "height": 106 }
+		},
+		"rat _died": {
+			"rat _died": { "x": 888.5, "y": -447.5, "width": 139, "height": 67 }
+		},
+		"vent_cursed": {
+			"vent_cursed": { "x": 911, "y": -423, "width": 270, "height": 126 }
+		},
+		"web": {
+			"web": { "x": 84, "y": -459.5, "width": 12, "height": 145 }
+		},
+		"spider": {
+			"spider": { "x": 87.5, "y": -565.5, "width": 107, "height": 95 }
+		},
+		"spider_died": {
+			"spider_died": { "x": 81.5, "y": -968, "width": 85, "height": 94 }
+		},
+		"trashbin_b": {
+			"trashbin_b": { "x": 526.5, "y": -948, "width": 159, "height": 170 }
+		},
+		"food_trashbin": {
+			"food_trashbin": { "x": 526.5, "y": -883.5, "width": 133, "height": 91 }
+		},
+		"trashbin_f": {
+			"trashbin_f": { "x": 526.5, "y": -956, "width": 159, "height": 160 }
+		},
+		"trashbin_lid": {
+			"trashbin_lid": { "x": 528, "y": -870, "width": 148, "height": 56 }
+		},
+		"mom_foraarm1": {
+			"mom_foraarm1": { "x": 434, "y": -577.5, "width": 170, "height": 157 }
+		},
+		"mom_forearm2": {
+			"mom_forearm2": { "x": 586, "y": -587.5, "width": 162, "height": 159 }
+		},
+		"bowl_f": {
+			"bowl_f": { "x": 474, "y": -633, "width": 124, "height": 78 }
+		},
+		"chair1": {
+			"chair1": { "x": 802, "y": -1174.5, "width": 242, "height": 387 }
+		},
+		"chair2": {
+			"chair2": { "x": 152, "y": -1174.5, "width": 242, "height": 387 }
+		},
+		"dad": {
+			"dad": { "x": 270, "y": -1064, "width": 382, "height": 672 }
+		},
+		"dad_scared": {
+			"dad_scared": { "x": 274, "y": -835, "width": 68, "height": 94 }
+		},
+		"dad_vomit": {
+			"dad_vomit": { "x": 272.5, "y": -814.5, "width": 81, "height": 79 }
+		},
+		"girl": {
+			"girl": { "x": 760, "y": -1092.5, "width": 274, "height": 537 }
+		},
+		"girl_scared": {
+			"girl_scared": { "x": 742, "y": -933, "width": 48, "height": 46 }
+		},
+		"girl_vomit": {
+			"girl_vomit": { "x": 746, "y": -936, "width": 52, "height": 40 }
+		},
+		"table": {
+			"table": { "x": 518.5, "y": -1273.5, "width": 517, "height": 421 }
+		},
+		"dish_1": {
+			"dish_1": { "x": 411, "y": -1100.5, "width": 146, "height": 103 }
+		},
+		"dish_2": {
+			"dish_2": { "x": 532, "y": -1081, "width": 148, "height": 112 }
+		},
+		"dish_3": {
+			"dish_3": { "x": 649.5, "y": -1092, "width": 135, "height": 118 }
+		},
+		"dish_4": {
+			"dish_4": { "x": 445.5, "y": -1220.5, "width": 149, "height": 113 }
+		},
+		"dish_5": {
+			"dish_5": { "x": 335, "y": -1180.5, "width": 138, "height": 107 }
+		},
+		"dish_6": {
+			"dish_6": { "x": 712.5, "y": -1183, "width": 139, "height": 108 }
+		},
+		"dish_7": {
+			"dish_7": { "x": 587, "y": -1212.5, "width": 160, "height": 143 }
+		},
+		"rainbow_vomit": {
+			"rainbow_vomit": { "x": 301, "y": -979, "width": 66, "height": 294 }
+		},
+		"vomit_fx1": {
+			"vomit_fx1": { "x": 312.5, "y": -1117, "width": 123, "height": 58 }
+		},
+		"vomit_fx2": {
+			"vomit_fx2": { "x": 315.5, "y": -1116.5, "width": 133, "height": 79 }
+		},
+		"teddy": {
+			"teddy": { "x": 624, "y": -1422.5, "width": 142, "height": 165 }
+		},
+		"teddy_demon": {
+			"teddy_demon": { "x": 624, "y": -1420.5, "width": 176, "height": 195 }
+		},
+		"plant": {
+			"plant": { "x": 115, "y": -1356.5, "width": 206, "height": 345 }
+		},
+		"plant_died": {
+			"plant_died": { "x": 122.5, "y": -1393, "width": 143, "height": 272 }
+		},
+		"crack": {
+			"crack": { "x": 962.5, "y": -1466.5, "width": 187, "height": 93 }
+		},
+		"hole": {
+			"hole": { "x": 966.5, "y": -1456.5, "width": 279, "height": 167 }
+		},
+		"food_hole": {
+			"food_hole": { "x": 976.5, "y": -1468.5, "width": 183, "height": 129 }
+		},
+		"dirt_pile_cover": {
+			"dirt_pile_cover": { "x": 968, "y": -1466.5, "width": 216, "height": 131 }
+		},
+		"tile": {
+			"tile": { "x": 942, "y": -1463.5, "width": 282, "height": 181 }
+		},
+		"shovel_anim": {
+			"shovel_anim": { "x": 816, "y": -1308, "width": 206, "height": 236 }
+		},
+		"dirt_pile": {
+			"dirt_pile": { "x": 981.5, "y": -1303, "width": 167, "height": 116 }
+		},
+		"dirt_anim": {
+			"dirt_anim": { "x": 970.5, "y": -1340.5, "width": 55, "height": 107 }
+		},
+		"fish_anim": {
+			"fish_anim": { "x": 907, "y": -750.5, "width": 120, "height": 63 }
+		},
+		"fish_died": {
+			"fish_died": { "x": 907, "y": -745.5, "width": 120, "height": 69 }
+		},
+		"gameplay_UI": {
+			"gameplay_UI": { "x": 540, "y": -960, "width": 1112, "height": 1922 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

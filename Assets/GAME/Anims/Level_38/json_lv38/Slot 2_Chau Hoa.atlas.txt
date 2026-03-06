@@ -1,0 +1,9 @@
+Slot 2_Chau Hoa.png
+size:268,264
+filter:Linear,Linear
+pma:true
+scale:0.75
+plant
+bounds:2,2,155,259
+plant_died
+bounds:159,57,107,204

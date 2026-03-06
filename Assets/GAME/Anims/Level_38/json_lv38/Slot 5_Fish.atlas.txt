@@ -1,0 +1,9 @@
+Slot 5_Fish.png
+size:96,108
+filter:Linear,Linear
+pma:true
+scale:0.75
+fish_anim
+bounds:2,2,90,47
+fish_died
+bounds:2,51,90,52

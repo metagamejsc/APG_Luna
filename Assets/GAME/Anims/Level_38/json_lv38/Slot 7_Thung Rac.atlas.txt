@@ -1,0 +1,21 @@
+Slot 7_Thung Rac.png
+size:360,124
+filter:Linear,Linear
+pma:true
+scale:0.75
+food_trashbin
+bounds:294,23,97,64
+offsets:2,2,100,68
+rotate:90
+trashbin_b
+bounds:2,2,118,127
+offsets:1,0,119,128
+rotate:90
+trashbin_f
+bounds:131,3,117,118
+offsets:1,1,119,120
+rotate:90
+trashbin_lid
+bounds:251,11,109,41
+offsets:0,1,111,42
+rotate:90

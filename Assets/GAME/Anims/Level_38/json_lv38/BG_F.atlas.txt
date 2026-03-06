@@ -1,0 +1,7 @@
+BG_F.png
+size:412,476
+filter:Linear,Linear
+pma:true
+scale:0.75
+BG_F
+bounds:2,2,405,471

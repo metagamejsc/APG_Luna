@@ -1,0 +1,10 @@
+Slot 10.1_Con Chuot.png
+size:132,108
+filter:Linear,Linear
+pma:true
+scale:0.75
+rat
+bounds:2,26,76,80
+rat _died
+bounds:80,2,104,50
+rotate:90

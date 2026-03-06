@@ -29,13 +29,15 @@ public class DropZone : MonoBehaviour
             stepLose.SetActive(true);
             boxCollider.enabled = false;
         }
-        LunaManager.ins.ShowEndCard();
+        Invoke(nameof(LoseCustom), 1.9f);
+        //LunaManager.ins.ShowEndCard();
     }
     public void DragItem()
     {
         currentStep++;
         NextStep();
         CheckDone();
+        AudioController.Instance.PlaySfx("Click");
     }
     void NextStep()
     {
@@ -73,5 +75,10 @@ public class DropZone : MonoBehaviour
     public int GetCurrentStep()
     {
         return currentStep;
+    }
+    public void LoseCustom()
+    {
+        LunaManager.ins.LoseGO.SetActive(true);
+        LunaManager.ins.ShowEndCard();
     }
 }

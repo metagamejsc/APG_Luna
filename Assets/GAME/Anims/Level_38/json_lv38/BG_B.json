@@ -1,0 +1,1 @@
+{"skeleton":{"hash":"jj994m5DkZw","spine":"4.1.24","x":-255.06,"y":223.02,"width":381,"height":406,"images":"./images/","audio":""},"bones":[{"name":"root"}],"slots":[{"name":"BG_B","bone":"root","attachment":"BG_B"}],"skins":[{"name":"default","attachments":{"BG_B":{"BG_B":{"x":-64.56,"y":426.02,"width":381,"height":406}}}}],"animations":{"Act 1":{}}}

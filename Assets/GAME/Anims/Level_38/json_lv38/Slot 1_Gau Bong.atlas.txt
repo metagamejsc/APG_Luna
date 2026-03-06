@@ -1,0 +1,12 @@
+Slot 1_Gau Bong.png
+size:256,132
+filter:Linear,Linear
+pma:true
+scale:0.75
+teddy
+bounds:145,6,107,123
+offsets:0,1,107,124
+teddy_demon
+bounds:2,2,127,141
+offsets:3,2,132,146
+rotate:90

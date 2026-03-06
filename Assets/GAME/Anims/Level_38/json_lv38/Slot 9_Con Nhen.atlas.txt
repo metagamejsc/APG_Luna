@@ -1,0 +1,15 @@
+Slot 9_Con Nhen.png
+size:148,88
+filter:Linear,Linear
+pma:true
+scale:0.75
+spider
+bounds:2,13,78,70
+offsets:1,0,80,71
+spider_died
+bounds:82,14,63,69
+offsets:1,1,64,71
+web
+bounds:2,2,9,108
+offsets:0,1,9,109
+rotate:90
