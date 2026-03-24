@@ -10,6 +10,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     private CanvasGroup canvasGroup;
     public bool isProcess = false;
     public bool isLose = false;
+    public bool isHide = false;
 
     void Awake()
     {
@@ -17,6 +18,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         canvasGroup = GetComponent<CanvasGroup>();
         originalPosition = rectTransform.anchoredPosition;
         originParent = transform.parent.gameObject;
+        if (isHide) { canvasGroup.alpha = 0f; }
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -36,18 +38,13 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     public void OnEndDrag(PointerEventData eventData)
     {
         transform.SetParent(originParent.transform);
-        canvasGroup.alpha = 1f;
+        if (isHide) { canvasGroup.alpha = 0f; } else { canvasGroup.alpha = 1f; }
+
         canvasGroup.blocksRaycasts = true;
 
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
         RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
-        if (hit.collider != null && hit.collider.gameObject != gameObject && hit.collider.gameObject.GetComponent<DropZone>().idDrop == 1)
-        {
-            hit.collider.gameObject.GetComponent<DropZone>().LoseStep();
-            Destroy(gameObject);
-
-        }
-        else if (hit.collider != null && hit.collider.gameObject != gameObject && hit.collider.gameObject.GetComponent<DropZone>() != null && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop)
+        if (hit.collider != null && hit.collider.gameObject != gameObject && hit.collider.gameObject.GetComponent<DropZone>() != null && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop)
         {
             hit.collider.gameObject.GetComponent<DropZone>().DragItem();
             if (isProcess)

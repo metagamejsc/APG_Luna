@@ -1,0 +1,26 @@
+bride.png
+size:860,436
+filter:Linear,Linear
+Layer 91
+bounds:488,41,166,391
+bride1
+bounds:2,6,426,484
+rotate:90
+bride2
+bounds:488,2,41,37
+offsets:1,1,43,39
+bride3
+bounds:656,102,103,112
+offsets:3,3,109,118
+bride4
+bounds:761,122,71,92
+offsets:1,6,74,110
+bride5
+bounds:732,39,61,61
+offsets:4,0,65,61
+girl_giay
+bounds:656,40,74,60
+offsets:0,0,74,61
+veil
+bounds:656,216,201,216
+offsets:3,2,206,220

@@ -1,0 +1,14 @@
+groom1.png
+size:1012,360
+filter:Linear,Linear
+groom2_1
+bounds:2,2,909,354
+groom2_2
+bounds:913,65,39,45
+offsets:3,3,45,51
+groom2_3
+bounds:913,23,40,22
+offsets:1,1,42,24
+rotate:90
+groom2_4
+bounds:913,112,95,244

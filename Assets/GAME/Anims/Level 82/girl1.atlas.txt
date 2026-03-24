@@ -1,0 +1,15 @@
+girl1.png
+size:696,424
+filter:Linear,Linear
+girl1_1
+bounds:2,2,418,489
+rotate:90
+girl1_2
+bounds:493,127,81,75
+offsets:3,3,87,81
+girl1_3
+bounds:493,97,33,28
+offsets:1,2,35,31
+veil
+bounds:493,204,201,216
+offsets:3,2,206,220

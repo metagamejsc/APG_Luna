@@ -1,0 +1,12 @@
+dog2.png
+size:268,124
+filter:Linear,Linear
+dog2_1
+bounds:217,65,49,55
+offsets:2,2,53,59
+dog2_2
+bounds:2,2,118,213
+rotate:90
+dog2_3
+bounds:217,38,20,25
+offsets:2,2,24,29

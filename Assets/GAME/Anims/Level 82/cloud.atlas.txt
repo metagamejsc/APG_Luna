@@ -1,0 +1,16 @@
+cloud.png
+size:768,1108
+filter:Linear,Linear
+cloud1
+bounds:2,745,761,358
+offsets:4,4,769,366
+cloud2
+bounds:2,90,761,293
+offsets:4,4,769,301
+cloud3
+bounds:2,385,761,358
+offsets:4,4,769,366
+fan
+bounds:2,2,86,170
+offsets:3,3,92,176
+rotate:90

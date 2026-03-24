@@ -37,7 +37,10 @@ public class LunaManager : MonoBehaviour
     private bool isRunning = true;
     //----------------------------------OTHER----------------------------
     //public bool isHead = false;
-    public MixSkeletonSkin mixSkeletonSkin;
+    public MixSkeletonSkin MSSGirl;
+    public MixSkeletonSkin MSSBoy;
+    public MixSkeletonSkin MSSGroom;
+    public MixSkeletonSkin MSSBride;
 
     //----------------------------------LUNA----------------------------
     public static LunaManager ins;
@@ -170,12 +173,48 @@ public class LunaManager : MonoBehaviour
         isDrag = true;
     }
     ////////////////////////////
-    public void PlayAnimBoyAngry()
+
+    public void MoveVeil()
     {
-        mixSkeletonSkin.PlayAnimationOnly("Act 1", false, () =>
-        {
-            mixSkeletonSkin.PlayAnimationOnly("Mom_Out", true);
-        });
+        MSSGirl.RemoveSkinName("veil");
+        MSSGirl.MixAndApplySkins();
+        MSSBride.AddSkin("veil");
+        MSSBride.MixAndApplySkins();
+    }
+    public void MoveSock()
+    {
+        MSSGirl.RemoveSkinName("paint");
+        MSSGirl.MixAndApplySkins();
+        MSSBoy.AddSkin("paint");
+        MSSBoy.MixAndApplySkins();
+    }
+    public void MoveTowel()
+    {
+        MSSBoy.RemoveSkinName("towel");
+        MSSBoy.MixAndApplySkins();
+        MSSGroom.RemoveSkinName("kiss");
+        MSSGroom.MixAndApplySkins();
+    }
+    public void ClickBride()
+    {
+        MSSBride.RemoveSkinName("face_angry");
+        MSSBride.MixAndApplySkins();
+    }
+    public void ClickBoy()
+    {
+        MSSBoy.RemoveSkinName("face1");
+        MSSBoy.AddSkin("face2");
+        MSSBoy.MixAndApplySkins();
+    }
+    public void MoveCandy()
+    {
+        MSSGroom.RemoveSkinName("candy");
+        MSSGroom.MixAndApplySkins();
+    }
+    public void MoveShoes()
+    {
+        MSSBride.AddSkin("shoe");
+        MSSBride.MixAndApplySkins();
     }
 
 }
