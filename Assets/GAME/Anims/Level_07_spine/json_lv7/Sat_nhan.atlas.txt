@@ -1,0 +1,6 @@
+Sat_nhan.png
+size:440,727
+filter:Linear,Linear
+pma:true
+killer
+bounds:2,2,436,723

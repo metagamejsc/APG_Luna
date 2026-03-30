@@ -1,0 +1,10 @@
+SLot 5_ tu lanh.png
+size:273,190
+filter:Linear,Linear
+pma:true
+cua tu_open
+bounds:2,136,52,269
+rotate:90
+fridge_closed3
+bounds:2,2,132,134
+rotate:90

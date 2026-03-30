@@ -1,0 +1,209 @@
+{ "skeleton": { "images": "C:/Users/PC/Desktop/BRAIN MASTER/ANIMATION/Level/Level_07/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Color Fill 1", "bone": "root", "attachment": "Color Fill 1" },
+	{ "name": "BG", "bone": "root", "attachment": "BG" },
+	{ "name": "Apple", "bone": "root", "attachment": "Apple" },
+	{ "name": "window_door", "bone": "root", "attachment": "window_door" },
+	{ "name": "fridge_opened", "bone": "root", "attachment": "fridge_opened" },
+	{ "name": "icecream2", "bone": "root", "attachment": "icecream2" },
+	{ "name": "fridge_closed", "bone": "root", "attachment": "fridge_closed" },
+	{ "name": "fire_demo", "bone": "root", "attachment": "fire_demo" },
+	{ "name": "girl", "bone": "root", "attachment": "girl" },
+	{ "name": "girl_upperarm", "bone": "root", "attachment": "girl_upperarm" },
+	{ "name": "girl2", "bone": "root", "attachment": "girl2" },
+	{ "name": "girl_forearm", "bone": "root", "attachment": "girl_forearm" },
+	{ "name": "girl_hot", "bone": "root", "attachment": "girl_hot" },
+	{ "name": "sweat", "bone": "root", "attachment": "sweat" },
+	{ "name": "girl_chew", "bone": "root", "attachment": "girl_chew" },
+	{ "name": "jello_crumb", "bone": "root", "attachment": "jello_crumb" },
+	{ "name": "shaking_fx", "bone": "root", "attachment": "shaking_fx" },
+	{ "name": "cucumber_hold", "bone": "root", "attachment": "cucumber_hold" },
+	{ "name": "icecream_hold", "bone": "root", "attachment": "icecream_hold" },
+	{ "name": "roach", "bone": "root", "attachment": "roach" },
+	{ "name": "victim", "bone": "root", "attachment": "victim" },
+	{ "name": "cucumber_hold 1", "bone": "root", "attachment": "cucumber_hold 1" },
+	{ "name": "killer", "bone": "root", "attachment": "killer" },
+	{ "name": "FE", "bone": "root", "attachment": "FE" },
+	{ "name": "Sprayfx", "bone": "root", "attachment": "Sprayfx" },
+	{ "name": "girl_muscular", "bone": "root", "attachment": "girl_muscular" },
+	{ "name": "girl3", "bone": "root", "attachment": "girl3" },
+	{ "name": "girl_smile", "bone": "root", "attachment": "girl_smile" },
+	{ "name": "girl_spiced", "bone": "root", "attachment": "girl_spiced" },
+	{ "name": "fire_breath", "bone": "root", "attachment": "fire_breath" },
+	{ "name": "girl_love", "bone": "root", "attachment": "girl_love" },
+	{ "name": "poster", "bone": "root", "attachment": "poster" },
+	{ "name": "poster_hold", "bone": "root", "attachment": "poster_hold" },
+	{ "name": "bugspray_hold", "bone": "root", "attachment": "bugspray_hold" },
+	{ "name": "girl_forearm_hold", "bone": "root", "attachment": "girl_forearm_hold" },
+	{ "name": "table", "bone": "root", "attachment": "table" },
+	{ "name": "bubbletea", "bone": "root", "attachment": "bubbletea" },
+	{ "name": "spicynoodle", "bone": "root", "attachment": "spicynoodle" },
+	{ "name": "durian", "bone": "root", "attachment": "durian" },
+	{ "name": "girl_gross", "bone": "root", "attachment": "girl_gross" },
+	{ "name": "eyes", "bone": "root", "attachment": "eyes" },
+	{ "name": "fart3", "bone": "root", "attachment": "fart3" },
+	{ "name": "fart2", "bone": "root", "attachment": "fart2" },
+	{ "name": "fart1", "bone": "root", "attachment": "fart1" },
+	{ "name": "chimney_f", "bone": "root", "attachment": "chimney_f" },
+	{ "name": "drawer_opened", "bone": "root", "attachment": "drawer_opened" },
+	{ "name": "bugspray", "bone": "root", "attachment": "bugspray" },
+	{ "name": "drawer_closed", "bone": "root", "attachment": "drawer_closed" },
+	{ "name": "UI", "bone": "root", "attachment": "UI" }
+],
+"skins": {
+	"default": {
+		"Color Fill 1": {
+			"Color Fill 1": { "x": 540, "y": -960, "width": 1082, "height": 1922 }
+		},
+		"BG": {
+			"BG": { "x": 541, "y": -925, "width": 1084, "height": 1260 }
+		},
+		"Apple": {
+			"Apple": { "x": 428.5, "y": -565, "width": 63, "height": 66 }
+		},
+		"window_door": {
+			"window_door": { "x": 416.5, "y": -543, "width": 169, "height": 240 }
+		},
+		"fridge_opened": {
+			"fridge_opened": { "x": 142, "y": -828.5, "width": 268, "height": 581 }
+		},
+		"icecream2": {
+			"icecream2": { "x": 69, "y": -691.5, "width": 54, "height": 101 }
+		},
+		"fridge_closed": {
+			"fridge_closed": { "x": 142.5, "y": -828.5, "width": 267, "height": 581 }
+		},
+		"fire_demo": {
+			"fire_demo": { "x": 902.5, "y": -1402, "width": 139, "height": 212 }
+		},
+		"girl": {
+			"girl": { "x": 902.5, "y": -767, "width": 345, "height": 670 }
+		},
+		"girl_upperarm": {
+			"girl_upperarm": { "x": 828, "y": -596.5, "width": 116, "height": 51 }
+		},
+		"girl2": {
+			"girl2": { "x": 903.5, "y": -767, "width": 343, "height": 670 }
+		},
+		"girl_forearm": {
+			"girl_forearm": { "x": 833.5, "y": -596.5, "width": 121, "height": 61 }
+		},
+		"girl_hot": {
+			"girl_hot": { "x": 914.5, "y": -515.5, "width": 67, "height": 83 }
+		},
+		"sweat": {
+			"sweat": { "x": 932, "y": -494.5, "width": 8, "height": 13 }
+		},
+		"girl_chew": {
+			"girl_chew": { "x": 912.5, "y": -518.5, "width": 73, "height": 67 }
+		},
+		"jello_crumb": {
+			"jello_crumb": { "x": 913.5, "y": -536, "width": 43, "height": 16 }
+		},
+		"shaking_fx": {
+			"shaking_fx": { "x": 909, "y": -671.5, "width": 190, "height": 531 }
+		},
+		"cucumber_hold": {
+			"cucumber_hold": { "x": 889.5, "y": -583.5, "width": 39, "height": 59 }
+		},
+		"icecream_hold": {
+			"icecream_hold": { "x": 890.5, "y": -577, "width": 39, "height": 82 }
+		},
+		"roach": {
+			"roach": { "x": 826, "y": -345, "width": 106, "height": 70 }
+		},
+		"victim": {
+			"victim": { "x": 286, "y": -1297, "width": 626, "height": 282 }
+		},
+		"cucumber_hold 1": {
+			"cucumber_hold 1": { "x": 552, "y": -1269, "width": 38, "height": 50 }
+		},
+		"killer": {
+			"killer": { "x": 353, "y": -1085.5, "width": 436, "height": 723 }
+		},
+		"FE": {
+			"FE": { "x": 597, "y": -784, "width": 90, "height": 186 }
+		},
+		"Sprayfx": {
+			"Sprayfx": { "x": 680, "y": -770, "width": 182, "height": 162 }
+		},
+		"girl_muscular": {
+			"girl_muscular": { "x": 903.5, "y": -643.5, "width": 349, "height": 141 }
+		},
+		"girl3": {
+			"girl3": { "x": 903.5, "y": -767, "width": 343, "height": 670 }
+		},
+		"girl_smile": {
+			"girl_smile": { "x": 914, "y": -515, "width": 66, "height": 82 }
+		},
+		"girl_spiced": {
+			"girl_spiced": { "x": 914.5, "y": -515.5, "width": 67, "height": 83 }
+		},
+		"fire_breath": {
+			"fire_breath": { "x": 844, "y": -539, "width": 114, "height": 82 }
+		},
+		"girl_love": {
+			"girl_love": { "x": 913.5, "y": -525.5, "width": 71, "height": 47 }
+		},
+		"poster": {
+			"poster": { "x": 148.5, "y": -424.5, "width": 149, "height": 199 }
+		},
+		"poster_hold": {
+			"poster_hold": { "x": 913.5, "y": -599.5, "width": 89, "height": 111 }
+		},
+		"bugspray_hold": {
+			"bugspray_hold": { "x": 897.5, "y": -583, "width": 41, "height": 96 }
+		},
+		"girl_forearm_hold": {
+			"girl_forearm_hold": { "x": 844, "y": -589, "width": 142, "height": 76 }
+		},
+		"table": {
+			"table": { "x": 385, "y": -1452, "width": 438, "height": 338 }
+		},
+		"bubbletea": {
+			"bubbletea": { "x": 474, "y": -1344, "width": 70, "height": 152 }
+		},
+		"spicynoodle": {
+			"spicynoodle": { "x": 320.5, "y": -1344, "width": 157, "height": 188 }
+		},
+		"durian": {
+			"durian": { "x": 417, "y": -830.5, "width": 108, "height": 95 }
+		},
+		"girl_gross": {
+			"girl_gross": { "x": 913.5, "y": -515.5, "width": 67, "height": 83 }
+		},
+		"eyes": {
+			"eyes": { "x": 913, "y": -517, "width": 60, "height": 28 }
+		},
+		"fart3": {
+			"fart3": { "x": 1017, "y": -778, "width": 70, "height": 54 }
+		},
+		"fart2": {
+			"fart2": { "x": 1005.5, "y": -830.5, "width": 31, "height": 39 }
+		},
+		"fart1": {
+			"fart1": { "x": 900.5, "y": -1133, "width": 213, "height": 346 }
+		},
+		"chimney_f": {
+			"chimney_f": { "x": 903, "y": -1184, "width": 558, "height": 156 }
+		},
+		"drawer_opened": {
+			"drawer_opened": { "x": 626, "y": -1010.5, "width": 148, "height": 99 }
+		},
+		"bugspray": {
+			"bugspray": { "x": 627, "y": -987, "width": 116, "height": 36 }
+		},
+		"drawer_closed": {
+			"drawer_closed": { "x": 626, "y": -986.5, "width": 134, "height": 55 }
+		},
+		"UI": {
+			"UI": { "x": 540, "y": -960, "width": 1082, "height": 1922 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

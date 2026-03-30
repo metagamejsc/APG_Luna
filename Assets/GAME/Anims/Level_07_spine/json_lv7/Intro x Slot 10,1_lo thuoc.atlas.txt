@@ -1,0 +1,6 @@
+Intro x Slot 10,1_lo thuoc.png
+size:110,74
+filter:Linear,Linear
+pma:true
+roach
+bounds:2,2,106,70

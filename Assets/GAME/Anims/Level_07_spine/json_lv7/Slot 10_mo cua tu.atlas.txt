@@ -1,0 +1,20 @@
+Slot 10_mo cua tu.png
+size:996,270
+filter:Linear,Linear
+pma:true
+Layer 2
+bounds:860,67,133,53
+bugspray
+bounds:956,152,116,36
+rotate:90
+drawer_closed
+bounds:860,15,134,50
+offsets:0,0,134,55
+drawer_opened
+bounds:860,122,146,94
+offsets:1,3,148,99
+rotate:90
+tu_1
+bounds:2,2,427,266
+tu_12
+bounds:431,2,427,266

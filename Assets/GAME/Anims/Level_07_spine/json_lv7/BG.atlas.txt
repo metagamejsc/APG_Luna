@@ -1,0 +1,6 @@
+BG.png
+size:544,633
+filter:Linear,Linear
+pma:true
+BG
+bounds:2,2,540,629

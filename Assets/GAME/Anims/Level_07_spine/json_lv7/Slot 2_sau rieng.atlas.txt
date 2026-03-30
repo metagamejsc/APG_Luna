@@ -1,0 +1,49 @@
+Slot 2_sau rieng.png
+size:1676,1552
+filter:Linear,Linear
+pma:true
+Smoke 016 Shot Up/Smoke_00000
+bounds:1302,1222,85,311
+offsets:455,95,1000,1000
+rotate:90
+Smoke 016 Shot Up/Smoke_00002
+bounds:1032,589,218,594
+offsets:367,97,1000,1000
+rotate:90
+Smoke 016 Shot Up/Smoke_00004
+bounds:1019,1309,241,655
+offsets:348,97,1000,1000
+rotate:90
+Smoke 016 Shot Up/Smoke_00006
+bounds:366,2,293,763
+offsets:332,99,1000,1000
+Smoke 016 Shot Up/Smoke_00008
+bounds:346,767,317,783
+offsets:324,100,1000,1000
+Smoke 016 Shot Up/Smoke_00010
+bounds:2,756,342,794
+offsets:313,101,1000,1000
+Smoke 016 Shot Up/Smoke_00012
+bounds:665,771,352,779
+offsets:308,103,1000,1000
+Smoke 016 Shot Up/Smoke_00014
+bounds:2,25,362,729
+offsets:301,105,1000,1000
+Smoke 016 Shot Up/Smoke_00016
+bounds:661,78,369,687
+offsets:296,137,1000,1000
+Smoke 016 Shot Up/Smoke_00018
+bounds:1032,5,291,582
+offsets:349,154,1000,1000
+Smoke 016 Shot Up/Smoke_00020
+bounds:1325,11,292,576
+offsets:342,166,1000,1000
+Smoke 016 Shot Up/Smoke_00022
+bounds:1019,809,281,498
+offsets:341,179,1000,1000
+Smoke 016 Shot Up/Smoke_00024
+bounds:1302,828,249,392
+offsets:348,220,1000,1000
+durian
+bounds:1553,1127,106,93
+offsets:1,1,108,95

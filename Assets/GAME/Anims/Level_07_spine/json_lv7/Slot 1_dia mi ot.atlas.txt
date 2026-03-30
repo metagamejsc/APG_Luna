@@ -1,0 +1,10 @@
+Slot 1_dia mi ot.png
+size:495,330
+filter:Linear,Linear
+pma:true
+fx_smoke
+bounds:2,2,382,326
+spicynoodle
+bounds:386,173,155,107
+offsets:1,1,157,188
+rotate:90

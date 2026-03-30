@@ -1,0 +1,15 @@
+Slot 8_ cua so.png
+size:275,171
+filter:Linear,Linear
+pma:true
+wind
+bounds:242,12,157,6
+rotate:90
+wind 2
+bounds:250,106,63,23
+offsets:5,31,112,85
+rotate:90
+window_door
+bounds:2,2,167,238
+offsets:1,1,169,240
+rotate:90

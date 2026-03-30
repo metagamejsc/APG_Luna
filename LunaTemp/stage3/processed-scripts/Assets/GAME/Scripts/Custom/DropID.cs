@@ -10,9 +10,10 @@ public class DropID : MonoBehaviour
     //public GameObject[] steps;
     // public SkeletonGraphic skeletonGraphic;
     // public string animationNameDefault = "idle";
-    public GameObject GridMan;
-    public List<GameObject> mans;
+    //public GameObject GridMan;
+    //public List<GameObject> mans;
     public MixSkeletonSkin mixSkeletonSkin;
+    public GameObject[] Animal;
     //----------------------------------------------
 
     //------------------------------------
@@ -26,9 +27,18 @@ public class DropID : MonoBehaviour
         boxCollider = GetComponent<Collider2D>();
         boxCollider.enabled = true;
         currentStep = 0;
+        SetAnimal(0);
         //NextStep();
         //currentAnimation = animationNameDefault;
         // SpineHelper.ChangeAnimation(skeletonGraphic, currentAnimation, true);
+    }
+    void SetAnimal(int index)
+    {
+        foreach (var i in Animal)
+        {
+            i.SetActive(false);
+        }
+        Animal[index].SetActive(true);
     }
     public void DragItem()
     {
@@ -36,82 +46,93 @@ public class DropID : MonoBehaviour
         currentStep++;
         //NextStep();
         //CheckDone();
+
     }
+
+
     public void DragItemID(int id)
     {
         switch (id)
         {
-            case 0:
-                //keo
-                mixSkeletonSkin.RemoveSkinName("vay");
-                mixSkeletonSkin.MixAndApplySkins();
-                AudioController.Instance.PlaySfx("Item0");
-                break;
             case 1:
-                //phi tieu
-                mixSkeletonSkin.RemoveSkinName("nguc");
-                mixSkeletonSkin.MixAndApplySkins();
+                //mi cay
+                mixSkeletonSkin.PlayAnimationOnly("Slot 1_dia mi ot", false, () => { SetDefaultAnim(); });
                 AudioController.Instance.PlaySfx("Item1");
                 break;
             case 2:
-                //mic
-                mixSkeletonSkin.PlayAnimation("action_hat");
+                //sau rieng
+                mixSkeletonSkin.PlayAnimationOnly("Slot 2_sau rieng", false, () => { SetDefaultAnim(); });
+                //AudioController.Instance.PlaySfx("Item1");
                 break;
             case 3:
-                //click cabinet
-
+                //dua chuot
+                mixSkeletonSkin.PlayAnimationOnly("Slot 3_dua chuot", false, () => { SetDefaultAnim(); });
+                AudioController.Instance.PlaySfx("Item3");
                 break;
             case 4:
-                //click hair
-                mixSkeletonSkin.RemoveSkinName("toc");
-                mixSkeletonSkin.MixAndApplySkins();
+                //binh cuu hoa
+                mixSkeletonSkin.PlayAnimationOnly("Slot 4_binh cuu hoa", false, () => { SetDefaultAnim(); });
+
                 break;
             case 5:
-                //khau trang
-                mixSkeletonSkin.RemoveSkinName("khautrang");
-                mixSkeletonSkin.MixAndApplySkins();
+                //kem
+                mixSkeletonSkin.PlayAnimationOnly("Slot 5.1_an kem", false, () => { SetDefaultAnim(); });
+                AudioController.Instance.PlaySfx("Item5");
                 break;
             case 6:
-                //sip
-                mixSkeletonSkin.RemoveSkinName("face");
-                mixSkeletonSkin.MixAndApplySkins();
+                //an tao
+                mixSkeletonSkin.PlayAnimationOnly("Slot 6_ an tao", false, () => { SetDefaultAnim(); });
+                AudioController.Instance.PlaySfx("Item6");
+                break;
+            case 7:
+                //tra sua
+                mixSkeletonSkin.PlayAnimationOnly("Slot 7_ Tra sua", false, () => { SetDefaultAnim(); });
+                AudioController.Instance.PlaySfx("Item7");
+                break;
+            case 8:
+                //cua so
+                mixSkeletonSkin.PlayAnimationOnly("Slot 8_cua so", false, () => { SetDefaultAnim(); });
+                AudioController.Instance.PlaySfx("Item8");
+                break;
+            case 9:
+                //poster
+                mixSkeletonSkin.PlayAnimationOnly("Slot 9_poster", false, () => { SetDefaultAnim(); });
+                AudioController.Instance.PlaySfx("Item9");
+                break;
+            case 10:
+                //lo thuoc
+                mixSkeletonSkin.PlayAnimationOnly("Slot 10.1_lo thuoc", false, () => { SetDefaultAnim(); });
+                AudioController.Instance.PlaySfx("Item10");
+                SetAnimal(1);
                 break;
             default:
                 currentAnimation = "";
                 break;
         }
         //
-        AudioController.Instance.PlaySfx("Oe");
-        var index = mans.Count - 1;
-        if (index < 0) return;
+        // AudioController.Instance.PlaySfx("Oe");
+        // var index = mans.Count - 1;
+        // if (index < 0) return;
 
-        var go = mans[index];
-        var skeletonGraphic = go.GetComponent<SkeletonGraphic>();
-        var state = skeletonGraphic.AnimationState;
+        // var go = mans[index];
+        // var skeletonGraphic = go.GetComponent<SkeletonGraphic>();
+        // var state = skeletonGraphic.AnimationState;
 
-        TrackEntry entry = state.SetAnimation(0, "action", false);
-        entry.Complete += _ =>
-        {
-            state.SetAnimation(0, "idle", true);
+        // TrackEntry entry = state.SetAnimation(0, "action", false);
+        // entry.Complete += _ =>
+        // {
+        //     //state.SetAnimation(0, "idle", true);
+        //  
 
-            if (GridMan != null)
-            {
-                GridMan.transform.DOKill();
-
-                GridMan.transform
-                    .DOLocalMove(
-                        GridMan.transform.localPosition + new Vector3(-80f, -20f, 0f),
-                        0.3f
-                    )
-                    .SetEase(Ease.OutQuad);
-            }
-            LunaManager.ins.SetIsDrag(true);
-            Destroy(go);
-            mans.RemoveAt(index);
-        };
+        // };
 
 
 
+    }
+    void SetDefaultAnim()
+    {
+        mixSkeletonSkin.SetDefaultAnimation();
+        LunaManager.ins.SetIsDrag(true);
     }
 
     // void NextStep()
