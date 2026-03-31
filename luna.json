@@ -35602,6 +35602,16 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/GAME/Audios/level_82/voice/5 Do i look attractive.mp3"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:20.253",
+                        "lengthInSeconds": 20.253000259399415,
+                        "bitrate": 16,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Audios/level_84/V24/BGM/iLoveYt.net_YouTube_The-Minimal-Beat_Media_-zQvDHsDyac_008_128k.mp3"
                     }
                 ]
             },
