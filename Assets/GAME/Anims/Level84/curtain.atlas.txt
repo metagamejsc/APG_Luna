@@ -1,0 +1,10 @@
+curtain.png
+size:668,344
+filter:Linear,Linear
+curtain2
+bounds:2,2,340,556
+rotate:90
+curtain3
+bounds:560,227,115,106
+offsets:1,1,117,108
+rotate:90

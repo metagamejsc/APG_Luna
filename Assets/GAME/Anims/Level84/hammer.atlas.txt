@@ -1,0 +1,5 @@
+hammer.png
+size:148,84
+filter:Linear,Linear
+hammer
+bounds:2,2,141,77

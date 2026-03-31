@@ -1,0 +1,7 @@
+bubble.png
+size:344,200
+filter:Linear,Linear
+ghost3
+bounds:2,2,208,195
+heart
+bounds:212,16,130,181

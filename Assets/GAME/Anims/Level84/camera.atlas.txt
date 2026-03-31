@@ -1,0 +1,12 @@
+camera.png
+size:1056,744
+filter:Linear,Linear
+cam1
+bounds:2,2,737,900
+rotate:90
+cam2
+bounds:904,559,148,180
+offsets:5,5,158,190
+camera
+bounds:904,478,139,79
+offsets:3,3,145,85

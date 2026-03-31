@@ -1,0 +1,10 @@
+glue.png
+size:912,604
+filter:Linear,Linear
+glue
+bounds:848,483,119,60
+offsets:3,3,126,66
+rotate:90
+keo_2
+bounds:2,2,844,600
+offsets:1,1,846,602

@@ -1,0 +1,150 @@
+groom.png
+size:1184,312
+filter:Linear,Linear
+Comp 1/Comp 1_00000
+bounds:694,3,58,34
+offsets:68,75,200,200
+rotate:90
+Comp 1/Comp 1_00001
+bounds:694,3,58,34
+offsets:68,75,200,200
+rotate:90
+Comp 1/Comp 1_00002
+bounds:694,3,58,34
+offsets:68,75,200,200
+rotate:90
+Comp 1/Comp 1_00003
+bounds:1080,78,32,48
+offsets:77,85,200,200
+rotate:90
+Comp 1/Comp 1_00004
+bounds:1080,78,32,48
+offsets:77,85,200,200
+rotate:90
+Comp 1/Comp 1_00005
+bounds:1054,5,52,70
+offsets:74,65,200,200
+Comp 1/Comp 1_00006
+bounds:1054,5,52,70
+offsets:74,65,200,200
+Comp 1/Comp 1_00007
+bounds:1054,5,52,70
+offsets:74,65,200,200
+Comp 1/Comp 1_00008
+bounds:988,3,64,64
+offsets:74,76,200,200
+Comp 1/Comp 1_00009
+bounds:988,3,64,64
+offsets:74,76,200,200
+Comp 1/Comp 1_00010
+bounds:1108,2,74,60
+offsets:74,87,200,200
+rotate:90
+Comp 1/Comp 1_00011
+bounds:1108,2,74,60
+offsets:74,87,200,200
+rotate:90
+Comp 1/Comp 1_00012
+bounds:730,4,74,57
+offsets:71,95,200,200
+Comp 1/Comp 1_00013
+bounds:730,4,74,57
+offsets:71,95,200,200
+Comp 1/Comp 1_00014
+bounds:730,4,74,57
+offsets:71,95,200,200
+Comp 1/Comp 1_00015
+bounds:948,69,79,94
+offsets:65,65,200,200
+Comp 1/Comp 1_00016
+bounds:948,69,79,94
+offsets:65,65,200,200
+Comp 1/Comp 1_00017
+bounds:843,69,103,94
+offsets:47,76,200,200
+Comp 1/Comp 1_00018
+bounds:843,69,103,94
+offsets:47,76,200,200
+Comp 1/Comp 1_00019
+bounds:843,69,103,94
+offsets:47,76,200,200
+Comp 1/Comp 1_00020
+bounds:1054,221,123,89
+offsets:35,87,200,200
+Comp 1/Comp 1_00021
+bounds:1054,221,123,89
+offsets:35,87,200,200
+Comp 1/Comp 1_00022
+bounds:843,165,145,104
+offsets:23,79,200,200
+rotate:90
+Comp 1/Comp 1_00023
+bounds:843,165,145,104
+offsets:23,79,200,200
+rotate:90
+Comp 1/Comp 1_00024
+bounds:575,2,91,43
+offsets:83,107,200,200
+Comp 1/Comp 1_00025
+bounds:575,2,91,43
+offsets:83,107,200,200
+Comp 1/Comp 1_00026
+bounds:575,2,91,43
+offsets:83,107,200,200
+Comp 1/Comp 1_00027
+bounds:668,9,36,24
+offsets:78,117,200,200
+rotate:90
+Comp 1/Comp 1_00028
+bounds:668,9,36,24
+offsets:78,117,200,200
+rotate:90
+Comp 1/Comp 1_00029
+bounds:1029,77,49,33
+offsets:70,113,200,200
+Comp 1/Comp 1_00030
+bounds:1029,77,49,33
+offsets:70,113,200,200
+Comp 1/Comp 1_00031
+bounds:1029,77,49,33
+offsets:70,113,200,200
+Comp 1/Comp 1_00032
+bounds:875,2,65,93
+offsets:60,56,200,200
+rotate:90
+Comp 1/Comp 1_00033
+bounds:875,2,65,93
+offsets:60,56,200,200
+rotate:90
+Comp 1/Comp 1_00034
+bounds:1029,112,78,84
+offsets:54,66,200,200
+Comp 1/Comp 1_00035
+bounds:1029,112,78,84
+offsets:54,66,200,200
+face_man_1
+bounds:806,7,67,54
+offsets:4,5,74,60
+face_man_2
+bounds:970,2,65,16
+rotate:90
+face_man_3
+bounds:949,165,51,31
+face_sad1
+bounds:1130,150,69,51
+offsets:12,10,90,62
+rotate:90
+groom_1
+bounds:2,7,303,571
+rotate:90
+groom_2
+bounds:949,198,102,112
+offsets:1,1,104,114
+groom_3
+bounds:1130,80,68,51
+offsets:14,11,92,64
+rotate:90
+groom_5
+bounds:687,63,154,247
+hand
+bounds:575,47,110,263
