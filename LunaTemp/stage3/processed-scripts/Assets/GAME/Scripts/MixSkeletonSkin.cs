@@ -220,4 +220,27 @@ public class MixSkeletonSkin : MonoBehaviour
         };
     }
 
+    public bool HasAnimation(string animName)
+    {
+        if (skeletonAnimation == null) return false;
+        if (string.IsNullOrEmpty(animName)) return false;
+
+        return skeletonAnimation.Skeleton.Data.FindAnimation(animName) != null;
+    }
+    public void PlayIfHasAnimation(string animName, bool loop, System.Action onComplete = null, System.Action onNotFound = null)
+    {
+        if (skeletonAnimation == null) return;
+        if (string.IsNullOrEmpty(animName)) return;
+
+        var anim = skeletonAnimation.Skeleton.Data.FindAnimation(animName);
+
+        if (anim == null)
+        {
+            onNotFound?.Invoke();
+            return;
+        }
+
+        PlayAnimationOnly(animName, loop, onComplete);
+    }
+
 }

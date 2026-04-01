@@ -1,0 +1,6 @@
+slot 7_ Mo cua.png
+size:144,310
+filter:Linear,Linear
+pma:true
+door
+bounds:2,2,140,306

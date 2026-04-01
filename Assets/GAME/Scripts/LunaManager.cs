@@ -37,8 +37,9 @@ public class LunaManager : MonoBehaviour
     private bool isRunning = true;
     //----------------------------------OTHER----------------------------
     //public bool isHead = false;
-    public MixSkeletonSkin MSSGroom;
-    public MixSkeletonSkin MSSBride;
+    // public MixSkeletonSkin MSSGroom;
+    // public MixSkeletonSkin MSSBride;
+    public MixSkeletonSkin[] skeDogs;
 
     //----------------------------------LUNA----------------------------
     public static LunaManager ins;
@@ -172,11 +173,11 @@ public class LunaManager : MonoBehaviour
     }
     ////////////////////////////
 
-    public void DropCamera()
-    {
-        MSSBride.RemoveSkinName("khanchumdau");
-        MSSBride.MixAndApplySkins();
-    }
+    // public void DropCamera()
+    // {
+    //     MSSBride.RemoveSkinName("khanchumdau");
+    //     MSSBride.MixAndApplySkins();
+    // }
     // public void MoveCandy()
     // {
     //     MSSGroom.RemoveSkinName("candy");
@@ -187,5 +188,38 @@ public class LunaManager : MonoBehaviour
     //     MSSBride.AddSkin("shoe");
     //     MSSBride.MixAndApplySkins();
     // }
+    public void DropMic()
+    {
+        foreach (var m in skeDogs)
+        {
+            if (!m.gameObject.activeInHierarchy) continue;
+            m.PlayAnimationOnly("slot 2_ Mic hat2", false);
+        }
+    }
+    public void DropMask()
+    {
+        foreach (var m in skeDogs)
+        {
+            if (!m.gameObject.activeInHierarchy) continue;
+            m.PlayAnimationOnly("slot 5_ a la beo2", false);
+        }
+    }
+    public void DropCat()
+    {
+        foreach (var m in skeDogs)
+        {
+            if (!m.gameObject.activeInHierarchy) continue;
+            m.PlayAnimationOnly("slot 1_ meo2", false);
+        }
+    }
+    public void DropSpeaker()
+    {
 
+        foreach (var m in skeDogs)
+        {
+            if (!m.gameObject.activeInHierarchy) continue;
+            //m.PlayAnimationOnly("slot 4_Cai loa2", false);
+            m.PlayIfHasAnimation("slot 4_Cai loa2", false, () => print("ok"), () => m.PlayIfHasAnimation("slot 4_Cai loa", false));
+        }
+    }
 }

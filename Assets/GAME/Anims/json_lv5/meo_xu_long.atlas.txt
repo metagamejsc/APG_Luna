@@ -1,0 +1,9 @@
+meo_xu_long.png
+size:247,189
+filter:Linear,Linear
+pma:true
+cat_angry
+bounds:2,2,185,199
+rotate:90
+shiba_bark_angry_fx
+bounds:203,140,42,47

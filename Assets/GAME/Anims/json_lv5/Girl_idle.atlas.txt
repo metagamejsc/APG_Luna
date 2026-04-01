@@ -1,0 +1,14 @@
+Girl_idle.png
+size:891,168
+filter:Linear,Linear
+pma:true
+little girl
+bounds:431,4,162,426
+rotate:90
+little girl3
+bounds:2,2,164,427
+offsets:0,2,164,431
+rotate:90
+sausage
+bounds:859,22,30,144
+offsets:1,0,32,144

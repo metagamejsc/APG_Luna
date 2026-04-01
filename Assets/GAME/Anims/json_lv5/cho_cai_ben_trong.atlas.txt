@@ -1,0 +1,6 @@
+cho_cai_ben_trong.png
+size:150,144
+filter:Linear,Linear
+pma:true
+dog_female_full
+bounds:2,2,146,140

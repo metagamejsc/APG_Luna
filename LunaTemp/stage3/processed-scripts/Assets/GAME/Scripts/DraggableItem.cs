@@ -34,30 +34,73 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         LunaManager.ins.OffStartCard();
         //rectTransform.position = Input.mousePosition;
     }
-
     public void OnEndDrag(PointerEventData eventData)
     {
         transform.SetParent(originParent.transform);
-        if (isHide) { canvasGroup.alpha = 0f; } else { canvasGroup.alpha = 1f; }
-
+        canvasGroup.alpha = isHide ? 0f : 1f;
         canvasGroup.blocksRaycasts = true;
 
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
-        RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
-        if (hit.collider != null && hit.collider.gameObject != gameObject && hit.collider.gameObject.GetComponent<DropZone>() != null && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop)
+        RaycastHit2D[] hits = Physics2D.RaycastAll(worldPoint, Vector2.zero);
+
+        DropZone targetDropZone = null;
+
+        for (int i = 0; i < hits.Length; i++)
         {
-            hit.collider.gameObject.GetComponent<DropZone>().DragItem();
+            if (hits[i].collider == null) continue;
+            if (hits[i].collider.gameObject == gameObject) continue;
+
+            DropZone dropZone = hits[i].collider.GetComponent<DropZone>();
+            if (dropZone == null) continue;
+
+            if (idDrag == dropZone.idDrop)
+            {
+                targetDropZone = dropZone;
+                break;
+            }
+        }
+
+        if (targetDropZone != null)
+        {
+            targetDropZone.DragItem();
+
             if (isProcess)
             {
                 LunaManager.ins.CountPlay();
             }
+
             Destroy(gameObject);
         }
         else
         {
             rectTransform.anchoredPosition = originalPosition;
         }
-
     }
+
+    // public void OnEndDrag(PointerEventData eventData)
+    // {
+    //     transform.SetParent(originParent.transform);
+    //     if (isHide) { canvasGroup.alpha = 0f; } else { canvasGroup.alpha = 1f; }
+
+    //     canvasGroup.blocksRaycasts = true;
+
+    //     Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
+    //     RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
+
+    //     if (hit.collider != null && hit.collider.gameObject != gameObject && hit.collider.gameObject.GetComponent<DropZone>() != null && idDrag == hit.collider.gameObject.GetComponent<DropZone>().idDrop)
+    //     {
+    //         hit.collider.gameObject.GetComponent<DropZone>().DragItem();
+    //         if (isProcess)
+    //         {
+    //             LunaManager.ins.CountPlay();
+    //         }
+    //         Destroy(gameObject);
+    //     }
+    //     else
+    //     {
+    //         rectTransform.anchoredPosition = originalPosition;
+    //     }
+
+    // }
 
 }

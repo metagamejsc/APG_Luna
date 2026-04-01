@@ -1,0 +1,9 @@
+meo_sleep.png
+size:299,146
+filter:Linear,Linear
+pma:true
+cat_sleep
+bounds:2,2,221,142
+sleep_fx
+bounds:225,60,72,84
+offsets:0,1,72,85

@@ -1,0 +1,12 @@
+Loa_phat_nhac.png
+size:296,125
+filter:Linear,Linear
+pma:true
+note_1
+bounds:219,50,73,73
+note_2
+bounds:219,2,46,75
+rotate:90
+speaker
+bounds:2,10,113,215
+rotate:90
