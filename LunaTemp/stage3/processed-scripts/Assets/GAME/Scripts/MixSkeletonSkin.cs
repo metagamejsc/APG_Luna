@@ -13,15 +13,23 @@ public class MixSkeletonSkin : MonoBehaviour
     public string defaultAnim;
 
     TrackEntry currentEntry;
+    public bool isAwake = false;
 
     void Start()
     {
-        //MixAndApplySkins();
+        if (isAwake)
+        {
+            MixAndApplySkins();
 
-        // if (!string.IsNullOrEmpty(defaultAnim))
-        // {
-        //     skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, true);
-        // }
+            if (!string.IsNullOrEmpty(defaultAnim))
+            {
+                skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, true);
+            }
+        }
+        if (skeletonAnimation == null)
+        {
+            skeletonAnimation = GetComponent<SkeletonGraphic>();
+        }
     }
 
     public void MixAndApplySkins(params string[] skinsToMix)

@@ -2,12 +2,12 @@ Authorized using stored user info.
 stderr: 'rm' is not recognized as an internal or external command,
 operable program or batch file.
 
-Exporting assets from Unity..........
+Exporting assets from Unity.............
 
 [ Stage1 ] Assets exported from Unity and staged for further processing
-Using E:/ProjectGitHub/APG_Luna/Assets/TextMesh Pro/Resources/Fonts & Materials/MUSEOSANSROUNDED-1000.TTF file to generate an atlas for MUSEOSANSROUNDED-1000[27940] font
+Using E:/ProjectGitHub/APG_Luna/Assets/TextMesh Pro/Resources/Fonts & Materials/MUSEOSANSROUNDED-1000.TTF file to generate an atlas for MUSEOSANSROUNDED-1000[27700] font
   Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
-Combined 97 glyphs into bitmap texture at E:/ProjectGitHub/APG_Luna/LunaTemp/stage1/tmp/fonts/MUSEOSANSROUNDED-1000-27940/output_0.png (56kb)
+Combined 97 glyphs into bitmap texture at E:/ProjectGitHub/APG_Luna/LunaTemp/stage1/tmp/fonts/MUSEOSANSROUNDED-1000-27700/output_0.png (56kb)
 Found custom rules for sound Assets/GAME/Audios/level_84/V24/BGM/iLoveYt.net_YouTube_The-Minimal-Beat_Media_-zQvDHsDyac_008_128k.mp3
   {"channels":1,"startTime":"00:00.000","endTime":"00:20.253","lengthInSeconds":20.253000259399414,"bitrate":16,"script":"","ext":"","name":"Assets/GAME/Audios/level_84/V24/BGM/iLoveYt.net_YouTube_The-Minimal-Beat_Media_-zQvDHsDyac_008_128k.mp3","isOverride":true}
 Found custom rules for sound Assets/GAME/Audios/Sound/Game Reward Sound Effect (HD) SOUND FX.mp3
@@ -22,7 +22,7 @@ Resources:
 Authorized using stored user info.
 MSBuild version 17.13.19+0d9f5a35a for .NET Framework
 
-Build started 3/31/2026 4:08:18 PM.
+Build started 4/9/2026 5:21:46 PM.
 
 
 
@@ -45,7 +45,6 @@ CoreClean:
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
 
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
-
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
 
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
@@ -97,38 +96,36 @@ CoreCompile:
 
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\IQFill.cs(8,36): warning CS0649: Field 'IQFill.fillImage' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(16,36): warning CS0649: Field 'LunaManager.imgProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(15,46): warning CS0649: Field 'LunaManager.textProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(18,42): warning CS0649: Field 'AudioController.sfxSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(16,46): warning CS0649: Field 'LunaManager.textProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(17,42): warning CS0649: Field 'AudioController.bgmSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(36,46): warning CS0649: Field 'LunaManager.timeText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(35,46): warning CS0649: Field 'LunaManager.timeText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(17,36): warning CS0649: Field 'LunaManager.imgProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\DropID.cs(19,20): warning CS0414: The field 'DropID.currentAnimation' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
   CompilerServer: server - server processed compilation - Scripts
 
 _CopyFilesMarkedCopyLocal:
+
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
-
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
-
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
 
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
 
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.esotericsoftware.spine.spine-csharp\4.1\spine-csharp.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\spine-csharp.dll".
-
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.esotericsoftware.spine.spine-csharp\4.1\spine-csharp.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\spine-csharp.dll".
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
 
@@ -181,18 +178,18 @@ Build succeeded.
 
 (CoreCompile target) -> 
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\IQFill.cs(8,36): warning CS0649: Field 'IQFill.fillImage' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(16,36): warning CS0649: Field 'LunaManager.imgProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(15,46): warning CS0649: Field 'LunaManager.textProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(18,42): warning CS0649: Field 'AudioController.sfxSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(16,46): warning CS0649: Field 'LunaManager.textProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(17,42): warning CS0649: Field 'AudioController.bgmSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(35,46): warning CS0649: Field 'LunaManager.timeText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(36,46): warning CS0649: Field 'LunaManager.timeText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(17,36): warning CS0649: Field 'LunaManager.imgProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\DropID.cs(19,20): warning CS0414: The field 'DropID.currentAnimation' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
     8 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:08.60
+Time Elapsed 00:00:09.10
 
 Source code compiled successfully!
 ﻿
@@ -201,5 +198,4 @@ Diagnostics gathered successfully
 [ Stage3 ] Code compiled and bundled successfully.
 [ Stage4 ] Target platform: playground
 [ Stage4 ] Package bundled successfully
-navigateto:https://assets-lunalabs-io.s3-accelerate.amazonaws.com/uploads%2Fdirect%2F961ddbe9ed4e65e28c3fb044af86cab6%2FBEQ_V22_NgocNDL_AnhPD_build.zip
 [ Stage4 ] Package uploaded successfully

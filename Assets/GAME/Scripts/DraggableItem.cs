@@ -50,6 +50,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             if (isProcess)
             {
                 LunaManager.ins.CountPlay();
+                LunaManager.ins.EnableItemDrag(); ;
             }
             Destroy(gameObject);
         }

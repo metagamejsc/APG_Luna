@@ -38,6 +38,7 @@ public class DropZone : MonoBehaviour
         NextStep();
         CheckDone();
         AudioController.Instance.PlaySfx("Click");
+
     }
     void NextStep()
     {

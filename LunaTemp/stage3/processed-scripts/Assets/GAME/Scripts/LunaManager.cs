@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class LunaManager : MonoBehaviour
 {
+    public GameObject[] stepDrags;
     public Button[] lstBtnInstall;
     public GameObject WinGO;
     public GameObject LoseGO;
@@ -37,8 +38,8 @@ public class LunaManager : MonoBehaviour
     private bool isRunning = true;
     //----------------------------------OTHER----------------------------
     //public bool isHead = false;
-    public MixSkeletonSkin MSSGroom;
-    public MixSkeletonSkin MSSBride;
+    // public MixSkeletonSkin MSSGroom;
+    // public MixSkeletonSkin MSSBride;
 
     //----------------------------------LUNA----------------------------
     public static LunaManager ins;
@@ -56,6 +57,8 @@ public class LunaManager : MonoBehaviour
         Invoke(nameof(ShowEndCard), timeDropFinal);
         //countPlayFinal = Mathf.Min(countPlayFinal, 5f);
         UpdateProgress();
+        foreach (var i in stepDrags) { i.gameObject.SetActive(false); }
+        EnableItemDrag();
     }
     void Update()
     {
@@ -171,12 +174,16 @@ public class LunaManager : MonoBehaviour
         isDrag = true;
     }
     ////////////////////////////
-
-    public void DropCamera()
+    public void EnableItemDrag()
     {
-        MSSBride.RemoveSkinName("khanchumdau");
-        MSSBride.MixAndApplySkins();
+        if (countPlay >= stepDrags.Length) return;
+        stepDrags[countPlay].gameObject.SetActive(true);
     }
+    // public void DropCamera()
+    // {
+    //     MSSBride.RemoveSkinName("khanchumdau");
+    //     MSSBride.MixAndApplySkins();
+    // }
     // public void MoveCandy()
     // {
     //     MSSGroom.RemoveSkinName("candy");
