@@ -2048,15 +2048,15 @@ Deserializers.productName = "Minecraft Clone";
 
 Deserializers.lunaInitializationTime = "07/08/2025 01:59:59";
 
-Deserializers.lunaDaysRunning = "275.3";
+Deserializers.lunaDaysRunning = "276.2";
 
 Deserializers.lunaVersion = "6.4.0";
 
 Deserializers.lunaSHA = "6639120529aa36186c6141b5c3fb20246c28bff0";
 
-Deserializers.creativeName = "BEQ_V23_NgocNDL_AnhPD";
+Deserializers.creativeName = "BP_V20_NgocNDL_AnhPD";
 
-Deserializers.lunaAppID = "29138";
+Deserializers.lunaAppID = "31727";
 
 Deserializers.projectId = "cc2b1186a2056e546bb13add5b988034";
 
@@ -2104,7 +2104,7 @@ Deserializers.graphicsConstraint = 28;
 
 Deserializers.linearColorSpace = false;
 
-Deserializers.buildID = "4d71ca0d-293f-4f5a-bef6-128c5c03e514";
+Deserializers.buildID = "0a276490-e6bb-4f54-878d-7a5a919f61dc";
 
 Deserializers.runtimeInitializeOnLoadInfos = [[["UnityEngine","Experimental","Rendering","ScriptableRuntimeReflectionSystemSettings","ScriptingDirtyReflectionSystemInstance"]],[["Unity","VisualScripting","RuntimeVSUsageUtility","RuntimeInitializeOnLoadBeforeSceneLoad"]],[["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"]],[],[["Spine","Unity","AttachmentTools","AtlasUtilities","Init"]]];
 
