@@ -1,0 +1,22 @@
+Slot 9_ Tap Cua Nha Vs.png
+size:916,208
+filter:Linear,Linear
+pma:true
+scale:0.75
+bathhroom_door_closed
+bounds:2,2,203,436
+rotate:90
+bathhroom_door_opened
+bounds:440,87,118,473
+rotate:90
+toilet_down
+bounds:622,5,80,169
+rotate:90
+toilet_fx1
+bounds:793,28,53,57
+toilet_fx2
+bounds:793,15,9,11
+offsets:1,0,11,11
+toilet_up
+bounds:440,5,80,180
+rotate:90

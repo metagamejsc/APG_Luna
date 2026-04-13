@@ -1,0 +1,13 @@
+Slot 6_Tap Ngan Keo.png
+size:212,80
+filter:Linear,Linear
+pma:true
+scale:0.75
+drawer_closed
+bounds:112,34,98,41
+drawer_opened
+bounds:2,6,108,69
+offsets:0,1,108,70
+hairdryer
+bounds:112,2,52,30
+offsets:0,0,52,31

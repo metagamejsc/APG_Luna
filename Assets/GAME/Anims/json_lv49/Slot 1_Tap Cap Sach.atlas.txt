@@ -1,0 +1,19 @@
+Slot 1_Tap Cap Sach.png
+size:316,360
+filter:Linear,Linear
+pma:true
+scale:0.75
+bag_closed
+bounds:2,53,114,165
+offsets:1,0,115,166
+rotate:90
+bag_opened
+bounds:169,2,114,165
+offsets:1,0,115,166
+chair
+bounds:2,169,186,312
+offsets:0,0,187,312
+rotate:90
+makeupremover
+bounds:2,2,71,49
+offsets:0,1,71,50

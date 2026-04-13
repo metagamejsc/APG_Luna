@@ -10,8 +10,8 @@ public class DropID : MonoBehaviour
     //public GameObject[] steps;
     // public SkeletonGraphic skeletonGraphic;
     // public string animationNameDefault = "idle";
-    public GameObject GridMan;
-    public List<GameObject> mans;
+    //public GameObject GridMan;
+    //public List<GameObject> mans;
     public MixSkeletonSkin mixSkeletonSkin;
     //----------------------------------------------
 
@@ -42,73 +42,76 @@ public class DropID : MonoBehaviour
         switch (id)
         {
             case 0:
-                //keo
-                mixSkeletonSkin.RemoveSkinName("vay");
-                mixSkeletonSkin.MixAndApplySkins();
-                AudioController.Instance.PlaySfx("Item0");
-                break;
-            case 1:
-                //phi tieu
-                mixSkeletonSkin.RemoveSkinName("nguc");
-                mixSkeletonSkin.MixAndApplySkins();
-                AudioController.Instance.PlaySfx("Item1");
-                break;
-            case 2:
-                //mic
-                mixSkeletonSkin.PlayAnimation("action_hat");
-                break;
-            case 3:
-                //click cabinet
 
                 break;
+            case 1:
+                mixSkeletonSkin.PlayAnimationOnly("Slot 1,1_Bong Tay Trang");
+                break;
+            case 2:
+                mixSkeletonSkin.PlayAnimationOnly("Slot 2_Sau Rieng");
+                break;
+            case 3:
+                mixSkeletonSkin.PlayAnimationOnly("Slot 3_Lo Hat Tieu");
+                break;
             case 4:
-                //click hair
                 mixSkeletonSkin.RemoveSkinName("toc");
                 mixSkeletonSkin.MixAndApplySkins();
                 break;
             case 5:
-                //khau trang
-                mixSkeletonSkin.RemoveSkinName("khautrang");
-                mixSkeletonSkin.MixAndApplySkins();
+                mixSkeletonSkin.PlayAnimationOnly("Slot 5_Keo Mic");
                 break;
             case 6:
-                //sip
-                mixSkeletonSkin.RemoveSkinName("face");
-                mixSkeletonSkin.MixAndApplySkins();
+                mixSkeletonSkin.PlayAnimationOnly("Slot 6,1_Keo May Say Toc");
+                break;
+            case 7:
+                mixSkeletonSkin.PlayAnimationOnly("Slot 7_Keo Chai Thuoc");
+                break;
+            case 8:
+                mixSkeletonSkin.PlayAnimationOnly("Slot 8_Keo Dan Violin");
+                break;
+            case 9:
+                mixSkeletonSkin.PlayAnimationOnly("Slot 9,1_Keo Gay Bon Cau");
+                break;
+            case 10:
+                mixSkeletonSkin.PlayAnimationOnly("Slot 10_Tap Tham Lau Chan");
+                break;
+            case 11:
+                mixSkeletonSkin.PlayAnimationOnly("Slot 11,1_Keo Ly Nuoc Girl");
                 break;
             default:
                 currentAnimation = "";
                 break;
         }
-        //
-        AudioController.Instance.PlaySfx("Oe");
-        var index = mans.Count - 1;
-        if (index < 0) return;
+        LunaManager.ins.SetIsDrag(true);
 
-        var go = mans[index];
-        var skeletonGraphic = go.GetComponent<SkeletonGraphic>();
-        var state = skeletonGraphic.AnimationState;
+        // AudioController.Instance.PlaySfx("Oe");
+        // var index = mans.Count - 1;
+        // if (index < 0) return;
 
-        TrackEntry entry = state.SetAnimation(0, "action", false);
-        entry.Complete += _ =>
-        {
-            state.SetAnimation(0, "idle", true);
+        // var go = mans[index];
+        // var skeletonGraphic = go.GetComponent<SkeletonGraphic>();
+        // var state = skeletonGraphic.AnimationState;
 
-            if (GridMan != null)
-            {
-                GridMan.transform.DOKill();
+        // TrackEntry entry = state.SetAnimation(0, "action", false);
+        // entry.Complete += _ =>
+        // {
+        //     state.SetAnimation(0, "idle", true);
 
-                GridMan.transform
-                    .DOLocalMove(
-                        GridMan.transform.localPosition + new Vector3(-80f, -20f, 0f),
-                        0.3f
-                    )
-                    .SetEase(Ease.OutQuad);
-            }
-            LunaManager.ins.SetIsDrag(true);
-            Destroy(go);
-            mans.RemoveAt(index);
-        };
+        //     if (GridMan != null)
+        //     {
+        //         GridMan.transform.DOKill();
+
+        //         GridMan.transform
+        //             .DOLocalMove(
+        //                 GridMan.transform.localPosition + new Vector3(-80f, -20f, 0f),
+        //                 0.3f
+        //             )
+        //             .SetEase(Ease.OutQuad);
+        //     }
+
+        //     Destroy(go);
+        //     mans.RemoveAt(index);
+        // };
 
 
 

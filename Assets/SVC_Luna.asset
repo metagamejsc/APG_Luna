@@ -110,6 +110,22 @@ MonoBehaviour:
     keywords:
     - _STRAIGHT_ALPHA_INPUT
   - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: 1e8a610c9e01c3648bac42585e5fc676, type: 3}
+    passType: 8
+    passId: 1
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - SHADOWS_DEPTH
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 1e8a610c9e01c3648bac42585e5fc676, type: 3}
+    passType: 8
+    passId: 1
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - SHADOWS_DEPTH
+  - shaderCompilerPlatform: 5
     shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
     passType: 0
     passId: 0
@@ -440,7 +456,7 @@ MonoBehaviour:
     - UNITY_UI_ALPHACLIP
   _includedShaderVariants: []
   _excludedShaderVariants: []
-  version: 1411
+  version: 1499
   _shaderParsedShaders:
   - ParsedSubShaders:
     - Index: 0
@@ -576,7 +592,7 @@ MonoBehaviour:
       Passes:
       - Shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
         ShaderVariants:
-        - ShaderCompilerPlatform: 0
+        - ShaderCompilerPlatform: 5
           NoShaderVariant: 0
           VertexProgram: "\r\n                    #version 100\r\n                   
             // This is a VP stub\r\n                    attribute vec3 _glesVertex;\r\n                   
@@ -600,7 +616,7 @@ MonoBehaviour:
         KeywordsMinimalCardinality: 0
         ContainsInvalidVariant: 0
         VariantStructures:
-        - shaderCompilerPlatform: 0
+        - shaderCompilerPlatform: 5
           shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
           passType: 0
           passId: 0
@@ -620,7 +636,7 @@ MonoBehaviour:
         PlatformMask: 512
       - Shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
         ShaderVariants:
-        - ShaderCompilerPlatform: 0
+        - ShaderCompilerPlatform: 5
           NoShaderVariant: 0
           VertexProgram: "\r\n                    #version 100\r\n                   
             // This is a VP stub\r\n                    attribute vec3 _glesVertex;\r\n                   
@@ -644,7 +660,7 @@ MonoBehaviour:
         KeywordsMinimalCardinality: 0
         ContainsInvalidVariant: 0
         VariantStructures:
-        - shaderCompilerPlatform: 0
+        - shaderCompilerPlatform: 5
           shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
           passType: 0
           passId: 1
@@ -666,7 +682,7 @@ MonoBehaviour:
         PlatformMask: 512
       - Shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
         ShaderVariants:
-        - ShaderCompilerPlatform: 0
+        - ShaderCompilerPlatform: 5
           NoShaderVariant: 0
           VertexProgram: "\r\n                    #version 100\r\n                   
             // This is a VP stub\r\n                    attribute vec3 _glesVertex;\r\n                   
@@ -690,7 +706,7 @@ MonoBehaviour:
         KeywordsMinimalCardinality: 0
         ContainsInvalidVariant: 0
         VariantStructures:
-        - shaderCompilerPlatform: 0
+        - shaderCompilerPlatform: 5
           shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
           passType: 0
           passId: 2
@@ -718,21 +734,21 @@ MonoBehaviour:
     fallbackShader: {fileID: 0}
     CompilationErrors: []
     Variants:
-    - shaderCompilerPlatform: 0
+    - shaderCompilerPlatform: 5
       shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
       passType: 0
       passId: 0
       subShaderIndex: 0
       upToDate: 0
       keywords: []
-    - shaderCompilerPlatform: 0
+    - shaderCompilerPlatform: 5
       shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
       passType: 0
       passId: 1
       subShaderIndex: 0
       upToDate: 0
       keywords: []
-    - shaderCompilerPlatform: 0
+    - shaderCompilerPlatform: 5
       shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
       passType: 0
       passId: 2
