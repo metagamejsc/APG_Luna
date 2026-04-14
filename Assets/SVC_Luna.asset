@@ -110,22 +110,6 @@ MonoBehaviour:
     keywords:
     - _STRAIGHT_ALPHA_INPUT
   - shaderCompilerPlatform: 5
-    shader: {fileID: 4800000, guid: 1e8a610c9e01c3648bac42585e5fc676, type: 3}
-    passType: 8
-    passId: 1
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - SHADOWS_DEPTH
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 4800000, guid: 1e8a610c9e01c3648bac42585e5fc676, type: 3}
-    passType: 8
-    passId: 1
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - SHADOWS_DEPTH
-  - shaderCompilerPlatform: 5
     shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
     passType: 0
     passId: 0
@@ -381,82 +365,10 @@ MonoBehaviour:
     keywords:
     - UNITY_UI_ALPHACLIP
     - UNITY_UI_CLIP_RECT
-  _usedByLunaBuild:
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 4800000, guid: fa95b0fb6983c0f40a152e6f9aa82bfb, type: 3}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 4800000, guid: fa95b0fb6983c0f40a152e6f9aa82bfb, type: 3}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords: []
-  - shaderCompilerPlatform: 5
-    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - UNITY_UI_ALPHACLIP
-  - shaderCompilerPlatform: 9
-    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-    passType: 0
-    passId: 0
-    subShaderIndex: 0
-    upToDate: 0
-    keywords:
-    - UNITY_UI_ALPHACLIP
+  _usedByLunaBuild: []
   _includedShaderVariants: []
   _excludedShaderVariants: []
-  version: 1499
+  version: 33
   _shaderParsedShaders:
   - ParsedSubShaders:
     - Index: 0
@@ -592,7 +504,7 @@ MonoBehaviour:
       Passes:
       - Shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
         ShaderVariants:
-        - ShaderCompilerPlatform: 5
+        - ShaderCompilerPlatform: 0
           NoShaderVariant: 0
           VertexProgram: "\r\n                    #version 100\r\n                   
             // This is a VP stub\r\n                    attribute vec3 _glesVertex;\r\n                   
@@ -616,7 +528,7 @@ MonoBehaviour:
         KeywordsMinimalCardinality: 0
         ContainsInvalidVariant: 0
         VariantStructures:
-        - shaderCompilerPlatform: 5
+        - shaderCompilerPlatform: 0
           shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
           passType: 0
           passId: 0
@@ -636,7 +548,7 @@ MonoBehaviour:
         PlatformMask: 512
       - Shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
         ShaderVariants:
-        - ShaderCompilerPlatform: 5
+        - ShaderCompilerPlatform: 0
           NoShaderVariant: 0
           VertexProgram: "\r\n                    #version 100\r\n                   
             // This is a VP stub\r\n                    attribute vec3 _glesVertex;\r\n                   
@@ -660,7 +572,7 @@ MonoBehaviour:
         KeywordsMinimalCardinality: 0
         ContainsInvalidVariant: 0
         VariantStructures:
-        - shaderCompilerPlatform: 5
+        - shaderCompilerPlatform: 0
           shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
           passType: 0
           passId: 1
@@ -682,7 +594,7 @@ MonoBehaviour:
         PlatformMask: 512
       - Shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
         ShaderVariants:
-        - ShaderCompilerPlatform: 5
+        - ShaderCompilerPlatform: 0
           NoShaderVariant: 0
           VertexProgram: "\r\n                    #version 100\r\n                   
             // This is a VP stub\r\n                    attribute vec3 _glesVertex;\r\n                   
@@ -706,7 +618,7 @@ MonoBehaviour:
         KeywordsMinimalCardinality: 0
         ContainsInvalidVariant: 0
         VariantStructures:
-        - shaderCompilerPlatform: 5
+        - shaderCompilerPlatform: 0
           shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
           passType: 0
           passId: 2
@@ -734,21 +646,21 @@ MonoBehaviour:
     fallbackShader: {fileID: 0}
     CompilationErrors: []
     Variants:
-    - shaderCompilerPlatform: 5
+    - shaderCompilerPlatform: 0
       shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
       passType: 0
       passId: 0
       subShaderIndex: 0
       upToDate: 0
       keywords: []
-    - shaderCompilerPlatform: 5
+    - shaderCompilerPlatform: 0
       shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
       passType: 0
       passId: 1
       subShaderIndex: 0
       upToDate: 0
       keywords: []
-    - shaderCompilerPlatform: 5
+    - shaderCompilerPlatform: 0
       shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
       passType: 0
       passId: 2
