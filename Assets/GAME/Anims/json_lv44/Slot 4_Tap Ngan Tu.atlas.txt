@@ -1,0 +1,12 @@
+Slot 4_Tap Ngan Tu.png
+size:220,80
+filter:Linear,Linear
+pma:true
+scale:0.75
+drawer_closed
+bounds:117,35,99,41
+drawer_opened
+bounds:2,2,113,74
+tape
+bounds:117,5,67,28
+offsets:0,0,67,29

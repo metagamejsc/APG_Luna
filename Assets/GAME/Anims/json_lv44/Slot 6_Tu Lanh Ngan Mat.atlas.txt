@@ -1,0 +1,18 @@
+Slot 6_Tu Lanh Ngan Mat.png
+size:244,244
+filter:Linear,Linear
+pma:true
+scale:0.75
+fridge_bottomdoor_closed
+bounds:2,51,190,188
+rotate:90
+fridge_bottomdoor_opened
+bounds:2,2,47,213
+rotate:90
+lime
+bounds:192,189,52,47
+offsets:0,0,53,47
+rotate:90
+lime_half
+bounds:192,145,42,36
+rotate:90

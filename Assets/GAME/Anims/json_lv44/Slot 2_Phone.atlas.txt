@@ -1,0 +1,10 @@
+Slot 2_Phone.png
+size:636,280
+filter:Linear,Linear
+pma:true
+scale:0.75
+faded
+bounds:551,133,81,144
+phone_anim
+bounds:2,2,275,547
+rotate:90

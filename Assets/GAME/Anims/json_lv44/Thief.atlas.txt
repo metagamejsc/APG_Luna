@@ -1,0 +1,8 @@
+Thief.png
+size:52,84
+filter:Linear,Linear
+pma:true
+scale:0.75
+thief
+bounds:2,2,45,78
+offsets:0,1,45,79

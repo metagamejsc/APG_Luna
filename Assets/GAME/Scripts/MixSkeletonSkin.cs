@@ -1,3 +1,4 @@
+using System.Collections;
 using Spine;
 using Spine.Unity;
 using UnityEngine;
@@ -13,6 +14,7 @@ public class MixSkeletonSkin : MonoBehaviour
     public string defaultAnim;
 
     TrackEntry currentEntry;
+    Coroutine playAnimationOnlyWithTimeCoroutine;
 
     void Start()
     {
@@ -155,6 +157,44 @@ public class MixSkeletonSkin : MonoBehaviour
                 currentEntry = null;
             };
         }
+    }
+
+    public void PlayAnimationOnlyWithTime(string animName, float time, bool loop = true, System.Action onComplete = null)
+    {
+        if (skeletonAnimation == null) return;
+        if (string.IsNullOrEmpty(animName)) return;
+
+        var state = skeletonAnimation.AnimationState;
+
+        if (currentEntry != null)
+        {
+            currentEntry.Complete -= OnAnimationComplete;
+        }
+
+        if (playAnimationOnlyWithTimeCoroutine != null)
+        {
+            StopCoroutine(playAnimationOnlyWithTimeCoroutine);
+            playAnimationOnlyWithTimeCoroutine = null;
+        }
+
+        currentEntry = state.SetAnimation(0, animName, loop);
+        playAnimationOnlyWithTimeCoroutine = StartCoroutine(PlayAnimationOnlyWithTimeCoroutine(time, onComplete));
+    }
+
+    private IEnumerator PlayAnimationOnlyWithTimeCoroutine(float time, System.Action onComplete)
+    {
+        yield return new WaitForSeconds(time);
+
+        playAnimationOnlyWithTimeCoroutine = null;
+        currentEntry = null;
+
+        if (onComplete != null)
+        {
+            onComplete.Invoke();
+            yield break;
+        }
+
+        SetDefaultAnimation();
     }
 
     public void ApplySkinOnly(string skinName, bool loop = true)

@@ -1,0 +1,7 @@
+Slot 8_Tap Cua So2.png
+size:148,96
+filter:Linear,Linear
+pma:true
+scale:0.75
+window
+bounds:2,2,142,90

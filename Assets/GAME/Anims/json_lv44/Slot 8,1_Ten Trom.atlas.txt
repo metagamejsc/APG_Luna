@@ -1,0 +1,11 @@
+Slot 8,1_Ten Trom.png
+size:836,324
+filter:Linear,Linear
+pma:true
+scale:0.75
+angry_fx
+bounds:786,271,45,48
+offsets:1,0,46,48
+thief_anim
+bounds:2,2,317,782
+rotate:90

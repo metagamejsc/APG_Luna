@@ -1,7 +1,5 @@
-using System.Collections.Generic;
-using DG.Tweening;
-using Spine;
-using Spine.Unity;
+using System;
+using System.Collections;
 using UnityEngine;
 
 public class DropID : MonoBehaviour
@@ -13,7 +11,8 @@ public class DropID : MonoBehaviour
     //public GameObject GridMan;
     //public List<GameObject> mans;
     public MixSkeletonSkin mixSkeletonSkin;
-    public GameObject[] Animal;
+    public MixSkeletonSkin casetteSkeleton;
+    public GameObject[] SlotItems;
     //----------------------------------------------
 
     //------------------------------------
@@ -27,18 +26,23 @@ public class DropID : MonoBehaviour
         boxCollider = GetComponent<Collider2D>();
         boxCollider.enabled = true;
         currentStep = 0;
-        SetAnimal(0);
+        SetSlotItem(0);
         //NextStep();
         //currentAnimation = animationNameDefault;
         // SpineHelper.ChangeAnimation(skeletonGraphic, currentAnimation, true);
     }
-    void SetAnimal(int index)
+    void SetSlotItem(int index)
     {
-        foreach (var i in Animal)
+        foreach (var i in SlotItems)
         {
+            if (i == null) continue;
             i.SetActive(false);
         }
-        Animal[index].SetActive(true);
+        if (SlotItems[index] != null)
+        {
+            SlotItems[index].SetActive(true);
+        }
+
     }
     public void DragItem()
     {
@@ -55,55 +59,53 @@ public class DropID : MonoBehaviour
         switch (id)
         {
             case 1:
-                //mi cay
-                mixSkeletonSkin.PlayAnimationOnly("Slot 1_dia mi ot", false, () => { SetDefaultAnim(); });
+                mixSkeletonSkin.PlayAnimationOnlyWithTime("Slot 1_Coffee x Dai Casette", 1.5f);
                 AudioController.Instance.PlaySfx("Item1");
                 break;
             case 2:
-                //sau rieng
-                mixSkeletonSkin.PlayAnimationOnly("Slot 2_sau rieng", false, () => { SetDefaultAnim(); });
+                //Phone
+                SetSlotItem(2);
+                DelayAction(2.5f, () => { SetSlotItem(0); mixSkeletonSkin.PlayAnimationOnlyWithTime("Slot 2_Ong Chu", 4f); AudioController.Instance.PlaySfx("Typing_Key"); AudioController.Instance.PlaySfx("Item2"); });
+                //mixSkeletonSkin.PlayAnimationOnly("Slot 2_sau rieng", false, () => { SetDefaultAnim(); });
                 //AudioController.Instance.PlaySfx("Item1");
                 break;
             case 3:
-                //dua chuot
                 mixSkeletonSkin.PlayAnimationOnly("Slot 3_dua chuot", false, () => { SetDefaultAnim(); });
                 AudioController.Instance.PlaySfx("Item3");
                 break;
             case 4:
-                //binh cuu hoa
-                mixSkeletonSkin.PlayAnimationOnly("Slot 4_binh cuu hoa", false, () => { SetDefaultAnim(); });
+                mixSkeletonSkin.PlayAnimationOnlyWithTime("Slot 4,1_Bang Dinh", 2f);
+                AudioController.Instance.PlaySfx("Item4");
 
                 break;
             case 5:
-                //kem
-                mixSkeletonSkin.PlayAnimationOnly("Slot 5.1_an kem", false, () => { SetDefaultAnim(); });
+                mixSkeletonSkin.PlayAnimationOnlyWithTime("Slot 5_Cai Kep", 2f);
                 AudioController.Instance.PlaySfx("Item5");
                 break;
             case 6:
-                //an tao
-                mixSkeletonSkin.PlayAnimationOnly("Slot 6_ an tao", false, () => { SetDefaultAnim(); });
-                AudioController.Instance.PlaySfx("Item6");
+                mixSkeletonSkin.PlayAnimationOnlyWithTime("Slot 6,2_Qua Chanh_Loop", 1f);
+                AudioController.Instance.PlaySfx("Typing_Key_Scare");
                 break;
             case 7:
-                //tra sua
-                mixSkeletonSkin.PlayAnimationOnly("Slot 7_ Tra sua", false, () => { SetDefaultAnim(); });
+                mixSkeletonSkin.PlayAnimationOnlyWithTime("Slot 7,2_Cay Kem", 3f);
                 AudioController.Instance.PlaySfx("Item7");
                 break;
             case 8:
-                //cua so
-                mixSkeletonSkin.PlayAnimationOnly("Slot 8_cua so", false, () => { SetDefaultAnim(); });
+                SetSlotItem(8);
+                DelayAction(5f, () => { SetSlotItem(0); });
+                mixSkeletonSkin.PlayAnimationOnlyWithTime("Slot 8,1_Ten Trom", 5f);
                 AudioController.Instance.PlaySfx("Item8");
                 break;
             case 9:
-                //poster
-                mixSkeletonSkin.PlayAnimationOnly("Slot 9_poster", false, () => { SetDefaultAnim(); });
+                casetteSkeleton.PlayAnimationOnlyWithTime("Slot 9_Dai Casette_Loop", 2f);
+                mixSkeletonSkin.PlayAnimationOnlyWithTime("Slot 1_Coffee x Dai Casette", 2f);
                 AudioController.Instance.PlaySfx("Item9");
                 break;
             case 10:
                 //lo thuoc
                 mixSkeletonSkin.PlayAnimationOnly("Slot 10.1_lo thuoc", false, () => { SetDefaultAnim(); });
                 AudioController.Instance.PlaySfx("Item10");
-                SetAnimal(1);
+                //SetAnimal(1);
                 break;
             default:
                 currentAnimation = "";
@@ -111,22 +113,7 @@ public class DropID : MonoBehaviour
         }
         //
         // AudioController.Instance.PlaySfx("Oe");
-        // var index = mans.Count - 1;
-        // if (index < 0) return;
-
-        // var go = mans[index];
-        // var skeletonGraphic = go.GetComponent<SkeletonGraphic>();
-        // var state = skeletonGraphic.AnimationState;
-
-        // TrackEntry entry = state.SetAnimation(0, "action", false);
-        // entry.Complete += _ =>
-        // {
-        //     //state.SetAnimation(0, "idle", true);
-        //  
-
-        // };
-
-
+        LunaManager.ins.SetIsDrag(true);
 
     }
     void SetDefaultAnim()
@@ -151,6 +138,23 @@ public class DropID : MonoBehaviour
     //         boxCollider.enabled = false;
     //     }
     // }
+
+    public void DelayAction(float time, Action action)
+    {
+        StartCoroutine(DelayActionCoroutine(time, action));
+    }
+
+    private IEnumerator DelayActionCoroutine(float time, Action action)
+    {
+        yield return new WaitForSeconds(time);
+        action?.Invoke();
+    }
+
+    public int GetCurrentStep()
+    {
+        return currentStep;
+    }
+
     void OnEnable()
     {
         GameController.OnUpgradePhase2 += EventUpgrade;
@@ -168,8 +172,5 @@ public class DropID : MonoBehaviour
         //     steps[0].gameObject.GetComponent<Image>().sprite = spriteUpgrade;
         // }
     }
-    public int GetCurrentStep()
-    {
-        return currentStep;
-    }
+
 }

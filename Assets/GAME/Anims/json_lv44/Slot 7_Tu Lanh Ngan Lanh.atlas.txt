@@ -1,0 +1,13 @@
+Slot 7_Tu Lanh Ngan Lanh.png
+size:244,268
+filter:Linear,Linear
+pma:true
+scale:0.75
+fridge_topdoor_closed
+bounds:2,74,190,189
+offsets:0,1,190,190
+fridge_topdoor_opened
+bounds:194,54,47,209
+popsicle
+bounds:2,2,70,83
+rotate:90

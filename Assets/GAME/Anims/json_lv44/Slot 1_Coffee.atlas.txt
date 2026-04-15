@@ -1,0 +1,10 @@
+Slot 1_Coffee.png
+size:144,96
+filter:Linear,Linear
+pma:true
+scale:0.75
+coffee
+bounds:2,2,89,89
+coffee_steam
+bounds:93,38,48,53
+offsets:2,1,52,56

@@ -2,7 +2,7 @@
     "version": "6.4.0",
     "projectId": "cc2b1186a2056e546bb13add5b988034",
     "applicationID": 34530,
-    "creativeName": "BM_V17_NgocBTU_AnhPD",
+    "creativeName": "BM_V18_NgocBTU_AnhPD",
     "pgServer": "EU",
     "window": {
         "‐′": true
@@ -35329,6 +35329,16 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/GAME/Anims/Level 82/groom2.png"
+                    },
+                    {
+                        "maxWidth": 2048,
+                        "maxHeight": 2048,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Anims/json_lv44/Girl.png"
                     }
                 ]
             },

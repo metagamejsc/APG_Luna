@@ -1,0 +1,17 @@
+Slot 9_Dai Casette.png
+size:116,192
+filter:Linear,Linear
+pma:true
+scale:0.75
+cassette_player
+bounds:2,2,146,107
+offsets:0,0,147,107
+rotate:90
+note1
+bounds:50,150,38,63
+offsets:0,1,38,65
+rotate:90
+note2
+bounds:2,152,36,46
+offsets:1,1,37,47
+rotate:90
