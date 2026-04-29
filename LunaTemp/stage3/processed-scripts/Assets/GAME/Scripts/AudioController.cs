@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 [System.Serializable]
@@ -114,6 +115,20 @@ public class AudioController : MonoBehaviour
         }
 
         sfxSource.PlayOneShot(entry.clip, entry.volume);
+    }
+
+    /// <summary>
+    /// Play hiệu ứng âm thanh theo key sau một khoảng delay.
+    /// </summary>
+    public void PlaySfx(string key, float delay)
+    {
+        if (delay <= 0f)
+        {
+            PlaySfx(key);
+            return;
+        }
+
+        DOVirtual.DelayedCall(delay, () => PlaySfx(key));
     }
 
     /// <summary>

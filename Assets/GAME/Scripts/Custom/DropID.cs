@@ -45,44 +45,47 @@ public class DropID : MonoBehaviour
 
                 break;
             case 1:
-                mixSkeletonSkin.PlayAnimationOnly("Slot 1,1_Bong Tay Trang");
+                mixSkeletonSkin.PlayAnimationOnly("Slot 1_Keo Chai Ruou", false, () => { SetTrueDrag(); });
+                AudioController.Instance.PlaySfx("Item1", 1f);
                 break;
             case 2:
-                mixSkeletonSkin.PlayAnimationOnly("Slot 2_Sau Rieng");
+                mixSkeletonSkin.PlayAnimationOnly("Slot 2_Keo Vot Muoi", false, () => { SetTrueDrag(); });
+                AudioController.Instance.PlaySfx("Item2", 1f);
                 break;
             case 3:
-                mixSkeletonSkin.PlayAnimationOnly("Slot 3_Lo Hat Tieu");
+                mixSkeletonSkin.PlayAnimationOnly("Slot 3_Keo Vi Dap Ruoi", false, () => { SetTrueDrag(); });
+                AudioController.Instance.PlaySfx("Item3", .25f);
                 break;
             case 4:
-                mixSkeletonSkin.RemoveSkinName("toc");
-                mixSkeletonSkin.MixAndApplySkins();
+                mixSkeletonSkin.PlayAnimationOnly("Slot 4_Keo Mic", false, () => { SetTrueDrag(); });
+                AudioController.Instance.PlaySfx("Item4", .5f);
                 break;
             case 5:
-                mixSkeletonSkin.PlayAnimationOnly("Slot 5_Keo Mic");
+                mixSkeletonSkin.PlayAnimationOnly("Slot 5_Binh Xit Cay", false, () => { SetTrueDrag(); });
+                AudioController.Instance.PlaySfx("Item5", 1f);
                 break;
             case 6:
-                mixSkeletonSkin.PlayAnimationOnly("Slot 6,1_Keo May Say Toc");
+                mixSkeletonSkin.ApplySkinOnly("default");
+                mixSkeletonSkin.PlayAnimationOnly("Slot 6_Keo Doi Tat", false, () => { SetTrueDrag(); });
+                AudioController.Instance.PlaySfx("Item6", 1f);
                 break;
-            case 7:
-                mixSkeletonSkin.PlayAnimationOnly("Slot 7_Keo Chai Thuoc");
+            case 71:
+                mixSkeletonSkin.PlayAnimationOnly("Slot 7,1_Keo Qua Chanh", false, () => { SetTrueDrag(); });
+                AudioController.Instance.PlaySfx("Item71", 1f);
                 break;
-            case 8:
-                mixSkeletonSkin.PlayAnimationOnly("Slot 8_Keo Dan Violin");
+            case 72:
+                mixSkeletonSkin.PlayAnimationOnly("Slot 7,2_Keo Ca Nuoc", false, () => { SetTrueDrag(); });
+                AudioController.Instance.PlaySfx("Item72", .5f);
                 break;
-            case 9:
-                mixSkeletonSkin.PlayAnimationOnly("Slot 9,1_Keo Gay Bon Cau");
-                break;
-            case 10:
-                mixSkeletonSkin.PlayAnimationOnly("Slot 10_Tap Tham Lau Chan");
-                break;
-            case 11:
-                mixSkeletonSkin.PlayAnimationOnly("Slot 11,1_Keo Ly Nuoc Girl");
+            case 81:
+                mixSkeletonSkin.PlayAnimationOnly("Slot 8,1_Keo Bay Chuot", false, () => { SetTrueDrag(); });
+                AudioController.Instance.PlaySfx("Item81", 1f);
                 break;
             default:
                 currentAnimation = "";
                 break;
         }
-        LunaManager.ins.SetIsDrag(true);
+
 
         // AudioController.Instance.PlaySfx("Oe");
         // var index = mans.Count - 1;
@@ -115,6 +118,10 @@ public class DropID : MonoBehaviour
 
 
 
+    }
+    void SetTrueDrag()
+    {
+        LunaManager.ins.SetIsDrag(true);
     }
 
     // void NextStep()

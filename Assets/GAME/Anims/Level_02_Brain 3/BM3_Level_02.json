@@ -1,0 +1,345 @@
+{ "skeleton": { "images": "C:/Users/PC/Desktop/BRAIN MASTER/ANIMATION/Level_BM3/Level_02_Brain 3/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG_B 1", "bone": "root", "attachment": "BG_B 1" },
+	{ "name": "BG_B 2", "bone": "root", "attachment": "BG_B 2" },
+	{ "name": "BG", "bone": "root", "attachment": "BG" },
+	{ "name": "trap", "bone": "root", "attachment": "trap" },
+	{ "name": "vent", "bone": "root", "attachment": "vent" },
+	{ "name": "mic", "bone": "root", "attachment": "mic" },
+	{ "name": "lime", "bone": "root", "attachment": "lime" },
+	{ "name": "fridge_closed", "bone": "root", "attachment": "fridge_closed" },
+	{ "name": "fridge_opened", "bone": "root", "attachment": "fridge_opened" },
+	{ "name": "lamp", "bone": "root", "attachment": "lamp" },
+	{ "name": "girl", "bone": "root", "attachment": "girl" },
+	{ "name": "girl_action", "bone": "root" },
+	{ "name": "girl_sing", "bone": "root" },
+	{ "name": "song_fx", "bone": "root", "attachment": "song_fx" },
+	{ "name": "girl_arm_hold", "bone": "root" },
+	{ "name": "sock", "bone": "root", "attachment": "sock" },
+	{ "name": "wine_anim", "bone": "root" },
+	{ "name": "wine_fx1", "bone": "root" },
+	{ "name": "wine_fx2", "bone": "root" },
+	{ "name": "wine_fx3", "bone": "root" },
+	{ "name": "girl_arm_wine", "bone": "root" },
+	{ "name": "girl_sleeve", "bone": "root" },
+	{ "name": "girl_arm_stretch", "bone": "root" },
+	{ "name": "flyswatter_anim_elec", "bone": "root", "attachment": "flyswatter_anim_elec" },
+	{ "name": "flyswatter_anim", "bone": "root", "attachment": "flyswatter_anim" },
+	{ "name": "pepper_spray_anim", "bone": "root" },
+	{ "name": "spray_fx", "bone": "root" },
+	{ "name": "gir_hand_hold", "bone": "root" },
+	{ "name": "mic_anim", "bone": "root" },
+	{ "name": "girl_arm_mic", "bone": "root" },
+	{ "name": "lime_anim", "bone": "root", "attachment": "lime_anim" },
+	{ "name": "lime_drop", "bone": "root", "attachment": "lime_drop" },
+	{ "name": "lime_splash", "bone": "root" },
+	{ "name": "jug_anim", "bone": "root" },
+	{ "name": "trap_anim_G", "bone": "root", "attachment": "trap_anim_G" },
+	{ "name": "spring_anim_G", "bone": "root", "attachment": "spring_anim_G" },
+	{ "name": "water_splash", "bone": "root" },
+	{ "name": "water_stream", "bone": "root" },
+	{ "name": "girl_arm_squeeze_pour", "bone": "root", "attachment": "girl_arm_squeeze_pour" },
+	{ "name": "rat_leg_B", "bone": "root", "attachment": "rat_leg_B" },
+	{ "name": "rat_arm_B", "bone": "root", "attachment": "rat_arm_B" },
+	{ "name": "rat_tail", "bone": "root", "attachment": "rat_tail" },
+	{ "name": "rat_body", "bone": "root", "attachment": "rat_body" },
+	{ "name": "rat_leg_F", "bone": "root", "attachment": "rat_leg_F" },
+	{ "name": "rat_arm_F", "bone": "root", "attachment": "rat_arm_F" },
+	{ "name": "rat_jaw", "bone": "root", "attachment": "rat_jaw" },
+	{ "name": "rat_mouthfoam", "bone": "root", "attachment": "rat_mouthfoam" },
+	{ "name": "trap_anim", "bone": "root", "attachment": "trap_anim" },
+	{ "name": "rat_head", "bone": "root", "attachment": "rat_head" },
+	{ "name": "spring_anim", "bone": "root", "attachment": "spring_anim" },
+	{ "name": "rat_nose_hurt", "bone": "root", "attachment": "rat_nose_hurt" },
+	{ "name": "rat_shock", "bone": "root", "attachment": "rat_shock" },
+	{ "name": "rat_inpain", "bone": "root", "attachment": "rat_inpain" },
+	{ "name": "flyswatter", "bone": "root", "attachment": "flyswatter" },
+	{ "name": "rat_drunk", "bone": "root", "attachment": "rat_drunk" },
+	{ "name": "rat_sick", "bone": "root", "attachment": "rat_sick" },
+	{ "name": "dizzy_fz", "bone": "root", "attachment": "dizzy_fz" },
+	{ "name": "drunk_bubble", "bone": "root", "attachment": "drunk_bubble" },
+	{ "name": "bubble_popped", "bone": "root", "attachment": "bubble_popped" },
+	{ "name": "electocuted_fx1", "bone": "root", "attachment": "electocuted_fx1" },
+	{ "name": "electocuted_fx2", "bone": "root", "attachment": "electocuted_fx2" },
+	{ "name": "rat_electrocuted1", "bone": "root", "attachment": "rat_electrocuted1" },
+	{ "name": "flyswatter_fx", "bone": "root", "attachment": "flyswatter_fx" },
+	{ "name": "rat_hurt", "bone": "root", "attachment": "rat_hurt" },
+	{ "name": "rat_bump", "bone": "root", "attachment": "rat_bump" },
+	{ "name": "rat_disgusted", "bone": "root", "attachment": "rat_disgusted" },
+	{ "name": "vomit", "bone": "root", "attachment": "vomit" },
+	{ "name": "vomit_fx1", "bone": "root", "attachment": "vomit_fx1" },
+	{ "name": "vomit_fx2", "bone": "root", "attachment": "vomit_fx2" },
+	{ "name": "rat_eyes_red", "bone": "root", "attachment": "rat_eyes_red" },
+	{ "name": "rat_tears", "bone": "root", "attachment": "rat_tears" },
+	{ "name": "sock_on", "bone": "root", "attachment": "sock_on" },
+	{ "name": "smell_fx2", "bone": "root", "attachment": "smell_fx2" },
+	{ "name": "rat_freeze", "bone": "root", "attachment": "rat_freeze" },
+	{ "name": "ice_block", "bone": "root", "attachment": "ice_block" },
+	{ "name": "ice_piece3", "bone": "root", "attachment": "ice_piece3" },
+	{ "name": "ice_piece2", "bone": "root", "attachment": "ice_piece2" },
+	{ "name": "ice_piece1", "bone": "root", "attachment": "ice_piece1" },
+	{ "name": "shockwave", "bone": "root", "attachment": "shockwave" },
+	{ "name": "sofa", "bone": "root", "attachment": "sofa" },
+	{ "name": "wine", "bone": "root", "attachment": "wine" },
+	{ "name": "pepper_spray", "bone": "root", "attachment": "pepper_spray" },
+	{ "name": "jug", "bone": "root", "attachment": "jug" }
+],
+"skins": {
+	"default": {
+		"BG_B 1": {
+			"BG_B 1": { "x": 110.5, "y": -866, "width": 71, "height": 740 }
+		},
+		"BG_B 2": {
+			"BG_B 2": { "x": 957, "y": -681.5, "width": 92, "height": 395 }
+		},
+		"BG": {
+			"BG": { "x": 540, "y": -924, "width": 1082, "height": 1258 }
+		},
+		"trap": {
+			"trap": { "x": 771.5, "y": -475.5, "width": 97, "height": 35 }
+		},
+		"vent": {
+			"vent": { "x": 775, "y": -445.5, "width": 150, "height": 107 }
+		},
+		"mic": {
+			"mic": { "x": 632.5, "y": -878.5, "width": 115, "height": 49 }
+		},
+		"lime": {
+			"lime": { "x": 333, "y": -595.5, "width": 50, "height": 45 }
+		},
+		"fridge_closed": {
+			"fridge_closed": { "x": 317, "y": -667.5, "width": 202, "height": 301 }
+		},
+		"fridge_opened": {
+			"fridge_opened": { "x": 396.5, "y": -683, "width": 45, "height": 332 }
+		},
+		"lamp": {
+			"lamp": { "x": 554, "y": -460.5, "width": 112, "height": 343 }
+		},
+		"girl": {
+			"girl": { "x": 540, "y": -960, "width": 1082, "height": 1922 }
+		},
+		"girl_action": {
+			"girl_action": { "x": 627, "y": -386.5, "width": 54, "height": 63 }
+		},
+		"girl_sing": {
+			"girl_sing": { "x": 626.5, "y": -388.5, "width": 47, "height": 65 }
+		},
+		"song_fx": {
+			"song_fx": { "x": 410, "y": -378.5, "width": 256, "height": 79 }
+		},
+		"girl_arm_hold": {
+			"girl_arm_hold": { "x": 603, "y": -445.5, "width": 118, "height": 141 }
+		},
+		"sock": {
+			"sock": { "x": 578.5, "y": -643, "width": 53, "height": 92 }
+		},
+		"wine_anim": {
+			"wine_anim": { "x": 570, "y": -570, "width": 106, "height": 56 }
+		},
+		"wine_fx1": {
+			"wine_fx1": { "x": 500.5, "y": -712.5, "width": 47, "height": 255 }
+		},
+		"wine_fx2": {
+			"wine_fx2": { "x": 485.5, "y": -820, "width": 35, "height": 42 }
+		},
+		"wine_fx3": {
+			"wine_fx3": { "x": 484, "y": -826, "width": 54, "height": 30 }
+		},
+		"girl_arm_wine": {
+			"girl_arm_wine": { "x": 622.5, "y": -499.5, "width": 117, "height": 153 }
+		},
+		"girl_sleeve": {
+			"girl_sleeve": { "x": 651.5, "y": -457.5, "width": 59, "height": 65 }
+		},
+		"girl_arm_stretch": {
+			"girl_arm_stretch": { "x": 691, "y": -640.5, "width": 92, "height": 337 }
+		},
+		"flyswatter_anim_elec": {
+			"flyswatter_anim_elec": { "x": 698.5, "y": -856.5, "width": 145, "height": 205 }
+		},
+		"flyswatter_anim": {
+			"flyswatter_anim": { "x": 696.5, "y": -856.5, "width": 135, "height": 185 }
+		},
+		"pepper_spray_anim": {
+			"pepper_spray_anim": { "x": 756.5, "y": -798, "width": 69, "height": 90 }
+		},
+		"spray_fx": {
+			"spray_fx": { "x": 507.5, "y": -782.5, "width": 89, "height": 77 }
+		},
+		"gir_hand_hold": {
+			"gir_hand_hold": { "x": 729, "y": -814.5, "width": 40, "height": 59 }
+		},
+		"mic_anim": {
+			"mic_anim": { "x": 587, "y": -452, "width": 46, "height": 72 }
+		},
+		"girl_arm_mic": {
+			"girl_arm_mic": { "x": 624.5, "y": -481, "width": 117, "height": 110 }
+		},
+		"lime_anim": {
+			"lime_anim": { "x": 497, "y": -544, "width": 36, "height": 30 }
+		},
+		"lime_drop": {
+			"lime_drop": { "x": 497, "y": -573, "width": 10, "height": 24 }
+		},
+		"lime_splash": {
+			"lime_splash": { "x": 490.5, "y": -826, "width": 19, "height": 14 }
+		},
+		"jug_anim": {
+			"jug_anim": { "x": 522.5, "y": -568.5, "width": 111, "height": 93 }
+		},
+		"trap_anim_G": {
+			"trap_anim_G": { "x": 490.5, "y": -558.5, "width": 97, "height": 59 }
+		},
+		"spring_anim_G": {
+			"spring_anim_G": { "x": 493.5, "y": -549.5, "width": 81, "height": 39 }
+		},
+		"water_splash": {
+			"water_splash": { "x": 482, "y": -820.5, "width": 76, "height": 43 }
+		},
+		"water_stream": {
+			"water_stream": { "x": 540, "y": -960, "width": 1082, "height": 1922 }
+		},
+		"girl_arm_squeeze_pour": {
+			"girl_arm_squeeze_pour": { "x": 573.5, "y": -484, "width": 177, "height": 126 }
+		},
+		"rat_leg_B": {
+			"rat_leg_B": { "x": 421.5, "y": -1086, "width": 187, "height": 170 }
+		},
+		"rat_arm_B": {
+			"rat_arm_B": { "x": 428.5, "y": -969.5, "width": 137, "height": 161 }
+		},
+		"rat_tail": {
+			"rat_tail": { "x": 156, "y": -1015, "width": 132, "height": 280 }
+		},
+		"rat_body": {
+			"rat_body": { "x": 312.5, "y": -995, "width": 257, "height": 374 }
+		},
+		"rat_leg_F": {
+			"rat_leg_F": { "x": 314.5, "y": -1125, "width": 193, "height": 182 }
+		},
+		"rat_arm_F": {
+			"rat_arm_F": { "x": 349, "y": -979, "width": 138, "height": 152 }
+		},
+		"rat_jaw": {
+			"rat_jaw": { "x": 455, "y": -864.5, "width": 124, "height": 71 }
+		},
+		"rat_mouthfoam": {
+			"rat_mouthfoam": { "x": 451.5, "y": -890.5, "width": 61, "height": 75 }
+		},
+		"trap_anim": {
+			"trap_anim": { "x": 549.5, "y": -854.5, "width": 99, "height": 45 }
+		},
+		"rat_head": {
+			"rat_head": { "x": 443.5, "y": -823.5, "width": 207, "height": 141 }
+		},
+		"spring_anim": {
+			"spring_anim": { "x": 548, "y": -844, "width": 70, "height": 52 }
+		},
+		"rat_nose_hurt": {
+			"rat_nose_hurt": { "x": 558, "y": -818, "width": 72, "height": 70 }
+		},
+		"rat_shock": {
+			"rat_shock": { "x": 435, "y": -838.5, "width": 74, "height": 41 }
+		},
+		"rat_inpain": {
+			"rat_inpain": { "x": 426, "y": -840, "width": 46, "height": 50 }
+		},
+		"flyswatter": {
+			"flyswatter": { "x": 857, "y": -1108.5, "width": 152, "height": 93 }
+		},
+		"rat_drunk": {
+			"rat_drunk": { "x": 449.5, "y": -824, "width": 193, "height": 138 }
+		},
+		"rat_sick": {
+			"rat_sick": { "x": 449.5, "y": -824, "width": 193, "height": 138 }
+		},
+		"dizzy_fz": {
+			"dizzy_fz": { "x": 429, "y": -841, "width": 20, "height": 22 }
+		},
+		"drunk_bubble": {
+			"drunk_bubble": { "x": 322.5, "y": -794.5, "width": 37, "height": 37 }
+		},
+		"bubble_popped": {
+			"bubble_popped": { "x": 323, "y": -794.5, "width": 36, "height": 37 }
+		},
+		"electocuted_fx1": {
+			"electocuted_fx1": { "x": 321.5, "y": -962.5, "width": 551, "height": 627 }
+		},
+		"electocuted_fx2": {
+			"electocuted_fx2": { "x": 326, "y": -960.5, "width": 560, "height": 653 }
+		},
+		"rat_electrocuted1": {
+			"rat_electrocuted1": { "x": 321.5, "y": -984.5, "width": 477, "height": 541 }
+		},
+		"flyswatter_fx": {
+			"flyswatter_fx": { "x": 457.5, "y": -837.5, "width": 157, "height": 89 }
+		},
+		"rat_hurt": {
+			"rat_hurt": { "x": 461.5, "y": -831.5, "width": 117, "height": 63 }
+		},
+		"rat_bump": {
+			"rat_bump": { "x": 417, "y": -770.5, "width": 44, "height": 75 }
+		},
+		"rat_disgusted": {
+			"rat_disgusted": { "x": 437.5, "y": -833, "width": 71, "height": 46 }
+		},
+		"vomit": {
+			"vomit": { "x": 503.5, "y": -1017, "width": 67, "height": 248 }
+		},
+		"vomit_fx1": {
+			"vomit_fx1": { "x": 516.5, "y": -1132, "width": 123, "height": 58 }
+		},
+		"vomit_fx2": {
+			"vomit_fx2": { "x": 518, "y": -1132, "width": 134, "height": 78 }
+		},
+		"rat_eyes_red": {
+			"rat_eyes_red": { "x": 431, "y": -845.5, "width": 42, "height": 37 }
+		},
+		"rat_tears": {
+			"rat_tears": { "x": 429, "y": -861, "width": 38, "height": 50 }
+		},
+		"sock_on": {
+			"sock_on": { "x": 526, "y": -843.5, "width": 74, "height": 83 }
+		},
+		"smell_fx2": {
+			"smell_fx2": { "x": 558, "y": -774, "width": 38, "height": 90 }
+		},
+		"rat_freeze": {
+			"rat_freeze": { "x": 478.5, "y": -872, "width": 125, "height": 102 }
+		},
+		"ice_block": {
+			"ice_block": { "x": 443, "y": -824.5, "width": 244, "height": 195 }
+		},
+		"ice_piece3": {
+			"ice_piece3": { "x": 487.5, "y": -949, "width": 55, "height": 60 }
+		},
+		"ice_piece2": {
+			"ice_piece2": { "x": 290.5, "y": -865, "width": 41, "height": 40 }
+		},
+		"ice_piece1": {
+			"ice_piece1": { "x": 525, "y": -775.5, "width": 62, "height": 53 }
+		},
+		"shockwave": {
+			"shockwave": { "x": 497, "y": -713.5, "width": 200, "height": 169 }
+		},
+		"sofa": {
+			"sofa": { "x": 553.5, "y": -1341.5, "width": 683, "height": 407 }
+		},
+		"wine": {
+			"wine": { "x": 390.5, "y": -1305, "width": 107, "height": 158 }
+		},
+		"pepper_spray": {
+			"pepper_spray": { "x": 815.5, "y": -688, "width": 53, "height": 134 }
+		},
+		"jug": {
+			"jug": { "x": 290, "y": -754.5, "width": 86, "height": 97 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}

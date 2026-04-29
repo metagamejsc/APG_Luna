@@ -10,6 +10,7 @@ public class DragID : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     private GameObject originParent;
     private CanvasGroup canvasGroup;
     public bool isProcess = false;
+    public bool isHide = false;
 
     void Awake()
     {
@@ -17,6 +18,7 @@ public class DragID : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         canvasGroup = GetComponent<CanvasGroup>();
         originalPosition = rectTransform.anchoredPosition;
         originParent = transform.parent.gameObject;
+        if (isHide) { canvasGroup.alpha = 0f; }
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -39,7 +41,7 @@ public class DragID : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     {
         if (!GetIsDrag()) return;
         transform.SetParent(originParent.transform);
-        canvasGroup.alpha = 1f;
+        canvasGroup.alpha = isHide ? 0f : 1f;
         canvasGroup.blocksRaycasts = true;
 
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);

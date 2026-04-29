@@ -1,0 +1,10 @@
+BG.png
+size:596,636
+filter:Linear,Linear
+scale:0.5
+BG
+bounds:2,2,541,629
+BG_B 1
+bounds:545,261,36,370
+BG_B 2
+bounds:545,61,46,198
