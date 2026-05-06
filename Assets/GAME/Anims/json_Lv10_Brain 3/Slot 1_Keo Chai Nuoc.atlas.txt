@@ -1,0 +1,11 @@
+Slot 1_Keo Chai Nuoc.png
+size:172,96
+filter:Linear,Linear
+scale:0.75
+dad_backpack
+bounds:2,2,91,133
+offsets:1,0,92,133
+rotate:90
+water_bottle_equipped
+bounds:137,19,33,74
+offsets:0,0,34,74

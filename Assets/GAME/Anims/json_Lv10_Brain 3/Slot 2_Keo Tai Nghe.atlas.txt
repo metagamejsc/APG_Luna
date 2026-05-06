@@ -1,0 +1,7 @@
+Slot 2_Keo Tai Nghe.png
+size:64,56
+filter:Linear,Linear
+scale:0.75
+hedphone_equipped
+bounds:2,2,60,52
+offsets:1,1,61,53

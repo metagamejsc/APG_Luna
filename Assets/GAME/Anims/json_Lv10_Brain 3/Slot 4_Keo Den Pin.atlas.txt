@@ -1,0 +1,6 @@
+Slot 4_Keo Den Pin.png
+size:40,76
+filter:Linear,Linear
+scale:0.75
+flashlight_equipped
+bounds:2,2,34,72

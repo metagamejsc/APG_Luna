@@ -1,0 +1,10 @@
+Slot 7_Tap Tu Lanh.png
+size:300,136
+filter:Linear,Linear
+scale:0.75
+fridge_door_closed
+bounds:153,2,143,131
+fridge_door_opened
+bounds:2,3,130,149
+offsets:0,1,131,150
+rotate:90

@@ -1,0 +1,9 @@
+Slot 6_Keo Khan.png
+size:156,88
+filter:Linear,Linear
+scale:0.75
+bubble
+bounds:2,2,101,83
+rag_equipped
+bounds:105,23,49,62
+offsets:1,0,50,62

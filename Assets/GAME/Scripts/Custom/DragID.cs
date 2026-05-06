@@ -46,14 +46,48 @@ public class DragID : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
         if (hit.collider != null && hit.collider.gameObject != gameObject)
         {
-            LunaManager.ins.SetIsDrag(false);
-            //LunaManager.ins.DelaySetDrag();
-            hit.collider.gameObject.GetComponent<DropID>().DragItemID(idDrag);
-            if (isProcess)
+            if (idDrag == 10 && LunaManager.ins.processBuildRope > 0)
             {
-                LunaManager.ins.CountPlay();
+                print("ID10");
+                LunaManager.ins.SetIsDrag(false);
+                hit.collider.gameObject.GetComponent<DropID>().DragItemID(idDrag);
+                if (isProcess)
+                {
+                    LunaManager.ins.CountPlay();
+                }
+                Destroy(gameObject);
+
             }
-            Destroy(gameObject);
+            else if (idDrag == 9 && LunaManager.ins.processBuildRope > 1)
+            {
+                print("ID9");
+                LunaManager.ins.SetIsDrag(false);
+                hit.collider.gameObject.GetComponent<DropID>().DragItemID(idDrag);
+                if (isProcess)
+                {
+                    LunaManager.ins.CountPlay();
+                }
+                Destroy(gameObject);
+
+            }
+            else if (idDrag != 10 && idDrag != 9)
+            {
+                print("IDOTHER");
+                LunaManager.ins.SetIsDrag(false);
+                //LunaManager.ins.DelaySetDrag();
+                hit.collider.gameObject.GetComponent<DropID>().DragItemID(idDrag);
+                if (isProcess)
+                {
+                    LunaManager.ins.CountPlay();
+                }
+                Destroy(gameObject);
+            }
+            else
+            {
+                rectTransform.anchoredPosition = originalPosition;
+            }
+
+
         }
         else
         {

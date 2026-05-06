@@ -1,0 +1,15 @@
+Slot 6,1_Keo Canh Cay.png
+size:148,108
+filter:Linear,Linear
+scale:0.75
+rat_dead_equipped
+bounds:93,41,34,65
+rope_equipped
+bounds:129,11,17,95
+sign_fx
+bounds:93,16,25,23
+offsets:0,1,26,24
+twig_equipped
+bounds:2,2,104,89
+offsets:0,1,104,90
+rotate:90

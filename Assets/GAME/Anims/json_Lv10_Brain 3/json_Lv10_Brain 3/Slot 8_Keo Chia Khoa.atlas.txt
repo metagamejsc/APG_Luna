@@ -1,0 +1,21 @@
+Slot 8_Keo Chia Khoa.png
+size:376,160
+filter:Linear,Linear
+scale:0.75
+hiking_stick
+bounds:306,65,92,61
+offsets:2,1,94,62
+rotate:90
+lock
+bounds:306,10,33,53
+lock_full
+bounds:341,10,33,53
+tool_box_closed
+bounds:2,2,155,135
+rotate:90
+toolbox_lid
+bounds:234,15,142,70
+rotate:90
+toolbox_opened
+bounds:139,6,151,93
+rotate:90

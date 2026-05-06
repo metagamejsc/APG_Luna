@@ -1,0 +1,6 @@
+Slot 7,1_Keo Banh Mi.png
+size:24,20
+filter:Linear,Linear
+scale:0.75
+dad_chew
+bounds:2,2,19,16

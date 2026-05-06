@@ -1,0 +1,6 @@
+Slot 5_Keo Ban Do.png
+size:28,48
+filter:Linear,Linear
+scale:0.75
+map_equipped
+bounds:2,2,21,42
