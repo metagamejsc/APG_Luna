@@ -1,0 +1,11 @@
+Slot 2_Door.png
+size:942,301
+filter:Linear,Linear
+door_new
+bounds:2,152,147,938
+offsets:1,1,149,940
+rotate:90
+door_old
+bounds:2,2,148,934
+offsets:1,1,150,936
+rotate:90

@@ -1,0 +1,15 @@
+Slot 7_Dieu Hoa.png
+size:601,186
+filter:Linear,Linear
+AC_new_closed
+bounds:270,2,265,79
+offsets:1,1,267,81
+AC_new_opened
+bounds:2,5,266,91
+offsets:1,1,268,93
+AC_old
+bounds:331,83,268,101
+offsets:1,1,270,103
+AC_wind_fx
+bounds:2,98,327,86
+offsets:1,2,330,89

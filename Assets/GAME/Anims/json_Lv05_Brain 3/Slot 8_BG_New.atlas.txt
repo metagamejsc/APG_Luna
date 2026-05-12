@@ -1,0 +1,7 @@
+Slot 8_BG_New.png
+size:1092,639
+filter:Linear,Linear
+BG_new
+bounds:2,2,543,635
+BG_old
+bounds:547,2,543,635

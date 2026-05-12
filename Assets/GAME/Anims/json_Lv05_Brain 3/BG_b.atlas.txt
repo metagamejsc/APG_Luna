@@ -1,0 +1,10 @@
+BG_b.png
+size:848,331
+filter:Linear,Linear
+BG_B
+bounds:584,25,304,262
+offsets:1,1,306,264
+rotate:90
+snow_fx
+bounds:2,2,327,580
+rotate:90

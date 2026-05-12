@@ -1,0 +1,15 @@
+Slot 4_May Do Nhip Tim.png
+size:967,521
+filter:Linear,Linear
+heart
+bounds:577,92,37,29
+offsets:1,1,39,31
+line1
+bounds:435,7,140,114
+ventilator_new
+bounds:435,123,396,530
+offsets:1,1,398,532
+rotate:90
+ventilator_old
+bounds:2,2,431,517
+offsets:1,1,433,519

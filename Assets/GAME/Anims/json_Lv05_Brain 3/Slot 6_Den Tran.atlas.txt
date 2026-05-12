@@ -1,0 +1,14 @@
+Slot 6_Den Tran.png
+size:376,237
+filter:Linear,Linear
+light_fx
+bounds:315,9,109,57
+offsets:5,5,118,64
+rotate:90
+light_new
+bounds:2,120,115,372
+offsets:1,1,117,374
+rotate:90
+light_old
+bounds:2,2,116,311
+rotate:90

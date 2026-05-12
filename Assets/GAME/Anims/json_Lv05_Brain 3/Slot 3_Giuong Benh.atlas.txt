@@ -1,0 +1,24 @@
+Slot 3_Giuong Benh.png
+size:937,531
+filter:Linear,Linear
+bed_new
+bounds:217,11,518,356
+offsets:1,1,520,358
+rotate:90
+bed_old
+bounds:2,2,527,213
+offsets:1,1,529,215
+rotate:90
+oldman_inpain
+bounds:896,476,53,39
+offsets:1,1,55,41
+rotate:90
+oldman_new
+bounds:720,8,382,191
+rotate:90
+oldman_old
+bounds:575,4,386,143
+rotate:90
+shake_fx
+bounds:575,392,319,137
+offsets:1,1,321,139

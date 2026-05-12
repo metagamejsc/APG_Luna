@@ -1,0 +1,25 @@
+Slot 1_Nurse.png
+size:1252,413
+filter:Linear,Linear
+money_flat
+bounds:918,9,102,51
+nurse_jump_fx
+bounds:680,2,236,209
+offsets:3,1,242,211
+nurse_new
+bounds:2,194,217,676
+rotate:90
+nurse_old_stand
+bounds:2,38,154,675
+rotate:90
+nurse_shake_fx
+bounds:1048,186,202,225
+offsets:1,1,204,227
+nurse_sit
+bounds:680,213,198,366
+rotate:90
+nurse_sit_arm_B
+bounds:918,62,119,149
+nurse_sit_arm_F
+bounds:1039,88,96,140
+rotate:90

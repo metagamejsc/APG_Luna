@@ -1,0 +1,20 @@
+Slot 5_Cua So.png
+size:752,332
+filter:Linear,Linear
+wind 2
+bounds:727,267,63,23
+offsets:5,31,112,85
+rotate:90
+wind_fx
+bounds:292,4,148,5
+window_door_old
+bounds:573,15,152,315
+offsets:1,1,154,317
+window_new
+bounds:292,11,319,279
+offsets:1,1,321,281
+rotate:90
+window_old
+bounds:2,2,328,288
+offsets:1,1,330,290
+rotate:90
