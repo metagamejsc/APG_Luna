@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class LunaManager : MonoBehaviour
 {
-    public GameObject[] stepDrags;
+    //public GameObject[] stepDrags;
     public Button[] lstBtnInstall;
     public GameObject WinGO;
     public GameObject LoseGO;
@@ -57,8 +57,6 @@ public class LunaManager : MonoBehaviour
         Invoke(nameof(ShowEndCard), timeDropFinal);
         //countPlayFinal = Mathf.Min(countPlayFinal, 5f);
         UpdateProgress();
-        foreach (var i in stepDrags) { i.gameObject.SetActive(false); }
-        EnableItemDrag();
     }
     void Update()
     {
@@ -174,11 +172,11 @@ public class LunaManager : MonoBehaviour
         isDrag = true;
     }
     ////////////////////////////
-    public void EnableItemDrag()
-    {
-        if (countPlay >= stepDrags.Length) return;
-        stepDrags[countPlay].gameObject.SetActive(true);
-    }
+    // public void EnableItemDrag()
+    // {
+    //     if (countPlay >= stepDrags.Length) return;
+    //     stepDrags[countPlay].gameObject.SetActive(true);
+    // }
     // public void DropCamera()
     // {
     //     MSSBride.RemoveSkinName("khanchumdau");

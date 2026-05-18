@@ -2,7 +2,7 @@
     "version": "6.4.0",
     "projectId": "cc2b1186a2056e546bb13add5b988034",
     "applicationID": 29138,
-    "creativeName": "BEQ_V23_NgocNDL_AnhPD",
+    "creativeName": "BEQ_V24_NgocNDL_AnhPD",
     "pgServer": "EU",
     "window": {
         "‐′": true
@@ -35329,6 +35329,26 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/GAME/Anims/Level 82/groom2.png"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "none",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Assets/Fonts/Noto_Sans/NotoSans-Bold SDF Fallback.asset"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "none",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Assets/Fonts/Noto_Sans/NotoSans-Bold SDF.asset"
                     }
                 ]
             },
