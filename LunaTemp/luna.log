@@ -5,31 +5,31 @@ operable program or batch file.
 Exporting assets from Unity..............
 
 [ Stage1 ] Assets exported from Unity and staged for further processing
-Using E:/ProjectGitHub/APG_Luna/Assets/GAME/Assets/Fonts/Noto_Sans/NotoSans-Bold.ttf file to generate an atlas for NotoSans-Bold[27574] font
-  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
 Using E:/ProjectGitHub/APG_Luna/Assets/TextMesh Pro/Resources/Fonts & Materials/MUSEOSANSROUNDED-1000.TTF file to generate an atlas for MUSEOSANSROUNDED-1000[27572] font
+  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Using E:/ProjectGitHub/APG_Luna/Assets/GAME/Assets/Fonts/Noto_Sans/NotoSans-Bold.ttf file to generate an atlas for NotoSans-Bold[27574] font
   Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
 Combined 97 glyphs into bitmap texture at E:/ProjectGitHub/APG_Luna/LunaTemp/stage1/tmp/fonts/NotoSans-Bold-27574/output_0.png (53kb)
 Combined 97 glyphs into bitmap texture at E:/ProjectGitHub/APG_Luna/LunaTemp/stage1/tmp/fonts/MUSEOSANSROUNDED-1000-27572/output_0.png (56kb)
 Found custom rules for sound Assets/GAME/Audios/level_84/V24/BGM/iLoveYt.net_YouTube_The-Minimal-Beat_Media_-zQvDHsDyac_008_128k.mp3
   {"channels":1,"startTime":"00:00.000","endTime":"00:20.253","lengthInSeconds":20.253000259399414,"bitrate":16,"script":"","ext":"","name":"Assets/GAME/Audios/level_84/V24/BGM/iLoveYt.net_YouTube_The-Minimal-Beat_Media_-zQvDHsDyac_008_128k.mp3","isOverride":true}
-Found custom rules for sound Assets/GAME/Audios/Sound/Game Reward Sound Effect (HD) SOUND FX.mp3
-  {"channels":1,"startTime":"00:00.000","endTime":"00:20.135","lengthInSeconds":20.135000228881836,"bitrate":16,"script":"","ext":"","name":"Assets/GAME/Audios/Sound/Game Reward Sound Effect (HD) SOUND FX.mp3","isOverride":true}
 Found custom rules for sound Assets/GAME/Audios/level 2 1/Done (mp3cut.net).wav
   {"channels":1,"startTime":"00:00.000","endTime":"00:20.135","lengthInSeconds":20.135000228881836,"bitrate":16,"script":"","ext":"","name":"Assets/GAME/Audios/level 2 1/Done (mp3cut.net).wav","isOverride":true}
+Found custom rules for sound Assets/GAME/Audios/Sound/Game Reward Sound Effect (HD) SOUND FX.mp3
+  {"channels":1,"startTime":"00:00.000","endTime":"00:20.135","lengthInSeconds":20.135000228881836,"bitrate":16,"script":"","ext":"","name":"Assets/GAME/Audios/Sound/Game Reward Sound Effect (HD) SOUND FX.mp3","isOverride":true}
 Found custom rules for texture Assets/TextMesh Pro/Resources/Fonts & Materials/MUSEOSANSROUNDED-1000 SDF.asset
   {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/TextMesh Pro/Resources/Fonts & Materials/MUSEOSANSROUNDED-1000 SDF.asset","isOverride":true}
-Found custom rules for texture Assets/GAME/Assets/Fonts/Noto_Sans/NotoSans-Bold SDF.asset
-  {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/GAME/Assets/Fonts/Noto_Sans/NotoSans-Bold SDF.asset","isOverride":true}
 Found custom rules for texture Assets/GAME/Assets/Fonts/Noto_Sans/NotoSans-Bold SDF Fallback.asset
   {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/GAME/Assets/Fonts/Noto_Sans/NotoSans-Bold SDF Fallback.asset","isOverride":true}
+Found custom rules for texture Assets/GAME/Assets/Fonts/Noto_Sans/NotoSans-Bold SDF.asset
+  {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/GAME/Assets/Fonts/Noto_Sans/NotoSans-Bold SDF.asset","isOverride":true}
 Resources:
 {}
 [ Stage2 ] Assets postprocessed and bundled successfully
 Authorized using stored user info.
 MSBuild version 17.13.19+0d9f5a35a for .NET Framework
 
-Build started 5/18/2026 4:36:34 PM.
+Build started 5/18/2026 4:45:55 PM.
 
 
 
@@ -105,42 +105,41 @@ CoreCompile:
 
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(24,40): warning CS0649: Field 'LeftOrRight.player' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(16,46): warning CS0649: Field 'LunaManager.textProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(18,42): warning CS0649: Field 'AudioController.sfxSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(17,36): warning CS0649: Field 'LunaManager.imgProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(17,42): warning CS0649: Field 'AudioController.bgmSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(47,46): warning CS0649: Field 'LeftOrRight.onStepReachedBottom' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(26,37): warning CS0649: Field 'LeftOrRight.rightButton' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(25,37): warning CS0649: Field 'LeftOrRight.leftButton' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\IQFill.cs(8,36): warning CS0649: Field 'IQFill.fillImage' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(42,38): warning CS0649: Field 'LeftOrRight.stepBottomLocalPosition' is never assigned to, and will always have its default value [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(26,37): warning CS0649: Field 'LeftOrRight.rightButton' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(17,36): warning CS0649: Field 'LunaManager.imgProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(30,38): warning CS0649: Field 'LeftOrRight.rightPosition' is never assigned to, and will always have its default value [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(36,46): warning CS0649: Field 'LunaManager.timeText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(18,42): warning CS0649: Field 'AudioController.sfxSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(29,38): warning CS0649: Field 'LeftOrRight.leftPosition' is never assigned to, and will always have its default value [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\IQFill.cs(8,36): warning CS0649: Field 'IQFill.fillImage' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(41,38): warning CS0649: Field 'LeftOrRight.stepTopLocalPosition' is never assigned to, and will always have its default value [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(16,46): warning CS0649: Field 'LunaManager.textProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(47,46): warning CS0649: Field 'LeftOrRight.onStepReachedBottom' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(30,38): warning CS0649: Field 'LeftOrRight.rightPosition' is never assigned to, and will always have its default value [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(36,46): warning CS0649: Field 'LunaManager.timeText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\DropID.cs(19,20): warning CS0414: The field 'DropID.currentAnimation' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
   CompilerServer: server - server processed compilation - Scripts
 
 _CopyFilesMarkedCopyLocal:
 
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
+
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
-
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
-
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
@@ -200,33 +199,31 @@ Done Building Project "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.
 Build succeeded.
 
 
-
 "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
+
 (CoreCompile target) -> 
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(24,40): warning CS0649: Field 'LeftOrRight.player' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(16,46): warning CS0649: Field 'LunaManager.textProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(18,42): warning CS0649: Field 'AudioController.sfxSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(17,42): warning CS0649: Field 'AudioController.bgmSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(47,46): warning CS0649: Field 'LeftOrRight.onStepReachedBottom' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(25,37): warning CS0649: Field 'LeftOrRight.leftButton' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\IQFill.cs(8,36): warning CS0649: Field 'IQFill.fillImage' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(42,38): warning CS0649: Field 'LeftOrRight.stepBottomLocalPosition' is never assigned to, and will always have its default value [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(26,37): warning CS0649: Field 'LeftOrRight.rightButton' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(17,36): warning CS0649: Field 'LunaManager.imgProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(30,38): warning CS0649: Field 'LeftOrRight.rightPosition' is never assigned to, and will always have its default value [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(36,46): warning CS0649: Field 'LunaManager.timeText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(17,42): warning CS0649: Field 'AudioController.bgmSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(26,37): warning CS0649: Field 'LeftOrRight.rightButton' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(25,37): warning CS0649: Field 'LeftOrRight.leftButton' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(42,38): warning CS0649: Field 'LeftOrRight.stepBottomLocalPosition' is never assigned to, and will always have its default value [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(18,42): warning CS0649: Field 'AudioController.sfxSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(29,38): warning CS0649: Field 'LeftOrRight.leftPosition' is never assigned to, and will always have its default value [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\IQFill.cs(8,36): warning CS0649: Field 'IQFill.fillImage' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(41,38): warning CS0649: Field 'LeftOrRight.stepTopLocalPosition' is never assigned to, and will always have its default value [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(16,46): warning CS0649: Field 'LunaManager.textProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(47,46): warning CS0649: Field 'LeftOrRight.onStepReachedBottom' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\LeftOrRight.cs(30,38): warning CS0649: Field 'LeftOrRight.rightPosition' is never assigned to, and will always have its default value [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(36,46): warning CS0649: Field 'LunaManager.timeText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\DropID.cs(19,20): warning CS0414: The field 'DropID.currentAnimation' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
     16 Warning(s)
     0 Error(s)
 
 
-Time Elapsed 00:00:09.14
+Time Elapsed 00:00:08.25
 
 Source code compiled successfully!
 ﻿
