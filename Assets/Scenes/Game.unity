@@ -9517,28 +9517,28 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 3064668ba305576449ee1a97122f2dee, type: 3}
     volume: 1
   - key: Step2
-    clip: {fileID: 8300000, guid: 32c3f23a39a22994d8ac823542e7803d, type: 3}
+    clip: {fileID: 8300000, guid: 90973758535a83349b88d9eed02796c2, type: 3}
     volume: 1
   - key: Step3
-    clip: {fileID: 8300000, guid: 699c8c54dddc2314e890a811c81be6b0, type: 3}
+    clip: {fileID: 8300000, guid: 771ad416651265f4a8767fd905617d6c, type: 3}
     volume: 1
   - key: Step4
-    clip: {fileID: 8300000, guid: 7ef18f0cf3152984a956825220a97e4b, type: 3}
+    clip: {fileID: 8300000, guid: 949a3f147cd5f3b42be4255d1ee15856, type: 3}
     volume: 1
   - key: Step5
-    clip: {fileID: 8300000, guid: 89fff63b2e95eb749bb0912a56e72804, type: 3}
+    clip: {fileID: 8300000, guid: f785b5856e43a9a428a2804c65c7bc45, type: 3}
     volume: 1
   - key: Step6
-    clip: {fileID: 8300000, guid: 445d2c82dbb31f14aa31df7c17fb6d3b, type: 3}
+    clip: {fileID: 8300000, guid: 0f0eaa56dc8748c4bb2fe2ffb257fcd8, type: 3}
     volume: 1
   - key: Step7
-    clip: {fileID: 8300000, guid: 6b819e50a164af34f9960d2e2bac5d1d, type: 3}
+    clip: {fileID: 8300000, guid: 76707e4791229c544b93713f724b117a, type: 3}
     volume: 1
   - key: Step8
-    clip: {fileID: 8300000, guid: 2f0b2871ab027334493d6da75d9d3f87, type: 3}
+    clip: {fileID: 8300000, guid: 36a4801b689fd654192495138371224f, type: 3}
     volume: 1
   - key: Step9
-    clip: {fileID: 8300000, guid: fbbd329d53bb09d44b82e81b030ab773, type: 3}
+    clip: {fileID: 8300000, guid: f7c7ed9b9c93ab14280d12b88c064641, type: 3}
     volume: 1
 --- !u!1 &1878805049
 GameObject:

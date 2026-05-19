@@ -233,7 +233,7 @@ public class LeftOrRight : MonoBehaviour
         GameObject selectedObject = SelectedChoiceObject;
         string selectedObjectName = selectedObject != null ? selectedObject.name : "null";
         Debug.Log($"Step {currentStepIndex}: Player chose {SelectedChoiceNumber} ({selectedObjectName})");
-        OnlyLose(currentStepIndex);
+        OnlyWin(currentStepIndex);
         LunaManager.ins.CountPlay();
         onStepReachedBottom?.Invoke(currentStepIndex);
     }
@@ -301,8 +301,57 @@ public class LeftOrRight : MonoBehaviour
                 break;
         }
     }
-    public void OnlyWin()
+    public void OnlyWin(int stepIndexs)
     {
-
+        switch (stepIndexs)
+        {
+            case 0:
+                mixSkeletonSkin.AddSkin("vay1");
+                mixSkeletonSkin.MixAndApplySkins();
+                AudioController.Instance.PlaySfx("Step1");
+                break;
+            case 1:
+                mixSkeletonSkin.AddSkin("tat_ren");
+                mixSkeletonSkin.MixAndApplySkins();
+                AudioController.Instance.PlaySfx("Step2");
+                break;
+            case 2:
+                mixSkeletonSkin.AddSkin("giay");
+                mixSkeletonSkin.MixAndApplySkins();
+                AudioController.Instance.PlaySfx("Step3");
+                break;
+            case 3:
+                mixSkeletonSkin.AddSkin("kinh2");
+                mixSkeletonSkin.MixAndApplySkins();
+                AudioController.Instance.PlaySfx("Step4");
+                break;
+            case 4:
+                mixSkeletonSkin.AddSkin("toc");
+                mixSkeletonSkin.MixAndApplySkins();
+                AudioController.Instance.PlaySfx("Step5");
+                break;
+            case 5:
+                mixSkeletonSkin.AddSkin("son_red");
+                mixSkeletonSkin.MixAndApplySkins();
+                AudioController.Instance.PlaySfx("Step6");
+                break;
+            case 6:
+                mixSkeletonSkin.AddSkin("vong1");
+                mixSkeletonSkin.MixAndApplySkins();
+                AudioController.Instance.PlaySfx("Step7");
+                break;
+            case 7:
+                mixSkeletonSkin.AddSkin("tui");
+                mixSkeletonSkin.MixAndApplySkins();
+                AudioController.Instance.PlaySfx("Step8");
+                break;
+            case 8:
+                mixSkeletonSkin.PlayAnimationOnly("win", true);
+                AudioController.Instance.PlaySfx("Step9");
+                break;
+            default:
+                //LunaManager.ins.ShowEndCard();
+                break;
+        }
     }
 }
