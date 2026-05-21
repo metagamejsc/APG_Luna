@@ -1,0 +1,177 @@
+{
+    "BuildID": "60d0197d-26c0-4737-9042-5f1a86b19804",
+    "Command": "project:deploy",
+    "ProjectID": "cc2b1186a2056e546bb13add5b988034",
+    "ProjectStateHash": "a043dca924a3e2c6ad64b7ae60d37db36d7738ea4037f87d3c428a7f1e75e408",
+    "StageCompletedAt": 3,
+    "EarliestFatalError": 0,
+    "StartTime": 1779353746286,
+    "EndTime": 1779353800532,
+    "PlaygroundUserID": 8652,
+    "OperatingSystem": "win32",
+    "UnityPackageID": null,
+    "TargetPlatform": "playground",
+    "UnityVersion": "2022.3.47f1\r",
+    "LunaVersion": "6.4.0",
+    "LogCount": 7,
+    "Logs": [
+        {
+            "LogID": "2ad6183f-6510-48ac-9343-73d5cee3311b",
+            "Order": 7,
+            "Timestamp": 1779353801076,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3007",
+            "Description": "You are not using any custom events",
+            "Details": [
+                "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+            ],
+            "DescriptionValues": [
+                ""
+            ],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "f96bbe24-f991-4280-86c5-7ee837bfdbbc",
+            "Order": 0,
+            "Timestamp": 1779353752058,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1030",
+            "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
+            "Details": [
+                "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "MUSEOSANSROUNDED-1000 SDF",
+                "Dynamic"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "407649a9-4c4c-4d4d-b120-963770fdb0f2",
+            "Order": 1,
+            "Timestamp": 1779353752356,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1030",
+            "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
+            "Details": [
+                "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "NotoSans-Bold SDF Fallback",
+                "Dynamic"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "47135842-7511-402a-91ff-30d82fe186b1",
+            "Order": 2,
+            "Timestamp": 1779353763199,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1014",
+            "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+            "Details": [
+                "Navigate to the Runtime Analysis → Code tab to enable code stripping. Before uploading the playable, please make sure to have played all scenario’s of the playable in a development build to make Runtime Analysis work properly."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "e5cf5209-89f4-4ba9-a3b8-0f1f43e557de",
+            "Order": 3,
+            "Timestamp": 1779353763212,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1027",
+            "Description": "This DOTween version is not supported",
+            "Details": [
+                "The incorrect DOTween version for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "399b0a6c-c01a-4f22-a485-784bddae9421",
+            "Order": 4,
+            "Timestamp": 1779353763212,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1015",
+            "Description": "This TMP version is not fully supported",
+            "Details": [
+                "The incorrect Text Mesh Pro for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager"
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "f7241e6c-8e0f-40c1-82a8-bca5a42b9111",
+            "Order": 5,
+            "Timestamp": 1779353763212,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1032",
+            "Description": "Package(s) is not supported in Luna",
+            "Details": [
+                "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+            ],
+            "DescriptionValues": [
+                "com.unity.timeline (1.7.6)"
+            ],
+            "DetailsValues": [
+                "com.unity.timeline"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "E:/ProjectGitHub/APG_Luna/Packages\\manifest.json",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        }
+    ]
+}
