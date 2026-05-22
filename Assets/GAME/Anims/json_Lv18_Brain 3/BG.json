@@ -1,0 +1,1 @@
+{"skeleton":{"hash":"WA+HzombCl0","spine":"4.1.24","x":-540,"y":-628,"width":1080,"height":1256,"images":"./images/","audio":""},"bones":[{"name":"root"}],"slots":[{"name":"BG2","bone":"root","attachment":"BG2"}],"skins":[{"name":"default","attachments":{"BG2":{"BG2":{"width":1080,"height":1256}}}}],"animations":{"Act 1":{"bones":{"root":{"scale":[{"time":1}]}}}}}

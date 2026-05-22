@@ -23,9 +23,11 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        canvasGroup.alpha = 0.6f;
+        this.gameObject.transform.localScale = Vector3.one * 1.5f;
+        canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = false;
         transform.SetParent(LunaManager.ins.Parent.transform);
+
     }
     public void OnDrag(PointerEventData eventData)
     {
@@ -36,9 +38,11 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     }
     public void OnEndDrag(PointerEventData eventData)
     {
+        this.gameObject.transform.localScale = Vector3.one;
         transform.SetParent(originParent.transform);
         canvasGroup.alpha = isHide ? 0f : 1f;
         canvasGroup.blocksRaycasts = true;
+
 
         Vector2 worldPoint = Camera.main.ScreenToWorldPoint(eventData.position);
         RaycastHit2D[] hits = Physics2D.RaycastAll(worldPoint, Vector2.zero);

@@ -1,0 +1,13 @@
+Slot 3_Tap Ngan Keo.png
+size:367,146
+filter:Linear,Linear
+cabinet_closed
+bounds:2,2,308,54
+offsets:1,1,310,56
+cabinet_opened
+bounds:2,58,337,86
+offsets:1,1,339,88
+flashlight
+bounds:341,22,122,24
+offsets:1,2,124,27
+rotate:90

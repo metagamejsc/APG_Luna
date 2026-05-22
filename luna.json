@@ -1,8 +1,8 @@
 {
     "version": "6.4.0",
     "projectId": "e0c7d7b99f381904ba55b26de53e9500",
-    "applicationID": 36041,
-    "creativeName": "BTTP_V17_NgocBTU_AnhPD",
+    "applicationID": 38020,
+    "creativeName": "BMTP_V02_NgocBTU_AnhPD",
     "pgServer": "EU",
     "window": {
         "‐′": true
@@ -269,6 +269,16 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+                    },
+                    {
+                        "maxWidth": 1024,
+                        "maxHeight": 1024,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/Anims/json_Lv18_Brain 3/Level_18_Brain 3.png"
                     }
                 ]
             },

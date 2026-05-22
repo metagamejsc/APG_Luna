@@ -38,6 +38,16 @@ public class DropZone : MonoBehaviour
         NextStep();
         CheckDone();
         AudioController.Instance.PlaySfx("Click");
+        if (idDrop == 12)
+        {
+            LunaManager.ins.skeGhost.RemoveSkinName("ID");
+            LunaManager.ins.skeGhost.MixAndApplySkins();
+        }
+        else
+        {
+            LunaManager.ins.skeGhost.RemoveSkinName("hair");
+            LunaManager.ins.skeGhost.MixAndApplySkins();
+        }
     }
     void NextStep()
     {

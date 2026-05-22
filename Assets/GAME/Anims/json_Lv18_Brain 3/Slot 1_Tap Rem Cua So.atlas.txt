@@ -1,0 +1,12 @@
+Slot 1_Tap Rem Cua So.png
+size:344,368
+filter:Linear,Linear
+cat
+bounds:2,284,82,91
+offsets:1,1,84,93
+rotate:90
+curtain_closed
+bounds:2,2,337,249
+curtain_opened
+bounds:95,253,113,247
+rotate:90

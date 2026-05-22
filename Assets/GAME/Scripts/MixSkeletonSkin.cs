@@ -16,12 +16,12 @@ public class MixSkeletonSkin : MonoBehaviour
 
     void Start()
     {
-        //MixAndApplySkins();
+        MixAndApplySkins();
 
-        // if (!string.IsNullOrEmpty(defaultAnim))
-        // {
-        //     skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, true);
-        // }
+        if (!string.IsNullOrEmpty(defaultAnim))
+        {
+            skeletonAnimation.AnimationState.SetAnimation(0, defaultAnim, true);
+        }
     }
 
     public void MixAndApplySkins(params string[] skinsToMix)

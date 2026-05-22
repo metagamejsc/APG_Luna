@@ -41,62 +41,62 @@ public class DropID : MonoBehaviour
         switch (id)
         {
             case 0:
-                mixSkeletonSkin.AddSkin("twig_equipped");
-                mixSkeletonSkin.MixAndApplySkins();
-                LunaManager.ins.processBuildRope++;
+                // mixSkeletonSkin.AddSkin("twig_equipped");
+                // mixSkeletonSkin.MixAndApplySkins();
+                //LunaManager.ins.processBuildRope++;
                 break;
             case 1:
-                //baloMixSkeletonSkin.PlayAnimationOnly("Slot 1_Keo Chai Nuoc_Loop", true);
-                mixSkeletonSkin.AddSkin("water_bottle_equipped");
-                mixSkeletonSkin.MixAndApplySkins();
+                mixSkeletonSkin.PlayAnimationOnly("Slot 1,1_Keo Con Meo");
                 AudioController.Instance.PlaySfx("Item1");
+                AudioController.Instance.PlaySfx("meo");
                 break;
             case 2:
-                //headphoneMixSkeletonSkin.PlayAnimationOnly("Slot 2_Keo Tai Nghe_Loop", true);
-                mixSkeletonSkin.AddSkin("hedphone_equipped");
-                mixSkeletonSkin.MixAndApplySkins();
-                AudioController.Instance.PlaySfx("Item2");
+                mixSkeletonSkin.PlayAnimationOnly("Slot 2_Guong Bat Quai");
+                AudioController.Instance.PlaySfx("guong");
                 break;
             case 3:
-                ///mixSkeletonSkin.PlayAnimationOnly("Slot 3_Lo Hat Tieu");
+                mixSkeletonSkin.PlayAnimationOnly("Slot 3,1_Keo Den Pin");
                 AudioController.Instance.PlaySfx("Item3");
+                AudioController.Instance.PlaySfx("dien");
                 break;
             case 4:
-                mixSkeletonSkin.AddSkin("flashlight_equipped");
-                mixSkeletonSkin.MixAndApplySkins();
+                mixSkeletonSkin.PlayAnimationOnly("Slot 4_Keo Lo Muoi");
                 AudioController.Instance.PlaySfx("Item4");
+                AudioController.Instance.PlaySfx("tieu");
                 break;
             case 5:
-                mixSkeletonSkin.AddSkin("map_equipped");
-                mixSkeletonSkin.MixAndApplySkins();
+                mixSkeletonSkin.PlayAnimationOnly("Slot 5_Keo Binh Xit");
                 AudioController.Instance.PlaySfx("Item5");
+                AudioController.Instance.PlaySfx("xit");
                 break;
             case 6:
-                mixSkeletonSkin.AddSkin("rag_equipped");
-                mixSkeletonSkin.MixAndApplySkins();
+                mixSkeletonSkin.PlayAnimationOnly("Slot 6_Keo Chai Ruou");
                 AudioController.Instance.PlaySfx("Item6");
                 break;
-            case 7:
-                mixSkeletonSkin.PlayAnimationOnly("Act 2", true);
-
+            case 71:
+                mixSkeletonSkin.PlayAnimationOnly("Slot 7,1_Keo Sau Rieng");
+                AudioController.Instance.PlaySfx("Item71");
+                break;
+            case 72:
+                mixSkeletonSkin.PlayAnimationOnly("Slot 7,2_Keo Tai Nghe");
+                AudioController.Instance.PlaySfx("Item72");
                 break;
             case 8:
-                mixSkeletonSkin.AddSkin("hiking_stick_equipped");
-                mixSkeletonSkin.MixAndApplySkins();
+                mixSkeletonSkin.PlayAnimationOnly("Slot 8_Keo Khan Lau Mat");
                 AudioController.Instance.PlaySfx("Item8");
                 break;
             case 9:
-                mixSkeletonSkin.AddSkin("rat_dead_equipped");
-                mixSkeletonSkin.MixAndApplySkins();
-                LunaManager.ins.processBuildRope++;
+                mixSkeletonSkin.PlayAnimationOnly("Slot 9_Keo Rui Cui Dien");
+                AudioController.Instance.PlaySfx("Item9");
+                AudioController.Instance.PlaySfx("dien");
                 break;
             case 10:
-                mixSkeletonSkin.AddSkin("rope_equipped");
-                mixSkeletonSkin.MixAndApplySkins();
-                LunaManager.ins.processBuildRope++;
+
                 break;
             case 11:
-                mixSkeletonSkin.PlayAnimationOnly("Slot 11,1_Keo Ly Nuoc Girl");
+                mixSkeletonSkin.PlayAnimationOnly("Slot 11,1_Keo Tuong Phat");
+                AudioController.Instance.PlaySfx("Item11");
+                AudioController.Instance.PlaySfx("phat");
                 break;
             default:
                 currentAnimation = "";

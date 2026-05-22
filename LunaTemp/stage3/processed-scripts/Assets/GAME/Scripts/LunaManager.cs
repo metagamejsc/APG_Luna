@@ -18,7 +18,8 @@ public class LunaManager : MonoBehaviour
     public bool isDrag = false;
     public float timeDrag = 1f;
 
-    public int processBuildRope = 0;
+    //public int processBuildRope = 0;
+    public MixSkeletonSkin skeGhost;
 
 
     //----------------------------------LUNA----------------------------

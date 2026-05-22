@@ -1,0 +1,17 @@
+Slot 7_Tu quan ao.png
+size:534,286
+filter:Linear,Linear
+door_closed
+bounds:2,69,215,419
+offsets:1,1,217,421
+rotate:90
+door_opened
+bounds:2,2,65,470
+offsets:1,1,67,472
+rotate:90
+durian
+bounds:423,81,109,83
+offsets:1,1,111,85
+headphone
+bounds:423,166,103,118
+offsets:1,1,105,120

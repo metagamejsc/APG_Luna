@@ -1,0 +1,14 @@
+Slot 10_Quet The.png
+size:362,235
+filter:Linear,Linear
+fridge_closed
+bounds:2,6,225,227
+fridge_opened
+bounds:229,2,45,231
+offsets:0,2,45,233
+safe_red
+bounds:276,65,42,15
+offsets:1,1,44,17
+statue
+bounds:276,82,84,151
+offsets:1,1,86,153
