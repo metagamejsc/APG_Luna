@@ -1,0 +1,18 @@
+Slot 8,1_An Xin.png
+size:172,336
+filter:Linear,Linear
+pma:true
+scale:0.5
+BG_b
+bounds:2,110,223,160
+rotate:90
+box_hobo
+bounds:128,50,58,38
+rotate:90
+hobo
+bounds:2,2,106,124
+rotate:90
+hobo_sad
+bounds:128,16,32,39
+offsets:0,1,32,40
+rotate:90

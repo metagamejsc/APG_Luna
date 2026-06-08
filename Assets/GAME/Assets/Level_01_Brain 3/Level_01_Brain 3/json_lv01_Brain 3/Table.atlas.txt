@@ -1,0 +1,7 @@
+Table.png
+size:288,160
+filter:Linear,Linear
+pma:true
+scale:0.5
+table
+bounds:2,2,281,153

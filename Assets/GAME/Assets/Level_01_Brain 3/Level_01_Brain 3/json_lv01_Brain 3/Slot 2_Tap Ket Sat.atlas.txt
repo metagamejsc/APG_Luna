@@ -1,0 +1,18 @@
+Slot 2_Tap Ket Sat.png
+size:352,152
+filter:Linear,Linear
+pma:true
+scale:0.5
+box_safe
+bounds:275,23,72,49
+safe
+bounds:2,2,146,145
+safe_door_closed
+bounds:150,51,123,96
+safe_door_opened
+bounds:150,5,44,119
+offsets:0,1,44,121
+rotate:90
+safe_handle
+bounds:275,74,74,73
+offsets:0,1,74,74

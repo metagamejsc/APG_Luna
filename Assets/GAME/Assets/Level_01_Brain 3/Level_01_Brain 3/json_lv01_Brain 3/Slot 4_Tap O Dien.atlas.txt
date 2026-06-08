@@ -1,0 +1,15 @@
+Slot 4_Tap O Dien.png
+size:124,44
+filter:Linear,Linear
+pma:true
+scale:0.5
+box_socket
+bounds:86,7,34,33
+offsets:1,0,35,33
+rotate:90
+socket_b
+bounds:46,5,38,36
+offsets:0,2,39,38
+socket_f
+bounds:2,2,42,39
+offsets:0,1,43,41

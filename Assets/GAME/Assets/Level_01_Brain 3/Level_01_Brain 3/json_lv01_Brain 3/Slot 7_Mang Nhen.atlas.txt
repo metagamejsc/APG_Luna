@@ -1,0 +1,10 @@
+Slot 7_Mang Nhen.png
+size:140,72
+filter:Linear,Linear
+pma:true
+scale:0.5
+spider
+bounds:91,12,58,45
+rotate:90
+spider_fat
+bounds:2,2,87,68

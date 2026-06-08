@@ -51,9 +51,13 @@ public class DragID : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
         if (hit.collider != null && hit.collider.gameObject != gameObject)
         {
-            LunaManager.ins.SetIsDrag(false);
-            //LunaManager.ins.DelaySetDrag();
-            hit.collider.gameObject.GetComponent<DropID>().DragItemID(idDrag);
+            var dropID = hit.collider.gameObject.GetComponent<DropID>();
+            if (dropID == null || !dropID.TryDragItemID(idDrag))
+            {
+                rectTransform.anchoredPosition = originalPosition;
+                return;
+            }
+
             if (isProcess)
             {
                 LunaManager.ins.CountPlay();

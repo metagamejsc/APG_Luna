@@ -1,0 +1,15 @@
+Slot 5_Tap Chau Cay.png
+size:204,160
+filter:Linear,Linear
+pma:true
+scale:0.5
+box_pot
+bounds:137,2,39,34
+plant
+bounds:2,9,148,133
+rotate:90
+pot_B
+bounds:137,95,62,62
+pot_F
+bounds:137,38,62,55
+offsets:0,0,62,58

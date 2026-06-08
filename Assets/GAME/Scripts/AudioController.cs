@@ -117,6 +117,21 @@ public class AudioController : MonoBehaviour
     }
 
     /// <summary>
+    /// Play hiệu ứng âm thanh trực tiếp từ AudioClip (one shot)
+    /// </summary>
+    public void PlaySfx(AudioClip clip, float volume = 1f)
+    {
+        if (clip == null) return;
+        if (sfxSource == null)
+        {
+            Debug.LogError("Chưa gán SfxSource trong AudioController!");
+            return;
+        }
+
+        sfxSource.PlayOneShot(clip, volume);
+    }
+
+    /// <summary>
     /// Stop tất cả SFX đang phát
     /// </summary>
     public void StopSfx()

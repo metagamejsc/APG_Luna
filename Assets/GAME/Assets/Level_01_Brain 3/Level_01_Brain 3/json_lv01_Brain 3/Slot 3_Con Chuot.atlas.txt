@@ -1,0 +1,22 @@
+Slot 3_Con Chuot.png
+size:56,212
+filter:Linear,Linear
+pma:true
+scale:0.5
+box
+bounds:2,50,46,41
+offsets:0,1,46,42
+mouse_arm
+bounds:10,200,13,8
+mouse_body2
+bounds:2,170,48,28
+mouse_head
+bounds:2,135,43,33
+mouse_hole_b
+bounds:2,93,40,48
+rotate:90
+mouse_hole_f
+bounds:2,2,46,51
+rotate:90
+mouse_mouth
+bounds:2,202,6,6

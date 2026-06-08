@@ -1,0 +1,10 @@
+Slot 6_Buc Tranh.png
+size:164,132
+filter:Linear,Linear
+pma:true
+scale:0.5
+box_photo
+bounds:137,96,32,25
+rotate:90
+photo
+bounds:2,2,133,126

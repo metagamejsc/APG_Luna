@@ -1,0 +1,15 @@
+Slot 1_Dog.png
+size:104,244
+filter:Linear,Linear
+pma:true
+scale:0.5
+dog_bark
+bounds:2,135,78,96
+rotate:90
+dog_bark_fx
+bounds:16,215,25,26
+rotate:90
+dog_bark_mouth
+bounds:2,232,12,8
+dog_fat
+bounds:2,2,97,131

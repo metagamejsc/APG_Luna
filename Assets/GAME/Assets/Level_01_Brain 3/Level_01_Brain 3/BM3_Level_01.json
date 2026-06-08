@@ -1,0 +1,273 @@
+{ "skeleton": { "images": "C:/Users/PC/Desktop/BRAIN MASTER/ANIMATION/Level_BM3/Level_01_Brain 3/images/" },
+"PhotoshopToSpine": { "scale": 1, "padding": 1, "trim": true },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "BG_b", "bone": "root", "attachment": "BG_b" },
+	{ "name": "hobo", "bone": "root", "attachment": "hobo" },
+	{ "name": "hobo_sad", "bone": "root", "attachment": "hobo_sad" },
+	{ "name": "box_hobo", "bone": "root", "attachment": "box_hobo" },
+	{ "name": "BG_F", "bone": "root", "attachment": "BG_F" },
+	{ "name": "spider", "bone": "root", "attachment": "spider" },
+	{ "name": "spider_fat", "bone": "root", "attachment": "spider_fat" },
+	{ "name": "socket_b", "bone": "root", "attachment": "socket_b" },
+	{ "name": "box_socket", "bone": "root", "attachment": "box_socket" },
+	{ "name": "socket_f", "bone": "root", "attachment": "socket_f" },
+	{ "name": "mouse_hole_b", "bone": "root", "attachment": "mouse_hole_b" },
+	{ "name": "mouse_hole_f", "bone": "root", "attachment": "mouse_hole_f" },
+	{ "name": "safe", "bone": "root", "attachment": "safe" },
+	{ "name": "box_safe", "bone": "root", "attachment": "box_safe" },
+	{ "name": "safe_door_closed", "bone": "root", "attachment": "safe_door_closed" },
+	{ "name": "safe_door_opened", "bone": "root", "attachment": "safe_door_opened" },
+	{ "name": "safe_handle", "bone": "root", "attachment": "safe_handle" },
+	{ "name": "photo", "bone": "root", "attachment": "photo" },
+	{ "name": "box_photo", "bone": "root", "attachment": "box_photo" },
+	{ "name": "pot_B", "bone": "root", "attachment": "pot_B" },
+	{ "name": "box_pot", "bone": "root", "attachment": "box_pot" },
+	{ "name": "window_door_closed1", "bone": "root", "attachment": "window_door_closed1" },
+	{ "name": "window_door_closed2", "bone": "root", "attachment": "window_door_closed2" },
+	{ "name": "window_door_opened1", "bone": "root", "attachment": "window_door_opened1" },
+	{ "name": "plant", "bone": "root", "attachment": "plant" },
+	{ "name": "pot_F", "bone": "root", "attachment": "pot_F" },
+	{ "name": "dog_bark", "bone": "root", "attachment": "dog_bark" },
+	{ "name": "dog_bark_mouth", "bone": "root", "attachment": "dog_bark_mouth" },
+	{ "name": "dog_bark_fx", "bone": "root", "attachment": "dog_bark_fx" },
+	{ "name": "dog_fat", "bone": "root", "attachment": "dog_fat" },
+	{ "name": "mouse_body", "bone": "root", "attachment": "mouse_body" },
+	{ "name": "mouse_head", "bone": "root", "attachment": "mouse_head" },
+	{ "name": "box", "bone": "root", "attachment": "box" },
+	{ "name": "mouse_arm", "bone": "root", "attachment": "mouse_arm" },
+	{ "name": "dude_man_scared_B", "bone": "root", "attachment": "dude_man_scared_B" },
+	{ "name": "dude_body", "bone": "root", "attachment": "dude_body" },
+	{ "name": "cheek", "bone": "root", "attachment": "cheek" },
+	{ "name": "dude_scared", "bone": "root", "attachment": "dude_scared" },
+	{ "name": "dude_cry", "bone": "root", "attachment": "dude_cry" },
+	{ "name": "dude_relief", "bone": "root", "attachment": "dude_relief" },
+	{ "name": "sign_fx", "bone": "root", "attachment": "sign_fx" },
+	{ "name": "dude_man_eat_B", "bone": "root", "attachment": "dude_man_eat_B" },
+	{ "name": "dude_man_eat_F", "bone": "root", "attachment": "dude_man_eat_F" },
+	{ "name": "dude_man_scared_F", "bone": "root", "attachment": "dude_man_scared_F" },
+	{ "name": "drumstick1", "bone": "root", "attachment": "drumstick1" },
+	{ "name": "drumstick2", "bone": "root", "attachment": "drumstick2" },
+	{ "name": "egg_cracked", "bone": "root", "attachment": "egg_cracked" },
+	{ "name": "table", "bone": "root", "attachment": "table" },
+	{ "name": "wall", "bone": "root", "attachment": "wall" },
+	{ "name": "door_opened", "bone": "root", "attachment": "door_opened" },
+	{ "name": "door_closed", "bone": "root", "attachment": "door_closed" },
+	{ "name": "chicken_arm_B", "bone": "root", "attachment": "chicken_arm_B" },
+	{ "name": "chicken_tail", "bone": "root", "attachment": "chicken_tail" },
+	{ "name": "chicken_leg_B", "bone": "root", "attachment": "chicken_leg_B" },
+	{ "name": "chicken_body", "bone": "root", "attachment": "chicken_body" },
+	{ "name": "chicken_butt", "bone": "root", "attachment": "chicken_butt" },
+	{ "name": "laser_eye", "bone": "root", "attachment": "laser_eye" },
+	{ "name": "chicken_leg_F", "bone": "root", "attachment": "chicken_leg_F" },
+	{ "name": "chicken_head", "bone": "root", "attachment": "chicken_head" },
+	{ "name": "chicken_arm_F", "bone": "root", "attachment": "chicken_arm_F" },
+	{ "name": "chicken_eyes_angry", "bone": "root", "attachment": "chicken_eyes_angry" },
+	{ "name": "chicken_smile", "bone": "root", "attachment": "chicken_smile" },
+	{ "name": "chicken_angrier", "bone": "root", "attachment": "chicken_angrier" },
+	{ "name": "chicken_push", "bone": "root", "attachment": "chicken_push" },
+	{ "name": "egg", "bone": "root", "attachment": "egg" }
+],
+"skins": {
+	"default": {
+		"BG_b": {
+			"BG_b": { "x": 1008.5, "y": -639.5, "width": 445, "height": 319 }
+		},
+		"hobo": {
+			"hobo": { "x": 941, "y": -671, "width": 212, "height": 248 }
+		},
+		"hobo_sad": {
+			"hobo_sad": { "x": 924.5, "y": -627.5, "width": 63, "height": 79 }
+		},
+		"box_hobo": {
+			"box_hobo": { "x": 921.5, "y": -730.5, "width": 115, "height": 75 }
+		},
+		"BG_F": {
+			"BG_F": { "x": 540, "y": -924, "width": 1082, "height": 1258 }
+		},
+		"spider": {
+			"spider": { "x": 976.5, "y": -378.5, "width": 115, "height": 89 }
+		},
+		"spider_fat": {
+			"spider_fat": { "x": 1005, "y": -355.5, "width": 174, "height": 135 }
+		},
+		"socket_b": {
+			"socket_b": { "x": 968.5, "y": -874, "width": 77, "height": 76 }
+		},
+		"box_socket": {
+			"box_socket": { "x": 965.5, "y": -871.5, "width": 69, "height": 65 }
+		},
+		"socket_f": {
+			"socket_f": { "x": 970, "y": -874, "width": 86, "height": 82 }
+		},
+		"mouse_hole_b": {
+			"mouse_hole_b": { "x": 841.5, "y": -992.5, "width": 79, "height": 95 }
+		},
+		"mouse_hole_f": {
+			"mouse_hole_f": { "x": 840, "y": -989, "width": 92, "height": 102 }
+		},
+		"safe": {
+			"safe": { "x": 585, "y": -971.5, "width": 292, "height": 289 }
+		},
+		"box_safe": {
+			"box_safe": { "x": 581, "y": -1023.5, "width": 144, "height": 97 }
+		},
+		"safe_door_closed": {
+			"safe_door_closed": { "x": 587, "y": -979.5, "width": 246, "height": 191 }
+		},
+		"safe_door_opened": {
+			"safe_door_opened": { "x": 430, "y": -1005, "width": 88, "height": 242 }
+		},
+		"safe_handle": {
+			"safe_handle": { "x": 623.5, "y": -982.5, "width": 147, "height": 147 }
+		},
+		"photo": {
+			"photo": { "x": 574.5, "y": -440.5, "width": 265, "height": 251 }
+		},
+		"box_photo": {
+			"box_photo": { "x": 580, "y": -455.5, "width": 64, "height": 49 }
+		},
+		"pot_B": {
+			"pot_B": { "x": 528, "y": -801.5, "width": 124, "height": 123 }
+		},
+		"box_pot": {
+			"box_pot": { "x": 531.5, "y": -782, "width": 77, "height": 68 }
+		},
+		"window_door_closed1": {
+			"window_door_closed1": { "x": 875.5, "y": -634.5, "width": 175, "height": 299 }
+		},
+		"window_door_closed2": {
+			"window_door_closed2": { "x": 1049, "y": -634.5, "width": 178, "height": 299 }
+		},
+		"window_door_opened1": {
+			"window_door_opened1": { "x": 764.5, "y": -664.5, "width": 65, "height": 361 }
+		},
+		"plant": {
+			"plant": { "x": 520, "y": -711.5, "width": 296, "height": 265 }
+		},
+		"pot_F": {
+			"pot_F": { "x": 527, "y": -808, "width": 124, "height": 116 }
+		},
+		"dog_bark": {
+			"dog_bark": { "x": 588, "y": -1197, "width": 156, "height": 192 }
+		},
+		"dog_bark_mouth": {
+			"dog_bark_mouth": { "x": 544.5, "y": -1174, "width": 23, "height": 16 }
+		},
+		"dog_bark_fx": {
+			"dog_bark_fx": { "x": 486.5, "y": -1146, "width": 49, "height": 52 }
+		},
+		"dog_fat": {
+			"dog_fat": { "x": 570.5, "y": -1198, "width": 193, "height": 262 }
+		},
+		"mouse_body": {
+			"mouse_body": { "x": 833, "y": -1064.5, "width": 92, "height": 53 }
+		},
+		"mouse_head": {
+			"mouse_head": { "x": 815, "y": -1018.5, "width": 86, "height": 65 }
+		},
+		"box": {
+			"box": { "x": 768, "y": -1075.5, "width": 92, "height": 83 }
+		},
+		"mouse_arm": {
+			"mouse_arm": { "x": 809, "y": -1056.5, "width": 26, "height": 15 }
+		},
+		"dude_man_scared_B": {
+			"dude_man_scared_B": { "x": 911.5, "y": -1086, "width": 163, "height": 200 }
+		},
+		"dude_body": {
+			"dude_body": { "x": 909, "y": -1240.5, "width": 422, "height": 581 }
+		},
+		"cheek": {
+			"cheek": { "x": 1000, "y": -1068.5, "width": 36, "height": 31 }
+		},
+		"dude_scared": {
+			"dude_scared": { "x": 984, "y": -1041.5, "width": 88, "height": 93 }
+		},
+		"dude_cry": {
+			"dude_cry": { "x": 980, "y": -1050, "width": 80, "height": 104 }
+		},
+		"dude_relief": {
+			"dude_relief": { "x": 982.5, "y": -1044, "width": 83, "height": 84 }
+		},
+		"sign_fx": {
+			"sign_fx": { "x": 956.5, "y": -1091.5, "width": 33, "height": 31 }
+		},
+		"dude_man_eat_B": {
+			"dude_man_eat_B": { "x": 885.5, "y": -1201.5, "width": 95, "height": 199 }
+		},
+		"dude_man_eat_F": {
+			"dude_man_eat_F": { "x": 1051, "y": -1217.5, "width": 198, "height": 197 }
+		},
+		"dude_man_scared_F": {
+			"dude_man_scared_F": { "x": 1063, "y": -1091.5, "width": 124, "height": 221 }
+		},
+		"drumstick1": {
+			"drumstick1": { "x": 961, "y": -1215.5, "width": 60, "height": 83 }
+		},
+		"drumstick2": {
+			"drumstick2": { "x": 1032, "y": -1227, "width": 66, "height": 104 }
+		},
+		"egg_cracked": {
+			"egg_cracked": { "x": 980.5, "y": -970.5, "width": 107, "height": 83 }
+		},
+		"table": {
+			"table": { "x": 699.5, "y": -1514.5, "width": 561, "height": 305 }
+		},
+		"wall": {
+			"wall": { "x": 350.5, "y": -910.5, "width": 149, "height": 1435 }
+		},
+		"door_opened": {
+			"door_opened": { "x": 126, "y": -791.5, "width": 334, "height": 659 }
+		},
+		"door_closed": {
+			"door_closed": { "x": 321.5, "y": -1039, "width": 87, "height": 1156 }
+		},
+		"chicken_arm_B": {
+			"chicken_arm_B": { "x": 247.5, "y": -1044.5, "width": 177, "height": 185 }
+		},
+		"chicken_tail": {
+			"chicken_tail": { "x": -52, "y": -1033, "width": 228, "height": 302 }
+		},
+		"chicken_leg_B": {
+			"chicken_leg_B": { "x": 209, "y": -1240.5, "width": 140, "height": 179 }
+		},
+		"chicken_body": {
+			"chicken_body": { "x": 142.5, "y": -1072, "width": 275, "height": 294 }
+		},
+		"chicken_butt": {
+			"chicken_butt": { "x": 40, "y": -1177.5, "width": 24, "height": 25 }
+		},
+		"laser_eye": {
+			"laser_eye": { "x": 458, "y": -877, "width": 474, "height": 120 }
+		},
+		"chicken_leg_F": {
+			"chicken_leg_F": { "x": 122, "y": -1243.5, "width": 148, "height": 203 }
+		},
+		"chicken_head": {
+			"chicken_head": { "x": 166.5, "y": -877.5, "width": 177, "height": 241 }
+		},
+		"chicken_arm_F": {
+			"chicken_arm_F": { "x": 74.5, "y": -1067.5, "width": 163, "height": 205 }
+		},
+		"chicken_eyes_angry": {
+			"chicken_eyes_angry": { "x": 184, "y": -873.5, "width": 74, "height": 43 }
+		},
+		"chicken_smile": {
+			"chicken_smile": { "x": 198, "y": -903, "width": 112, "height": 102 }
+		},
+		"chicken_angrier": {
+			"chicken_angrier": { "x": 195.5, "y": -912, "width": 115, "height": 112 }
+		},
+		"chicken_push": {
+			"chicken_push": { "x": 186.5, "y": -911, "width": 133, "height": 114 }
+		},
+		"egg": {
+			"egg": { "x": 252.5, "y": -1225.5, "width": 67, "height": 53 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
