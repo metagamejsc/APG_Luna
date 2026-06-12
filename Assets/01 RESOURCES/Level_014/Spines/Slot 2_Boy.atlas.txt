@@ -1,0 +1,10 @@
+Slot 2_Boy.png
+size:524,180
+filter:Linear,Linear
+pma:true
+boy
+bounds:2,2,173,372
+rotate:90
+boy_hair
+bounds:376,15,160,145
+rotate:90
