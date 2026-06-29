@@ -1,6 +1,0 @@
-Slot 4_Ba Ngoai.png
-size:112,104
-filter:Linear,Linear
-pma:true
-gramma_hair
-bounds:2,2,106,99

@@ -2453,7 +2453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 206e9e19956058b48a5478497ac3da84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BGM: {fileID: 8300000, guid: 4866e2dc787dace4c91a5114015edf9d, type: 3}
+  BGM: {fileID: 8300000, guid: fda911ba53e86cb45b3cd536aef0078e, type: 3}
   musicSource: {fileID: 1850039196}
   SFXPool: {fileID: 939656907}
 --- !u!1 &879256909
