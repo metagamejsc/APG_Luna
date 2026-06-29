@@ -1,14 +1,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class DragController : MonoBehaviour
 {
     [SerializeField] private GameObject currentTarget;
-    [SerializeField] private RectTransform iconCheese;
     [SerializeField] private RectTransform iconMedicine;
     [SerializeField] private RectTransform canvas;
+
+    [SerializeField] private AudioClip door;
+    [SerializeField] private GameObject board1;
+    [SerializeField] private GameObject board2;
 
     [SerializeField] private TutController tut;
 
@@ -32,14 +34,7 @@ public class DragController : MonoBehaviour
         if (!gameObject.CompareTag("Cheese") && !gameObject.CompareTag("Medicine")) return;
         currentTarget = gameObject;
         if (currentIcon) currentIcon.gameObject.SetActive(false);
-        if (gameObject.CompareTag("Cheese"))
-        {
-            currentIcon = iconCheese;
-        }
-        else
-        {
-            currentIcon = iconMedicine;
-        }
+        currentIcon = iconMedicine;
         gameObject.SetActive(false);
         currentIcon.gameObject.SetActive(true);
     }
@@ -52,6 +47,11 @@ public class DragController : MonoBehaviour
     private void HideOnClick(GameObject gameObject)
     {
         if (!gameObject.CompareTag("HideOnClick")) return;
+        if (gameObject.name.Equals("Door"))
+        {
+            AudioController.Ins.PlaySFX(door);
+            GameController.Ins.UpdateStep();
+        }
         GameController.Ins.NextAnimation(gameObject);
         gameObject.SetActive(false);
     }
@@ -62,6 +62,11 @@ public class DragController : MonoBehaviour
         {
             currentTarget.SetActive(true);
             return;
+        }
+        if (gameObject.name.Equals("GirlFBI"))
+        {
+            board1.SetActive(false);
+            board2.SetActive(true);
         }
         GameController.Ins.NextAnimation(gameObject);
 

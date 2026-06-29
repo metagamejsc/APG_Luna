@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using Spine.Unity;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +7,6 @@ public class GameController : MonoBehaviour
 {
     [SerializeField] private List<Seq> skeletons;
     private Dictionary<GameObject, AnimationController> maps;
-    [SerializeField] private MedicineController med;
 
     [Header("Progress")]
     [SerializeField] private bool end;
@@ -36,6 +34,7 @@ public class GameController : MonoBehaviour
         maps = new Dictionary<GameObject, AnimationController>();
         skeletons.ForEach(s => maps.Add(s.Area, s.Animation));
         currentStepText.text = currentStep.ToString();
+        maxStepText.text = maxStep.ToString();
         slider.value = (float)currentStep / maxStep;
     }
     public void NextAnimation(GameObject gameObject)
@@ -43,10 +42,9 @@ public class GameController : MonoBehaviour
         if (!maps.ContainsKey(gameObject)) return;
         maps[gameObject].NextAnimation();
         if (!gameObject.CompareTag("Drop")) return;
-        med.PlayAnim(gameObject);
         UpdateStep();
     }
-    private void UpdateStep()
+    public void UpdateStep()
     {
         if (currentStep >= maxStep)
         {

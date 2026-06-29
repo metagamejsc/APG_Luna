@@ -23,19 +23,20 @@ public class AnimationController : MonoBehaviour
         currentIndex++;
         Anim anim = anims[currentIndex];
         var animation = skeleton.AnimationState.SetAnimation(0, anim.Key, anim.Loop);
-        if (anim.Sound.Count > 0)
+        if (anim.Sounds.Count > 0)
         {
-            StartCoroutine(WaitToAct(
-                anim.DelaySFX,
-                () =>
-                {
-                    anim.Sound.ForEach(s => AudioController.Ins.PlaySFX(s));
-                }));
-
+            foreach (Sound sound in anim.Sounds)
+            {
+                StartCoroutine(WaitToAct(sound.TimeDelay, () => PlaySFX(sound.Clip)));
+            }
         }
 
         if (!anim.Next) return;
         animation.Complete += _ => NextAnimation();
+    }
+    private void PlaySFX(AudioClip clip)
+    {
+        AudioController.Ins.PlaySFX(clip);
     }
     private IEnumerator WaitToAct(float time, Action action)
     {
@@ -47,8 +48,13 @@ public class AnimationController : MonoBehaviour
 public struct Anim
 {
     [SerializeField, SpineAnimation(dataField = "skeletonAnimation")] public string Key;
-    public List<AudioClip> Sound;
-    public float DelaySFX;
+    public List<Sound> Sounds;
     public bool Loop;
     public bool Next;
+}
+[System.Serializable]
+public struct Sound
+{
+    public float TimeDelay;
+    public AudioClip Clip;
 }
