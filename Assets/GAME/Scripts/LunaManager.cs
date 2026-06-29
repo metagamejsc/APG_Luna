@@ -16,6 +16,7 @@ public class LunaManager : MonoBehaviour
     [SerializeField] private Image imgProgess;
     public GameObject Parent;
     public bool isDrag = false;
+    public bool isCreative = false;
     public float timeDrag = 1f;
 
     //public int processBuildRope = 0;
@@ -73,6 +74,7 @@ public class LunaManager : MonoBehaviour
 
             // Khi hết giờ: đổi sang text khác
             timeText.text = "0";
+            ShowEndCard();
         }
         else
         {
@@ -149,6 +151,7 @@ public class LunaManager : MonoBehaviour
     {
         //AudioManager.ins.PlaySoundReward();
         EndCard.SetActive(true);
+        isCreative = true;
         Debug.Log("Show end card");
         Luna.Unity.LifeCycle.GameEnded();
     }

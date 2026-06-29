@@ -1,0 +1,12 @@
+Slot 7_Cua So.png
+size:620,352
+filter:Linear,Linear
+pma:true
+window_new
+bounds:326,2,347,289
+offsets:1,1,349,291
+rotate:90
+window_old
+bounds:2,19,330,322
+offsets:1,1,332,324
+rotate:90

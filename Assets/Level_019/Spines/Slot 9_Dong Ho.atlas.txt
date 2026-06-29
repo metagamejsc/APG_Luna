@@ -1,0 +1,15 @@
+Slot 9_Dong Ho.png
+size:420,180
+filter:Linear,Linear
+pma:true
+clock_new
+bounds:2,2,176,268
+offsets:1,2,178,271
+rotate:90
+clock_new_anim
+bounds:272,6,24,137
+offsets:1,1,26,139
+rotate:90
+clock_old
+bounds:272,32,143,146
+offsets:1,2,147,149

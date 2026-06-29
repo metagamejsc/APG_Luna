@@ -1,0 +1,26 @@
+Slot 8_Cua Nha.png
+size:1256,628
+filter:Linear,Linear
+pma:true
+BG_B2
+bounds:499,2,235,483
+offsets:1,1,237,485
+rotate:90
+door_new_closed
+bounds:2,365,258,495
+offsets:1,8,260,504
+rotate:90
+door_new_opened2
+bounds:499,239,258,495
+offsets:0,1,258,496
+rotate:90
+door_old_closed
+bounds:996,2,258,495
+offsets:1,2,260,498
+door_old_opened
+bounds:499,499,124,572
+rotate:90
+door_old_opened2
+bounds:2,105,258,495
+offsets:0,1,258,496
+rotate:90

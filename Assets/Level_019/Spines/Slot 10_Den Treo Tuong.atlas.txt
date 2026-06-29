@@ -1,0 +1,14 @@
+Slot 10_Den Treo Tuong.png
+size:564,460
+filter:Linear,Linear
+pma:true
+glow
+bounds:2,2,455,464
+offsets:33,22,505,502
+rotate:90
+lamp_new
+bounds:468,91,86,185
+offsets:1,1,88,187
+lamp_old
+bounds:468,278,91,179
+offsets:1,1,93,181

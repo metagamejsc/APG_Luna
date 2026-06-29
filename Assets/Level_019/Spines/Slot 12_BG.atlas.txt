@@ -1,0 +1,8 @@
+Slot 12_BG.png
+size:612,500
+filter:Linear,Linear
+pma:true
+BG_f_new
+bounds:337,17,271,481
+BG_f_old
+bounds:2,2,333,496

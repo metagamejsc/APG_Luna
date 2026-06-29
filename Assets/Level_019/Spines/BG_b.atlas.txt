@@ -1,0 +1,15 @@
+BG_b.png
+size:884,340
+filter:Linear,Linear
+pma:true
+BG_B1
+bounds:576,74,304,261
+offsets:1,1,306,263
+snow1
+bounds:576,23,51,49
+wind
+bounds:2,2,333,572
+rotate:90
+wind 2
+bounds:629,49,63,23
+offsets:5,31,112,85

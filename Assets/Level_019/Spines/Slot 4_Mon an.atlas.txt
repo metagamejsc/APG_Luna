@@ -1,0 +1,11 @@
+Slot 4_Mon an.png
+size:308,160
+filter:Linear,Linear
+pma:true
+disk_new
+bounds:2,2,235,154
+offsets:1,1,237,156
+disk_old
+bounds:239,19,137,64
+offsets:1,1,141,66
+rotate:90

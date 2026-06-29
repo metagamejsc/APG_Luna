@@ -1,0 +1,10 @@
+Slot 5_Dog.png
+size:280,172
+filter:Linear,Linear
+pma:true
+sag
+bounds:177,42,128,98
+offsets:1,1,130,100
+rotate:90
+shiba_old
+bounds:2,2,173,168

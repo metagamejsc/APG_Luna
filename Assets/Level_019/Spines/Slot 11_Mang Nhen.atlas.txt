@@ -1,0 +1,10 @@
+Slot 11_Mang Nhen.png
+size:444,236
+filter:Linear,Linear
+pma:true
+web_af
+bounds:277,12,220,163
+rotate:90
+web_bf
+bounds:2,2,230,273
+rotate:90

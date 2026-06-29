@@ -1,0 +1,12 @@
+Slot 3_Ban an.png
+size:736,416
+filter:Linear,Linear
+pma:true
+table_new
+bounds:384,2,412,350
+offsets:1,1,414,352
+rotate:90
+table_old
+bounds:2,32,382,380
+offsets:1,2,384,384
+rotate:90
