@@ -1,0 +1,14 @@
+Slot 8_Tap Cua Nha Vs.png
+size:736,304
+filter:Linear,Linear
+pma:true
+dad
+bounds:560,2,174,298
+dad_hair
+bounds:470,223,87,77
+door2_closed
+bounds:2,76,224,466
+rotate:90
+door2_opened
+bounds:2,13,61,556
+rotate:90

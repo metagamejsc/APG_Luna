@@ -1,0 +1,13 @@
+popup_Tap_Tv.png
+size:628,184
+filter:Linear,Linear
+pma:true
+TV
+bounds:2,2,247,179
+offsets:1,1,249,181
+TV_on2
+bounds:251,2,247,179
+offsets:1,1,249,181
+tut_hand2
+bounds:500,38,143,123
+rotate:90
