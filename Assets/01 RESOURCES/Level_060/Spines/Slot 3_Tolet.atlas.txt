@@ -1,0 +1,12 @@
+Slot 3_Tolet.png
+size:464,288
+filter:Linear,Linear
+pma:true
+arm
+bounds:374,8,87,277
+toilet
+bounds:2,2,184,283
+offsets:1,1,186,286
+toilet_clean
+bounds:188,2,184,283
+offsets:1,1,186,286

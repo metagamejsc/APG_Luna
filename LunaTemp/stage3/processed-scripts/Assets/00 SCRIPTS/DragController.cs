@@ -1,13 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class DragController : MonoBehaviour
 {
     [SerializeField] private GameObject currentTarget;
-    [SerializeField] private RectTransform iconCheese;
-    [SerializeField] private RectTransform iconMedicine;
+    [SerializeField] private AudioClip pickupSound;
+    [SerializeField] private RectTransform iconItem;
     [SerializeField] private RectTransform canvas;
 
     [SerializeField] private TutController tut;
@@ -29,19 +28,15 @@ public class DragController : MonoBehaviour
 
     private void SetTarget(GameObject gameObject)
     {
-        if (!gameObject.CompareTag("Cheese") && !gameObject.CompareTag("Medicine")) return;
-        currentTarget = gameObject;
+        if (!gameObject.CompareTag("Item")) return;
         if (currentIcon) currentIcon.gameObject.SetActive(false);
-        if (gameObject.CompareTag("Cheese"))
-        {
-            currentIcon = iconCheese;
-        }
-        else
-        {
-            currentIcon = iconMedicine;
-        }
         gameObject.SetActive(false);
+
+        currentTarget = gameObject;
+        currentIcon = iconItem;
+
         currentIcon.gameObject.SetActive(true);
+        AudioController.Ins.PlaySFX(pickupSound);
     }
     private void RemoveTarget()
     {
@@ -49,16 +44,10 @@ public class DragController : MonoBehaviour
         currentIcon.gameObject.SetActive(false);
     }
 
-    private void HideOnClick(GameObject gameObject)
-    {
-        if (!gameObject.CompareTag("HideOnClick")) return;
-        GameController.Ins.NextAnimation(gameObject);
-        gameObject.SetActive(false);
-    }
-    private void DropMedicine(GameObject gameObject)
+    private void DropItem(GameObject gameObject)
     {
         if (!currentTarget) return;
-        if (!gameObject.CompareTag("Drop") || !currentTarget.CompareTag("Medicine"))
+        if (!gameObject.CompareTag("Drop") || !currentTarget.CompareTag("Item"))
         {
             currentTarget.SetActive(true);
             return;
@@ -69,19 +58,7 @@ public class DragController : MonoBehaviour
         gameObject.SetActive(false);
         RemoveTarget();
     }
-    private void DropCheese(GameObject gameObject)
-    {
-        if (!currentTarget) return;
-        if (!gameObject.CompareTag("Mouse") || !currentTarget.CompareTag("Cheese"))
-        {
-            currentTarget.SetActive(true);
-            return;
-        }
-        GameController.Ins.NextAnimation(gameObject);
-        currentTarget.SetActive(false);
-        gameObject.SetActive(false);
-        RemoveTarget();
-    }
+    
     private void CheckInputDown()
     {
         if (Input.GetMouseButtonDown(0))
@@ -100,7 +77,6 @@ public class DragController : MonoBehaviour
             if (results.Count > 0)
             {
                 GameObject result = results[0].gameObject;
-                HideOnClick(result);
                 SetTarget(result);
             }
         }
@@ -118,8 +94,7 @@ public class DragController : MonoBehaviour
             if (results.Count > 0)
             {
                 GameObject result = results[0].gameObject;
-                DropMedicine(result);
-                DropCheese(result);
+                DropItem(result);
             }
             if (!currentTarget) return;
             currentTarget.SetActive(true);

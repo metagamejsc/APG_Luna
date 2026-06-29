@@ -1,0 +1,85 @@
+{
+    "BuildID": "94014e98-048e-41f9-9b7e-0edba8dc405d",
+    "Command": "project:upload",
+    "ProjectID": "5b44dfd2230fe054ca8da1b65d37e310",
+    "ProjectStateHash": "73e4893b5231b15c4e2e1d32e14986161d1a8e41ed97e2c331ce25ce86f9a3ab",
+    "StageCompletedAt": 3,
+    "EarliestFatalError": 0,
+    "StartTime": 1782724757016,
+    "EndTime": 1782724820433,
+    "PlaygroundUserID": 8652,
+    "OperatingSystem": "win32",
+    "UnityPackageID": null,
+    "TargetPlatform": "playground",
+    "UnityVersion": "2022.3.47f1",
+    "LunaVersion": "6.4.0",
+    "LogCount": 3,
+    "Logs": [
+        {
+            "LogID": "7bae399d-cafc-469c-8105-bb665539bb67",
+            "Order": 3,
+            "Timestamp": 1782724821458,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3007",
+            "Description": "You are not using any custom events",
+            "Details": [
+                "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+            ],
+            "DescriptionValues": [
+                ""
+            ],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "de419698-eb72-4491-b11e-07f785434e3d",
+            "Order": 0,
+            "Timestamp": 1782724764031,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1014",
+            "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+            "Details": [
+                "Navigate to the Runtime Analysis → Code tab to enable code stripping. Before uploading the playable, please make sure to have played all scenario’s of the playable in a development build to make Runtime Analysis work properly."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "cfbd3e17-fa23-425c-93aa-c1492e609c5b",
+            "Order": 1,
+            "Timestamp": 1782724764106,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1027",
+            "Description": "This DOTween version is not supported",
+            "Details": [
+                "The incorrect DOTween version for this Unity version is in use, please update or downgrade to the recommended version {0} in the package manager. Go to Window → Package Manager."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        }
+    ]
+}

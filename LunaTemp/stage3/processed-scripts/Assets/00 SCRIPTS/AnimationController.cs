@@ -25,13 +25,9 @@ public class AnimationController : MonoBehaviour
         var animation = skeleton.AnimationState.SetAnimation(0, anim.Key, anim.Loop);
         if (anim.Sound.Count > 0)
         {
-            StartCoroutine(WaitToAct(
-                anim.DelaySFX,
-                () =>
-                {
-                    anim.Sound.ForEach(s => AudioController.Ins.PlaySFX(s));
-                }));
-
+            anim.Sound.ForEach(
+                s => StartCoroutine(WaitToAct(s.Delay, () => AudioController.Ins.PlaySFX(s.Clip)))
+                );
         }
 
         if (!anim.Next) return;
@@ -39,16 +35,25 @@ public class AnimationController : MonoBehaviour
     }
     private IEnumerator WaitToAct(float time, Action action)
     {
-        yield return new WaitForSeconds(time);
-        action?.Invoke();
+        if (time == 0) action?.Invoke();
+        else
+        {
+            yield return new WaitForSeconds(time);
+            action?.Invoke();
+        }
     }
 }
-[System.Serializable]
+[Serializable]
 public struct Anim
 {
     [SerializeField, SpineAnimation(dataField = "skeletonAnimation")] public string Key;
-    public List<AudioClip> Sound;
-    public float DelaySFX;
+    public List<Sound> Sound;
     public bool Loop;
     public bool Next;
+}
+[Serializable]
+public struct Sound
+{
+    public AudioClip Clip;
+    public float Delay;
 }

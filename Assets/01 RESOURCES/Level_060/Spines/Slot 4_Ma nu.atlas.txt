@@ -1,0 +1,9 @@
+Slot 4_Ma nu.png
+size:620,512
+filter:Linear,Linear
+pma:true
+demon_maid
+bounds:359,2,259,506
+offsets:23,30,302,553
+maid
+bounds:2,82,355,426

@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 9fcf24efb48c3d448b0dd0c83faf8ef2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4282327340568691798
+    second: Slot 6_Trai Tim_0
+  - first:
+      213: -5801236746833141683
+    second: Slot 6_Trai Tim_1
+  - first:
+      213: 7336118834716069863
+    second: Slot 6_Trai Tim_2
+  - first:
+      213: -1120313958304797388
+    second: Slot 6_Trai Tim_3
+  - first:
+      213: 8824400735891589806
+    second: Slot 6_Trai Tim_4
+  - first:
+      213: -6313278751098256699
+    second: Slot 6_Trai Tim_5
+  - first:
+      213: 1247311586353950403
+    second: Slot 6_Trai Tim_6
+  - first:
+      213: -3010401571099569811
+    second: Slot 6_Trai Tim_7
+  - first:
+      213: -2004317217797375818
+    second: Slot 6_Trai Tim_8
+  - first:
+      213: -964256437866213378
+    second: Slot 6_Trai Tim_9
+  - first:
+      213: -3045255096978249820
+    second: Slot 6_Trai Tim_10
+  - first:
+      213: -8193010361412186006
+    second: Slot 6_Trai Tim_11
+  - first:
+      213: 8974346987774435018
+    second: Slot 6_Trai Tim_12
+  - first:
+      213: 6285088025814924824
+    second: Slot 6_Trai Tim_13
+  - first:
+      213: -3739830928551637568
+    second: Slot 6_Trai Tim_14
+  - first:
+      213: -5734532859079015879
+    second: Slot 6_Trai Tim_15
+  - first:
+      213: -92540950656992177
+    second: Slot 6_Trai Tim_16
+  - first:
+      213: 3039058947848580274
+    second: Slot 6_Trai Tim_17
+  - first:
+      213: 7336952543032279531
+    second: Slot 6_Trai Tim_18
+  - first:
+      213: 5494872255543773200
+    second: Slot 6_Trai Tim_19
+  - first:
+      213: -5227848663897288558
+    second: Slot 6_Trai Tim_20
+  - first:
+      213: 8214895301206798937
+    second: Slot 6_Trai Tim_21
+  - first:
+      213: -623176825782622112
+    second: Slot 6_Trai Tim_22
+  - first:
+      213: -4671068539247556032
+    second: Slot 6_Trai Tim_23
+  - first:
+      213: 7071171181608766703
+    second: Slot 6_Trai Tim_24
+  - first:
+      213: 794320183677013568
+    second: Slot 6_Trai Tim_25
+  - first:
+      213: 2106874147155707520
+    second: Slot 6_Trai Tim_26
+  - first:
+      213: 4925921521073452069
+    second: Slot 6_Trai Tim_27
+  - first:
+      213: -2756157920524158247
+    second: Slot 6_Trai Tim_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 836
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabb575f8fd1294c0800000000000000
+      internalID: -4282327340568691798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 825
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40611f3aeddd7fa0800000000000000
+      internalID: -5801236746833141683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 788
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efcd4536312fc560800000000000000
+      internalID: 7336118834716069863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 776
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43da45ef368d370f0800000000000000
+      internalID: -1120313958304797388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 790
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa838237b1967a70800000000000000
+      internalID: 8824400735891589806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 687
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c244c0dc6ab268a0800000000000000
+      internalID: -6313278751098256699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 724
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce2bdc77475f4110800000000000000
+      internalID: 1247311586353950403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 714
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61155b88b7e836d0800000000000000
+      internalID: -3010401571099569811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 678
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8fcf71c1c3f24e0800000000000000
+      internalID: -2004317217797375818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 641
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effc99ce0e54e92f0800000000000000
+      internalID: -964256437866213378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 627
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7e92eaf941db5d0800000000000000
+      internalID: -3045255096978249820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 596
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a609ee61c749c4e80800000000000000
+      internalID: -8193010361412186006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_12
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 611
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace546989094b8c70800000000000000
+      internalID: 8974346987774435018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_13
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 528
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e72c8724e193750800000000000000
+      internalID: 6285088025814924824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 519
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd09afb593791cc0800000000000000
+      internalID: -3739830928551637568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 464
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9324acd5fb8da60b0800000000000000
+      internalID: -5734532859079015879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_16
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 316
+        width: 137
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cb9e4ee7a37bef0800000000000000
+      internalID: -92540950656992177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 464
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcacfde208ec2a20800000000000000
+      internalID: 3039058947848580274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_18
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 421
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1865d077712d560800000000000000
+      internalID: 7336952543032279531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_19
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 311
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01806dd0435b14c40800000000000000
+      internalID: 5494872255543773200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 311
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290d6e8a653f277b0800000000000000
+      internalID: -5227848663897288558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_21
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 250
+        width: 43
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952f47780cb210270800000000000000
+      internalID: 8214895301206798937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_22
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 324
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068a8fa8af70a57f0800000000000000
+      internalID: -623176825782622112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 133
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a85a479e70d2fb0800000000000000
+      internalID: -4671068539247556032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 185
+        width: 75
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec05c999b8d12260800000000000000
+      internalID: 7071171181608766703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_25
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 227
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ecdf1affdf50b00800000000000000
+      internalID: 794320183677013568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 116
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0868ba7cfde1d3d10800000000000000
+      internalID: 2106874147155707520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_27
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 33
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524f80756836c5440800000000000000
+      internalID: 4925921521073452069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slot 6_Trai Tim_28
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da374a59f820c9d0800000000000000
+      internalID: -2756157920524158247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Slot 6_Trai Tim_0: -4282327340568691798
+      Slot 6_Trai Tim_1: -5801236746833141683
+      Slot 6_Trai Tim_10: -3045255096978249820
+      Slot 6_Trai Tim_11: -8193010361412186006
+      Slot 6_Trai Tim_12: 8974346987774435018
+      Slot 6_Trai Tim_13: 6285088025814924824
+      Slot 6_Trai Tim_14: -3739830928551637568
+      Slot 6_Trai Tim_15: -5734532859079015879
+      Slot 6_Trai Tim_16: -92540950656992177
+      Slot 6_Trai Tim_17: 3039058947848580274
+      Slot 6_Trai Tim_18: 7336952543032279531
+      Slot 6_Trai Tim_19: 5494872255543773200
+      Slot 6_Trai Tim_2: 7336118834716069863
+      Slot 6_Trai Tim_20: -5227848663897288558
+      Slot 6_Trai Tim_21: 8214895301206798937
+      Slot 6_Trai Tim_22: -623176825782622112
+      Slot 6_Trai Tim_23: -4671068539247556032
+      Slot 6_Trai Tim_24: 7071171181608766703
+      Slot 6_Trai Tim_25: 794320183677013568
+      Slot 6_Trai Tim_26: 2106874147155707520
+      Slot 6_Trai Tim_27: 4925921521073452069
+      Slot 6_Trai Tim_28: -2756157920524158247
+      Slot 6_Trai Tim_3: -1120313958304797388
+      Slot 6_Trai Tim_4: 8824400735891589806
+      Slot 6_Trai Tim_5: -6313278751098256699
+      Slot 6_Trai Tim_6: 1247311586353950403
+      Slot 6_Trai Tim_7: -3010401571099569811
+      Slot 6_Trai Tim_8: -2004317217797375818
+      Slot 6_Trai Tim_9: -964256437866213378
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

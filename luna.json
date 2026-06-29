@@ -1,8 +1,8 @@
 {
     "version": "6.4.0",
     "projectId": "5b44dfd2230fe054ca8da1b65d37e310",
-    "applicationID": 38020,
-    "creativeName": "BMTP_V04_NgocBTU_TamNTM",
+    "applicationID": 39964,
+    "creativeName": "BM_V20_NgocBTU_TamNTM",
     "pgServer": "EU",
     "window": {
         "‐′": true
@@ -2004,10 +2004,6 @@
             },
             {
                 "name": "Luna.Unity.DTO.UnityEngine.Textures.Sprite",
-                "excluded": true
-            },
-            {
-                "name": "LunaUnity.Utils.Delay",
                 "excluded": true
             },
             {
@@ -19160,7 +19156,7 @@
                     },
                     {
                         "name": "color#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "color#set",
@@ -27515,6 +27511,14 @@
                     {
                         "name": "CreatNewSource",
                         "excluded": false
+                    },
+                    {
+                        "name": "PlayIntro",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Delay",
+                        "excluded": false
                     }
                 ]
             },
@@ -27749,23 +27753,15 @@
                         "excluded": false
                     },
                     {
-                        "name": "HideOnClick",
-                        "excluded": false
-                    },
-                    {
-                        "name": "DropMedicine",
-                        "excluded": false
-                    },
-                    {
-                        "name": "DropCheese",
-                        "excluded": false
-                    },
-                    {
                         "name": "CheckInputDown",
                         "excluded": false
                     },
                     {
                         "name": "CheckInputUp",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DropItem",
                         "excluded": false
                     }
                 ]
@@ -27792,7 +27788,7 @@
                     },
                     {
                         "name": "EndGame",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Start",
@@ -27848,46 +27844,6 @@
                     },
                     {
                         "name": "ClickCTA",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "Med",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "getDefaultValue",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ctor",
-                        "excluded": false
-                    },
-                    {
-                        "name": "getHashCode",
-                        "excluded": true
-                    },
-                    {
-                        "name": "equals",
-                        "excluded": true
-                    },
-                    {
-                        "name": "$clone",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "MedicineController",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "PlayAnim",
                         "excluded": false
                     }
                 ]
@@ -30822,7 +30778,7 @@
                     },
                     {
                         "name": "Apply",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Bones#get",
@@ -33245,6 +33201,54 @@
                         "excluded": false
                     }
                 ]
+            },
+            {
+                "className": "Sound",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "LunaUnity.Utils.Delay",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Stop",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Tick",
+                        "excluded": false
+                    }
+                ]
             }
         ],
         "stubberDataList": [],
@@ -33305,6 +33309,16 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/01 RESOURCES/Level_014/Sounds/BG_MainGame.wav"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:58.856",
+                        "lengthInSeconds": 58.85599899291992,
+                        "bitrate": 32,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/01 RESOURCES/Level_060/Sounds/BG_MainGame.wav"
                     }
                 ]
             },

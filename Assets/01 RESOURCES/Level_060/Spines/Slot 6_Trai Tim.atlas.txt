@@ -1,0 +1,16 @@
+Slot 6_Trai Tim.png
+size:264,864
+filter:Linear,Linear
+pma:true
+eyes1
+bounds:181,516,78,345
+offsets:2,2,83,349
+eyes2
+bounds:144,50,96,348
+offsets:2,2,100,351
+hole
+bounds:2,400,177,461
+offsets:1,1,180,463
+sticker
+bounds:2,2,140,396
+offsets:1,1,142,398

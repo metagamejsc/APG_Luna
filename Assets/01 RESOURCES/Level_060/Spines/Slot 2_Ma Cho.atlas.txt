@@ -1,0 +1,12 @@
+Slot 2_Ma Cho.png
+size:416,252
+filter:Linear,Linear
+pma:true
+demon_dog
+bounds:2,2,247,263
+rotate:90
+husky_sit
+bounds:267,74,144,175
+offsets:17,0,161,175
+husky_tongue
+bounds:267,36,22,36

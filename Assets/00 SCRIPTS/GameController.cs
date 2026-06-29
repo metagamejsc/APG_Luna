@@ -1,16 +1,21 @@
 using System;
 using System.Collections.Generic;
-using Spine.Unity;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
     [SerializeField] private List<Seq> skeletons;
+    [SerializeField] private GameObject demon;
+
     private Dictionary<GameObject, AnimationController> maps;
-    [SerializeField] private MedicineController med;
+
+
+    [SerializeField] private AnimationController mainAnimation;
+
 
     [Header("Progress")]
+    [SerializeField] private AudioClip correctSound;
     [SerializeField] private bool end;
     [SerializeField] private bool complete;
     [SerializeField] private int currentStep;
@@ -34,41 +39,50 @@ public class GameController : MonoBehaviour
     {
         CreateIns();
         maps = new Dictionary<GameObject, AnimationController>();
-        skeletons.ForEach(s => maps.Add(s.Area, s.Animation));
+        skeletons.ForEach(s => { if (s.Animation) maps.Add(s.Area, s.Animation); });
         currentStepText.text = currentStep.ToString();
+        maxStepText.text = maxStep.ToString();
         slider.value = (float)currentStep / maxStep;
     }
     public void NextAnimation(GameObject gameObject)
     {
-        if (!maps.ContainsKey(gameObject)) return;
-        maps[gameObject].NextAnimation();
+        if (maps.ContainsKey(gameObject)) maps[gameObject].NextAnimation();
+        else
+        {
+            demon.SetActive(false);
+        }
         if (!gameObject.CompareTag("Drop")) return;
-        med.PlayAnim(gameObject);
+        AudioController.Ins.PlaySFX(correctSound);
         UpdateStep();
     }
     private void UpdateStep()
     {
-        if (currentStep >= maxStep)
-        {
-            EndGame();
-            return;
-        }
+        if (end) return;
         currentStep++;
         currentStepText.text = currentStep.ToString();
         slider.value = (float)currentStep / maxStep;
         CompleteStep?.Invoke();
+        if (currentStep >= maxStep)
+        {
+            complete = true;
+            Invoke(nameof(EndGame), 2);
+            return;
+        }
     }
     private void EndGame()
     {
         if (end) return;
+        end = true;
         if (complete)
         {
+            mainAnimation.NextAnimation();
             return;
         }
     }
     void Start()
     {
         AudioController.Ins.PlayMusic();
+        AudioController.Ins.PlayIntro();
     }
     public Action CompleteStep;
 }
