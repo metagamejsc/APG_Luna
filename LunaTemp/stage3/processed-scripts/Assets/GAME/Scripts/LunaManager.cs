@@ -134,6 +134,21 @@ public class LunaManager : MonoBehaviour
         imgProgess.fillAmount = value;
         textProgess.text = countPlay + "/" + countPlayMax;
     }
+
+    public bool CanUseMoreStackItems()
+    {
+        if (countPlayMax <= 0)
+        {
+            return true;
+        }
+
+        return countPlay < countPlayMax;
+    }
+
+    public bool IsStackItemLimitReached()
+    {
+        return !CanUseMoreStackItems();
+    }
     // Update is called once per frame
     public void PauseGameplay()
     {

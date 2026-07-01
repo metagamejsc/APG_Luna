@@ -1,0 +1,24 @@
+Slot 4,1_Keo Vo Con Chuot.png
+size:220,84
+filter:Linear,Linear
+pma:true
+scale:0.75
+rat
+bounds:81,2,76,80
+rat_arm
+bounds:159,18,35,18
+rat_book
+bounds:159,38,53,44
+offsets:0,0,54,44
+rat_pen
+bounds:159,3,13,30
+offsets:0,0,14,31
+rotate:90
+rat_sad
+bounds:196,9,27,19
+offsets:1,0,29,19
+rotate:90
+smoke_fx
+bounds:2,2,80,77
+offsets:2,2,83,80
+rotate:90

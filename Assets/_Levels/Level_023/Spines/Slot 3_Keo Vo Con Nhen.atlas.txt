@@ -1,0 +1,26 @@
+Slot 3_Keo Vo Con Nhen.png
+size:84,280
+filter:Linear,Linear
+pma:true
+scale:0.75
+smoke_fx
+bounds:2,112,80,77
+offsets:2,2,83,80
+rotate:90
+spider
+bounds:2,194,78,82
+offsets:1,0,80,83
+spider_book
+bounds:13,28,82,55
+offsets:1,1,84,56
+rotate:90
+spider_leg
+bounds:50,2,24,31
+rotate:90
+spider_pen
+bounds:13,2,24,35
+offsets:1,0,25,36
+rotate:90
+web
+bounds:2,2,9,108
+offsets:0,1,9,109

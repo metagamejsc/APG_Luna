@@ -1,7 +1,7 @@
 {
     "version": "6.4.0",
     "projectId": "e0c7d7b99f381904ba55b26de53e9500",
-    "applicationID": 34530,
+    "applicationID": 39964,
     "creativeName": "BM_V33_NgocBTU_HuyNQ",
     "pgServer": "EU",
     "window": {
@@ -130,10 +130,10 @@
             ]
         },
         "scenes": [
-            "Assets/Scenes/Game 1.unity"
+            "Assets/Scenes/Game.unity"
         ],
         "disabledScenes": [
-            "Assets/Scenes/Game.unity"
+            "Assets/Scenes/Game 1.unity"
         ],
         "startupScene": 0,
         "packages": {
@@ -170,8 +170,8 @@
         "unusedModules": [
             {
                 "name": "physics3d",
-                "excluded": true,
-                "forceIncluded": false
+                "excluded": false,
+                "forceIncluded": true
             },
             {
                 "name": "physics2d",
@@ -1726,10 +1726,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.Physics",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.Physics2D",
                 "excluded": true
             },
@@ -1943,10 +1939,6 @@
             },
             {
                 "name": "UnityEngine.UnityVersion",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.Vector2Int",
                 "excluded": true
             },
             {
@@ -5135,7 +5127,7 @@
             },
             {
                 "name": "UnityEngine.RigidbodyConstraints",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.RigidbodyConstraints2D",
@@ -5143,7 +5135,7 @@
             },
             {
                 "name": "UnityEngine.RigidbodyInterpolation",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.RigidbodyInterpolation2D",
@@ -15577,7 +15569,7 @@
                     },
                     {
                         "name": "InternalErrorShaderMaterial#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Blit",
@@ -18097,7 +18089,7 @@
                     },
                     {
                         "name": "orthographicSize#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "orthographic#get",
@@ -23701,7 +23693,7 @@
                     },
                     {
                         "name": "shader#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "passCount#get",
@@ -23749,7 +23741,7 @@
                     },
                     {
                         "name": "$ctor2",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "CopyPropertiesFromMaterial",
@@ -32408,6 +32400,14 @@
                     {
                         "name": "SetIsDragTrue",
                         "excluded": true
+                    },
+                    {
+                        "name": "CanUseMoreStackItems",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsStackItemLimitReached",
+                        "excluded": false
                     }
                 ]
             },
@@ -35359,7 +35359,7 @@
                 "instanceMethods": [
                     {
                         "name": "Apply$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Apply",
@@ -39109,6 +39109,780 @@
                     },
                     {
                         "name": "SetDirty",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Vector2Int",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "zero#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "one#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "up#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "down#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "left#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "right#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Distance",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Min",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Max",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Scale",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FloorToInt",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CeilToInt",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RoundToInt",
+                        "excluded": true
+                    },
+                    {
+                        "name": "op_Implicit",
+                        "excluded": true
+                    },
+                    {
+                        "name": "op_Addition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "op_Subtraction",
+                        "excluded": true
+                    },
+                    {
+                        "name": "op_Multiply$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "op_Multiply",
+                        "excluded": true
+                    },
+                    {
+                        "name": "op_Equality",
+                        "excluded": false
+                    },
+                    {
+                        "name": "op_Inequality",
+                        "excluded": true
+                    },
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "x#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "x#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "y#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "y#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "magnitude#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "sqrMagnitude#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "setItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Clamp",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "toString",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "ResponsiveCanvasScaler",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnValidate",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ApplyScaleSettings",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetMatchValue",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "CameraAutoSize",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Reset",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnValidate",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ApplySize",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Physics",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "World#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "gravity#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "gravity#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "autoSyncTransforms#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "autoSyncTransforms#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "autoSimulation#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "autoSimulation#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IgnoreCollision",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Simulate",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IgnoreLayerCollision",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Raycast$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Raycast$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Raycast",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Raycast$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RaycastAll",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RaycastAll$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RaycastAll$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RaycastNonAlloc$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RaycastNonAlloc$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RaycastNonAlloc",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Linecast",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Linecast$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Linecast$4",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Linecast$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Linecast$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Linecast$5",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SphereCast$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SphereCast",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SphereCast$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SphereCastAll$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SphereCastAll",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SphereCastNonAlloc$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SphereCastNonAlloc",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OverlapSphere",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OverlapSphereNonAlloc",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CheckSphere",
+                        "excluded": true
+                    },
+                    {
+                        "name": "BoxCast",
+                        "excluded": true
+                    },
+                    {
+                        "name": "BoxCast$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "BoxCast$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "BoxCast$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "BoxCastAll",
+                        "excluded": true
+                    },
+                    {
+                        "name": "BoxCastAll$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "BoxCastNonAlloc",
+                        "excluded": true
+                    },
+                    {
+                        "name": "BoxCastNonAlloc$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OverlapBox",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OverlapBox$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OverlapBoxNonAlloc",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OverlapBoxNonAlloc$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CheckBox",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CheckBox$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CapsuleCast",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CapsuleCast$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CapsuleCastAll",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CapsuleCastNonAlloc",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OverlapCapsule",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OverlapCapsuleNonAlloc",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CheckCapsule",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ComputePenetration",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RaycastInternal$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RaycastInternal",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GenerateCapsule",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CapRaycastDistance",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ShouldHitTriggers",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "ItemMovement",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ItemStartingPosition#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ID#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HandleMouseInput",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HandleTouchInput",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HandleRelease",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetWorldPosition",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ReturnToStartPosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Consume",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ConfirmRelease",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CanBeginDrag",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsStackItemLimitReached",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlayPickUpAudio",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ConfirmReleaseOutsideBox",
+                        "excluded": true
+                    },
+                    {
+                        "name": "HasMatchingTargetItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetCountPlay",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetCountPlayMax",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "ItemStackManager",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "CanDrag",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ConfirmRelease",
+                        "excluded": true
+                    },
+                    {
+                        "name": "NotifyItemConsumed",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsStackItemLimitReached",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetCurrentTopItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Log",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetCountPlay",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetCountPlayMax",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "TargetItem",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "IsUsable#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Collider2D#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsBlock#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsBlock#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsTouch#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CanMatch",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnMatched",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnMouseDown",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetPointerWorldPosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetCanUse",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetCurrentPhase",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MoveToNextUsablePhase",
+                        "excluded": true
+                    },
+                    {
+                        "name": "HasAnyUsablePhase",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayPhaseAnimations$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayPhaseAnimations",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayTouchPhaseAnimations",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlaySecondAnimation$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlaySecondAnimation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayAnimations",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsStackItemLimitReached",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "TargetItem.PhaseData",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "RequiredId#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsUsable#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsUsable#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FirstAnimation#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FirstAnimationLoop#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SecondAnimation#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SecondAnimationLoop#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "TargetItem.SkeletonPhaseData",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "SkeletonAnimation#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FirstAnimation#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FirstAnimationLoop#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SecondAnimation#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SecondAnimationLoop#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
                         "excluded": false
                     }
                 ]

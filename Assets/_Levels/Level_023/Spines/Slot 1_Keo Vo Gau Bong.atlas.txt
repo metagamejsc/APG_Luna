@@ -1,0 +1,21 @@
+Slot 1_Keo Vo Gau Bong.png
+size:192,236
+filter:Linear,Linear
+pma:true
+scale:0.75
+smoke_fx
+bounds:111,154,80,77
+offsets:2,2,83,80
+rotate:90
+teddy
+bounds:2,111,107,123
+offsets:0,1,107,124
+teddy_book
+bounds:127,38,71,59
+rotate:90
+teddy_write_arm
+bounds:111,111,47,41
+teddy_write_body
+bounds:2,2,107,123
+offsets:0,1,107,124
+rotate:90
