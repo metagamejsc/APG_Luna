@@ -31719,7 +31719,7 @@
                     },
                     {
                         "name": "TryGetEntry",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PlayBgm",
@@ -31731,7 +31731,7 @@
                     },
                     {
                         "name": "PlaySfx",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "StopSfx",
@@ -39610,10 +39610,6 @@
                 "staticMethods": [],
                 "instanceMethods": [
                     {
-                        "name": "ItemStartingPosition#get",
-                        "excluded": true
-                    },
-                    {
                         "name": "ID#get",
                         "excluded": true
                     },
@@ -39639,7 +39635,7 @@
                     },
                     {
                         "name": "HandleRelease",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetWorldPosition",
@@ -39647,7 +39643,7 @@
                     },
                     {
                         "name": "ReturnToStartPosition",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Consume",
@@ -39655,7 +39651,7 @@
                     },
                     {
                         "name": "ConfirmRelease",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "CanBeginDrag",
@@ -39667,15 +39663,15 @@
                     },
                     {
                         "name": "PlayPickUpAudio",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ConfirmReleaseOutsideBox",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "HasMatchingTargetItem",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetCountPlay",
@@ -39683,6 +39679,14 @@
                     },
                     {
                         "name": "GetCountPlayMax",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsPointerInsideCollider",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AreBoundsOverlapping",
                         "excluded": true
                     }
                 ]
@@ -39697,7 +39701,7 @@
                     },
                     {
                         "name": "ConfirmRelease",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "NotifyItemConsumed",
@@ -39713,10 +39717,6 @@
                     },
                     {
                         "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Log",
                         "excluded": false
                     },
                     {
@@ -39815,6 +39815,10 @@
                     },
                     {
                         "name": "IsStackItemLimitReached",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsPointerInsideCollider",
                         "excluded": true
                     }
                 ]

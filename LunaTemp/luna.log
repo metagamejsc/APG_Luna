@@ -1,52 +1,13 @@
-report@config:load 36.36
 Authorized using stored user info.
-report@account:authorize 5.86
-stderr: 'rm' is not recognized as an internal or external command,
-operable program or batch file.
-
-Exporting assets from Unity..........
-
-[ Stage1 ] Assets exported from Unity and staged for further processing
-report@unity:export 7073.04
-report@config:load 20.23
-Using E:/ProjectGitHub/APG_Luna/Assets/TextMesh Pro/Resources/Fonts & Materials/MUSEOSANSROUNDED-1000.TTF file to generate an atlas for MUSEOSANSROUNDED-1000[27378] font
-  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
-Using E:/ProjectGitHub/APG_Luna/Assets/TextMesh Pro/Fonts/LiberationSans.ttf file to generate an atlas for LiberationSans[27494] font
-  Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
-Combined 97 glyphs into bitmap texture at E:/ProjectGitHub/APG_Luna/LunaTemp/stage1/tmp/fonts/MUSEOSANSROUNDED-1000-27378/output_0.png (56kb)
-Combined 97 glyphs into bitmap texture at E:/ProjectGitHub/APG_Luna/LunaTemp/stage1/tmp/fonts/LiberationSans-27494/output_0.png (56kb)
-Found custom rules for sound Assets/GAME/Audios/Funny_Background_Music_Funny_Music_Instrumental_Comedy_YouTube.mp3
-  {"channels":1,"startTime":"00:20.335","endTime":"01:06.214","lengthInSeconds":45.878997802734375,"bitrate":16,"script":"","ext":"","name":"Assets/GAME/Audios/Funny_Background_Music_Funny_Music_Instrumental_Comedy_YouTube.mp3","isOverride":true}
-Found custom rules for sound Assets/GAME/Audios/Sound/Game Reward Sound Effect (HD) SOUND FX.mp3
-  {"channels":1,"startTime":"00:00.000","endTime":"00:00.000","lengthInSeconds":0,"bitrate":128,"script":"","ext":"","name":"Assets/GAME/Audios/Sound/Game Reward Sound Effect (HD) SOUND FX.mp3","isOverride":true}
-Found custom rules for texture Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset","isOverride":true}
-Found custom rules for texture Assets/GAME/Assets/light1.png
-  {"maxWidth":2048,"maxHeight":2048,"format":"png32","compression":"quantQuality","quality":65,"script":"","ext":"","name":"Assets/GAME/Assets/light1.png","isOverride":true}
-Found custom rules for texture Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset","isOverride":true}
-Found custom rules for texture Assets/TextMesh Pro/Resources/Fonts & Materials/MUSEOSANSROUNDED-1000 SDF.asset
-  {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/TextMesh Pro/Resources/Fonts & Materials/MUSEOSANSROUNDED-1000 SDF.asset","isOverride":true}
-Resources:
-{}
-report@assets:stage2 4852.77
-report@assets:stage3 196.42
-[ Stage2 ] Assets postprocessed and bundled successfully
-report@config:unity 0.09
-report@config:load 55.45
-report@config:unity 0.10
-report@code:compose 765.90
-Authorized using stored user info.
-report@account:authorize 3.23
 MSBuild version 17.13.19+0d9f5a35a for .NET Framework
 
-Build started 7/1/2026 1:33:18 PM.
+Build started 7/1/2026 1:55:37 PM.
 
 
 
 Project "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
-
 CoreClean:
+
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
 
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
@@ -80,7 +41,6 @@ CoreClean:
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
 
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
-
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
 
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
@@ -90,7 +50,6 @@ CoreClean:
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
 
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
-
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
 
   Deleting file "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
@@ -114,116 +73,99 @@ CoreCompile:
 
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(16,42): warning CS0649: Field 'AudioController.bgmSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(20,43): warning CS0649: Field 'AudioController.audioEntries' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(19,41): warning CS0649: Field 'ObjectLevel._dog1' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemMovement.cs(11,24): warning CS0649: Field 'ItemMovement._targetItem' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Paper.cs(9,44): warning CS0649: Field 'Paper._boxCollider' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(56,31): warning CS0649: Field 'TargetItem._skeletonAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Paper.cs(8,40): warning CS0649: Field 'Paper._startPosition' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(11,41): warning CS0649: Field 'Level19Playable._hand' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(20,41): warning CS0649: Field 'ObjectLevel._dog2' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemMovement.cs(6,64): warning CS0649: Field 'ItemMovement.stackManager' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Paper.cs(10,42): warning CS0649: Field 'Paper._audio' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemMovement.cs(7,34): warning CS0649: Field 'ItemMovement.id' is never assigned to, and will always have its default value 0 [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Paper.cs(8,40): warning CS0649: Field 'Paper._startPosition' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(42,39): warning CS0649: Field 'TargetItem.SkeletonPhaseData._firstAnimationLoop' is never assigned to, and will always have its default value false [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(8,42): warning CS0649: Field 'Level19Playable._papers' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(16,36): warning CS0649: Field 'LunaManager.imgProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(17,42): warning CS0649: Field 'ObjectLevel._audio' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(13,40): warning CS0649: Field 'Level19Playable._handEnd' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19MoneyManager.cs(8,46): warning CS0649: Field 'Level19MoneyManager.moneyText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(15,46): warning CS0649: Field 'LunaManager.textProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(18,50): warning CS0649: Field 'ObjectLevel._money' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(12,40): warning CS0649: Field 'Level19Playable._handStart' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(11,41): warning CS0649: Field 'Level19Playable._hand' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(17,42): warning CS0649: Field 'AudioController.sfxSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(7,48): warning CS0649: Field 'ObjectLevel._anim' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(16,34): warning CS0649: Field 'ObjectLevel._price' is never assigned to, and will always have its default value 0 [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(9,48): warning CS0649: Field 'Level19Playable._objects' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(15,46): warning CS0649: Field 'LunaManager.textProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemMovement.cs(11,24): warning CS0649: Field 'ItemMovement._targetItem' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Paper.cs(9,44): warning CS0649: Field 'Paper._boxCollider' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(59,48): warning CS0649: Field 'TargetItem._phaseTouch' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(18,50): warning CS0649: Field 'ObjectLevel._money' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(13,20): warning CS0649: Field 'ObjectLevel._secondAnimName' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(41,41): warning CS0649: Field 'TargetItem.SkeletonPhaseData._firstAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(14,24): warning CS0649: Field 'TargetItem.PhaseData._firstAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(43,41): warning CS0649: Field 'TargetItem.SkeletonPhaseData._secondAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(16,39): warning CS0649: Field 'TargetItem.PhaseData._firstAnimationLoop' is never assigned to, and will always have its default value false [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\IQFill.cs(8,36): warning CS0649: Field 'IQFill.fillImage' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(39,46): warning CS0649: Field 'LunaManager.timeText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(17,42): warning CS0649: Field 'AudioController.sfxSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(16,39): warning CS0649: Field 'TargetItem.PhaseData._firstAnimationLoop' is never assigned to, and will always have its default value false [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19MoneyManager.cs(8,46): warning CS0649: Field 'Level19MoneyManager.moneyText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(20,43): warning CS0649: Field 'AudioController.audioEntries' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(43,41): warning CS0649: Field 'TargetItem.SkeletonPhaseData._secondAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(10,20): warning CS0649: Field 'ObjectLevel._firstAnimName' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(40,52): warning CS0649: Field 'TargetItem.SkeletonPhaseData._skeletonAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(41,41): warning CS0649: Field 'TargetItem.SkeletonPhaseData._firstAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(10,38): warning CS0649: Field 'TargetItem.PhaseData._requiredId' is never assigned to, and will always have its default value 0 [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(8,42): warning CS0649: Field 'Level19Playable._papers' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(10,20): warning CS0649: Field 'ObjectLevel._firstAnimName' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(40,52): warning CS0649: Field 'TargetItem.SkeletonPhaseData._skeletonAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(7,48): warning CS0649: Field 'ObjectLevel._anim' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(19,24): warning CS0649: Field 'TargetItem.PhaseData._secondAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(19,41): warning CS0649: Field 'ObjectLevel._dog1' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(12,40): warning CS0649: Field 'Level19Playable._handStart' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemStackManager.cs(5,45): warning CS0649: Field 'ItemStackManager.items' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(56,31): warning CS0649: Field 'TargetItem._skeletonAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(19,24): warning CS0649: Field 'TargetItem.PhaseData._secondAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(16,36): warning CS0649: Field 'LunaManager.imgProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(17,42): warning CS0649: Field 'ObjectLevel._audio' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(13,20): warning CS0649: Field 'ObjectLevel._secondAnimName' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemMovement.cs(6,64): warning CS0649: Field 'ItemMovement.stackManager' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Paper.cs(10,42): warning CS0649: Field 'Paper._audio' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(20,41): warning CS0649: Field 'ObjectLevel._dog2' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(60,48): warning CS0649: Field 'TargetItem._phaseBG' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\IQFill.cs(8,36): warning CS0649: Field 'IQFill.fillImage' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(42,39): warning CS0649: Field 'TargetItem.SkeletonPhaseData._firstAnimationLoop' is never assigned to, and will always have its default value false [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\DropID.cs(18,20): warning CS0414: The field 'DropID.currentAnimation' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(59,48): warning CS0649: Field 'TargetItem._phaseTouch' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(14,24): warning CS0649: Field 'TargetItem.PhaseData._firstAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(9,48): warning CS0649: Field 'Level19Playable._objects' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemStackManager.cs(6,35): warning CS0414: The field 'ItemStackManager._enableDebugLog' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemMovement.cs(8,35): warning CS0414: The field 'ItemMovement._enableDebugLog' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\DropID.cs(18,20): warning CS0414: The field 'DropID.currentAnimation' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
   CompilerServer: server - server processed compilation - Scripts
 
 _CopyFilesMarkedCopyLocal:
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
 
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
 
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
-
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
-
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
-
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
-
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
 
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
 
-  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.xml" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
-
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+
+  Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.xml" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
 
   Copying file from "F:\6.4.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
 
@@ -266,67 +208,58 @@ Build succeeded.
 "F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
 (CoreCompile target) -> 
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(16,42): warning CS0649: Field 'AudioController.bgmSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(20,43): warning CS0649: Field 'AudioController.audioEntries' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(19,41): warning CS0649: Field 'ObjectLevel._dog1' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemMovement.cs(7,34): warning CS0649: Field 'ItemMovement.id' is never assigned to, and will always have its default value 0 [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Paper.cs(8,40): warning CS0649: Field 'Paper._startPosition' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(42,39): warning CS0649: Field 'TargetItem.SkeletonPhaseData._firstAnimationLoop' is never assigned to, and will always have its default value false [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(8,42): warning CS0649: Field 'Level19Playable._papers' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(16,36): warning CS0649: Field 'LunaManager.imgProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(13,40): warning CS0649: Field 'Level19Playable._handEnd' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19MoneyManager.cs(8,46): warning CS0649: Field 'Level19MoneyManager.moneyText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(12,40): warning CS0649: Field 'Level19Playable._handStart' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(11,41): warning CS0649: Field 'Level19Playable._hand' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(16,34): warning CS0649: Field 'ObjectLevel._price' is never assigned to, and will always have its default value 0 [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(9,48): warning CS0649: Field 'Level19Playable._objects' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(15,46): warning CS0649: Field 'LunaManager.textProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaComp
-iler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemMovement.cs(11,24): warning CS0649: Field 'ItemMovement._targetItem' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Paper.cs(9,44): warning CS0649: Field 'Paper._boxCollider' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(59,48): warning CS0649: Field 'TargetItem._phaseTouch' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(18,50): warning CS0649: Field 'ObjectLevel._money' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(13,20): warning CS0649: Field 'ObjectLevel._secondAnimName' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(41,41): warning CS0649: Field 'TargetItem.SkeletonPhaseData._firstAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(14,24): warning CS0649: Field 'TargetItem.PhaseData._firstAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(43,41): warning CS0649: Field 'TargetItem.SkeletonPhaseData._secondAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeli
-ne\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(39,46): warning CS0649: Field 'LunaManager.timeText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(17,42): warning CS0649: Field 'AudioController.sfxSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(16,39): warning CS0649: Field 'TargetItem.PhaseData._firstAnimationLoop' is never assigned to, and will always have its default value false [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(10,38): warning CS0649: Field 'TargetItem.PhaseData._requiredId' is never assigned to, and will always have its default value 0 [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(10,20): warning CS0649: Field 'ObjectLevel._firstAnimName' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(40,52): warning CS0649: Field 'TargetItem.SkeletonPhaseData._skeletonAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(7,48): warning CS0649: Field 'ObjectLevel._anim' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(19,24): warning CS0649: Field 'TargetItem.PhaseData._secondAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemStackManager.cs(5,45): warning CS0649: Field 'ItemStackManager.items' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(56,31): warning CS0649: Field 'TargetItem._skeletonAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(17,42): warning CS0649: Field 'ObjectLevel._audio' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Paper.cs(8,40): warning CS0649: Field 'Paper._startPosition' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(11,41): warning CS0649: Field 'Level19Playable._hand' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(20,41): warning CS0649: Field 'ObjectLevel._dog2' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemMovement.cs(6,64): warning CS0649: Field 'ItemMovement.stackManager' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Paper.cs(10,42): warning CS0649: Field 'Paper._audio' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(20,41): warning CS0649: Field 'ObjectLevel._dog2' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(60,48): warning CS0649: Field 'TargetItem._phaseBG' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\IQFill.cs(8,36): warning CS0649: Field 'IQFill.fillImage' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\DropID.cs(18,20): warning CS0414: The field 'DropID.currentAnimation' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemMovement.cs(8,35): warning CS0414: The field 'ItemMovement._enableDebugLog' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemMovement.cs(7,34): warning CS0649: Field 'ItemMovement.id' is never assigned to, and will always have its default value 0 [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(17,42): warning CS0649: Field 'ObjectLevel._audio' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-    42 Warning(s)
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(13,40): warning CS0649: Field 'Level19Playable._handEnd' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(15,46): warning CS0649: Field 'LunaManager.textProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(18,50): warning CS0649: Field 'ObjectLevel._money' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(17,42): warning CS0649: Field 'AudioController.sfxSource' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(7,48): warning CS0649: Field 'ObjectLevel._anim' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(16,34): warning CS0649: Field 'ObjectLevel._price' is never assigned to, and will always have its default value 0 [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(16,39): warning CS0649: Field 'TargetItem.PhaseData._firstAnimationLoop' is never assigned to, and will always have its default value false [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\IQFill.cs(8,36): warning CS0649: Field 'IQFill.fillImage' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(39,46): warning CS0649: Field 'LunaManager.timeText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19MoneyManager.cs(8,46): warning CS0649: Field 'Level19MoneyManager.moneyText' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\AudioController.cs(20,43): warning CS0649: Field 'AudioController.audioEntries' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(43,41): warning CS0649: Field 'TargetItem.SkeletonPhaseData._secondAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(10,20): warning CS0649: Field 'ObjectLevel._firstAnimName' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(40,52): warning CS0649: Field 'TargetItem.SkeletonPhaseData._skeletonAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(41,41): warning CS0649: Field 'TargetItem.SkeletonPhaseData._firstAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(10,38): warning CS0649: Field 'TargetItem.PhaseData._requiredId' is never assigned to, and will always have its default value 0 [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(8,42): warning CS0649: Field 'Level19Playable._papers' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(19,41): warning CS0649: Field 'ObjectLevel._dog1' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(12,40): warning CS0649: Field 'Level19Playable._handStart' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemStackManager.cs(5,45): warning CS0649: Field 'ItemStackManager.items' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(19,24): warning CS0649: Field 'TargetItem.PhaseData._secondAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\LunaManager.cs(16,36): warning CS0649: Field 'LunaManager.imgProgess' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\ObjectLevel.cs(13,20): warning CS0649: Field 'ObjectLevel._secondAnimName' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\GameController.cs(8,39): warning CS0067: The event 'GameController.OnUpgradePhase2' is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(60,48): warning CS0649: Field 'TargetItem._phaseBG' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(42,39): warning CS0649: Field 'TargetItem.SkeletonPhaseData._firstAnimationLoop' is never assigned to, and will always have its default value false [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(59,48): warning CS0649: Field 'TargetItem._phaseTouch' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompil
+er\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\TargetItem.cs(14,24): warning CS0649: Field 'TargetItem.PhaseData._firstAnimation' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\Level_019\Level19Playable.cs(9,48): warning CS0649: Field 'Level19Playable._objects' is never assigned to, and will always have its default value null [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemStackManager.cs(6,35): warning CS0414: The field 'ItemStackManager._enableDebugLog' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\ItemMovement.cs(8,35): warning CS0414: The field 'ItemMovement._enableDebugLog' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  E:\ProjectGitHub\APG_Luna\LunaTemp\stage3\processed-scripts\Assets\GAME\Scripts\Custom\DropID.cs(18,20): warning CS0414: The field 'DropID.currentAnimation' is assigned but its value is never used [F:\6.4.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+    43 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:15.05
+
+Time Elapsed 00:00:11.99
 
 Source code compiled successfully!
-﻿
-[ error ] $﻿
 Diagnostics gathered successfully
-report@code:build 36695.50
-report@diagnostics:verify 0.49
-report@diagnostics:upload 3355.59
-report@code:stage 8632.89
 [ Stage3 ] Code compiled and bundled successfully.
-report@code:bundle 49515.05
-report@package:stage 897.37
-[ Stage4 ] Target platform: develop
-[ Stage4 ] Package bundled successfully
-report@assets:stats 0.16

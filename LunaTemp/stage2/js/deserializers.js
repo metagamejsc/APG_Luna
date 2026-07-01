@@ -2282,7 +2282,7 @@ Deserializers.isRuntimeAnalysisEnabledForCode = "False";
 
 Deserializers.runtimeAnalysisExcludedClassesCount = "1853";
 
-Deserializers.runtimeAnalysisExcludedMethodsCount = "5303";
+Deserializers.runtimeAnalysisExcludedMethodsCount = "5302";
 
 Deserializers.runtimeAnalysisExcludedModules = "particle-system, prefabs, mecanim-wasm";
 
@@ -2306,7 +2306,7 @@ Deserializers.graphicsConstraint = 28;
 
 Deserializers.linearColorSpace = false;
 
-Deserializers.buildID = "d8a4784e-9885-4558-97a9-d6ddaec4124f";
+Deserializers.buildID = "00a68b9d-6bd7-4f6a-b6c8-30888186e166";
 
 Deserializers.runtimeInitializeOnLoadInfos = [[["UnityEngine","Experimental","Rendering","ScriptableRuntimeReflectionSystemSettings","ScriptingDirtyReflectionSystemInstance"]],[["Unity","VisualScripting","RuntimeVSUsageUtility","RuntimeInitializeOnLoadBeforeSceneLoad"]],[["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"]],[],[["Spine","Unity","AttachmentTools","AtlasUtilities","Init"]]];
 

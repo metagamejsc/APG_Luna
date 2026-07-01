@@ -19,7 +19,6 @@ public class ItemMovement : MonoBehaviour
     private int _activeTouchId = -1;
     private Vector3 _startingPosition;
 
-    public Vector3 ItemStartingPosition => _startingPosition;
     public int ID => id;
 
     private void Awake()
@@ -27,7 +26,7 @@ public class ItemMovement : MonoBehaviour
         _mainCamera = Camera.main;
         _collider2D = GetComponent<Collider2D>();
         _startingPosition = transform.position;
-        Debug.Log(_mainCamera);
+        Debug.Log("cam " + _mainCamera);
     }
 
     protected virtual void Update()
@@ -58,7 +57,7 @@ public class ItemMovement : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 worldPos = GetWorldPosition(Input.mousePosition);
-            if (_collider2D.OverlapPoint(worldPos) && CanBeginDrag())
+            if (IsPointerInsideCollider(worldPos) && CanBeginDrag())
             {
                 _isDragging = true;
                 _offset = transform.position - worldPos;
@@ -87,7 +86,7 @@ public class ItemMovement : MonoBehaviour
             switch (touch.phase)
             {
                 case TouchPhase.Began:
-                    bool overlapPoint = _collider2D.OverlapPoint(worldPos);
+                    bool overlapPoint = IsPointerInsideCollider(worldPos);
                     bool canBeginDrag = CanBeginDrag();
                     if (!_isDragging && overlapPoint && canBeginDrag)
                     {
@@ -252,7 +251,17 @@ public class ItemMovement : MonoBehaviour
         return false;
     }
 
-   
+    private bool IsPointerInsideCollider(Vector3 worldPos)
+    {
+        if (_collider2D == null)
+        {
+            return false;
+        }
+
+        Bounds bounds = _collider2D.bounds;
+        return worldPos.x >= bounds.min.x && worldPos.x <= bounds.max.x &&
+               worldPos.y >= bounds.min.y && worldPos.y <= bounds.max.y;
+    }
 
     private int GetCountPlay()
     {

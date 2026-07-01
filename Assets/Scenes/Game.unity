@@ -2112,7 +2112,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Help him pay off all his debts
+  m_text: Help the girl with the homework
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6862818c476b58d42beb4b188658b7f9, type: 2}
   m_sharedMaterial: {fileID: 270527584460216791, guid: 6862818c476b58d42beb4b188658b7f9,
@@ -4830,7 +4830,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Level 19
+  m_text: Level 23
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6862818c476b58d42beb4b188658b7f9, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 1b15fbcae798a9c499946b583b37df8b, type: 2}

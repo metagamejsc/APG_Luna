@@ -138,7 +138,7 @@ public class TargetItem : MonoBehaviour
         }
 
         Vector2 worldPoint = GetPointerWorldPosition();
-        if (!_collider2D.OverlapPoint(worldPoint))
+        if (!IsPointerInsideCollider(worldPoint))
         {
             return;
         }
@@ -174,6 +174,18 @@ public class TargetItem : MonoBehaviour
         screenPosition.z = Mathf.Abs(mainCamera.transform.position.z - transform.position.z);
         Vector3 worldPosition = mainCamera.ScreenToWorldPoint(screenPosition);
         return worldPosition;
+    }
+
+    private bool IsPointerInsideCollider(Vector2 worldPoint)
+    {
+        if (_collider2D == null)
+        {
+            return false;
+        }
+
+        Bounds bounds = _collider2D.bounds;
+        return worldPoint.x >= bounds.min.x && worldPoint.x <= bounds.max.x &&
+               worldPoint.y >= bounds.min.y && worldPoint.y <= bounds.max.y;
     }
 
     public void SetCanUse(bool isUsable)
