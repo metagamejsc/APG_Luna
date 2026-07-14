@@ -1,0 +1,11 @@
+fan.png
+size:488,204
+filter:Linear,Linear
+pma:true
+fan
+bounds:301,2,199,183
+rotate:90
+item_45
+bounds:2,8,193,297
+offsets:1,1,195,299
+rotate:90

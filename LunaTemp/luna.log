@@ -1,0 +1,227 @@
+Authorized using stored user info.
+stderr: 'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+Exporting assets from Unity.......
+
+[ Stage1 ] Assets exported from Unity and staged for further processing
+Using F:/UnityProjects/BP_V28/Assets/01 RESOURCES/MUSEOSANSROUNDED-1000.TTF file to generate an atlas for MUSEOSANSROUNDED-1000[47664] font
+  Using alphabet  ┬º1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./┬▒!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
+Combined 97 glyphs into bitmap texture at F:/UnityProjects/BP_V28/LunaTemp/stage1/tmp/fonts/MUSEOSANSROUNDED-1000-47664/output_0.png (56kb)
+Found custom rules for sound Assets/01 RESOURCES/iLoveYt.mp3
+  {"channels":1,"startTime":"00:00.000","endTime":"00:30.000","lengthInSeconds":30,"bitrate":32,"script":"","ext":"","name":"Assets/01 RESOURCES/iLoveYt.mp3","isOverride":true}
+Found custom rules for texture Assets/01 RESOURCES/BG/bg-1.png
+  {"maxWidth":2048,"maxHeight":2048,"format":"png32","compression":"quantQuality","quality":65,"script":"","ext":"","name":"Assets/01 RESOURCES/BG/bg-1.png","isOverride":true}
+Found custom rules for texture Assets/01 RESOURCES/Level 95/man.png
+  {"maxWidth":2048,"maxHeight":4248,"format":"png32","compression":"quantQuality","quality":65,"script":"","ext":"","name":"Assets/01 RESOURCES/Level 95/man.png","isOverride":true}
+Found custom rules for texture Assets/01 RESOURCES/Level 95/girl.png
+  {"maxWidth":2048,"maxHeight":2048,"format":"png32","compression":"quantQuality","quality":65,"script":"","ext":"","name":"Assets/01 RESOURCES/Level 95/girl.png","isOverride":true}
+Found custom rules for texture Assets/01 RESOURCES/smoke2.png
+  {"maxWidth":2048,"maxHeight":2048,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/01 RESOURCES/smoke2.png","isOverride":true}
+Resources:
+{}
+[ Stage2 ] Assets postprocessed and bundled successfully
+Authorized using stored user info.
+MSBuild version 18.7.8+1ac568fee for .NET Framework
+
+Build started 7/14/2026 5:00:15 PM.
+
+
+
+Project "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
+CoreClean:
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\spine-csharp.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.AssemblyReference.cache".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CoreCompileInputs.cache".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll".
+
+  Deleting file "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb".
+
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+
+CoreCompile:
+  Setting DOTNET_TieredCompilation to '0'
+
+  C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_6000;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_0;UNITY_6000_0_78 /highentropyva+ /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.esotericsoftware.spine.spine-csharp\4.1\spine-csharp.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\LunaController.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\TutController.cs" F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTweenPro\DOTweenAnimation.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTweenPro\DOTweenDeAudio.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTweenPro\DOTweenDeUnityExtended.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTweenPro\DOTweenProShortcuts.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTweenPro\DOTweenTk2d.cs "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\AnimationReferenceAsset.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\AtlasAssetBase.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\BlendModeMaterials.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\EventDataReferenceAsset.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\OnDemandTextureLoader.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\RegionlessAttachmentLoader.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataAsset.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataCompatibility.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataModifierAsset.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\SpineAtlasAsset.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\SpineSpriteAtlasAsset.cs" F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\EditorSkeletonPlayer.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\Following\BoneFollower.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\Following\BoneFollowerGraphic.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\Following\BoundingBoxFollower.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\Following\BoundingBoxFollowerGraphic.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\Following\PointFollower.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\Internal\SkeletonSubmeshGraphic.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\RootMotion\SkeletonMecanimRootMotion.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\RootMotion\SkeletonRootMotion.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\RootMotion\SkeletonRootMotionBase.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonAnimation.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonGraphic.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonMecanim.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonRenderer.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonRendererCustomMaterials\SkeletonGraphicCustomMaterials.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonRendererCustomMaterials\SkeletonRendererCustomMaterials.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonRenderSeparator\SkeletonPartsRenderer.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonRenderSeparator\SkeletonRenderSeparator.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\ActivateBasedOnFlipDirection.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\FollowLocationRigidbody.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\FollowLocationRigidbody2D.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\FollowSkeletonUtilityRootRotation.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\SkeletonUtility.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\SkeletonUtilityBone.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\SkeletonUtilityConstraint.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\ISkeletonAnimation.cs "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Mesh Generation\DoubleBuffered.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Mesh Generation\MeshGenerator.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Mesh Generation\MeshRendererBuffers.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Mesh Generation\SkeletonRendererInstruction.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Mesh Generation\SpineMesh.cs" F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Modules\TK2D\SpriteCollectionAttachmentLoader.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\SkeletonDataModifierAssets\BlendModeMaterials\BlendModeMaterialsAsset.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\SpineAttributes.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\AtlasUtilities.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\AttachmentCloneExtensions.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\AttachmentRegionExtensions.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\BuildUtilities.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\MaterialChecks.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\MathUtilities.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\SettingsTriState.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\SkeletonExtensions.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\TimelineExtensions.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineAnimation.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineAnimationComplete.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineAnimationEnd.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineEvent.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineTrackEntryEnd.cs Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+
+  Compilation request Scripts, PathToTool=C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Roslyn\csc.exe
+
+  CommandLine = ' /noconfig'
+  BuildResponseFile = '/nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_6000;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNI
+TY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_0;UNITY_6000_0_78 /highentropyva+ /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.esotericsoftware.spine.spine-csharp\4.1\spine-csharp.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\LunaController.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\TutController.cs" F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTweenPro\DOTweenAnimation.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTweenPro\DOTweenDeAudio.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTweenPro\DOTweenDeUnityExtended.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTweenPro\DOTweenProShortcuts.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Plugins\Demigiant\DOTweenPro\DOTweenTk2d.cs "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\AnimationReferenceAsset.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\AtlasAssetBase.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\BlendModeMaterials.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\EventDataReferenceAsset.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\OnDemandTextureLoader.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\RegionlessAttachmentLoader.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataAsset.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataCompatibility.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataModifierAsset.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\SpineAtlasAsset.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Asset Types\SpineSpriteAtlasAsset.cs" F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\EditorSkeletonPlayer.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\Following\BoneFollower.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\Following\BoneFollowerGraphic.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\Following\BoundingBoxFollower.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\Following\BoundingBoxFollowerGraphic.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\Following\PointFollower.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\Internal\SkeletonSubmeshGraphic.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\RootMotion\SkeletonMecanimRootMotion.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\RootMotion\SkeletonRootMotion.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\RootMotion\SkeletonRootMotionBase.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonAnimation.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonGraphic.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonMecanim.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonRenderer.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonRendererCustomMaterials\SkeletonGraphicCustomMaterials.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonRendererCustomMaterials\SkeletonRendererCustomMaterials.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonRenderSeparator\SkeletonPartsRenderer.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonRenderSeparator\SkeletonRenderSeparator.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\ActivateBasedOnFlipDirection.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\FollowLocationRigidbody.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\FollowLocationRigidbody2D.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\FollowSkeletonUtilityRootRotation.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\SkeletonUtility.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\SkeletonUtilityBone.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\SkeletonUtilityConstraint.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\ISkeletonAnimation.cs "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Mesh Generation\DoubleBuffered.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Mesh Generation\MeshGenerator.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Mesh Generation\MeshRendererBuffers.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Mesh Generation\SkeletonRendererInstruction.cs" "F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Mesh Generation\SpineMesh.cs" F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Modules\TK2D\SpriteCollectionAttachmentLoader.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\SkeletonDataModifierAssets\BlendModeMaterials\BlendModeMaterialsAsset.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\SpineAttributes.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\AtlasUtilities.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\AttachmentCloneExtensions.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\AttachmentRegionExtensions.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\BuildUtilities.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\MaterialChecks.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\MathUtilities.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\SettingsTriState.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\SkeletonExtensions.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\TimelineExtensions.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineAnimation.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineAnimationComplete.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineAnimationEnd.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineEvent.cs F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineTrackEntryEnd.cs Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"'
+
+  Attempt to open named pipe 'wKYS158HXKefaImx0RK8rpO237EM5X5MLigh8wX2N4g'
+
+  Attempt to connect named pipe 'wKYS158HXKefaImx0RK8rpO237EM5X5MLigh8wX2N4g'
+
+  Named pipe 'wKYS158HXKefaImx0RK8rpO237EM5X5MLigh8wX2N4g' connected
+
+  Begin writing request for Scripts
+
+  End writing request for Scripts
+  Begin reading response for Scripts
+
+  End reading response for Scripts
+
+F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\LunaController.cs(13,39): warning CS0649: Field 'LunaController.logoImage' is never assigned to, and will always have its default value null [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\LunaController.cs(14,36): warning CS0649: Field 'LunaController.BG1' is never assigned to, and will always have its default value null [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\TutController.cs(9,36): warning CS0649: Field 'TutController.scaleTime' is never assigned to, and will always have its default value 0 [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\TutController.cs(8,36): warning CS0649: Field 'TutController.moveTime' is never assigned to, and will always have its default value 0 [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\LunaController.cs(15,36): warning CS0649: Field 'LunaController.BG2' is never assigned to, and will always have its default value null [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\TutController.cs(10,40): warning CS0169: The field 'TutController.popSound' is never used [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\LunaController.cs(18,37): warning CS0649: Field 'LunaController.endCard' is never assigned to, and will always have its default value null [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\TutController.cs(7,42): warning CS0649: Field 'TutController.items' is never assigned to, and will always have its default value null [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  CompilerServer: server - server processed compilation - Scripts
+
+_CopyFilesMarkedCopyLocal:
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ide.rider\3.0.0\JetBrains.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\JetBrains.dll".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.esotericsoftware.spine.spine-csharp\4.1\spine-csharp.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\spine-csharp.dll".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.xml" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+
+  Creating "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date" because "AlwaysCreate" was specified.
+
+  Touching "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date".
+
+CopyFilesToOutputDirectory:
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+
+  Scripts -> F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll
+
+  Copying file from "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" to "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+
+BridgeNetCompilerTask:
+  Bridge started
+
+      To enable detailed logging, configure "logging" in bridge.json.
+
+      https://github.com/bridgedotnet/Bridge/wiki/global-configuration#logging
+
+  Bridge done
+
+Done Building Project "F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target(s)).
+
+
+Build succeeded.
+
+
+"F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
+(CoreCompile target) -> 
+  F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\LunaController.cs(13,39): warning CS0649: Field 'LunaController.logoImage' is never assigned to, and will always have its default value null [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\LunaController.cs(14,36): warning CS0649: Field 'LunaController.BG1' is never assigned to, and will always have its default value null [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\TutController.cs(9,36): warning CS0649: Field 'TutController.scaleTime' is never assigned to, and will always have its default value 0 [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\TutController.cs(8,36): warning CS0649: Field 'TutController.moveTime' is never assigned to, and will always have its default value 0 [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\LunaController.cs(15,36): warning CS0649: Field 'LunaController.BG2' is never assigned to, and will always have its default value null [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\TutController.cs(10,40): warning CS0169: The field 'TutController.popSound' is never used [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\LunaController.cs(18,37): warning CS0649: Field 'LunaController.endCard' is never assigned to, and will always have its default value null [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  F:\UnityProjects\BP_V28\LunaTemp\stage3\processed-scripts\Assets\00 SCRIPTS\TutController.cs(7,42): warning CS0649: Field 'TutController.items' is never assigned to, and will always have its default value null [F:\LunaPlayworks\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+    8 Warning(s)
+    0 Error(s)
+
+
+Time Elapsed 00:00:09.99
+
+Source code compiled successfully!
+∩╗┐
+[ error ] $∩╗┐
+Diagnostics gathered successfully
+[ Stage3 ] Code compiled and bundled successfully.
+[ Stage4 ] Target platform: playground
+[ Stage4 ] Package bundled successfully
+navigateto:https://assets-lunalabs-io.s3-accelerate.amazonaws.com/uploads%2Fdirect%2F761044a88b8e22befcbda336a2e2202b%2FBP_V28_NgocNDL_TamNTM_build.zip
+[ Stage4 ] Package uploaded successfully

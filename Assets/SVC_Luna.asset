@@ -1,0 +1,2332 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -777816280, guid: 53a784497d08f8945a10db71e1ba4f69, type: 3}
+  m_Name: SVC_Luna
+  m_EditorClassIdentifier: 
+  _svcLunaVersion: 4
+  _shaderVariants:
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+    passType: 0
+    passId: 1
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+    passType: 0
+    passId: 2
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: fa95b0fb6983c0f40a152e6f9aa82bfb, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: fa95b0fb6983c0f40a152e6f9aa82bfb, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - _STRAIGHT_ALPHA_INPUT
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - UNITY_UI_ALPHACLIP
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - UNITY_UI_CLIP_RECT
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - UNITY_UI_ALPHACLIP
+      - UNITY_UI_CLIP_RECT
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - UNITY_UI_ALPHACLIP
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - UNITY_UI_CLIP_RECT
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - UNITY_UI_ALPHACLIP
+      - UNITY_UI_CLIP_RECT
+  _usedByLunaBuild:
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025": []
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - UNITY_UI_ALPHACLIP
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - UNITY_UI_ALPHACLIP
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - UNITY_UI_ALPHACLIP
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+      "\L\u2025":
+      - UNITY_UI_ALPHACLIP
+  _includedShaderVariants: []
+  _excludedShaderVariants: []
+  version: 90
+  _shaderParsedShaders:
+  - ParsedSubShaders:
+    - Index: 0
+      Passes:
+      - Shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+        ShaderVariants:
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tmediump vec4 _Color;\nin highp vec4 in_POSITION0;\nin highp vec4 in_COLOR0;\nin
+            highp vec2 in_TEXCOORD0;\nin highp vec2 in_TEXCOORD1;\nout mediump vec4
+            vs_COLOR0;\nout highp vec2 vs_TEXCOORD0;\nout highp vec2 vs_TEXCOORD1;\nhighp
+            vec4 vs_TEXCOORD2;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    gl_Position = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    u_xlat0 = in_COLOR0 * _Color;\n    vs_COLOR0
+            = u_xlat0;\n    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;\n    vs_TEXCOORD1.xy
+            = in_TEXCOORD1.xy;\n    vs_TEXCOORD2 = in_POSITION0;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tvec4 _MainTex_TexelSize;\nuniform \tmediump
+            vec4 _GlowColor;\nuniform \tfloat _GlowRadius;\nuniform \tfloat _GlowIntensity;\nuniform
+            \tfloat _GlowFalloff;\nuniform \tfloat _Padding;\nUNITY_LOCATION(0) uniform
+            mediump sampler2D _MainTex;\nin mediump  vec4 vs_COLOR0;\nin highp  vec2
+            vs_TEXCOORD0;\nin highp  vec2 vs_TEXCOORD1;\nlayout(location = 0) out
+            mediump vec4 SV_Target0;\nvec4 u_xlat0;\nvec4 u_xlat1;\nmediump float
+            u_xlat16_1;\nvec4 u_xlat2;\nbvec4 u_xlatb2;\nvec4 u_xlat3;\nmediump vec4
+            u_xlat16_3;\nvec4 u_xlat4;\nmediump vec3 u_xlat16_4;\nbvec4 u_xlatb4;\nvec4
+            u_xlat5;\nbvec2 u_xlatb5;\nvec4 u_xlat6;\nmediump float u_xlat16_6;\nbvec4
+            u_xlatb6;\nvec4 u_xlat7;\nbvec4 u_xlatb7;\nmediump vec4 u_xlat16_8;\nvec2
+            u_xlat9;\nvec2 u_xlat10;\nvec2 u_xlat13;\nbvec2 u_xlatb13;\nmediump float
+            u_xlat16_17;\nvec2 u_xlat18;\nmediump float u_xlat16_18;\nbvec2 u_xlatb18;\nvec2
+            u_xlat19;\nvec2 u_xlat20;\nmediump vec2 u_xlat16_20;\nbvec2 u_xlatb20;\nvec2
+            u_xlat22;\nmediump float u_xlat16_22;\nvec2 u_xlat24;\nfloat u_xlat27;\nvoid
+            main()\n{\n    u_xlat0.x = max(_Padding, 9.99999975e-05);\n    u_xlat9.xy
+            = u_xlat0.xx * _MainTex_TexelSize.xy;\n    u_xlat0.x = min(u_xlat0.x,
+            _GlowRadius);\n    u_xlat1.xy = u_xlat0.xx * _MainTex_TexelSize.xy;\n   
+            u_xlat0.xw = u_xlat9.xy * vec2(2.0, 2.0) + vec2(1.0, 1.0);\n    u_xlat0.xy
+            = vs_TEXCOORD1.xy * u_xlat0.xw + (-u_xlat9.xy);\n    u_xlatb18.xy = greaterThanEqual(u_xlat0.xyxy,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlat18.x = u_xlatb18.x ? float(1.0)
+            : 0.0;\n    u_xlat18.y = u_xlatb18.y ? float(1.0) : 0.0;\n;\n    u_xlatb2.xy
+            = greaterThanEqual(vec4(1.0, 1.0, 0.0, 0.0), u_xlat0.xyxx).xy;\n    u_xlat2.x
+            = u_xlatb2.x ? float(1.0) : 0.0;\n    u_xlat2.y = u_xlatb2.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat18.x = u_xlat18.x * u_xlat2.x;\n    u_xlat18.x =
+            u_xlat18.y * u_xlat18.x;\n    u_xlat18.x = u_xlat2.y * u_xlat18.x;\n   
+            u_xlat2.xy = u_xlat0.xy + (-vs_TEXCOORD1.xy);\n    u_xlat2.xy = u_xlat2.xy
+            + vs_TEXCOORD0.xy;\n    u_xlat16_3 = texture(_MainTex, u_xlat2.xy);\n   
+            u_xlat27 = u_xlat18.x * u_xlat16_3.w;\n    u_xlat3 = u_xlat18.xxxx *
+            u_xlat16_3;\n    u_xlat4.y = float(0.0);\n    u_xlat22.y = float(0.0);\n   
+            u_xlat5 = u_xlat1.xyxy * vec4(0.25, 0.25, 0.550000012, 0.550000012);\n   
+            u_xlat4.x = u_xlat5.x;\n    u_xlat20.xy = u_xlat0.xy + u_xlat4.xy;\n   
+            u_xlat4.xy = u_xlat2.xy + u_xlat4.xy;\n    u_xlat16_18 = texture(_MainTex,
+            u_xlat4.xy).w;\n    u_xlatb4.xy = greaterThanEqual(u_xlat20.xyxx, vec4(0.0,
+            0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0, 1.0,
+            1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat4.x
+            = u_xlatb4.x ? float(1.0) : 0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat4.x;\n    u_xlat20.x =
+            u_xlat4.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat18.x = u_xlat16_18 * u_xlat20.x;\n    u_xlat16_6 = u_xlat18.x *
+            0.0700000003;\n    u_xlat18.x = u_xlat27 * 0.119999997 + u_xlat16_6;\n   
+            u_xlat22.x = (-u_xlat5.x);\n    u_xlat20.xy = u_xlat0.xy + u_xlat22.xy;\n   
+            u_xlat4.xy = u_xlat2.xy + u_xlat22.xy;\n    u_xlat16_4.x = texture(_MainTex,
+            u_xlat4.xy).w;\n    u_xlatb13.xy = greaterThanEqual(u_xlat20.xyxx, vec4(0.0,
+            0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0, 1.0,
+            1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat13.x
+            = u_xlatb13.x ? float(1.0) : 0.0;\n    u_xlat13.y = u_xlatb13.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat13.x;\n    u_xlat20.x
+            = u_xlat13.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat20.x = u_xlat20.x * u_xlat16_4.x;\n    u_xlat18.x = u_xlat20.x
+            * 0.0700000003 + u_xlat18.x;\n    u_xlat4.x = float(0.0);\n    u_xlat22.x
+            = float(0.0);\n    u_xlat4.y = u_xlat5.y;\n    u_xlat20.xy = u_xlat0.xy
+            + u_xlat4.xy;\n    u_xlat4.xy = u_xlat2.xy + u_xlat4.xy;\n    u_xlat16_4.x
+            = texture(_MainTex, u_xlat4.xy).w;\n    u_xlatb7.xy = greaterThanEqual(u_xlat20.xyxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat7.x
+            = u_xlatb7.x ? float(1.0) : 0.0;\n    u_xlat7.y = u_xlatb7.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat7.x;\n    u_xlat20.x =
+            u_xlat7.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat20.x = u_xlat20.x * u_xlat16_4.x;\n    u_xlat18.x = u_xlat20.x
+            * 0.0700000003 + u_xlat18.x;\n    u_xlat22.y = (-u_xlat5.y);\n    u_xlat20.xy
+            = u_xlat0.xy + u_xlat22.xy;\n    u_xlat4.xy = u_xlat2.xy + u_xlat22.xy;\n   
+            u_xlat16_4.x = texture(_MainTex, u_xlat4.xy).w;\n    u_xlatb13.xy = greaterThanEqual(u_xlat20.xyxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat13.x
+            = u_xlatb13.x ? float(1.0) : 0.0;\n    u_xlat13.y = u_xlatb13.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat13.x;\n    u_xlat20.x
+            = u_xlat13.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat20.x = u_xlat20.x * u_xlat16_4.x;\n    u_xlat18.x = u_xlat20.x
+            * 0.0700000003 + u_xlat18.x;\n    u_xlat4 = u_xlat1.xyxy * vec4(0.25,
+            0.25, 0.550000012, 0.550000012) + u_xlat0.xyxy;\n    u_xlatb6 = greaterThanEqual(u_xlat4,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y
+            = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0)
+            : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat20.xy
+            = u_xlat4.xz * u_xlat6.xz;\n    u_xlat20.xy = u_xlat6.yw * u_xlat20.xy;\n   
+            u_xlat20.xy = u_xlat4.yw * u_xlat20.xy;\n    u_xlat4 = u_xlat1.xyxy *
+            vec4(0.25, 0.25, 0.550000012, 0.550000012) + u_xlat2.xyxy;\n    u_xlat16_4.x
+            = texture(_MainTex, u_xlat4.xy).w;\n    u_xlat16_4.y = texture(_MainTex,
+            u_xlat4.zw).w;\n    u_xlat20.xy = u_xlat20.xy * u_xlat16_4.xy;\n    u_xlat18.x
+            = u_xlat20.x * 0.0450000018 + u_xlat18.x;\n    u_xlat4 = u_xlat5.xyxy
+            * vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat0.xyxy;\n    u_xlatb6 = greaterThanEqual(u_xlat4,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y
+            = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0)
+            : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat4.xz
+            = u_xlat4.xz * u_xlat6.xz;\n    u_xlat4.xz = u_xlat6.yw * u_xlat4.xz;\n   
+            u_xlat4.xy = u_xlat4.yw * u_xlat4.xz;\n    u_xlat6 = u_xlat5.xyxy * vec4(-1.0,
+            1.0, 1.0, -1.0) + u_xlat2.xyxy;\n    u_xlat16_20.x = texture(_MainTex,
+            u_xlat6.xy).w;\n    u_xlat16_22 = texture(_MainTex, u_xlat6.zw).w;\n   
+            u_xlat13.x = u_xlat4.y * u_xlat16_22;\n    u_xlat20.x = u_xlat4.x * u_xlat16_20.x;\n   
+            u_xlat18.x = u_xlat20.x * 0.0450000018 + u_xlat18.x;\n    u_xlat18.x
+            = u_xlat13.x * 0.0450000018 + u_xlat18.x;\n    u_xlat4 = (-u_xlat1.xyxy)
+            * vec4(0.25, 0.25, 0.550000012, 0.550000012) + u_xlat0.xyxy;\n    u_xlatb6
+            = greaterThanEqual(u_xlat4, vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4
+            = greaterThanEqual(vec4(1.0, 1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x
+            = u_xlatb4.x ? float(1.0) : 0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w
+            = u_xlatb4.w ? float(1.0) : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0)
+            : 0.0;\n    u_xlat6.y = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z
+            = u_xlatb6.z ? float(1.0) : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.xz = u_xlat4.xz * u_xlat6.xz;\n    u_xlat4.xz
+            = u_xlat6.yw * u_xlat4.xz;\n    u_xlat4.xy = u_xlat4.yw * u_xlat4.xz;\n   
+            u_xlat6 = (-u_xlat1.xyxy) * vec4(0.25, 0.25, 0.550000012, 0.550000012)
+            + u_xlat2.xyxy;\n    u_xlat16_20.x = texture(_MainTex, u_xlat6.xy).w;\n   
+            u_xlat16_22 = texture(_MainTex, u_xlat6.zw).w;\n    u_xlat13.x = u_xlat4.y
+            * u_xlat16_22;\n    u_xlat20.x = u_xlat4.x * u_xlat16_20.x;\n    u_xlat18.x
+            = u_xlat20.x * 0.0450000018 + u_xlat18.x;\n    u_xlat6.x = u_xlat5.z;\n   
+            u_xlat6.y = float(0.0);\n    u_xlat24.y = float(0.0);\n    u_xlat4.xz
+            = u_xlat0.xy + u_xlat6.xy;\n    u_xlat5.xy = u_xlat2.xy + u_xlat6.xy;\n   
+            u_xlat16_20.x = texture(_MainTex, u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0,
+            0.0, 1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat24.x = (-u_xlat5.z);\n    u_xlat4.xz = u_xlat0.xy
+            + u_xlat24.xy;\n    u_xlat5.xy = u_xlat2.xy + u_xlat24.xy;\n    u_xlat16_20.x
+            = texture(_MainTex, u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0,
+            0.0, 1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat6.y = u_xlat5.w;\n    u_xlat6.x = float(0.0);\n   
+            u_xlat24.x = float(0.0);\n    u_xlat4.xz = u_xlat0.xy + u_xlat6.xy;\n   
+            u_xlat5.xy = u_xlat2.xy + u_xlat6.xy;\n    u_xlat16_20.x = texture(_MainTex,
+            u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx, vec4(0.0,
+            0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0, 0.0,
+            1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat24.y = (-u_xlat5.w);\n    u_xlat4.xz = u_xlat0.xy
+            + u_xlat24.xy;\n    u_xlat5.xy = u_xlat2.xy + u_xlat24.xy;\n    u_xlat16_20.x
+            = texture(_MainTex, u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0,
+            0.0, 1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat18.x = u_xlat20.y * 0.0250000004 + u_xlat18.x;\n   
+            u_xlat6 = u_xlat5.zwzw * vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat0.xyxy;\n   
+            u_xlat5 = u_xlat5.zwzw * vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat2.xyxy;\n   
+            u_xlatb7 = greaterThanEqual(u_xlat6, vec4(0.0, 0.0, 0.0, 0.0));\n   
+            u_xlatb6 = greaterThanEqual(vec4(1.0, 1.0, 1.0, 1.0), u_xlat6);\n   
+            u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y = u_xlatb6.y
+            ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0) : 0.0;\n   
+            u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat7.x = u_xlatb7.x
+            ? float(1.0) : 0.0;\n    u_xlat7.y = u_xlatb7.y ? float(1.0) : 0.0;\n   
+            u_xlat7.z = u_xlatb7.z ? float(1.0) : 0.0;\n    u_xlat7.w = u_xlatb7.w
+            ? float(1.0) : 0.0;\n;\n    u_xlat20.xy = u_xlat6.xz * u_xlat7.xz;\n   
+            u_xlat20.xy = u_xlat7.yw * u_xlat20.xy;\n    u_xlat20.xy = u_xlat6.yw
+            * u_xlat20.xy;\n    u_xlat16_4.x = texture(_MainTex, u_xlat5.xy).w;\n   
+            u_xlat16_4.z = texture(_MainTex, u_xlat5.zw).w;\n    u_xlat20.xy = u_xlat20.xy
+            * u_xlat16_4.xz;\n    u_xlat18.x = u_xlat20.x * 0.0250000004 + u_xlat18.x;\n   
+            u_xlat18.x = u_xlat20.y * 0.0250000004 + u_xlat18.x;\n    u_xlat18.x
+            = u_xlat13.x * 0.0250000004 + u_xlat18.x;\n    u_xlat1.z = 0.0;\n   
+            u_xlat4 = u_xlat1.xzzy + u_xlat0.xyxy;\n    u_xlat5 = u_xlat1.xzzy *
+            vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat0.xyxy;\n    u_xlatb6 = greaterThanEqual(u_xlat4,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y
+            = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0)
+            : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat0.xy
+            = u_xlat4.xz * u_xlat6.xz;\n    u_xlat0.xy = u_xlat6.yw * u_xlat0.xy;\n   
+            u_xlat0.xy = u_xlat4.yw * u_xlat0.xy;\n    u_xlat4 = u_xlat1.xzzy + u_xlat2.xyxy;\n   
+            u_xlat16_20.x = texture(_MainTex, u_xlat4.xy).w;\n    u_xlat16_20.y =
+            texture(_MainTex, u_xlat4.zw).w;\n    u_xlat0.xy = u_xlat0.xy * u_xlat16_20.xy;\n   
+            u_xlat0.x = u_xlat0.x * 0.0199999996 + u_xlat18.x;\n    u_xlat1.w = (-u_xlat1.x);\n   
+            u_xlat1.xy = u_xlat1.zy * vec2(1.0, -1.0) + u_xlat2.xy;\n    u_xlat19.xy
+            = u_xlat1.wz + u_xlat2.xy;\n    u_xlat16_18 = texture(_MainTex, u_xlat19.xy).w;\n   
+            u_xlat16_1 = texture(_MainTex, u_xlat1.xy).w;\n    u_xlatb2 = greaterThanEqual(u_xlat5,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat5);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat2.x = u_xlatb2.x ? float(1.0) : 0.0;\n    u_xlat2.y
+            = u_xlatb2.y ? float(1.0) : 0.0;\n    u_xlat2.z = u_xlatb2.z ? float(1.0)
+            : 0.0;\n    u_xlat2.w = u_xlatb2.w ? float(1.0) : 0.0;\n;\n    u_xlat10.xy
+            = u_xlat4.xz * u_xlat2.xz;\n    u_xlat10.xy = u_xlat2.yw * u_xlat10.xy;\n   
+            u_xlat10.xy = u_xlat4.yw * u_xlat10.xy;\n    u_xlat18.x = u_xlat16_18
+            * u_xlat10.x;\n    u_xlat1.x = u_xlat10.y * u_xlat16_1;\n    u_xlat0.x
+            = u_xlat18.x * 0.0199999996 + u_xlat0.x;\n    u_xlat0.x = u_xlat0.y *
+            0.0199999996 + u_xlat0.x;\n    u_xlat0.x = u_xlat1.x * 0.0199999996 +
+            u_xlat0.x;\n    u_xlat0.x = u_xlat0.x * 1.08695662 + (-u_xlat27);\n   
+            u_xlat0.x = clamp(u_xlat0.x, 0.0, 1.0);\n    u_xlat0.x = log2(u_xlat0.x);\n   
+            u_xlat0.x = u_xlat0.x * _GlowFalloff;\n    u_xlat0.x = exp2(u_xlat0.x);\n   
+            u_xlat0.x = u_xlat0.x * _GlowColor.w;\n    u_xlat0.x = u_xlat0.x * _GlowIntensity;\n   
+            u_xlat16_8.x = (-u_xlat3.w) * vs_COLOR0.w + 1.0;\n    u_xlat16_17 = u_xlat3.w
+            * vs_COLOR0.w;\n    SV_Target0.w = u_xlat0.x * u_xlat16_8.x + u_xlat16_17;\n   
+            u_xlat0.xyz = _GlowColor.xyz * vec3(vec3(_GlowIntensity, _GlowIntensity,
+            _GlowIntensity));\n    u_xlat16_8.xzw = u_xlat3.xyz * vs_COLOR0.xyz +
+            (-u_xlat0.xyz);\n    SV_Target0.xyz = vec3(u_xlat16_17) * u_xlat16_8.xzw
+            + u_xlat0.xyz;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025": []
+          Tags:
+          - Key: CanUseSpriteAtlas
+            Value: true
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: PreviewType
+            Value: Plane
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tmediump vec4 _Color;\nin highp vec4 in_POSITION0;\nin highp vec4 in_COLOR0;\nin
+            highp vec2 in_TEXCOORD0;\nin highp vec2 in_TEXCOORD1;\nout mediump vec4
+            vs_COLOR0;\nout highp vec2 vs_TEXCOORD0;\nout highp vec2 vs_TEXCOORD1;\nhighp
+            vec4 vs_TEXCOORD2;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    gl_Position = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    u_xlat0 = in_COLOR0 * _Color;\n    vs_COLOR0
+            = u_xlat0;\n    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;\n    vs_TEXCOORD1.xy
+            = in_TEXCOORD1.xy;\n    vs_TEXCOORD2 = in_POSITION0;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tvec4 _MainTex_TexelSize;\nuniform \tmediump
+            vec4 _GlowColor;\nuniform \tfloat _GlowRadius;\nuniform \tfloat _GlowIntensity;\nuniform
+            \tfloat _GlowFalloff;\nuniform \tfloat _Padding;\nUNITY_LOCATION(0) uniform
+            mediump sampler2D _MainTex;\nin mediump  vec4 vs_COLOR0;\nin highp  vec2
+            vs_TEXCOORD0;\nin highp  vec2 vs_TEXCOORD1;\nlayout(location = 0) out
+            mediump vec4 SV_Target0;\nvec4 u_xlat0;\nbool u_xlatb0;\nvec4 u_xlat1;\nmediump
+            float u_xlat16_1;\nvec4 u_xlat2;\nbvec4 u_xlatb2;\nvec4 u_xlat3;\nmediump
+            vec4 u_xlat16_3;\nvec4 u_xlat4;\nmediump vec3 u_xlat16_4;\nbvec4 u_xlatb4;\nvec4
+            u_xlat5;\nbvec2 u_xlatb5;\nvec4 u_xlat6;\nmediump float u_xlat16_6;\nbvec4
+            u_xlatb6;\nvec4 u_xlat7;\nbvec4 u_xlatb7;\nmediump vec4 u_xlat16_8;\nvec2
+            u_xlat9;\nvec2 u_xlat10;\nvec2 u_xlat13;\nbvec2 u_xlatb13;\nmediump float
+            u_xlat16_17;\nvec2 u_xlat18;\nmediump float u_xlat16_18;\nbvec2 u_xlatb18;\nvec2
+            u_xlat19;\nvec2 u_xlat20;\nmediump vec2 u_xlat16_20;\nbvec2 u_xlatb20;\nvec2
+            u_xlat22;\nmediump float u_xlat16_22;\nvec2 u_xlat24;\nmediump float
+            u_xlat16_26;\nfloat u_xlat27;\nvoid main()\n{\n    u_xlat0.x = max(_Padding,
+            9.99999975e-05);\n    u_xlat9.xy = u_xlat0.xx * _MainTex_TexelSize.xy;\n   
+            u_xlat0.x = min(u_xlat0.x, _GlowRadius);\n    u_xlat1.xy = u_xlat0.xx
+            * _MainTex_TexelSize.xy;\n    u_xlat0.xw = u_xlat9.xy * vec2(2.0, 2.0)
+            + vec2(1.0, 1.0);\n    u_xlat0.xy = vs_TEXCOORD1.xy * u_xlat0.xw + (-u_xlat9.xy);\n   
+            u_xlatb18.xy = greaterThanEqual(u_xlat0.xyxy, vec4(0.0, 0.0, 0.0, 0.0)).xy;\n   
+            u_xlat18.x = u_xlatb18.x ? float(1.0) : 0.0;\n    u_xlat18.y = u_xlatb18.y
+            ? float(1.0) : 0.0;\n;\n    u_xlatb2.xy = greaterThanEqual(vec4(1.0,
+            1.0, 0.0, 0.0), u_xlat0.xyxx).xy;\n    u_xlat2.x = u_xlatb2.x ? float(1.0)
+            : 0.0;\n    u_xlat2.y = u_xlatb2.y ? float(1.0) : 0.0;\n;\n    u_xlat18.x
+            = u_xlat18.x * u_xlat2.x;\n    u_xlat18.x = u_xlat18.y * u_xlat18.x;\n   
+            u_xlat18.x = u_xlat2.y * u_xlat18.x;\n    u_xlat2.xy = u_xlat0.xy + (-vs_TEXCOORD1.xy);\n   
+            u_xlat2.xy = u_xlat2.xy + vs_TEXCOORD0.xy;\n    u_xlat16_3 = texture(_MainTex,
+            u_xlat2.xy);\n    u_xlat27 = u_xlat18.x * u_xlat16_3.w;\n    u_xlat3
+            = u_xlat18.xxxx * u_xlat16_3;\n    u_xlat4.y = float(0.0);\n    u_xlat22.y
+            = float(0.0);\n    u_xlat5 = u_xlat1.xyxy * vec4(0.25, 0.25, 0.550000012,
+            0.550000012);\n    u_xlat4.x = u_xlat5.x;\n    u_xlat20.xy = u_xlat0.xy
+            + u_xlat4.xy;\n    u_xlat4.xy = u_xlat2.xy + u_xlat4.xy;\n    u_xlat16_18
+            = texture(_MainTex, u_xlat4.xy).w;\n    u_xlatb4.xy = greaterThanEqual(u_xlat20.xyxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat4.x
+            = u_xlatb4.x ? float(1.0) : 0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat4.x;\n    u_xlat20.x =
+            u_xlat4.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat18.x = u_xlat16_18 * u_xlat20.x;\n    u_xlat16_6 = u_xlat18.x *
+            0.0700000003;\n    u_xlat18.x = u_xlat27 * 0.119999997 + u_xlat16_6;\n   
+            u_xlat22.x = (-u_xlat5.x);\n    u_xlat20.xy = u_xlat0.xy + u_xlat22.xy;\n   
+            u_xlat4.xy = u_xlat2.xy + u_xlat22.xy;\n    u_xlat16_4.x = texture(_MainTex,
+            u_xlat4.xy).w;\n    u_xlatb13.xy = greaterThanEqual(u_xlat20.xyxx, vec4(0.0,
+            0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0, 1.0,
+            1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat13.x
+            = u_xlatb13.x ? float(1.0) : 0.0;\n    u_xlat13.y = u_xlatb13.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat13.x;\n    u_xlat20.x
+            = u_xlat13.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat20.x = u_xlat20.x * u_xlat16_4.x;\n    u_xlat18.x = u_xlat20.x
+            * 0.0700000003 + u_xlat18.x;\n    u_xlat4.x = float(0.0);\n    u_xlat22.x
+            = float(0.0);\n    u_xlat4.y = u_xlat5.y;\n    u_xlat20.xy = u_xlat0.xy
+            + u_xlat4.xy;\n    u_xlat4.xy = u_xlat2.xy + u_xlat4.xy;\n    u_xlat16_4.x
+            = texture(_MainTex, u_xlat4.xy).w;\n    u_xlatb7.xy = greaterThanEqual(u_xlat20.xyxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat7.x
+            = u_xlatb7.x ? float(1.0) : 0.0;\n    u_xlat7.y = u_xlatb7.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat7.x;\n    u_xlat20.x =
+            u_xlat7.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat20.x = u_xlat20.x * u_xlat16_4.x;\n    u_xlat18.x = u_xlat20.x
+            * 0.0700000003 + u_xlat18.x;\n    u_xlat22.y = (-u_xlat5.y);\n    u_xlat20.xy
+            = u_xlat0.xy + u_xlat22.xy;\n    u_xlat4.xy = u_xlat2.xy + u_xlat22.xy;\n   
+            u_xlat16_4.x = texture(_MainTex, u_xlat4.xy).w;\n    u_xlatb13.xy = greaterThanEqual(u_xlat20.xyxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat13.x
+            = u_xlatb13.x ? float(1.0) : 0.0;\n    u_xlat13.y = u_xlatb13.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat13.x;\n    u_xlat20.x
+            = u_xlat13.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat20.x = u_xlat20.x * u_xlat16_4.x;\n    u_xlat18.x = u_xlat20.x
+            * 0.0700000003 + u_xlat18.x;\n    u_xlat4 = u_xlat1.xyxy * vec4(0.25,
+            0.25, 0.550000012, 0.550000012) + u_xlat0.xyxy;\n    u_xlatb6 = greaterThanEqual(u_xlat4,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y
+            = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0)
+            : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat20.xy
+            = u_xlat4.xz * u_xlat6.xz;\n    u_xlat20.xy = u_xlat6.yw * u_xlat20.xy;\n   
+            u_xlat20.xy = u_xlat4.yw * u_xlat20.xy;\n    u_xlat4 = u_xlat1.xyxy *
+            vec4(0.25, 0.25, 0.550000012, 0.550000012) + u_xlat2.xyxy;\n    u_xlat16_4.x
+            = texture(_MainTex, u_xlat4.xy).w;\n    u_xlat16_4.y = texture(_MainTex,
+            u_xlat4.zw).w;\n    u_xlat20.xy = u_xlat20.xy * u_xlat16_4.xy;\n    u_xlat18.x
+            = u_xlat20.x * 0.0450000018 + u_xlat18.x;\n    u_xlat4 = u_xlat5.xyxy
+            * vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat0.xyxy;\n    u_xlatb6 = greaterThanEqual(u_xlat4,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y
+            = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0)
+            : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat4.xz
+            = u_xlat4.xz * u_xlat6.xz;\n    u_xlat4.xz = u_xlat6.yw * u_xlat4.xz;\n   
+            u_xlat4.xy = u_xlat4.yw * u_xlat4.xz;\n    u_xlat6 = u_xlat5.xyxy * vec4(-1.0,
+            1.0, 1.0, -1.0) + u_xlat2.xyxy;\n    u_xlat16_20.x = texture(_MainTex,
+            u_xlat6.xy).w;\n    u_xlat16_22 = texture(_MainTex, u_xlat6.zw).w;\n   
+            u_xlat13.x = u_xlat4.y * u_xlat16_22;\n    u_xlat20.x = u_xlat4.x * u_xlat16_20.x;\n   
+            u_xlat18.x = u_xlat20.x * 0.0450000018 + u_xlat18.x;\n    u_xlat18.x
+            = u_xlat13.x * 0.0450000018 + u_xlat18.x;\n    u_xlat4 = (-u_xlat1.xyxy)
+            * vec4(0.25, 0.25, 0.550000012, 0.550000012) + u_xlat0.xyxy;\n    u_xlatb6
+            = greaterThanEqual(u_xlat4, vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4
+            = greaterThanEqual(vec4(1.0, 1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x
+            = u_xlatb4.x ? float(1.0) : 0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w
+            = u_xlatb4.w ? float(1.0) : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0)
+            : 0.0;\n    u_xlat6.y = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z
+            = u_xlatb6.z ? float(1.0) : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.xz = u_xlat4.xz * u_xlat6.xz;\n    u_xlat4.xz
+            = u_xlat6.yw * u_xlat4.xz;\n    u_xlat4.xy = u_xlat4.yw * u_xlat4.xz;\n   
+            u_xlat6 = (-u_xlat1.xyxy) * vec4(0.25, 0.25, 0.550000012, 0.550000012)
+            + u_xlat2.xyxy;\n    u_xlat16_20.x = texture(_MainTex, u_xlat6.xy).w;\n   
+            u_xlat16_22 = texture(_MainTex, u_xlat6.zw).w;\n    u_xlat13.x = u_xlat4.y
+            * u_xlat16_22;\n    u_xlat20.x = u_xlat4.x * u_xlat16_20.x;\n    u_xlat18.x
+            = u_xlat20.x * 0.0450000018 + u_xlat18.x;\n    u_xlat6.x = u_xlat5.z;\n   
+            u_xlat6.y = float(0.0);\n    u_xlat24.y = float(0.0);\n    u_xlat4.xz
+            = u_xlat0.xy + u_xlat6.xy;\n    u_xlat5.xy = u_xlat2.xy + u_xlat6.xy;\n   
+            u_xlat16_20.x = texture(_MainTex, u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0,
+            0.0, 1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat24.x = (-u_xlat5.z);\n    u_xlat4.xz = u_xlat0.xy
+            + u_xlat24.xy;\n    u_xlat5.xy = u_xlat2.xy + u_xlat24.xy;\n    u_xlat16_20.x
+            = texture(_MainTex, u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0,
+            0.0, 1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat6.y = u_xlat5.w;\n    u_xlat6.x = float(0.0);\n   
+            u_xlat24.x = float(0.0);\n    u_xlat4.xz = u_xlat0.xy + u_xlat6.xy;\n   
+            u_xlat5.xy = u_xlat2.xy + u_xlat6.xy;\n    u_xlat16_20.x = texture(_MainTex,
+            u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx, vec4(0.0,
+            0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0, 0.0,
+            1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat24.y = (-u_xlat5.w);\n    u_xlat4.xz = u_xlat0.xy
+            + u_xlat24.xy;\n    u_xlat5.xy = u_xlat2.xy + u_xlat24.xy;\n    u_xlat16_20.x
+            = texture(_MainTex, u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0,
+            0.0, 1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat18.x = u_xlat20.y * 0.0250000004 + u_xlat18.x;\n   
+            u_xlat6 = u_xlat5.zwzw * vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat0.xyxy;\n   
+            u_xlat5 = u_xlat5.zwzw * vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat2.xyxy;\n   
+            u_xlatb7 = greaterThanEqual(u_xlat6, vec4(0.0, 0.0, 0.0, 0.0));\n   
+            u_xlatb6 = greaterThanEqual(vec4(1.0, 1.0, 1.0, 1.0), u_xlat6);\n   
+            u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y = u_xlatb6.y
+            ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0) : 0.0;\n   
+            u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat7.x = u_xlatb7.x
+            ? float(1.0) : 0.0;\n    u_xlat7.y = u_xlatb7.y ? float(1.0) : 0.0;\n   
+            u_xlat7.z = u_xlatb7.z ? float(1.0) : 0.0;\n    u_xlat7.w = u_xlatb7.w
+            ? float(1.0) : 0.0;\n;\n    u_xlat20.xy = u_xlat6.xz * u_xlat7.xz;\n   
+            u_xlat20.xy = u_xlat7.yw * u_xlat20.xy;\n    u_xlat20.xy = u_xlat6.yw
+            * u_xlat20.xy;\n    u_xlat16_4.x = texture(_MainTex, u_xlat5.xy).w;\n   
+            u_xlat16_4.z = texture(_MainTex, u_xlat5.zw).w;\n    u_xlat20.xy = u_xlat20.xy
+            * u_xlat16_4.xz;\n    u_xlat18.x = u_xlat20.x * 0.0250000004 + u_xlat18.x;\n   
+            u_xlat18.x = u_xlat20.y * 0.0250000004 + u_xlat18.x;\n    u_xlat18.x
+            = u_xlat13.x * 0.0250000004 + u_xlat18.x;\n    u_xlat1.z = 0.0;\n   
+            u_xlat4 = u_xlat1.xzzy + u_xlat0.xyxy;\n    u_xlat5 = u_xlat1.xzzy *
+            vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat0.xyxy;\n    u_xlatb6 = greaterThanEqual(u_xlat4,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y
+            = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0)
+            : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat0.xy
+            = u_xlat4.xz * u_xlat6.xz;\n    u_xlat0.xy = u_xlat6.yw * u_xlat0.xy;\n   
+            u_xlat0.xy = u_xlat4.yw * u_xlat0.xy;\n    u_xlat4 = u_xlat1.xzzy + u_xlat2.xyxy;\n   
+            u_xlat16_20.x = texture(_MainTex, u_xlat4.xy).w;\n    u_xlat16_20.y =
+            texture(_MainTex, u_xlat4.zw).w;\n    u_xlat0.xy = u_xlat0.xy * u_xlat16_20.xy;\n   
+            u_xlat0.x = u_xlat0.x * 0.0199999996 + u_xlat18.x;\n    u_xlat1.w = (-u_xlat1.x);\n   
+            u_xlat1.xy = u_xlat1.zy * vec2(1.0, -1.0) + u_xlat2.xy;\n    u_xlat19.xy
+            = u_xlat1.wz + u_xlat2.xy;\n    u_xlat16_18 = texture(_MainTex, u_xlat19.xy).w;\n   
+            u_xlat16_1 = texture(_MainTex, u_xlat1.xy).w;\n    u_xlatb2 = greaterThanEqual(u_xlat5,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat5);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat2.x = u_xlatb2.x ? float(1.0) : 0.0;\n    u_xlat2.y
+            = u_xlatb2.y ? float(1.0) : 0.0;\n    u_xlat2.z = u_xlatb2.z ? float(1.0)
+            : 0.0;\n    u_xlat2.w = u_xlatb2.w ? float(1.0) : 0.0;\n;\n    u_xlat10.xy
+            = u_xlat4.xz * u_xlat2.xz;\n    u_xlat10.xy = u_xlat2.yw * u_xlat10.xy;\n   
+            u_xlat10.xy = u_xlat4.yw * u_xlat10.xy;\n    u_xlat18.x = u_xlat16_18
+            * u_xlat10.x;\n    u_xlat1.x = u_xlat10.y * u_xlat16_1;\n    u_xlat0.x
+            = u_xlat18.x * 0.0199999996 + u_xlat0.x;\n    u_xlat0.x = u_xlat0.y *
+            0.0199999996 + u_xlat0.x;\n    u_xlat0.x = u_xlat1.x * 0.0199999996 +
+            u_xlat0.x;\n    u_xlat0.x = u_xlat0.x * 1.08695662 + (-u_xlat27);\n   
+            u_xlat0.x = clamp(u_xlat0.x, 0.0, 1.0);\n    u_xlat0.x = log2(u_xlat0.x);\n   
+            u_xlat0.x = u_xlat0.x * _GlowFalloff;\n    u_xlat0.x = exp2(u_xlat0.x);\n   
+            u_xlat0.x = u_xlat0.x * _GlowColor.w;\n    u_xlat0.x = u_xlat0.x * _GlowIntensity;\n   
+            u_xlat16_8.x = (-u_xlat3.w) * vs_COLOR0.w + 1.0;\n    u_xlat16_17 = u_xlat3.w
+            * vs_COLOR0.w;\n    u_xlat16_8.x = u_xlat0.x * u_xlat16_8.x + u_xlat16_17;\n   
+            u_xlat16_26 = u_xlat16_8.x + -0.00100000005;\n    SV_Target0.w = u_xlat16_8.x;\n   
+            u_xlatb0 = u_xlat16_26<0.0;\n    if(u_xlatb0){discard;}\n    u_xlat0.xyz
+            = _GlowColor.xyz * vec3(vec3(_GlowIntensity, _GlowIntensity, _GlowIntensity));\n   
+            u_xlat16_8.xzw = u_xlat3.xyz * vs_COLOR0.xyz + (-u_xlat0.xyz);\n    SV_Target0.xyz
+            = vec3(u_xlat16_17) * u_xlat16_8.xzw + u_xlat0.xyz;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025":
+            - UNITY_UI_ALPHACLIP
+          Tags:
+          - Key: CanUseSpriteAtlas
+            Value: true
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: PreviewType
+            Value: Plane
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tmediump vec4 _Color;\nin highp vec4 in_POSITION0;\nin highp vec4 in_COLOR0;\nin
+            highp vec2 in_TEXCOORD0;\nin highp vec2 in_TEXCOORD1;\nout mediump vec4
+            vs_COLOR0;\nout highp vec2 vs_TEXCOORD0;\nout highp vec2 vs_TEXCOORD1;\nout
+            highp vec4 vs_TEXCOORD2;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    gl_Position = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    u_xlat0 = in_COLOR0 * _Color;\n    vs_COLOR0
+            = u_xlat0;\n    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;\n    vs_TEXCOORD1.xy
+            = in_TEXCOORD1.xy;\n    vs_TEXCOORD2 = in_POSITION0;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tvec4 _MainTex_TexelSize;\nuniform \tmediump
+            vec4 _GlowColor;\nuniform \tfloat _GlowRadius;\nuniform \tfloat _GlowIntensity;\nuniform
+            \tfloat _GlowFalloff;\nuniform \tfloat _Padding;\nuniform \tvec4 _ClipRect;\nUNITY_LOCATION(0)
+            uniform mediump sampler2D _MainTex;\nin mediump  vec4 vs_COLOR0;\nin
+            highp  vec2 vs_TEXCOORD0;\nin highp  vec2 vs_TEXCOORD1;\nin highp  vec4
+            vs_TEXCOORD2;\nlayout(location = 0) out mediump vec4 SV_Target0;\nvec4
+            u_xlat0;\nbvec4 u_xlatb0;\nvec4 u_xlat1;\nmediump float u_xlat16_1;\nvec4
+            u_xlat2;\nbvec4 u_xlatb2;\nvec4 u_xlat3;\nmediump vec4 u_xlat16_3;\nvec4
+            u_xlat4;\nmediump vec3 u_xlat16_4;\nbvec4 u_xlatb4;\nvec4 u_xlat5;\nbvec2
+            u_xlatb5;\nvec4 u_xlat6;\nmediump float u_xlat16_6;\nbvec4 u_xlatb6;\nvec4
+            u_xlat7;\nbvec4 u_xlatb7;\nmediump vec4 u_xlat16_8;\nvec2 u_xlat9;\nvec2
+            u_xlat10;\nvec2 u_xlat13;\nbvec2 u_xlatb13;\nmediump float u_xlat16_17;\nvec2
+            u_xlat18;\nmediump float u_xlat16_18;\nbvec2 u_xlatb18;\nvec2 u_xlat19;\nvec2
+            u_xlat20;\nmediump vec2 u_xlat16_20;\nbvec2 u_xlatb20;\nvec2 u_xlat22;\nmediump
+            float u_xlat16_22;\nvec2 u_xlat24;\nfloat u_xlat27;\nvoid main()\n{\n   
+            u_xlat0.x = max(_Padding, 9.99999975e-05);\n    u_xlat9.xy = u_xlat0.xx
+            * _MainTex_TexelSize.xy;\n    u_xlat0.x = min(u_xlat0.x, _GlowRadius);\n   
+            u_xlat1.xy = u_xlat0.xx * _MainTex_TexelSize.xy;\n    u_xlat0.xw = u_xlat9.xy
+            * vec2(2.0, 2.0) + vec2(1.0, 1.0);\n    u_xlat0.xy = vs_TEXCOORD1.xy
+            * u_xlat0.xw + (-u_xlat9.xy);\n    u_xlatb18.xy = greaterThanEqual(u_xlat0.xyxy,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlat18.x = u_xlatb18.x ? float(1.0)
+            : 0.0;\n    u_xlat18.y = u_xlatb18.y ? float(1.0) : 0.0;\n;\n    u_xlatb2.xy
+            = greaterThanEqual(vec4(1.0, 1.0, 0.0, 0.0), u_xlat0.xyxx).xy;\n    u_xlat2.x
+            = u_xlatb2.x ? float(1.0) : 0.0;\n    u_xlat2.y = u_xlatb2.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat18.x = u_xlat18.x * u_xlat2.x;\n    u_xlat18.x =
+            u_xlat18.y * u_xlat18.x;\n    u_xlat18.x = u_xlat2.y * u_xlat18.x;\n   
+            u_xlat2.xy = u_xlat0.xy + (-vs_TEXCOORD1.xy);\n    u_xlat2.xy = u_xlat2.xy
+            + vs_TEXCOORD0.xy;\n    u_xlat16_3 = texture(_MainTex, u_xlat2.xy);\n   
+            u_xlat27 = u_xlat18.x * u_xlat16_3.w;\n    u_xlat3 = u_xlat18.xxxx *
+            u_xlat16_3;\n    u_xlat4.y = float(0.0);\n    u_xlat22.y = float(0.0);\n   
+            u_xlat5 = u_xlat1.xyxy * vec4(0.25, 0.25, 0.550000012, 0.550000012);\n   
+            u_xlat4.x = u_xlat5.x;\n    u_xlat20.xy = u_xlat0.xy + u_xlat4.xy;\n   
+            u_xlat4.xy = u_xlat2.xy + u_xlat4.xy;\n    u_xlat16_18 = texture(_MainTex,
+            u_xlat4.xy).w;\n    u_xlatb4.xy = greaterThanEqual(u_xlat20.xyxx, vec4(0.0,
+            0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0, 1.0,
+            1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat4.x
+            = u_xlatb4.x ? float(1.0) : 0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat4.x;\n    u_xlat20.x =
+            u_xlat4.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat18.x = u_xlat16_18 * u_xlat20.x;\n    u_xlat16_6 = u_xlat18.x *
+            0.0700000003;\n    u_xlat18.x = u_xlat27 * 0.119999997 + u_xlat16_6;\n   
+            u_xlat22.x = (-u_xlat5.x);\n    u_xlat20.xy = u_xlat0.xy + u_xlat22.xy;\n   
+            u_xlat4.xy = u_xlat2.xy + u_xlat22.xy;\n    u_xlat16_4.x = texture(_MainTex,
+            u_xlat4.xy).w;\n    u_xlatb13.xy = greaterThanEqual(u_xlat20.xyxx, vec4(0.0,
+            0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0, 1.0,
+            1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat13.x
+            = u_xlatb13.x ? float(1.0) : 0.0;\n    u_xlat13.y = u_xlatb13.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat13.x;\n    u_xlat20.x
+            = u_xlat13.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat20.x = u_xlat20.x * u_xlat16_4.x;\n    u_xlat18.x = u_xlat20.x
+            * 0.0700000003 + u_xlat18.x;\n    u_xlat4.x = float(0.0);\n    u_xlat22.x
+            = float(0.0);\n    u_xlat4.y = u_xlat5.y;\n    u_xlat20.xy = u_xlat0.xy
+            + u_xlat4.xy;\n    u_xlat4.xy = u_xlat2.xy + u_xlat4.xy;\n    u_xlat16_4.x
+            = texture(_MainTex, u_xlat4.xy).w;\n    u_xlatb7.xy = greaterThanEqual(u_xlat20.xyxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat7.x
+            = u_xlatb7.x ? float(1.0) : 0.0;\n    u_xlat7.y = u_xlatb7.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat7.x;\n    u_xlat20.x =
+            u_xlat7.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat20.x = u_xlat20.x * u_xlat16_4.x;\n    u_xlat18.x = u_xlat20.x
+            * 0.0700000003 + u_xlat18.x;\n    u_xlat22.y = (-u_xlat5.y);\n    u_xlat20.xy
+            = u_xlat0.xy + u_xlat22.xy;\n    u_xlat4.xy = u_xlat2.xy + u_xlat22.xy;\n   
+            u_xlat16_4.x = texture(_MainTex, u_xlat4.xy).w;\n    u_xlatb13.xy = greaterThanEqual(u_xlat20.xyxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat13.x
+            = u_xlatb13.x ? float(1.0) : 0.0;\n    u_xlat13.y = u_xlatb13.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat13.x;\n    u_xlat20.x
+            = u_xlat13.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat20.x = u_xlat20.x * u_xlat16_4.x;\n    u_xlat18.x = u_xlat20.x
+            * 0.0700000003 + u_xlat18.x;\n    u_xlat4 = u_xlat1.xyxy * vec4(0.25,
+            0.25, 0.550000012, 0.550000012) + u_xlat0.xyxy;\n    u_xlatb6 = greaterThanEqual(u_xlat4,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y
+            = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0)
+            : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat20.xy
+            = u_xlat4.xz * u_xlat6.xz;\n    u_xlat20.xy = u_xlat6.yw * u_xlat20.xy;\n   
+            u_xlat20.xy = u_xlat4.yw * u_xlat20.xy;\n    u_xlat4 = u_xlat1.xyxy *
+            vec4(0.25, 0.25, 0.550000012, 0.550000012) + u_xlat2.xyxy;\n    u_xlat16_4.x
+            = texture(_MainTex, u_xlat4.xy).w;\n    u_xlat16_4.y = texture(_MainTex,
+            u_xlat4.zw).w;\n    u_xlat20.xy = u_xlat20.xy * u_xlat16_4.xy;\n    u_xlat18.x
+            = u_xlat20.x * 0.0450000018 + u_xlat18.x;\n    u_xlat4 = u_xlat5.xyxy
+            * vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat0.xyxy;\n    u_xlatb6 = greaterThanEqual(u_xlat4,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y
+            = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0)
+            : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat4.xz
+            = u_xlat4.xz * u_xlat6.xz;\n    u_xlat4.xz = u_xlat6.yw * u_xlat4.xz;\n   
+            u_xlat4.xy = u_xlat4.yw * u_xlat4.xz;\n    u_xlat6 = u_xlat5.xyxy * vec4(-1.0,
+            1.0, 1.0, -1.0) + u_xlat2.xyxy;\n    u_xlat16_20.x = texture(_MainTex,
+            u_xlat6.xy).w;\n    u_xlat16_22 = texture(_MainTex, u_xlat6.zw).w;\n   
+            u_xlat13.x = u_xlat4.y * u_xlat16_22;\n    u_xlat20.x = u_xlat4.x * u_xlat16_20.x;\n   
+            u_xlat18.x = u_xlat20.x * 0.0450000018 + u_xlat18.x;\n    u_xlat18.x
+            = u_xlat13.x * 0.0450000018 + u_xlat18.x;\n    u_xlat4 = (-u_xlat1.xyxy)
+            * vec4(0.25, 0.25, 0.550000012, 0.550000012) + u_xlat0.xyxy;\n    u_xlatb6
+            = greaterThanEqual(u_xlat4, vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4
+            = greaterThanEqual(vec4(1.0, 1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x
+            = u_xlatb4.x ? float(1.0) : 0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w
+            = u_xlatb4.w ? float(1.0) : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0)
+            : 0.0;\n    u_xlat6.y = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z
+            = u_xlatb6.z ? float(1.0) : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.xz = u_xlat4.xz * u_xlat6.xz;\n    u_xlat4.xz
+            = u_xlat6.yw * u_xlat4.xz;\n    u_xlat4.xy = u_xlat4.yw * u_xlat4.xz;\n   
+            u_xlat6 = (-u_xlat1.xyxy) * vec4(0.25, 0.25, 0.550000012, 0.550000012)
+            + u_xlat2.xyxy;\n    u_xlat16_20.x = texture(_MainTex, u_xlat6.xy).w;\n   
+            u_xlat16_22 = texture(_MainTex, u_xlat6.zw).w;\n    u_xlat13.x = u_xlat4.y
+            * u_xlat16_22;\n    u_xlat20.x = u_xlat4.x * u_xlat16_20.x;\n    u_xlat18.x
+            = u_xlat20.x * 0.0450000018 + u_xlat18.x;\n    u_xlat6.x = u_xlat5.z;\n   
+            u_xlat6.y = float(0.0);\n    u_xlat24.y = float(0.0);\n    u_xlat4.xz
+            = u_xlat0.xy + u_xlat6.xy;\n    u_xlat5.xy = u_xlat2.xy + u_xlat6.xy;\n   
+            u_xlat16_20.x = texture(_MainTex, u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0,
+            0.0, 1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat24.x = (-u_xlat5.z);\n    u_xlat4.xz = u_xlat0.xy
+            + u_xlat24.xy;\n    u_xlat5.xy = u_xlat2.xy + u_xlat24.xy;\n    u_xlat16_20.x
+            = texture(_MainTex, u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0,
+            0.0, 1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat6.y = u_xlat5.w;\n    u_xlat6.x = float(0.0);\n   
+            u_xlat24.x = float(0.0);\n    u_xlat4.xz = u_xlat0.xy + u_xlat6.xy;\n   
+            u_xlat5.xy = u_xlat2.xy + u_xlat6.xy;\n    u_xlat16_20.x = texture(_MainTex,
+            u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx, vec4(0.0,
+            0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0, 0.0,
+            1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat24.y = (-u_xlat5.w);\n    u_xlat4.xz = u_xlat0.xy
+            + u_xlat24.xy;\n    u_xlat5.xy = u_xlat2.xy + u_xlat24.xy;\n    u_xlat16_20.x
+            = texture(_MainTex, u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0,
+            0.0, 1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat18.x = u_xlat20.y * 0.0250000004 + u_xlat18.x;\n   
+            u_xlat6 = u_xlat5.zwzw * vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat0.xyxy;\n   
+            u_xlat5 = u_xlat5.zwzw * vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat2.xyxy;\n   
+            u_xlatb7 = greaterThanEqual(u_xlat6, vec4(0.0, 0.0, 0.0, 0.0));\n   
+            u_xlatb6 = greaterThanEqual(vec4(1.0, 1.0, 1.0, 1.0), u_xlat6);\n   
+            u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y = u_xlatb6.y
+            ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0) : 0.0;\n   
+            u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat7.x = u_xlatb7.x
+            ? float(1.0) : 0.0;\n    u_xlat7.y = u_xlatb7.y ? float(1.0) : 0.0;\n   
+            u_xlat7.z = u_xlatb7.z ? float(1.0) : 0.0;\n    u_xlat7.w = u_xlatb7.w
+            ? float(1.0) : 0.0;\n;\n    u_xlat20.xy = u_xlat6.xz * u_xlat7.xz;\n   
+            u_xlat20.xy = u_xlat7.yw * u_xlat20.xy;\n    u_xlat20.xy = u_xlat6.yw
+            * u_xlat20.xy;\n    u_xlat16_4.x = texture(_MainTex, u_xlat5.xy).w;\n   
+            u_xlat16_4.z = texture(_MainTex, u_xlat5.zw).w;\n    u_xlat20.xy = u_xlat20.xy
+            * u_xlat16_4.xz;\n    u_xlat18.x = u_xlat20.x * 0.0250000004 + u_xlat18.x;\n   
+            u_xlat18.x = u_xlat20.y * 0.0250000004 + u_xlat18.x;\n    u_xlat18.x
+            = u_xlat13.x * 0.0250000004 + u_xlat18.x;\n    u_xlat1.z = 0.0;\n   
+            u_xlat4 = u_xlat1.xzzy + u_xlat0.xyxy;\n    u_xlat5 = u_xlat1.xzzy *
+            vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat0.xyxy;\n    u_xlatb6 = greaterThanEqual(u_xlat4,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y
+            = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0)
+            : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat0.xy
+            = u_xlat4.xz * u_xlat6.xz;\n    u_xlat0.xy = u_xlat6.yw * u_xlat0.xy;\n   
+            u_xlat0.xy = u_xlat4.yw * u_xlat0.xy;\n    u_xlat4 = u_xlat1.xzzy + u_xlat2.xyxy;\n   
+            u_xlat16_20.x = texture(_MainTex, u_xlat4.xy).w;\n    u_xlat16_20.y =
+            texture(_MainTex, u_xlat4.zw).w;\n    u_xlat0.xy = u_xlat0.xy * u_xlat16_20.xy;\n   
+            u_xlat0.x = u_xlat0.x * 0.0199999996 + u_xlat18.x;\n    u_xlat1.w = (-u_xlat1.x);\n   
+            u_xlat1.xy = u_xlat1.zy * vec2(1.0, -1.0) + u_xlat2.xy;\n    u_xlat19.xy
+            = u_xlat1.wz + u_xlat2.xy;\n    u_xlat16_18 = texture(_MainTex, u_xlat19.xy).w;\n   
+            u_xlat16_1 = texture(_MainTex, u_xlat1.xy).w;\n    u_xlatb2 = greaterThanEqual(u_xlat5,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat5);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat2.x = u_xlatb2.x ? float(1.0) : 0.0;\n    u_xlat2.y
+            = u_xlatb2.y ? float(1.0) : 0.0;\n    u_xlat2.z = u_xlatb2.z ? float(1.0)
+            : 0.0;\n    u_xlat2.w = u_xlatb2.w ? float(1.0) : 0.0;\n;\n    u_xlat10.xy
+            = u_xlat4.xz * u_xlat2.xz;\n    u_xlat10.xy = u_xlat2.yw * u_xlat10.xy;\n   
+            u_xlat10.xy = u_xlat4.yw * u_xlat10.xy;\n    u_xlat18.x = u_xlat16_18
+            * u_xlat10.x;\n    u_xlat1.x = u_xlat10.y * u_xlat16_1;\n    u_xlat0.x
+            = u_xlat18.x * 0.0199999996 + u_xlat0.x;\n    u_xlat0.x = u_xlat0.y *
+            0.0199999996 + u_xlat0.x;\n    u_xlat0.x = u_xlat1.x * 0.0199999996 +
+            u_xlat0.x;\n    u_xlat0.x = u_xlat0.x * 1.08695662 + (-u_xlat27);\n   
+            u_xlat0.x = clamp(u_xlat0.x, 0.0, 1.0);\n    u_xlat0.x = log2(u_xlat0.x);\n   
+            u_xlat0.x = u_xlat0.x * _GlowFalloff;\n    u_xlat0.x = exp2(u_xlat0.x);\n   
+            u_xlat0.x = u_xlat0.x * _GlowColor.w;\n    u_xlat0.x = u_xlat0.x * _GlowIntensity;\n   
+            u_xlat16_8.x = (-u_xlat3.w) * vs_COLOR0.w + 1.0;\n    u_xlat16_17 = u_xlat3.w
+            * vs_COLOR0.w;\n    u_xlat16_8.x = u_xlat0.x * u_xlat16_8.x + u_xlat16_17;\n   
+            u_xlatb0.xy = greaterThanEqual(vs_TEXCOORD2.xyxx, _ClipRect.xyxx).xy;\n   
+            u_xlatb0.zw = greaterThanEqual(_ClipRect.zzzw, vs_TEXCOORD2.xxxy).zw;\n   
+            u_xlat0.x = u_xlatb0.x ? float(1.0) : 0.0;\n    u_xlat0.y = u_xlatb0.y
+            ? float(1.0) : 0.0;\n    u_xlat0.z = u_xlatb0.z ? float(1.0) : 0.0;\n   
+            u_xlat0.w = u_xlatb0.w ? float(1.0) : 0.0;\n;\n    u_xlat0.xy = u_xlat0.zw
+            * u_xlat0.xy;\n    u_xlat0.x = u_xlat0.y * u_xlat0.x;\n    u_xlat0.x
+            = u_xlat0.x * u_xlat16_8.x;\n    SV_Target0.w = u_xlat0.x;\n    u_xlat0.xyz
+            = _GlowColor.xyz * vec3(vec3(_GlowIntensity, _GlowIntensity, _GlowIntensity));\n   
+            u_xlat16_8.xzw = u_xlat3.xyz * vs_COLOR0.xyz + (-u_xlat0.xyz);\n    SV_Target0.xyz
+            = vec3(u_xlat16_17) * u_xlat16_8.xzw + u_xlat0.xyz;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025":
+            - UNITY_UI_CLIP_RECT
+          Tags:
+          - Key: CanUseSpriteAtlas
+            Value: true
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: PreviewType
+            Value: Plane
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tmediump vec4 _Color;\nin highp vec4 in_POSITION0;\nin highp vec4 in_COLOR0;\nin
+            highp vec2 in_TEXCOORD0;\nin highp vec2 in_TEXCOORD1;\nout mediump vec4
+            vs_COLOR0;\nout highp vec2 vs_TEXCOORD0;\nout highp vec2 vs_TEXCOORD1;\nout
+            highp vec4 vs_TEXCOORD2;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    gl_Position = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    u_xlat0 = in_COLOR0 * _Color;\n    vs_COLOR0
+            = u_xlat0;\n    vs_TEXCOORD0.xy = in_TEXCOORD0.xy;\n    vs_TEXCOORD1.xy
+            = in_TEXCOORD1.xy;\n    vs_TEXCOORD2 = in_POSITION0;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tvec4 _MainTex_TexelSize;\nuniform \tmediump
+            vec4 _GlowColor;\nuniform \tfloat _GlowRadius;\nuniform \tfloat _GlowIntensity;\nuniform
+            \tfloat _GlowFalloff;\nuniform \tfloat _Padding;\nuniform \tvec4 _ClipRect;\nUNITY_LOCATION(0)
+            uniform mediump sampler2D _MainTex;\nin mediump  vec4 vs_COLOR0;\nin
+            highp  vec2 vs_TEXCOORD0;\nin highp  vec2 vs_TEXCOORD1;\nin highp  vec4
+            vs_TEXCOORD2;\nlayout(location = 0) out mediump vec4 SV_Target0;\nvec4
+            u_xlat0;\nbvec4 u_xlatb0;\nvec4 u_xlat1;\nmediump float u_xlat16_1;\nvec4
+            u_xlat2;\nbvec4 u_xlatb2;\nvec4 u_xlat3;\nmediump vec4 u_xlat16_3;\nvec4
+            u_xlat4;\nmediump vec3 u_xlat16_4;\nbvec4 u_xlatb4;\nvec4 u_xlat5;\nbvec2
+            u_xlatb5;\nvec4 u_xlat6;\nmediump float u_xlat16_6;\nbvec4 u_xlatb6;\nvec4
+            u_xlat7;\nbvec4 u_xlatb7;\nmediump vec4 u_xlat16_8;\nvec2 u_xlat9;\nvec2
+            u_xlat10;\nvec2 u_xlat13;\nbvec2 u_xlatb13;\nmediump float u_xlat16_17;\nvec2
+            u_xlat18;\nmediump float u_xlat16_18;\nbvec2 u_xlatb18;\nvec2 u_xlat19;\nvec2
+            u_xlat20;\nmediump vec2 u_xlat16_20;\nbvec2 u_xlatb20;\nvec2 u_xlat22;\nmediump
+            float u_xlat16_22;\nvec2 u_xlat24;\nmediump float u_xlat16_26;\nfloat
+            u_xlat27;\nvoid main()\n{\n    u_xlat0.x = max(_Padding, 9.99999975e-05);\n   
+            u_xlat9.xy = u_xlat0.xx * _MainTex_TexelSize.xy;\n    u_xlat0.x = min(u_xlat0.x,
+            _GlowRadius);\n    u_xlat1.xy = u_xlat0.xx * _MainTex_TexelSize.xy;\n   
+            u_xlat0.xw = u_xlat9.xy * vec2(2.0, 2.0) + vec2(1.0, 1.0);\n    u_xlat0.xy
+            = vs_TEXCOORD1.xy * u_xlat0.xw + (-u_xlat9.xy);\n    u_xlatb18.xy = greaterThanEqual(u_xlat0.xyxy,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlat18.x = u_xlatb18.x ? float(1.0)
+            : 0.0;\n    u_xlat18.y = u_xlatb18.y ? float(1.0) : 0.0;\n;\n    u_xlatb2.xy
+            = greaterThanEqual(vec4(1.0, 1.0, 0.0, 0.0), u_xlat0.xyxx).xy;\n    u_xlat2.x
+            = u_xlatb2.x ? float(1.0) : 0.0;\n    u_xlat2.y = u_xlatb2.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat18.x = u_xlat18.x * u_xlat2.x;\n    u_xlat18.x =
+            u_xlat18.y * u_xlat18.x;\n    u_xlat18.x = u_xlat2.y * u_xlat18.x;\n   
+            u_xlat2.xy = u_xlat0.xy + (-vs_TEXCOORD1.xy);\n    u_xlat2.xy = u_xlat2.xy
+            + vs_TEXCOORD0.xy;\n    u_xlat16_3 = texture(_MainTex, u_xlat2.xy);\n   
+            u_xlat27 = u_xlat18.x * u_xlat16_3.w;\n    u_xlat3 = u_xlat18.xxxx *
+            u_xlat16_3;\n    u_xlat4.y = float(0.0);\n    u_xlat22.y = float(0.0);\n   
+            u_xlat5 = u_xlat1.xyxy * vec4(0.25, 0.25, 0.550000012, 0.550000012);\n   
+            u_xlat4.x = u_xlat5.x;\n    u_xlat20.xy = u_xlat0.xy + u_xlat4.xy;\n   
+            u_xlat4.xy = u_xlat2.xy + u_xlat4.xy;\n    u_xlat16_18 = texture(_MainTex,
+            u_xlat4.xy).w;\n    u_xlatb4.xy = greaterThanEqual(u_xlat20.xyxx, vec4(0.0,
+            0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0, 1.0,
+            1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat4.x
+            = u_xlatb4.x ? float(1.0) : 0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat4.x;\n    u_xlat20.x =
+            u_xlat4.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat18.x = u_xlat16_18 * u_xlat20.x;\n    u_xlat16_6 = u_xlat18.x *
+            0.0700000003;\n    u_xlat18.x = u_xlat27 * 0.119999997 + u_xlat16_6;\n   
+            u_xlat22.x = (-u_xlat5.x);\n    u_xlat20.xy = u_xlat0.xy + u_xlat22.xy;\n   
+            u_xlat4.xy = u_xlat2.xy + u_xlat22.xy;\n    u_xlat16_4.x = texture(_MainTex,
+            u_xlat4.xy).w;\n    u_xlatb13.xy = greaterThanEqual(u_xlat20.xyxx, vec4(0.0,
+            0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0, 1.0,
+            1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat13.x
+            = u_xlatb13.x ? float(1.0) : 0.0;\n    u_xlat13.y = u_xlatb13.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat13.x;\n    u_xlat20.x
+            = u_xlat13.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat20.x = u_xlat20.x * u_xlat16_4.x;\n    u_xlat18.x = u_xlat20.x
+            * 0.0700000003 + u_xlat18.x;\n    u_xlat4.x = float(0.0);\n    u_xlat22.x
+            = float(0.0);\n    u_xlat4.y = u_xlat5.y;\n    u_xlat20.xy = u_xlat0.xy
+            + u_xlat4.xy;\n    u_xlat4.xy = u_xlat2.xy + u_xlat4.xy;\n    u_xlat16_4.x
+            = texture(_MainTex, u_xlat4.xy).w;\n    u_xlatb7.xy = greaterThanEqual(u_xlat20.xyxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat7.x
+            = u_xlatb7.x ? float(1.0) : 0.0;\n    u_xlat7.y = u_xlatb7.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat7.x;\n    u_xlat20.x =
+            u_xlat7.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat20.x = u_xlat20.x * u_xlat16_4.x;\n    u_xlat18.x = u_xlat20.x
+            * 0.0700000003 + u_xlat18.x;\n    u_xlat22.y = (-u_xlat5.y);\n    u_xlat20.xy
+            = u_xlat0.xy + u_xlat22.xy;\n    u_xlat4.xy = u_xlat2.xy + u_xlat22.xy;\n   
+            u_xlat16_4.x = texture(_MainTex, u_xlat4.xy).w;\n    u_xlatb13.xy = greaterThanEqual(u_xlat20.xyxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb20.xy = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat20.xyxy).xy;\n    u_xlat20.x = u_xlatb20.x ? float(1.0)
+            : 0.0;\n    u_xlat20.y = u_xlatb20.y ? float(1.0) : 0.0;\n;\n    u_xlat13.x
+            = u_xlatb13.x ? float(1.0) : 0.0;\n    u_xlat13.y = u_xlatb13.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat20.x = u_xlat20.x * u_xlat13.x;\n    u_xlat20.x
+            = u_xlat13.y * u_xlat20.x;\n    u_xlat20.x = u_xlat20.y * u_xlat20.x;\n   
+            u_xlat20.x = u_xlat20.x * u_xlat16_4.x;\n    u_xlat18.x = u_xlat20.x
+            * 0.0700000003 + u_xlat18.x;\n    u_xlat4 = u_xlat1.xyxy * vec4(0.25,
+            0.25, 0.550000012, 0.550000012) + u_xlat0.xyxy;\n    u_xlatb6 = greaterThanEqual(u_xlat4,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y
+            = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0)
+            : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat20.xy
+            = u_xlat4.xz * u_xlat6.xz;\n    u_xlat20.xy = u_xlat6.yw * u_xlat20.xy;\n   
+            u_xlat20.xy = u_xlat4.yw * u_xlat20.xy;\n    u_xlat4 = u_xlat1.xyxy *
+            vec4(0.25, 0.25, 0.550000012, 0.550000012) + u_xlat2.xyxy;\n    u_xlat16_4.x
+            = texture(_MainTex, u_xlat4.xy).w;\n    u_xlat16_4.y = texture(_MainTex,
+            u_xlat4.zw).w;\n    u_xlat20.xy = u_xlat20.xy * u_xlat16_4.xy;\n    u_xlat18.x
+            = u_xlat20.x * 0.0450000018 + u_xlat18.x;\n    u_xlat4 = u_xlat5.xyxy
+            * vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat0.xyxy;\n    u_xlatb6 = greaterThanEqual(u_xlat4,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y
+            = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0)
+            : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat4.xz
+            = u_xlat4.xz * u_xlat6.xz;\n    u_xlat4.xz = u_xlat6.yw * u_xlat4.xz;\n   
+            u_xlat4.xy = u_xlat4.yw * u_xlat4.xz;\n    u_xlat6 = u_xlat5.xyxy * vec4(-1.0,
+            1.0, 1.0, -1.0) + u_xlat2.xyxy;\n    u_xlat16_20.x = texture(_MainTex,
+            u_xlat6.xy).w;\n    u_xlat16_22 = texture(_MainTex, u_xlat6.zw).w;\n   
+            u_xlat13.x = u_xlat4.y * u_xlat16_22;\n    u_xlat20.x = u_xlat4.x * u_xlat16_20.x;\n   
+            u_xlat18.x = u_xlat20.x * 0.0450000018 + u_xlat18.x;\n    u_xlat18.x
+            = u_xlat13.x * 0.0450000018 + u_xlat18.x;\n    u_xlat4 = (-u_xlat1.xyxy)
+            * vec4(0.25, 0.25, 0.550000012, 0.550000012) + u_xlat0.xyxy;\n    u_xlatb6
+            = greaterThanEqual(u_xlat4, vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4
+            = greaterThanEqual(vec4(1.0, 1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x
+            = u_xlatb4.x ? float(1.0) : 0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w
+            = u_xlatb4.w ? float(1.0) : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0)
+            : 0.0;\n    u_xlat6.y = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z
+            = u_xlatb6.z ? float(1.0) : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.xz = u_xlat4.xz * u_xlat6.xz;\n    u_xlat4.xz
+            = u_xlat6.yw * u_xlat4.xz;\n    u_xlat4.xy = u_xlat4.yw * u_xlat4.xz;\n   
+            u_xlat6 = (-u_xlat1.xyxy) * vec4(0.25, 0.25, 0.550000012, 0.550000012)
+            + u_xlat2.xyxy;\n    u_xlat16_20.x = texture(_MainTex, u_xlat6.xy).w;\n   
+            u_xlat16_22 = texture(_MainTex, u_xlat6.zw).w;\n    u_xlat13.x = u_xlat4.y
+            * u_xlat16_22;\n    u_xlat20.x = u_xlat4.x * u_xlat16_20.x;\n    u_xlat18.x
+            = u_xlat20.x * 0.0450000018 + u_xlat18.x;\n    u_xlat6.x = u_xlat5.z;\n   
+            u_xlat6.y = float(0.0);\n    u_xlat24.y = float(0.0);\n    u_xlat4.xz
+            = u_xlat0.xy + u_xlat6.xy;\n    u_xlat5.xy = u_xlat2.xy + u_xlat6.xy;\n   
+            u_xlat16_20.x = texture(_MainTex, u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0,
+            0.0, 1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat24.x = (-u_xlat5.z);\n    u_xlat4.xz = u_xlat0.xy
+            + u_xlat24.xy;\n    u_xlat5.xy = u_xlat2.xy + u_xlat24.xy;\n    u_xlat16_20.x
+            = texture(_MainTex, u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0,
+            0.0, 1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat6.y = u_xlat5.w;\n    u_xlat6.x = float(0.0);\n   
+            u_xlat24.x = float(0.0);\n    u_xlat4.xz = u_xlat0.xy + u_xlat6.xy;\n   
+            u_xlat5.xy = u_xlat2.xy + u_xlat6.xy;\n    u_xlat16_20.x = texture(_MainTex,
+            u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx, vec4(0.0,
+            0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0, 0.0,
+            1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat24.y = (-u_xlat5.w);\n    u_xlat4.xz = u_xlat0.xy
+            + u_xlat24.xy;\n    u_xlat5.xy = u_xlat2.xy + u_xlat24.xy;\n    u_xlat16_20.x
+            = texture(_MainTex, u_xlat5.xy).w;\n    u_xlatb5.xy = greaterThanEqual(u_xlat4.xzxx,
+            vec4(0.0, 0.0, 0.0, 0.0)).xy;\n    u_xlatb4.xz = greaterThanEqual(vec4(1.0,
+            0.0, 1.0, 0.0), u_xlat4.xxzx).xz;\n    u_xlat4.x = u_xlatb4.x ? float(1.0)
+            : 0.0;\n    u_xlat4.z = u_xlatb4.z ? float(1.0) : 0.0;\n;\n    u_xlat5.x
+            = u_xlatb5.x ? float(1.0) : 0.0;\n    u_xlat5.y = u_xlatb5.y ? float(1.0)
+            : 0.0;\n;\n    u_xlat4.x = u_xlat4.x * u_xlat5.x;\n    u_xlat4.x = u_xlat5.y
+            * u_xlat4.x;\n    u_xlat4.x = u_xlat4.z * u_xlat4.x;\n    u_xlat20.x
+            = u_xlat16_20.x * u_xlat4.x;\n    u_xlat18.x = u_xlat20.x * 0.0399999991
+            + u_xlat18.x;\n    u_xlat18.x = u_xlat20.y * 0.0250000004 + u_xlat18.x;\n   
+            u_xlat6 = u_xlat5.zwzw * vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat0.xyxy;\n   
+            u_xlat5 = u_xlat5.zwzw * vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat2.xyxy;\n   
+            u_xlatb7 = greaterThanEqual(u_xlat6, vec4(0.0, 0.0, 0.0, 0.0));\n   
+            u_xlatb6 = greaterThanEqual(vec4(1.0, 1.0, 1.0, 1.0), u_xlat6);\n   
+            u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y = u_xlatb6.y
+            ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0) : 0.0;\n   
+            u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat7.x = u_xlatb7.x
+            ? float(1.0) : 0.0;\n    u_xlat7.y = u_xlatb7.y ? float(1.0) : 0.0;\n   
+            u_xlat7.z = u_xlatb7.z ? float(1.0) : 0.0;\n    u_xlat7.w = u_xlatb7.w
+            ? float(1.0) : 0.0;\n;\n    u_xlat20.xy = u_xlat6.xz * u_xlat7.xz;\n   
+            u_xlat20.xy = u_xlat7.yw * u_xlat20.xy;\n    u_xlat20.xy = u_xlat6.yw
+            * u_xlat20.xy;\n    u_xlat16_4.x = texture(_MainTex, u_xlat5.xy).w;\n   
+            u_xlat16_4.z = texture(_MainTex, u_xlat5.zw).w;\n    u_xlat20.xy = u_xlat20.xy
+            * u_xlat16_4.xz;\n    u_xlat18.x = u_xlat20.x * 0.0250000004 + u_xlat18.x;\n   
+            u_xlat18.x = u_xlat20.y * 0.0250000004 + u_xlat18.x;\n    u_xlat18.x
+            = u_xlat13.x * 0.0250000004 + u_xlat18.x;\n    u_xlat1.z = 0.0;\n   
+            u_xlat4 = u_xlat1.xzzy + u_xlat0.xyxy;\n    u_xlat5 = u_xlat1.xzzy *
+            vec4(-1.0, 1.0, 1.0, -1.0) + u_xlat0.xyxy;\n    u_xlatb6 = greaterThanEqual(u_xlat4,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat4);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat6.x = u_xlatb6.x ? float(1.0) : 0.0;\n    u_xlat6.y
+            = u_xlatb6.y ? float(1.0) : 0.0;\n    u_xlat6.z = u_xlatb6.z ? float(1.0)
+            : 0.0;\n    u_xlat6.w = u_xlatb6.w ? float(1.0) : 0.0;\n;\n    u_xlat0.xy
+            = u_xlat4.xz * u_xlat6.xz;\n    u_xlat0.xy = u_xlat6.yw * u_xlat0.xy;\n   
+            u_xlat0.xy = u_xlat4.yw * u_xlat0.xy;\n    u_xlat4 = u_xlat1.xzzy + u_xlat2.xyxy;\n   
+            u_xlat16_20.x = texture(_MainTex, u_xlat4.xy).w;\n    u_xlat16_20.y =
+            texture(_MainTex, u_xlat4.zw).w;\n    u_xlat0.xy = u_xlat0.xy * u_xlat16_20.xy;\n   
+            u_xlat0.x = u_xlat0.x * 0.0199999996 + u_xlat18.x;\n    u_xlat1.w = (-u_xlat1.x);\n   
+            u_xlat1.xy = u_xlat1.zy * vec2(1.0, -1.0) + u_xlat2.xy;\n    u_xlat19.xy
+            = u_xlat1.wz + u_xlat2.xy;\n    u_xlat16_18 = texture(_MainTex, u_xlat19.xy).w;\n   
+            u_xlat16_1 = texture(_MainTex, u_xlat1.xy).w;\n    u_xlatb2 = greaterThanEqual(u_xlat5,
+            vec4(0.0, 0.0, 0.0, 0.0));\n    u_xlatb4 = greaterThanEqual(vec4(1.0,
+            1.0, 1.0, 1.0), u_xlat5);\n    u_xlat4.x = u_xlatb4.x ? float(1.0) :
+            0.0;\n    u_xlat4.y = u_xlatb4.y ? float(1.0) : 0.0;\n    u_xlat4.z =
+            u_xlatb4.z ? float(1.0) : 0.0;\n    u_xlat4.w = u_xlatb4.w ? float(1.0)
+            : 0.0;\n;\n    u_xlat2.x = u_xlatb2.x ? float(1.0) : 0.0;\n    u_xlat2.y
+            = u_xlatb2.y ? float(1.0) : 0.0;\n    u_xlat2.z = u_xlatb2.z ? float(1.0)
+            : 0.0;\n    u_xlat2.w = u_xlatb2.w ? float(1.0) : 0.0;\n;\n    u_xlat10.xy
+            = u_xlat4.xz * u_xlat2.xz;\n    u_xlat10.xy = u_xlat2.yw * u_xlat10.xy;\n   
+            u_xlat10.xy = u_xlat4.yw * u_xlat10.xy;\n    u_xlat18.x = u_xlat16_18
+            * u_xlat10.x;\n    u_xlat1.x = u_xlat10.y * u_xlat16_1;\n    u_xlat0.x
+            = u_xlat18.x * 0.0199999996 + u_xlat0.x;\n    u_xlat0.x = u_xlat0.y *
+            0.0199999996 + u_xlat0.x;\n    u_xlat0.x = u_xlat1.x * 0.0199999996 +
+            u_xlat0.x;\n    u_xlat0.x = u_xlat0.x * 1.08695662 + (-u_xlat27);\n   
+            u_xlat0.x = clamp(u_xlat0.x, 0.0, 1.0);\n    u_xlat0.x = log2(u_xlat0.x);\n   
+            u_xlat0.x = u_xlat0.x * _GlowFalloff;\n    u_xlat0.x = exp2(u_xlat0.x);\n   
+            u_xlat0.x = u_xlat0.x * _GlowColor.w;\n    u_xlat0.x = u_xlat0.x * _GlowIntensity;\n   
+            u_xlat16_8.x = (-u_xlat3.w) * vs_COLOR0.w + 1.0;\n    u_xlat16_17 = u_xlat3.w
+            * vs_COLOR0.w;\n    u_xlat16_8.x = u_xlat0.x * u_xlat16_8.x + u_xlat16_17;\n   
+            u_xlatb0.xy = greaterThanEqual(vs_TEXCOORD2.xyxx, _ClipRect.xyxx).xy;\n   
+            u_xlatb0.zw = greaterThanEqual(_ClipRect.zzzw, vs_TEXCOORD2.xxxy).zw;\n   
+            u_xlat0.x = u_xlatb0.x ? float(1.0) : 0.0;\n    u_xlat0.y = u_xlatb0.y
+            ? float(1.0) : 0.0;\n    u_xlat0.z = u_xlatb0.z ? float(1.0) : 0.0;\n   
+            u_xlat0.w = u_xlatb0.w ? float(1.0) : 0.0;\n;\n    u_xlat0.xy = u_xlat0.zw
+            * u_xlat0.xy;\n    u_xlat0.x = u_xlat0.y * u_xlat0.x;\n    u_xlat16_26
+            = u_xlat16_8.x * u_xlat0.x + -0.00100000005;\n    u_xlat0.x = u_xlat0.x
+            * u_xlat16_8.x;\n    SV_Target0.w = u_xlat0.x;\n    u_xlatb0.x = u_xlat16_26<0.0;\n   
+            if(u_xlatb0.x){discard;}\n    u_xlat0.xyz = _GlowColor.xyz * vec3(vec3(_GlowIntensity,
+            _GlowIntensity, _GlowIntensity));\n    u_xlat16_8.xzw = u_xlat3.xyz *
+            vs_COLOR0.xyz + (-u_xlat0.xyz);\n    SV_Target0.xyz = vec3(u_xlat16_17)
+            * u_xlat16_8.xzw + u_xlat0.xyz;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025":
+            - UNITY_UI_ALPHACLIP
+            - UNITY_UI_CLIP_RECT
+          Tags:
+          - Key: CanUseSpriteAtlas
+            Value: true
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: PreviewType
+            Value: Plane
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        DefinedKeywords:
+          "\L\u2025":
+          - STEREO_CUBEMAP_RENDER_ON
+          - STEREO_INSTANCING_ON
+          - STEREO_MULTIVIEW_ON
+          - UNITY_SINGLE_PASS_STEREO
+          - UNITY_UI_ALPHACLIP
+          - UNITY_UI_CLIP_RECT
+          - _
+        KeywordGroups:
+        - Keywords:
+          - _
+          - UNITY_UI_CLIP_RECT
+          hasDiscard: 1
+        - Keywords:
+          - _
+          - UNITY_UI_ALPHACLIP
+          hasDiscard: 1
+        KeywordsMinimalCardinality: 0
+        ContainsInvalidVariant: 0
+        VariantStructures:
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025": []
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025":
+            - UNITY_UI_ALPHACLIP
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025":
+            - UNITY_UI_CLIP_RECT
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025":
+            - UNITY_UI_ALPHACLIP
+            - UNITY_UI_CLIP_RECT
+        CompilationErrors: []
+        HasDepthReader: 0
+        Id: 0
+        SubShaderIndex: 0
+        SerializedObjectId: 0
+        Tags:
+        - Key: CanUseSpriteAtlas
+          Value: true
+        - Key: IGNOREPROJECTOR
+          Value: true
+        - Key: PreviewType
+          Value: Plane
+        - Key: QUEUE
+          Value: Transparent
+        - Key: RenderType
+          Value: Transparent
+        UsePass:
+          shader: 
+          pass: 
+        GrabPassTextureName: 
+        PlatformMask: -1
+      Shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+      Tags:
+      - Key: CanUseSpriteAtlas
+        Value: true
+      - Key: IGNOREPROJECTOR
+        Value: true
+      - Key: PreviewType
+        Value: Plane
+      - Key: QUEUE
+        Value: Transparent
+      - Key: RenderType
+        Value: Transparent
+    Shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+    ShaderPath: Assets/01 RESOURCES/OuterBlurGlow.shader
+    ShaderDefinedKeywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    - STEREO_CUBEMAP_RENDER_ON
+    - STEREO_INSTANCING_ON
+    - STEREO_MULTIVIEW_ON
+    - UNITY_SINGLE_PASS_STEREO
+    - _
+    fallbackShader: {fileID: 0}
+    CompilationErrors: []
+    Variants:
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025": []
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025":
+        - UNITY_UI_ALPHACLIP
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025":
+        - UNITY_UI_CLIP_RECT
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 4800000, guid: 0fed391a05481564e9916ed155ab87d5, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025":
+        - UNITY_UI_ALPHACLIP
+        - UNITY_UI_CLIP_RECT
+  - ParsedSubShaders:
+    - Index: 0
+      Passes:
+      - Shader: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+        ShaderVariants:
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tvec4 _MainTex_ST;\nin highp vec4 in_POSITION0;\nin highp vec2 in_TEXCOORD0;\nout
+            highp vec2 vs_TEXCOORD0;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    gl_Position = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    vs_TEXCOORD0.xy = in_TEXCOORD0.xy * _MainTex_ST.xy
+            + _MainTex_ST.zw;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tvec4 _Color;\nUNITY_LOCATION(0) uniform
+            highp sampler2D _MainTex;\nin highp  vec2 vs_TEXCOORD0;\nlayout(location
+            = 0) out highp vec4 SV_Target0;\nvec4 u_xlat0;\nvoid main()\n{\n    u_xlat0
+            = texture(_MainTex, vs_TEXCOORD0.xy);\n    SV_Target0 = u_xlat0 * _Color;\n   
+            return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025": []
+          Tags: []
+        DefinedKeywords:
+          "\L\u2025":
+          - STEREO_CUBEMAP_RENDER_ON
+          - STEREO_INSTANCING_ON
+          - STEREO_MULTIVIEW_ON
+          - UNITY_SINGLE_PASS_STEREO
+        KeywordGroups: []
+        KeywordsMinimalCardinality: 0
+        ContainsInvalidVariant: 0
+        VariantStructures:
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025": []
+        CompilationErrors: []
+        HasDepthReader: 0
+        Id: 0
+        SubShaderIndex: 0
+        SerializedObjectId: 0
+        Tags: []
+        UsePass:
+          shader: 
+          pass: 
+        GrabPassTextureName: 
+        PlatformMask: -1
+      Shader: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+      Tags: []
+    Shader: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    ShaderPath: Resources/unity_builtin_extra
+    ShaderDefinedKeywords:
+    - STEREO_CUBEMAP_RENDER_ON
+    - STEREO_INSTANCING_ON
+    - STEREO_MULTIVIEW_ON
+    - UNITY_SINGLE_PASS_STEREO
+    fallbackShader: {fileID: 0}
+    CompilationErrors: []
+    Variants:
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025": []
+  - ParsedSubShaders:
+    - Index: 0
+      Passes:
+      - Shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+        ShaderVariants:
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n                    #version 300 es\n                   
+            // This is a VP stub\n                    in vec3 _glesVertex;\n                   
+            uniform mat4 matrix_model;\n                    uniform mat4 matrix_viewProjection;\n                   
+            void main() {\n                        gl_Position = matrix_viewProjection
+            * matrix_model * vec4(_glesVertex, 1.0);\n                    }"
+          FragmentProgram: "\n                    #version 300 es\n                   
+            // This is a FP stub\n                    precision mediump float;\n                   
+            out vec4 fragColor;\n                    void main() {\n                       
+            fragColor = vec4(1, 0, 1, 1);\n                    }"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025": []
+          Tags:
+          - Key: LIGHTMODE
+            Value: ALWAYS
+        DefinedKeywords:
+          "\L\u2025": []
+        KeywordGroups: []
+        KeywordsMinimalCardinality: 0
+        ContainsInvalidVariant: 0
+        VariantStructures:
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025": []
+        CompilationErrors: []
+        HasDepthReader: 0
+        Id: 0
+        SubShaderIndex: 0
+        SerializedObjectId: 0
+        Tags: []
+        UsePass:
+          shader: 
+          pass: 
+        GrabPassTextureName: 
+        PlatformMask: 512
+      - Shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+        ShaderVariants:
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n                    #version 300 es\n                   
+            // This is a VP stub\n                    in vec3 _glesVertex;\n                   
+            uniform mat4 matrix_model;\n                    uniform mat4 matrix_viewProjection;\n                   
+            void main() {\n                        gl_Position = matrix_viewProjection
+            * matrix_model * vec4(_glesVertex, 1.0);\n                    }"
+          FragmentProgram: "\n                    #version 300 es\n                   
+            // This is a FP stub\n                    precision mediump float;\n                   
+            out vec4 fragColor;\n                    void main() {\n                       
+            fragColor = vec4(1, 0, 1, 1);\n                    }"
+          LOD: 0
+          readDepth: 0
+          PassId: 1
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025": []
+          Tags:
+          - Key: LIGHTMODE
+            Value: ALWAYS
+        DefinedKeywords:
+          "\L\u2025": []
+        KeywordGroups: []
+        KeywordsMinimalCardinality: 0
+        ContainsInvalidVariant: 0
+        VariantStructures:
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+          passType: 0
+          passId: 1
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025": []
+        CompilationErrors: []
+        HasDepthReader: 0
+        Id: 1
+        SubShaderIndex: 0
+        SerializedObjectId: 1
+        Tags:
+        - Key: LIGHTMODE
+          Value: DepthNormalsOnly
+        UsePass:
+          shader: 
+          pass: 
+        GrabPassTextureName: 
+        PlatformMask: 512
+      - Shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+        ShaderVariants:
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n                    #version 300 es\n                   
+            // This is a VP stub\n                    in vec3 _glesVertex;\n                   
+            uniform mat4 matrix_model;\n                    uniform mat4 matrix_viewProjection;\n                   
+            void main() {\n                        gl_Position = matrix_viewProjection
+            * matrix_model * vec4(_glesVertex, 1.0);\n                    }"
+          FragmentProgram: "\n                    #version 300 es\n                   
+            // This is a FP stub\n                    precision mediump float;\n                   
+            out vec4 fragColor;\n                    void main() {\n                       
+            fragColor = vec4(1, 0, 1, 1);\n                    }"
+          LOD: 0
+          readDepth: 0
+          PassId: 2
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025": []
+          Tags:
+          - Key: LIGHTMODE
+            Value: ALWAYS
+        DefinedKeywords:
+          "\L\u2025": []
+        KeywordGroups: []
+        KeywordsMinimalCardinality: 0
+        ContainsInvalidVariant: 0
+        VariantStructures:
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+          passType: 0
+          passId: 2
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025": []
+        CompilationErrors: []
+        HasDepthReader: 0
+        Id: 2
+        SubShaderIndex: 0
+        SerializedObjectId: 2
+        Tags:
+        - Key: LIGHTMODE
+          Value: DepthOnly
+        UsePass:
+          shader: 
+          pass: 
+        GrabPassTextureName: 
+        PlatformMask: 512
+      Shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+      Tags: []
+    Shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+    ShaderPath: Library/unity default resources
+    ShaderDefinedKeywords: []
+    fallbackShader: {fileID: 0}
+    CompilationErrors: []
+    Variants:
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025": []
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+      passType: 0
+      passId: 1
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025": []
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 17, guid: 0000000000000000e000000000000000, type: 0}
+      passType: 0
+      passId: 2
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025": []
+  - ParsedSubShaders:
+    - Index: 0
+      Passes:
+      - Shader: {fileID: 4800000, guid: fa95b0fb6983c0f40a152e6f9aa82bfb, type: 3}
+        ShaderVariants:
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tmediump vec4 _Color;\nin highp vec4 in_POSITION0;\nin highp vec4 in_COLOR0;\nin
+            highp vec2 in_TEXCOORD0;\nout mediump vec4 vs_COLOR0;\nout mediump vec2
+            vs_TEXCOORD0;\nout highp vec4 vs_TEXCOORD1;\nvec4 u_xlat0;\nmediump vec4
+            u_xlat16_0;\nvec4 u_xlat1;\nvoid main()\n{\n    u_xlat0 = in_POSITION0.yyyy
+            * hlslcc_mtx4x4unity_ObjectToWorld[1];\n    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0]
+            * in_POSITION0.xxxx + u_xlat0;\n    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2]
+            * in_POSITION0.zzzz + u_xlat0;\n    u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n   
+            u_xlat1 = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1
+            = hlslcc_mtx4x4unity_MatrixVP[0] * u_xlat0.xxxx + u_xlat1;\n    u_xlat1
+            = hlslcc_mtx4x4unity_MatrixVP[2] * u_xlat0.zzzz + u_xlat1;\n    gl_Position
+            = hlslcc_mtx4x4unity_MatrixVP[3] * u_xlat0.wwww + u_xlat1;\n    u_xlat16_0.xyz
+            = _Color.www * _Color.xyz;\n    u_xlat16_0.w = _Color.w;\n    u_xlat0
+            = u_xlat16_0 * in_COLOR0;\n    vs_COLOR0 = u_xlat0;\n    vs_TEXCOORD0.xy
+            = in_TEXCOORD0.xy;\n    vs_TEXCOORD1 = in_POSITION0;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tmediump vec4 _TextureSampleAdd;\nuniform
+            \tvec4 _ClipRect;\nUNITY_LOCATION(0) uniform mediump sampler2D _MainTex;\nin
+            mediump  vec4 vs_COLOR0;\nin mediump  vec2 vs_TEXCOORD0;\nin highp  vec4
+            vs_TEXCOORD1;\nlayout(location = 0) out mediump vec4 SV_Target0;\nvec4
+            u_xlat0;\nbvec4 u_xlatb0;\nmediump vec4 u_xlat16_1;\nvoid main()\n{\n   
+            u_xlatb0.xy = greaterThanEqual(vs_TEXCOORD1.xyxx, _ClipRect.xyxx).xy;\n   
+            u_xlatb0.zw = greaterThanEqual(_ClipRect.zzzw, vs_TEXCOORD1.xxxy).zw;\n   
+            u_xlat0.x = u_xlatb0.x ? float(1.0) : 0.0;\n    u_xlat0.y = u_xlatb0.y
+            ? float(1.0) : 0.0;\n    u_xlat0.z = u_xlatb0.z ? float(1.0) : 0.0;\n   
+            u_xlat0.w = u_xlatb0.w ? float(1.0) : 0.0;\n;\n    u_xlat0.xy = u_xlat0.zw
+            * u_xlat0.xy;\n    u_xlat0.x = u_xlat0.y * u_xlat0.x;\n    u_xlat16_1
+            = texture(_MainTex, vs_TEXCOORD0.xy);\n    u_xlat16_1 = u_xlat16_1 +
+            _TextureSampleAdd;\n    u_xlat16_1 = u_xlat16_1 * vs_COLOR0;\n    u_xlat0
+            = u_xlat0.xxxx * u_xlat16_1;\n    SV_Target0 = u_xlat0;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025": []
+          Tags:
+          - Key: CanUseSpriteAtlas
+            Value: true
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: PreviewType
+            Value: Plane
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tmediump vec4 _Color;\nin highp vec4 in_POSITION0;\nin highp vec4 in_COLOR0;\nin
+            highp vec2 in_TEXCOORD0;\nout mediump vec4 vs_COLOR0;\nout mediump vec2
+            vs_TEXCOORD0;\nout highp vec4 vs_TEXCOORD1;\nvec4 u_xlat0;\nmediump vec4
+            u_xlat16_0;\nvec4 u_xlat1;\nvoid main()\n{\n    u_xlat0 = in_POSITION0.yyyy
+            * hlslcc_mtx4x4unity_ObjectToWorld[1];\n    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0]
+            * in_POSITION0.xxxx + u_xlat0;\n    u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2]
+            * in_POSITION0.zzzz + u_xlat0;\n    u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n   
+            u_xlat1 = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1
+            = hlslcc_mtx4x4unity_MatrixVP[0] * u_xlat0.xxxx + u_xlat1;\n    u_xlat1
+            = hlslcc_mtx4x4unity_MatrixVP[2] * u_xlat0.zzzz + u_xlat1;\n    gl_Position
+            = hlslcc_mtx4x4unity_MatrixVP[3] * u_xlat0.wwww + u_xlat1;\n    u_xlat16_0.xyz
+            = _Color.www * _Color.xyz;\n    u_xlat16_0.w = _Color.w;\n    u_xlat0
+            = u_xlat16_0 * in_COLOR0;\n    vs_COLOR0 = u_xlat0;\n    vs_TEXCOORD0.xy
+            = in_TEXCOORD0.xy;\n    vs_TEXCOORD1 = in_POSITION0;\n    return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tmediump vec4 _TextureSampleAdd;\nuniform
+            \tvec4 _ClipRect;\nUNITY_LOCATION(0) uniform mediump sampler2D _MainTex;\nin
+            mediump  vec4 vs_COLOR0;\nin mediump  vec2 vs_TEXCOORD0;\nin highp  vec4
+            vs_TEXCOORD1;\nlayout(location = 0) out mediump vec4 SV_Target0;\nvec4
+            u_xlat0;\nbvec4 u_xlatb0;\nmediump vec4 u_xlat16_1;\nmediump vec4 u_xlat16_2;\nvoid
+            main()\n{\n    u_xlatb0.xy = greaterThanEqual(vs_TEXCOORD1.xyxx, _ClipRect.xyxx).xy;\n   
+            u_xlatb0.zw = greaterThanEqual(_ClipRect.zzzw, vs_TEXCOORD1.xxxy).zw;\n   
+            u_xlat0.x = u_xlatb0.x ? float(1.0) : 0.0;\n    u_xlat0.y = u_xlatb0.y
+            ? float(1.0) : 0.0;\n    u_xlat0.z = u_xlatb0.z ? float(1.0) : 0.0;\n   
+            u_xlat0.w = u_xlatb0.w ? float(1.0) : 0.0;\n;\n    u_xlat0.xy = u_xlat0.zw
+            * u_xlat0.xy;\n    u_xlat0.x = u_xlat0.y * u_xlat0.x;\n    u_xlat16_1
+            = texture(_MainTex, vs_TEXCOORD0.xy);\n    u_xlat16_2.xyz = u_xlat16_1.xyz
+            * u_xlat16_1.www + _TextureSampleAdd.xyz;\n    u_xlat16_2.w = u_xlat16_1.w
+            + _TextureSampleAdd.w;\n    u_xlat16_1 = u_xlat16_2 * vs_COLOR0;\n   
+            u_xlat0 = u_xlat0.xxxx * u_xlat16_1;\n    SV_Target0 = u_xlat0;\n   
+            return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025":
+            - _STRAIGHT_ALPHA_INPUT
+          Tags:
+          - Key: CanUseSpriteAtlas
+            Value: true
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: PreviewType
+            Value: Plane
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        DefinedKeywords:
+          "\L\u2025":
+          - STEREO_CUBEMAP_RENDER_ON
+          - STEREO_INSTANCING_ON
+          - STEREO_MULTIVIEW_ON
+          - UNITY_SINGLE_PASS_STEREO
+          - _
+          - _CANVAS_GROUP_COMPATIBLE
+          - _STRAIGHT_ALPHA_INPUT
+        KeywordGroups:
+        - Keywords:
+          - _
+          - _STRAIGHT_ALPHA_INPUT
+          hasDiscard: 1
+        - Keywords:
+          - _
+          - _CANVAS_GROUP_COMPATIBLE
+          hasDiscard: 1
+        KeywordsMinimalCardinality: 0
+        ContainsInvalidVariant: 0
+        VariantStructures:
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 4800000, guid: fa95b0fb6983c0f40a152e6f9aa82bfb, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025": []
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 4800000, guid: fa95b0fb6983c0f40a152e6f9aa82bfb, type: 3}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025":
+            - _STRAIGHT_ALPHA_INPUT
+        CompilationErrors: []
+        HasDepthReader: 0
+        Id: 0
+        SubShaderIndex: 0
+        SerializedObjectId: 0
+        Tags:
+        - Key: CanUseSpriteAtlas
+          Value: true
+        - Key: IGNOREPROJECTOR
+          Value: true
+        - Key: PreviewType
+          Value: Plane
+        - Key: QUEUE
+          Value: Transparent
+        - Key: RenderType
+          Value: Transparent
+        UsePass:
+          shader: 
+          pass: 
+        GrabPassTextureName: 
+        PlatformMask: -1
+      Shader: {fileID: 4800000, guid: fa95b0fb6983c0f40a152e6f9aa82bfb, type: 3}
+      Tags:
+      - Key: CanUseSpriteAtlas
+        Value: true
+      - Key: IGNOREPROJECTOR
+        Value: true
+      - Key: PreviewType
+        Value: Plane
+      - Key: QUEUE
+        Value: Transparent
+      - Key: RenderType
+        Value: Transparent
+    Shader: {fileID: 4800000, guid: fa95b0fb6983c0f40a152e6f9aa82bfb, type: 3}
+    ShaderPath: Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic.shader
+    ShaderDefinedKeywords:
+    - _CANVAS_GROUP_COMPATIBLE
+    - _STRAIGHT_ALPHA_INPUT
+    - STEREO_CUBEMAP_RENDER_ON
+    - STEREO_INSTANCING_ON
+    - STEREO_MULTIVIEW_ON
+    - UNITY_SINGLE_PASS_STEREO
+    - _
+    fallbackShader: {fileID: 0}
+    CompilationErrors: []
+    Variants:
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 4800000, guid: fa95b0fb6983c0f40a152e6f9aa82bfb, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025": []
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 4800000, guid: fa95b0fb6983c0f40a152e6f9aa82bfb, type: 3}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025":
+        - _STRAIGHT_ALPHA_INPUT
+  - ParsedSubShaders:
+    - Index: 0
+      Passes:
+      - Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+        ShaderVariants:
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 _ScreenParams;\nuniform \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform
+            \tvec4 hlslcc_mtx4x4glstate_matrix_projection[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tmediump vec4 _Color;\nuniform \tvec4 _ClipRect;\nuniform \tvec4 _MainTex_ST;\nuniform
+            \tfloat _UIMaskSoftnessX;\nuniform \tfloat _UIMaskSoftnessY;\nin highp
+            vec4 in_POSITION0;\nin highp vec4 in_COLOR0;\nin highp vec2 in_TEXCOORD0;\nout
+            mediump vec4 vs_COLOR0;\nout highp vec2 vs_TEXCOORD0;\nhighp vec4 vs_TEXCOORD1;\nhighp
+            vec4 vs_TEXCOORD2;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    u_xlat0 = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    gl_Position = u_xlat0;\n    u_xlat1 =
+            in_COLOR0 * _Color;\n    vs_COLOR0 = u_xlat1;\n    vs_TEXCOORD0.xy =
+            in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;\n    vs_TEXCOORD1
+            = in_POSITION0;\n    u_xlat0.xy = _ScreenParams.yy * hlslcc_mtx4x4glstate_matrix_projection[1].xy;\n   
+            u_xlat0.xy = hlslcc_mtx4x4glstate_matrix_projection[0].xy * _ScreenParams.xx
+            + u_xlat0.xy;\n    u_xlat0.xy = u_xlat0.ww / abs(u_xlat0.xy);\n    u_xlat0.xy
+            = vec2(_UIMaskSoftnessX, _UIMaskSoftnessY) * vec2(0.25, 0.25) + abs(u_xlat0.xy);\n   
+            vs_TEXCOORD2.zw = vec2(0.25, 0.25) / u_xlat0.xy;\n    u_xlat0 = max(_ClipRect,
+            vec4(-2e+10, -2e+10, -2e+10, -2e+10));\n    u_xlat0 = min(u_xlat0, vec4(2e+10,
+            2e+10, 2e+10, 2e+10));\n    u_xlat0.xy = in_POSITION0.xy * vec2(2.0,
+            2.0) + (-u_xlat0.xy);\n    vs_TEXCOORD2.xy = (-u_xlat0.zw) + u_xlat0.xy;\n   
+            return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tmediump vec4 _TextureSampleAdd;\nUNITY_LOCATION(0)
+            uniform mediump sampler2D _MainTex;\nin mediump  vec4 vs_COLOR0;\nin
+            highp  vec2 vs_TEXCOORD0;\nlayout(location = 0) out mediump vec4 SV_Target0;\nvec4
+            u_xlat0;\nmediump vec4 u_xlat16_0;\nvec4 u_xlat1;\nmediump vec4 u_xlat16_1;\nvoid
+            main()\n{\n    u_xlat16_0.x = vs_COLOR0.w * 255.0;\n    u_xlat16_0.x
+            = roundEven(u_xlat16_0.x);\n    u_xlat16_0.w = u_xlat16_0.x * 0.00392156886;\n   
+            u_xlat16_1 = texture(_MainTex, vs_TEXCOORD0.xy);\n    u_xlat1 = u_xlat16_1
+            + _TextureSampleAdd;\n    u_xlat16_0.xyz = vs_COLOR0.xyz;\n    u_xlat0
+            = u_xlat16_0 * u_xlat1;\n    SV_Target0.xyz = u_xlat0.www * u_xlat0.xyz;\n   
+            SV_Target0.w = u_xlat0.w;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025": []
+          Tags:
+          - Key: CanUseSpriteAtlas
+            Value: true
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: PreviewType
+            Value: Plane
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 _ScreenParams;\nuniform \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform
+            \tvec4 hlslcc_mtx4x4glstate_matrix_projection[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tmediump vec4 _Color;\nuniform \tvec4 _ClipRect;\nuniform \tvec4 _MainTex_ST;\nuniform
+            \tfloat _UIMaskSoftnessX;\nuniform \tfloat _UIMaskSoftnessY;\nin highp
+            vec4 in_POSITION0;\nin highp vec4 in_COLOR0;\nin highp vec2 in_TEXCOORD0;\nout
+            mediump vec4 vs_COLOR0;\nout highp vec2 vs_TEXCOORD0;\nhighp vec4 vs_TEXCOORD1;\nhighp
+            vec4 vs_TEXCOORD2;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    u_xlat0 = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    gl_Position = u_xlat0;\n    u_xlat1 =
+            in_COLOR0 * _Color;\n    vs_COLOR0 = u_xlat1;\n    vs_TEXCOORD0.xy =
+            in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;\n    vs_TEXCOORD1
+            = in_POSITION0;\n    u_xlat0.xy = _ScreenParams.yy * hlslcc_mtx4x4glstate_matrix_projection[1].xy;\n   
+            u_xlat0.xy = hlslcc_mtx4x4glstate_matrix_projection[0].xy * _ScreenParams.xx
+            + u_xlat0.xy;\n    u_xlat0.xy = u_xlat0.ww / abs(u_xlat0.xy);\n    u_xlat0.xy
+            = vec2(_UIMaskSoftnessX, _UIMaskSoftnessY) * vec2(0.25, 0.25) + abs(u_xlat0.xy);\n   
+            vs_TEXCOORD2.zw = vec2(0.25, 0.25) / u_xlat0.xy;\n    u_xlat0 = max(_ClipRect,
+            vec4(-2e+10, -2e+10, -2e+10, -2e+10));\n    u_xlat0 = min(u_xlat0, vec4(2e+10,
+            2e+10, 2e+10, 2e+10));\n    u_xlat0.xy = in_POSITION0.xy * vec2(2.0,
+            2.0) + (-u_xlat0.xy);\n    vs_TEXCOORD2.xy = (-u_xlat0.zw) + u_xlat0.xy;\n   
+            return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tmediump vec4 _TextureSampleAdd;\nUNITY_LOCATION(0)
+            uniform mediump sampler2D _MainTex;\nin mediump  vec4 vs_COLOR0;\nin
+            highp  vec2 vs_TEXCOORD0;\nlayout(location = 0) out mediump vec4 SV_Target0;\nvec4
+            u_xlat0;\nmediump vec4 u_xlat16_0;\nvec4 u_xlat1;\nmediump vec4 u_xlat16_1;\nmediump
+            float u_xlat16_2;\nbool u_xlatb3;\nvoid main()\n{\n    u_xlat16_0.x =
+            vs_COLOR0.w * 255.0;\n    u_xlat16_0.x = roundEven(u_xlat16_0.x);\n   
+            u_xlat16_0.w = u_xlat16_0.x * 0.00392156886;\n    u_xlat16_1 = texture(_MainTex,
+            vs_TEXCOORD0.xy);\n    u_xlat1 = u_xlat16_1 + _TextureSampleAdd;\n   
+            u_xlat16_2 = u_xlat16_0.w * u_xlat1.w + -0.00100000005;\n    u_xlatb3
+            = u_xlat16_2<0.0;\n    if(u_xlatb3){discard;}\n    u_xlat16_0.xyz = vs_COLOR0.xyz;\n   
+            u_xlat0 = u_xlat16_0 * u_xlat1;\n    SV_Target0.xyz = u_xlat0.www * u_xlat0.xyz;\n   
+            SV_Target0.w = u_xlat0.w;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025":
+            - UNITY_UI_ALPHACLIP
+          Tags:
+          - Key: CanUseSpriteAtlas
+            Value: true
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: PreviewType
+            Value: Plane
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 _ScreenParams;\nuniform \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform
+            \tvec4 hlslcc_mtx4x4glstate_matrix_projection[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tmediump vec4 _Color;\nuniform \tvec4 _ClipRect;\nuniform \tvec4 _MainTex_ST;\nuniform
+            \tfloat _UIMaskSoftnessX;\nuniform \tfloat _UIMaskSoftnessY;\nin highp
+            vec4 in_POSITION0;\nin highp vec4 in_COLOR0;\nin highp vec2 in_TEXCOORD0;\nout
+            mediump vec4 vs_COLOR0;\nout highp vec2 vs_TEXCOORD0;\nhighp vec4 vs_TEXCOORD1;\nout
+            highp vec4 vs_TEXCOORD2;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    u_xlat0 = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    gl_Position = u_xlat0;\n    u_xlat1 =
+            in_COLOR0 * _Color;\n    vs_COLOR0 = u_xlat1;\n    vs_TEXCOORD0.xy =
+            in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;\n    vs_TEXCOORD1
+            = in_POSITION0;\n    u_xlat0.xy = _ScreenParams.yy * hlslcc_mtx4x4glstate_matrix_projection[1].xy;\n   
+            u_xlat0.xy = hlslcc_mtx4x4glstate_matrix_projection[0].xy * _ScreenParams.xx
+            + u_xlat0.xy;\n    u_xlat0.xy = u_xlat0.ww / abs(u_xlat0.xy);\n    u_xlat0.xy
+            = vec2(_UIMaskSoftnessX, _UIMaskSoftnessY) * vec2(0.25, 0.25) + abs(u_xlat0.xy);\n   
+            vs_TEXCOORD2.zw = vec2(0.25, 0.25) / u_xlat0.xy;\n    u_xlat0 = max(_ClipRect,
+            vec4(-2e+10, -2e+10, -2e+10, -2e+10));\n    u_xlat0 = min(u_xlat0, vec4(2e+10,
+            2e+10, 2e+10, 2e+10));\n    u_xlat0.xy = in_POSITION0.xy * vec2(2.0,
+            2.0) + (-u_xlat0.xy);\n    vs_TEXCOORD2.xy = (-u_xlat0.zw) + u_xlat0.xy;\n   
+            return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tmediump vec4 _TextureSampleAdd;\nuniform
+            \tvec4 _ClipRect;\nUNITY_LOCATION(0) uniform mediump sampler2D _MainTex;\nin
+            mediump  vec4 vs_COLOR0;\nin highp  vec2 vs_TEXCOORD0;\nin highp  vec4
+            vs_TEXCOORD2;\nlayout(location = 0) out mediump vec4 SV_Target0;\nvec4
+            u_xlat0;\nmediump vec4 u_xlat16_0;\nmediump float u_xlat16_1;\nvec4 u_xlat2;\nmediump
+            vec4 u_xlat16_2;\nmediump float u_xlat16_4;\nvoid main()\n{\n    u_xlat0.xy
+            = (-_ClipRect.xy) + _ClipRect.zw;\n    u_xlat0.xy = u_xlat0.xy + -abs(vs_TEXCOORD2.xy);\n   
+            u_xlat0.xy = u_xlat0.xy * vs_TEXCOORD2.zw;\n    u_xlat0.xy = clamp(u_xlat0.xy,
+            0.0, 1.0);\n    u_xlat16_1 = u_xlat0.y * u_xlat0.x;\n    u_xlat16_4 =
+            vs_COLOR0.w * 255.0;\n    u_xlat16_4 = roundEven(u_xlat16_4);\n    u_xlat16_0.w
+            = u_xlat16_4 * 0.00392156886;\n    u_xlat16_2 = texture(_MainTex, vs_TEXCOORD0.xy);\n   
+            u_xlat2 = u_xlat16_2 + _TextureSampleAdd;\n    u_xlat16_0.xyz = vs_COLOR0.xyz;\n   
+            u_xlat0 = u_xlat16_0 * u_xlat2;\n    u_xlat16_1 = u_xlat16_1 * u_xlat0.w;\n   
+            SV_Target0.xyz = u_xlat0.xyz * vec3(u_xlat16_1);\n    SV_Target0.w =
+            u_xlat16_1;\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025":
+            - UNITY_UI_CLIP_RECT
+          Tags:
+          - Key: CanUseSpriteAtlas
+            Value: true
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: PreviewType
+            Value: Plane
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        - ShaderCompilerPlatform: 9
+          NoShaderVariant: 0
+          VertexProgram: "\n#version 300 es\n\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS
+            0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define UNITY_UNIFORM\n#else\n#define
+            UNITY_UNIFORM uniform\n#endif\n#define UNITY_SUPPORTS_UNIFORM_LOCATION
+            0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define UNITY_LOCATION(x) layout(location
+            = x)\n#define UNITY_BINDING(x) layout(binding = x, std140)\n#else\n#define
+            UNITY_LOCATION(x)\n#define UNITY_BINDING(x) layout(std140)\n#endif\nuniform
+            \tvec4 _ScreenParams;\nuniform \tvec4 hlslcc_mtx4x4unity_ObjectToWorld[4];\nuniform
+            \tvec4 hlslcc_mtx4x4glstate_matrix_projection[4];\nuniform \tvec4 hlslcc_mtx4x4unity_MatrixVP[4];\nuniform
+            \tmediump vec4 _Color;\nuniform \tvec4 _ClipRect;\nuniform \tvec4 _MainTex_ST;\nuniform
+            \tfloat _UIMaskSoftnessX;\nuniform \tfloat _UIMaskSoftnessY;\nin highp
+            vec4 in_POSITION0;\nin highp vec4 in_COLOR0;\nin highp vec2 in_TEXCOORD0;\nout
+            mediump vec4 vs_COLOR0;\nout highp vec2 vs_TEXCOORD0;\nhighp vec4 vs_TEXCOORD1;\nout
+            highp vec4 vs_TEXCOORD2;\nvec4 u_xlat0;\nvec4 u_xlat1;\nvoid main()\n{\n   
+            u_xlat0 = in_POSITION0.yyyy * hlslcc_mtx4x4unity_ObjectToWorld[1];\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[0] * in_POSITION0.xxxx + u_xlat0;\n   
+            u_xlat0 = hlslcc_mtx4x4unity_ObjectToWorld[2] * in_POSITION0.zzzz + u_xlat0;\n   
+            u_xlat0 = u_xlat0 + hlslcc_mtx4x4unity_ObjectToWorld[3];\n    u_xlat1
+            = u_xlat0.yyyy * hlslcc_mtx4x4unity_MatrixVP[1];\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[0]
+            * u_xlat0.xxxx + u_xlat1;\n    u_xlat1 = hlslcc_mtx4x4unity_MatrixVP[2]
+            * u_xlat0.zzzz + u_xlat1;\n    u_xlat0 = hlslcc_mtx4x4unity_MatrixVP[3]
+            * u_xlat0.wwww + u_xlat1;\n    gl_Position = u_xlat0;\n    u_xlat1 =
+            in_COLOR0 * _Color;\n    vs_COLOR0 = u_xlat1;\n    vs_TEXCOORD0.xy =
+            in_TEXCOORD0.xy * _MainTex_ST.xy + _MainTex_ST.zw;\n    vs_TEXCOORD1
+            = in_POSITION0;\n    u_xlat0.xy = _ScreenParams.yy * hlslcc_mtx4x4glstate_matrix_projection[1].xy;\n   
+            u_xlat0.xy = hlslcc_mtx4x4glstate_matrix_projection[0].xy * _ScreenParams.xx
+            + u_xlat0.xy;\n    u_xlat0.xy = u_xlat0.ww / abs(u_xlat0.xy);\n    u_xlat0.xy
+            = vec2(_UIMaskSoftnessX, _UIMaskSoftnessY) * vec2(0.25, 0.25) + abs(u_xlat0.xy);\n   
+            vs_TEXCOORD2.zw = vec2(0.25, 0.25) / u_xlat0.xy;\n    u_xlat0 = max(_ClipRect,
+            vec4(-2e+10, -2e+10, -2e+10, -2e+10));\n    u_xlat0 = min(u_xlat0, vec4(2e+10,
+            2e+10, 2e+10, 2e+10));\n    u_xlat0.xy = in_POSITION0.xy * vec2(2.0,
+            2.0) + (-u_xlat0.xy);\n    vs_TEXCOORD2.xy = (-u_xlat0.zw) + u_xlat0.xy;\n   
+            return;\n}\n\n"
+          FragmentProgram: "\n#version 300 es\n\nprecision highp float;\nprecision
+            highp int;\n#define HLSLCC_ENABLE_UNIFORM_BUFFERS 0\n#if HLSLCC_ENABLE_UNIFORM_BUFFERS\n#define
+            UNITY_UNIFORM\n#else\n#define UNITY_UNIFORM uniform\n#endif\n#define
+            UNITY_SUPPORTS_UNIFORM_LOCATION 0\n#if UNITY_SUPPORTS_UNIFORM_LOCATION\n#define
+            UNITY_LOCATION(x) layout(location = x)\n#define UNITY_BINDING(x) layout(binding
+            = x, std140)\n#else\n#define UNITY_LOCATION(x)\n#define UNITY_BINDING(x)
+            layout(std140)\n#endif\nuniform \tmediump vec4 _TextureSampleAdd;\nuniform
+            \tvec4 _ClipRect;\nUNITY_LOCATION(0) uniform mediump sampler2D _MainTex;\nin
+            mediump  vec4 vs_COLOR0;\nin highp  vec2 vs_TEXCOORD0;\nin highp  vec4
+            vs_TEXCOORD2;\nlayout(location = 0) out mediump vec4 SV_Target0;\nvec4
+            u_xlat0;\nmediump vec4 u_xlat16_0;\nvec4 u_xlat1;\nmediump vec4 u_xlat16_1;\nbool
+            u_xlatb1;\nmediump float u_xlat16_2;\nmediump float u_xlat16_5;\nvoid
+            main()\n{\n    u_xlat16_0.x = vs_COLOR0.w * 255.0;\n    u_xlat16_0.x
+            = roundEven(u_xlat16_0.x);\n    u_xlat16_0.w = u_xlat16_0.x * 0.00392156886;\n   
+            u_xlat16_1 = texture(_MainTex, vs_TEXCOORD0.xy);\n    u_xlat1 = u_xlat16_1
+            + _TextureSampleAdd;\n    u_xlat16_0.xyz = vs_COLOR0.xyz;\n    u_xlat0
+            = u_xlat16_0 * u_xlat1;\n    u_xlat1.xy = (-_ClipRect.xy) + _ClipRect.zw;\n   
+            u_xlat1.xy = u_xlat1.xy + -abs(vs_TEXCOORD2.xy);\n    u_xlat1.xy = u_xlat1.xy
+            * vs_TEXCOORD2.zw;\n    u_xlat1.xy = clamp(u_xlat1.xy, 0.0, 1.0);\n   
+            u_xlat16_2 = u_xlat1.y * u_xlat1.x;\n    u_xlat16_5 = u_xlat0.w * u_xlat16_2
+            + -0.00100000005;\n    u_xlat16_2 = u_xlat0.w * u_xlat16_2;\n    SV_Target0.xyz
+            = u_xlat0.xyz * vec3(u_xlat16_2);\n    SV_Target0.w = u_xlat16_2;\n   
+            u_xlatb1 = u_xlat16_5<0.0;\n    if(u_xlatb1){discard;}\n    return;\n}\n\n"
+          LOD: 0
+          readDepth: 0
+          PassId: 0
+          SubShaderIndex: 0
+          Keywords:
+            "\L\u2025":
+            - UNITY_UI_ALPHACLIP
+            - UNITY_UI_CLIP_RECT
+          Tags:
+          - Key: CanUseSpriteAtlas
+            Value: true
+          - Key: IGNOREPROJECTOR
+            Value: true
+          - Key: PreviewType
+            Value: Plane
+          - Key: QUEUE
+            Value: Transparent
+          - Key: RenderType
+            Value: Transparent
+        DefinedKeywords:
+          "\L\u2025":
+          - STEREO_CUBEMAP_RENDER_ON
+          - STEREO_INSTANCING_ON
+          - STEREO_MULTIVIEW_ON
+          - UNITY_SINGLE_PASS_STEREO
+          - UNITY_UI_ALPHACLIP
+          - UNITY_UI_CLIP_RECT
+          - _
+        KeywordGroups:
+        - Keywords:
+          - _
+          - UNITY_UI_CLIP_RECT
+          hasDiscard: 1
+        - Keywords:
+          - _
+          - UNITY_UI_ALPHACLIP
+          hasDiscard: 1
+        KeywordsMinimalCardinality: 0
+        ContainsInvalidVariant: 0
+        VariantStructures:
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025": []
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025":
+            - UNITY_UI_ALPHACLIP
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025":
+            - UNITY_UI_CLIP_RECT
+        - shaderCompilerPlatform: 9
+          shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+          passType: 0
+          passId: 0
+          subShaderIndex: 0
+          upToDate: 0
+          keywords:
+            "\L\u2025":
+            - UNITY_UI_ALPHACLIP
+            - UNITY_UI_CLIP_RECT
+        CompilationErrors: []
+        HasDepthReader: 0
+        Id: 0
+        SubShaderIndex: 0
+        SerializedObjectId: 0
+        Tags:
+        - Key: CanUseSpriteAtlas
+          Value: true
+        - Key: IGNOREPROJECTOR
+          Value: true
+        - Key: PreviewType
+          Value: Plane
+        - Key: QUEUE
+          Value: Transparent
+        - Key: RenderType
+          Value: Transparent
+        UsePass:
+          shader: 
+          pass: 
+        GrabPassTextureName: 
+        PlatformMask: -1
+      Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+      Tags:
+      - Key: CanUseSpriteAtlas
+        Value: true
+      - Key: IGNOREPROJECTOR
+        Value: true
+      - Key: PreviewType
+        Value: Plane
+      - Key: QUEUE
+        Value: Transparent
+      - Key: RenderType
+        Value: Transparent
+    Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    ShaderPath: Resources/unity_builtin_extra
+    ShaderDefinedKeywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    - STEREO_CUBEMAP_RENDER_ON
+    - STEREO_INSTANCING_ON
+    - STEREO_MULTIVIEW_ON
+    - UNITY_SINGLE_PASS_STEREO
+    - _
+    fallbackShader: {fileID: 0}
+    CompilationErrors: []
+    Variants:
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025": []
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025":
+        - UNITY_UI_ALPHACLIP
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025":
+        - UNITY_UI_CLIP_RECT
+    - shaderCompilerPlatform: 9
+      shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+      passType: 0
+      passId: 0
+      subShaderIndex: 0
+      upToDate: 0
+      keywords:
+        "\L\u2025":
+        - UNITY_UI_ALPHACLIP
+        - UNITY_UI_CLIP_RECT
+  _modifiedShaders: []
+  invalidShaders: 0
