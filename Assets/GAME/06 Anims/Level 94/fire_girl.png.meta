@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: 269888afbd5e6774bae4cae9c58c1302
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6288106665312731044
+    second: fire_girl_0
+  - first:
+      213: 5485782695830745985
+    second: fire_girl_1
+  - first:
+      213: -6610926204186274139
+    second: fire_girl_2
+  - first:
+      213: -4628191763916728623
+    second: fire_girl_3
+  - first:
+      213: 5627251846155736928
+    second: fire_girl_4
+  - first:
+      213: -4624719473112511480
+    second: fire_girl_5
+  - first:
+      213: -2155928258095756965
+    second: fire_girl_6
+  - first:
+      213: 2615209563501488112
+    second: fire_girl_7
+  - first:
+      213: -4283463604085592618
+    second: fire_girl_8
+  - first:
+      213: -5746231974624425397
+    second: fire_girl_9
+  - first:
+      213: 661406360815871949
+    second: fire_girl_10
+  - first:
+      213: -9054083291795874931
+    second: fire_girl_11
+  - first:
+      213: -1348628274264335917
+    second: fire_girl_12
+  - first:
+      213: -8328691704532269773
+    second: fire_girl_13
+  - first:
+      213: 9169924924315824705
+    second: fire_girl_14
+  - first:
+      213: -1312965954061609670
+    second: fire_girl_15
+  - first:
+      213: 1622979124172926223
+    second: fire_girl_16
+  - first:
+      213: -7019388207352810353
+    second: fire_girl_17
+  - first:
+      213: -6025467064593051117
+    second: fire_girl_18
+  - first:
+      213: 8602146732529282990
+    second: fire_girl_19
+  - first:
+      213: 4034179473690382097
+    second: fire_girl_20
+  - first:
+      213: -3445420069832783391
+    second: fire_girl_21
+  - first:
+      213: -8959033974856195537
+    second: fire_girl_22
+  - first:
+      213: -5496681363546780398
+    second: fire_girl_23
+  - first:
+      213: -7871683106332049870
+    second: fire_girl_24
+  - first:
+      213: -330757454982092986
+    second: fire_girl_25
+  - first:
+      213: 8891601428966840484
+    second: fire_girl_26
+  - first:
+      213: -5433075096438775317
+    second: fire_girl_27
+  - first:
+      213: 8023873265572483057
+    second: fire_girl_28
+  - first:
+      213: -8776713458794528368
+    second: fire_girl_29
+  - first:
+      213: -3831944981357671806
+    second: fire_girl_30
+  - first:
+      213: -335794439108689399
+    second: fire_girl_31
+  - first:
+      213: -1597659332448320485
+    second: fire_girl_32
+  - first:
+      213: 4452837237414450751
+    second: fire_girl_33
+  - first:
+      213: -3470853122984263900
+    second: fire_girl_34
+  - first:
+      213: -1287527428196139452
+    second: fire_girl_35
+  - first:
+      213: 6954794444306560326
+    second: fire_girl_36
+  - first:
+      213: -5863593073719392542
+    second: fire_girl_37
+  - first:
+      213: -5533837807779053740
+    second: fire_girl_38
+  - first:
+      213: -1440747830458186
+    second: fire_girl_39
+  - first:
+      213: 5460592007730697432
+    second: fire_girl_40
+  - first:
+      213: 6445395993916948356
+    second: fire_girl_41
+  - first:
+      213: 7075336850830602301
+    second: fire_girl_42
+  - first:
+      213: -7698600336305194143
+    second: fire_girl_43
+  - first:
+      213: -8342294707298161029
+    second: fire_girl_44
+  - first:
+      213: 5485840782411077901
+    second: fire_girl_45
+  - first:
+      213: 8051683304029832643
+    second: fire_girl_46
+  - first:
+      213: 2498101490456750115
+    second: fire_girl_47
+  - first:
+      213: -5532590560105521833
+    second: fire_girl_48
+  - first:
+      213: -283645899711748418
+    second: fire_girl_49
+  - first:
+      213: -1507210633589633029
+    second: fire_girl_50
+  - first:
+      213: -8484674303264444371
+    second: fire_girl_51
+  - first:
+      213: -7647145545028005414
+    second: fire_girl_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 65
+    textureCompression: 1
+    compressionQuality: 70
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire_girl_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 838
+        width: 325
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af3bbf32b7d34750800000000000000
+      internalID: 6288106665312731044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_1
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 970
+        width: 78
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183f9f30c4a612c40800000000000000
+      internalID: 5485782695830745985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_2
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 973
+        width: 82
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6d72bb4a54144a0800000000000000
+      internalID: -6610926204186274139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_3
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 959
+        width: 88
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6da57ac1c55cfb0800000000000000
+      internalID: -4628191763916728623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_4
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 959
+        width: 82
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06716c75db3081e40800000000000000
+      internalID: 5627251846155736928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_5
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 964
+        width: 87
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c0c4b5422b1dfb0800000000000000
+      internalID: -4624719473112511480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_6
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 952
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59c9fefbaa9412e0800000000000000
+      internalID: -2155928258095756965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_7
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 812
+        width: 306
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7e5b5fd371b4420800000000000000
+      internalID: 2615209563501488112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_8
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 867
+        width: 101
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dde92efb841e84c0800000000000000
+      internalID: -4283463604085592618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_9
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 902
+        width: 70
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a0583c6784140b0800000000000000
+      internalID: -5746231974624425397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_10
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 868
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc72d94b499cd2900800000000000000
+      internalID: 661406360815871949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_11
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 848
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b15b9773f695280800000000000000
+      internalID: -9054083291795874931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_12
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 851
+        width: 146
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d91d6adab5b84de0800000000000000
+      internalID: -1348628274264335917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_13
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 774
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3358c93a50b8a6c80800000000000000
+      internalID: -8328691704532269773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 744
+        width: 191
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14278d2622e124f70800000000000000
+      internalID: 9169924924315824705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 807
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35d9f1db6867cde0800000000000000
+      internalID: -1312965954061609670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_16
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 781
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0da33e1aeaf58610800000000000000
+      internalID: 1622979124172926223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_17
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 807
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f847b20ad9f169e90800000000000000
+      internalID: -7019388207352810353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 758
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3129d1901ad316ca0800000000000000
+      internalID: -6025467064593051117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_19
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 747
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafe13a80e6f06770800000000000000
+      internalID: 8602146732529282990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_20
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 750
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fcc797bd84cf730800000000000000
+      internalID: 4034179473690382097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_21
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 739
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e98d9b73b86f20d0800000000000000
+      internalID: -3445420069832783391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_22
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 749
+        width: 79
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f226a0e111e1ba380800000000000000
+      internalID: -8959033974856195537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_23
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 605
+        width: 147
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dc84a2c6dd7b3b0800000000000000
+      internalID: -5496681363546780398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_24
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 680
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e72a6bbe922c290800000000000000
+      internalID: -7871683106332049870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_25
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 680
+        width: 71
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647eafcd8d9e86bf0800000000000000
+      internalID: -330757454982092986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_26
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 749
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a89ce1d360556b70800000000000000
+      internalID: 8891601428966840484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_27
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 720
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1eeb64cf6d994b0800000000000000
+      internalID: -5433075096438775317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_28
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 649
+        width: 109
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff833509368a5f60800000000000000
+      internalID: 8023873265572483057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_29
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 642
+        width: 158
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09189293c99d23680800000000000000
+      internalID: -8776713458794528368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_30
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 706
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ac55b875232dac0800000000000000
+      internalID: -3831944981357671806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_31
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 591
+        width: 40
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902006b9cb4075bf0800000000000000
+      internalID: -335794439108689399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_32
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 622
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1484594d49f3d9e0800000000000000
+      internalID: -1597659332448320485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_33
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 472
+        width: 158
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3658b210e7abcd30800000000000000
+      internalID: 4452837237414450751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_34
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 624
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fb7f8597d05dfc0800000000000000
+      internalID: -3470853122984263900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_35
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 555
+        width: 155
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44efbcb20a8c12ee0800000000000000
+      internalID: -1287527428196139452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_36
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 555
+        width: 67
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645b0c2f2b4648060800000000000000
+      internalID: 6954794444306560326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_37
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 430
+        width: 222
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6c3858a2550aea0800000000000000
+      internalID: -5863593073719392542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_38
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 568
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ff3b655dbd333b0800000000000000
+      internalID: -5533837807779053740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_39
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 577
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8ca51c5a1eafff0800000000000000
+      internalID: -1440747830458186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_40
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 491
+        width: 73
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d41024ef7be7cb40800000000000000
+      internalID: 5460592007730697432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_41
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 478
+        width: 150
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f352ed185a27950800000000000000
+      internalID: 6445395993916948356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_42
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 424
+        width: 46
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d303dfb0165a03260800000000000000
+      internalID: 7075336850830602301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_43
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 324
+        width: 227
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b73d678c3192590800000000000000
+      internalID: -7698600336305194143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 282
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e2fdfb9273a3c80800000000000000
+      internalID: -8342294707298161029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_45
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 430
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0996f9502f912c40800000000000000
+      internalID: 5485840782411077901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_46
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 430
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c544ac2e435dbf60800000000000000
+      internalID: 8051683304029832643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_47
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 324
+        width: 311
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3286c8fe11a0ba220800000000000000
+      internalID: 2498101490456750115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_48
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3
+        width: 298
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d1b31d23a4833b0800000000000000
+      internalID: -5532590560105521833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_49
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 315
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb66fa99e89401cf0800000000000000
+      internalID: -283645899711748418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_50
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 291
+        width: 93
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffc23f0aef451be0800000000000000
+      internalID: -1507210633589633029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_51
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 3
+        width: 158
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20b907cca1604a80800000000000000
+      internalID: -8484674303264444371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_girl_52
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 4
+        width: 237
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad115e2a4a1efd590800000000000000
+      internalID: -7647145545028005414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fire_girl_0: 6288106665312731044
+      fire_girl_1: 5485782695830745985
+      fire_girl_10: 661406360815871949
+      fire_girl_11: -9054083291795874931
+      fire_girl_12: -1348628274264335917
+      fire_girl_13: -8328691704532269773
+      fire_girl_14: 9169924924315824705
+      fire_girl_15: -1312965954061609670
+      fire_girl_16: 1622979124172926223
+      fire_girl_17: -7019388207352810353
+      fire_girl_18: -6025467064593051117
+      fire_girl_19: 8602146732529282990
+      fire_girl_2: -6610926204186274139
+      fire_girl_20: 4034179473690382097
+      fire_girl_21: -3445420069832783391
+      fire_girl_22: -8959033974856195537
+      fire_girl_23: -5496681363546780398
+      fire_girl_24: -7871683106332049870
+      fire_girl_25: -330757454982092986
+      fire_girl_26: 8891601428966840484
+      fire_girl_27: -5433075096438775317
+      fire_girl_28: 8023873265572483057
+      fire_girl_29: -8776713458794528368
+      fire_girl_3: -4628191763916728623
+      fire_girl_30: -3831944981357671806
+      fire_girl_31: -335794439108689399
+      fire_girl_32: -1597659332448320485
+      fire_girl_33: 4452837237414450751
+      fire_girl_34: -3470853122984263900
+      fire_girl_35: -1287527428196139452
+      fire_girl_36: 6954794444306560326
+      fire_girl_37: -5863593073719392542
+      fire_girl_38: -5533837807779053740
+      fire_girl_39: -1440747830458186
+      fire_girl_4: 5627251846155736928
+      fire_girl_40: 5460592007730697432
+      fire_girl_41: 6445395993916948356
+      fire_girl_42: 7075336850830602301
+      fire_girl_43: -7698600336305194143
+      fire_girl_44: -8342294707298161029
+      fire_girl_45: 5485840782411077901
+      fire_girl_46: 8051683304029832643
+      fire_girl_47: 2498101490456750115
+      fire_girl_48: -5532590560105521833
+      fire_girl_49: -283645899711748418
+      fire_girl_5: -4624719473112511480
+      fire_girl_50: -1507210633589633029
+      fire_girl_51: -8484674303264444371
+      fire_girl_52: -7647145545028005414
+      fire_girl_6: -2155928258095756965
+      fire_girl_7: 2615209563501488112
+      fire_girl_8: -4283463604085592618
+      fire_girl_9: -5746231974624425397
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
