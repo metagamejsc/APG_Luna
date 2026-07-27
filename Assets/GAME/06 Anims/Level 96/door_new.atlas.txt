@@ -1,0 +1,12 @@
+door_new.png
+size:628,284
+filter:Linear,Linear
+pma:true
+bed_new_7
+bounds:586,240,42,38
+offsets:1,1,44,40
+rotate:90
+door_new
+bounds:2,2,280,582
+offsets:1,1,282,584
+rotate:90

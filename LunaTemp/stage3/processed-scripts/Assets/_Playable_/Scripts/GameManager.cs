@@ -35,16 +35,6 @@ namespace Playable
 
         [SerializeField] private TMP_Text _timerText;
         [SerializeField] private float _timerPunchScale = 0.12f;
-
-        [Header("Logo")] [LunaPlaygroundAsset("Logo")] [SerializeField]
-        private Texture2D _textureLogo;
-
-        [SerializeField] private Image _logo1;
-        [SerializeField] private Image _logo2;
-        [SerializeField] private Button _btnLogoBot;
-        [SerializeField] private Button _btnLogo;
-        [SerializeField] private Button _btnPlay;
-
         private int _quantityEvent;
         private float _remainingTime;
         private Tween _countdownTween;
@@ -62,6 +52,7 @@ namespace Playable
 
         private void Start()
         {
+            StartCountdown();
             _btnBlock.onClick.AddListener(ClickToCTA);
             _btnBlock.gameObject.SetActive(false);
 
@@ -77,13 +68,6 @@ namespace Playable
 
             BindUiReferences();
             InitializeUiState();
-            _logo1.sprite = CreateSprite(_textureLogo);
-            _logo2.sprite = CreateSprite(_textureLogo);
-            _logo1.preserveAspect = true;
-            _logo2.preserveAspect = true;
-            _btnLogo.onClick.AddListener(ClickToCTA);
-            _btnLogoBot.onClick.AddListener(ClickToCTA);
-            _btnPlay.onClick.AddListener(ClickToCTA);
         }
 
         private void OnDestroy()

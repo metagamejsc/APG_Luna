@@ -1,8 +1,8 @@
 {
     "version": "7.2.0",
     "projectId": "cc1f2bc1088d6d648901eead39e3bfa0",
-    "applicationID": 29138,
-    "creativeName": "BEQ_V30_NgocNDL_HuyNQ",
+    "applicationID": 31727,
+    "creativeName": "BP_V29_NgocNDL_HuyNQ",
     "pgServer": "EU",
     "window": {
         "‐⁘": true
@@ -9280,11 +9280,7 @@
                 "excluded": false
             },
             {
-                "name": "GameController.DialogueLine",
-                "excluded": false
-            },
-            {
-                "name": "GameController.SelectionSide",
+                "name": "Playable.GameController",
                 "excluded": false
             }
         ],
@@ -17917,7 +17913,7 @@
                     },
                     {
                         "name": "IsChildOf",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "InverseTransformPoint",
@@ -18005,7 +18001,7 @@
                     },
                     {
                         "name": "SetAsLastSibling",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetSiblingIndex",
@@ -32174,176 +32170,6 @@
                 ]
             },
             {
-                "className": "GameController",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Start",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnDestroy",
-                        "excluded": true
-                    },
-                    {
-                        "name": "CharacterSkeletonComponent#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "CharacterAnimationStateComponent#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "CharacterSkeleton#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "CharacterAnimationState#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "CharacterTransform#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "CharacterRoot#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Update",
-                        "excluded": false
-                    },
-                    {
-                        "name": "BeginSequence",
-                        "excluded": false
-                    },
-                    {
-                        "name": "StartStep1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "StartStep2",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ChooseLeft",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ChooseRight",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ApplyMergedSkins$1",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ApplyMergedSkins",
-                        "excluded": false
-                    },
-                    {
-                        "name": "PlayCharacterAnimation",
-                        "excluded": false
-                    },
-                    {
-                        "name": "RunSequence",
-                        "excluded": false
-                    },
-                    {
-                        "name": "RunStep1",
-                        "excluded": false
-                    },
-                    {
-                        "name": "RunStep2",
-                        "excluded": false
-                    },
-                    {
-                        "name": "SelectSide",
-                        "excluded": false
-                    },
-                    {
-                        "name": "FindOption",
-                        "excluded": false
-                    },
-                    {
-                        "name": "BuildMergedSkin",
-                        "excluded": false
-                    },
-                    {
-                        "name": "SetStepBackgrounds",
-                        "excluded": false
-                    },
-                    {
-                        "name": "SetCharacterPosition",
-                        "excluded": false
-                    },
-                    {
-                        "name": "TweenCharacterPosition",
-                        "excluded": true
-                    },
-                    {
-                        "name": "PlayAudio",
-                        "excluded": false
-                    },
-                    {
-                        "name": "TryGetPointerDownPosition",
-                        "excluded": false
-                    },
-                    {
-                        "name": "KillAllTweens",
-                        "excluded": false
-                    },
-                    {
-                        "name": "SetStep2OptionsRootActive",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ResolveStep2Result",
-                        "excluded": false
-                    },
-                    {
-                        "name": "PlayLoseSound",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnLeftButtonClicked",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnRightButtonClicked",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ResolveReferences",
-                        "excluded": false
-                    },
-                    {
-                        "name": "StartStep2HandTween",
-                        "excluded": false
-                    },
-                    {
-                        "name": "StopStep2HandTween",
-                        "excluded": false
-                    },
-                    {
-                        "name": "RunStep2HandLoop",
-                        "excluded": false
-                    },
-                    {
-                        "name": "PlayStep2HandAnimation",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
                 "className": "Playable.AudioManager",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -34916,16 +34742,6 @@
                 ]
             },
             {
-                "className": "GameController.Step2Option",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "init",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
                 "className": "DG.Tweening.Plugins.Vector2Plugin",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -35232,6 +35048,222 @@
                         "excluded": false
                     }
                 ]
+            },
+            {
+                "className": "Playable.Target",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "IsCompleted#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Play",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Stop",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.Item",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EnsureReady",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CacheOrigin",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetAsLastSibling",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetWorldPosition",
+                        "excluded": false
+                    },
+                    {
+                        "name": "RestoreOrigin",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Consume",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.ItemRoot",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "RefreshStack",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HandlePointerDown",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HandlePointerUp",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SelectTopMoney",
+                        "excluded": false
+                    },
+                    {
+                        "name": "UpdateDraggedMoneyPosition",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ReturnSelectedMoney",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ConsumeSelectedMoney",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TryPlayItemUnderPointer",
+                        "excluded": false
+                    },
+                    {
+                        "name": "RaycastUIUnderMouse",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsWithinMoneyRoot",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TryGetPointerWorldPoint",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetPointerCamera",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PrepareMoneyHandles",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PruneNullMoney",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.Bathroom",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Play",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Stop",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.Bed",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Play",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Stop",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.BG",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Play",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.Ceiling",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Play",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.Computer",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Play",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Stop",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.Door",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Play",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.Toilet",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Play",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Stop",
+                        "excluded": false
+                    }
+                ]
             }
         ],
         "stubberDataList": [],
@@ -35299,6 +35331,66 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+                    },
+                    {
+                        "maxWidth": 2048,
+                        "maxHeight": 576,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/06 Anims/Level 96/bed.png"
+                    },
+                    {
+                        "maxWidth": 1528,
+                        "maxHeight": 1012,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/06 Anims/Level 96/toilet.png"
+                    },
+                    {
+                        "maxWidth": 564,
+                        "maxHeight": 812,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/06 Anims/Level 96/ptam.png"
+                    },
+                    {
+                        "maxWidth": 1916,
+                        "maxHeight": 516,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/06 Anims/Level 96/computer.png"
+                    },
+                    {
+                        "maxWidth": 1080,
+                        "maxHeight": 1380,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Playable_/2D Texture/UI/Level 96/BG_old.png"
+                    },
+                    {
+                        "maxWidth": 1080,
+                        "maxHeight": 1380,
+                        "format": "png32",
+                        "compression": "quantQuality",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Playable_/2D Texture/UI/Level 96/BG_new.png"
                     }
                 ]
             },
