@@ -1,0 +1,10 @@
+7.png
+size:410,160
+filter:Linear,Linear
+pma:true
+7_colored
+bounds:2,2,202,156
+offsets:1,1,204,158
+7_white
+bounds:206,2,202,156
+offsets:1,1,204,158

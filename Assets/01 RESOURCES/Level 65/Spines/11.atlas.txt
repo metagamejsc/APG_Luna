@@ -1,0 +1,10 @@
+11.png
+size:310,145
+filter:Linear,Linear
+pma:true
+11_colored
+bounds:2,2,152,141
+offsets:1,2,154,144
+11_white
+bounds:156,2,152,141
+offsets:1,2,154,144

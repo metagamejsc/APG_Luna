@@ -1,0 +1,10 @@
+9.png
+size:264,109
+filter:Linear,Linear
+pma:true
+9_colored
+bounds:2,2,129,105
+offsets:2,1,132,107
+9_white
+bounds:133,2,129,105
+offsets:2,1,132,107

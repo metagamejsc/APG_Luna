@@ -1,0 +1,10 @@
+6.png
+size:272,111
+filter:Linear,Linear
+pma:true
+6_colored
+bounds:2,2,133,107
+offsets:1,1,135,109
+6_white
+bounds:137,2,133,107
+offsets:1,1,135,109

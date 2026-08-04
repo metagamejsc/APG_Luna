@@ -1,0 +1,10 @@
+8.png
+size:266,142
+filter:Linear,Linear
+pma:true
+8_colored
+bounds:2,2,130,138
+offsets:1,1,132,140
+8_white
+bounds:134,2,130,138
+offsets:1,1,132,140

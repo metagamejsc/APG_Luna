@@ -1,0 +1,10 @@
+3.png
+size:264,128
+filter:Linear,Linear
+pma:true
+3_colored
+bounds:2,2,129,124
+offsets:1,1,131,126
+3_white
+bounds:133,2,129,124
+offsets:1,1,131,126

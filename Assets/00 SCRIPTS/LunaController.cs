@@ -11,7 +11,6 @@ public class LunaController : MonoBehaviour
     [LunaPlaygroundField("Game BG Color")] public Color GameBGColor;
     [LunaPlaygroundField("Level Text Color")] public Color LevelTextColor;
     [LunaPlaygroundField("Header Text Color")] public Color TitleTextColor;
-    [LunaPlaygroundField("Sub BG Color")] public Color SubBGColor;
 
     [SerializeField] private Text time;
     [SerializeField] private Image BGImage;
@@ -38,7 +37,6 @@ public class LunaController : MonoBehaviour
         GameBGImage.color = GameBGColor;
         levelText.color = LevelTextColor;
         titleText.color = TitleTextColor;
-        subBG.color = SubBGColor;
     }
     void Start()
     {

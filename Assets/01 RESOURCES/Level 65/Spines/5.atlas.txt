@@ -1,0 +1,10 @@
+5.png
+size:308,158
+filter:Linear,Linear
+pma:true
+5_colored
+bounds:2,2,151,154
+offsets:1,2,153,157
+5_white
+bounds:155,2,151,154
+offsets:1,2,153,157

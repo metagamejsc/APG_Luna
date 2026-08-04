@@ -2,7 +2,7 @@
     "version": "7.2.0",
     "projectId": "5b44dfd2230fe054ca8da1b65d37e310",
     "applicationID": 34530,
-    "creativeName": "BM_V23_NgocBTU_TamNTM",
+    "creativeName": "BM_V24_NgocBTU_TamNTM",
     "pgServer": "EU",
     "window": {
         "‐⁘": true
@@ -27901,10 +27901,6 @@
                 "staticMethods": [],
                 "instanceMethods": [
                     {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
                         "name": "WaitToAct",
                         "excluded": false
                     },
@@ -27913,23 +27909,11 @@
                         "excluded": false
                     },
                     {
-                        "name": "Start",
-                        "excluded": false
-                    },
-                    {
-                        "name": "PlayCompleteAnim",
-                        "excluded": false
-                    },
-                    {
-                        "name": "InitActionMap",
-                        "excluded": false
-                    },
-                    {
-                        "name": "StartAction",
-                        "excluded": false
-                    },
-                    {
                         "name": "PlayAnimation",
+                        "excluded": false
+                    },
+                    {
+                        "name": "StartAnimation",
                         "excluded": false
                     }
                 ]
@@ -28014,7 +27998,7 @@
                     },
                     {
                         "name": "OnDestroy",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "RewindThenRecreateTween",
@@ -28207,27 +28191,15 @@
                         "excluded": false
                     },
                     {
-                        "name": "LockPlay",
-                        "excluded": false
-                    },
-                    {
                         "name": "Complete",
                         "excluded": false
                     },
                     {
-                        "name": "InitSubMap",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ShowSub",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ActiveSub",
-                        "excluded": false
-                    },
-                    {
                         "name": "CompleteAfterTime",
+                        "excluded": false
+                    },
+                    {
+                        "name": "InitSkeletonMap",
                         "excluded": false
                     }
                 ]
@@ -30045,24 +30017,6 @@
                     {
                         "name": "equals",
                         "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "TutController",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "Start",
-                        "excluded": false
-                    },
-                    {
-                        "name": "StopTut",
-                        "excluded": false
-                    },
-                    {
-                        "name": "init",
-                        "excluded": false
                     }
                 ]
             },
@@ -34261,73 +34215,11 @@
                 ]
             },
             {
-                "className": "DropAction",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "getDefaultValue",
-                        "excluded": false
-                    },
-                    {
-                        "name": "IsEmpty#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ctor",
-                        "excluded": false
-                    },
-                    {
-                        "name": "getHashCode",
-                        "excluded": true
-                    },
-                    {
-                        "name": "equals",
-                        "excluded": true
-                    },
-                    {
-                        "name": "$clone",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
                 "className": "InteractController",
                 "staticMethods": [],
                 "instanceMethods": [
                     {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Start",
-                        "excluded": false
-                    },
-                    {
-                        "name": "InitDragMap",
-                        "excluded": false
-                    },
-                    {
-                        "name": "SetLockPlay",
-                        "excluded": false
-                    },
-                    {
                         "name": "Update",
-                        "excluded": false
-                    },
-                    {
-                        "name": "MoveTarget",
-                        "excluded": false
-                    },
-                    {
-                        "name": "SetTarget",
-                        "excluded": false
-                    },
-                    {
-                        "name": "RemoveTarget",
                         "excluded": false
                     },
                     {
@@ -34335,49 +34227,7 @@
                         "excluded": false
                     },
                     {
-                        "name": "DropItem",
-                        "excluded": false
-                    },
-                    {
                         "name": "CheckInputDown",
-                        "excluded": false
-                    },
-                    {
-                        "name": "CheckInputUp",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "ItemDrag",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "getDefaultValue",
-                        "excluded": false
-                    },
-                    {
-                        "name": "IsEmpty#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ctor",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ClearItem",
-                        "excluded": false
-                    },
-                    {
-                        "name": "getHashCode",
-                        "excluded": true
-                    },
-                    {
-                        "name": "equals",
-                        "excluded": true
-                    },
-                    {
-                        "name": "$clone",
                         "excluded": false
                     }
                 ]
@@ -36091,7 +35941,7 @@
                 ]
             },
             {
-                "className": "Sub",
+                "className": "SkeletonAnim",
                 "staticMethods": [],
                 "instanceMethods": [
                     {
