@@ -1,0 +1,18 @@
+Ba Chu.png
+size:460,144
+filter:Linear,Linear
+pma:true
+scale:0.75
+laughing_fx
+bounds:415,52,37,38
+owner_angry
+bounds:415,18,32,32
+offsets:0,0,33,33
+owner_glance
+bounds:2,2,140,362
+rotate:90
+owner_leg_idle
+bounds:366,32,47,110
+owner_shocked
+bounds:415,92,42,50
+offsets:1,0,44,50

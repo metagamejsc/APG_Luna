@@ -1,0 +1,7 @@
+Dog.png
+size:108,140
+filter:Linear,Linear
+pma:true
+scale:0.75
+dog
+bounds:2,2,101,136

@@ -1,0 +1,10 @@
+Slot 7_Tap Rem Cua.png
+size:292,204
+filter:Linear,Linear
+pma:true
+scale:0.75
+curtain_closed
+bounds:2,2,200,212
+rotate:90
+rat
+bounds:216,128,71,74
