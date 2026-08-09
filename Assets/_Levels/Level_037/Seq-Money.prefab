@@ -1,0 +1,5557 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &15549765212152240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3213118144377055183}
+  - component: {fileID: 687190277573673290}
+  m_Layer: 0
+  m_Name: Seq-BoyRuler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3213118144377055183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15549765212152240}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6928399385040697367}
+  - {fileID: 2290467012361328636}
+  m_Father: {fileID: 7524575653940967003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &687190277573673290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15549765212152240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &45946400796017685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8052121911160100872}
+  - component: {fileID: 4831303007513939748}
+  m_Layer: 0
+  m_Name: Seq-BoyMoney
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8052121911160100872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45946400796017685}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4549136186961601453}
+  - {fileID: 5245603724176991456}
+  m_Father: {fileID: 8833011439450094930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4831303007513939748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45946400796017685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.MeshRenderer, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &115773004051344299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3041568706584699572}
+  - component: {fileID: 8132143099007681171}
+  m_Layer: 0
+  m_Name: Seq-BoyShirt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3041568706584699572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115773004051344299}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7491022421867255939}
+  - {fileID: 7989021660145240096}
+  m_Father: {fileID: 7524575653940967003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8132143099007681171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115773004051344299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &205698805607129684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7491022421867255939}
+  - component: {fileID: 5702629184215185781}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7491022421867255939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205698805607129684}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3041568706584699572}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5702629184215185781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205698805607129684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win
+  track: 0
+  loop: 0
+--- !u!1 &489237697782116276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1449272011766390834}
+  - component: {fileID: 154397259553914178}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1449272011766390834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489237697782116276}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2319187479959525145}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &154397259553914178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489237697782116276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Act 1
+  track: 0
+  loop: 1
+--- !u!1 &634783174152560397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 451564303007447226}
+  - component: {fileID: 2531138843953733696}
+  m_Layer: 0
+  m_Name: Seq-BoyBall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &451564303007447226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634783174152560397}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7675035292311032543}
+  - {fileID: 1112841156421938634}
+  m_Father: {fileID: 7524575653940967003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2531138843953733696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634783174152560397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &689571923374620303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2919899581868299236}
+  - component: {fileID: 780487842918640029}
+  m_Layer: 0
+  m_Name: Seq-BoyWeight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2919899581868299236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689571923374620303}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7170691995992540748}
+  - {fileID: 4213752831164406909}
+  m_Father: {fileID: 8833011439450094930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &780487842918640029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689571923374620303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &743177054747935093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1287406223618795627}
+  - component: {fileID: 4100661008423216244}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1287406223618795627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743177054747935093}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1133224376868601187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4100661008423216244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743177054747935093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win_Loop
+  track: 0
+  loop: 1
+--- !u!1 &827890268835386548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 734447354280479324}
+  - component: {fileID: 6561673249171950319}
+  m_Layer: 0
+  m_Name: Seq-BoyCloud
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &734447354280479324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827890268835386548}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8742002566646611059}
+  - {fileID: 2000070272567779078}
+  m_Father: {fileID: 7524575653940967003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6561673249171950319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827890268835386548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &945001797959874101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8742002566646611059}
+  - component: {fileID: 1003721424571240839}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8742002566646611059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945001797959874101}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 734447354280479324}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1003721424571240839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945001797959874101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win
+  track: 0
+  loop: 0
+--- !u!1 &1047303242292018361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 371801415178274892}
+  - component: {fileID: 456617966162465817}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &371801415178274892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047303242292018361}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1080156465108441401}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &456617966162465817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047303242292018361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win
+  track: 0
+  loop: 0
+--- !u!1 &1124839792752424417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5771893705151968389}
+  - component: {fileID: 1605993785260661123}
+  m_Layer: 0
+  m_Name: Seq-BoyBrick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5771893705151968389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124839792752424417}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3384185114801102962}
+  - {fileID: 1552279239852372022}
+  m_Father: {fileID: 8833011439450094930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1605993785260661123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124839792752424417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &1392921843115608433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7675035292311032543}
+  - component: {fileID: 1879008887119889618}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7675035292311032543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392921843115608433}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 451564303007447226}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1879008887119889618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392921843115608433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win
+  track: 0
+  loop: 0
+--- !u!1 &1510706909625666798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4131894972712877136}
+  - component: {fileID: 3261098630698239639}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4131894972712877136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510706909625666798}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 325572556842022951}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3261098630698239639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510706909625666798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Act 1
+  track: 0
+  loop: 1
+--- !u!1 &1587273461351801341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7263087092291212879}
+  - component: {fileID: 3715553655454866267}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7263087092291212879
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587273461351801341}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3503923549383285836}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3715553655454866267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587273461351801341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win
+  track: 0
+  loop: 0
+--- !u!1 &1749378307859221055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2775816196054335634}
+  - component: {fileID: 3975875065498843494}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2775816196054335634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749378307859221055}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5968361001612749926}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3975875065498843494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749378307859221055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Nem Di
+  track: 0
+  loop: 0
+--- !u!1 &1792844090040194830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4990638641696445655}
+  - component: {fileID: 2586240594982565387}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4990638641696445655
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792844090040194830}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3503923549383285836}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2586240594982565387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792844090040194830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win_Loop
+  track: 0
+  loop: 1
+--- !u!1 &1986814173610603435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5425248782155693013}
+  - component: {fileID: 7005551356947187824}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5425248782155693013
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986814173610603435}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5875306791976928312}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7005551356947187824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986814173610603435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Act 1
+  track: 0
+  loop: 1
+--- !u!1 &2133167885413242642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1588253355855194285}
+  - component: {fileID: 7531815162827489465}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1588253355855194285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133167885413242642}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5968361001612749926}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7531815162827489465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133167885413242642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Act 1
+  track: 0
+  loop: 1
+--- !u!1 &2209835142038689432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6186139068995326250}
+  - component: {fileID: 7135968028822669106}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6186139068995326250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2209835142038689432}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9208387945165634102}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7135968028822669106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2209835142038689432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Act 1
+  track: 0
+  loop: 1
+--- !u!1 &2352712254156191362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5875306791976928312}
+  - component: {fileID: 2202570318321761150}
+  m_Layer: 0
+  m_Name: Seq-BoyCloud
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5875306791976928312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2352712254156191362}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2574875471354440795}
+  - {fileID: 5425248782155693013}
+  m_Father: {fileID: 8833011439450094930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2202570318321761150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2352712254156191362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &2478468131000553222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1080156465108441401}
+  - component: {fileID: 865016957214397679}
+  m_Layer: 0
+  m_Name: Seq-BoyMoney
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1080156465108441401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478468131000553222}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 371801415178274892}
+  - {fileID: 5692264639549891933}
+  m_Father: {fileID: 7524575653940967003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &865016957214397679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478468131000553222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &2488968691496276560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2000070272567779078}
+  - component: {fileID: 2052112766521013949}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2000070272567779078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2488968691496276560}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 734447354280479324}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2052112766521013949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2488968691496276560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win_Loop
+  track: 0
+  loop: 1
+--- !u!1 &2765579682097350916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3384185114801102962}
+  - component: {fileID: 2967670975064903247}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3384185114801102962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2765579682097350916}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5771893705151968389}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2967670975064903247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2765579682097350916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Nem Di
+  track: 0
+  loop: 0
+--- !u!1 &2822038660847530916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5118968233387627927}
+  - component: {fileID: 8645867975899653909}
+  m_Layer: 0
+  m_Name: WaitMs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5118968233387627927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2822038660847530916}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5329433511199905357}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8645867975899653909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2822038660847530916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464461d105cbbec429b543017c25886b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  ms: 1000
+--- !u!1 &2837338595754048812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2319187479959525145}
+  - component: {fileID: 1388017684844781667}
+  m_Layer: 0
+  m_Name: Seq-BoyRuler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2319187479959525145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2837338595754048812}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4228380718753462226}
+  - {fileID: 1449272011766390834}
+  m_Father: {fileID: 8833011439450094930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1388017684844781667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2837338595754048812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &2996233780433566792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5329433511199905357}
+  - component: {fileID: 3903700502777259677}
+  m_Layer: 0
+  m_Name: Seq-Talk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5329433511199905357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2996233780433566792}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3284074825671262726}
+  - {fileID: 5118968233387627927}
+  m_Father: {fileID: 7865962479130679055}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3903700502777259677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2996233780433566792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &3183983711105391051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1801571727627229927}
+  - component: {fileID: 4369795852129282866}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1801571727627229927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3183983711105391051}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1902630163046238245}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4369795852129282866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3183983711105391051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Act 1
+  track: 0
+  loop: 1
+--- !u!1 &3212179921643393930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4228380718753462226}
+  - component: {fileID: 8065119849919135665}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4228380718753462226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3212179921643393930}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2319187479959525145}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8065119849919135665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3212179921643393930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Nem Di
+  track: 0
+  loop: 0
+--- !u!1 &3335254004174220667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4213752831164406909}
+  - component: {fileID: 570237849527335678}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4213752831164406909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3335254004174220667}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2919899581868299236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &570237849527335678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3335254004174220667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Act 1
+  track: 0
+  loop: 1
+--- !u!1 &3395090298678505999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1133224376868601187}
+  - component: {fileID: 6019473573332708390}
+  m_Layer: 0
+  m_Name: Seq-BoyEye
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1133224376868601187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3395090298678505999}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6616982536778403855}
+  - {fileID: 1287406223618795627}
+  m_Father: {fileID: 7524575653940967003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6019473573332708390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3395090298678505999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &3583757019501235446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1902630163046238245}
+  - component: {fileID: 3331964378386920063}
+  m_Layer: 0
+  m_Name: Seq-BoySponge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1902630163046238245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3583757019501235446}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5029106552251705615}
+  - {fileID: 1801571727627229927}
+  m_Father: {fileID: 8833011439450094930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3331964378386920063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3583757019501235446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &3832401631646985999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6928399385040697367}
+  - component: {fileID: 136310569771567321}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6928399385040697367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3832401631646985999}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3213118144377055183}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &136310569771567321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3832401631646985999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win
+  track: 0
+  loop: 0
+--- !u!1 &3890386743165432570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5692264639549891933}
+  - component: {fileID: 122042382173676104}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5692264639549891933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3890386743165432570}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1080156465108441401}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &122042382173676104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3890386743165432570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Lose
+  track: 0
+  loop: 1
+--- !u!1 &3934196949855522487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4075234981566673319}
+  - component: {fileID: 3637703625968758050}
+  m_Layer: 0
+  m_Name: Seq-BoyShirt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4075234981566673319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3934196949855522487}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8485469468127047586}
+  - {fileID: 7120773135852590781}
+  m_Father: {fileID: 8833011439450094930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3637703625968758050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3934196949855522487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &3961900799538503637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7989021660145240096}
+  - component: {fileID: 2752811688213772801}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7989021660145240096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3961900799538503637}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3041568706584699572}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2752811688213772801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3961900799538503637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win_Loop
+  track: 0
+  loop: 1
+--- !u!1 &4006297363485749622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1516222799568920902}
+  - component: {fileID: 2743203005175441516}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1516222799568920902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4006297363485749622}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9208387945165634102}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2743203005175441516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4006297363485749622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Nem Di
+  track: 0
+  loop: 0
+--- !u!1 &4613261193674278797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8670226676223952605}
+  - component: {fileID: 5358267600262133143}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8670226676223952605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4613261193674278797}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6331014788833834611}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5358267600262133143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4613261193674278797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win_Loop
+  track: 0
+  loop: 1
+--- !u!1 &4695327445017725785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8761830671173158107}
+  - component: {fileID: 2370722380409089118}
+  m_Layer: 0
+  m_Name: SetInactiveBoxes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8761830671173158107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4695327445017725785}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7865962479130679055}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2370722380409089118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4695327445017725785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00038baa9643b5848b695109f4a05257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  activateTargets: []
+  activate: 0
+--- !u!1 &4855033637989864736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8476586660135318667}
+  - component: {fileID: 6220446949619889204}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8476586660135318667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4855033637989864736}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1527879953390730548}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6220446949619889204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4855033637989864736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win_Loop
+  track: 0
+  loop: 1
+--- !u!1 &5049962537248258164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8722739559074686863}
+  - component: {fileID: 1733383597998573983}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8722739559074686863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5049962537248258164}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6331014788833834611}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1733383597998573983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5049962537248258164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win
+  track: 0
+  loop: 0
+--- !u!1 &5651201684573677008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7045468902600343047}
+  - component: {fileID: 5262914636122781934}
+  m_Layer: 0
+  m_Name: ReleaseInside
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7045468902600343047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5651201684573677008}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7865962479130679055}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5262914636122781934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5651201684573677008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88826e94a87c61a48b76db7e8bb47e9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 1
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  area: {fileID: 0}
+  selectables:
+  - {fileID: 0}
+  insideObjects:
+  - {fileID: 0}
+  progress: 1
+  setSpriteAfter: 0
+  renderer: {fileID: 0}
+  outputSelectable: {fileID: 0}
+--- !u!1 &5774666398435648320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8833011439450094930}
+  - component: {fileID: 1508682015998731698}
+  m_Layer: 0
+  m_Name: Par (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8833011439450094930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774666398435648320}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2919899581868299236}
+  - {fileID: 325572556842022951}
+  - {fileID: 4075234981566673319}
+  - {fileID: 8052121911160100872}
+  - {fileID: 1902630163046238245}
+  - {fileID: 5968361001612749926}
+  - {fileID: 1668197140519228448}
+  - {fileID: 9208387945165634102}
+  - {fileID: 2319187479959525145}
+  - {fileID: 5875306791976928312}
+  - {fileID: 5771893705151968389}
+  m_Father: {fileID: 7865962479130679055}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1508682015998731698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774666398435648320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0469835bae3f65459cacc5d690e22c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &5785393261107397391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1552279239852372022}
+  - component: {fileID: 1517242731030174508}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1552279239852372022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5785393261107397391}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5771893705151968389}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1517242731030174508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5785393261107397391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Act 1
+  track: 0
+  loop: 1
+--- !u!1 &5811110483905204913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7170691995992540748}
+  - component: {fileID: 2824582716083770126}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7170691995992540748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5811110483905204913}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2919899581868299236}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2824582716083770126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5811110483905204913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Nem Di
+  track: 0
+  loop: 0
+--- !u!1 &5889292352066194862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4029442821926014523}
+  - component: {fileID: 5609466464948586991}
+  m_Layer: 0
+  m_Name: Seq-BoyBrick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4029442821926014523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5889292352066194862}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1465994116871215092}
+  - {fileID: 2810677220322347109}
+  m_Father: {fileID: 7524575653940967003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5609466464948586991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5889292352066194862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &5964308315189479165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2156070613375994683}
+  - component: {fileID: 6162418986453846984}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2156070613375994683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5964308315189479165}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1668197140519228448}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6162418986453846984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5964308315189479165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Act 1
+  track: 0
+  loop: 1
+--- !u!1 &6012609622402883728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5245603724176991456}
+  - component: {fileID: 3424753514329383341}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5245603724176991456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6012609622402883728}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8052121911160100872}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3424753514329383341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6012609622402883728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Lose_Out_Loop
+  track: 0
+  loop: 1
+--- !u!1 &6020771812871337874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5912004217259575320}
+  - component: {fileID: 1392725640834075784}
+  m_Layer: 0
+  m_Name: Seq-BoyTrumpet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5912004217259575320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6020771812871337874}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2457147646990780419}
+  - {fileID: 2906592601380673368}
+  m_Father: {fileID: 7524575653940967003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1392725640834075784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6020771812871337874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &6201991125834658389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6616982536778403855}
+  - component: {fileID: 5502164838937932608}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6616982536778403855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6201991125834658389}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1133224376868601187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5502164838937932608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6201991125834658389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win
+  track: 0
+  loop: 0
+--- !u!1 &6245105185401285993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9208387945165634102}
+  - component: {fileID: 5126146008490338122}
+  m_Layer: 0
+  m_Name: Seq-BoyEye
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9208387945165634102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6245105185401285993}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1516222799568920902}
+  - {fileID: 6186139068995326250}
+  m_Father: {fileID: 8833011439450094930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5126146008490338122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6245105185401285993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &6269778715911872086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3284074825671262726}
+  - component: {fileID: 3847209804565654011}
+  m_Layer: 0
+  m_Name: SetActive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3284074825671262726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6269778715911872086}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5329433511199905357}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3847209804565654011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6269778715911872086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00038baa9643b5848b695109f4a05257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  activateTargets:
+  - {fileID: 0}
+  activate: 1
+--- !u!1 &6364735026201162213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6996891790676624124}
+  - component: {fileID: 5416178905576921437}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6996891790676624124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6364735026201162213}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 325572556842022951}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5416178905576921437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6364735026201162213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Nem Di
+  track: 0
+  loop: 0
+--- !u!1 &6537761275184101599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3503923549383285836}
+  - component: {fileID: 6769497867253693648}
+  m_Layer: 0
+  m_Name: Seq-BoyWeight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3503923549383285836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6537761275184101599}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7263087092291212879}
+  - {fileID: 4990638641696445655}
+  m_Father: {fileID: 7524575653940967003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6769497867253693648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6537761275184101599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &6675162215360737263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1527879953390730548}
+  - component: {fileID: 3650146737572736114}
+  m_Layer: 0
+  m_Name: Seq-BoySponge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1527879953390730548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675162215360737263}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5558638604191094006}
+  - {fileID: 8476586660135318667}
+  m_Father: {fileID: 7524575653940967003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3650146737572736114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675162215360737263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &6760869096649762961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6160173933821982645}
+  - component: {fileID: 5653503790434452417}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6160173933821982645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6760869096649762961}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1668197140519228448}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5653503790434452417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6760869096649762961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Nem Di
+  track: 0
+  loop: 0
+--- !u!1 &7018805462880944163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8485469468127047586}
+  - component: {fileID: 2839908798714214615}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8485469468127047586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7018805462880944163}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4075234981566673319}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2839908798714214615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7018805462880944163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Nem Di
+  track: 0
+  loop: 0
+--- !u!1 &7067245992512840898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 325572556842022951}
+  - component: {fileID: 790291185848908237}
+  m_Layer: 0
+  m_Name: Seq-BoyBall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &325572556842022951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7067245992512840898}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6996891790676624124}
+  - {fileID: 4131894972712877136}
+  m_Father: {fileID: 8833011439450094930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &790291185848908237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7067245992512840898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &7126658298553993795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5558638604191094006}
+  - component: {fileID: 6406711299961067575}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5558638604191094006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7126658298553993795}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1527879953390730548}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6406711299961067575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7126658298553993795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win
+  track: 0
+  loop: 0
+--- !u!1 &7202944310667838419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7120773135852590781}
+  - component: {fileID: 4964990332913117874}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7120773135852590781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7202944310667838419}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4075234981566673319}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4964990332913117874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7202944310667838419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Act 1
+  track: 0
+  loop: 1
+--- !u!1 &7375650186277895192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2290467012361328636}
+  - component: {fileID: 8933858235868102688}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2290467012361328636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375650186277895192}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3213118144377055183}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8933858235868102688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375650186277895192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win_Loop
+  track: 0
+  loop: 1
+--- !u!1 &7789939779661384374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7524575653940967003}
+  - component: {fileID: 1008684499834685766}
+  m_Layer: 0
+  m_Name: Par
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7524575653940967003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7789939779661384374}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3503923549383285836}
+  - {fileID: 451564303007447226}
+  - {fileID: 3041568706584699572}
+  - {fileID: 1080156465108441401}
+  - {fileID: 1527879953390730548}
+  - {fileID: 6331014788833834611}
+  - {fileID: 5912004217259575320}
+  - {fileID: 1133224376868601187}
+  - {fileID: 3213118144377055183}
+  - {fileID: 734447354280479324}
+  - {fileID: 4029442821926014523}
+  m_Father: {fileID: 7865962479130679055}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1008684499834685766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7789939779661384374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0469835bae3f65459cacc5d690e22c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &7835911319703401683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2457147646990780419}
+  - component: {fileID: 3083788967014874268}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2457147646990780419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7835911319703401683}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5912004217259575320}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3083788967014874268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7835911319703401683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win
+  track: 0
+  loop: 0
+--- !u!1 &7924647200997615662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1112841156421938634}
+  - component: {fileID: 447023151141907712}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1112841156421938634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7924647200997615662}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 451564303007447226}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &447023151141907712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7924647200997615662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win_Loop
+  track: 0
+  loop: 1
+--- !u!1 &8060085339009782417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2810677220322347109}
+  - component: {fileID: 8724133400719285042}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2810677220322347109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8060085339009782417}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4029442821926014523}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8724133400719285042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8060085339009782417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win_Loop
+  track: 0
+  loop: 1
+--- !u!1 &8336889052689913446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2574875471354440795}
+  - component: {fileID: 3856281524236745901}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2574875471354440795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8336889052689913446}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5875306791976928312}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3856281524236745901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8336889052689913446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Nem Di
+  track: 0
+  loop: 0
+--- !u!1 &8472088854624270159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4549136186961601453}
+  - component: {fileID: 1763034564283585622}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4549136186961601453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8472088854624270159}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8052121911160100872}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1763034564283585622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8472088854624270159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Lose_Out
+  track: 0
+  loop: 0
+--- !u!1 &8627856580960012087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7865962479130679055}
+  - component: {fileID: 7810894832808507187}
+  m_Layer: 0
+  m_Name: Seq-Money
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7865962479130679055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8627856580960012087}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7045468902600343047}
+  - {fileID: 8761830671173158107}
+  - {fileID: 7524575653940967003}
+  - {fileID: 5329433511199905357}
+  - {fileID: 8833011439450094930}
+  - {fileID: 1816789649137318625}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7810894832808507187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8627856580960012087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &8697699552180561786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1816789649137318625}
+  - component: {fileID: 4574910528104204352}
+  m_Layer: 0
+  m_Name: SetActiveBoxes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1816789649137318625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697699552180561786}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7865962479130679055}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4574910528104204352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697699552180561786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00038baa9643b5848b695109f4a05257, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  activateTargets: []
+  activate: 1
+--- !u!1 &8755419139876556324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5968361001612749926}
+  - component: {fileID: 7126298580353850907}
+  m_Layer: 0
+  m_Name: Seq-BoyWin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5968361001612749926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8755419139876556324}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2775816196054335634}
+  - {fileID: 1588253355855194285}
+  m_Father: {fileID: 8833011439450094930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7126298580353850907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8755419139876556324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &8796763958829554579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6331014788833834611}
+  - component: {fileID: 2122225746129685292}
+  m_Layer: 0
+  m_Name: Seq-BoyWin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6331014788833834611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8796763958829554579}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8722739559074686863}
+  - {fileID: 8670226676223952605}
+  m_Father: {fileID: 7524575653940967003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2122225746129685292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8796763958829554579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &8798357473370818287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1465994116871215092}
+  - component: {fileID: 8649031330771379578}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1465994116871215092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8798357473370818287}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4029442821926014523}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8649031330771379578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8798357473370818287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win
+  track: 0
+  loop: 0
+--- !u!1 &8867969561302144677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2906592601380673368}
+  - component: {fileID: 5271710707598300747}
+  m_Layer: 0
+  m_Name: PlaySpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2906592601380673368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867969561302144677}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5912004217259575320}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5271710707598300747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867969561302144677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f4ecd574cbf4642b366ddb233c66cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Win_Loop
+  track: 0
+  loop: 1
+--- !u!1 &8940676573463617942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1668197140519228448}
+  - component: {fileID: 1640919156961594392}
+  m_Layer: 0
+  m_Name: Seq-BoyTrumpet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1668197140519228448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8940676573463617942}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6160173933821982645}
+  - {fileID: 2156070613375994683}
+  m_Father: {fileID: 8833011439450094930}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1640919156961594392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8940676573463617942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b92a948a75e51048b1376c8871f5b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  progress: 0
+--- !u!1 &8989297944988145863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5029106552251705615}
+  - component: {fileID: 7999584199973087925}
+  m_Layer: 0
+  m_Name: WaitSpineAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5029106552251705615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8989297944988145863}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1902630163046238245}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7999584199973087925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8989297944988145863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d93b40db079643a95879246b5ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
+  singleHintAction: {fileID: 0}
+  hintedAction: 0
+  lastActionHint: 0
+  hintEng: 
+  hintVi: 
+  hintSp: 
+  hintFr: 
+  hintJa: 
+  hintKo: 
+  hintTh: 
+  hintCh: 
+  hintPo: 
+  hintGe: 
+  hintIt: 
+  hintIn: 
+  hintTu: 
+  hintHi: 
+  hintAr: 
+  hintRu: 
+  skipAction: 0
+  skeletonAnimation: {fileID: 0}
+  animation: Slot 3_Keo Tien_Nem Di
+  track: 0
+  loop: 0

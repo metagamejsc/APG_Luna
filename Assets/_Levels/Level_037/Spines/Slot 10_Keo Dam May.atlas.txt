@@ -1,0 +1,14 @@
+Slot 10_Keo Dam May.png
+size:488,224
+filter:Linear,Linear
+pma:true
+scale:0.75
+Sun
+bounds:335,62,151,157
+offsets:0,0,158,158
+cloud
+bounds:208,4,215,125
+rotate:90
+sun_fx
+bounds:2,2,204,217
+offsets:1,4,205,225

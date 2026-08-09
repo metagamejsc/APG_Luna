@@ -1,0 +1,9 @@
+Con So Thuoc Do.png
+size:152,32
+filter:Linear,Linear
+pma:true
+scale:0.75
+1m65
+bounds:2,2,74,28
+1m75
+bounds:78,2,72,28

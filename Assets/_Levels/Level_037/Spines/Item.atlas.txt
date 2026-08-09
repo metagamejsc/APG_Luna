@@ -1,0 +1,16 @@
+Item.png
+size:620,412
+filter:Linear,Linear
+pma:true
+scale:0.75
+BG_2
+bounds:2,2,405,471
+rotate:90
+shockwave
+bounds:475,193,66,71
+offsets:1,1,68,73
+trumpet_anim1
+bounds:475,266,141,140
+rotate:90
+trumpet_anim2
+bounds:475,177,14,14
