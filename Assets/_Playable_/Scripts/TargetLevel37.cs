@@ -20,7 +20,10 @@ namespace Playable
 
         protected override void OnTargetInitialized()
         {
-            _inputCamera = Camera.main;
+            Canvas canvas = GetComponentInParent<Canvas>();
+            if (canvas != null) canvas = canvas.rootCanvas;
+
+            _inputCamera = canvas != null && canvas.worldCamera != null ? canvas.worldCamera : Camera.main;
         }
 
         private void Update()
@@ -30,22 +33,19 @@ namespace Playable
             Vector2 screenPosition;
             if (!TryGetPointerDown(out screenPosition)) return;
 
-            if (TargetCollider == null) return;
-
-            Vector3 worldPosition = ScreenToWorld(screenPosition);
-            if (!LunaBox2DGeometry.ContainsPoint(TargetCollider, worldPosition)) return;
+            if (!LunaRectGeometry.ContainsScreenPoint(TargetRect, screenPosition, _inputCamera)) return;
 
             TriggerBoyLose(FindClickableBoyIndex());
             GameManager.Instance.CountEvent();
         }
 
-        public override bool TryAccept(Item item, BoxCollider2D itemCollider)
+        public override bool TryAccept(Item item, RectTransform itemRect)
         {
             ItemLevel37 itemLevel37 = item as ItemLevel37;
             if (itemLevel37 == null) return false;
             if (FindBoyIndexByType(itemLevel37.Type) < 0) return false;
 
-            return base.TryAccept(item, itemCollider);
+            return base.TryAccept(item, itemRect);
         }
 
         protected override void OnItemAccepted(Item item)
@@ -157,7 +157,7 @@ namespace Playable
         {
             for (int i = 0; i < boyInfos.Count; i++)
             {
-                SkeletonAnimation meter = boyInfos[i].AnimInfo.Meter;
+                SkeletonGraphic meter = boyInfos[i].AnimInfo.Meter;
                 if (meter != null) meter.gameObject.SetActive(false);
             }
         }
@@ -295,15 +295,6 @@ namespace Playable
             return count;
         }
 
-        private Vector3 ScreenToWorld(Vector2 screenPosition)
-        {
-            float depth = _inputCamera.WorldToScreenPoint(transform.position).z;
-            Vector3 worldPosition = _inputCamera.ScreenToWorldPoint(
-                new Vector3(screenPosition.x, screenPosition.y, depth));
-            worldPosition.z = transform.position.z;
-            return worldPosition;
-        }
-
         private static bool TryGetPointerDown(out Vector2 screenPosition)
         {
             for (int index = 0; index < Input.touchCount; index++)
@@ -338,9 +329,9 @@ namespace Playable
     [Serializable]
     public struct AnimInfo
     {
-        public SkeletonAnimation Skeleton;
-        public SkeletonAnimation Item;
-        public SkeletonAnimation Meter;
+        public SkeletonGraphic Skeleton;
+        public SkeletonGraphic Item;
+        public SkeletonGraphic Meter;
 
         [SpineAnimation(dataField: "Skeleton")]
         public string AnimDefault;

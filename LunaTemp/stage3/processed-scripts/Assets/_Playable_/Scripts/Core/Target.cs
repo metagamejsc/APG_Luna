@@ -2,18 +2,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(RectTransform))]
 public class Target : MonoBehaviour
 {
     private static readonly List<Target> activeTargets = new List<Target>();
 
-    [SerializeField] private BoxCollider2D targetCollider;
+    [SerializeField] private RectTransform targetRect;
 
-    protected BoxCollider2D TargetCollider => targetCollider;
+    protected RectTransform TargetRect => targetRect;
 
     private void Awake()
     {
-        targetCollider = GetComponent<BoxCollider2D>();
+        targetRect = GetComponent<RectTransform>();
         OnTargetInitialized();
     }
 
@@ -28,12 +28,12 @@ public class Target : MonoBehaviour
         activeTargets.Remove(this);
     }
 
-    public static bool TryAcceptAny(Item item, BoxCollider2D itemCollider, out Target acceptedTarget)
+    public static bool TryAcceptAny(Item item, RectTransform itemRect, out Target acceptedTarget)
     {
         for (int index = 0; index < activeTargets.Count; index++)
         {
             Target candidate = activeTargets[index];
-            if (candidate == null || !candidate.TryAccept(item, itemCollider))
+            if (candidate == null || !candidate.TryAccept(item, itemRect))
                 continue;
 
             acceptedTarget = candidate;
@@ -44,13 +44,12 @@ public class Target : MonoBehaviour
         return false;
     }
 
-    public virtual bool TryAccept(Item item, BoxCollider2D itemCollider)
+    public virtual bool TryAccept(Item item, RectTransform itemRect)
     {
-        if (!isActiveAndEnabled || targetCollider == null || !targetCollider.enabled ||
-            item == null || itemCollider == null)
+        if (!isActiveAndEnabled || targetRect == null || item == null || itemRect == null)
             return false;
 
-        if (!LunaBox2DGeometry.Intersects(itemCollider, targetCollider))
+        if (!LunaRectGeometry.Overlaps(itemRect, targetRect))
             return false;
 
         OnItemAccepted(item);

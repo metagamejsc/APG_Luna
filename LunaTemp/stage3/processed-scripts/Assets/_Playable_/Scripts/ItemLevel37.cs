@@ -76,13 +76,14 @@ namespace Playable
 
         private bool HasDraggedPastThreshold()
         {
-            if (ItemCollider == null) return false;
+            if (ItemRect == null) return false;
 
             float distance = Vector3.Distance(transform.position, StartPosition);
 
             Vector3 scale = transform.lossyScale;
-            float thresholdX = ItemCollider.size.x * Mathf.Abs(scale.x);
-            float thresholdY = ItemCollider.size.y * Mathf.Abs(scale.y);
+            Vector2 size = ItemRect.rect.size;
+            float thresholdX = size.x * Mathf.Abs(scale.x);
+            float thresholdY = size.y * Mathf.Abs(scale.y);
             float threshold = Mathf.Max(thresholdX, thresholdY);
 
             return distance >= threshold;

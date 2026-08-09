@@ -8524,10 +8524,6 @@
                 "excluded": true
             },
             {
-                "name": "DG.Tweening.Plugins.FloatPlugin",
-                "excluded": true
-            },
-            {
                 "name": "DG.Tweening.Plugins.IntPlugin",
                 "excluded": true
             },
@@ -8677,22 +8673,6 @@
             },
             {
                 "name": "DG.Tweening.DOTweenProShortcuts",
-                "excluded": true
-            },
-            {
-                "name": "Item",
-                "excluded": true
-            },
-            {
-                "name": "LunaBox2DGeometry",
-                "excluded": true
-            },
-            {
-                "name": "Playable.AudioManager",
-                "excluded": true
-            },
-            {
-                "name": "Playable.GameManager",
                 "excluded": true
             },
             {
@@ -8861,18 +8841,6 @@
             },
             {
                 "name": "Spine.Unity.WaitForSpineTrackEntryEnd",
-                "excluded": true
-            },
-            {
-                "name": "SpineEventSoundPlayer",
-                "excluded": true
-            },
-            {
-                "name": "Target",
-                "excluded": true
-            },
-            {
-                "name": "Playable.ItemLevel37",
                 "excluded": true
             },
             {
@@ -9144,28 +9112,8 @@
                 "excluded": false
             },
             {
-                "name": "Playable.AnimInfo",
-                "excluded": true
-            },
-            {
-                "name": "Playable.AnimStep",
-                "excluded": true
-            },
-            {
-                "name": "Playable.BoyInfo",
-                "excluded": true
-            },
-            {
-                "name": "Playable.GameController",
-                "excluded": true
-            },
-            {
-                "name": "Playable.TargetLevel37",
-                "excluded": true
-            },
-            {
                 "name": "Playable.TargetType",
-                "excluded": true
+                "excluded": false
             }
         ],
         "unusedMethods": [
@@ -16113,7 +16061,7 @@
                     },
                     {
                         "name": "xMin#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "xMin#set",
@@ -16133,7 +16081,7 @@
                     },
                     {
                         "name": "yMin#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "yMin#set",
@@ -17611,7 +17559,7 @@
                     },
                     {
                         "name": "cachedLocalToWorldMatrix#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetChild",
@@ -18763,7 +18711,7 @@
                     },
                     {
                         "name": "GetWorldCorners",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetInsetAndSizeFromParentEdge",
@@ -20707,7 +20655,7 @@
                     },
                     {
                         "name": "OnTweenCallback",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnTweenCallback$1",
@@ -21135,15 +21083,15 @@
                 "instanceMethods": [
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Reset",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "getHashCode",
@@ -21155,7 +21103,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -22117,7 +22065,7 @@
                     },
                     {
                         "name": "Animation#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Loop#get",
@@ -22309,7 +22257,7 @@
                     },
                     {
                         "name": "OnEvent",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetMixDuration",
@@ -24991,7 +24939,7 @@
                     },
                     {
                         "name": "rootCanvas#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "sortingLayerName#get",
@@ -25003,7 +24951,7 @@
                     },
                     {
                         "name": "OnDisable",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnDestroy",
@@ -30241,7 +30189,7 @@
                     },
                     {
                         "name": "Despawn",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PurgeAll",
@@ -30349,7 +30297,7 @@
                     },
                     {
                         "name": "MarkForKilling",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "EvaluateTweenLink",
@@ -30357,15 +30305,15 @@
                     },
                     {
                         "name": "ReorganizeActiveTweens",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "DespawnActiveTweens",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "RemoveActiveTween",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ClearTweenArray",
@@ -30439,7 +30387,7 @@
                     },
                     {
                         "name": "To$4",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "To$1",
@@ -31467,7 +31415,7 @@
                     },
                     {
                         "name": "OnUpdate",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnStepComplete",
@@ -31475,7 +31423,7 @@
                     },
                     {
                         "name": "OnComplete",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnWaypointChange",
@@ -32457,7 +32405,7 @@
                     },
                     {
                         "name": "Data#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Data#set",
@@ -32469,7 +32417,7 @@
                     },
                     {
                         "name": "OnEvent",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AssignEventSubscribersFrom",
@@ -32543,7 +32491,7 @@
                     },
                     {
                         "name": "SkeletonData#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "DefaultMix#get",
@@ -32835,7 +32783,7 @@
                     },
                     {
                         "name": "Event",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Clear",
@@ -33177,7 +33125,7 @@
                     },
                     {
                         "name": "SetSkin$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetAttachment$1",
@@ -33575,7 +33523,7 @@
                     },
                     {
                         "name": "AttachAll",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -35039,7 +34987,7 @@
                     },
                     {
                         "name": "Apply",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -36467,7 +36415,7 @@
                     },
                     {
                         "name": "GetCurvePercent",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -38071,7 +38019,7 @@
                     },
                     {
                         "name": "$ctor2",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "$ctor1",
@@ -38195,7 +38143,7 @@
                     },
                     {
                         "name": "RectangleContainsScreenPoint$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "RectangleContainsScreenPoint",
@@ -38207,11 +38155,11 @@
                     },
                     {
                         "name": "ScreenPointToWorldPointInRectangle",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ScreenPointToRay",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PixelAdjustPoint",
@@ -38770,40 +38718,6 @@
                 ]
             },
             {
-                "className": "ResponsiveCanvasScaler",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnEnable",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Update",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ApplyScaleSettings",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnValidate",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetMatchValue",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
                 "className": "CameraAutoSize",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -39154,6 +39068,576 @@
                     {
                         "name": "ctor",
                         "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "DG.Tweening.Plugins.FloatPlugin",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Reset",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetFrom$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetFrom",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ConvertToStartValue",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetRelativeEndValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetChangeValue",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetSpeedBasedDuration",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EvaluateAndApply",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Item",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "TryGetPointerDown",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TryGetPointerPosition",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ItemRect#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PressSound#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "StartPosition#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsDragging#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TryBeginDrag",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlayPressSound",
+                        "excluded": false
+                    },
+                    {
+                        "name": "UpdateDrag",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EndDrag",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ReturnToStart",
+                        "excluded": false
+                    },
+                    {
+                        "name": "MoveTo",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ScreenToWorld",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDragStarted",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnItemInitialized",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDragging",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnItemHeld",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDragReleased",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnItemReleased",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDroppedOnTarget",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDroppedOutsideTarget",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnReturnedToStart",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShouldSkipReturnAnimation",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Playable.AnimInfo",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.AnimStep",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.AudioManager",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlayMusic",
+                        "excluded": false
+                    },
+                    {
+                        "name": "StopMusic",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlaySound",
+                        "excluded": false
+                    },
+                    {
+                        "name": "StopSound",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.BoyInfo",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.GameController",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AddSkin",
+                        "excluded": false
+                    },
+                    {
+                        "name": "RemoveSkin",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ToggleSkin",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Rebuild",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.GameManager",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EndGame",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CountEvent",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CountdownEndGame",
+                        "excluded": false
+                    },
+                    {
+                        "name": "UpdateText",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CreateSprite",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Target",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TryAcceptAny",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TargetRect#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "TryAccept",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnItemAccepted",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnTargetInitialized",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "SpineEventSoundPlayer",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Reset",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HandleSpineEvent",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SyncAudioClips",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetSkeletonAnimation",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Playable.ItemLevel37",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Type#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDragStarted",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnItemReleased",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShouldSkipReturnAnimation",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HasDraggedPastThreshold",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Playable.TargetLevel37",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "PlaySequence",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HasAnimation",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetBoyRoot",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsBoyAlive",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TryGetPointerDown",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsBusy#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnTargetInitialized",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TryAccept",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnItemAccepted",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TriggerLoseByType",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TriggerBoyLose",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlayAllMeters",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlayWin",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlayLose",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FinishLose",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DeactivateAllMeters",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlaySteps",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DeactivateBoy",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DeactivateBoyDelayed",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetBoyActive",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FindBoyIndexByType",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FindClickableBoyIndex",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CountAliveBoys",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "LunaRectGeometry",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ContainsScreenPoint",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Overlaps",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ScreenPointToWorldPoint",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetWorldAabb",
+                        "excluded": false
                     }
                 ]
             }

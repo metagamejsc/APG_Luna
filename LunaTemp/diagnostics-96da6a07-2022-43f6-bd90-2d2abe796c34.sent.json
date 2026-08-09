@@ -1,0 +1,92 @@
+{
+    "BuildID": "96da6a07-2022-43f6-bd90-2d2abe796c34",
+    "Command": "project:build",
+    "ProjectID": "e0c7d7b99f381904ba55b26de53e9500",
+    "ProjectStateHash": "ed018f4480872819127426687a4d7e74c15d47d97a7dd355b7b35547f5310b94",
+    "StageCompletedAt": 3,
+    "EarliestFatalError": 0,
+    "StartTime": 1786276133681,
+    "EndTime": 1786276169937,
+    "PlaygroundUserID": 37069,
+    "OperatingSystem": "win32",
+    "UnityPackageID": null,
+    "TargetPlatform": "develop",
+    "UnityVersion": "2022.3.47f1\r",
+    "LunaVersion": "7.2.0",
+    "LogCount": 3,
+    "Logs": [
+        {
+            "LogID": "5fffa4ab-6fa9-49da-a900-153c817d00aa",
+            "Order": 2,
+            "Timestamp": 1786276170851,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3007",
+            "Description": "You are not using any custom events",
+            "Details": [
+                "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+            ],
+            "DescriptionValues": [
+                ""
+            ],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "94b51fe7-4533-4b03-b787-9aaccc35a8f4",
+            "Order": 2,
+            "Timestamp": 1786276170855,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3012",
+            "Description": "You are not using the minimum recommended amount of LunaPlaygroundFields attributes.",
+            "Details": [
+                "You are not using the minimum recommended amount of LunaPlaygroundFields attributes, you are using: 2 and we recommend using a minimum of: 3. It allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+            ],
+            "DescriptionValues": [
+                "2",
+                "3"
+            ],
+            "DetailsValues": [
+                "2",
+                "3"
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "f29e3176-47f3-418c-854a-3b7f7022a435",
+            "Order": 0,
+            "Timestamp": 1786276141854,
+            "Stage": 1,
+            "ErrorType": 3,
+            "ErrorCode": "LP1002",
+            "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+            "Details": [
+                "Repeat wrap mode used on 'LiberationSans SDF Atlas' texture at 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' with non power-of-two dimensions, this might not be rendered correctly."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [
+                "LiberationSans SDF Atlas",
+                "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        }
+    ]
+}

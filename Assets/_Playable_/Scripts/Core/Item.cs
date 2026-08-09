@@ -2,16 +2,17 @@ using System.Collections;
 using Playable;
 using UnityEngine;
 
-[RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(RectTransform))]
 public class Item : MonoBehaviour
 {
     [Header("Drop")]
     [SerializeField, Min(0f)] private float returnDuration = 0.2f;
-    [SerializeField] private BoxCollider2D boxCollider;
+    [SerializeField] private RectTransform itemRect;
 
     [Header("Audio")] [SerializeField] private AudioClip pressSound;
 
     private Camera inputCamera;
+    private RectTransform canvasRect;
     private static Item activeItem;
     private Vector3 startPosition;
     private Vector3 dragOffset;
@@ -19,15 +20,21 @@ public class Item : MonoBehaviour
     private bool isDragging;
     private Coroutine returnRoutine;
 
-    protected BoxCollider2D ItemCollider => boxCollider;
+    protected RectTransform ItemRect => itemRect;
     protected AudioClip PressSound => pressSound;
     protected Vector3 StartPosition => startPosition;
     protected bool IsDragging => isDragging;
 
     private void Awake()
     {
-        boxCollider = GetComponent<BoxCollider2D>();
-        inputCamera = Camera.main;
+        itemRect = GetComponent<RectTransform>();
+
+        Canvas canvas = GetComponentInParent<Canvas>();
+        if (canvas != null) canvas = canvas.rootCanvas;
+
+        canvasRect = canvas != null ? canvas.transform as RectTransform : null;
+        inputCamera = canvas != null && canvas.worldCamera != null ? canvas.worldCamera : Camera.main;
+
         startPosition = transform.position;
         OnItemInitialized();
     }
@@ -65,9 +72,10 @@ public class Item : MonoBehaviour
         if (!TryGetPointerDown(out screenPosition, out fingerId))
             return;
 
-        Vector3 worldPosition = ScreenToWorld(screenPosition);
-        if (!LunaBox2DGeometry.ContainsPoint(boxCollider, worldPosition))
+        if (!LunaRectGeometry.ContainsScreenPoint(itemRect, screenPosition, inputCamera))
             return;
+
+        Vector3 worldPosition = ScreenToWorld(screenPosition);
 
         if (returnRoutine != null)
         {
@@ -117,7 +125,7 @@ public class Item : MonoBehaviour
         activeItem = null;
 
         Target acceptedTarget;
-        bool wasAccepted = Target.TryAcceptAny(this, boxCollider, out acceptedTarget);
+        bool wasAccepted = Target.TryAcceptAny(this, itemRect, out acceptedTarget);
         OnItemReleased(wasAccepted);
         OnDragReleased(wasAccepted);
 
@@ -163,13 +171,12 @@ public class Item : MonoBehaviour
         transform.position = position;
     }
 
+    // Projects a screen point onto the Canvas plane (or this item's own plane as a fallback when no
+    // parent Canvas was found) and returns the resulting world position.
     private Vector3 ScreenToWorld(Vector2 screenPosition)
     {
-        float depth = inputCamera.WorldToScreenPoint(transform.position).z;
-        Vector3 worldPosition = inputCamera.ScreenToWorldPoint(
-            new Vector3(screenPosition.x, screenPosition.y, depth));
-        worldPosition.z = transform.position.z;
-        return worldPosition;
+        RectTransform plane = canvasRect != null ? canvasRect : itemRect;
+        return LunaRectGeometry.ScreenPointToWorldPoint(plane, screenPosition, inputCamera, transform.position);
     }
 
     private static bool TryGetPointerDown(out Vector2 screenPosition, out int fingerId)
@@ -264,49 +271,50 @@ public class Item : MonoBehaviour
     }
 }
 
-internal static class LunaBox2DGeometry
+// Replaces BoxCollider2D-based hit-testing with RectTransform-based equivalents, driven entirely by
+// polled Input (no OnDrag/EventSystem interfaces — those don't work reliably when exported via Luna).
+internal static class LunaRectGeometry
 {
-    public static bool ContainsPoint(BoxCollider2D box, Vector2 point)
-    {
-        Vector2 minimum;
-        Vector2 maximum;
-        GetWorldBounds(box, out minimum, out maximum);
+    private static readonly Vector3[] Corners = new Vector3[4];
 
-        return point.x >= minimum.x && point.x <= maximum.x &&
-               point.y >= minimum.y && point.y <= maximum.y;
+    public static bool ContainsScreenPoint(RectTransform rect, Vector2 screenPoint, Camera camera)
+    {
+        return rect != null && RectTransformUtility.RectangleContainsScreenPoint(rect, screenPoint, camera);
     }
 
-    public static bool Intersects(BoxCollider2D first, BoxCollider2D second)
+    public static bool Overlaps(RectTransform first, RectTransform second)
     {
-        Vector2 firstMinimum;
-        Vector2 firstMaximum;
-        Vector2 secondMinimum;
-        Vector2 secondMaximum;
-        GetWorldBounds(first, out firstMinimum, out firstMaximum);
-        GetWorldBounds(second, out secondMinimum, out secondMaximum);
+        if (first == null || second == null) return false;
 
-        return firstMinimum.x <= secondMaximum.x && firstMaximum.x >= secondMinimum.x &&
-               firstMinimum.y <= secondMaximum.y && firstMaximum.y >= secondMinimum.y;
+        Rect firstBounds = GetWorldAabb(first);
+        Rect secondBounds = GetWorldAabb(second);
+
+        return firstBounds.xMin <= secondBounds.xMax && firstBounds.xMax >= secondBounds.xMin &&
+               firstBounds.yMin <= secondBounds.yMax && firstBounds.yMax >= secondBounds.yMin;
     }
 
-    private static void GetWorldBounds(BoxCollider2D box, out Vector2 minimum, out Vector2 maximum)
+    // Projects screenPoint onto the plane of planeRect, returning the resulting world position.
+    // Falls back to the given position if the projection fails (camera facing away from the plane).
+    public static Vector3 ScreenPointToWorldPoint(RectTransform planeRect, Vector2 screenPoint, Camera camera,
+        Vector3 fallback)
     {
-        Transform boxTransform = box.transform;
-        Vector3 scale = boxTransform.lossyScale;
-        Vector2 halfSize = new Vector2(
-            box.size.x * Mathf.Abs(scale.x) * 0.5f,
-            box.size.y * Mathf.Abs(scale.y) * 0.5f);
+        Vector3 worldPoint;
+        if (planeRect != null &&
+            RectTransformUtility.ScreenPointToWorldPointInRectangle(planeRect, screenPoint, camera, out worldPoint))
+            return worldPoint;
 
-        float angle = boxTransform.eulerAngles.z * Mathf.Deg2Rad;
-        float cosine = Mathf.Abs(Mathf.Cos(angle));
-        float sine = Mathf.Abs(Mathf.Sin(angle));
-        Vector2 worldHalfSize = new Vector2(
-            cosine * halfSize.x + sine * halfSize.y,
-            sine * halfSize.x + cosine * halfSize.y);
+        return fallback;
+    }
 
-        Vector3 worldCenter3D = boxTransform.TransformPoint(box.offset);
-        Vector2 worldCenter = new Vector2(worldCenter3D.x, worldCenter3D.y);
-        minimum = worldCenter - worldHalfSize;
-        maximum = worldCenter + worldHalfSize;
+    private static Rect GetWorldAabb(RectTransform rect)
+    {
+        rect.GetWorldCorners(Corners);
+
+        float xMin = Mathf.Min(Corners[0].x, Corners[1].x, Corners[2].x, Corners[3].x);
+        float xMax = Mathf.Max(Corners[0].x, Corners[1].x, Corners[2].x, Corners[3].x);
+        float yMin = Mathf.Min(Corners[0].y, Corners[1].y, Corners[2].y, Corners[3].y);
+        float yMax = Mathf.Max(Corners[0].y, Corners[1].y, Corners[2].y, Corners[3].y);
+
+        return Rect.MinMaxRect(xMin, yMin, xMax, yMax);
     }
 }

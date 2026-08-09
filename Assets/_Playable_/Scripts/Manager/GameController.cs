@@ -9,7 +9,7 @@ namespace Playable
     public class GameController : MonoBehaviour
     {
         public static GameController Instance;
-        [SerializeField] private SkeletonAnimation skeletonAnimation;
+        [SerializeField] private SkeletonGraphic skeletonAnimation;
         [SerializeField] private List<string> _nameSkin = new List<string>();
         private readonly List<string> activeSkinNames = new List<string>();
 
@@ -29,7 +29,7 @@ namespace Playable
         private void AddSkin(string skinName)
         {
             if (activeSkinNames.Contains(skinName)) return;
-            if (skeletonAnimation.skeleton.Data.FindSkin(skinName) == null) return;
+            if (skeletonAnimation.Skeleton.Data.FindSkin(skinName) == null) return;
 
             activeSkinNames.Add(skinName);
             Rebuild();
@@ -55,7 +55,7 @@ namespace Playable
 
             foreach (var name in activeSkinNames)
             {
-                var source = skeletonAnimation.skeleton.Data.FindSkin(name);
+                var source = skeletonAnimation.Skeleton.Data.FindSkin(name);
                 if (source != null)
                     combined.AddSkin(source);
             }
