@@ -29,14 +29,17 @@ namespace Playable
         private void Update()
         {
             if (_inputCamera == null) return;
+            if (!IsInteractable) return;
 
             Vector2 screenPosition;
             if (!TryGetPointerDown(out screenPosition)) return;
 
             if (!LunaRectGeometry.ContainsScreenPoint(TargetRect, screenPosition, _inputCamera)) return;
 
-            TriggerBoyLose(FindClickableBoyIndex());
-            GameManager.Instance.CountEvent();
+            RaiseAnyPressed();
+            int index = FindClickableBoyIndex();
+
+            TriggerBoyLose(index);
         }
 
         public override bool TryAccept(Item item, RectTransform itemRect)
@@ -81,6 +84,10 @@ namespace Playable
 
                 PlayWin(boyInfos[i], loseAnimInfo.AnimWin);
             }
+
+            GameManager.Instance.CountEvent();
+            GameController.Instance.ShowSub(boyInfos[loseIndex].Sub);
+            AudioManager.Instance.PlaySound(boyInfos[loseIndex].Sound);
         }
 
         // Plays each alive boy's own Meter anim once. Triggered specifically when the Ruler item
@@ -151,6 +158,7 @@ namespace Playable
             if (boyInfos[index].Type == TargetType.Ruler) DeactivateAllMeters();
 
             DeactivateBoy(index);
+            GameController.Instance.HideSub();
         }
 
         private void DeactivateAllMeters()
@@ -324,6 +332,8 @@ namespace Playable
         public GameObject Root;
         public AnimInfo AnimInfo;
         public bool IsClickable;
+        public AudioClip Sound;
+        public string Sub;
     }
 
     [Serializable]
@@ -347,7 +357,9 @@ namespace Playable
     [Serializable]
     public struct AnimStep
     {
-        [SpineAnimation(dataField: "Skeleton")] public string Name;
+        [SpineAnimation(dataField: "Skeleton")]
+        public string Name;
+
         public bool IsLoop;
     }
 

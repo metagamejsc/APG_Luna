@@ -40,5 +40,10 @@ namespace Playable
         {
             _audioSound.Stop();
         }
+        
+        public bool IsSoundPlaying()
+        {
+            return _audioSound.isPlaying;
+        }
     }
 }

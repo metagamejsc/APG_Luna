@@ -1,6 +1,6 @@
 skeleton.png
 size:151,177
 filter:Linear,Linear
-pma:true
+pma:false
 tut_hand2
 bounds:2,2,147,173

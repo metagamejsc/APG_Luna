@@ -48,7 +48,6 @@ namespace Playable
                 _shouldSkipReturnAnimation = true;
 
                 if (_dragOutTarget != null) _dragOutTarget.TriggerLoseByType(_targetType);
-                GameManager.Instance.CountEvent();
                 return;
             }
 
@@ -63,10 +62,7 @@ namespace Playable
                     obj.SetActive(true);
                 }
             }
-            else
-            {
-                GameManager.Instance.CountEvent();
-            }
+           
         }
 
         protected override bool ShouldSkipReturnAnimation()

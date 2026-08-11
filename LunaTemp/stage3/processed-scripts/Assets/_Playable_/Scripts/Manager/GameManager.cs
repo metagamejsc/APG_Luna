@@ -23,6 +23,9 @@ namespace Playable
         [LunaPlaygroundAsset("Background Texture")] [SerializeField]
         private Texture2D _backgroundTexture;
 
+        [LunaPlaygroundField("Background Color")] [SerializeField]
+        private Color _backgroundColor = Color.white;
+
         [SerializeField] private Image _progressCount;
         [SerializeField] private TMP_Text _txtCount;
         [SerializeField] private TMP_Text _txtTime;
@@ -47,14 +50,16 @@ namespace Playable
 
             if (_backgroundTexture) _background.sprite = CreateSprite(_backgroundTexture);
             if (_backgroundMusic) AudioManager.Instance.PlayMusic(_backgroundMusic);
+            _background.color = _backgroundColor;
             CountEvent();
-            CountdownEndGame();
         }
 
 
         public void EndGame()
         {
             Debug.Log("End Game");
+            Item.SetAllInteractable(false);
+            Target.SetAllInteractable(false);
             _objEndGame.gameObject.SetActive(true);
             Luna.Unity.LifeCycle.GameEnded();
             Luna.Unity.Playable.InstallFullGame();
@@ -71,7 +76,7 @@ namespace Playable
             }
         }
 
-        private void CountdownEndGame()
+        public void CountdownEndGame()
         {
             _currentTime = _endTime;
             UpdateText(_currentTime);

@@ -1,7 +1,7 @@
 Boy.png
 size:1668,332
 filter:Linear,Linear
-pma:true
+pma:false
 scale:0.75
 ball_anim
 bounds:898,21,63,64

@@ -1,15 +1,31 @@
 using System.Collections;
+using System.Collections.Generic;
 using Playable;
 using UnityEngine;
 
 [RequireComponent(typeof(RectTransform))]
 public class Item : MonoBehaviour
 {
-    [Header("Drop")]
-    [SerializeField, Min(0f)] private float returnDuration = 0.2f;
+    // Fired the moment any item starts being dragged, regardless of subtype. Used e.g. to dismiss a
+    // one-shot tutorial hint as soon as the player touches any item.
+    public static event System.Action AnyDragStarted;
+
+    [SerializeField] private bool _isInteractable = true;
+
+    [Header("Drop")] [SerializeField, Min(0f)]
+    private float returnDuration = 0.2f;
+
     [SerializeField] private RectTransform itemRect;
 
     [Header("Audio")] [SerializeField] private AudioClip pressSound;
+
+    public bool IsInteractable
+    {
+        get => _isInteractable;
+        set => _isInteractable = value;
+    }
+
+    private static readonly List<Item> activeItems = new List<Item>();
 
     private Camera inputCamera;
     private RectTransform canvasRect;
@@ -39,13 +55,30 @@ public class Item : MonoBehaviour
         OnItemInitialized();
     }
 
+    private void OnEnable()
+    {
+        if (!activeItems.Contains(this))
+            activeItems.Add(this);
+    }
+
     private void OnDisable()
     {
+        activeItems.Remove(this);
+
         if (activeItem == this)
             activeItem = null;
 
         isDragging = false;
         activeFingerId = -1;
+    }
+
+    // Bulk-enables/disables interaction on every currently active Item (any subtype).
+    public static void SetAllInteractable(bool interactable)
+    {
+        for (int index = 0; index < activeItems.Count; index++)
+        {
+            if (activeItems[index] != null) activeItems[index].IsInteractable = interactable;
+        }
     }
 
     private void Update()
@@ -64,6 +97,9 @@ public class Item : MonoBehaviour
 
     private void TryBeginDrag()
     {
+        if (!_isInteractable)
+            return;
+
         if (activeItem != null)
             return;
 
@@ -90,6 +126,7 @@ public class Item : MonoBehaviour
 
         PlayPressSound();
         OnDragStarted();
+        AnyDragStarted?.Invoke();
     }
 
     protected virtual void PlayPressSound()
