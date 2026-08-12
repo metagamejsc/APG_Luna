@@ -39340,6 +39340,10 @@
                     {
                         "name": "HideSub",
                         "excluded": false
+                    },
+                    {
+                        "name": "SkipIntro",
+                        "excluded": false
                     }
                 ]
             },

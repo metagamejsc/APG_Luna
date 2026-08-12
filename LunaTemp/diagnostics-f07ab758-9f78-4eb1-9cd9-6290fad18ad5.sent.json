@@ -1,24 +1,24 @@
 {
-    "BuildID": "05f0c723-b623-43f6-8343-36e177044245",
+    "BuildID": "f07ab758-9f78-4eb1-9cd9-6290fad18ad5",
     "Command": "project:deploy",
     "ProjectID": "e0c7d7b99f381904ba55b26de53e9500",
-    "ProjectStateHash": "fd6ac47428f3a8a93450d2325d9a351f99930f9026e0ad5e451c34010e6df19a",
+    "ProjectStateHash": "d5fa0efb25e4eb1bc0e862337594a1ba1f43b3d9cf36bb76168e657bc6f5836b",
     "StageCompletedAt": 3,
     "EarliestFatalError": 0,
-    "StartTime": 1786419050132,
-    "EndTime": 1786419120051,
+    "StartTime": 1786431899804,
+    "EndTime": 1786431938080,
     "PlaygroundUserID": 37069,
     "OperatingSystem": "win32",
     "UnityPackageID": null,
     "TargetPlatform": "playground",
     "UnityVersion": "2022.3.47f1\r",
     "LunaVersion": "7.2.0",
-    "LogCount": 4,
+    "LogCount": 2,
     "Logs": [
         {
-            "LogID": "9e18e400-0cca-4c5d-9349-bcfa2d190bb0",
-            "Order": 4,
-            "Timestamp": 1786419122330,
+            "LogID": "e93567ca-bae7-41f0-aa0d-950674571341",
+            "Order": 2,
+            "Timestamp": 1786431939077,
             "Stage": 3,
             "ErrorType": 3,
             "ErrorCode": "LP3007",
@@ -40,55 +40,9 @@
             "Severity": 0
         },
         {
-            "LogID": "12666e85-6480-4fcb-a1a8-e8c05bba1ef0",
+            "LogID": "c928ddae-4039-4e68-918e-8e3fb066d75b",
             "Order": 0,
-            "Timestamp": 1786419054116,
-            "Stage": 1,
-            "ErrorType": 0,
-            "ErrorCode": "LP1030",
-            "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
-            "Details": [
-                "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
-            ],
-            "DescriptionValues": [],
-            "DetailsValues": [
-                "MUSEOSANSROUNDED-1000 SDF",
-                "Dynamic"
-            ],
-            "LogCount": 1,
-            "LinePosition": 0,
-            "FilePath": "",
-            "ClassName": "",
-            "MemberName": "",
-            "Severity": 0
-        },
-        {
-            "LogID": "ef4b8d5e-c7cb-4537-b238-7812a215dee4",
-            "Order": 1,
-            "Timestamp": 1786419055182,
-            "Stage": 1,
-            "ErrorType": 0,
-            "ErrorCode": "LP1030",
-            "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
-            "Details": [
-                "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
-            ],
-            "DescriptionValues": [],
-            "DetailsValues": [
-                "LiberationSans SDF - Fallback",
-                "Dynamic"
-            ],
-            "LogCount": 1,
-            "LinePosition": 0,
-            "FilePath": "",
-            "ClassName": "",
-            "MemberName": "",
-            "Severity": 0
-        },
-        {
-            "LogID": "039a82ba-c8d3-4b24-8f05-4e3ba04f3ea5",
-            "Order": 2,
-            "Timestamp": 1786419059760,
+            "Timestamp": 1786431905502,
             "Stage": 1,
             "ErrorType": 3,
             "ErrorCode": "LP1002",

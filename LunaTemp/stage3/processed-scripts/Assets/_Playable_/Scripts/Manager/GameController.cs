@@ -30,6 +30,7 @@ namespace Playable
         private readonly List<string> activeSkinNames = new List<string>();
 
         private Sequence _handSequence;
+        private Tween _introTween;
 
         private void Awake()
         {
@@ -47,24 +48,24 @@ namespace Playable
             Item.AnyDragStarted += DismissHand;
             Target.AnyPressed += DismissHand;
 
-            Item.SetAllInteractable(false);
-            Target.SetAllInteractable(false);
-
             ShowSub("We'll pick the best player for the World cup team.");
             AudioManager.Instance.PlaySound(_soundIntro);
-            DOVirtual.DelayedCall(2.8f, () =>
-            {
-                HideSub();
-                GameManager.Instance.CountdownEndGame();
-                Item.SetAllInteractable(true);
-                Target.SetAllInteractable(true);
-            });
+            _introTween = DOVirtual.DelayedCall(2.8f, SkipIntro);
         }
 
         private void OnDestroy()
         {
             Item.AnyDragStarted -= DismissHand;
             Target.AnyPressed -= DismissHand;
+        }
+        
+        private void SkipIntro()
+        {
+            if (_introTween != null)
+            {
+                _introTween?.Kill();
+                HideSub();
+            }
         }
 
         private void StartHandHint()
@@ -143,6 +144,7 @@ namespace Playable
 
         public void ShowSub(string subName)
         {
+            if (_introTween != null) _introTween.Kill();
             _txtSub.transform.parent.gameObject.SetActive(true);
             _txtSub.text = subName;
         }

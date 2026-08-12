@@ -10,6 +10,10 @@ public class Item : MonoBehaviour
     // one-shot tutorial hint as soon as the player touches any item.
     public static event System.Action AnyDragStarted;
 
+    // Fired the moment any item is successfully dropped onto a target, regardless of subtype.
+    // Used e.g. to skip the intro as soon as the player completes their first drop.
+    public static event System.Action AnyDroppedOnTarget;
+
     [SerializeField] private bool _isInteractable = true;
 
     [Header("Drop")] [SerializeField, Min(0f)]
@@ -169,6 +173,7 @@ public class Item : MonoBehaviour
         if (wasAccepted)
         {
             OnDroppedOnTarget(acceptedTarget);
+            AnyDroppedOnTarget?.Invoke();
             gameObject.SetActive(false);
             return;
         }

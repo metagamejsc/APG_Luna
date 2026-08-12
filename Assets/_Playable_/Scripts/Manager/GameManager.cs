@@ -52,6 +52,7 @@ namespace Playable
             if (_backgroundMusic) AudioManager.Instance.PlayMusic(_backgroundMusic);
             _background.color = _backgroundColor;
             CountEvent();
+            CountdownEndGame();
         }
 
 
