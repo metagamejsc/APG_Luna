@@ -2045,7 +2045,7 @@ Deserializers.productName = "Minecraft Clone";
 
 Deserializers.lunaInitializationTime = "08/04/2026 10:21:04";
 
-Deserializers.lunaDaysRunning = "6.9";
+Deserializers.lunaDaysRunning = "7.9";
 
 Deserializers.lunaVersion = "7.2.0";
 
@@ -2099,7 +2099,7 @@ Deserializers.graphicsConstraint = 28;
 
 Deserializers.linearColorSpace = false;
 
-Deserializers.buildID = "09a5d3ba-8303-4bad-91ce-0b6c2e075fb7";
+Deserializers.buildID = "a8332caa-461c-43a7-9c76-24755b1cf188";
 
 Deserializers.runtimeInitializeOnLoadInfos = [[["UnityEngine","Experimental","Rendering","ScriptableRuntimeReflectionSystemSettings","ScriptingDirtyReflectionSystemInstance"]],[["Unity","VisualScripting","RuntimeVSUsageUtility","RuntimeInitializeOnLoadBeforeSceneLoad"]],[["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"],["$BurstDirectCallInitializer","Initialize"]],[],[["Spine","Unity","AttachmentTools","AtlasUtilities","Init"]]];
 
