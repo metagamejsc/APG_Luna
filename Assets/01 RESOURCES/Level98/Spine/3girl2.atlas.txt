@@ -1,0 +1,13 @@
+3girl2.png
+size:880,160
+filter:Linear,Linear
+pma:true
+3girl_1
+bounds:2,2,156,640
+rotate:90
+3girl_2
+bounds:769,27,108,131
+3girl_3
+bounds:644,24,134,123
+offsets:2,2,138,127
+rotate:90

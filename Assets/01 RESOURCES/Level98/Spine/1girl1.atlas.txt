@@ -1,0 +1,25 @@
+1girl1.png
+size:1300,380
+filter:Linear,Linear
+pma:true
+Layer 17
+bounds:840,17,76,191
+rotate:90
+Layer 18
+bounds:840,95,196,282
+Layer 25
+bounds:1038,9,161,221
+rotate:90
+Layer 26
+bounds:2,2,375,836
+rotate:90
+Layer 47
+bounds:1038,172,198,205
+offsets:1,1,200,207
+razor
+bounds:1238,230,29,64
+offsets:2,2,33,68
+razor_mask
+bounds:1238,296,81,59
+offsets:2,2,85,63
+rotate:90

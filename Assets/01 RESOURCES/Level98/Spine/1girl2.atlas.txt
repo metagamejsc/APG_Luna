@@ -1,0 +1,16 @@
+1girl2.png
+size:1368,240
+filter:Linear,Linear
+pma:true
+1girl_1
+bounds:803,2,234,303
+offsets:1,0,235,303
+rotate:90
+1girl_2
+bounds:2,41,195,799
+rotate:90
+1girl_3
+bounds:1108,92,129,144
+1girl_4
+bounds:1239,91,124,145
+offsets:2,2,128,149

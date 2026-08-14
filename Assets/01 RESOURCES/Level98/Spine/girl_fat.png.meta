@@ -1,0 +1,6331 @@
+fileFormatVersion: 2
+guid: f073c615f36182644b0b20330e67d0f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6346413632022467111
+    second: girl_fat_0
+  - first:
+      213: 7425241316921982105
+    second: girl_fat_1
+  - first:
+      213: -27504647541643497
+    second: girl_fat_2
+  - first:
+      213: -5592922741123182406
+    second: girl_fat_3
+  - first:
+      213: 6548115685258709683
+    second: girl_fat_4
+  - first:
+      213: -5203363437351505043
+    second: girl_fat_5
+  - first:
+      213: 3614182549274802901
+    second: girl_fat_6
+  - first:
+      213: -2908617187057971622
+    second: girl_fat_7
+  - first:
+      213: 7919197876749135531
+    second: girl_fat_8
+  - first:
+      213: 5165651451188733858
+    second: girl_fat_9
+  - first:
+      213: 7330414955258661920
+    second: girl_fat_10
+  - first:
+      213: -4287009992777192558
+    second: girl_fat_11
+  - first:
+      213: 3985004872682942008
+    second: girl_fat_12
+  - first:
+      213: -7574361926343647967
+    second: girl_fat_13
+  - first:
+      213: -8254589490525116124
+    second: girl_fat_14
+  - first:
+      213: -81927910859960790
+    second: girl_fat_15
+  - first:
+      213: -646238924131396047
+    second: girl_fat_16
+  - first:
+      213: 1014245004210062317
+    second: girl_fat_17
+  - first:
+      213: 291166876268561155
+    second: girl_fat_18
+  - first:
+      213: -1604005755276841197
+    second: girl_fat_19
+  - first:
+      213: 6590068337305394768
+    second: girl_fat_20
+  - first:
+      213: -3782778876059718313
+    second: girl_fat_21
+  - first:
+      213: 6887803002112749044
+    second: girl_fat_22
+  - first:
+      213: -2986135868409344471
+    second: girl_fat_23
+  - first:
+      213: -8599591949975690416
+    second: girl_fat_24
+  - first:
+      213: 2183317946921005297
+    second: girl_fat_25
+  - first:
+      213: -202390697799954998
+    second: girl_fat_26
+  - first:
+      213: -6774075425369452122
+    second: girl_fat_27
+  - first:
+      213: -8009998554687042817
+    second: girl_fat_28
+  - first:
+      213: -349007034894268347
+    second: girl_fat_29
+  - first:
+      213: -9075592758871622167
+    second: girl_fat_30
+  - first:
+      213: 1510917486321742789
+    second: girl_fat_31
+  - first:
+      213: 2047386439906287062
+    second: girl_fat_32
+  - first:
+      213: -8456150268004696609
+    second: girl_fat_33
+  - first:
+      213: -2110511514201395743
+    second: girl_fat_34
+  - first:
+      213: -5631189429457839099
+    second: girl_fat_35
+  - first:
+      213: 1313879314806660245
+    second: girl_fat_36
+  - first:
+      213: 4123278553027517655
+    second: girl_fat_37
+  - first:
+      213: 4810975623071650865
+    second: girl_fat_38
+  - first:
+      213: 7738956418462981391
+    second: girl_fat_39
+  - first:
+      213: 5782103835034196068
+    second: girl_fat_40
+  - first:
+      213: -6080808928748964741
+    second: girl_fat_41
+  - first:
+      213: -5839556640401536707
+    second: girl_fat_42
+  - first:
+      213: 1740218390646386269
+    second: girl_fat_43
+  - first:
+      213: -777867476948445223
+    second: girl_fat_44
+  - first:
+      213: 7252431298574266342
+    second: girl_fat_45
+  - first:
+      213: -1287940624200355133
+    second: girl_fat_46
+  - first:
+      213: 4824902644576287381
+    second: girl_fat_47
+  - first:
+      213: -5562069806119030601
+    second: girl_fat_48
+  - first:
+      213: 1629478917389277981
+    second: girl_fat_49
+  - first:
+      213: -6766815328315295144
+    second: girl_fat_50
+  - first:
+      213: -6133589835587316690
+    second: girl_fat_51
+  - first:
+      213: 8684329107459051940
+    second: girl_fat_52
+  - first:
+      213: -5403459653200632672
+    second: girl_fat_53
+  - first:
+      213: -903305951471400204
+    second: girl_fat_54
+  - first:
+      213: 5721691876301044598
+    second: girl_fat_55
+  - first:
+      213: -1419485105598632794
+    second: girl_fat_56
+  - first:
+      213: 8664109453100329644
+    second: girl_fat_57
+  - first:
+      213: -44996232852536162
+    second: girl_fat_58
+  - first:
+      213: 907746219820818
+    second: girl_fat_59
+  - first:
+      213: -6684878510512900140
+    second: girl_fat_60
+  - first:
+      213: 1331825406837279264
+    second: girl_fat_61
+  - first:
+      213: -1550829087801387089
+    second: girl_fat_62
+  - first:
+      213: 4645243843895812200
+    second: girl_fat_63
+  - first:
+      213: -4587589983927851380
+    second: girl_fat_64
+  - first:
+      213: 4391692436657835220
+    second: girl_fat_65
+  - first:
+      213: -4308607804729305063
+    second: girl_fat_66
+  - first:
+      213: 6682242943776568706
+    second: girl_fat_67
+  - first:
+      213: -21950366125966570
+    second: girl_fat_68
+  - first:
+      213: -6104729048045181254
+    second: girl_fat_69
+  - first:
+      213: -5457681215315326183
+    second: girl_fat_70
+  - first:
+      213: -3298833235083701247
+    second: girl_fat_71
+  - first:
+      213: 6607819313420095032
+    second: girl_fat_72
+  - first:
+      213: -5192885757759146588
+    second: girl_fat_73
+  - first:
+      213: -9093345148035527534
+    second: girl_fat_74
+  - first:
+      213: 6573187444524824983
+    second: girl_fat_75
+  - first:
+      213: -1961342261981542245
+    second: girl_fat_76
+  - first:
+      213: 6285819371509094831
+    second: girl_fat_77
+  - first:
+      213: -4461209733321963016
+    second: girl_fat_78
+  - first:
+      213: -4862703175419260903
+    second: girl_fat_79
+  - first:
+      213: -3276255190633380111
+    second: girl_fat_80
+  - first:
+      213: -6969458847690972757
+    second: girl_fat_81
+  - first:
+      213: -1042208611087028454
+    second: girl_fat_82
+  - first:
+      213: -3993947827056158824
+    second: girl_fat_83
+  - first:
+      213: 3396182915088616076
+    second: girl_fat_84
+  - first:
+      213: -9114881111733531072
+    second: girl_fat_85
+  - first:
+      213: -7731879184812872646
+    second: girl_fat_86
+  - first:
+      213: -7208927883137097079
+    second: girl_fat_87
+  - first:
+      213: -2739362980438286854
+    second: girl_fat_88
+  - first:
+      213: 5801018461530130950
+    second: girl_fat_89
+  - first:
+      213: -506689092770192956
+    second: girl_fat_90
+  - first:
+      213: 3038177770621757982
+    second: girl_fat_91
+  - first:
+      213: 8613032883020870297
+    second: girl_fat_92
+  - first:
+      213: 6537714350558162936
+    second: girl_fat_93
+  - first:
+      213: 6019875535497189619
+    second: girl_fat_94
+  - first:
+      213: -1450124752620077864
+    second: girl_fat_95
+  - first:
+      213: -8968623413913749346
+    second: girl_fat_96
+  - first:
+      213: 602116414550333470
+    second: girl_fat_97
+  - first:
+      213: -7558742192734624622
+    second: girl_fat_98
+  - first:
+      213: 908064766184963506
+    second: girl_fat_99
+  - first:
+      213: -3266721371051592454
+    second: girl_fat_100
+  - first:
+      213: -53161053320077269
+    second: girl_fat_101
+  - first:
+      213: 4205003622371028949
+    second: girl_fat_102
+  - first:
+      213: 3423219761100128886
+    second: girl_fat_103
+  - first:
+      213: 5176597836997579202
+    second: girl_fat_104
+  - first:
+      213: 5325684914914891229
+    second: girl_fat_105
+  - first:
+      213: -2074615223036229766
+    second: girl_fat_106
+  - first:
+      213: -5456551931599937339
+    second: girl_fat_107
+  - first:
+      213: -4995510664182232711
+    second: girl_fat_108
+  - first:
+      213: -3514162908256276880
+    second: girl_fat_109
+  - first:
+      213: 5566803473906253279
+    second: girl_fat_110
+  - first:
+      213: 2273563328507177532
+    second: girl_fat_111
+  - first:
+      213: 7925413532536796387
+    second: girl_fat_112
+  - first:
+      213: 6337827442480516802
+    second: girl_fat_113
+  - first:
+      213: -518909944123393092
+    second: girl_fat_114
+  - first:
+      213: 5103082812564406399
+    second: girl_fat_115
+  - first:
+      213: 9122895989670686313
+    second: girl_fat_116
+  - first:
+      213: 8592646860903822121
+    second: girl_fat_117
+  - first:
+      213: -1872060231200314700
+    second: girl_fat_118
+  - first:
+      213: 3376237257400531698
+    second: girl_fat_119
+  - first:
+      213: -5277985235482873796
+    second: girl_fat_120
+  - first:
+      213: -8760952705191349664
+    second: girl_fat_121
+  - first:
+      213: 1000284274148750084
+    second: girl_fat_122
+  - first:
+      213: -195377582715891557
+    second: girl_fat_123
+  - first:
+      213: -1283651282040383920
+    second: girl_fat_124
+  - first:
+      213: 6611995913941742766
+    second: girl_fat_125
+  - first:
+      213: -2737244945219241111
+    second: girl_fat_126
+  - first:
+      213: 6646026593150459568
+    second: girl_fat_127
+  - first:
+      213: -4674971820124620851
+    second: girl_fat_128
+  - first:
+      213: -5637384990689196180
+    second: girl_fat_129
+  - first:
+      213: -2854321160616569111
+    second: girl_fat_130
+  - first:
+      213: -698123439433610574
+    second: girl_fat_131
+  - first:
+      213: -6832155280209553701
+    second: girl_fat_132
+  - first:
+      213: -5895356215062399297
+    second: girl_fat_133
+  - first:
+      213: -2018749601213106114
+    second: girl_fat_134
+  - first:
+      213: 3779623850303699702
+    second: girl_fat_135
+  - first:
+      213: -1621552955830990984
+    second: girl_fat_136
+  - first:
+      213: 7654967613653401409
+    second: girl_fat_137
+  - first:
+      213: -1241147610734130192
+    second: girl_fat_138
+  - first:
+      213: 2796406232075109490
+    second: girl_fat_139
+  - first:
+      213: -7580076785239981585
+    second: girl_fat_140
+  - first:
+      213: 3338997059667648129
+    second: girl_fat_141
+  - first:
+      213: -3314152317505954791
+    second: girl_fat_142
+  - first:
+      213: -6967809845321884171
+    second: girl_fat_143
+  - first:
+      213: 4793205081904067014
+    second: girl_fat_144
+  - first:
+      213: 8177013528340397822
+    second: girl_fat_145
+  - first:
+      213: -538950890346616541
+    second: girl_fat_146
+  - first:
+      213: -4593263312629695841
+    second: girl_fat_147
+  - first:
+      213: 3621748033554097184
+    second: girl_fat_148
+  - first:
+      213: 5731039715642557605
+    second: girl_fat_149
+  - first:
+      213: 5274513740885252072
+    second: girl_fat_150
+  - first:
+      213: -3653502052137958801
+    second: girl_fat_151
+  - first:
+      213: 8356242023052374537
+    second: girl_fat_152
+  - first:
+      213: -7427446321970773949
+    second: girl_fat_153
+  - first:
+      213: -8909683757741052896
+    second: girl_fat_154
+  - first:
+      213: -5696099512217725344
+    second: girl_fat_155
+  - first:
+      213: 8542381720432928781
+    second: girl_fat_156
+  - first:
+      213: -6635946771724834224
+    second: girl_fat_157
+  - first:
+      213: 4336190013891049895
+    second: girl_fat_158
+  - first:
+      213: -1690773865600798418
+    second: girl_fat_159
+  - first:
+      213: 2439393936129562611
+    second: girl_fat_160
+  - first:
+      213: 4395577837809004377
+    second: girl_fat_161
+  - first:
+      213: 8136453268833408954
+    second: girl_fat_162
+  - first:
+      213: -3131958380812675842
+    second: girl_fat_163
+  - first:
+      213: -8564525040817225148
+    second: girl_fat_164
+  - first:
+      213: -4285548177334349383
+    second: girl_fat_165
+  - first:
+      213: 8670624337321573058
+    second: girl_fat_166
+  - first:
+      213: 475057692026392235
+    second: girl_fat_167
+  - first:
+      213: -4509734297430778974
+    second: girl_fat_168
+  - first:
+      213: -2144120502991340688
+    second: girl_fat_169
+  - first:
+      213: -997887136932074504
+    second: girl_fat_170
+  - first:
+      213: -8900820367739956778
+    second: girl_fat_171
+  - first:
+      213: -6936786391697828738
+    second: girl_fat_172
+  - first:
+      213: 1356237178082437813
+    second: girl_fat_173
+  - first:
+      213: 8051461983613914345
+    second: girl_fat_174
+  - first:
+      213: -2895571836333209855
+    second: girl_fat_175
+  - first:
+      213: -2842324372670045226
+    second: girl_fat_176
+  - first:
+      213: 4128350386559727401
+    second: girl_fat_177
+  - first:
+      213: 1921881485567350241
+    second: girl_fat_178
+  - first:
+      213: -4905520684698498088
+    second: girl_fat_179
+  - first:
+      213: -369433481527824468
+    second: girl_fat_180
+  - first:
+      213: 8802658498335011630
+    second: girl_fat_181
+  - first:
+      213: -7515946867376748444
+    second: girl_fat_182
+  - first:
+      213: 2547568199921820642
+    second: girl_fat_183
+  - first:
+      213: 5761802621553100711
+    second: girl_fat_184
+  - first:
+      213: -7832090168623501631
+    second: girl_fat_185
+  - first:
+      213: 6985436663679134539
+    second: girl_fat_186
+  - first:
+      213: 7384203952556739355
+    second: girl_fat_187
+  - first:
+      213: -8507497988940447178
+    second: girl_fat_188
+  - first:
+      213: 3461287996102279647
+    second: girl_fat_189
+  - first:
+      213: 4847517285794472884
+    second: girl_fat_190
+  - first:
+      213: -7487079686504050841
+    second: girl_fat_191
+  - first:
+      213: 4422503412611168149
+    second: girl_fat_192
+  - first:
+      213: -5531096038438110179
+    second: girl_fat_193
+  - first:
+      213: -2570081638890566328
+    second: girl_fat_194
+  - first:
+      213: -2119516172307389080
+    second: girl_fat_195
+  - first:
+      213: -2897497602338735642
+    second: girl_fat_196
+  - first:
+      213: -2934495913012871934
+    second: girl_fat_197
+  - first:
+      213: 602207858681205402
+    second: girl_fat_198
+  - first:
+      213: 3546163888272923672
+    second: girl_fat_199
+  - first:
+      213: -1092253808494478157
+    second: girl_fat_200
+  - first:
+      213: 8276763633336035
+    second: girl_fat_201
+  - first:
+      213: 7184805749073463680
+    second: girl_fat_202
+  - first:
+      213: 5017361293518930586
+    second: girl_fat_203
+  - first:
+      213: -2092085903380674502
+    second: girl_fat_204
+  - first:
+      213: 4129226763033845623
+    second: girl_fat_205
+  - first:
+      213: -9086826420205271862
+    second: girl_fat_206
+  - first:
+      213: -7933498149316353792
+    second: girl_fat_207
+  - first:
+      213: 1229211456394937749
+    second: girl_fat_208
+  - first:
+      213: -3054526029126004526
+    second: girl_fat_209
+  - first:
+      213: -4106377552239213229
+    second: girl_fat_210
+  - first:
+      213: -1705826224925185978
+    second: girl_fat_211
+  - first:
+      213: -2749996879125122599
+    second: girl_fat_212
+  - first:
+      213: -490201989245768058
+    second: girl_fat_213
+  - first:
+      213: 6540720122227330734
+    second: girl_fat_214
+  - first:
+      213: 4013596698559412300
+    second: girl_fat_215
+  - first:
+      213: 775920036633707796
+    second: girl_fat_216
+  - first:
+      213: 3969127557083773980
+    second: girl_fat_217
+  - first:
+      213: -529919416275324587
+    second: girl_fat_218
+  - first:
+      213: -8199342561513838505
+    second: girl_fat_219
+  - first:
+      213: -4343217316363689032
+    second: girl_fat_220
+  - first:
+      213: 6079142815910931434
+    second: girl_fat_221
+  - first:
+      213: 6856293541223366918
+    second: girl_fat_222
+  - first:
+      213: 323776010697274440
+    second: girl_fat_223
+  - first:
+      213: -2489782312061624343
+    second: girl_fat_224
+  - first:
+      213: -2239854025967508242
+    second: girl_fat_225
+  - first:
+      213: -7645137455784570117
+    second: girl_fat_226
+  - first:
+      213: -4717906532040728700
+    second: girl_fat_227
+  - first:
+      213: 787352899551162686
+    second: girl_fat_228
+  - first:
+      213: -9062935880682611028
+    second: girl_fat_229
+  - first:
+      213: 7499491516869569290
+    second: girl_fat_230
+  - first:
+      213: -8804198998337983454
+    second: girl_fat_231
+  - first:
+      213: 3659231200685782958
+    second: girl_fat_232
+  - first:
+      213: 379151042272740743
+    second: girl_fat_233
+  - first:
+      213: -8962301351968019282
+    second: girl_fat_234
+  - first:
+      213: -7184617881046000905
+    second: girl_fat_235
+  - first:
+      213: 4873923705096298512
+    second: girl_fat_236
+  - first:
+      213: -5294961892283363790
+    second: girl_fat_237
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: girl_fat_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1451
+        width: 192
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7225566d29df21850800000000000000
+      internalID: 6346413632022467111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1451
+        width: 134
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c30ba13a1cb0760800000000000000
+      internalID: 7425241316921982105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1432
+        width: 107
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717ab953ba84e9ff0800000000000000
+      internalID: -27504647541643497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1482
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab016274662f162b0800000000000000
+      internalID: -5592922741123182406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_4
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1478
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba4208b5849fda50800000000000000
+      internalID: 6548115685258709683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_5
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1493
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d637867b580f9c7b0800000000000000
+      internalID: -5203363437351505043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_6
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1382
+        width: 165
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dab0fa31e7282230800000000000000
+      internalID: 3614182549274802901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_7
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1390
+        width: 165
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e40d1341482a7d0800000000000000
+      internalID: -2908617187057971622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_8
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1446
+        width: 123
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baee8add284a6ed60800000000000000
+      internalID: 7919197876749135531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_9
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 1432
+        width: 55
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7e59540a410b740800000000000000
+      internalID: 5165651451188733858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_10
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1447
+        width: 87
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c4768409ddab560800000000000000
+      internalID: 7330414955258661920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_11
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 1495
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b27f7002b7184c0800000000000000
+      internalID: -4287009992777192558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_12
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 1483
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ea77871d49d4730800000000000000
+      internalID: 3985004872682942008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_13
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1479
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d1b0c65f572e690800000000000000
+      internalID: -7574361926343647967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_14
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1443
+        width: 128
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429e392d79ec17d80800000000000000
+      internalID: -8254589490525116124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_15
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 1443
+        width: 111
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e8008cffeecdef0800000000000000
+      internalID: -81927910859960790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_16
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1485
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1361e175f191807f0800000000000000
+      internalID: -646238924131396047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_17
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1160
+        width: 131
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3c7272572531e00800000000000000
+      internalID: 1014245004210062317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_18
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1479
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30309563bbe6a0400800000000000000
+      internalID: 291166876268561155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_19
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1480
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31faa03934d6db9e0800000000000000
+      internalID: -1604005755276841197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_20
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1470
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e13a2bc30a47b50800000000000000
+      internalID: 6590068337305394768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_21
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1454
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75deb9c77aed08bc0800000000000000
+      internalID: -3782778876059718313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_22
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1473
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdacc75654669f50800000000000000
+      internalID: 6887803002112749044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_23
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1155
+        width: 131
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e8868bf3d1f86d0800000000000000
+      internalID: -2986135868409344471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_24
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 1347
+        width: 101
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053e3602fac18a880800000000000000
+      internalID: -8599591949975690416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_25
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1470
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f036f1ea14bc4e10800000000000000
+      internalID: 2183317946921005297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_26
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 1462
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd4acf8bb6f03df0800000000000000
+      internalID: -202390697799954998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_27
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1451
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1962d8a46adf1a0800000000000000
+      internalID: -6774075425369452122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_28
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1470
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa8c78d0c4c6d090800000000000000
+      internalID: -8009998554687042817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_29
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1472
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548c30d63f3182bf0800000000000000
+      internalID: -349007034894268347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_30
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1436
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed795968740d0280800000000000000
+      internalID: -9075592758871622167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_31
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1436
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c33229d27bd7f410800000000000000
+      internalID: 1510917486321742789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_32
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1446
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddd09c9e17c96c10800000000000000
+      internalID: 2047386439906287062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_33
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1445
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd71444228b5aa80800000000000000
+      internalID: -8456150268004696609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_34
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1450
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed67a5b5f4f5b2e0800000000000000
+      internalID: -2110511514201395743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_35
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1432
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c1b3a9c0ff9d1b0800000000000000
+      internalID: -5631189429457839099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_36
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1320
+        width: 83
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cd8cc8646db3210800000000000000
+      internalID: 1313879314806660245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_37
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 1446
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc11377ff3d83930800000000000000
+      internalID: 4123278553027517655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_38
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1443
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134df3ce6d404c240800000000000000
+      internalID: 4810975623071650865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_39
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1228
+        width: 295
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d17be1cdb466b60800000000000000
+      internalID: 7738956418462981391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_40
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1160
+        width: 205
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46813a59dc82e3050800000000000000
+      internalID: 5782103835034196068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_41
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1436
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74f4ee2f70ac9ba0800000000000000
+      internalID: -6080808928748964741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_42
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1337
+        width: 151
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39c713cc2ab5fea0800000000000000
+      internalID: -5839556640401536707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_43
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1408
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e641ef76f762810800000000000000
+      internalID: 1740218390646386269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_44
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 1280
+        width: 100
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7982aa6a57435f0800000000000000
+      internalID: -777867476948445223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_45
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1358
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efa17d47dfc5a460800000000000000
+      internalID: 7252431298574266342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_46
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1277
+        width: 80
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c23eba73d0502ee0800000000000000
+      internalID: -1287940624200355133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_47
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1384
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59affcd446f75f240800000000000000
+      internalID: 4824902644576287381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_48
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1277
+        width: 81
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0795efafe8fc2b0800000000000000
+      internalID: -5562069806119030601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_49
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1131
+        width: 173
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bd9f721721d9610800000000000000
+      internalID: 1629478917389277981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_50
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1341
+        width: 168
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a391f9f417712a0800000000000000
+      internalID: -6766815328315295144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_51
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 1363
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e241fdbaa8c11eaa0800000000000000
+      internalID: -6133589835587316690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_52
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1092
+        width: 187
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a19eaacf4fe48870800000000000000
+      internalID: 8684329107459051940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_53
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1094
+        width: 157
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a422dcf21e0305b0800000000000000
+      internalID: -5403459653200632672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_54
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1296
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa0d07e500d673f0800000000000000
+      internalID: -903305951471400204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_55
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1295
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b79295278876f40800000000000000
+      internalID: 5721691876301044598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_56
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1298
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ace5d431d9fc4ce0800000000000000
+      internalID: -1419485105598632794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_57
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1308
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa2627a4a91d3870800000000000000
+      internalID: 8664109453100329644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_58
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1310
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9408942a24206ff0800000000000000
+      internalID: -44996232852536162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_59
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1181
+        width: 101
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2178af22799330000800000000000000
+      internalID: 907746219820818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_60
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1286
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d77c36a96a8a33a0800000000000000
+      internalID: -6684878510512900140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_61
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1287
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a4065b6289b7210800000000000000
+      internalID: 1331825406837279264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_62
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1290
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7514a49295a7ae0800000000000000
+      internalID: -1550829087801387089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_63
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1286
+        width: 36
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860ea7a1aa8377040800000000000000
+      internalID: 4645243843895812200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_64
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1294
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8627d8373b9550c0800000000000000
+      internalID: -4587589983927851380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_65
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 1285
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc82c1c00d62fc30800000000000000
+      internalID: 4391692436657835220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_66
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 1273
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91852a29700c434c0800000000000000
+      internalID: -4308607804729305063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_67
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1282
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285b9a6ad881cbc50800000000000000
+      internalID: 6682242943776568706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_68
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1279
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b3f50224402bff0800000000000000
+      internalID: -21950366125966570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_69
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1271
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab622496645a74ba0800000000000000
+      internalID: -6104729048045181254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_70
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1261
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bcec7c9db6244b0800000000000000
+      internalID: -5457681215315326183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_71
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1265
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104559196a03832d0800000000000000
+      internalID: -3298833235083701247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_72
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1259
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ece54e7a0b3bb50800000000000000
+      internalID: 6607819313420095032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_73
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1271
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5b4999ae92fe7b0800000000000000
+      internalID: -5192885757759146588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_74
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1261
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c025734c2fdc180800000000000000
+      internalID: -9093345148035527534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_75
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1244
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799b5f09727a83b50800000000000000
+      internalID: 6573187444524824983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_76
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1250
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9801a7ba99e7c4e0800000000000000
+      internalID: -1961342261981542245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_77
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1257
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa991192a67bb3750800000000000000
+      internalID: 6285819371509094831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_78
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1247
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f944d052699612c0800000000000000
+      internalID: -4461209733321963016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_79
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 1181
+        width: 71
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91098f4c935348cb0800000000000000
+      internalID: -4862703175419260903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_80
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1244
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f684c033476882d0800000000000000
+      internalID: -3276255190633380111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_81
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 1245
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba12da29a12874f90800000000000000
+      internalID: -6969458847690972757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_82
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 1238
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fed424ac45981f0800000000000000
+      internalID: -1042208611087028454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_83
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1240
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897dfd4bc95a298c0800000000000000
+      internalID: -3993947827056158824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_84
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1237
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a8b161e5aa12f20800000000000000
+      internalID: 3396182915088616076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_85
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1243
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e843debef618180800000000000000
+      internalID: -9114881111733531072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_86
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 1243
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cedfeb8d8d2b490800000000000000
+      internalID: -7731879184812872646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_87
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1236
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982643ae84eb4fb90800000000000000
+      internalID: -7208927883137097079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_88
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1114
+        width: 94
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afdde1012e3dbf9d0800000000000000
+      internalID: -2739362980438286854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_89
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 1227
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a8cfe3e8b518050800000000000000
+      internalID: 5801018461530130950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_90
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1232
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c12ed564f0e7f8f0800000000000000
+      internalID: -506689092770192956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_91
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1227
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ae56ed596c92a20800000000000000
+      internalID: 3038177770621757982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_92
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1228
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992b737f5c3a78770800000000000000
+      internalID: 8613032883020870297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_93
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1235
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff2ef34090aaba50800000000000000
+      internalID: 6537714350558162936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_94
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 1220
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8df55a7e4ea8350800000000000000
+      internalID: 6019875535497189619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_95
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 1111
+        width: 100
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc3418783f10ebe0800000000000000
+      internalID: -1450124752620077864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 839
+        width: 283
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e987b69d58c098380800000000000000
+      internalID: -8968623413913749346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_97
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1216
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1854ba50b52b5800800000000000000
+      internalID: 602116414550333470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_98
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1214
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294ab4d0604f91790800000000000000
+      internalID: -7558742192734624622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_99
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1220
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdb08df7181a9c00800000000000000
+      internalID: 908064766184963506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_100
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1211
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4fa4a88364aa2d0800000000000000
+      internalID: -3266721371051592454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_101
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 1214
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20a8fcbd42234ff0800000000000000
+      internalID: -53161053320077269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_102
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1212
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfe7a6f38c2b5a30800000000000000
+      internalID: 4205003622371028949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_103
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 1111
+        width: 88
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67288785c38b18f20800000000000000
+      internalID: 3423219761100128886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_104
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1200
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1db435e48f6d740800000000000000
+      internalID: 5176597836997579202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_105
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1200
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd59823a632a8e940800000000000000
+      internalID: 5325684914914891229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_106
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1209
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77ce49427c7533e0800000000000000
+      internalID: -2074615223036229766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_107
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1192
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0a382adee6644b0800000000000000
+      internalID: -5456551931599937339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_108
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1201
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9790ebda4816caab0800000000000000
+      internalID: -4995510664182232711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_109
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1188
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ee78a247f2b3fc0800000000000000
+      internalID: -3514162908256276880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_110
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1200
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddb79ce342414d40800000000000000
+      internalID: 5566803473906253279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_111
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1186
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a660a2dc15d8f10800000000000000
+      internalID: 2273563328507177532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_112
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1187
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4fde00e99bcfd60800000000000000
+      internalID: 7925413532536796387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_113
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1196
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce06ccca7c74f750800000000000000
+      internalID: 6337827442480516802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_114
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1183
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb7b16b7267cc8f0800000000000000
+      internalID: -518909944123393092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_115
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1187
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f708d4ed7cac1d640800000000000000
+      internalID: 5103082812564406399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_116
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1176
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e282341990b9e70800000000000000
+      internalID: 9122895989670686313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_117
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1175
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9233c805bc63f3770800000000000000
+      internalID: 8592646860903822121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_118
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1177
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba6b29632b1506e0800000000000000
+      internalID: -1872060231200314700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_119
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1188
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa3cc4c5edcade20800000000000000
+      internalID: 3376237257400531698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_120
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1183
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30794d6464d0c6b0800000000000000
+      internalID: -5277985235482873796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_121
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1165
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0627211aee7da6680800000000000000
+      internalID: -8760952705191349664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_122
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1177
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403bb036f39b1ed00800000000000000
+      internalID: 1000284274148750084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_123
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 788
+        width: 288
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b901529af11e94df0800000000000000
+      internalID: -195377582715891557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_124
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 787
+        width: 134
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0561286c5fd8f2ee0800000000000000
+      internalID: -1283651282040383920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_125
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 989
+        width: 200
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4f4da704782cb50800000000000000
+      internalID: 6611995913941742766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_126
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 1142
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b39f0993a530ad0800000000000000
+      internalID: -2737244945219241111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_127
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1145
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be588c69fd6b3c50800000000000000
+      internalID: 6646026593150459568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_128
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1050
+        width: 211
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7b28e06e92f1fb0800000000000000
+      internalID: -4674971820124620851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_129
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 728
+        width: 134
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c670ad7183cf3c1b0800000000000000
+      internalID: -5637384990689196180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_130
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1013
+        width: 210
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6919af60a6368d0800000000000000
+      internalID: -2854321160616569111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_131
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 948
+        width: 91
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba8f2f3e64cf46f0800000000000000
+      internalID: -698123439433610574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_132
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 938
+        width: 88
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6dcc098fe4f21a0800000000000000
+      internalID: -6832155280209553701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_133
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1015
+        width: 97
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb670d0e1cc7f2ea0800000000000000
+      internalID: -5895356215062399297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_134
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 945
+        width: 90
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e383b39fee5fbf3e0800000000000000
+      internalID: -2018749601213106114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_135
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1063
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa32f5dddbe37430800000000000000
+      internalID: 3779623850303699702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_136
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 1002
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87785339d261f79e0800000000000000
+      internalID: -1621552955830990984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_137
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 728
+        width: 218
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f3ee2ac78eb3a60800000000000000
+      internalID: 7654967613653401409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_138
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 708
+        width: 205
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb0e5ce2de86cee0800000000000000
+      internalID: -1241147610734130192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_139
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 706
+        width: 196
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274868ee6a4dec620800000000000000
+      internalID: 2796406232075109490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_140
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 916
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1069523582ec690800000000000000
+      internalID: -7580076785239981585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_141
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 930
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e509f8220865e20800000000000000
+      internalID: 3338997059667648129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_142
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 928
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c158fb604c102d0800000000000000
+      internalID: -3314152317505954791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_143
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 926
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd9e1bdcdd5d4f90800000000000000
+      internalID: -6967809845321884171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_144
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 921
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c13d7260a2e48240800000000000000
+      internalID: 4793205081904067014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_145
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 915
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efefa48fa769a7170800000000000000
+      internalID: 8177013528340397822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_146
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 922
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329628d45034588f0800000000000000
+      internalID: -538950890346616541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_147
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 869
+        width: 148
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a7fd27a537140c0800000000000000
+      internalID: -4593263312629695841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_148
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 849
+        width: 96
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02426fdc5a8034230800000000000000
+      internalID: 3621748033554097184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_149
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 903
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4c78cc14eb88f40800000000000000
+      internalID: 5731039715642557605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_150
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 905
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7d1604d46d23940800000000000000
+      internalID: 5274513740885252072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_151
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 916
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62082c9d372c4dc0800000000000000
+      internalID: -3653502052137958801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_152
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 899
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9027a31c8d557f370800000000000000
+      internalID: 8356242023052374537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_153
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 906
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34086a62ce86ce890800000000000000
+      internalID: -7427446321970773949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_154
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 779
+        width: 97
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ce6cee3d17a5480800000000000000
+      internalID: -8909683757741052896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_155
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 899
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0669cf04ca363f0b0800000000000000
+      internalID: -5696099512217725344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_156
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 885
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08e13e4ae2ac8670800000000000000
+      internalID: 8542381720432928781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_157
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 881
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ae0f2e19168e3a0800000000000000
+      internalID: -6635946771724834224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_158
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 870
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a97290f7dd3d2c30800000000000000
+      internalID: 4336190013891049895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_159
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 859
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21b959902a2988e0800000000000000
+      internalID: -1690773865600798418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_160
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 874
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f79e364cd77ad120800000000000000
+      internalID: 2439393936129562611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_161
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 877
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f6f2531ca300d30800000000000000
+      internalID: 4395577837809004377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_162
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 872
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab79164a32d7ae070800000000000000
+      internalID: 8136453268833408954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_163
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 865
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef45a5c427c0984d0800000000000000
+      internalID: -3131958380812675842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_164
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 883
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442c6282ad1b42980800000000000000
+      internalID: -8564525040817225148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_165
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 874
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1d92673aca684c0800000000000000
+      internalID: -4285548177334349383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_166
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 845
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cab8e655ee345870800000000000000
+      internalID: 8670624337321573058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_167
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 843
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baecc05347eb79600800000000000000
+      internalID: 475057692026392235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_168
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 858
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab1e32dc843a61c0800000000000000
+      internalID: -4509734297430778974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_169
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 857
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07bb19733cd8e32e0800000000000000
+      internalID: -2144120502991340688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_170
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 839
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb6b3d9feac622f0800000000000000
+      internalID: -997887136932074504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_171
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 860
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d15c4bb80fe97480800000000000000
+      internalID: -8900820367739956778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_172
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 841
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74561887859bbf90800000000000000
+      internalID: -6936786391697828738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_173
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 821
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba28ce178252d210800000000000000
+      internalID: 1356237178082437813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_174
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 826
+        width: 55
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec8edff30a8cbf60800000000000000
+      internalID: 8051461983613914345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_175
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 819
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107cbb991ccd0d7d0800000000000000
+      internalID: -2895571836333209855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_176
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 819
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d32196da090e88d0800000000000000
+      internalID: -2842324372670045226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_177
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 840
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9273d3bbdc8da4930800000000000000
+      internalID: 4128350386559727401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_178
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 835
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e554af4705ebaa10800000000000000
+      internalID: 1921881485567350241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_179
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 239
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db07368de61cebb0800000000000000
+      internalID: -4905520684698498088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_180
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 812
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafe565b4328fdaf0800000000000000
+      internalID: -369433481527824468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_181
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 822
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23f4580443592a70800000000000000
+      internalID: 8802658498335011630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_182
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 830
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4688c43352ef1b790800000000000000
+      internalID: -7515946867376748444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_183
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 829
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3eb6db7c7ca5320800000000000000
+      internalID: 2547568199921820642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_184
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 702
+        width: 94
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7469bf4f806ff40800000000000000
+      internalID: 5761802621553100711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_185
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 683
+        width: 87
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ceed52ec73de4390800000000000000
+      internalID: -7832090168623501631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_186
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 819
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ba59b92a141f060800000000000000
+      internalID: 6985436663679134539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_187
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 814
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b0e252f56f97660800000000000000
+      internalID: 7384203952556739355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_188
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 799
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632cad957ab4fe980800000000000000
+      internalID: -8507497988940447178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_189
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 784
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd100010817f80030800000000000000
+      internalID: 3461287996102279647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_190
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 798
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b36856c947d54340800000000000000
+      internalID: 4847517285794472884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_191
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 784
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f02e081bc881890800000000000000
+      internalID: -7487079686504050841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_192
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 789
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59734ae1c63ef5d30800000000000000
+      internalID: 4422503412611168149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_193
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 799
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c735245799d33b0800000000000000
+      internalID: -5531096038438110179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_194
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 778
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d8c26cd5c355cd0800000000000000
+      internalID: -2570081638890566328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_195
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 798
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8652ced5547f592e0800000000000000
+      internalID: -2119516172307389080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_196
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 788
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9bd0348450ac7d0800000000000000
+      internalID: -2897497602338735642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_197
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 461
+        width: 406
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d3806c3839647d0800000000000000
+      internalID: -2934495913012871934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_198
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 726
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9254a95bd87b5800800000000000000
+      internalID: 602207858681205402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_199
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 758
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c53db9441863130800000000000000
+      internalID: 3546163888272923672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_200
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 760
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc7e1cb2f887d0f0800000000000000
+      internalID: -1092253808494478157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_201
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 767
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee31443ca76d1000800000000000000
+      internalID: 8276763633336035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_202
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 745
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08945b513ce85b360800000000000000
+      internalID: 7184805749073463680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_203
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 771
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a928df9638f31a540800000000000000
+      internalID: 5017361293518930586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_204
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 754
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38846984fa67f2e0800000000000000
+      internalID: -2092085903380674502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_205
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 721
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f1ba70dd5fd4930800000000000000
+      internalID: 4129226763033845623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_206
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 746
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4c700d38b15e180800000000000000
+      internalID: -9086826420205271862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_207
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 729
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001a7c7777d86e190800000000000000
+      internalID: -7933498149316353792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_208
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 732
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595c2449e490f0110800000000000000
+      internalID: 1229211456394937749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_209
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 736
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d092c492c42c95d0800000000000000
+      internalID: -3054526029126004526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_210
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 735
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355c42d6f573307c0800000000000000
+      internalID: -4106377552239213229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_211
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 613
+        width: 96
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648e9c61610b358e0800000000000000
+      internalID: -1705826224925185978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_212
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 734
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d17056986c06d9d0800000000000000
+      internalID: -2749996879125122599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_213
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 733
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ee0d253e37239f0800000000000000
+      internalID: -490201989245768058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_214
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 739
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae0c940c4e45ca50800000000000000
+      internalID: 6540720122227330734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_215
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 502
+        width: 391
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c487051bee823b730800000000000000
+      internalID: 4013596698559412300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_216
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 713
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41509ad892f94ca00800000000000000
+      internalID: 775920036633707796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_217
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 702
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c313cdb7c251730800000000000000
+      internalID: 3969127557083773980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_218
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 722
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551b359391955a8f0800000000000000
+      internalID: -529919416275324587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_219
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 720
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758e93dd165163e80800000000000000
+      internalID: -8199342561513838505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_220
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 613
+        width: 86
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b321d3bcdac9b3c0800000000000000
+      internalID: -4343217316363689032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_221
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 714
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb2d31be247d5450800000000000000
+      internalID: 6079142815910931434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_222
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 560
+        width: 422
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6018c6846a2762f50800000000000000
+      internalID: 6856293541223366918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_223
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 560
+        width: 195
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8447768f0984e7400800000000000000
+      internalID: 323776010697274440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_224
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 546
+        width: 185
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef1489bd24827dd0800000000000000
+      internalID: -2489782312061624343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_225
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 613
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee46a7171a07ae0e0800000000000000
+      internalID: -2239854025967508242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_226
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 583
+        width: 222
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf25de85df307e590800000000000000
+      internalID: -7645137455784570117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_227
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 348
+        width: 422
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f97327101a68eb0800000000000000
+      internalID: -4717906532040728700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_228
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 460
+        width: 490
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31fe926a4d3dea00800000000000000
+      internalID: 787352899551162686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_229
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 340
+        width: 270
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae55c185dbf93280800000000000000
+      internalID: -9062935880682611028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_230
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 396
+        width: 253
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0be013fccb831860800000000000000
+      internalID: 7499491516869569290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_231
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 3
+        width: 412
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ce63c58a331d580800000000000000
+      internalID: -8804198998337983454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_232
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 348
+        width: 506
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7f6ebb36338c230800000000000000
+      internalID: 3659231200685782958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_233
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 338
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785c2e63dd3034500800000000000000
+      internalID: 379151042272740743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_234
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 5
+        width: 224
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac61f997628f9380800000000000000
+      internalID: -8962301351968019282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_235
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3
+        width: 454
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa55595a1c1b4c90800000000000000
+      internalID: -7184617881046000905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_236
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 3
+        width: 436
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010ee9069c7a3a340800000000000000
+      internalID: 4873923705096298512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_fat_237
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1
+        width: 370
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e483f76348486b0800000000000000
+      internalID: -5294961892283363790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      girl_fat_0: 6346413632022467111
+      girl_fat_1: 7425241316921982105
+      girl_fat_10: 7330414955258661920
+      girl_fat_100: -3266721371051592454
+      girl_fat_101: -53161053320077269
+      girl_fat_102: 4205003622371028949
+      girl_fat_103: 3423219761100128886
+      girl_fat_104: 5176597836997579202
+      girl_fat_105: 5325684914914891229
+      girl_fat_106: -2074615223036229766
+      girl_fat_107: -5456551931599937339
+      girl_fat_108: -4995510664182232711
+      girl_fat_109: -3514162908256276880
+      girl_fat_11: -4287009992777192558
+      girl_fat_110: 5566803473906253279
+      girl_fat_111: 2273563328507177532
+      girl_fat_112: 7925413532536796387
+      girl_fat_113: 6337827442480516802
+      girl_fat_114: -518909944123393092
+      girl_fat_115: 5103082812564406399
+      girl_fat_116: 9122895989670686313
+      girl_fat_117: 8592646860903822121
+      girl_fat_118: -1872060231200314700
+      girl_fat_119: 3376237257400531698
+      girl_fat_12: 3985004872682942008
+      girl_fat_120: -5277985235482873796
+      girl_fat_121: -8760952705191349664
+      girl_fat_122: 1000284274148750084
+      girl_fat_123: -195377582715891557
+      girl_fat_124: -1283651282040383920
+      girl_fat_125: 6611995913941742766
+      girl_fat_126: -2737244945219241111
+      girl_fat_127: 6646026593150459568
+      girl_fat_128: -4674971820124620851
+      girl_fat_129: -5637384990689196180
+      girl_fat_13: -7574361926343647967
+      girl_fat_130: -2854321160616569111
+      girl_fat_131: -698123439433610574
+      girl_fat_132: -6832155280209553701
+      girl_fat_133: -5895356215062399297
+      girl_fat_134: -2018749601213106114
+      girl_fat_135: 3779623850303699702
+      girl_fat_136: -1621552955830990984
+      girl_fat_137: 7654967613653401409
+      girl_fat_138: -1241147610734130192
+      girl_fat_139: 2796406232075109490
+      girl_fat_14: -8254589490525116124
+      girl_fat_140: -7580076785239981585
+      girl_fat_141: 3338997059667648129
+      girl_fat_142: -3314152317505954791
+      girl_fat_143: -6967809845321884171
+      girl_fat_144: 4793205081904067014
+      girl_fat_145: 8177013528340397822
+      girl_fat_146: -538950890346616541
+      girl_fat_147: -4593263312629695841
+      girl_fat_148: 3621748033554097184
+      girl_fat_149: 5731039715642557605
+      girl_fat_15: -81927910859960790
+      girl_fat_150: 5274513740885252072
+      girl_fat_151: -3653502052137958801
+      girl_fat_152: 8356242023052374537
+      girl_fat_153: -7427446321970773949
+      girl_fat_154: -8909683757741052896
+      girl_fat_155: -5696099512217725344
+      girl_fat_156: 8542381720432928781
+      girl_fat_157: -6635946771724834224
+      girl_fat_158: 4336190013891049895
+      girl_fat_159: -1690773865600798418
+      girl_fat_16: -646238924131396047
+      girl_fat_160: 2439393936129562611
+      girl_fat_161: 4395577837809004377
+      girl_fat_162: 8136453268833408954
+      girl_fat_163: -3131958380812675842
+      girl_fat_164: -8564525040817225148
+      girl_fat_165: -4285548177334349383
+      girl_fat_166: 8670624337321573058
+      girl_fat_167: 475057692026392235
+      girl_fat_168: -4509734297430778974
+      girl_fat_169: -2144120502991340688
+      girl_fat_17: 1014245004210062317
+      girl_fat_170: -997887136932074504
+      girl_fat_171: -8900820367739956778
+      girl_fat_172: -6936786391697828738
+      girl_fat_173: 1356237178082437813
+      girl_fat_174: 8051461983613914345
+      girl_fat_175: -2895571836333209855
+      girl_fat_176: -2842324372670045226
+      girl_fat_177: 4128350386559727401
+      girl_fat_178: 1921881485567350241
+      girl_fat_179: -4905520684698498088
+      girl_fat_18: 291166876268561155
+      girl_fat_180: -369433481527824468
+      girl_fat_181: 8802658498335011630
+      girl_fat_182: -7515946867376748444
+      girl_fat_183: 2547568199921820642
+      girl_fat_184: 5761802621553100711
+      girl_fat_185: -7832090168623501631
+      girl_fat_186: 6985436663679134539
+      girl_fat_187: 7384203952556739355
+      girl_fat_188: -8507497988940447178
+      girl_fat_189: 3461287996102279647
+      girl_fat_19: -1604005755276841197
+      girl_fat_190: 4847517285794472884
+      girl_fat_191: -7487079686504050841
+      girl_fat_192: 4422503412611168149
+      girl_fat_193: -5531096038438110179
+      girl_fat_194: -2570081638890566328
+      girl_fat_195: -2119516172307389080
+      girl_fat_196: -2897497602338735642
+      girl_fat_197: -2934495913012871934
+      girl_fat_198: 602207858681205402
+      girl_fat_199: 3546163888272923672
+      girl_fat_2: -27504647541643497
+      girl_fat_20: 6590068337305394768
+      girl_fat_200: -1092253808494478157
+      girl_fat_201: 8276763633336035
+      girl_fat_202: 7184805749073463680
+      girl_fat_203: 5017361293518930586
+      girl_fat_204: -2092085903380674502
+      girl_fat_205: 4129226763033845623
+      girl_fat_206: -9086826420205271862
+      girl_fat_207: -7933498149316353792
+      girl_fat_208: 1229211456394937749
+      girl_fat_209: -3054526029126004526
+      girl_fat_21: -3782778876059718313
+      girl_fat_210: -4106377552239213229
+      girl_fat_211: -1705826224925185978
+      girl_fat_212: -2749996879125122599
+      girl_fat_213: -490201989245768058
+      girl_fat_214: 6540720122227330734
+      girl_fat_215: 4013596698559412300
+      girl_fat_216: 775920036633707796
+      girl_fat_217: 3969127557083773980
+      girl_fat_218: -529919416275324587
+      girl_fat_219: -8199342561513838505
+      girl_fat_22: 6887803002112749044
+      girl_fat_220: -4343217316363689032
+      girl_fat_221: 6079142815910931434
+      girl_fat_222: 6856293541223366918
+      girl_fat_223: 323776010697274440
+      girl_fat_224: -2489782312061624343
+      girl_fat_225: -2239854025967508242
+      girl_fat_226: -7645137455784570117
+      girl_fat_227: -4717906532040728700
+      girl_fat_228: 787352899551162686
+      girl_fat_229: -9062935880682611028
+      girl_fat_23: -2986135868409344471
+      girl_fat_230: 7499491516869569290
+      girl_fat_231: -8804198998337983454
+      girl_fat_232: 3659231200685782958
+      girl_fat_233: 379151042272740743
+      girl_fat_234: -8962301351968019282
+      girl_fat_235: -7184617881046000905
+      girl_fat_236: 4873923705096298512
+      girl_fat_237: -5294961892283363790
+      girl_fat_24: -8599591949975690416
+      girl_fat_25: 2183317946921005297
+      girl_fat_26: -202390697799954998
+      girl_fat_27: -6774075425369452122
+      girl_fat_28: -8009998554687042817
+      girl_fat_29: -349007034894268347
+      girl_fat_3: -5592922741123182406
+      girl_fat_30: -9075592758871622167
+      girl_fat_31: 1510917486321742789
+      girl_fat_32: 2047386439906287062
+      girl_fat_33: -8456150268004696609
+      girl_fat_34: -2110511514201395743
+      girl_fat_35: -5631189429457839099
+      girl_fat_36: 1313879314806660245
+      girl_fat_37: 4123278553027517655
+      girl_fat_38: 4810975623071650865
+      girl_fat_39: 7738956418462981391
+      girl_fat_4: 6548115685258709683
+      girl_fat_40: 5782103835034196068
+      girl_fat_41: -6080808928748964741
+      girl_fat_42: -5839556640401536707
+      girl_fat_43: 1740218390646386269
+      girl_fat_44: -777867476948445223
+      girl_fat_45: 7252431298574266342
+      girl_fat_46: -1287940624200355133
+      girl_fat_47: 4824902644576287381
+      girl_fat_48: -5562069806119030601
+      girl_fat_49: 1629478917389277981
+      girl_fat_5: -5203363437351505043
+      girl_fat_50: -6766815328315295144
+      girl_fat_51: -6133589835587316690
+      girl_fat_52: 8684329107459051940
+      girl_fat_53: -5403459653200632672
+      girl_fat_54: -903305951471400204
+      girl_fat_55: 5721691876301044598
+      girl_fat_56: -1419485105598632794
+      girl_fat_57: 8664109453100329644
+      girl_fat_58: -44996232852536162
+      girl_fat_59: 907746219820818
+      girl_fat_6: 3614182549274802901
+      girl_fat_60: -6684878510512900140
+      girl_fat_61: 1331825406837279264
+      girl_fat_62: -1550829087801387089
+      girl_fat_63: 4645243843895812200
+      girl_fat_64: -4587589983927851380
+      girl_fat_65: 4391692436657835220
+      girl_fat_66: -4308607804729305063
+      girl_fat_67: 6682242943776568706
+      girl_fat_68: -21950366125966570
+      girl_fat_69: -6104729048045181254
+      girl_fat_7: -2908617187057971622
+      girl_fat_70: -5457681215315326183
+      girl_fat_71: -3298833235083701247
+      girl_fat_72: 6607819313420095032
+      girl_fat_73: -5192885757759146588
+      girl_fat_74: -9093345148035527534
+      girl_fat_75: 6573187444524824983
+      girl_fat_76: -1961342261981542245
+      girl_fat_77: 6285819371509094831
+      girl_fat_78: -4461209733321963016
+      girl_fat_79: -4862703175419260903
+      girl_fat_8: 7919197876749135531
+      girl_fat_80: -3276255190633380111
+      girl_fat_81: -6969458847690972757
+      girl_fat_82: -1042208611087028454
+      girl_fat_83: -3993947827056158824
+      girl_fat_84: 3396182915088616076
+      girl_fat_85: -9114881111733531072
+      girl_fat_86: -7731879184812872646
+      girl_fat_87: -7208927883137097079
+      girl_fat_88: -2739362980438286854
+      girl_fat_89: 5801018461530130950
+      girl_fat_9: 5165651451188733858
+      girl_fat_90: -506689092770192956
+      girl_fat_91: 3038177770621757982
+      girl_fat_92: 8613032883020870297
+      girl_fat_93: 6537714350558162936
+      girl_fat_94: 6019875535497189619
+      girl_fat_95: -1450124752620077864
+      girl_fat_96: -8968623413913749346
+      girl_fat_97: 602116414550333470
+      girl_fat_98: -7558742192734624622
+      girl_fat_99: 908064766184963506
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

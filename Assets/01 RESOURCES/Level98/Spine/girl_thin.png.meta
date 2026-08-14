@@ -1,0 +1,4563 @@
+fileFormatVersion: 2
+guid: 7541668033a809b40894495307b725cb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8545606824136366291
+    second: girl_thin_0
+  - first:
+      213: 7025852498950920525
+    second: girl_thin_1
+  - first:
+      213: -2671939391526618866
+    second: girl_thin_2
+  - first:
+      213: 7729485824343311407
+    second: girl_thin_3
+  - first:
+      213: -564881667913067926
+    second: girl_thin_4
+  - first:
+      213: 979562989455605181
+    second: girl_thin_5
+  - first:
+      213: 4016517676180982043
+    second: girl_thin_6
+  - first:
+      213: 1354409846222349169
+    second: girl_thin_7
+  - first:
+      213: 1875747767373384492
+    second: girl_thin_8
+  - first:
+      213: -8765036408294897442
+    second: girl_thin_9
+  - first:
+      213: -7971160877344336796
+    second: girl_thin_10
+  - first:
+      213: -5873953282882584759
+    second: girl_thin_11
+  - first:
+      213: -5198592833789968233
+    second: girl_thin_12
+  - first:
+      213: 1637593456423241205
+    second: girl_thin_13
+  - first:
+      213: 9182107362705891743
+    second: girl_thin_14
+  - first:
+      213: 841375973401136925
+    second: girl_thin_15
+  - first:
+      213: 6563506640213221598
+    second: girl_thin_16
+  - first:
+      213: -5754207298592085723
+    second: girl_thin_17
+  - first:
+      213: 585908017299381053
+    second: girl_thin_18
+  - first:
+      213: 291360127084977547
+    second: girl_thin_19
+  - first:
+      213: 5736226013288233438
+    second: girl_thin_20
+  - first:
+      213: 2332917376782919839
+    second: girl_thin_21
+  - first:
+      213: 3673307459094919310
+    second: girl_thin_22
+  - first:
+      213: 4091620368076872549
+    second: girl_thin_23
+  - first:
+      213: 6274784610686965515
+    second: girl_thin_24
+  - first:
+      213: 5389342597116986960
+    second: girl_thin_25
+  - first:
+      213: -5143126743457270789
+    second: girl_thin_26
+  - first:
+      213: 5854920266362823220
+    second: girl_thin_27
+  - first:
+      213: 1165750282564254114
+    second: girl_thin_28
+  - first:
+      213: -1051430215546994412
+    second: girl_thin_29
+  - first:
+      213: -2675678034117996313
+    second: girl_thin_30
+  - first:
+      213: -3790732857596098602
+    second: girl_thin_31
+  - first:
+      213: 6041206265021357362
+    second: girl_thin_32
+  - first:
+      213: 4021435652175299981
+    second: girl_thin_33
+  - first:
+      213: -6379165711874019413
+    second: girl_thin_34
+  - first:
+      213: 7115531380940514036
+    second: girl_thin_35
+  - first:
+      213: -9061210244165368973
+    second: girl_thin_36
+  - first:
+      213: 1703470344752235631
+    second: girl_thin_37
+  - first:
+      213: -3788486197517307025
+    second: girl_thin_38
+  - first:
+      213: 5876380010268853077
+    second: girl_thin_39
+  - first:
+      213: -4553550906532050769
+    second: girl_thin_40
+  - first:
+      213: -7361202099184327803
+    second: girl_thin_41
+  - first:
+      213: 334349701449168275
+    second: girl_thin_42
+  - first:
+      213: -1831543178733155938
+    second: girl_thin_43
+  - first:
+      213: 7578028008171358053
+    second: girl_thin_44
+  - first:
+      213: 7935532125248077618
+    second: girl_thin_45
+  - first:
+      213: -6999482105353300491
+    second: girl_thin_46
+  - first:
+      213: 4137011623952164887
+    second: girl_thin_47
+  - first:
+      213: 3005228322831212152
+    second: girl_thin_48
+  - first:
+      213: -1409835895420196215
+    second: girl_thin_49
+  - first:
+      213: 8400907631403911657
+    second: girl_thin_50
+  - first:
+      213: -6715155122697068803
+    second: girl_thin_51
+  - first:
+      213: -6896451596453828919
+    second: girl_thin_52
+  - first:
+      213: -1702799095331291977
+    second: girl_thin_53
+  - first:
+      213: 603884061209866213
+    second: girl_thin_54
+  - first:
+      213: 35253032896613440
+    second: girl_thin_55
+  - first:
+      213: 2464059227207328370
+    second: girl_thin_56
+  - first:
+      213: -2365821953673184608
+    second: girl_thin_57
+  - first:
+      213: -5126218346320966617
+    second: girl_thin_58
+  - first:
+      213: -5960826630767804636
+    second: girl_thin_59
+  - first:
+      213: -496202895303657225
+    second: girl_thin_60
+  - first:
+      213: -8611258866679650107
+    second: girl_thin_61
+  - first:
+      213: 6776476061864096703
+    second: girl_thin_62
+  - first:
+      213: 3115708492446662618
+    second: girl_thin_63
+  - first:
+      213: -3352690117281894111
+    second: girl_thin_64
+  - first:
+      213: -4223695583758368811
+    second: girl_thin_65
+  - first:
+      213: -8801575262796169514
+    second: girl_thin_66
+  - first:
+      213: -3857014872466243507
+    second: girl_thin_67
+  - first:
+      213: 8590732735831329558
+    second: girl_thin_68
+  - first:
+      213: -4097911633750914961
+    second: girl_thin_69
+  - first:
+      213: -2356283746559708605
+    second: girl_thin_70
+  - first:
+      213: 780243910203242726
+    second: girl_thin_71
+  - first:
+      213: 1045820686161588836
+    second: girl_thin_72
+  - first:
+      213: -1845671710950943855
+    second: girl_thin_73
+  - first:
+      213: 7685217986174725650
+    second: girl_thin_74
+  - first:
+      213: 9180140617916900807
+    second: girl_thin_75
+  - first:
+      213: 9213960245275467959
+    second: girl_thin_76
+  - first:
+      213: 854444379242301488
+    second: girl_thin_77
+  - first:
+      213: -3212227863422055262
+    second: girl_thin_78
+  - first:
+      213: 5245742247311769782
+    second: girl_thin_79
+  - first:
+      213: 2996179282498706156
+    second: girl_thin_80
+  - first:
+      213: 5822550929986754333
+    second: girl_thin_81
+  - first:
+      213: 545964877207228540
+    second: girl_thin_82
+  - first:
+      213: 5281540192360129651
+    second: girl_thin_83
+  - first:
+      213: -3849090326650248289
+    second: girl_thin_84
+  - first:
+      213: 216067601138487765
+    second: girl_thin_85
+  - first:
+      213: -7251618216388385638
+    second: girl_thin_86
+  - first:
+      213: -1360123046369745196
+    second: girl_thin_87
+  - first:
+      213: 3184937910611611144
+    second: girl_thin_88
+  - first:
+      213: 8608555150882153884
+    second: girl_thin_89
+  - first:
+      213: 6808586761953337307
+    second: girl_thin_90
+  - first:
+      213: 4142375886236107856
+    second: girl_thin_91
+  - first:
+      213: 6316720859813089777
+    second: girl_thin_92
+  - first:
+      213: -9195078752311257019
+    second: girl_thin_93
+  - first:
+      213: 5123546132342324850
+    second: girl_thin_94
+  - first:
+      213: 4366189280422140647
+    second: girl_thin_95
+  - first:
+      213: -7302715893014834795
+    second: girl_thin_96
+  - first:
+      213: -4659666023061485042
+    second: girl_thin_97
+  - first:
+      213: 2169071373632487905
+    second: girl_thin_98
+  - first:
+      213: -2934791727167703270
+    second: girl_thin_99
+  - first:
+      213: 6507606900616606375
+    second: girl_thin_100
+  - first:
+      213: 538062802504655271
+    second: girl_thin_101
+  - first:
+      213: -4577577539246514370
+    second: girl_thin_102
+  - first:
+      213: -3310106621514505326
+    second: girl_thin_103
+  - first:
+      213: -8445537834650256324
+    second: girl_thin_104
+  - first:
+      213: -6793812250778572860
+    second: girl_thin_105
+  - first:
+      213: -7196457541636337614
+    second: girl_thin_106
+  - first:
+      213: 6168329513926220916
+    second: girl_thin_107
+  - first:
+      213: -3069483089985766441
+    second: girl_thin_108
+  - first:
+      213: -6464362141287578730
+    second: girl_thin_109
+  - first:
+      213: -3049271297278473387
+    second: girl_thin_110
+  - first:
+      213: -8489782191274509206
+    second: girl_thin_111
+  - first:
+      213: 6102144364969935137
+    second: girl_thin_112
+  - first:
+      213: 4402646693812864851
+    second: girl_thin_113
+  - first:
+      213: -1102879918576732736
+    second: girl_thin_114
+  - first:
+      213: 5133623477398259223
+    second: girl_thin_115
+  - first:
+      213: 3822833598438328019
+    second: girl_thin_116
+  - first:
+      213: 1894833070100123656
+    second: girl_thin_117
+  - first:
+      213: 961555384602999894
+    second: girl_thin_118
+  - first:
+      213: 3305695287301124783
+    second: girl_thin_119
+  - first:
+      213: -6248390658285191463
+    second: girl_thin_120
+  - first:
+      213: 6135591107448610273
+    second: girl_thin_121
+  - first:
+      213: -128131327791367499
+    second: girl_thin_122
+  - first:
+      213: -2145514047505760755
+    second: girl_thin_123
+  - first:
+      213: -5296517584394790662
+    second: girl_thin_124
+  - first:
+      213: 4099581644017952130
+    second: girl_thin_125
+  - first:
+      213: 8679305041211223307
+    second: girl_thin_126
+  - first:
+      213: 3955787985902504219
+    second: girl_thin_127
+  - first:
+      213: 4920046177626288930
+    second: girl_thin_128
+  - first:
+      213: 3670380999956203173
+    second: girl_thin_129
+  - first:
+      213: -6710506940374278954
+    second: girl_thin_130
+  - first:
+      213: -6305978793893275167
+    second: girl_thin_131
+  - first:
+      213: 7107619884243336154
+    second: girl_thin_132
+  - first:
+      213: -8883710771444470862
+    second: girl_thin_133
+  - first:
+      213: 6936205083910210969
+    second: girl_thin_134
+  - first:
+      213: -5677473168670491300
+    second: girl_thin_135
+  - first:
+      213: -8529284047980328916
+    second: girl_thin_136
+  - first:
+      213: 1619571154367189816
+    second: girl_thin_137
+  - first:
+      213: -772954835495482414
+    second: girl_thin_138
+  - first:
+      213: 4862750436579565588
+    second: girl_thin_139
+  - first:
+      213: -2176088551495584994
+    second: girl_thin_140
+  - first:
+      213: -3038916306938021786
+    second: girl_thin_141
+  - first:
+      213: -1781747858110053005
+    second: girl_thin_142
+  - first:
+      213: -5859459040517027609
+    second: girl_thin_143
+  - first:
+      213: -2464442702057804745
+    second: girl_thin_144
+  - first:
+      213: -9124546526495426095
+    second: girl_thin_145
+  - first:
+      213: 5591510526623070742
+    second: girl_thin_146
+  - first:
+      213: -3746757520724616306
+    second: girl_thin_147
+  - first:
+      213: 6658180482734089530
+    second: girl_thin_148
+  - first:
+      213: 8139254728397912014
+    second: girl_thin_149
+  - first:
+      213: 8437651940291068895
+    second: girl_thin_150
+  - first:
+      213: -8477358125794751782
+    second: girl_thin_151
+  - first:
+      213: 407098361790467480
+    second: girl_thin_152
+  - first:
+      213: 7057068822286965684
+    second: girl_thin_153
+  - first:
+      213: -3561659784080140448
+    second: girl_thin_154
+  - first:
+      213: 8502996134489116704
+    second: girl_thin_155
+  - first:
+      213: -9112682851008455196
+    second: girl_thin_156
+  - first:
+      213: -3320886516562420140
+    second: girl_thin_157
+  - first:
+      213: -5984246112393819762
+    second: girl_thin_158
+  - first:
+      213: -7580925030071259594
+    second: girl_thin_159
+  - first:
+      213: 8976161202088812676
+    second: girl_thin_160
+  - first:
+      213: 5798204952407584504
+    second: girl_thin_161
+  - first:
+      213: 5696075262597188204
+    second: girl_thin_162
+  - first:
+      213: -3841643433496269957
+    second: girl_thin_163
+  - first:
+      213: -7800345413602815457
+    second: girl_thin_164
+  - first:
+      213: 4008185779666513760
+    second: girl_thin_165
+  - first:
+      213: -6372930476411999438
+    second: girl_thin_166
+  - first:
+      213: 2230763386464299382
+    second: girl_thin_167
+  - first:
+      213: 8648537889638921761
+    second: girl_thin_168
+  - first:
+      213: 5956522420744313678
+    second: girl_thin_169
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: girl_thin_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 841
+        width: 221
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27a239bed7e76980800000000000000
+      internalID: -8545606824136366291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 935
+        width: 270
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49924c8f97d08160800000000000000
+      internalID: 7025852498950920525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 933
+        width: 283
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09beaaa74d5bead0800000000000000
+      internalID: -2671939391526618866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 931
+        width: 253
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2486689766a44b60800000000000000
+      internalID: 7729485824343311407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_4
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1071
+        width: 111
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6259ebad132928f0800000000000000
+      internalID: -564881667913067926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_5
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 1072
+        width: 87
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdfe95595b189d00800000000000000
+      internalID: 979562989455605181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_6
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1051
+        width: 123
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1948dacb898db730800000000000000
+      internalID: 4016517676180982043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_7
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1051
+        width: 107
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173ef544494dbc210800000000000000
+      internalID: 1354409846222349169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_8
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1098
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bc58208aef70a10800000000000000
+      internalID: 1875747767373384492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_9
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1090
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8873863d55c5680800000000000000
+      internalID: -8765036408294897442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_10
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 1117
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46456624a6fb06190800000000000000
+      internalID: -7971160877344336796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_11
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 1109
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f3b8a5c968b7ea0800000000000000
+      internalID: -5873953282882584759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_12
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 1051
+        width: 89
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790ce0a6c53ead7b0800000000000000
+      internalID: -5198592833789968233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_13
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 1021
+        width: 48
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f58c908296e9b610800000000000000
+      internalID: 1637593456423241205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_14
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 906
+        width: 300
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91659b5ff56d6f70800000000000000
+      internalID: 9182107362705891743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_15
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 1107
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f8f117dfa2dab00800000000000000
+      internalID: 841375973401136925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_16
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 1090
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0a3daa382461b50800000000000000
+      internalID: 6563506640213221598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_17
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 1083
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5296573f2f2f420b0800000000000000
+      internalID: -5754207298592085723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_18
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 1091
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bde2acc30912800800000000000000
+      internalID: 585908017299381053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_19
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 1095
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ddc9ced7e1b0400800000000000000
+      internalID: 291360127084977547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_20
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1091
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed97661da2b2b9f40800000000000000
+      internalID: 5736226013288233438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_21
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 1089
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f986b7d6eff206020800000000000000
+      internalID: 2332917376782919839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_22
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 1083
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88352a0ca53af230800000000000000
+      internalID: 3673307459094919310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_23
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1044
+        width: 168
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b99f2eb0b58c830800000000000000
+      internalID: 4091620368076872549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_24
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 1081
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b079512bb53841750800000000000000
+      internalID: 6274784610686965515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_25
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 1080
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0560a02c98acaca40800000000000000
+      internalID: 5389342597116986960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_26
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 1083
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3fa6de971ff98b0800000000000000
+      internalID: -5143126743457270789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_27
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 1083
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432aac826fad04150800000000000000
+      internalID: 5854920266362823220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_28
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 1087
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9bd01a4b39d2010800000000000000
+      internalID: 1165750282564254114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_29
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 885
+        width: 61
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41185382ac19861f0800000000000000
+      internalID: -1051430215546994412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_30
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 1072
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0d41b11051edad0800000000000000
+      internalID: -2675678034117996313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_31
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 1061
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d74598dc8c946bc0800000000000000
+      internalID: -3790732857596098602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_32
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 1075
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d5671271da6d350800000000000000
+      internalID: 6041206265021357362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_33
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 1068
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85000f4b620fc730800000000000000
+      internalID: 4021435652175299981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_34
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 1059
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafa5645596a877a0800000000000000
+      internalID: -6379165711874019413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_35
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1075
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2aa1d57127fb260800000000000000
+      internalID: 7115531380940514036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_36
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 1077
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37384619a4d104280800000000000000
+      internalID: -9061210244165368973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_37
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 947
+        width: 165
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f648e50d041f3a710800000000000000
+      internalID: 1703470344752235631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_38
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1055
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63b28820e79c6bc0800000000000000
+      internalID: -3788486197517307025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_39
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 1051
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55308452c781d8150800000000000000
+      internalID: 5876380010268853077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_40
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 1054
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8cf7583998ec0c0800000000000000
+      internalID: -4553550906532050769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_41
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1051
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583224e21b1c7d990800000000000000
+      internalID: -7361202099184327803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_42
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 878
+        width: 96
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395b2a13849d3a400800000000000000
+      internalID: 334349701449168275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_43
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 947
+        width: 52
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9902d0de2d0596e0800000000000000
+      internalID: -1831543178733155938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_44
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 966
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567c305c2509a2960800000000000000
+      internalID: 7578028008171358053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_45
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 885
+        width: 80
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fbc157c6ca02e60800000000000000
+      internalID: 7935532125248077618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_46
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 992
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f596ba2c18dcde90800000000000000
+      internalID: -6999482105353300491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_47
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 885
+        width: 81
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718a455372e996930800000000000000
+      internalID: 4137011623952164887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_48
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 997
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e1c4bbc37b4b920800000000000000
+      internalID: 3005228322831212152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_49
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 885
+        width: 83
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a62e509b14f6ce0800000000000000
+      internalID: -1409835895420196215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_50
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 887
+        width: 59
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9c2b81bf4069470800000000000000
+      internalID: 8400907631403911657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_51
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 971
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe1ffb8ef9fec2a0800000000000000
+      internalID: -6715155122697068803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_52
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 973
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6a1bedfc1ea40a0800000000000000
+      internalID: -6896451596453828919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_53
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 787
+        width: 422
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcfbee9e317e58e0800000000000000
+      internalID: -1702799095331291977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_54
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 711
+        width: 316
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef2fe9aa5d616800800000000000000
+      internalID: 603884061209866213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_55
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 914
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cce07527e3d7000800000000000000
+      internalID: 35253032896613440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_56
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 731
+        width: 251
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272673fdfc8123220800000000000000
+      internalID: 2464059227207328370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_57
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 391
+        width: 93
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa3d71c779ea2fd0800000000000000
+      internalID: -2365821953673184608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_58
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 635
+        width: 157
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72cc27ae2930cd8b0800000000000000
+      internalID: -5126218346320966617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_59
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 852
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f7569d2c3e64da0800000000000000
+      internalID: -5960826630767804636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_60
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 630
+        width: 30
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8b7e088122d19f0800000000000000
+      internalID: -496202895303657225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_61
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 781
+        width: 100
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c860a66fa9ae7880800000000000000
+      internalID: -8611258866679650107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_62
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 719
+        width: 101
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3f8503311ea0e50800000000000000
+      internalID: 6776476061864096703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_63
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 759
+        width: 66
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf73fbbd583d3b20800000000000000
+      internalID: 3115708492446662618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_64
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 239
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12133750a1ad871d0800000000000000
+      internalID: -3352690117281894111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_65
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 461
+        width: 406
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df32b2ae3b6265c0800000000000000
+      internalID: -4223695583758368811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_66
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 482
+        width: 187
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de3b256ee58ad580800000000000000
+      internalID: -8801575262796169514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_67
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 633
+        width: 75
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d404049a861297ac0800000000000000
+      internalID: -3857014872466243507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_68
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 615
+        width: 97
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bcb8758e9683770800000000000000
+      internalID: 8590732735831329558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_69
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 719
+        width: 100
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68065da41b4127c0800000000000000
+      internalID: -4097911633750914961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_70
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 719
+        width: 101
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3423848aa6ccc4fd0800000000000000
+      internalID: -2356283746559708605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_71
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 610
+        width: 68
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e873d1d3bbf3da00800000000000000
+      internalID: 780243910203242726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_72
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 485
+        width: 391
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462ba618f50838e00800000000000000
+      internalID: 1045820686161588836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_73
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 553
+        width: 96
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19318c09b5bd266e0800000000000000
+      internalID: -1845671710950943855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_74
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 671
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e23675a0167aa60800000000000000
+      internalID: 7685217986174725650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_75
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 680
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c56217e049666f70800000000000000
+      internalID: 9180140617916900807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_76
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 683
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0273286009edf70800000000000000
+      internalID: 9213960245275467959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_77
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 301
+        width: 131
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0380119c2a89bdb00800000000000000
+      internalID: 854444379242301488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_78
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 299
+        width: 131
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2accd1ff6cfdb63d0800000000000000
+      internalID: -3212227863422055262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_79
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 595
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b00742e7ce9cc840800000000000000
+      internalID: 5245742247311769782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_80
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 583
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea58b8de21949920800000000000000
+      internalID: 2996179282498706156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_81
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 579
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d171b7cb83bddc050800000000000000
+      internalID: 5822550929986754333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_82
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 553
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70d6c5c928a39700800000000000000
+      internalID: 545964877207228540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_83
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 544
+        width: 90
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374e29872dccb4940800000000000000
+      internalID: 5281540192360129651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_84
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 553
+        width: 97
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93ae93cdb8459ac0800000000000000
+      internalID: -3849090326650248289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_85
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 508
+        width: 86
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d19455a650aff200800000000000000
+      internalID: 216067601138487765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_86
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 579
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a942b6527a31d5b90800000000000000
+      internalID: -7251618216388385638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_87
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 580
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d62f4aab4fdf1de0800000000000000
+      internalID: -1360123046369745196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_88
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 570
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e0ea9b72c233c20800000000000000
+      internalID: 3184937910611611144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_89
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 562
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95a0b5bc4bb77770800000000000000
+      internalID: 8608555150882153884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_90
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 551
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfd7a82695fc7e50800000000000000
+      internalID: 6808586761953337307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_91
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 570
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0544f39dbecac7930800000000000000
+      internalID: 4142375886236107856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_92
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 572
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f19572972089a750800000000000000
+      internalID: 6316720859813089777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_93
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 546
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548deb6a794846080800000000000000
+      internalID: -9195078752311257019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_94
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 543
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e3798cf0e7a1740800000000000000
+      internalID: 5123546132342324850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_95
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 530
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea1ea97402d79c30800000000000000
+      internalID: 4366189280422140647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_96
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 511
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5915045369a87aa90800000000000000
+      internalID: -7302715893014834795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_97
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 525
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a8673a07a855fb0800000000000000
+      internalID: -4659666023061485042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_98
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 523
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e145dd0ce61a1e10800000000000000
+      internalID: 2169071373632487905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_99
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 521
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17f96c29768547d0800000000000000
+      internalID: -2934791727167703270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_100
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 516
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a232215ff9af4a50800000000000000
+      internalID: 6507606900616606375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_101
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 510
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a12422a445977700800000000000000
+      internalID: 538062802504655271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_102
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 517
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f97692b7d2970c0800000000000000
+      internalID: -4577577539246514370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_103
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 511
+        width: 55
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293a5ffb0932012d0800000000000000
+      internalID: -3310106621514505326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_104
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 512
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3cbc84f51c6bca80800000000000000
+      internalID: -8445537834650256324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_105
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 523
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c765a9c0c787b1a0800000000000000
+      internalID: -6793812250778572860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_106
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 500
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230d59d8efb012c90800000000000000
+      internalID: -7196457541636337614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_107
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 511
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c512ff20f4a9550800000000000000
+      internalID: 6168329513926220916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_108
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 494
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db745974610765d0800000000000000
+      internalID: -3069483089985766441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_109
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 501
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6930215d1e8f946a0800000000000000
+      internalID: -6464362141287578730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_110
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 387
+        width: 94
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b0ced29efcea5d0800000000000000
+      internalID: -3049271297278473387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_111
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 503
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c35ace31c3e2a80800000000000000
+      internalID: -8489782191274509206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_112
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 387
+        width: 87
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1214f2a28fb2fa450800000000000000
+      internalID: 6102144364969935137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_113
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 387
+        width: 91
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357834087d7591d30800000000000000
+      internalID: 4402646693812864851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_114
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 343
+        width: 124
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5725fae88c1b0f0800000000000000
+      internalID: -1102879918576732736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_115
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 494
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716cde48a5b4e3740800000000000000
+      internalID: 5133623477398259223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_116
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 480
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6485e47ee6d0530800000000000000
+      internalID: 3822833598438328019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_117
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 476
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8001bf353accb4a10800000000000000
+      internalID: 1894833070100123656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_118
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 374
+        width: 506
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c302b1781285d00800000000000000
+      internalID: 961555384602999894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_119
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 451
+        width: 66
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa23447795030ed20800000000000000
+      internalID: 3305695287301124783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_120
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 454
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9deba0b3dc14949a0800000000000000
+      internalID: -6248390658285191463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_121
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 469
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed158eba9ff52550800000000000000
+      internalID: 6135591107448610273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_122
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 472
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba756a7c39c83ef0800000000000000
+      internalID: -128131327791367499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_123
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 467
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0efec9575a9932e0800000000000000
+      internalID: -2145514047505760755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_124
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 3
+        width: 412
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8d983b15dfe76b0800000000000000
+      internalID: -5296517584394790662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_125
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 440
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285e663e8c3a4e830800000000000000
+      internalID: 4099581644017952130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_126
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 438
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0de6a633f5137870800000000000000
+      internalID: 8679305041211223307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_127
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 453
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b190a7ae638c5e630800000000000000
+      internalID: 3955787985902504219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_128
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 422
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223fee75ee3874440800000000000000
+      internalID: 4920046177626288930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_129
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 418
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a68bbca210dfe230800000000000000
+      internalID: 3670380999956203173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_130
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 433
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc9234dd7d7fd2a0800000000000000
+      internalID: -6710506940374278954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_131
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 436
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e958dc82b9ac78a0800000000000000
+      internalID: -6305978793893275167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_132
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 416
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbb3de70a653a260800000000000000
+      internalID: 7107619884243336154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_133
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 425
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbadbc0f18b6b480800000000000000
+      internalID: -8883710771444470862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_134
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 407
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9950ab336c9524060800000000000000
+      internalID: 6936205083910210969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_135
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 417
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d759fcb309531b0800000000000000
+      internalID: -5677473168670491300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_136
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 410
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c280ab33955e1a980800000000000000
+      internalID: -8529284047980328916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_137
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 394
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8339680526fd97610800000000000000
+      internalID: 1619571154367189816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_138
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 413
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db0fd22ca9e545f0800000000000000
+      internalID: -772954835495482414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_139
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 376
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41063b312c5fb7340800000000000000
+      internalID: 4862750436579565588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_140
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 376
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13bf48edfafcc1e0800000000000000
+      internalID: -2176088551495584994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_141
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 385
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66831de38b993d5d0800000000000000
+      internalID: -3038916306938021786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_142
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 390
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375890e53c5f547e0800000000000000
+      internalID: -1781747858110053005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_143
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 394
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e808022c050faea0800000000000000
+      internalID: -5859459040517027609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_144
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 379
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c6a8e6b6a8ccdd0800000000000000
+      internalID: -2464442702057804745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_145
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 393
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d937bf27491f5180800000000000000
+      internalID: -9124546526495426095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_146
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 379
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ab939e239099d40800000000000000
+      internalID: 5591510526623070742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_147
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 384
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b9fa5d2e7d00cc0800000000000000
+      internalID: -3746757520724616306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_148
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 386
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35edcb5fdb966c50800000000000000
+      internalID: 6658180482734089530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_149
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 376
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec773964d0174f070800000000000000
+      internalID: 8139254728397912014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_150
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 284
+        width: 112
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd34f6f2cbf881570800000000000000
+      internalID: 8437651940291068895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_151
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 353
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada8b3613bf5a5a80800000000000000
+      internalID: -8477358125794751782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_152
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 236
+        width: 422
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d0a2b9dcd46a500800000000000000
+      internalID: 407098361790467480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_153
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1
+        width: 337
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb16e334bebfe160800000000000000
+      internalID: 7057068822286965684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_154
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 288
+        width: 211
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067db1ffb41729ec0800000000000000
+      internalID: -3561659784080140448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_155
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 349
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0205ebafee5b00670800000000000000
+      internalID: 8502996134489116704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_156
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 355
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4edd8d26a3f398180800000000000000
+      internalID: -9112682851008455196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_157
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 324
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e99e8de47d9e1d0800000000000000
+      internalID: -3320886516562420140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_158
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 327
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89014edddfa3fca0800000000000000
+      internalID: -5984246112393819762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_159
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 331
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e2cb1c9d42bc690800000000000000
+      internalID: -7580925030071259594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_160
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 330
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480a5293e0bb19c70800000000000000
+      internalID: 8976161202088812676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_161
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 297
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe2a2b1fac577050800000000000000
+      internalID: 5798204952407584504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_162
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 308
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6acef0b5468c0f40800000000000000
+      internalID: 5696075262597188204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_163
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 297
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b2eb0b6adbfaac0800000000000000
+      internalID: -3841643433496269957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_164
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 317
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f125bd0ac2b9fb390800000000000000
+      internalID: -7800345413602815457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_165
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1
+        width: 387
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f6bc6fabfef9730800000000000000
+      internalID: 4008185779666513760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_166
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 5
+        width: 366
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ba3373f7dce87a0800000000000000
+      internalID: -6372930476411999438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_167
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 5
+        width: 387
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679e62c1b7345fe10800000000000000
+      internalID: 2230763386464299382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_168
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1
+        width: 189
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1263f628367c50870800000000000000
+      internalID: 8648537889638921761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: girl_thin_169
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 177
+        width: 94
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b5d192591d9a250800000000000000
+      internalID: 5956522420744313678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      girl_thin_0: -8545606824136366291
+      girl_thin_1: 7025852498950920525
+      girl_thin_10: -7971160877344336796
+      girl_thin_100: 6507606900616606375
+      girl_thin_101: 538062802504655271
+      girl_thin_102: -4577577539246514370
+      girl_thin_103: -3310106621514505326
+      girl_thin_104: -8445537834650256324
+      girl_thin_105: -6793812250778572860
+      girl_thin_106: -7196457541636337614
+      girl_thin_107: 6168329513926220916
+      girl_thin_108: -3069483089985766441
+      girl_thin_109: -6464362141287578730
+      girl_thin_11: -5873953282882584759
+      girl_thin_110: -3049271297278473387
+      girl_thin_111: -8489782191274509206
+      girl_thin_112: 6102144364969935137
+      girl_thin_113: 4402646693812864851
+      girl_thin_114: -1102879918576732736
+      girl_thin_115: 5133623477398259223
+      girl_thin_116: 3822833598438328019
+      girl_thin_117: 1894833070100123656
+      girl_thin_118: 961555384602999894
+      girl_thin_119: 3305695287301124783
+      girl_thin_12: -5198592833789968233
+      girl_thin_120: -6248390658285191463
+      girl_thin_121: 6135591107448610273
+      girl_thin_122: -128131327791367499
+      girl_thin_123: -2145514047505760755
+      girl_thin_124: -5296517584394790662
+      girl_thin_125: 4099581644017952130
+      girl_thin_126: 8679305041211223307
+      girl_thin_127: 3955787985902504219
+      girl_thin_128: 4920046177626288930
+      girl_thin_129: 3670380999956203173
+      girl_thin_13: 1637593456423241205
+      girl_thin_130: -6710506940374278954
+      girl_thin_131: -6305978793893275167
+      girl_thin_132: 7107619884243336154
+      girl_thin_133: -8883710771444470862
+      girl_thin_134: 6936205083910210969
+      girl_thin_135: -5677473168670491300
+      girl_thin_136: -8529284047980328916
+      girl_thin_137: 1619571154367189816
+      girl_thin_138: -772954835495482414
+      girl_thin_139: 4862750436579565588
+      girl_thin_14: 9182107362705891743
+      girl_thin_140: -2176088551495584994
+      girl_thin_141: -3038916306938021786
+      girl_thin_142: -1781747858110053005
+      girl_thin_143: -5859459040517027609
+      girl_thin_144: -2464442702057804745
+      girl_thin_145: -9124546526495426095
+      girl_thin_146: 5591510526623070742
+      girl_thin_147: -3746757520724616306
+      girl_thin_148: 6658180482734089530
+      girl_thin_149: 8139254728397912014
+      girl_thin_15: 841375973401136925
+      girl_thin_150: 8437651940291068895
+      girl_thin_151: -8477358125794751782
+      girl_thin_152: 407098361790467480
+      girl_thin_153: 7057068822286965684
+      girl_thin_154: -3561659784080140448
+      girl_thin_155: 8502996134489116704
+      girl_thin_156: -9112682851008455196
+      girl_thin_157: -3320886516562420140
+      girl_thin_158: -5984246112393819762
+      girl_thin_159: -7580925030071259594
+      girl_thin_16: 6563506640213221598
+      girl_thin_160: 8976161202088812676
+      girl_thin_161: 5798204952407584504
+      girl_thin_162: 5696075262597188204
+      girl_thin_163: -3841643433496269957
+      girl_thin_164: -7800345413602815457
+      girl_thin_165: 4008185779666513760
+      girl_thin_166: -6372930476411999438
+      girl_thin_167: 2230763386464299382
+      girl_thin_168: 8648537889638921761
+      girl_thin_169: 5956522420744313678
+      girl_thin_17: -5754207298592085723
+      girl_thin_18: 585908017299381053
+      girl_thin_19: 291360127084977547
+      girl_thin_2: -2671939391526618866
+      girl_thin_20: 5736226013288233438
+      girl_thin_21: 2332917376782919839
+      girl_thin_22: 3673307459094919310
+      girl_thin_23: 4091620368076872549
+      girl_thin_24: 6274784610686965515
+      girl_thin_25: 5389342597116986960
+      girl_thin_26: -5143126743457270789
+      girl_thin_27: 5854920266362823220
+      girl_thin_28: 1165750282564254114
+      girl_thin_29: -1051430215546994412
+      girl_thin_3: 7729485824343311407
+      girl_thin_30: -2675678034117996313
+      girl_thin_31: -3790732857596098602
+      girl_thin_32: 6041206265021357362
+      girl_thin_33: 4021435652175299981
+      girl_thin_34: -6379165711874019413
+      girl_thin_35: 7115531380940514036
+      girl_thin_36: -9061210244165368973
+      girl_thin_37: 1703470344752235631
+      girl_thin_38: -3788486197517307025
+      girl_thin_39: 5876380010268853077
+      girl_thin_4: -564881667913067926
+      girl_thin_40: -4553550906532050769
+      girl_thin_41: -7361202099184327803
+      girl_thin_42: 334349701449168275
+      girl_thin_43: -1831543178733155938
+      girl_thin_44: 7578028008171358053
+      girl_thin_45: 7935532125248077618
+      girl_thin_46: -6999482105353300491
+      girl_thin_47: 4137011623952164887
+      girl_thin_48: 3005228322831212152
+      girl_thin_49: -1409835895420196215
+      girl_thin_5: 979562989455605181
+      girl_thin_50: 8400907631403911657
+      girl_thin_51: -6715155122697068803
+      girl_thin_52: -6896451596453828919
+      girl_thin_53: -1702799095331291977
+      girl_thin_54: 603884061209866213
+      girl_thin_55: 35253032896613440
+      girl_thin_56: 2464059227207328370
+      girl_thin_57: -2365821953673184608
+      girl_thin_58: -5126218346320966617
+      girl_thin_59: -5960826630767804636
+      girl_thin_6: 4016517676180982043
+      girl_thin_60: -496202895303657225
+      girl_thin_61: -8611258866679650107
+      girl_thin_62: 6776476061864096703
+      girl_thin_63: 3115708492446662618
+      girl_thin_64: -3352690117281894111
+      girl_thin_65: -4223695583758368811
+      girl_thin_66: -8801575262796169514
+      girl_thin_67: -3857014872466243507
+      girl_thin_68: 8590732735831329558
+      girl_thin_69: -4097911633750914961
+      girl_thin_7: 1354409846222349169
+      girl_thin_70: -2356283746559708605
+      girl_thin_71: 780243910203242726
+      girl_thin_72: 1045820686161588836
+      girl_thin_73: -1845671710950943855
+      girl_thin_74: 7685217986174725650
+      girl_thin_75: 9180140617916900807
+      girl_thin_76: 9213960245275467959
+      girl_thin_77: 854444379242301488
+      girl_thin_78: -3212227863422055262
+      girl_thin_79: 5245742247311769782
+      girl_thin_8: 1875747767373384492
+      girl_thin_80: 2996179282498706156
+      girl_thin_81: 5822550929986754333
+      girl_thin_82: 545964877207228540
+      girl_thin_83: 5281540192360129651
+      girl_thin_84: -3849090326650248289
+      girl_thin_85: 216067601138487765
+      girl_thin_86: -7251618216388385638
+      girl_thin_87: -1360123046369745196
+      girl_thin_88: 3184937910611611144
+      girl_thin_89: 8608555150882153884
+      girl_thin_9: -8765036408294897442
+      girl_thin_90: 6808586761953337307
+      girl_thin_91: 4142375886236107856
+      girl_thin_92: 6316720859813089777
+      girl_thin_93: -9195078752311257019
+      girl_thin_94: 5123546132342324850
+      girl_thin_95: 4366189280422140647
+      girl_thin_96: -7302715893014834795
+      girl_thin_97: -4659666023061485042
+      girl_thin_98: 2169071373632487905
+      girl_thin_99: -2934791727167703270
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

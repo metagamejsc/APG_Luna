@@ -1,0 +1,16 @@
+zgirl2.png
+size:972,156
+filter:Linear,Linear
+pma:true
+4girl_1
+bounds:590,47,106,170
+offsets:2,3,111,175
+rotate:90
+4girl_2
+bounds:2,2,151,586
+rotate:90
+4girl_3
+bounds:762,42,109,111
+4girl_4
+bounds:873,36,95,117
+offsets:2,2,107,121
