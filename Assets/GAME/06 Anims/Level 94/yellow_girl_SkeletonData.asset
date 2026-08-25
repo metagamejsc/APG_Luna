@@ -18,9 +18,11 @@ MonoBehaviour:
   skeletonJSON: {fileID: 4900000, guid: ccbe1e626d7730e44be300510b5bba69, type: 3}
   isUpgradingBlendModeMaterials: 0
   blendModeMaterials:
-    requiresBlendModeMaterials: 0
+    requiresBlendModeMaterials: 1
     applyAdditiveMaterial: 1
-    additiveMaterials: []
+    additiveMaterials:
+    - pageName: yellow_girl.png
+      material: {fileID: 2100000, guid: 4a3e0ce4ae4737f4c94b6d127033c661, type: 2}
     multiplyMaterials: []
     screenMaterials: []
   skeletonDataModifiers: []

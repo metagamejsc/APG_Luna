@@ -1,8 +1,10 @@
 cogiao.png
-size:336,320
+size:452,140
 filter:Linear,Linear
 pma:true
 cg1
-bounds:2,2,164,314
+bounds:2,3,134,224
+rotate:90
 cg2
-bounds:168,3,163,313
+bounds:228,2,135,220
+rotate:90
