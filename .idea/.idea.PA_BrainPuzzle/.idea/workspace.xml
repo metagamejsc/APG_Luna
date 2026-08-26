@@ -505,6 +505,65 @@
     <commands />
     <urls />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.018941054929301" />
+      <entry key="MS500" value="6.878202733295172" />
+      <entry key="S2" value="19.807360069028785" />
+      <entry key="S5" value="31.661122714937537" />
+      <entry key="S10" value="39.54379547377397" />
+      <entry key="S30" value="52.84002510146802" />
+      <entry key="S60" value="78.56515416254885" />
+      <entry key="M2" value="118.10760442954322" />
+      <entry key="M5" value="175.22526651992422" />
+      <entry key="M10" value="233.27015361575172" />
+      <entry key="M15" value="273.79648131455406" />
+      <entry key="M30" value="343.83071025970486" />
+      <entry key="H1" value="404.8890703920714" />
+      <entry key="H2" value="449.8485390025555" />
+      <entry key="H4" value="478.2304537789282" />
+      <entry key="D1" value="505.9380529405396" />
+      <entry key="W1" value="511.1224988732272" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.9754694839180738" />
+      <entry key="MS500" value="6.838868676231237" />
+      <entry key="S2" value="19.77817975189576" />
+      <entry key="S5" value="31.642632050506123" />
+      <entry key="S10" value="39.53230041268886" />
+      <entry key="S30" value="52.83478238123653" />
+      <entry key="S60" value="78.56100935823589" />
+      <entry key="M2" value="118.1043486875555" />
+      <entry key="M5" value="175.22328270990027" />
+      <entry key="M10" value="233.26881571168744" />
+      <entry key="M15" value="273.79542532111003" />
+      <entry key="M30" value="343.83003389651157" />
+      <entry key="H1" value="404.8886623630155" />
+      <entry key="H2" value="449.84830771554124" />
+      <entry key="H4" value="478.2303292421105" />
+      <entry key="D1" value="505.9380307077191" />
+      <entry key="W1" value="511.1224956572216" />
+    </decayedShown>
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.MCP Project settings loaded": "true",

@@ -1,8 +1,8 @@
 {
     "version": "7.2.0",
     "projectId": "2908ef2555f4afa4ab6241b85cbb2f84",
-    "applicationID": 29138,
-    "creativeName": "BEQ_V34_NgocNDL_HuyNQ",
+    "applicationID": 33901,
+    "creativeName": "TPAP_V26_NgocNDL_HuyNQ",
     "pgServer": "EU",
     "window": {
         "‐⁘": true
@@ -22749,7 +22749,7 @@
                     },
                     {
                         "name": "OnTweenCallback",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnTweenCallback$1",

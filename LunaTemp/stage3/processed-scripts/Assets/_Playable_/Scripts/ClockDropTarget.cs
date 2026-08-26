@@ -57,6 +57,7 @@ public class ClockDropTarget : MonoBehaviour, IPointerClickHandler
     {
         if (_door != null)
         {
+            GameManager.Instance?.CountEvent();
             _door.SetActive(false);
             _skeletonAnimation.gameObject.SetActive(true);
             _door = null;
