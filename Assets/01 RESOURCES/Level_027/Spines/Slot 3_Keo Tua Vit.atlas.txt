@@ -1,0 +1,22 @@
+Slot 3_Keo Tua Vit.png
+size:632,104
+filter:Linear,Linear
+pma:true
+scale:0.75
+girl_lie1
+bounds:164,12,140,89
+girl_lie2
+bounds:306,17,193,84
+girl_pupil11
+bounds:554,54,9,6
+girl_pupil21
+bounds:541,51,11,9
+scew_out
+bounds:501,39,24,21
+screw
+bounds:527,48,12,12
+screwdriver_anim
+bounds:501,62,127,39
+offsets:0,1,127,41
+vent
+bounds:2,2,160,99

@@ -1,0 +1,16 @@
+Slot 7_Tap O Khoa.png
+size:908,520
+filter:Linear,Linear
+pma:true
+scale:0.75
+correct
+bounds:803,271,100,100
+fade
+bounds:803,373,81,144
+fail
+bounds:803,169,100,100
+offsets:0,1,100,101
+minigame
+bounds:2,2,515,799
+offsets:2,2,517,801
+rotate:90

@@ -1,0 +1,9 @@
+Slot 1_Tap Cua Mat That.png
+size:316,200
+filter:Linear,Linear
+pma:true
+scale:0.75
+girl_sit1
+bounds:197,33,117,162
+secret_door
+bounds:2,2,193,193
