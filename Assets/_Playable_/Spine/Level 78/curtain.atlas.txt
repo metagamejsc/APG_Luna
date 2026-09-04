@@ -1,0 +1,6 @@
+curtain.png
+size:728,676
+filter:Linear,Linear
+pma:true
+curtain
+bounds:2,2,722,672
