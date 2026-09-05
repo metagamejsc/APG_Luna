@@ -21,9 +21,6 @@ public class Target : MonoBehaviour
         bool hasReaction = reaction != null;
         bool hasRules = hasReaction && reaction.HasAnimationRules();
         bool matchesCurrentStatus = hasRules && reaction.FindBestRule(_girl.Status) != null;
-        _girl.LogDebug(
-            $"[Rule Check] Target={_part}, Item ID={itemData.id}, Reaction={hasReaction}, AnimationRules={hasRules}, CurrentStatusMatches={matchesCurrentStatus}.",
-            this);
 
         if (!matchesCurrentStatus) return false;
         _girl.ApplyItem(itemData, reaction);

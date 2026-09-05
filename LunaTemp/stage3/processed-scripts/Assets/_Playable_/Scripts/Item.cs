@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(RectTransform))]
-public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class Item : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     [SerializeField] private List<ItemData> _data;
     [SerializeField] private int _dragSortingOrder = 5;
@@ -35,6 +35,11 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
         CacheStartState();
     }
 
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        GameController.Instance?.StopTutorialHand();
+    }
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         if (_isPlaced) return;
@@ -42,7 +47,6 @@ public class Item : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
         CacheStartState();
         CachePointerOffset(eventData);
         SetDraggingSortingOrder();
-        GameController.Instance?.StopTutorialHand();
     }
 
     public void OnDrag(PointerEventData eventData)

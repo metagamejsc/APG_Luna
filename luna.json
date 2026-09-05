@@ -208,10 +208,6 @@
                 "excluded": true
             },
             {
-                "name": "System.Reflection.TargetSite",
-                "excluded": true
-            },
-            {
                 "name": "System.OutOfMemoryException",
                 "excluded": true
             },
@@ -5429,7 +5425,7 @@
             },
             {
                 "name": "UnityEngine.TextAnchor",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.TextClipping",
@@ -6624,10 +6620,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.UI.LayoutGroup",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.UI.Shadow",
                 "excluded": true
             },
@@ -6644,10 +6636,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.UI.HorizontalOrVerticalLayoutGroup",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.UI.Outline",
                 "excluded": true
             },
@@ -6661,10 +6649,6 @@
             },
             {
                 "name": "UnityEngine.UI.Toggle",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.UI.HorizontalLayoutGroup",
                 "excluded": true
             },
             {
@@ -6897,7 +6881,7 @@
             },
             {
                 "name": "UnityEngine.UI.ILayoutSelfController",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.UI.ILayoutGroup",
@@ -7473,7 +7457,7 @@
             },
             {
                 "name": "DG.Tweening.Core.SafeModeReport.SafeModeReportType",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "DG.Tweening.Core.TargetType",
@@ -16081,7 +16065,7 @@
                 "instanceMethods": [
                     {
                         "name": "FromPaddings",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "vertical#get",
@@ -16093,11 +16077,11 @@
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "$ctor1",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -26245,7 +26229,7 @@
                     },
                     {
                         "name": "Clear",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetTexture",
@@ -28867,7 +28851,7 @@
                     },
                     {
                         "name": "UnRegisterTextObjectForUpdate",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "UnRegisterTextElementForRebuild",
@@ -28915,7 +28899,7 @@
                     },
                     {
                         "name": "InternalUnRegisterTextObjectForUpdate",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -29559,7 +29543,7 @@
                     },
                     {
                         "name": "LogSafeModeCapturedError",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "LogReport",
@@ -29607,7 +29591,7 @@
                     },
                     {
                         "name": "ShouldLogSafeModeCapturedError",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetDebugDataMessage",
@@ -29751,7 +29735,7 @@
                     },
                     {
                         "name": "Add",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetTotErrors",
@@ -30575,7 +30559,7 @@
                     },
                     {
                         "name": "DOScale$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "DOScale",
@@ -31484,6 +31468,10 @@
                     {
                         "name": "CreateSprite",
                         "excluded": true
+                    },
+                    {
+                        "name": "ShowLose",
+                        "excluded": false
                     }
                 ]
             },
@@ -33898,16 +33886,12 @@
                         "excluded": false
                     },
                     {
-                        "name": "LogDebug",
-                        "excluded": false
-                    },
-                    {
                         "name": "PlayBoys",
                         "excluded": false
                     },
                     {
                         "name": "EndGameAfterDelay",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddSkins",
@@ -33940,6 +33924,14 @@
                     {
                         "name": "AddSkinToCombined",
                         "excluded": false
+                    },
+                    {
+                        "name": "AddUniqueSkinNames",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetActiveSkinDebugInfo",
+                        "excluded": true
                     }
                 ]
             },
@@ -34053,6 +34045,10 @@
                     },
                     {
                         "name": "GetDropSamplePositions",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPointerDown",
                         "excluded": false
                     }
                 ]
@@ -34330,6 +34326,242 @@
                         "excluded": false
                     }
                 ]
+            },
+            {
+                "className": "UnityEngine.UI.LayoutGroup",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "childAlignment#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childAlignment#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "padding#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "padding#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "preferredWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "flexibleWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "preferredHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "flexibleHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "layoutPriority#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "rectChildren#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "rectTransform#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "isRootLayoutGroup#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CalculateLayoutInputHorizontal",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetChildAlongAxis",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetChildAlongAxis$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLayoutInputForAxis",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetStartOffset",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetAlignmentOnAxis",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetTotalMinSize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetTotalPreferredSize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetTotalFlexibleSize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetProperty",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnTransformChildrenChanged",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnRectTransformDimensionsChange",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDidApplyAnimationProperties",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetDirty",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DelayedSetDirty",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.HorizontalOrVerticalLayoutGroup",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "spacing#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "spacing#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childForceExpandWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childForceExpandWidth#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childForceExpandHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childForceExpandHeight#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childControlWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childControlWidth#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childControlHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childControlHeight#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalcAlongAxis",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetChildrenAlongAxis",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetChildSizes",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.HorizontalLayoutGroup",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalculateLayoutInputHorizontal",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CalculateLayoutInputVertical",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLayoutHorizontal",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLayoutVertical",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "System.Reflection.TargetSite",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "toString",
+                        "excluded": false
+                    }
+                ]
             }
         ],
         "stubberDataList": [],
@@ -34437,6 +34669,16 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/_Playable_/Spine/Level 78/man2.png"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "none",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/GAME/05 Assets/Fonts/Noto_Sans/Font Asset/NotoSansLatin_Static.asset"
                     }
                 ]
             },

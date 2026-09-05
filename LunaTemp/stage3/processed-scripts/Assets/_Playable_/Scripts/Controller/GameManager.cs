@@ -26,6 +26,7 @@ namespace Playable
 
         [SerializeField] private Button _btnBlock;
         [SerializeField] private Image _background;
+        [SerializeField] private GameObject _losePanel;
 
         [Header("Progress UI")] [SerializeField]
         private Image _progressFillImage;
@@ -176,6 +177,7 @@ namespace Playable
                     UpdateTimerUI(0f);
                     EventCountdownEndGame?.Invoke();
                     EndGame();
+                    ShowLose();
                 });
         }
 
@@ -239,6 +241,15 @@ namespace Playable
                 texture,
                 new Rect(0f, 0f, texture.width, texture.height),
                 new Vector2(0.5f, 0.5f));
+        }
+
+        public void ShowLose()
+        {
+            EndGame();
+            DOVirtual.DelayedCall(1.5f, () =>
+            {
+                _losePanel.gameObject.SetActive(true);
+            });
         }
     }
 }

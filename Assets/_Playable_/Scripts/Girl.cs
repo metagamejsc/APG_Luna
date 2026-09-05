@@ -42,6 +42,16 @@ public class Girl : MonoBehaviour, IPointerClickHandler
     public GirlStatus Status => _status;
     public bool CanReceiveItem => _isReady && !_isGameEnded;
 
+    public string GetActiveSkinDebugInfo()
+    {
+        List<string> skinNames = new List<string>();
+        AddUniqueSkinNames(skinNames, FindBodyShapeSkins(_status.bodyShape));
+        AddUniqueSkinNames(skinNames, FindOutfitSkins(_status.outfit));
+        AddUniqueSkinNames(skinNames, FindRestraintSkins(_status.restraint));
+        AddUniqueSkinNames(skinNames, _activeSkins);
+        return skinNames.Count > 0 ? string.Join(", ", skinNames) : "None";
+    }
+
     private void Start()
     {
         AddSkins(_defaultSkins);
@@ -143,11 +153,7 @@ public class Girl : MonoBehaviour, IPointerClickHandler
         }
     }
 
-    public void LogDebug(string message, UnityEngine.Object context = null)
-    {
-        if (!_enableDebugLogs) return;
-        Debug.Log($"[Girl Debug] {message}", context != null ? context : this);
-    }
+  
 
 
     private void PlayBoys(bool girlWins)
@@ -178,7 +184,7 @@ public class Girl : MonoBehaviour, IPointerClickHandler
         if (_isGameEnded) return;
 
         _isGameEnded = true;
-        DOVirtual.DelayedCall(_endGameDelay, () => GameManager.Instance?.EndGame());
+        DOVirtual.DelayedCall(_endGameDelay, () => GameManager.Instance?.ShowLose());
     }
 
     private void AddSkins(string[] skinNames)
@@ -275,6 +281,17 @@ public class Girl : MonoBehaviour, IPointerClickHandler
     {
         if (skinNames == null) return;
         for (int i = 0; i < skinNames.Length; i++) AddSkinToCombined(skeleton, skinNames[i]);
+    }
+
+    private static void AddUniqueSkinNames(List<string> destination, IEnumerable<string> skinNames)
+    {
+        if (skinNames == null) return;
+
+        foreach (string skinName in skinNames)
+        {
+            if (string.IsNullOrEmpty(skinName) || destination.Contains(skinName)) continue;
+            destination.Add(skinName);
+        }
     }
 
     private void AddSkinToCombined(Skeleton skeleton, string skinName)
