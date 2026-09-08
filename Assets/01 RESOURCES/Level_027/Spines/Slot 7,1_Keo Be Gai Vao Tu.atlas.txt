@@ -1,0 +1,19 @@
+Slot 7,1_Keo Be Gai Vao Tu.png
+size:268,260
+filter:Linear,Linear
+pma:true
+scale:0.75
+cabinet_closed_L
+bounds:2,2,92,137
+rotate:90
+cabinet_closed_R
+bounds:121,166,92,137
+rotate:90
+cabinet_open_L
+bounds:141,5,61,159
+offsets:0,1,61,161
+cabinet_open_R
+bounds:204,5,61,159
+offsets:0,1,61,161
+girl_sit1
+bounds:2,96,117,162

@@ -1,0 +1,22 @@
+Girl.png
+size:544,168
+filter:Linear,Linear
+pma:true
+scale:0.75
+girl_drag
+bounds:2,13,151,208
+rotate:90
+girl_sit copy 2
+bounds:2,13,151,208
+rotate:90
+girl_sit copy 3
+bounds:212,13,151,208
+rotate:90
+girl_sit copy
+bounds:212,13,151,208
+rotate:90
+girl_sit copy 4
+bounds:212,13,151,208
+rotate:90
+girl_sit1
+bounds:422,2,117,162

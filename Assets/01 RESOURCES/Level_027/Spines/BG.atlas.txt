@@ -1,0 +1,13 @@
+BG.png
+size:1052,816
+filter:Linear,Linear
+pma:true
+scale:0.75
+BG_B
+bounds:946,548,118,101
+rotate:90
+BG_F
+bounds:2,2,810,942
+rotate:90
+fade
+bounds:946,668,81,144
