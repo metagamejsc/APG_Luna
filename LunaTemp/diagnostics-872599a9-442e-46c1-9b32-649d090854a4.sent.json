@@ -1,12 +1,12 @@
 {
-    "BuildID": "ade6eb8f-8816-461a-9b46-0035c9b7c736",
+    "BuildID": "872599a9-442e-46c1-9b32-649d090854a4",
     "Command": "project:deploy",
     "ProjectID": "5b44dfd2230fe054ca8da1b65d37e310",
-    "ProjectStateHash": "56c7b638fa6f4cff8f134de0cc3e015848849e836c0eff29ceb034b6392efc61",
+    "ProjectStateHash": "ef04ce4ca898a5408c8b38a813fc5fd7564953a25773442edc0bd90237986f61",
     "StageCompletedAt": 3,
     "EarliestFatalError": 0,
-    "StartTime": 1788849478010,
-    "EndTime": 1788849521374,
+    "StartTime": 1788849920751,
+    "EndTime": 1788849951702,
     "PlaygroundUserID": 36785,
     "OperatingSystem": "win32",
     "UnityPackageID": null,
@@ -16,9 +16,9 @@
     "LogCount": 2,
     "Logs": [
         {
-            "LogID": "a3e4be53-e062-496c-952b-3a0b03ee1b7b",
+            "LogID": "694ccdf1-b7e6-4e89-8268-ddcb0b36e37c",
             "Order": 2,
-            "Timestamp": 1788849522306,
+            "Timestamp": 1788849952567,
             "Stage": 3,
             "ErrorType": 3,
             "ErrorCode": "LP3007",
@@ -40,9 +40,9 @@
             "Severity": 0
         },
         {
-            "LogID": "ce8a929a-7a06-449c-84d1-e7e8257e0463",
+            "LogID": "2a873036-1793-4063-b6b3-230929c9725d",
             "Order": 0,
-            "Timestamp": 1788849482763,
+            "Timestamp": 1788849925166,
             "Stage": 1,
             "ErrorType": 2,
             "ErrorCode": "LP1014",
