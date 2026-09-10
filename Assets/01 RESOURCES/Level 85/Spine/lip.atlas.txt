@@ -1,0 +1,6 @@
+lip.png
+size:284,100
+filter:Linear,Linear
+pma:true
+1boy_mouth
+bounds:2,2,277,96

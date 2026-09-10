@@ -1,0 +1,10 @@
+ghe.png
+size:728,528
+filter:Linear,Linear
+pma:true
+ghe_rung
+bounds:2,2,522,680
+rotate:90
+item_button
+bounds:684,484,40,40
+offsets:1,1,42,42
